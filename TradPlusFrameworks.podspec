@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-  spec.name         = "TradPlusFrameworks"
-  spec.version      = "4.3.2"
+  spec.name         = "TradPlusSDK"
+  spec.version      = "4.3.4"
   spec.summary      = "A short description of TradPlus SDK for iOS."
   spec.description  = <<-DESC
             TradPlus SDK 
@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "tradplus" => "service@tradplus.com" }
   spec.source       = { :git => "https://github.com/tradplus/pod_tradplus_sdk.git", :tag => spec.version }
-  spec.platform     = :ios, '8.0'
-  spec.ios.deployment_target = '8.0'
+  spec.platform     = :ios, '9.0'
+  spec.ios.deployment_target = '9.0'
   spec.requires_arc = true
   spec.frameworks = 'SystemConfiguration', 'CoreGraphics','Foundation','UIKit'
   
@@ -21,68 +21,68 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'TradPlusAds' do |ss|
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusFrameworks/TradPlusAds.framework'
-     ss.resource = 'TradPlusFrameworks/TradPlusAds.bundle'
+     ss.vendored_frameworks = 'TradPlusSDK/TradPlusAds.framework'
+     ss.resource = 'TradPlusSDK/TradPlusAds.bundle'
   end
 
   spec.subspec 'AdColonyAdapter' do |ss|
-     ss.dependency 'TradPlusFrameworks/TradPlusAds'
+     ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusFrameworks/AdColonyAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/AdColonyAdapter.framework'
   end
   
   spec.subspec 'AdMobAdapter' do |ss|
-     ss.dependency 'TradPlusFrameworks/TradPlusAds'
+     ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusFrameworks/AdMobAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/AdMobAdapter.framework'
   end
   
   spec.subspec 'AppLovinAdapter' do |ss|
-     ss.dependency 'TradPlusFrameworks/TradPlusAds'
+     ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusFrameworks/AppLovinAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/AppLovinAdapter.framework'
   end
   
   spec.subspec 'ByteDanceAdapter' do |ss|
-     ss.dependency 'TradPlusFrameworks/TradPlusAds'
+     ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusFrameworks/ByteDanceAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/ByteDanceAdapter.framework'
   end
   
   spec.subspec 'FacebookAdapter' do |ss|
-     ss.dependency 'TradPlusFrameworks/TradPlusAds'
+     ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusFrameworks/FacebookAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/FacebookAdapter.framework'
   end
   
   spec.subspec 'GDTMobAdapter' do |ss|
-     ss.dependency 'TradPlusFrameworks/TradPlusAds'
+     ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusFrameworks/GDTMobAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/GDTMobAdapter.framework'
   end
    
   spec.subspec 'IronSourceAdapter' do |ss|
-     ss.dependency 'TradPlusFrameworks/TradPlusAds'
+     ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusFrameworks/IronSourceAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/IronSourceAdapter.framework'
   end
    
   spec.subspec 'TapjoyAdapter' do |ss|
-     ss.dependency 'TradPlusFrameworks/TradPlusAds'
+     ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusFrameworks/TapjoyAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/TapjoyAdapter.framework'
   end
    
   spec.subspec 'UnityAdapter' do |ss|
-     ss.dependency 'TradPlusFrameworks/TradPlusAds'
+     ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusFrameworks/UnityAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/UnityAdapter.framework'
   end
    
   spec.subspec 'VungleAdapter' do |ss|
-     ss.dependency 'TradPlusFrameworks/TradPlusAds'
+     ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusFrameworks/VungleAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/VungleAdapter.framework'
   end
    
 end
