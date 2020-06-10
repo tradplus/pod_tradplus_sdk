@@ -15,6 +15,7 @@
 
 @property (nonatomic, readonly) MSNativeViewSizeHandler viewSizeHandler;
 
+- (void)changeRenderingViewClass:(Class)renderingViewClass;
 + (MSNativeAdRendererConfiguration *)rendererConfigurationWithRendererSettings:(id<MSNativeAdRendererSettings>)rendererSettings;
 
 @end
