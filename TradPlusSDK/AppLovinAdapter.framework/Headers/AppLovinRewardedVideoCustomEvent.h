@@ -1,6 +1,6 @@
 #import <TradPlusAds/MSRewardedVideoCustomEvent.h>
 
-// PLEASE NOTE: We have renamed this class from "AppLovinRewardedCustomEvent" to "AppLovinRewardedVideoCustomEvent", you can use either classname in your MoPub account.
+// PLEASE NOTE: We have renamed this class from "AppLovinRewardedCustomEvent" to "AppLovinRewardedVideoCustomEvent", you can use either classname in your TradPlus account.
 @interface AppLovinRewardedVideoCustomEvent : MSRewardedVideoCustomEvent
 @end
 

@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MsBannerView : UIView 
 @property (nonatomic, weak, nullable) id<MsBannerViewDelegate> delegate;
 @property (nonatomic, strong) NSString *channelName;
+@property (nonatomic, readonly) BOOL isNetWorkAdReady;
 
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)loadAd;

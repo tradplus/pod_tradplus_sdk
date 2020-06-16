@@ -1,8 +1,8 @@
 //
 //  AdColonyRewardedVideoCustomEvent.h
-//  MoPubSDK
+//  TradPlusSDK
 //
-//  Copyright (c) 2016 MoPub. All rights reserved.
+//  Copyright (c) 2016 TradPlus. All rights reserved.
 //
 
 #import <TradPlusAds/MSRewardedVideoCustomEvent.h>

@@ -1,24 +1,12 @@
-//
-//  FacebookNativeAdAdapter.h
-//  AdExpress
-//
-//  Copyright (c) 2016 MeetSocial. All rights reserved.
-//
+#import <TradPlusAds/MSNativeAdAdapter.h>
 
-#if __has_include(<MeetSocial/MeetSocial.h>)
-    #import <MeetSocial/MeetSocial.h>
-#else
-    #import <TradPlusAds/MSNativeAdAdapter.h>
-#endif
-
-@class FBNativeAd;
-
-extern NSString *const gFBVideoAdsEnabledKey;
+@class FBNativeAdBase;
 
 @interface FacebookNativeAdAdapter : NSObject <MSNativeAdAdapter>
 
 @property (nonatomic, weak) id<MSNativeAdAdapterDelegate> delegate;
-@property (nonatomic, readonly) FBNativeAd *fbNativeAd;
+@property (nonatomic, readonly) FBNativeAdBase *fbNativeAdBase;
 
-- (instancetype)initWithFBNativeAd:(FBNativeAd *)fbNativeAd adProperties:(NSDictionary *)adProps;
+- (instancetype)initWithFBNativeAdBase:(FBNativeAdBase *)fbNativeAdBase adProperties:(NSDictionary *)adProps;
+
 @end

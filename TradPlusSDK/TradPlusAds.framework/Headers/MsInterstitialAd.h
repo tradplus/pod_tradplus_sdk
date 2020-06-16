@@ -16,14 +16,17 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MsInterstitialAd : NSObject
 
 - (void)setAdUnitID:(NSString *)adUnitID;
+- (void)setAdUnitID:(NSString *)adUnitID isAutoLoad:(BOOL)isAutoLoad;
 - (void)loadAd;
 - (NSString *)getLoadDetailInfo;
 - (NSString *)getLoadDetailStatus;
 - (NSString *)getFreqInfo;
-- (void)showAdFromRootViewController:(nullable UIViewController *)rootViewController;
+- (BOOL)showAdFromRootViewController:(nullable UIViewController *)rootViewController;
 
 @property (nonatomic, weak, nullable) id<MsInterstitialAdDelegate> delegate;
+@property (nonatomic, readonly) BOOL isAdLoading;
 @property (nonatomic, readonly) BOOL isAdReady;
+@property (nonatomic, readonly) BOOL isNetWorkAdReady;
 @property (nonatomic, readonly) int readyAdCount;
 @property (nonatomic, readonly) int cacheNum;
 @property (nonatomic, strong) NSString *channelName;
@@ -37,7 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)interstitialAdShown:(MsInterstitialAd *)interstitialAd;
 - (void)interstitialAdClicked:(MsInterstitialAd *)interstitialAd;
 - (void)interstitialAdDismissed:(MsInterstitialAd *)interstitialAd;
-//for demo
+//for debug
 - (void)loadingInfoChangedI:(MsInterstitialAd *)interstitialAd;
 
 @end

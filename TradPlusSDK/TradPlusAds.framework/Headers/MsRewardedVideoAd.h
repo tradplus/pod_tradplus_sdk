@@ -17,13 +17,16 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MsRewardedVideoAd : NSObject
 
 - (void)setAdUnitID:(NSString *)adUnitID;
+- (void)setAdUnitID:(NSString *)adUnitID isAutoLoad:(BOOL)isAutoLoad;
 - (void)loadAd;
 - (NSString *)getLoadDetailInfo;
 - (NSString *)getLoadDetailStatus;
-- (void)showAdFromRootViewController:(nullable UIViewController *)rootViewController;
+- (BOOL)showAdFromRootViewController:(nullable UIViewController *)rootViewController;
 
 @property (nonatomic, weak, nullable) id<MsRewardedVideoAdDelegate> delegate;
+@property (nonatomic, readonly) BOOL isAdLoading;
 @property (nonatomic, readonly) BOOL isAdReady;
+@property (nonatomic, readonly) BOOL isNetWorkAdReady;
 @property (nonatomic, readonly) int readyAdCount;
 @property (nonatomic, readonly) int cacheNum;
 @property (nonatomic, strong) NSString *channelName;
@@ -38,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardedVideoAdClicked:(MsRewardedVideoAd *)rewardedVideoAd;
 - (void)rewardedVideoAdDismissed:(MsRewardedVideoAd *)rewardedVideoAd;
 - (void)rewardedVideoAdShouldReward:(MsRewardedVideoAd *)rewardedVideoAd reward:(MSRewardedVideoReward *)reward;
-//for demo
+//for debug
 - (void)loadingInfoChangedR:(MsRewardedVideoAd *)rewardedVideoAd;
 @end
 

@@ -1,8 +1,7 @@
 //
 //  AdColonyController.h
-//  MoPubSDK
 //
-//  Copyright (c) 2016 MoPub. All rights reserved.
+//  Copyright (c) 2016 TradPlus. All rights reserved.
 //
 
 #import "AdColonyInterstitialCustomEvent.h"

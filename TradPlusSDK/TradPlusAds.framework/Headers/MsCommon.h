@@ -14,39 +14,43 @@
 static int const kMsSDKReqTimeout = 15;
 
 
-extern NSString *gMsSDKTrackServerURL;
 extern NSString *gEventServerURL;
+extern NSString *gAdconfServerURL;
 extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKInited;
-extern BOOL gMsSDKSendLog;
+extern NSString * const gConsentStatusStorageKey;
+extern NSString * const gGDPRAppliesStorageKey;
+
 
 typedef enum
 {
     ADTYPE_BANNER,
     ADTYPE_NATIVE,
     ADTYPE_INTERSTITIAL,
-    ADTYPE_REWARDEDVIDEO
+    ADTYPE_REWARDEDVIDEO,
+    ADTYPE_OFFERWALL
 } MsADType;
 
 typedef enum
 {
-    EV_REQ_OPEN_API_START = 100,
-    EV_REQ_OPEN_API = 200,
+    EV_REQ_OPEN_API_START    = 100,
+    EV_REQ_OPEN_API          = 200,
     EV_PRE_LOAD_ADCONF_START = 300,
-    EV_PRE_LOAD_ADCONF = 400,
-    EV_LOAD_AD_START = 500,
-    EV_LOAD_AD = 600,
+    EV_PRE_LOAD_ADCONF       = 400,
+    EV_LOAD_AD_START         = 500,
+    EV_LOAD_AD               = 600,
     EV_LOAD_NETWORK_AD_START = 700,
-    EV_LOAD_NETWORK_AD = 800,
-    EV_LOAD_AD_RESULT = 810,
-    EV_IS_READY = 900,
-    EV_SHOW_AD_START = 1000,
-    EV_SHOW_AD = 1100,
-    EV_CLICK_AD = 1200,
-    EV_AD_VIDEO_START = 1300,
-    EV_AD_VIDEO_CLOSE = 1400,
+    EV_LOAD_NETWORK_AD       = 800,
+    EV_LOAD_AD_RESULT        = 810,
+    EV_NETWORK_AD_ISREADY    = 850,
+    EV_IS_READY              = 900,
+    EV_SHOW_AD_START         = 1000,
+    EV_SHOW_AD               = 1100,
+    EV_CLICK_AD              = 1200,
+    EV_AD_VIDEO_START        = 1300,
+    EV_AD_VIDEO_CLOSE        = 1400,
     //custom
-    EV_APP_CRASH = 10086
+    EV_APP_CRASH             = 10086
 } MSEventType;
 
 typedef enum
@@ -66,7 +70,9 @@ typedef enum
     NETWORK_MOBFOX,
     NETWORK_CHARTBOOST,
     NETWORK_GDTMOB,
-    NETWORK_BYTEDANCE
+    NETWORK_BYTEDANCE,
+    NETWORK_MINTEGRAL,
+    NETWORK_PANGLE
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject
@@ -76,12 +82,14 @@ typedef enum
 + (NSString *)date2str:(NSDate *)date;
 + (NSDate *)str2date:(NSString *)str;
 
++ (NSString *)localUUID;
 + (NSString *)getTimeStringForNow;
 + (NSString *)getSecondsStringForNow;
 + (NSString *)getNowStrWithFormat:(NSString *)formatStr;
 + (NSString *)getLocalFileFullPath:(NSString *)fileName;
 + (NSString *)getStrategyFullPath:(NSString *)fileName;
-+ (NSString *)channelName2Type:(NSString *)channel;
++ (NSString *)channelName2ID:(NSString *)channel;
++ (NSString *)channelID2Name:(int)channelID;
 + (NSString *)eventType2Str:(MSEventType)evid;
 + (BOOL)isMemoryLimit;
 
@@ -89,6 +97,6 @@ typedef enum
 
 + (NSString *)generateLoadSuccessInfo:(NSString *)oldInfo curChannel:(NSString *)curChannel;
 + (NSString *)generateLoadFailInfo:(NSString *)oldInfo curChannel:(NSString *)curChannel errCode:(NSInteger)errCode;
-+ (NSString *)getCustomEventClsName:(NSString *)channel adType:(MsADType)adType;
++ (NSString *)getCustomEventClsName:(int)channelID adType:(MsADType)adType;
 
 @end

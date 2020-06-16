@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MsNativeAdsLoader : NSObject
 
-@property (nonatomic, strong) Class renderingViewClass; //自定义布局时提供布局类，如果自行渲染不用设置。素材在nativeAd.property属性里
+@property (nonatomic, strong) Class defaultRenderingViewClass; //高级原生，默认的布局类
 @property (nonatomic, weak, nullable) id<MsNativeAdsLoaderDelegate> delegate;
 @property (nonatomic) BOOL isLoading;
 - (void)setAdUnitID:(NSString *)adUnitID;
@@ -23,13 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @protocol MsNativeAdsLoaderDelegate <NSObject>
-@optional
+@required
 //整个TradPlus广告位加载结束。
-- (void)nativeAdsAllLoaded:(MsNativeAdsLoader *)adsLoader isAdReady:(BOOL)isAdReady readyAds:(NSArray *)readyAds;
-//TradPlus广告位上配置的单个源加载成功
-- (void)nativeAdsLoaded:(MsNativeAdsLoader *)adsLoader;
-//TradPlus广告位上配置的单个源加载失败
-- (void)nativeAds:(MsNativeAdsLoader *)adsLoader didFailWithError:(NSError *)error;
+- (void)nativeAdsAllLoaded:(BOOL)isAdReady readyAds:(NSArray *)readyAds error:(NSError *)error;
 @end
 
 NS_ASSUME_NONNULL_END

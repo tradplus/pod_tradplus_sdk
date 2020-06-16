@@ -13,7 +13,6 @@
 @property (nonatomic, assign, readonly) BOOL loading;
 
 - (void)loadURL:(NSURL *)URL completeHandler:(void (^)(NSDictionary *dicRep, NSError *error))handler;
-- (void)loadURL:(NSURL *)URL withData:(NSDictionary *)dicData completeHandler:(void (^)(NSDictionary *dicRep, NSError *error))handler;
 - (void)cancel;
 
 @end
