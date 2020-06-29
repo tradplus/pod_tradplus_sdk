@@ -72,7 +72,9 @@ typedef enum
     NETWORK_GDTMOB,
     NETWORK_BYTEDANCE,
     NETWORK_MINTEGRAL,
-    NETWORK_PANGLE
+    NETWORK_PANGLE,
+    NETWORK_KUAISHOU,
+    NETWORK_SIGMOB
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject
@@ -88,7 +90,6 @@ typedef enum
 + (NSString *)getNowStrWithFormat:(NSString *)formatStr;
 + (NSString *)getLocalFileFullPath:(NSString *)fileName;
 + (NSString *)getStrategyFullPath:(NSString *)fileName;
-+ (NSString *)channelName2ID:(NSString *)channel;
 + (NSString *)channelID2Name:(int)channelID;
 + (NSString *)eventType2Str:(MSEventType)evid;
 + (BOOL)isMemoryLimit;
