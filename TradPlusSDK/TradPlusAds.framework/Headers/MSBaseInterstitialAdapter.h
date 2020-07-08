@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@class MSAdConfiguration, CLLocation;
+@class MSAdConfiguration;
 
 @protocol MSInterstitialAdapterDelegate;
 
@@ -53,7 +53,6 @@
 
 - (MSInterstitialAdController *)interstitialAdController;
 - (id)interstitialDelegate;
-- (CLLocation *)location;
 
 - (void)adapterDidFinishLoadingAd:(MSBaseInterstitialAdapter *)adapter;
 - (void)adapter:(MSBaseInterstitialAdapter *)adapter didFailToLoadAdWithError:(NSError *)error;

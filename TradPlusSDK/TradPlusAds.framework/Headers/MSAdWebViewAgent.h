@@ -19,7 +19,6 @@ typedef NSUInteger MSWebViewEvent;
 
 @class MSAdConfiguration;
 @class MSWebView;
-@class CLLocation;
 
 @interface MSAdWebViewAgent : NSObject <MSWebViewDelegate, MSAdDestinationDisplayAgentDelegate>
 
@@ -42,7 +41,6 @@ typedef NSUInteger MSWebViewEvent;
 @protocol MSAdWebViewAgentDelegate <NSObject>
 
 - (NSString *)adUnitId;
-- (CLLocation *)location;
 - (UIViewController *)viewControllerForPresentingModalView;
 - (void)adDidClose:(MSWebView *)ad;
 - (void)adDidFinishLoadingAd:(MSWebView *)ad;

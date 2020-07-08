@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "MSGlobal.h"
 
-@class CLLocation;
 @protocol MSAdAlertManagerDelegate;
 
 @class MSAdConfiguration;

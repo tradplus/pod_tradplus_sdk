@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreLocation/CoreLocation.h>
 
 @class MSInterstitialCustomEvent;
 
@@ -21,17 +20,6 @@
  */
 
 @protocol MSInterstitialCustomEventDelegate <NSObject>
-
-/**
- * The user's current location.
- *
- * @return This method provides the location that was passed into the parent `MSInterstitialAdController`.  The MeetSocial
- * SDK does **not** automatically request the user's location.  It is your responsibility to pass the location
- * into `MSInterstitialAdController`.
- *
- * You may use this to inform third-party ad networks of the user's location.
- */
-- (CLLocation *)location;
 
 /** @name Interstitial Ad Event Callbacks - Fetching Ads */
 

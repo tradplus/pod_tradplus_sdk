@@ -19,7 +19,6 @@
 - (id<MSAdViewDelegate>)bannerDelegate;
 - (CGSize)containerSize;
 - (NSString *)keywords;
-- (CLLocation *)location;
 - (BOOL)isTesting;
 - (UIViewController *)viewControllerForPresentingModalView;
 

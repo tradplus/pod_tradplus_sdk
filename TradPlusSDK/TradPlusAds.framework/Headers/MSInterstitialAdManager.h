@@ -8,7 +8,6 @@
 #import "MSAdServerCommunicator.h"
 #import "MSBaseInterstitialAdapter.h"
 
-@class CLLocation;
 @protocol MSInterstitialAdManagerDelegate;
 
 @interface MSInterstitialAdManager : NSObject <MSAdServerCommunicatorDelegate,
@@ -21,7 +20,6 @@
 
 - (void)loadInterstitialWithAdUnitID:(NSString *)ID
                             keywords:(NSString *)keywords
-                            location:(CLLocation *)location
                              testing:(BOOL)testing;
 - (void)loadInterstitialWithURL:(NSURL *)url;
 - (void)presentInterstitialFromViewController:(UIViewController *)controller;

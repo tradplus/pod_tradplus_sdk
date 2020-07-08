@@ -8,7 +8,6 @@
 #import "MSRewardedVideoCustomEvent.h"
 
 @class MSAdConfiguration;
-@class CLLocation;
 
 @protocol MSPrivateRewardedVideoCustomEventDelegate <MSRewardedVideoCustomEventDelegate>
 

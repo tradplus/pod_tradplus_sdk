@@ -6,8 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreLocation/CoreLocation.h>
-
 @protocol MSInterstitialAdControllerDelegate;
 
 /**
@@ -65,11 +63,6 @@
  */
 @property (nonatomic, copy) NSString *keywords;
 
-/**
- * A `CLLocation` object representing a user's location that should be passed to the MeetSocial ad server
- * to receive more relevant advertising.
- */
-@property (nonatomic, copy) CLLocation *location;
 
 /** @name Enabling Test Mode */
 

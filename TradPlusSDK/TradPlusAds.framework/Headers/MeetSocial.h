@@ -56,7 +56,6 @@
 // Import these frameworks for module support.
 #import <AdSupport/AdSupport.h>
 #import <CoreGraphics/CoreGraphics.h>
-#import <CoreLocation/CoreLocation.h>
 #import <CoreMedia/CoreMedia.h>
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>
 #import <Foundation/Foundation.h>

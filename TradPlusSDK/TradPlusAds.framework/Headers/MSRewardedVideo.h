@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @class MSRewardedVideoReward;
-@class CLLocation;
 @protocol MSRewardedVideoDelegate;
 
 /**
@@ -54,7 +53,7 @@
  * @param mediationSettings An array of mediation settings objects that map to networks that may show ads for the ad unit ID. This array
  * should only contain objects for networks you wish to configure. This can be nil.
  */
-+ (void)loadRewardedVideoAdWithAdUnitID:(NSString *)adUnitID keywords:(NSString *)keywords location:(CLLocation *)location mediationSettings:(NSArray *)mediationSettings;
++ (void)loadRewardedVideoAdWithAdUnitID:(NSString *)adUnitID keywords:(NSString *)keywords mediationSettings:(NSArray *)mediationSettings;
 
 /**
  * Loads a rewarded video ad for the given ad unit ID.
@@ -72,9 +71,9 @@
  * @param mediationSettings An array of mediation settings objects that map to networks that may show ads for the ad unit ID. This array
  * should only contain objects for networks you wish to configure. This can be nil.
  */
-+ (void)loadRewardedVideoAdWithAdUnitID:(NSString *)adUnitID keywords:(NSString *)keywords location:(CLLocation *)location customerId:(NSString *)customerId mediationSettings:(NSArray *)mediationSettings;
++ (void)loadRewardedVideoAdWithAdUnitID:(NSString *)adUnitID keywords:(NSString *)keywords customerId:(NSString *)customerId mediationSettings:(NSArray *)mediationSettings;
 
-+ (void)loadRewardedVideoAdWithAdUnitID:(NSString *)adUnitID keywords:(NSString *)keywords location:(CLLocation *)location customerId:(NSString *)customerId mediationSettings:(NSArray *)mediationSettings config:(NSDictionary *)dicConfig;
++ (void)loadRewardedVideoAdWithAdUnitID:(NSString *)adUnitID keywords:(NSString *)keywords customerId:(NSString *)customerId mediationSettings:(NSArray *)mediationSettings config:(NSDictionary *)dicConfig;
 
 /**
  * Returns whether or not an ad is available for the given ad unit ID.

@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @class MSRewardedVideoReward;
-@class CLLocation;
 @protocol MSRewardedVideoAdManagerDelegate;
 
 /**
@@ -45,7 +44,7 @@
  *
  * However, if an ad has been played for the last time a load was issued and load is called again, the method will request a new ad.
  */
-- (void)loadRewardedVideoAdWithKeywords:(NSString *)keywords location:(CLLocation *)location customerId:(NSString *)customerId;
+- (void)loadRewardedVideoAdWithKeywords:(NSString *)keywords customerId:(NSString *)customerId;
 
 /**
  * Tells the caller whether the underlying ad network currently has an ad available for presentation.

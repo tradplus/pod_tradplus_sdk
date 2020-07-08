@@ -100,4 +100,5 @@ typedef enum
 + (NSString *)generateLoadFailInfo:(NSString *)oldInfo curChannel:(NSString *)curChannel errCode:(NSInteger)errCode;
 + (NSString *)getCustomEventClsName:(int)channelID adType:(MsADType)adType;
 
++ (NSString *)handleAdUnitId:(NSString *)adUnitId;
 @end

@@ -9,7 +9,6 @@
 #import "MSInterstitialCustomEventDelegate.h"
 
 @class MSAdConfiguration;
-@class CLLocation;
 
 @protocol MSPrivateInterstitialCustomEventDelegate <MSInterstitialCustomEventDelegate>
 

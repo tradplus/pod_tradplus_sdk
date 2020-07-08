@@ -30,6 +30,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) int readyAdCount;
 @property (nonatomic, readonly) int cacheNum;
 @property (nonatomic, strong) NSString *channelName;
+@property (nonatomic, strong) NSString *adSourcePlacementId;
+@property (nonatomic) int adLoadedTime;  //millisecond
+@property (nonatomic, strong) NSString *iso;  //country code
+@property (nonatomic) bool isFinishPlayVideo;
 @end
 
 @protocol MsRewardedVideoAdDelegate <NSObject>

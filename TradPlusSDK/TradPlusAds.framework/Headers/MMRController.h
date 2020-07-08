@@ -12,8 +12,6 @@
 
 @protocol MMRControllerDelegate;
 @class MSAdConfiguration;
-@class CLLocation;
-
 /**
  * The `MMRController` class is used to load and interact with MMRAID ads.
  * It contains two MMRAID ad views and uses a separate `MMRBridge` to
@@ -45,7 +43,6 @@
 
 - (NSString *)adUnitId;
 - (MSAdConfiguration *)adConfiguration;
-- (CLLocation *)location;
 
 // Retrieves the view controller from which modal views should be presented.
 - (UIViewController *)viewControllerForPresentingModalView;

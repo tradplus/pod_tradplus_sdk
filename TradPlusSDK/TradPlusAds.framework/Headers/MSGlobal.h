@@ -100,13 +100,12 @@ typedef NSUInteger MSInterstitialOrientationType;
 // Optional Class Forward Def Protocols
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-@class MSAdConfiguration, CLLocation;
+@class MSAdConfiguration;
 
 @protocol MSAdAlertManagerProtocol <NSObject>
 
 @property (nonatomic, strong) MSAdConfiguration *adConfiguration;
 @property (nonatomic, copy) NSString *adUnitId;
-@property (nonatomic, copy) CLLocation *location;
 @property (nonatomic, weak) UIView *targetAdView;
 @property (nonatomic, weak) id delegate;
 

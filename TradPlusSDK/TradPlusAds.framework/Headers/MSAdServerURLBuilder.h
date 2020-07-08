@@ -6,18 +6,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreLocation/CoreLocation.h>
 
 @interface MSAdServerURLBuilder : NSObject
 
 + (NSURL *)URLWithAdUnitID:(NSString *)adUnitID
                   keywords:(NSString *)keywords
-                  location:(CLLocation *)location
                    testing:(BOOL)testing;
 
 + (NSURL *)URLWithAdUnitID:(NSString *)adUnitID
                   keywords:(NSString *)keywords
-                  location:(CLLocation *)location
       versionParameterName:(NSString *)versionParameterName
                    version:(NSString *)version
                    testing:(BOOL)testing
@@ -25,7 +22,6 @@
 
 + (NSURL *)URLWithAdUnitID:(NSString *)adUnitID
                   keywords:(NSString *)keywords
-                  location:(CLLocation *)location
       versionParameterName:(NSString *)versionParameterName
                    version:(NSString *)version
                    testing:(BOOL)testing

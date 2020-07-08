@@ -8,8 +8,6 @@
 #import <UIKit/UIKit.h>
 #import "MSGlobal.h"
 
-@class CLLocation;
-
 @protocol MSInterstitialViewControllerDelegate;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -47,7 +45,6 @@
 - (void)interstitialWillLeaveApplication:(MSInterstitialViewController *)interstitial;
 
 @optional
-- (CLLocation *)location;
 - (void)interstitialRewardedVideoEnded;
 
 @end

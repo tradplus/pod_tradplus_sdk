@@ -9,12 +9,10 @@
 
 @class MSInterstitialAdManager;
 @class MSInterstitialAdController;
-@class CLLocation;
 
 @protocol MSInterstitialAdManagerDelegate <NSObject>
 
 - (MSInterstitialAdController *)interstitialAdController;
-- (CLLocation *)location;
 - (id)interstitialDelegate;
 - (void)managerDidLoadInterstitial:(MSInterstitialAdManager *)manager;
 - (void)manager:(MSInterstitialAdManager *)manager

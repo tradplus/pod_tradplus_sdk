@@ -59,8 +59,6 @@
 - (id<MSAdViewDelegate>)bannerDelegate;
 - (UIViewController *)viewControllerForPresentingModalView;
 - (MSNativeAdOrientation)allowedNativeAdsOrientation;
-- (CLLocation *)location;
-
 /*
  * These callbacks notify you that the adapter (un)successfully loaded an ad.
  */

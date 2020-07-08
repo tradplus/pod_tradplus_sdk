@@ -25,8 +25,6 @@
 @class MSAnalyticsTracker;
 @class MSReachability;
 @class MSTimer;
-@class MSGeolocationProvider;
-@class CLLocationManager;
 @class MSLogEventRecorder;
 @class MSNetworkManager;
 
@@ -49,8 +47,6 @@ typedef id(^MSSingletonProviderBlock)();
 
 #pragma mark - Utilities
 - (UIDevice *)sharedCurrentDevice;
-- (MSGeolocationProvider *)sharedMPGeolocationProvider;
-- (CLLocationManager *)buildCLLocationManager;
 - (id<MSAdAlertManagerProtocol>)buildMPAdAlertManagerWithDelegate:(id)delegate;
 - (MSAdAlertGestureRecognizer *)buildMPAdAlertGestureRecognizerWithTarget:(id)target action:(SEL)action;
 - (NSOperationQueue *)sharedOperationQueue;

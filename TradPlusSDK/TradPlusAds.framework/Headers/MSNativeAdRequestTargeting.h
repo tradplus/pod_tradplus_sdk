@@ -5,8 +5,6 @@
 
 #import <Foundation/Foundation.h>
 
-@class CLLocation;
-
 /**
  * The `MSNativeAdRequestTargeting` class is used to attach targeting information to
  * `MSNativeAdRequest` objects.
@@ -36,12 +34,6 @@
  * section when managing campaigns.
  */
 @property (nonatomic, copy) NSString *keywords;
-
-/**
- * A `CLLocation` object representing a user's location that should be passed to the MeetSocial ad server
- * to receive more relevant advertising.
- */
-@property (nonatomic, copy) CLLocation *location;
 
 /**
  * A set of defined strings that correspond to assets for the intended native ad
