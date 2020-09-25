@@ -23,9 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @protocol MsSplashViewDelegate <NSObject>
-@required
-//如果返回的是UINavigationController类型的Controller，快手的开屏会无法展示。
-- (UIViewController *)viewControllerForPresentingModalView;
 @optional
 - (void)MsSplashViewLoaded:(MsSplashView *)adView;
 - (void)MsSplashView:(MsSplashView *)adView didFailWithError:(NSError *)error;

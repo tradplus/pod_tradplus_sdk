@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly) BOOL isAdReadyWithDirection; //filter ad by screen direction.
 @property (nonatomic, readonly) BOOL isNetWorkAdReady;
-@property (nonatomic) BOOL isPangleTemplateRender; //头条优量汇广告位是否开启模版渲染，默认为YES。
+@property (nonatomic) BOOL isPangleTemplateRender; //头条优量汇广告位是否开始模版渲染，默认为YES。
 @property (nonatomic, readonly) int readyAdCount;
 @property (nonatomic, readonly) int cacheNum;
 @property (nonatomic, strong) NSString *channelName;          //渠道名
@@ -46,11 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardedVideoAdShown:(MsRewardedVideoAd *)rewardedVideoAd;
 - (void)rewardedVideoAdClicked:(MsRewardedVideoAd *)rewardedVideoAd;
 - (void)rewardedVideoAdDismissed:(MsRewardedVideoAd *)rewardedVideoAd;
-//have reward
 - (void)rewardedVideoAdShouldReward:(MsRewardedVideoAd *)rewardedVideoAd reward:(MSRewardedVideoReward *)reward;
-//no reward
-- (void)rewardedVideoAdShouldNotReward:(MsRewardedVideoAd *)rewardedVideoAd;
-
 //for debug
 - (void)loadingInfoChangedR:(MsRewardedVideoAd *)rewardedVideoAd;
 @end

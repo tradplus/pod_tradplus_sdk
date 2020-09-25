@@ -10,7 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id<MsNativeAdsDelegate> delegate;
 @property (nonatomic) BOOL isLoading;
 - (void)setAdUnitID:(NSString *)adUnitID;
-- (void)loadAds; 
+- (void)loadAds;
 
 @end
 

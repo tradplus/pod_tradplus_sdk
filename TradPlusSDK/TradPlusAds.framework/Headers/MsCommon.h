@@ -20,7 +20,6 @@ extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKInited;
 extern NSString * const gConsentStatusStorageKey;
 extern NSString * const gGDPRAppliesStorageKey;
-extern NSString * const gEventServerDefaultURL;
 
 
 typedef enum

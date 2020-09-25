@@ -18,7 +18,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (MsEvent *)sharedInstance;
 
 - (void)uploadEvent:(MSEventType)evid info:(NSDictionary * _Nullable)info;
-- (void)uploadEvent:(MSEventType)evid info:(NSDictionary * _Nullable)info level:(int)level;
 @end
 
 NS_ASSUME_NONNULL_END
