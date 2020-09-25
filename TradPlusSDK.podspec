@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusSDK"
-  spec.version      = "4.6.2"
+  spec.version      = "4.6.6.2"
   spec.summary      = "A short description of TradPlus SDK for iOS."
   spec.description  = <<-DESC
             TradPlus SDK 
