@@ -22,6 +22,7 @@
 
 // Utilities
 @class MSAdAlertManager, MSAdAlertGestureRecognizer;
+@class MSAnalyticsTracker;
 @class MSReachability;
 @class MSTimer;
 @class MSLogEventRecorder;
@@ -49,6 +50,7 @@ typedef id(^MSSingletonProviderBlock)();
 - (id<MSAdAlertManagerProtocol>)buildMPAdAlertManagerWithDelegate:(id)delegate;
 - (MSAdAlertGestureRecognizer *)buildMPAdAlertGestureRecognizerWithTarget:(id)target action:(SEL)action;
 - (NSOperationQueue *)sharedOperationQueue;
+- (MSAnalyticsTracker *)sharedMPAnalyticsTracker;
 - (MSReachability *)sharedMPReachability;
 - (MSLogEventRecorder *)sharedLogEventRecorder;
 - (MSNetworkManager *)sharedNetworkManager;

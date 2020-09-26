@@ -102,5 +102,4 @@ typedef enum
 + (NSString *)getCustomEventClsName:(int)channelID adType:(MsADType)adType;
 
 + (NSString *)handleAdUnitId:(NSString *)adUnitId;
-+ (BOOL)isScreenPortrait;
 @end
