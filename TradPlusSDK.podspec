@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'AdcolonyAdapter' do |ss|
      ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusSDK/Adcolony.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/AdcolonyAdapter.framework'
   end
    
   spec.subspec 'ApplovinAdapter' do |ss|
