@@ -20,6 +20,7 @@ extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKInited;
 extern NSString * const gConsentStatusStorageKey;
 extern NSString * const gGDPRAppliesStorageKey;
+extern NSString * const gEventServerDefaultURL;
 
 
 typedef enum
@@ -102,4 +103,5 @@ typedef enum
 + (NSString *)getCustomEventClsName:(int)channelID adType:(MsADType)adType;
 
 + (NSString *)handleAdUnitId:(NSString *)adUnitId;
++ (BOOL)isScreenPortrait;
 @end
