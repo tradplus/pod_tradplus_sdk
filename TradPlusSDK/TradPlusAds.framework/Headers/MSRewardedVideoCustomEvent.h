@@ -299,4 +299,8 @@
  */
 - (void)trackClick;
 
+/**
+ *  Head Bidding return bid info.
+ */
+- (void)rewardedVideoDidLoadWinningBidWithInfoForCustomEvent:(MSRewardedVideoCustomEvent *)customEvent bidInfo:(NSDictionary*)bidInfo;
 @end

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusSDK"
-  spec.version      = "4.6.7.1"
+  spec.version      = "5.0.1"
   spec.summary      = "A short description of TradPlus SDK for iOS."
   spec.description  = <<-DESC
             TradPlus SDK 
@@ -107,7 +107,31 @@ Pod::Spec.new do |spec|
      ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
      ss.vendored_frameworks = 'TradPlusSDK/YouDaoAdapter.framework'
-  end
+  end   
    
+  spec.subspec 'InMobiAdapter' do |ss|
+     ss.dependency 'TradPlusSDK/TradPlusAds'
+     ss.ios.deployment_target = '9.0'
+     ss.vendored_frameworks = 'TradPlusSDK/InMobiAdapter.framework'
+  end   
    
+  spec.subspec 'StartAppAdapter' do |ss|
+     ss.dependency 'TradPlusSDK/TradPlusAds'
+     ss.ios.deployment_target = '9.0'
+     ss.vendored_frameworks = 'TradPlusSDK/StartAppAdapter.framework'
+  end   
+   
+  spec.subspec 'HeliumAdapter' do |ss|
+     ss.dependency 'TradPlusSDK/TradPlusAds'
+     ss.ios.deployment_target = '9.0'
+     ss.vendored_frameworks = 'TradPlusSDK/HeliumAdapter.framework'
+  end   
+   
+  spec.subspec 'MintegralAdapter' do |ss|
+     ss.dependency 'TradPlusSDK/TradPlusAds'
+     ss.ios.deployment_target = '9.0'
+     ss.vendored_frameworks = 'TradPlusSDK/MintegralAdapter.framework'
+  end   
+   
+
 end

@@ -79,5 +79,6 @@
 - (void)rewardedVideoDidReceiveTapEventForAdManager:(MSRewardedVideoAdManager *)manager;
 - (void)rewardedVideoWillLeaveApplicationForAdManager:(MSRewardedVideoAdManager *)manager;
 - (void)rewardedVideoShouldRewardUserForAdManager:(MSRewardedVideoAdManager *)manager reward:(MSRewardedVideoReward *)reward;
+- (void)rewardedVideoDidLoadWinningBidWithInfoForAdManager:(MSRewardedVideoAdManager *)manager bidInfo:(NSDictionary*)bidInfo;
 
 @end

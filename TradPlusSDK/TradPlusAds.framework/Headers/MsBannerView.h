@@ -16,7 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MsBannerView : UIView 
 @property (nonatomic, weak, nullable) id<MsBannerViewDelegate> delegate;
 @property (nonatomic, strong) NSString *channelName;
-@property (nonatomic, readonly) BOOL isNetWorkAdReady;
 //相关回调时可以访问到的具体渠道信息。
 @property (nonatomic, strong) NSMutableDictionary *dicChannelInfo;
 

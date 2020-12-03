@@ -45,6 +45,7 @@
  * return nil if it cannot render the ad data to a view.
  */
 - (UIView *)retrieveAdViewWithError:(NSError **)error;
+- (UIView *)retrieveYDAdViewWithError:(NSError **)error;
 - (UIView *)retrieveAdViewWithError:(Class)renderingViewClass error:(NSError **)error;
 
 - (void)trackMetricForURL:(NSURL *)URL;

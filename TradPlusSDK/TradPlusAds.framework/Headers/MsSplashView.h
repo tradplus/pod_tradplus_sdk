@@ -15,20 +15,22 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MsSplashView : UIView
 @property (nonatomic, weak, nullable) id<MsSplashViewDelegate> delegate;
 @property (nonatomic, strong) NSString *channelName;
-@property (nonatomic, readonly) BOOL isNetWorkAdReady;
+@property (nonatomic) BOOL isAdReady;
+@property (nonatomic, assign) NSTimeInterval adTimeoutInterval; //default 3s
 
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)loadAd;
+- (void)showAdInKeyWindow:(UIWindow *)window;
+
 - (NSString *)getLoadDetailInfo;
 @end
 
 @protocol MsSplashViewDelegate <NSObject>
-@required
-//如果返回的是UINavigationController类型的Controller，快手的开屏会无法展示。
-- (UIViewController *)viewControllerForPresentingModalView;
 @optional
 - (void)MsSplashViewLoaded:(MsSplashView *)adView;
 - (void)MsSplashView:(MsSplashView *)adView didFailWithError:(NSError *)error;
 - (void)MsSplashViewClicked:(MsSplashView *)adView;
+- (void)MsSplashViewShown:(MsSplashView *)adView;
+- (void)MsSplashViewDismissed:(MsSplashView *)adView;
 @end
 NS_ASSUME_NONNULL_END

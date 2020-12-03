@@ -119,4 +119,6 @@
  */
 - (void)trackClick;
 
+- (void)splashAdShown:(MSBannerCustomEvent *)event;
+//- (void)splashAdDismissed:(MSBannerCustomEvent *)event;
 @end

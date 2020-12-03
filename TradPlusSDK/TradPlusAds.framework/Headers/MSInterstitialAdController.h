@@ -242,4 +242,6 @@
  */
 - (void)interstitialDidReceiveTapEvent:(MSInterstitialAdController *)interstitial;
 
+- (void)interstitialDidLoadWinningBidWithInfo:(MSInterstitialAdController *)interstitial bidInfo:(NSDictionary *)bidInfo;
+
 @end

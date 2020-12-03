@@ -13,4 +13,5 @@
 
 @interface MSBannerCustomEventAdapter : MSBaseBannerAdapter <MSPrivateBannerCustomEventDelegate>
 
+- (void)showAd:(UIWindow *)window;
 @end

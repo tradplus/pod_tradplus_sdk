@@ -180,4 +180,5 @@
  */
 - (void)rewardedVideoAdShouldRewardForAdUnitID:(NSString *)adUnitID reward:(MSRewardedVideoReward *)reward;
 
+- (void)rewardedVideoDidLoadWinningBidWithInfoForAdUnitID:(NSString *)adUnitID bidInfo:(NSDictionary *)bidInfo;
 @end

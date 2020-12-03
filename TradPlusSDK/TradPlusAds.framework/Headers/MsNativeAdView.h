@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id<MsNativeAdViewDelegate> delegate;
 @property (nonatomic, strong) Class renderingViewClass; //高级原生，自定义布局时提供布局类
 @property (nonatomic, strong) NSString *channelName;
-@property (nonatomic, readonly) BOOL isNetWorkAdReady;
+//@property (nonatomic, readonly) BOOL isNetWorkAdReady;
 //相关回调时可以访问到的具体渠道信息。
 @property (nonatomic, strong) NSMutableDictionary *dicChannelInfo;
 

@@ -69,6 +69,7 @@
 - (void)rewardedVideoDidReceiveTapEventForAdapter:(MSRewardedVideoAdapter *)adapter;
 - (void)rewardedVideoWillLeaveApplicationForAdapter:(MSRewardedVideoAdapter *)adapter;
 - (void)rewardedVideoShouldRewardUserForAdapter:(MSRewardedVideoAdapter *)adapter reward:(MSRewardedVideoReward *)reward;
+- (void)rewardedVideoDidLoadWinningBidWithInfoForAdapter:(MSRewardedVideoAdapter *)adapter bidInfo:(NSDictionary*)bidInfo;
 
 @optional
 - (NSString *)rewardedVideoAdUnitId;

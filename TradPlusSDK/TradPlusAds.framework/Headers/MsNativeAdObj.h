@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadAd:(NSDictionary *)dicStrategy;
 
 @property (nonatomic, strong) Class RenderingViewClass; //高级原生，默认的布局类
+@property (nonatomic, strong) Class YDRenderingViewClass; //有道专用
 @property (nonatomic, weak, nullable) id<MsNativeAdObjDelegate> delegate;
 @property (nonatomic, strong) NSString *channelName;
 @property (nonatomic, copy) NSString *placementID;

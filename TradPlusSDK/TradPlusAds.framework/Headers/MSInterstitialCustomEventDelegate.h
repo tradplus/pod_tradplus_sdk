@@ -168,4 +168,6 @@
  */
 - (void)trackClick;
 
+- (void)interstitialCustomEventDidLoadWinningBidWithInfo:(MSInterstitialCustomEvent *)customEvent bidInfo:(NSDictionary *)bidInfo;
+
 @end

@@ -63,5 +63,6 @@
 - (void)interstitialDidExpireForAdapter:(MSBaseInterstitialAdapter *)adapter;
 - (void)interstitialDidReceiveTapEventForAdapter:(MSBaseInterstitialAdapter *)adapter;
 - (void)interstitialWillLeaveApplicationForAdapter:(MSBaseInterstitialAdapter *)adapter;
+- (void)interstitialDidLoadWinningBidWithInfoForAdapter:(MSBaseInterstitialAdapter *)adapter bidInfo:(NSDictionary *)bidInfo;
 
 @end

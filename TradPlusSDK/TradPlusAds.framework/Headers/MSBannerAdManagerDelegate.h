@@ -30,5 +30,6 @@
 - (void)userActionWillBegin;
 - (void)userActionDidFinish;
 - (void)userWillLeaveApplication;
+- (void)managerSplashAdShown;
 
 @end

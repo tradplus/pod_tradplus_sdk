@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MsNativeAdsLoader : NSObject
 
 @property (nonatomic, strong) Class defaultRenderingViewClass; //高级原生，默认的布局类
+@property (nonatomic, strong) Class YDRenderingViewClass; //有道专用 布局类
 @property (nonatomic, weak, nullable) id<MsNativeAdsLoaderDelegate> delegate;
 @property (nonatomic) BOOL isLoading;
 - (void)setAdUnitID:(NSString *)adUnitID;

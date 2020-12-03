@@ -18,8 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id<MsInterstitialAdDelegate> delegate;
 @property (nonatomic, readonly) BOOL isAdLoading;
 @property (nonatomic, readonly) BOOL isAdReady;
-@property (nonatomic, readonly) BOOL isNetWorkAdReady;
-@property (nonatomic) BOOL isPangleTemplateRender; //头条优量汇广告位是否开始模版渲染，默认为YES。
+@property (nonatomic, readonly) BOOL isNetWorkAdReady __deprecated;
+//头条优量汇广告位是否开启模版渲染，默认为YES。**v4.8.1开始 在TradPlus后台设置
+@property (nonatomic) BOOL isPangleTemplateRender __deprecated;
 @property (nonatomic, readonly) int readyAdCount;
 @property (nonatomic, readonly) int cacheNum;
 @property (nonatomic, strong) NSString *channelName;
@@ -33,7 +34,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)getLoadDetailStatus;
 - (NSString *)getFreqInfo;
 - (BOOL)showAdFromRootViewController:(nullable UIViewController *)rootViewController;
+- (BOOL)showAdFromRootViewController:(nullable UIViewController *)rootViewController sceneId:(nullable NSString *)sceneId;
 
+//850埋点 用于统计广告展示前的广告ready比率
+- (void)entryAdScenario;
+- (void)entryAdScenario:(nullable NSString *)sceneId; //后台设置了广告场景 参数为场景ID
 @end
 
 @protocol MsInterstitialAdDelegate <NSObject>

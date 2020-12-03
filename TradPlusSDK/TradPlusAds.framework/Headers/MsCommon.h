@@ -1,6 +1,5 @@
 //
 //  MsCommon.h
-//  TradPlusDemo
 //
 //  Created by ms-mac on 2016/12/1.
 //  Copyright © 2016年 TradPlus. All rights reserved.
@@ -9,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-//static NSString * const kAdServerURL = @"https://xf.adserver.adexpress.com";
-//static NSString * const kTrackServerURL = @"https://xf.tracking.adexpress.com";
 static int const kMsSDKReqTimeout = 15;
 
 
@@ -18,6 +15,11 @@ extern NSString *gEventServerURL;
 extern NSString *gAdconfServerURL;
 extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKInited;
+extern BOOL gMsSDKAllowWrite;
+extern BOOL gMsSDKAuthUID;
+extern int gMsEventInterval;
+extern int gMsCCPA;
+extern int gMsCOPPAChild;
 extern NSString * const gConsentStatusStorageKey;
 extern NSString * const gGDPRAppliesStorageKey;
 extern NSString * const gEventServerDefaultURL;
@@ -52,7 +54,8 @@ typedef enum
     EV_AD_VIDEO_START        = 1300,
     EV_AD_VIDEO_CLOSE        = 1400,
     //custom
-    EV_APP_CRASH             = 10086
+    EV_APP_CRASH             = 10000,
+    EV_LOAD_AD_SKIP          = 10600
 } MSEventType;
 
 typedef enum
@@ -64,10 +67,10 @@ typedef enum
     NETWORK_UNITYADS,
     NETWORK_TAPJOY,
     NETWORK_VUNGLE,
-    NETWORK_APPLOVIN = 9,
+    NETWORK_APPLOVIN  = 9,
     NETWORK_IRONSOURCE,
-    NETWORK_INMOBI,
-    NETWORK_SMAATO,
+//    NETWORK_INMOBI,
+    NETWORK_SMAATO   = 12,
     NETWORK_ADEXPRESS,
     NETWORK_MOBFOX,
     NETWORK_CHARTBOOST,
@@ -76,7 +79,11 @@ typedef enum
     NETWORK_MINTEGRAL,
     NETWORK_PANGLE,
     NETWORK_KUAISHOU,
-    NETWORK_SIGMOB
+    NETWORK_SIGMOB,
+    NETWORK_INMOBI   = 23,
+    NETWORK_YOUDAO   = 25,     //有道
+    NETWORK_STARTAPP = 28,
+    NETWORK_HELIUM   = 30      
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject

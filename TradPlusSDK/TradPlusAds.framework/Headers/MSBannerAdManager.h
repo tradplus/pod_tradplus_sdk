@@ -18,6 +18,8 @@
 - (id)initWithDelegate:(id<MSBannerAdManagerDelegate>)delegate;
 
 - (void)loadAd;
+- (void)loadAdWithTimeoutInterval:(NSTimeInterval)interval;
+- (void)showAd:(UIWindow *)window;
 - (void)loadTradPlusAdWithURL:(NSURL *)URL;
 - (void)forceRefreshAd;
 - (void)stopAutomaticallyRefreshingContents;

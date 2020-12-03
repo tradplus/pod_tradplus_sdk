@@ -1,6 +1,5 @@
 //
 //  MSConstants.h
-//  AdExpress
 //
 //  Copyright 2016 MeetSocial, Inc. All rights reserved.
 //
@@ -14,7 +13,7 @@
 #define DEFAULT_PUB_ID              @"agltb3B1Yi1pbmNyDAsSBFNpdGUYkaoMDA"
 #define MS_SERVER_VERSION           @"8"
 #define MS_BUNDLE_IDENTIFIER        @"com.meetsocial.meetsocial"
-#define MS_SDK_VERSION              @"4.6.7.1"
+#define MS_SDK_VERSION              @"5.0.1"
 
 // Sizing constants.
 extern CGSize const MeetSocial_BANNER_SIZE;

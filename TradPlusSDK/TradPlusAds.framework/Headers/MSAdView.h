@@ -88,6 +88,8 @@ typedef enum
  * if you would like cancel any existing ad requests and force a new ad to load.
  */
 - (void)loadAd;
+- (void)loadAdWithTimeoutInterval:(NSTimeInterval)interval;
+- (void)showAd:(UIWindow *)window;
 - (void)loadTradPlusAdWithURL:(NSURL *)URL;
 
 /**
@@ -286,5 +288,5 @@ typedef enum
  * @param view The ad view sending the message.
  */
 - (void)willLeaveApplicationFromAd:(MSAdView *)view;
-
+- (void)splashAdShown;
 @end

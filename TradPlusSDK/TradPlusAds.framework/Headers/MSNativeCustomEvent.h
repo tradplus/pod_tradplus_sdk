@@ -38,6 +38,7 @@
  * information, such as publisher IDs.
  */
 - (void)requestAdWithCustomEventInfo:(NSDictionary *)info;
+- (void)requestAdWithCustomEventInfo:(NSDictionary *)info renderViewClass:(Class)renderViewClass;
 
 /** @name Caching Image Resources */
 
