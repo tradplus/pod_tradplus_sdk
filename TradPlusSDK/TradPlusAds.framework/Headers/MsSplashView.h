@@ -20,14 +20,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)loadAd;
-- (void)showAdInKeyWindow:(UIWindow *)window;
+//部分渠道 不支持customView 和skipView 将自动忽略这两个参数
+- (void)showAdInKeyWindow:(UIWindow *)window customView:(nullable UIView *)customView skipView:(nullable UIView *)skipView;
 
 - (NSString *)getLoadDetailInfo;
 @end
 
 @protocol MsSplashViewDelegate <NSObject>
 @optional
-- (void)MsSplashViewLoaded:(MsSplashView *)adView;
+- (void)MsSplashViewLoaded:(MsSplashView *)adView splashAd:(UIView *)splashAd;
 - (void)MsSplashView:(MsSplashView *)adView didFailWithError:(NSError *)error;
 - (void)MsSplashViewClicked:(MsSplashView *)adView;
 - (void)MsSplashViewShown:(MsSplashView *)adView;

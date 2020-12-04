@@ -19,7 +19,7 @@
 
 - (void)loadAd;
 - (void)loadAdWithTimeoutInterval:(NSTimeInterval)interval;
-- (void)showAd:(UIWindow *)window;
+- (void)showAdInKeyWindow:(UIWindow *)window customView:(nullable UIView *)customView skipView:(nullable UIView *)skipView;
 - (void)loadTradPlusAdWithURL:(NSURL *)URL;
 - (void)forceRefreshAd;
 - (void)stopAutomaticallyRefreshingContents;
