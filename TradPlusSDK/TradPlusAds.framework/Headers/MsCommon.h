@@ -10,7 +10,6 @@
 
 static int const kMsSDKReqTimeout = 15;
 
-
 extern NSString *gEventServerURL;
 extern NSString *gAdconfServerURL;
 extern BOOL gMsSDKDebugMode;
@@ -45,6 +44,7 @@ typedef enum
     EV_LOAD_AD               = 600,
     EV_LOAD_NETWORK_AD_START = 700,
     EV_LOAD_NETWORK_AD       = 800,
+    EV_LOAD_FIRST_NETWORK_AD = 805,
     EV_LOAD_AD_RESULT        = 810,
     EV_NETWORK_AD_ISREADY    = 850,
     EV_IS_READY              = 900,
@@ -53,6 +53,7 @@ typedef enum
     EV_CLICK_AD              = 1200,
     EV_AD_VIDEO_START        = 1300,
     EV_AD_VIDEO_CLOSE        = 1400,
+    EV_AD_VIDEO_REWARD       = 1500,
     //custom
     EV_APP_CRASH             = 10000,
     EV_LOAD_AD_SKIP          = 10600

@@ -22,12 +22,22 @@
 + (NSString *)localTimeZone;
 + (NSString *)localISO;
 + (NSString *)getCarrierName;
-+ (NSString *) deviceBrand;
-+ (NSString *) getMNC;
-+ (NSString *) getMCC;
++ (NSString *)deviceBrand;
++ (NSString *)getMNC;
++ (NSString *)getMCC;
 + (NSString *)getCurrentLanguage;
 + (NSString *)resolution;
-+ (NSString *)connectionType;
-+ (NSInteger)netConnectType;
+
+//流量分组
++ (NSString *)app_ver;
++ (NSString *)app_instime; //install time
+////v adconf; V event; sdk version.
+//+ (NSString *)device_idfa; ->idfa
++ (NSString *)device_idfv;
+//+ (NSString *)device_osv; ->osVersion
++ (NSString *)device_type; //iphone,ipad
++ (NSString *)device_make; //manufacturer "Apple"
++ (NSString *)device_model;
++ (NSString *)device_contype; //0: unknown, 1: 有线网络, 2: WiFi, 3: 未知几代蜂窝网络, 4: 2G, 5: 3G, 6: 4G, 7: 5G
 
 @end

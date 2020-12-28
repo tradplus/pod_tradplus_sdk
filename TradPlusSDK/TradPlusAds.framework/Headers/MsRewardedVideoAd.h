@@ -19,9 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) BOOL isAdLoading;
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly) BOOL isAdReadyWithDirection; //filter ad by screen direction.
-@property (nonatomic, readonly) BOOL isNetWorkAdReady __deprecated;
+@property (nonatomic, readonly) BOOL isNetWorkAdReady  __deprecated_msg("Use `entryAdScenario` instead.");
 //头条优量汇广告位是否开启模版渲染，默认为YES。**v4.8.1开始 在TradPlus后台设置
-@property (nonatomic) BOOL isPangleTemplateRender __deprecated;
+//@property (nonatomic) BOOL isPangleTemplateRender __deprecated;
 @property (nonatomic, readonly) int readyAdCount;
 @property (nonatomic, readonly) int cacheNum;
 @property (nonatomic, strong) NSString *channelName;          //渠道名
@@ -29,6 +29,9 @@ NS_ASSUME_NONNULL_BEGIN
 //相关回调时可以访问到的具体渠道信息。
 @property (nonatomic, strong) NSMutableDictionary *dicChannelInfo;
 
+//流量分组
+@property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
+@property (nonatomic, strong) NSDictionary *dicCustomValue;
 
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)setAdUnitID:(NSString *)adUnitID isAutoLoad:(BOOL)isAutoLoad;

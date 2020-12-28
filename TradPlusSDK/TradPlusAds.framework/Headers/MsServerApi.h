@@ -12,16 +12,14 @@
 
 + (instancetype)sharedInstance;
 
-- (void)fetchStrategyWithPlacementID:(NSString*)placementID adViewHeight:(NSInteger)adViewHeight adViewWight:(NSInteger)adViewWight completHandler:(void (^)(NSDictionary *dicRep, NSError *error))handler;
+- (void)fetchStrategyWithPlacementID:(NSString*)placementID segmentTag:(NSString*)segmentTag dicUserInfo:(NSDictionary *)dicUserInfo completHandler:(void (^)(NSDictionary *dicRep, NSError *error))handler;
 
-- (NSString *)generateAdConfParams:(NSString *)placementID adViewHeight:(NSInteger)adViewHeight adViewWight:(NSInteger)adViewWight;
+- (NSString *)generateOpenParams;
+- (NSString *)generateAdConfParams:(NSString *)placementID segmentTag:(NSString *)segmentTag dicUserInfo:(NSDictionary *)dicUserInfo;
 
-- (BOOL)isStrategyExist:(NSString *)placementID;
+- (BOOL)isStrategyExist:(NSString *)placementID segmentTag:(NSString *)segmentTag dicUserInfo:(NSDictionary *)dicUserInfo;
 
-- (void)updateStrategy:(NSString *)placementID completionBlock:(void (^)(NSError *error))completionBlock;
-
-//check the ad whether exceed the expire
-- (BOOL)checkExpireWithPlacement:(NSString *)placement;
+- (void)updateStrategy:(NSString *)placementID segmentTag:(NSString *)segmentTag dicUserInfo:(NSDictionary *)dicUserInfo completionBlock:(void (^)(NSError *error))completionBlock;
 
 - (NSDictionary *)getDicStrategyWithPlacement:(NSString *)placement;
 

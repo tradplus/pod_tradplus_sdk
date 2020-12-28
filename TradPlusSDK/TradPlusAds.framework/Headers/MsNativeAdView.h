@@ -27,6 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 //相关回调时可以访问到的具体渠道信息。
 @property (nonatomic, strong) NSMutableDictionary *dicChannelInfo;
 
+//流量分组
+@property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
+@property (nonatomic, strong) NSDictionary *dicCustomValue;
 @end
 
 @protocol MsNativeAdViewDelegate <NSObject>

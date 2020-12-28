@@ -12,6 +12,7 @@
 + (MSNativeAdRendererConfiguration *)rendererConfigurationWithRendererSettings:(id<MSNativeAdRendererSettings>)rendererSettings;
 
 
+- (void)changeRenderingViewClass:(Class)renderingViewClass;
 @end
 
 
