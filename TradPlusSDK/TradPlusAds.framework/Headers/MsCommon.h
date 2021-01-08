@@ -16,6 +16,7 @@ extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKInited;
 extern BOOL gMsSDKAllowWrite;
 extern BOOL gMsSDKAuthUID;
+extern BOOL gMsSDKIsCN;
 extern int gMsEventInterval;
 extern int gMsCCPA;
 extern int gMsCOPPAChild;
@@ -112,4 +113,5 @@ typedef enum
 
 + (NSString *)handleAdUnitId:(NSString *)adUnitId;
 + (BOOL)isScreenPortrait;
++ (void)changeCNValue:(id)cnObj;
 @end

@@ -20,6 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
 //流量分组
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
+//穿山甲开屏底部预留空白的高度，可在show的时候customView传入对应高度的view，view的frame自行设置。
+//default 0
+@property (nonatomic) int pangleBottomHeight;
 
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)loadAd;

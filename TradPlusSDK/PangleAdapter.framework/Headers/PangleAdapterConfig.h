@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface PangleAdapterConfig : NSObject
 
 + (void)setPrivacy:(NSDictionary *)info;
+
++ (void)initPangleSDK:(NSString *)appid isCN:(BOOL)isCN;
 @end
 
 NS_ASSUME_NONNULL_END
