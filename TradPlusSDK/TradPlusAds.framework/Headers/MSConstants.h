@@ -13,7 +13,7 @@
 #define DEFAULT_PUB_ID              @"agltb3B1Yi1pbmNyDAsSBFNpdGUYkaoMDA"
 #define MS_SERVER_VERSION           @"8"
 #define MS_BUNDLE_IDENTIFIER        @"com.meetsocial.meetsocial"
-#define MS_SDK_VERSION              @"5.4.0"
+#define MS_SDK_VERSION              @"5.4.1"
 
 // Sizing constants.
 extern CGSize const MeetSocial_BANNER_SIZE;
