@@ -28,6 +28,9 @@
 + (NSString *)getCurrentLanguage;
 + (NSString *)resolution;
 
+//横竖屏
++ (int)orientation;
+
 //流量分组
 + (NSString *)app_ver;
 + (NSString *)app_instime; //install time

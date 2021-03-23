@@ -20,6 +20,7 @@ extern BOOL gMsSDKIsCN;
 extern int gMsEventInterval;
 extern int gMsCCPA;
 extern int gMsCOPPAChild;
+extern int gMsATTEnabled;
 extern NSString * const gConsentStatusStorageKey;
 extern NSString * const gGDPRAppliesStorageKey;
 extern NSString * const gEventServerDefaultURL;
@@ -43,6 +44,8 @@ typedef enum
     EV_PRE_LOAD_ADCONF       = 400,
     EV_LOAD_AD_START         = 500,
     EV_LOAD_AD               = 600,
+    EV_BID_START             = 610,
+    EV_BID_END               = 611,
     EV_LOAD_NETWORK_AD_START = 700,
     EV_LOAD_NETWORK_AD       = 800,
     EV_LOAD_FIRST_NETWORK_AD = 805,
@@ -85,7 +88,9 @@ typedef enum
     NETWORK_INMOBI   = 23,
     NETWORK_YOUDAO   = 25,     //有道
     NETWORK_STARTAPP = 28,
-    NETWORK_HELIUM   = 30      
+    NETWORK_HELIUM   = 30,
+    NETWORK_MAIO     = 31,
+    NETWORK_MYTARGET = 33
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject

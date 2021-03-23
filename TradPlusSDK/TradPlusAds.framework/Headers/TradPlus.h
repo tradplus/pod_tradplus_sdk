@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setCCPA:(BOOL)isCCPA;
 + (void)setCOPPAChild:(BOOL)isCOPPAChild;
 + (void)setAuthUID:(BOOL)authUID;
++ (void)setAdvertiserTrackingEnabled:(BOOL)advertiserTrackingEnabled;
 
 @property (nonatomic, strong) NSString *appId;
 //用户信息自定义 key:{user_id, user_age, user_gender...}
