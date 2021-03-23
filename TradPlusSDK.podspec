@@ -133,10 +133,10 @@ Pod::Spec.new do |spec|
      ss.vendored_frameworks = 'TradPlusSDK/MintegralAdapter.framework'
   end   
    
-  spec.subspec 'MiaoAdapter' do |ss|
+  spec.subspec 'MaioAdapter' do |ss|
      ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusSDK/MiaoAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/MaioAdapter.framework'
   end   
    
   spec.subspec 'MyTargetAdapter' do |ss|
