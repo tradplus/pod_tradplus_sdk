@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusSDK"
-  spec.version      = "5.6.0"
+  spec.version      = "5.4.5"
   spec.summary      = "A short description of TradPlus SDK for iOS."
   spec.description  = <<-DESC
             TradPlus SDK 
@@ -133,17 +133,10 @@ Pod::Spec.new do |spec|
      ss.vendored_frameworks = 'TradPlusSDK/MintegralAdapter.framework'
   end   
    
-  spec.subspec 'MaioAdapter' do |ss|
+  spec.subspec 'SmaatoAdapter' do |ss|
      ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusSDK/MaioAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/SmaatoAdapter.framework'
   end   
    
-  spec.subspec 'MyTargetAdapter' do |ss|
-     ss.dependency 'TradPlusSDK/TradPlusAds'
-     ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusSDK/MyTargetAdapter.framework'
-  end   
-   
-
 end
