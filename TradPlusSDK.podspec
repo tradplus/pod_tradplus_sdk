@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusSDK"
-  spec.version      = "5.4.5"
+  spec.version      = "5.4.6"
   spec.summary      = "A short description of TradPlus SDK for iOS."
   spec.description  = <<-DESC
             TradPlus SDK 
@@ -37,16 +37,16 @@ Pod::Spec.new do |spec|
      ss.vendored_frameworks = 'TradPlusSDK/FacebookAdapter.framework'
   end
    
-  spec.subspec 'AdcolonyAdapter' do |ss|
+  spec.subspec 'AdColonyAdapter' do |ss|
      ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusSDK/AdcolonyAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/AdColonyAdapter.framework'
   end
    
-  spec.subspec 'ApplovinAdapter' do |ss|
+  spec.subspec 'AppLovinAdapter' do |ss|
      ss.dependency 'TradPlusSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusSDK/ApplovinAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusSDK/AppLovinAdapter.framework'
   end
    
   spec.subspec 'GDTMobAdapter' do |ss|
