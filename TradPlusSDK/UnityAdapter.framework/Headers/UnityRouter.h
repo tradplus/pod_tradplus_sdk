@@ -1,10 +1,3 @@
-//
-//  UnityRouter.h
-//  MeetSocialSDK
-//
-//  Copyright (c) 2016 MeetSocial. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <UnityAds/UnityAds.h>
 #import <UnityAds/UnityAdsExtended.h>

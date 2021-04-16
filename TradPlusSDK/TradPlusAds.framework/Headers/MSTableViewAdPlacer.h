@@ -1,10 +1,3 @@
-//
-//  MSTableViewAdPlacer.h
-//  AdExpress
-//
-//  Copyright (c) 2016 MeetSocial. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "MSClientAdPositioning.h"
@@ -16,7 +9,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * The `MSTableViewAdPlacer` class allows you to request native ads from the MeetSocial ad server and
+ * The `MSTableViewAdPlacer` class allows you to request native ads from the TradPlusAd ad server and
  * place them into a `UITableView` object.
  *
  * When an instance of this class is initialized with a table view, it wraps the table view's
@@ -32,11 +25,11 @@
 
 /**
  * Creates and returns an ad placer that will insert ads into a table view at positions that can
- * be configured dynamically on the MeetSocial website.
+ * be configured dynamically on the TradPlusAd website.
  *
- * When you make an ad request, the ad placer will ask the MeetSocial ad server for the positions where
+ * When you make an ad request, the ad placer will ask the TradPlusAd ad server for the positions where
  * ads should be inserted into the table view. You can configure these positioning values by
- * editing your ad unit's settings on the MeetSocial website.
+ * editing your ad unit's settings on the TradPlusAd website.
  *
  * Using this method is equivalent to calling
  * +placerWithTableView:viewController:adPositioning:rendererConfigurations: and passing in an
@@ -60,7 +53,7 @@
  *
  * First, you may pass an `MSServerAdPositioning` object as the `positioning` parameter, which tells
  * the ad placer to obtain positioning information dynamically from the ad server, which you can
- * configure on the MeetSocial website. In many cases, this is the preferred approach, since it allows
+ * configure on the TradPlusAd website. In many cases, this is the preferred approach, since it allows
  * you to modify the positions without rebuilding your application. Note that calling the
  * convenience method +placerWithTableView:viewController:defaultAdRenderingClass: accomplishes
  * this as well.
@@ -82,16 +75,16 @@
 /** @name Requesting Ads */
 
 /**
- * Requests ads from the MeetSocial ad server using the specified ad unit ID.
+ * Requests ads from the TradPlusAd ad server using the specified ad unit ID.
  *
- * @param adUnitID A string representing a MeetSocial ad unit ID.
+ * @param adUnitID A string representing a TradPlusAd ad unit ID.
  */
 - (void)loadAdsForAdUnitID:(NSString *)adUnitID;
 
 /**
- * Requests ads from the MeetSocial ad server using the specified ad unit ID and targeting parameters.
+ * Requests ads from the TradPlusAd ad server using the specified ad unit ID and targeting parameters.
  *
- * @param adUnitID A string representing a MeetSocial ad unit ID.
+ * @param adUnitID A string representing a TradPlusAd ad unit ID.
  * @param targeting An object containing targeting information, such as geolocation data.
  */
 - (void)loadAdsForAdUnitID:(NSString *)adUnitID targeting:(MSNativeAdRequestTargeting *)targeting;
@@ -101,7 +94,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * The MeetSocial SDK adds interfaces to the `UITableView` class to help your application with
+ * The TradPlusAd SDK adds interfaces to the `UITableView` class to help your application with
  * responsibilities related to `MSTableViewAdPlacer`. These APIs include methods to help notify the
  * ad placer of all modifications to the original table view, as well as to simplify your
  * application code such that it does not need to perform index path manipulations to account for

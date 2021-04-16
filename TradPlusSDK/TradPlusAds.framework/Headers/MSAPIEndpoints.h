@@ -1,18 +1,11 @@
-//
-//  MSAPIEndpoints.h
-//  AdExpress
-//
-//  Copyright (c) 2015 MeetSocial. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
-#define MeetSocial_BASE_HOSTNAME_FOR_TESTING     @"testing.ads.meetsocial.com"
+#define TradPlusAd_BASE_HOSTNAME_FOR_TESTING     @"testing.ads.TradPlusAd.com"
 
-#define MeetSocial_API_PATH_AD_REQUEST           @"/m/ad"
-#define MeetSocial_API_PATH_CONVERSION           @"/m/open"
-#define MeetSocial_API_PATH_NATIVE_POSITIONING   @"/m/pos"
-#define MeetSocial_API_PATH_SESSION              @"/m/open"
+#define TradPlusAd_API_PATH_AD_REQUEST           @"/m/ad"
+#define TradPlusAd_API_PATH_CONVERSION           @"/m/open"
+#define TradPlusAd_API_PATH_NATIVE_POSITIONING   @"/m/pos"
+#define TradPlusAd_API_PATH_SESSION              @"/m/open"
 
 @interface MSAPIEndpoints : NSObject
 

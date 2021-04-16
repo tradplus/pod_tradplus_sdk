@@ -1,9 +1,3 @@
-//
-//  MSImageDownloadQueue.h
-// 
-//  Copyright (c) 2016 MeetSocial. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 typedef void (^MSImageDownloadQueueCompletionBlock)(NSArray *errors);

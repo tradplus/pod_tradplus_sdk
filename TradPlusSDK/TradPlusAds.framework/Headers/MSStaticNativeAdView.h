@@ -1,10 +1,3 @@
-//
-//  MSStaticNativeAdView.h
-//  MeetSocialSampleApp
-//
-//  Copyright (c) 2015 MeetSocial. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 #import "MSNativeAdRendering.h"
 

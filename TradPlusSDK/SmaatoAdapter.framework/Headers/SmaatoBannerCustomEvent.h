@@ -1,8 +1,4 @@
-#if __has_include(<MeetSocial/MeetSocial.h>)
-    #import <MeetSocial/MeetSocial.h>
-#else
-    #import <TradPlusAds/MSBannerCustomEvent.h>
-#endif
+#import <TradPlusAds/MSBannerCustomEvent.h>
 
 @interface SmaatoBannerCustomEvent : MSBannerCustomEvent
 @end

@@ -20,7 +20,7 @@ typedef enum MSNativeAdErrorCode {
     MSNativeAdErrorRenderError = -1200
 } MSNativeAdErrorCode;
 
-extern NSString * const MeetSocialNativeAdsSDKDomain;
+extern NSString * const TradPlusAdNativeAdsSDKDomain;
 
 NSError *MSNativeAdNSErrorForInvalidAdServerResponse(NSString *reason);
 NSError *MSNativeAdNSErrorForAdUnitWarmingUp();

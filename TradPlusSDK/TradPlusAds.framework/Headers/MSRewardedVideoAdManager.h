@@ -1,10 +1,3 @@
-//
-//  MSRewardedVideoAdManager.h
-//  MsSDK
-//
-//  Copyright (c) 2015 MeetSocial. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
@@ -33,10 +26,10 @@
 /**
  * Loads a rewarded video ad with the ad manager's ad unit ID.
  *
- * @param keywords A string representing a set of keywords that should be passed to the MeetSocial ad server to receive
+ * @param keywords A string representing a set of keywords that should be passed to the TradPlusAd ad server to receive
  * more relevant advertising.
  *
- * @param location Latitude/Longitude that are passed to the MeetSocial ad server
+ * @param location Latitude/Longitude that are passed to the TradPlusAd ad server
  * If this method is called when an ad is already available and we haven't already played a video for the last time we loaded an ad,
  * the object will simply notify the delegate that an ad loaded.
  *

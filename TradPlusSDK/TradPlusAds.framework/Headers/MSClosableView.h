@@ -1,10 +1,3 @@
-//
-//  MSClosableView.h
-//  MsSDK
-//
-//  Copyright (c) 2016 MeetSocial. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 enum {

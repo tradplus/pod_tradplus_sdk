@@ -1,8 +1,3 @@
-//
-//  MSNativeAd+Internal.h
-//  Copyright (c) 2016 MeetSocial. All rights reserved.
-//
-
 #import "MSNativeAd.h"
 
 @class MSNativeView;

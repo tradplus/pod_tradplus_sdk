@@ -2,7 +2,7 @@
 //  MSGoogleAdMobInterstitialCustomEvent.h
 //  AdExpress
 //
-//  Copyright (c) 2012 MeetSocial, Inc. All rights reserved.
+//  Copyright (c) 2012 TradPlusAd, Inc. All rights reserved.
 //
 
 #import <TradPlusAds/MSInterstitialCustomEvent.h>

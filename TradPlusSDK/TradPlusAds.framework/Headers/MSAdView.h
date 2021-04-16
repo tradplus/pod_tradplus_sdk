@@ -28,7 +28,7 @@ typedef enum
 /**
  * Initializes an MSAdView with the given ad unit ID and banner size.
  *
- * @param adUnitId A string representing a MeetSocial ad unit ID.
+ * @param adUnitId A string representing a TradPlusAd ad unit ID.
  * @param size The desired ad size. A list of standard ad sizes is available in MSConstants.h.
  * @return A newly initialized ad view corresponding to the given ad unit ID and size.
  */
@@ -48,22 +48,22 @@ typedef enum
 /** @name Setting Request Parameters */
 
 /**
- * The MeetSocial ad unit ID for this ad view.
+ * The TradPlusAd ad unit ID for this ad view.
  *
- * Ad unit IDs are created on the MeetSocial website. An ad unit is a defined placement in your
+ * Ad unit IDs are created on the TradPlusAd website. An ad unit is a defined placement in your
  * application set aside for advertising. If no ad unit ID is set, the ad view will use a default
  * ID that only receives test ads.
  */
 @property (nonatomic, copy) NSString *adUnitId;
 
 /**
- * A string representing a set of keywords that should be passed to the MeetSocial ad server to receive
+ * A string representing a set of keywords that should be passed to the TradPlusAd ad server to receive
  * more relevant advertising.
  *
  * Keywords are typically used to target ad campaigns at specific user segments. They should be
  * formatted as comma-separated key-value pairs (e.g. "marital:single,age:24").
  *
- * On the MeetSocial website, keyword targeting options can be found under the "Advanced Targeting"
+ * On the TradPlusAd website, keyword targeting options can be found under the "Advanced Targeting"
  * section when managing campaigns.
  */
 @property (nonatomic, copy) NSString *keywords;
@@ -82,7 +82,7 @@ typedef enum
 /** @name Loading a Banner Ad */
 
 /**
- * Requests a new ad from the MeetSocial ad server.
+ * Requests a new ad from the TradPlusAd ad server.
  *
  * If the ad view is already loading an ad, this call will be ignored. You may use `forceRefreshAd`
  * if you would like cancel any existing ad requests and force a new ad to load.
@@ -93,7 +93,7 @@ typedef enum
 - (void)loadTradPlusAdWithURL:(NSURL *)URL;
 
 /**
- * Cancels any existing ad requests and requests a new ad from the MeetSocial ad server.
+ * Cancels any existing ad requests and requests a new ad from the TradPlusAd ad server.
  */
 - (void)forceRefreshAd;
 
@@ -178,7 +178,7 @@ typedef enum
  * Stops the ad view from periodically loading new advertisements.
  *
  * By default, an ad view is allowed to automatically load new advertisements if a refresh interval
- * has been configured on the MeetSocial website. This method prevents new ads from automatically loading,
+ * has been configured on the TradPlusAd website. This method prevents new ads from automatically loading,
  * even if a refresh interval has been specified.
  *
  * As a best practice, you should call this method whenever the ad view will be hidden from the user
@@ -192,11 +192,11 @@ typedef enum
 
 /**
  * Causes the ad view to periodically load new advertisements in accordance with user-defined
- * refresh settings on the MeetSocial website.
+ * refresh settings on the TradPlusAd website.
  *
  * Calling this method is only necessary if you have previously stopped the ad view's refresh
  * behavior using `stopAutomaticallyRefreshingContents`. By default, an ad view is allowed to
- * automatically load new advertisements if a refresh interval has been configured on the MeetSocial
+ * automatically load new advertisements if a refresh interval has been configured on the TradPlusAd
  * website. This method has no effect if a refresh interval has not been set.
  *
  * @see stopAutomaticallyRefreshingContents

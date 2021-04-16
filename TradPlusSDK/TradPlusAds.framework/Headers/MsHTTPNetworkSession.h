@@ -1,7 +1,7 @@
 //
 //  MsHTTPNetworkSession.h
 //
-//  Copyright 2018-2019 MeetSocial, Inc.
+//  Copyright 2018-2019 TradPlusAd, Inc.
 //  Licensed under the TradPlus SDK License Agreement
 //
 //kCFURLErrorUnknown   = -998,

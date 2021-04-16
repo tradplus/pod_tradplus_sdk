@@ -1,15 +1,4 @@
-//
-//  VungleInterstitialCustomEvent.h
-//  MeetSocialSDK
-//
-//  Copyright (c) 2015 MeetSocial. All rights reserved.
-//
-
-#if __has_include(<MeetSocial/MeetSocial.h>)
-#import <MeetSocial/MeetSocial.h>
-#else
-    #import <TradPlusAds/MSInterstitialCustomEvent.h>
-#endif
+#import <TradPlusAds/MSInterstitialCustomEvent.h>
 
 /*
  * Certified with version 4.0.6 of the Vungle SDK.

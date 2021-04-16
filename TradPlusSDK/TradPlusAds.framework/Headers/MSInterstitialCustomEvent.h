@@ -2,22 +2,22 @@
 //  MSInterstitialCustomEvent.h
 //  AdExpress
 //
-//  Copyright (c) 2012 MeetSocial, Inc. All rights reserved.
+//  Copyright (c) 2012 TradPlusAd, Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "MSInterstitialCustomEventDelegate.h"
 
 /**
- * The MeetSocial iOS SDK mediates third party Ad Networks using custom events.  The custom events are
+ * The TradPlusAd iOS SDK mediates third party Ad Networks using custom events.  The custom events are
  * responsible for instantiating and manipulating objects in the third party SDK and translating
- * and communicating events from those objects back to the MeetSocial SDK by notifying a delegate.
+ * and communicating events from those objects back to the TradPlusAd SDK by notifying a delegate.
  *
  * `MSInterstitialCustomEvent` is a base class for custom events that support full-screen interstitial ads.
- * By implementing subclasses of `MSInterstitialCustomEvent` you can enable the MeetSocial SDK to
+ * By implementing subclasses of `MSInterstitialCustomEvent` you can enable the TradPlusAd SDK to
  * natively support a wide variety of third-party ad networks.
  *
- * At runtime, the MeetSocial SDK will find and instantiate an `MSInterstitialCustomEvent` subclass as needed and
+ * At runtime, the TradPlusAd SDK will find and instantiate an `MSInterstitialCustomEvent` subclass as needed and
  * invoke its `-requestInterstitialWithCustomEventInfo:` method.
  */
 
@@ -27,15 +27,15 @@
 /** @name Requesting and Displaying an Interstitial Ad */
 
 /**
- * Called when the MeetSocial SDK requires a new interstitial ad.
+ * Called when the TradPlusAd SDK requires a new interstitial ad.
  *
- * When the MeetSocial SDK receives a response indicating it should load a custom event, it will send
+ * When the TradPlusAd SDK receives a response indicating it should load a custom event, it will send
  * this message to your custom event class. Your implementation of this method should load an
  * interstitial ad from a third-party ad network. It must also notify the
  * `MSInterstitialCustomEventDelegate` of certain lifecycle events.
  *
  * @param info A  dictionary containing additional custom data associated with a given custom event
- * request. This data is configurable on the MeetSocial website, and may be used to pass dynamic information, such as publisher IDs.
+ * request. This data is configurable on the TradPlusAd website, and may be used to pass dynamic information, such as publisher IDs.
  */
 
 - (void)requestInterstitialWithCustomEventInfo:(NSDictionary *)info;
@@ -70,12 +70,12 @@
  */
 - (BOOL)enableAutomaticImpressionAndClickTracking;
 
-/** @name Communicating with the MeetSocial SDK */
+/** @name Communicating with the TradPlusAd SDK */
 
 /**
  * The `MSInterstitialCustomEventDelegate` to send messages to as events occur.
  *
- * The `delegate` object defines several methods that you should call in order to inform both MeetSocial
+ * The `delegate` object defines several methods that you should call in order to inform both TradPlusAd
  * and your `MSInterstitialAdController`'s delegate of the progress of your custom event.
  *
  */

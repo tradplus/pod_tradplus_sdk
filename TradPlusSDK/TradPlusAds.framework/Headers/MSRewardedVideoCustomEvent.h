@@ -1,10 +1,3 @@
-//
-//  MSRewardedVideoCustomEvent.h
-//  MsSDK
-//
-//  Copyright (c) 2015 MeetSocial. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
@@ -14,15 +7,15 @@
 @class MSRewardedVideoReward;
 
 /**
- * The MeetSocial iOS SDK mediates third party Ad Networks using custom events.  The custom events are
+ * The TradPlusAd iOS SDK mediates third party Ad Networks using custom events.  The custom events are
  * responsible for instantiating and manipulating objects in the third party SDK and translating
- * and communicating events from those objects back to the MeetSocial SDK by notifying a delegate.
+ * and communicating events from those objects back to the TradPlusAd SDK by notifying a delegate.
  *
  * `MSRewardedVideoCustomEvent` is a base class for custom events that support full-screen rewarded video ads.
- * By implementing subclasses of `MSRewardedVideoCustomEvent` you can enable the MeetSocial SDK to
+ * By implementing subclasses of `MSRewardedVideoCustomEvent` you can enable the TradPlusAd SDK to
  * natively support a wide variety of third-party ad networks.
  *
- * At runtime, the MeetSocial SDK will find and instantiate an `MSRewardedVideoCustomEvent` subclass as needed and
+ * At runtime, the TradPlusAd SDK will find and instantiate an `MSRewardedVideoCustomEvent` subclass as needed and
  * invoke its `-requestRewardedVideoWithCustomEventInfo:` method.
  */
 
@@ -33,9 +26,9 @@
 /** @name Requesting and Displaying a Rewarded Video Ad */
 
 /**
- * Called when the MeetSocial SDK requires a new rewarded video ad.
+ * Called when the TradPlusAd SDK requires a new rewarded video ad.
  *
- * When the MeetSocial SDK receives a response indicating it should load a custom event, it will send
+ * When the TradPlusAd SDK receives a response indicating it should load a custom event, it will send
  * this message to your custom event class. Your implementation of this method should load an
  * rewarded video ad from a third-party ad network. It must also notify the
  * `MSRewardedVideoCustomEventDelegate` of certain lifecycle events.
@@ -48,7 +41,7 @@
  * the mediation settings class and the properties it supports for your custom event.
  *
  * @param info A dictionary containing additional custom data associated with a given custom event
- * request. This data is configurable on the MeetSocial website, and may be used to pass dynamic information, such as publisher IDs.
+ * request. This data is configurable on the TradPlusAd website, and may be used to pass dynamic information, such as publisher IDs.
  */
 - (void)requestRewardedVideoWithCustomEventInfo:(NSDictionary *)info;
 
@@ -141,7 +134,7 @@
 /**
  * Call this method immediately after an ad loads succesfully.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @warning **Important**: Your custom event subclass **must** call this method when it successfully loads an ad.
@@ -152,7 +145,7 @@
 /**
  * Call this method immediately after an ad fails to load.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @param error (*optional*) You may pass an error describing the failure.
@@ -166,10 +159,10 @@
  * Call this method if a previously loaded rewarded video should no longer be eligible for presentation.
  *
  * Some third-party networks will mark rewarded videos as expired (indicating they should not be
- * presented) *after* they have loaded.  You may use this method to inform the MeetSocial SDK that a
+ * presented) *after* they have loaded.  You may use this method to inform the TradPlusAd SDK that a
  * previously loaded rewarded video has expired and that a new rewarded video should be obtained.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  */
 - (void)rewardedVideoDidExpireForCustomEvent:(MSRewardedVideoCustomEvent *)customEvent;
@@ -179,7 +172,7 @@
  *
  * A common usage of this delegate method is when the application tries to play an ad and an ad is not available for play.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @param error The error describing why the video couldn't play.
@@ -189,7 +182,7 @@
 /**
  * Call this method when an ad is about to appear.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @warning **Important**: Your custom event subclass **must** call this method when it is about to present the rewarded video.
@@ -200,7 +193,7 @@
 /**
  * Call this method when an ad has finished appearing.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @warning **Important**: Your custom event subclass **must** call this method when it is finished presenting the rewarded video.
@@ -214,7 +207,7 @@
 /**
  * Call this method when an ad is about to disappear.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @warning **Important**: Your custom event subclass **must** call this method when it is about to dismiss the rewarded video.
@@ -225,7 +218,7 @@
 /**
  * Call this method when an ad has finished disappearing.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @warning **Important**: Your custom event subclass **must** call this method when it is finished with dismissing the rewarded video.
@@ -242,7 +235,7 @@
  *
  * For example, the user may have tapped on the video which redirects the user to the App Store or Safari.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  */
 - (void)rewardedVideoWillLeaveApplicationForCustomEvent:(MSRewardedVideoCustomEvent *)customEvent;
@@ -257,7 +250,7 @@
  * addition to a "user did click" callback. You should call this method in response to either of
  * those callbacks (since leaving the application is generally an indicator of a user tap).
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  */
 - (void)rewardedVideoDidReceiveTapEventForCustomEvent:(MSRewardedVideoCustomEvent *)customEvent;
@@ -265,7 +258,7 @@
 /**
  * Call this method when the user should be rewarded for watching the rewarded video.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @param reward The reward object that contains the currency type as well as the amount that should be rewarded to
@@ -287,7 +280,7 @@
  * Call this method to track an impression.
  *
  * @warning **Important**: You should **only** call this method if you have [opted out of automatic click and impression tracking]([MSRewardedVideoCustomEvent enableAutomaticImpressionAndClickTracking]).
- * By default the MeetSocial SDK automatically tracks impressions.
+ * By default the TradPlusAd SDK automatically tracks impressions.
  */
 - (void)trackImpression;
 
@@ -295,7 +288,7 @@
  * Call this method to track a click.
  *
  * @warning **Important**: You should **only** call this method if you have [opted out of automatic click and impression tracking]([MSRewardedVideoCustomEvent enableAutomaticImpressionAndClickTracking]).
- * By default the MeetSocial SDK automatically tracks clicks.
+ * By default the TradPlusAd SDK automatically tracks clicks.
  */
 - (void)trackClick;
 

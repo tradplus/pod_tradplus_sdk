@@ -2,7 +2,7 @@
 //  MMRCommand.h
 //  AdExpress
 //
-//  Copyright (c) 2011 MeetSocial, Inc. All rights reserved.
+//  Copyright (c) 2011 TradPlusAd, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -1,10 +1,3 @@
-//
-//  MSVungleRouter.h
-//  MeetSocialSDK
-//
-//  Copyright (c) 2015 MeetSocial. All rights reserved.
-//
-
 //#import <Foundation/Foundation.h>
 #import <VungleSDK/VungleSDK.h>
 

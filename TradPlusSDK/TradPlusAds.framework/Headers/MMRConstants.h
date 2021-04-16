@@ -1,10 +1,3 @@
-//
-//  MMRConstants.h
-//  MsSDK
-//
-//  Copyright (c) 2016 MeetSocial. All rights reserved.
-//
-
 enum {
     MMRAdViewStateHidden,
     MMRAdViewStateDefault,

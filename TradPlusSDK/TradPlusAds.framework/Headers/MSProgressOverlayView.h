@@ -2,7 +2,7 @@
 //  MSProgressOverlayView.h
 //  AdExpress
 //
-//  Copyright 2012 MeetSocial, Inc. All rights reserved.
+//  Copyright 2012 TradPlusAd, Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

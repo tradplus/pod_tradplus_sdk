@@ -2,7 +2,7 @@
 //  MSInterstitialAdController.h
 //  AdExpress
 //
-//  Copyright (c) 2012 MeetSocial, Inc. All rights reserved.
+//  Copyright (c) 2012 TradPlusAd, Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -27,7 +27,7 @@
  *
  * There can only be one interstitial object for an ad unit ID at a given time.
  *
- * @param adUnitId A string representing a MeetSocial ad unit ID.
+ * @param adUnitId A string representing a TradPlusAd ad unit ID.
  */
 + (MSInterstitialAdController *)interstitialAdControllerForAdUnitId:(NSString *)adUnitId;
 
@@ -43,22 +43,22 @@
 /** @name Setting Request Parameters */
 
 /**
- * The MeetSocial ad unit ID for this interstitial ad.
+ * The TradPlusAd ad unit ID for this interstitial ad.
  *
- * Ad unit IDs are created on the MeetSocial website. An ad unit is a defined placement in your
+ * Ad unit IDs are created on the TradPlusAd website. An ad unit is a defined placement in your
  * application set aside for advertising. If no ad unit ID is set, the ad object will use a default
  * ID that only receives test ads.
  */
 @property (nonatomic, copy) NSString *adUnitId;
 
 /**
- * A string representing a set of keywords that should be passed to the MeetSocial ad server to receive
+ * A string representing a set of keywords that should be passed to the TradPlusAd ad server to receive
  * more relevant advertising.
  *
  * Keywords are typically used to target ad campaigns at specific user segments. They should be
  * formatted as comma-separated key-value pairs (e.g. "marital:single,age:24").
  *
- * On the MeetSocial website, keyword targeting options can be found under the "Advanced Targeting"
+ * On the TradPlusAd website, keyword targeting options can be found under the "Advanced Targeting"
  * section when managing campaigns.
  */
 @property (nonatomic, copy) NSString *keywords;

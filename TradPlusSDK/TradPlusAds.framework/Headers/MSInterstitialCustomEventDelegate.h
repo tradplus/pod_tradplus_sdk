@@ -2,7 +2,7 @@
 //  MSInterstitialCustomEventDelegate.h
 //  AdExpress
 //
-//  Copyright (c) 2012 MeetSocial, Inc. All rights reserved.
+//  Copyright (c) 2012 TradPlusAd, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -11,7 +11,7 @@
 
 /**
  * Instances of your custom subclass of `MSInterstitialCustomEvent` will have an `MSInterstitialCustomEventDelegate` delegate.
- * You use this delegate to communicate events ad events back to the MeetSocial SDK.
+ * You use this delegate to communicate events ad events back to the TradPlusAd SDK.
  *
  * When mediating a third party ad network it is important to call as many of these methods
  * as accurately as possible.  Not all ad networks support all these events, and some support
@@ -26,10 +26,10 @@
 /**
  * Call this method immediately after an ad loads succesfully.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
- * @param ad (*optional*) An object that represents the ad that was retrieved.  The MeetSocial SDK does not
+ * @param ad (*optional*) An object that represents the ad that was retrieved.  The TradPlusAd SDK does not
  * do anything with this optional parameter.
  *
  * @warning **Important**: Your custom event subclass **must** call this method when it successfully loads an ad.
@@ -41,7 +41,7 @@
 /**
  * Call this method immediately after an ad fails to load.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @param error (*optional*) You may pass an error describing the failure.
@@ -56,10 +56,10 @@
  * Call this method if a previously loaded interstitial should no longer be eligible for presentation.
  *
  * Some third-party networks will mark interstitials as expired (indicating they should not be
- * presented) *after* they have loaded.  You may use this method to inform the MeetSocial SDK that a
+ * presented) *after* they have loaded.  You may use this method to inform the TradPlusAd SDK that a
  * previously loaded interstitial has expired and that a new interstitial should be obtained.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  */
 - (void)interstitialCustomEventDidExpire:(MSInterstitialCustomEvent *)customEvent;
@@ -69,7 +69,7 @@
 /**
  * Call this method when an ad is about to appear.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @warning **Important**: Your custom event subclass **must** call this method when it is about to present the interstitial.
@@ -81,7 +81,7 @@
 /**
  * Call this method when an ad has finished appearing.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @warning **Important**: Your custom event subclass **must** call this method when it is finished presenting the interstitial.
@@ -95,7 +95,7 @@
 /**
  * Call this method when an ad is about to disappear.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @warning **Important**: Your custom event subclass **must** call this method when it is about to dismiss the interstitial.
@@ -107,7 +107,7 @@
 /**
  * Call this method when an ad has finished disappearing.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @warning **Important**: Your custom event subclass **must** call this method when it is finished with dismissing the interstitial.
@@ -130,7 +130,7 @@
  * addition to a "user did click" callback. You should call this method in response to either of
  * those callbacks (since leaving the application is generally an indicator of a user tap).
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  *
  */
@@ -141,7 +141,7 @@
  *
  * For example, the user may have tapped on a link to visit the App Store or Safari.
  *
- * @param customEvent You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
+ * @param customEvent You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
  * instance of your custom event.
  */
 - (void)interstitialCustomEventWillLeaveApplication:(MSInterstitialCustomEvent *)customEvent;
@@ -152,7 +152,7 @@
  * Call this method to track an impression.
  *
  * @warning **Important**: You should **only** call this method if you have [opted out of automatic click and impression tracking]([MSInterstitialCustomEvent enableAutomaticImpressionAndClickTracking]).
- * By default the MeetSocial SDK automatically tracks impressions.
+ * By default the TradPlusAd SDK automatically tracks impressions.
  *
  * **Important**: In order to obtain accurate metrics, it is your responsibility to call `trackImpression` only **once** per ad.
  */
@@ -162,7 +162,7 @@
  * Call this method to track a click.
  *
  * @warning **Important**: You should **only** call this method if you have [opted out of automatic click and impression tracking]([MSInterstitialCustomEvent enableAutomaticImpressionAndClickTracking]).
- * By default the MeetSocial SDK automatically tracks clicks.
+ * By default the TradPlusAd SDK automatically tracks clicks.
  *
  * **Important**: In order to obtain accurate metrics, it is your responsibility to call `trackClick` only **once** per ad.
  */

@@ -1,35 +1,6 @@
-//
-//  MSAdPlacerInvocation.h
-//  MsSDK
-//
-//  Copyright (c) 2016 MeetSocial. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 @class MSStreamAdPlacer;
-
-/**
- * A convenience class that handles a lot of the common logic when implementing a wrapper for the delegate / data source of a UI collection object
- * (e.g. UITableView or UICollectionView).
- *
- * When implementing wrapper object methods, you will often have to take the following into consideration:
- *
- *  - Handling cells that contain ads differently from regular content cells.  For example, you may want to disable moving an ad cell while allowing
- *  regular content cells to move.
- *
- *  - Calling through to the original object when handling regular content cells.  The original delegate / data source only knows about regular content
- *  cells.  Thus, you need to translate the given index path, that indexes ads and content, to an original index path that only indexes content.
- *  You can use the original translated index path to have the original delegate / data source process logic on the correct cell.
- *
- *  - Providing the default behavior when the original object doesn't respond to the specific method and an ad doesn't occupy the given index path.
- *
- * This class takes care of all the work in two steps.  Set up and invoke an NSInvocation object by calling invokeForTarget:.  If you wish to return
- * a value based on the invocation, you may pass the returned invocation to one of the result methods (e.g. boolResultForInvocation:defaultValue:) and
- * provide a defaultValue that will be returned if an ad occupies the cell or the original delegate / data source doesn't respond to the selector.
- * If an ad is not at the given index path and the original delegate / data source responds to the selector, invokeForTarget: will translate the index
- * path for you and pass it to the original delegate / data source.  The result method will then return the result from the invocation.
- */
 
 @interface MSAdPlacerInvocation : NSObject
 
