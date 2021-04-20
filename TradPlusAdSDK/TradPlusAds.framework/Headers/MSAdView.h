@@ -37,6 +37,7 @@ typedef enum
 - (void)updateAdConfig:(NSDictionary *)adConfig;
 /** @name Setting and Getting the Delegate */
 
+@property (nonatomic, strong) UIView *realAdView;
 /**
  * The delegate (`MSAdViewDelegate`) of the ad view.
  *

@@ -1,3 +1,10 @@
+//
+//  MSVASTManager.h
+//  AdExpress
+//
+//  Copyright (c) 2015 TradPlusAd. All rights reserved.
+//
+
 #import <Foundation/Foundation.h>
 #import "MSVASTResponse.h"
 

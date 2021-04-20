@@ -1,3 +1,8 @@
+//
+//  MSNativeAdRenderingImageLoader.h
+//  Copyright (c) 2015 TradPlusAd. All rights reserved.
+//
+
 #import <UIKit/UIKit.h>
 
 @class MSNativeAdRendererImageHandler;

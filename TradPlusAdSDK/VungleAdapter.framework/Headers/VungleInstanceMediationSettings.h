@@ -1,10 +1,5 @@
 #import <TradPlusAds/MSMediationSettingsProtocol.h>
 
-/*
- * `VungleInstanceMediationSettings` allows the application to provide per-instance properties
- * to configure aspects of Vungle ads. See `MSMediationSettingsProtocol` to see how mediation settings
- * are used.
- */
 @interface VungleInstanceMediationSettings : NSObject <MSMediationSettingsProtocol>
 
 /*

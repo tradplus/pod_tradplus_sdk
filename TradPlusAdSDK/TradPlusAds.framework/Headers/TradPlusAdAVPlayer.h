@@ -1,3 +1,8 @@
+//
+//  TradPlusAdAVPlayer.h
+//  Copyright (c) 2015 TradPlusAd. All rights reserved.
+//
+
 #import <AVFoundation/AVFoundation.h>
 
 @class TradPlusAdAVPlayer;

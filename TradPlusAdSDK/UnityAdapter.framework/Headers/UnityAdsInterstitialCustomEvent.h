@@ -1,3 +1,10 @@
+//
+//  UnityAdsInterstitialCustomEvent.h
+//  TradPlusAdSDK
+//
+//  Copyright (c) 2016 TradPlusAd. All rights reserved.
+//
+
 #import <TradPlusAds/TradPlusAd.h>
 
 /*

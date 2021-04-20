@@ -1,3 +1,15 @@
+//
+//  MSNativeAdDelegate.h
+//  AdExpress
+//
+//  Copyright (c) 2016 TradPlusAd. All rights reserved.
+//
+
+/**
+ * The delegate of an `MSNativeAd` object must adopt the `MSNativeAdDelegate` protocol. It must
+ * implement `viewControllerForPresentingModalView` to provide a root view controller from which
+ * the ad view should present modal content.
+ */
 @class MSNativeAd;
 @protocol MSNativeAdDelegate <NSObject>
 

@@ -1,3 +1,10 @@
+//
+//  MMRBridge.h
+//  MsSDK
+//
+//  Copyright (c) 2016 TradPlusAd. All rights reserved.
+//
+
 #import <UIKit/UIKit.h>
 #import "MMRConstants.h"
 #import "MSWebView.h"

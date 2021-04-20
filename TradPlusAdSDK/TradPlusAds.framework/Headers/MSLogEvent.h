@@ -1,3 +1,10 @@
+//
+//  MSLogEvent.h
+//  MsSDK
+//
+//  Copyright (c) 2015 TradPlusAd. All rights reserved.
+//
+
 #import <Foundation/Foundation.h>
 #import "MSAdConfiguration.h"
 
@@ -61,6 +68,11 @@ extern NSString *const MSLogEventCategoryAdInteractions;
  */
 @property (nonatomic, copy) NSString *eventName;
 
+/**
+ * The event or error category. This is typically set to the component in which the event
+ * or error occurred. Examples include "network", "mraid_video", "TradPlusAd_native", "facebook_banner",
+ * "server_positioning", "client_positioning".
+ */
 @property (nonatomic, copy) NSString *eventCategory;
 
 /**

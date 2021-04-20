@@ -59,5 +59,8 @@ typedef void(^MSNativeAdRequestHandler)(MSNativeAdRequest *request,
  */
 - (void)startWithCompletionHandler:(MSNativeAdRequestHandler)handler;
 
+/**
+ * if it's TradPlusAd native, restart load, through original process.
+ */
 - (void)restartLoadAd;
 @end
