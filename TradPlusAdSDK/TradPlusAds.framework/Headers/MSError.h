@@ -2,46 +2,46 @@
 //  MSError.h
 //  AdExpress
 //
-//  Copyright (c) 2012 TradPlusAd. All rights reserved.
+//  Copyright (c) 2012 MeetSocial. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-extern NSString * const gTradPlusAdErrorDomain;
+extern NSString * const gMeetSocialErrorDomain;
 
 typedef enum {
-    TradPlusAdErrorUnknown = -1,
-    TradPlusAdErrorNoInventory = 0,
-    TradPlusAdErrorAdUnitWarmingUp = 1,
-    TradPlusAdErrorNetworkTimedOut = 4,
-    TradPlusAdErrorServerError = 8,
-    TradPlusAdErrorAdapterNotFound = 16,
-    TradPlusAdErrorAdapterInvalid = 17,
-    TradPlusAdErrorAdapterHasNoInventory = 18,
-    TradPlusAdErrorUnableToParseJSONAdResponse,
-    TradPlusAdErrorUnexpectedNetworkResponse,
-    TradPlusAdErrorHTTPResponseNot200,
-    TradPlusAdErrorNoNetworkData,
-    TradPlusAdErrorSDKNotInitialized,
-    TradPlusAdErrorSDKInitializationInProgress,
-    TradPlusAdErrorAdRequestTimedOut,
-    TradPlusAdErrorNoRenderer,
-    TradPlusAdErrorAdLoadAlreadyInProgress,
-    TradPlusAdErrorInvalidCustomEventClass,
-    TradPlusAdErrorJSONSerializationFailed,
-    TradPlusAdErrorUnableToParseAdResponse,
-    TradPlusAdErrorConsentDialogAlreadyShowing,
-    TradPlusAdErrorNoConsentDialogLoaded,
-    TradPlusAdErrorAdapterFailedToLoadAd,
-    TradPlusAdErrorFullScreenAdAlreadyOnScreen,
-    TradPlusAdErrorTooManyRequests,
-    TradPlusAdErrorFrameWidthNotSetForFlexibleSize,
-    TradPlusAdErrorFrameHeightNotSetForFlexibleSize,
-} TradPlusAdErrorCode;
+    MeetSocialErrorUnknown = -1,
+    MeetSocialErrorNoInventory = 0,
+    MeetSocialErrorAdUnitWarmingUp = 1,
+    MeetSocialErrorNetworkTimedOut = 4,
+    MeetSocialErrorServerError = 8,
+    MeetSocialErrorAdapterNotFound = 16,
+    MeetSocialErrorAdapterInvalid = 17,
+    MeetSocialErrorAdapterHasNoInventory = 18,
+    MeetSocialErrorUnableToParseJSONAdResponse,
+    MeetSocialErrorUnexpectedNetworkResponse,
+    MeetSocialErrorHTTPResponseNot200,
+    MeetSocialErrorNoNetworkData,
+    MeetSocialErrorSDKNotInitialized,
+    MeetSocialErrorSDKInitializationInProgress,
+    MeetSocialErrorAdRequestTimedOut,
+    MeetSocialErrorNoRenderer,
+    MeetSocialErrorAdLoadAlreadyInProgress,
+    MeetSocialErrorInvalidCustomEventClass,
+    MeetSocialErrorJSONSerializationFailed,
+    MeetSocialErrorUnableToParseAdResponse,
+    MeetSocialErrorConsentDialogAlreadyShowing,
+    MeetSocialErrorNoConsentDialogLoaded,
+    MeetSocialErrorAdapterFailedToLoadAd,
+    MeetSocialErrorFullScreenAdAlreadyOnScreen,
+    MeetSocialErrorTooManyRequests,
+    MeetSocialErrorFrameWidthNotSetForFlexibleSize,
+    MeetSocialErrorFrameHeightNotSetForFlexibleSize,
+} MeetSocialErrorCode;
 
-@interface TradPlusAdError : NSError
+@interface MeetSocialError : NSError
 
-+ (TradPlusAdError *)errorWithCode:(TradPlusAdErrorCode)code;
-+ (TradPlusAdError *)errorWithCode:(TradPlusAdErrorCode)code errMsg:(NSString *)errMsg;
++ (MeetSocialError *)errorWithCode:(MeetSocialErrorCode)code;
++ (MeetSocialError *)errorWithCode:(MeetSocialErrorCode)code errMsg:(NSString *)errMsg;
 
 @end

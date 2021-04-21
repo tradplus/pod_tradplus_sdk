@@ -1,7 +1,7 @@
 //
 //  MSRewardedVideo+Internal.h
 //  MsSDK
-//  Copyright © 2016 TradPlusAd. All rights reserved.
+//  Copyright © 2016 MeetSocial. All rights reserved.
 //
 
 #import "MSRewardedVideo.h"

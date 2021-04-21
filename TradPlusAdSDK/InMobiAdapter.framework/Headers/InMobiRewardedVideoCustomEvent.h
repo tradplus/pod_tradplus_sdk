@@ -1,7 +1,7 @@
 //
 //  InMobiRewardedVideoCustomEvent.h
 //
-//  Copyright © 2017 TradPlusAd. All rights reserved.
+//  Copyright © 2017 MeetSocial. All rights reserved.
 //
 
 #import <TradPlusAds/MSRewardedVideoCustomEvent.h>

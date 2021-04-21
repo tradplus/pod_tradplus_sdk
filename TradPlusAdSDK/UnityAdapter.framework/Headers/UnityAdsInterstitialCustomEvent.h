@@ -1,11 +1,11 @@
 //
 //  UnityAdsInterstitialCustomEvent.h
-//  TradPlusAdSDK
+//  MeetSocialSDK
 //
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
+//  Copyright (c) 2016 MeetSocial. All rights reserved.
 //
 
-#import <TradPlusAds/TradPlusAd.h>
+#import <TradPlusAds/MeetSocial.h>
 
 /*
  * Please reference the Supported Mediation Partner page at http://bit.ly/2mqsuFH for the

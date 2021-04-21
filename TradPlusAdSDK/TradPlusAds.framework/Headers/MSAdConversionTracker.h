@@ -2,21 +2,21 @@
 //  MSAdConversionTracker.h
 //  AdExpress
 //
-//  Copyright 2016 TradPlusAd, Inc. All rights reserved.
+//  Copyright 2016 MeetSocial, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 /**
  * The `MSAdConversionTracker` class provides a mechanism for reporting application download
- * (conversion) events to TradPlusAd. This type of tracking is important for measuring the effectiveness
+ * (conversion) events to MeetSocial. This type of tracking is important for measuring the effectiveness
  * of cross-promotional and direct-sold advertising.
  *
  * To track application downloads, get a reference to the shared instance of this class using the
  * `sharedConversionTracker` method. Then, in your application delegate's
  * `application:didFinishLaunchingWithOptions:` method, call the
  * `reportApplicationOpenForApplicationID:` method on the shared instance. With this call in place,
- * the conversion tracker will report an event to TradPlusAd whenever the application is launched on a
+ * the conversion tracker will report an event to MeetSocial whenever the application is launched on a
  * given device for the first time. Any subsequent launches will not be recorded as conversion
  * events.
  */
@@ -33,7 +33,7 @@
 + (MSAdConversionTracker *)sharedConversionTracker;
 
 /**
- * Notifies TradPlusAd that a conversion event should be recorded for the application corresponding to
+ * Notifies MeetSocial that a conversion event should be recorded for the application corresponding to
  * the specified `appID`.
  *
  * A conversion event will only be reported once per application download, even if this method

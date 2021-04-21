@@ -2,7 +2,7 @@
 //  MSNativeAdRendererConfiguration.h
 //  MsSDK
 //
-//  Copyright (c) 2015 TradPlusAd. All rights reserved.
+//  Copyright (c) 2015 MeetSocial. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -10,7 +10,7 @@
 @protocol MSNativeAdRendererSettings;
 
 /*
- * All native ads loaded with the TradPlusAd SDK take a renderer configuration object. This object links
+ * All native ads loaded with the MeetSocial SDK take a renderer configuration object. This object links
  * the necessary native ad objects together.
  *
  * The configuration stores the renderer settings that will eventually be used when initializing the

@@ -2,7 +2,7 @@
 //  MSPrivateRewardedVideoCustomEventDelegate.h
 //  AdExpress
 //
-//  Copyright © 2016 TradPlusAd. All rights reserved.
+//  Copyright © 2016 MeetSocial. All rights reserved.
 //
 
 #import "MSRewardedVideoCustomEvent.h"

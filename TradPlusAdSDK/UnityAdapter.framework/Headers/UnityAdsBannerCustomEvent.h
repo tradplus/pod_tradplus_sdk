@@ -1,6 +1,6 @@
 #import <UnityAds/UADSBanner.h>
 
-#import <TradPlusAds/TradPlusAd.h>
+#import <TradPlusAds/MeetSocial.h>
 
 @interface UnityAdsBannerCustomEvent : MSBannerCustomEvent<UADSBannerViewDelegate>
 

@@ -2,7 +2,7 @@
 //  MSCollectionViewAdPlacer.h
 //  AdExpress
 //
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
+//  Copyright (c) 2016 MeetSocial. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -16,7 +16,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * The `MSCollectionViewAdPlacer` class allows you to request native ads from the TradPlusAd ad server
+ * The `MSCollectionViewAdPlacer` class allows you to request native ads from the MeetSocial ad server
  * and place them into a `UICollectionView` object.
  *
  * When an instance of this class is initialized with a collection view, it wraps the collection
@@ -32,11 +32,11 @@
 
 /**
  * Creates and returns an ad placer that will insert ads into a collection view at positions that can
- * be configured dynamically on the TradPlusAd website.
+ * be configured dynamically on the MeetSocial website.
  *
- * When you make an ad request, the ad placer will ask the TradPlusAd ad server for the positions where
+ * When you make an ad request, the ad placer will ask the MeetSocial ad server for the positions where
  * ads should be inserted into the collection view. You can configure these positioning values by
- * editing your ad unit's settings on the TradPlusAd website.
+ * editing your ad unit's settings on the MeetSocial website.
  *
  * Using this method is equivalent to calling
  * +placerWithCollectionView:viewController:adPositioning:defaultAdRenderingClass: and passing in an
@@ -59,7 +59,7 @@
  *
  * First, you may pass an `MSServerAdPositioning` object as the `positioning` parameter, which tells
  * the ad placer to obtain positioning information dynamically from the ad server, which you can
- * configure on the TradPlusAd website. In many cases, this is the preferred approach, since it allows
+ * configure on the MeetSocial website. In many cases, this is the preferred approach, since it allows
  * you to modify the positions without rebuilding your application. Note that calling the
  * convenience method +placerWithCollectionView:viewController:defaultAdRenderingClass: accomplishes
  * this as well.
@@ -80,16 +80,16 @@
 /** @name Requesting Ads */
 
 /**
- * Requests ads from the TradPlusAd ad server using the specified ad unit ID.
+ * Requests ads from the MeetSocial ad server using the specified ad unit ID.
  *
- * @param adUnitID A string representing a TradPlusAd ad unit ID.
+ * @param adUnitID A string representing a MeetSocial ad unit ID.
  */
 - (void)loadAdsForAdUnitID:(NSString *)adUnitID;
 
 /**
- * Requests ads from the TradPlusAd ad server using the specified ad unit ID and targeting parameters.
+ * Requests ads from the MeetSocial ad server using the specified ad unit ID and targeting parameters.
  *
- * @param adUnitID A string representing a TradPlusAd ad unit ID.
+ * @param adUnitID A string representing a MeetSocial ad unit ID.
  * @param targeting An object containing targeting information, such as geolocation data.
  */
 - (void)loadAdsForAdUnitID:(NSString *)adUnitID targeting:(MSNativeAdRequestTargeting *)targeting;
@@ -99,7 +99,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * The TradPlusAd SDK adds interfaces to the `UICollectionView` class to help your application with
+ * The MeetSocial SDK adds interfaces to the `UICollectionView` class to help your application with
  * responsibilities related to `MSCollectionViewAdPlacer`. These APIs include methods to help notify
  * the ad placer of all modifications to the original collection view, as well as to simplify your
  * application code such that it does not need to perform index path manipulations to account for

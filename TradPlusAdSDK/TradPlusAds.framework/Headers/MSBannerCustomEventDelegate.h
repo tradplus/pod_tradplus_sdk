@@ -2,7 +2,7 @@
 //  MSBannerCustomEventDelegate.h
 //  AdExpress
 //
-//  Copyright (c) 2012 TradPlusAd, Inc. All rights reserved.
+//  Copyright (c) 2012 MeetSocial, Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -10,7 +10,7 @@
 
 /**
  * Instances of your custom subclass of `MSBannerCustomEvent` will have an `MSBannerCustomEventDelegate` delegate.
- * You use this delegate to communicate events ad events back to the TradPlusAd SDK.
+ * You use this delegate to communicate events ad events back to the MeetSocial SDK.
  *
  * When mediating a third party ad network it is important to call as many of these methods
  * as accurately as possible.  Not all ad networks support all these events, and some support
@@ -33,11 +33,11 @@
 /**
  * Call this method immediately after an ad loads succesfully.
  *
- * @param event You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
+ * @param event You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @param ad The `UIView` representing the banner ad.  This view will be inserted into the `MSAdView`
- * and presented to the user by the TradPlusAd SDK.
+ * and presented to the user by the MeetSocial SDK.
  *
  * @warning **Important**: Your custom event subclass **must** call this method when it successfully loads an ad.
  * Failure to do so will disrupt the mediation waterfall and cause future ad requests to stall.
@@ -47,7 +47,7 @@
 /**
  * Call this method immediately after an ad fails to load.
  *
- * @param event You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
+ * @param event You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @param error (*optional*) You may pass an error describing the failure.
@@ -65,7 +65,7 @@
  * This method is optional.  When automatic click and impression tracking is enabled (the default)
  * this method will track a click (the click is guaranteed to only be tracked once per ad).
  *
- * @param event You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
+ * @param event You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @warning **Important**: If you call `-bannerCustomEventWillBeginAction:`, you _**must**_ also call
@@ -78,7 +78,7 @@
  *
  * For example, the user may have dismissed any modal content. This method is optional.
  *
- * @param event You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
+ * @param event You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
  * instance of your custom event.
  *
  * @warning **Important**: If you call `-bannerCustomEventWillBeginAction:`, you _**must**_ also call
@@ -91,7 +91,7 @@
  *
  * For example, the user may have tapped on a link to visit the App Store or Safari.
  *
- * @param event You should pass `self` to allow the TradPlusAd SDK to associate this event with the correct
+ * @param event You should pass `self` to allow the MeetSocial SDK to associate this event with the correct
  * instance of your custom event.
  *
  */
@@ -103,7 +103,7 @@
  * Call this method to track an impression.
  *
  * @warning **Important**: You should **only** call this method if you have [opted out of automatic click and impression tracking]([MSBannerCustomEvent enableAutomaticImpressionAndClickTracking]).
- * By default the TradPlusAd SDK automatically tracks impressions.
+ * By default the MeetSocial SDK automatically tracks impressions.
  *
  * **Important**: In order to obtain accurate metrics, it is your responsibility to call `trackImpression` only **once** per ad.
  */
@@ -113,7 +113,7 @@
  * Call this method to track a click.
  *
  * @warning **Important**: You should **only** call this method if you have [opted out of automatic click and impression tracking]([MSBannerCustomEvent enableAutomaticImpressionAndClickTracking]).
- * By default the TradPlusAd SDK automatically tracks clicks.
+ * By default the MeetSocial SDK automatically tracks clicks.
  *
  * **Important**: In order to obtain accurate metrics, it is your responsibility to call `trackClick` only **once** per ad.
  */

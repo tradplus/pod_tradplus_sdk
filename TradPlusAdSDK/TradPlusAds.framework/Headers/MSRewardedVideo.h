@@ -16,7 +16,7 @@
  * reported, with an ad unit ID, to the delegate allowing the application to respond to the events
  * for the corresponding ad.
  *
- * **Important**: You must call `[initializeRewardedVideoWithGlobalMediationSettings:delegate:][TradPlusAd initializeRewardedVideoWithGlobalMediationSettings:delegate:]`
+ * **Important**: You must call `[initializeRewardedVideoWithGlobalMediationSettings:delegate:][MeetSocial initializeRewardedVideoWithGlobalMediationSettings:delegate:]`
  * to initialize the rewarded video system.
  */
 @interface MSRewardedVideo : NSObject
@@ -47,9 +47,9 @@
  * not pass in an mediation settings object for that network.
  *
  * @param adUnitID The ad unit ID that ads should be loaded from.
- * @param keywords A string representing a set of keywords that should be passed to the TradPlusAd ad server to receive
+ * @param keywords A string representing a set of keywords that should be passed to the MeetSocial ad server to receive
  * more relevant advertising.
- * @param location Latitude/Longitude that are passed to the TradPlusAd ad server
+ * @param location Latitude/Longitude that are passed to the MeetSocial ad server
  * @param mediationSettings An array of mediation settings objects that map to networks that may show ads for the ad unit ID. This array
  * should only contain objects for networks you wish to configure. This can be nil.
  */
@@ -64,9 +64,9 @@
  * not pass in an mediation settings object for that network.
  *
  * @param adUnitID The ad unit ID that ads should be loaded from.
- * @param keywords A string representing a set of keywords that should be passed to the TradPlusAd ad server to receive
+ * @param keywords A string representing a set of keywords that should be passed to the MeetSocial ad server to receive
  * more relevant advertising.
- * @param location Latitude/Longitude that are passed to the TradPlusAd ad server
+ * @param location Latitude/Longitude that are passed to the MeetSocial ad server
  * @param customerId This is the ID given to the user by the publisher to identify them in their app
  * @param mediationSettings An array of mediation settings objects that map to networks that may show ads for the ad unit ID. This array
  * should only contain objects for networks you wish to configure. This can be nil.

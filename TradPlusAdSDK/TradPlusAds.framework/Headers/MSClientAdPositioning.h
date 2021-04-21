@@ -2,7 +2,7 @@
 //  MSClientAdPositioning.h
 //  AdExpress
 //
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
+//  Copyright (c) 2016 MeetSocial. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -16,8 +16,8 @@
  * spaced intervals throughout your content.
  *
  * Unlike with `MSServerAdPositioning`, which tells an ad placer to obtain its positioning
- * information from the TradPlusAd ad server, client ad positioning does not allow you to control your ad
- * positions via the TradPlusAd website.
+ * information from the MeetSocial ad server, client ad positioning does not allow you to control your ad
+ * positions via the MeetSocial website.
  */
 
 @interface MSClientAdPositioning : MSAdPositioning

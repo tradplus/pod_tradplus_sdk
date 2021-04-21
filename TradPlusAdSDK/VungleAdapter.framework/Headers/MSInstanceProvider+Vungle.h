@@ -1,8 +1,8 @@
 //
 //  MSInstanceProvider+Vungle.h
-//  TradPlusAdSDK
+//  MeetSocialSDK
 //
-//  Copyright (c) 2015 TradPlusAd. All rights reserved.
+//  Copyright (c) 2015 MeetSocial. All rights reserved.
 //
 
 #import <TradPlusAds/MSInstanceProvider.h>

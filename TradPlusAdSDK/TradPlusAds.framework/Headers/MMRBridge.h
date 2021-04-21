@@ -2,7 +2,7 @@
 //  MMRBridge.h
 //  MsSDK
 //
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
+//  Copyright (c) 2016 MeetSocial. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -68,7 +68,7 @@
 - (void)bridge:(MMRBridge *)bridge didFailLoadingWebView:(MSWebView *)webView error:(NSError *)error;
 
 - (void)handleNativeCommandCloseWithBridge:(MMRBridge *)bridge;
-- (void)bridge:(MMRBridge *)bridge performActionForTradPlusAdSpecificURL:(NSURL *)url;
+- (void)bridge:(MMRBridge *)bridge performActionForMeetSocialSpecificURL:(NSURL *)url;
 - (void)bridge:(MMRBridge *)bridge handleDisplayForDestinationURL:(NSURL *)URL;
 - (void)bridge:(MMRBridge *)bridge handleNativeCommandUseCustomClose:(BOOL)useCustomClose;
 - (void)bridge:(MMRBridge *)bridge handleNativeCommandSetOrientationPropertiesWithForceOrientationMask:(UIInterfaceOrientationMask)forceOrientationMask;

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusAdSDK"
-  spec.version      = "5.4.7"
-  spec.summary      = "A short description of TradPlusAd SDK for iOS."
+  spec.version      = "5.4.1"
+  spec.summary      = "A short description of TradPlus SDK for iOS."
   spec.description  = <<-DESC
             TradPlus SDK 
                    DESC
@@ -37,16 +37,16 @@ Pod::Spec.new do |spec|
      ss.vendored_frameworks = 'TradPlusAdSDK/FacebookAdapter.framework'
   end
    
-  spec.subspec 'AdColonyAdapter' do |ss|
+  spec.subspec 'AdcolonyAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/AdColonyAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/AdcolonyAdapter.framework'
   end
    
-  spec.subspec 'AppLovinAdapter' do |ss|
+  spec.subspec 'ApplovinAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/AppLovinAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/ApplovinAdapter.framework'
   end
    
   spec.subspec 'GDTMobAdapter' do |ss|
@@ -114,17 +114,24 @@ Pod::Spec.new do |spec|
      ss.ios.deployment_target = '9.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/InMobiAdapter.framework'
   end   
-      
+   
+  spec.subspec 'StartAppAdapter' do |ss|
+     ss.dependency 'TradPlusAdSDK/TradPlusAds'
+     ss.ios.deployment_target = '9.0'
+     ss.vendored_frameworks = 'TradPlusAdSDK/StartAppAdapter.framework'
+  end   
+   
+  spec.subspec 'HeliumAdapter' do |ss|
+     ss.dependency 'TradPlusAdSDK/TradPlusAds'
+     ss.ios.deployment_target = '9.0'
+     ss.vendored_frameworks = 'TradPlusAdSDK/HeliumAdapter.framework'
+  end   
+   
   spec.subspec 'MintegralAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/MintegralAdapter.framework'
   end   
    
-  spec.subspec 'SmaatoAdapter' do |ss|
-     ss.dependency 'TradPlusAdSDK/TradPlusAds'
-     ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/SmaatoAdapter.framework'
-  end   
-   
+
 end

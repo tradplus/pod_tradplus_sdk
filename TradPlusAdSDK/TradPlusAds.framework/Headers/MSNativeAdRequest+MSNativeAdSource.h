@@ -2,7 +2,7 @@
 //  MSNativeAdRequest+MSNativeAdSource.h
 //  MsSDK
 //
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
+//  Copyright (c) 2016 MeetSocial. All rights reserved.
 //
 
 #import "MSNativeAdRequest.h"

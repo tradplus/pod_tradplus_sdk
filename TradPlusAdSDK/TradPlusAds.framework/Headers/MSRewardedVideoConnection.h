@@ -1,7 +1,7 @@
 //
 //  MSRewardedVideoConnection.h
 //  MsSDK
-//  Copyright © 2016 TradPlusAd. All rights reserved.
+//  Copyright © 2016 MeetSocial. All rights reserved.
 //
 
 @class MSRewardedVideoConnection;

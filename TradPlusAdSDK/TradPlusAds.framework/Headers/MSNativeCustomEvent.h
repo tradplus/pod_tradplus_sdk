@@ -1,25 +1,25 @@
 //
 //  MSNativeCustomEvent.h
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
+//  Copyright (c) 2016 MeetSocial. All rights reserved.
 //
 
 #import "MSNativeCustomEventDelegate.h"
 
 /**
- * The TradPlusAd iOS SDK mediates third-party native ad networks using custom events. Custom events are
+ * The MeetSocial iOS SDK mediates third-party native ad networks using custom events. Custom events are
  * responsible for instantiating and manipulating native ad objects in the third-party SDK and
- * translating and communicating events from those objects back to the TradPlusAd SDK by notifying a
+ * translating and communicating events from those objects back to the MeetSocial SDK by notifying a
  * delegate.
  *
  * `MSNativeCustomEvent` is a base class for custom events that support native ads. By implementing
- * subclasses of `MSNativeCustomEvent` you can enable the TradPlusAd SDK to support a variety of
+ * subclasses of `MSNativeCustomEvent` you can enable the MeetSocial SDK to support a variety of
  * third-party ad networks.
  *
  * Your implementation should create an `MSNativeAd` object using an appropriate `MSNativeAdAdapter`
  * for your network. Your custom event should also call the appropriate
  * `MSNativeCustomEventDelegate` methods.
  *
- * At runtime, the TradPlusAd SDK will find and instantiate an `MSNativeCustomEvent` subclass as needed
+ * At runtime, the MeetSocial SDK will find and instantiate an `MSNativeCustomEvent` subclass as needed
  * and invoke its `-requestAdWithCustomEventInfo:` method.
  */
 @interface MSNativeCustomEvent : NSObject
@@ -27,14 +27,14 @@
 /** @name Requesting a Native Ad */
 
 /**
- * Called when the TradPlusAd SDK requires a new native ad.
+ * Called when the MeetSocial SDK requires a new native ad.
  *
- * When the TradPlusAd SDK receives a response indicating it should load a custom event, it will send
+ * When the MeetSocial SDK receives a response indicating it should load a custom event, it will send
  * this message to your custom event class. Your implementation should load a native ad from a
  * third-party ad network.
  *
  * @param info A dictionary containing additional custom data associated with a given custom event
- * request. This data is configurable on the TradPlusAd website, and may be used to pass dynamic
+ * request. This data is configurable on the MeetSocial website, and may be used to pass dynamic
  * information, such as publisher IDs.
  */
 - (void)requestAdWithCustomEventInfo:(NSDictionary *)info;
@@ -57,12 +57,12 @@
  */
 - (void)precacheImagesWithURLs:(NSArray *)imageURLs completionBlock:(void (^)(NSArray *errors))completionBlock;
 
-/** @name Communicating with the TradPlusAd SDK */
+/** @name Communicating with the MeetSocial SDK */
 
 /**
  * The `MSNativeCustomEventDelegate` receives messages concerning the status of loading a native ad.
  *
- * The `delegate` object defines several methods that you should call in order to inform TradPlusAd
+ * The `delegate` object defines several methods that you should call in order to inform MeetSocial
  * of the progress of your custom event.
  */
 @property (nonatomic, weak) id<MSNativeCustomEventDelegate> delegate;

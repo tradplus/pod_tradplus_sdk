@@ -2,13 +2,13 @@
 //  MSMediationSettingsProtocol.h
 //  MsSDK
 //
-//  Copyright (c) 2015 TradPlusAd. All rights reserved.
+//  Copyright (c) 2015 MeetSocial. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 /**
- * The TradPlusAd SDK has a concept of mediation settings that allow you to define objects
+ * The MeetSocial SDK has a concept of mediation settings that allow you to define objects
  * that allow the application to configure specific settings for your custom event's ad
  * network.
  *
@@ -16,7 +16,7 @@
  * across all of your ad network's ads. Ideally this is where you will place settings necessary for
  * your ad network's intialization as well. The global medation setting object should be ready for
  * your custom event by the time you load the ad from your network. Inside your custom event, you can retrieve
- * the global mediation settings by calling `[-globalMediationSettingsForClass:]([TradPlusAd -globalMediationSettingsForClass:])`
+ * the global mediation settings by calling `[-globalMediationSettingsForClass:]([MeetSocial -globalMediationSettingsForClass:])`
  * passing in the class type of your global based mediation settings object.
  *
  * You can also define instance based mediation settings. The application may or may not define

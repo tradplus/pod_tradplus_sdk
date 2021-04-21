@@ -16,7 +16,7 @@ typedef void(^MSNativeAdRequestHandler)(MSNativeAdRequest *request,
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * The `MSNativeAdRequest` class is used to manage individual requests to the TradPlusAd ad server for
+ * The `MSNativeAdRequest` class is used to manage individual requests to the MeetSocial ad server for
  * native ads.
  *
  * @warning **Note:** This class is meant for one-off requests for which you intend to manually
@@ -31,7 +31,7 @@ typedef void(^MSNativeAdRequestHandler)(MSNativeAdRequest *request,
 /** @name Targeting Information */
 
 /**
- * An object representing targeting parameters that can be passed to the TradPlusAd ad server to
+ * An object representing targeting parameters that can be passed to the MeetSocial ad server to
  * serve more relevant advertising.
  */
 @property (nonatomic, strong) MSNativeAdRequestTargeting *targeting;
@@ -42,7 +42,7 @@ typedef void(^MSNativeAdRequestHandler)(MSNativeAdRequest *request,
  * Initializes a request object.
  *
  * @param identifier The ad unit identifier for this request. An ad unit is a defined placement in
- * your application set aside for advertising. Ad unit IDs are created on the TradPlusAd website.
+ * your application set aside for advertising. Ad unit IDs are created on the MeetSocial website.
  *
  * @param rendererConfigurations An array of MSNativeAdRendererConfiguration objects that control how
  * the native ad is rendered.
@@ -52,7 +52,7 @@ typedef void(^MSNativeAdRequestHandler)(MSNativeAdRequest *request,
 + (MSNativeAdRequest *)requestWithAdUnitIdentifier:(NSString *)identifier rendererConfigurations:(NSArray *)rendererConfigurations;
 
 /**
- * Executes a request to the TradPlusAd ad server.
+ * Executes a request to the MeetSocial ad server.
  *
  * @param handler A block to execute when the request finishes. The block includes as parameters the
  * request itself and either a valid MSNativeAd or an NSError object indicating failure.
@@ -60,7 +60,7 @@ typedef void(^MSNativeAdRequestHandler)(MSNativeAdRequest *request,
 - (void)startWithCompletionHandler:(MSNativeAdRequestHandler)handler;
 
 /**
- * if it's TradPlusAd native, restart load, through original process.
+ * if it's meetsocial native, restart load, through original process.
  */
 - (void)restartLoadAd;
 @end

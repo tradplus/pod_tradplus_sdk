@@ -2,7 +2,7 @@
 //  MSNativeAdRenderer.h
 //  MsSDK
 //
-//  Copyright (c) 2015 TradPlusAd. All rights reserved.
+//  Copyright (c) 2015 MeetSocial. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -22,7 +22,7 @@
 typedef CGSize (^MSNativeViewSizeHandler)(CGFloat maximumWidth);
 
 /**
- * The TradPlusAd SDK has a concept of native ad renderer that allows you to render the ad however you want. It also gives you the
+ * The MeetSocial SDK has a concept of native ad renderer that allows you to render the ad however you want. It also gives you the
  * ability to expose configurable properties through renderer settings objects to the application that influence how you render
  * your native custom event's view.
  *
@@ -43,13 +43,13 @@ typedef CGSize (^MSNativeViewSizeHandler)(CGFloat maximumWidth);
  * @param rendererSettings Application defined settings that you should store in the configuration object that you
  * construct.
  *
- * @return A configuration object that allows the TradPlusAd SDK to instantiate your renderer with the application
+ * @return A configuration object that allows the MeetSocial SDK to instantiate your renderer with the application
  * settings and for the supported ad types.
  */
 + (MSNativeAdRendererConfiguration *)rendererConfigurationWithRendererSettings:(id<MSNativeAdRendererSettings>)rendererSettings;
 
 /**
- * This is the init method that will be called when the TradPlusAd SDK initializes your renderer.
+ * This is the init method that will be called when the MeetSocial SDK initializes your renderer.
  *
  * @param rendererSettings The renderer settings object that corresponds to your renderer.
  */

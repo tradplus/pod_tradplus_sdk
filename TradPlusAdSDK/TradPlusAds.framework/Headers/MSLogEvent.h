@@ -2,7 +2,7 @@
 //  MSLogEvent.h
 //  MsSDK
 //
-//  Copyright (c) 2015 TradPlusAd. All rights reserved.
+//  Copyright (c) 2015 MeetSocial. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -70,7 +70,7 @@ extern NSString *const MSLogEventCategoryAdInteractions;
 
 /**
  * The event or error category. This is typically set to the component in which the event
- * or error occurred. Examples include "network", "mraid_video", "TradPlusAd_native", "facebook_banner",
+ * or error occurred. Examples include "network", "mraid_video", "meetsocial_native", "facebook_banner",
  * "server_positioning", "client_positioning".
  */
 @property (nonatomic, copy) NSString *eventCategory;
@@ -89,12 +89,12 @@ extern NSString *const MSLogEventCategoryAdInteractions;
 /* Ad details */
 
 /**
- * The TradPlusAd AdUnit ID string that is associated with the event.
+ * The MeetSocial AdUnit ID string that is associated with the event.
  */
 @property (nonatomic, copy) NSString *adUnitId;
 
 /**
- * The TradPlusAd Creative ID string that is associated with the event.
+ * The MeetSocial Creative ID string that is associated with the event.
  */
 @property (nonatomic, copy) NSString *adCreativeId;
 
@@ -154,12 +154,12 @@ extern NSString *const MSLogEventCategoryAdInteractions;
 /* Request details */
 
 /**
- * The unique ID created by the TradPlusAd ad server for the ad request
+ * The unique ID created by the MeetSocial ad server for the ad request
  */
 @property (nonatomic, copy) NSString *requestId;
 
 /**
- * The status code of the request from the TradPlusAd ad server
+ * The status code of the request from the MeetSocial ad server
  */
 @property (nonatomic) NSUInteger requestStatusCode;
 
@@ -177,7 +177,7 @@ extern NSString *const MSLogEventCategoryAdInteractions;
 /** SDK details */
 
 /**
- * The current TradPlusAd SDK version, e.g. "3.1.0"
+ * The current MeetSocial SDK version, e.g. "3.1.0"
  */
 @property (nonatomic, copy, readonly) NSString *sdkVersion;
 

@@ -2,7 +2,7 @@
 //  MSStreamAdPlacer.h
 //  AdExpress
 //
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
+//  Copyright (c) 2016 MeetSocial. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,7 +15,7 @@
 @class MSNativeAd;
 
 /**
- * The `MSStreamAdPlacer` class allows you to retrieve native ads from the TradPlusAd ad server and
+ * The `MSStreamAdPlacer` class allows you to retrieve native ads from the MeetSocial ad server and
  * place them into any custom UI component that represents a stream of content. It does not actually
  * present or insert any ads on its own; you must provide a delegate conforming to the
  * `MSStreamAdPlacerDelegate` protocol to handle ad insertions.
@@ -103,16 +103,16 @@
 - (CGSize)sizeForAdAtIndexPath:(NSIndexPath *)indexPath withMaximumWidth:(CGFloat)maxWidth;
 
 /**
- * Requests ads from the TradPlusAd ad server using the specified ad unit ID.
+ * Requests ads from the MeetSocial ad server using the specified ad unit ID.
  *
- * @param adUnitID A string representing a TradPlusAd ad unit ID.
+ * @param adUnitID A string representing a MeetSocial ad unit ID.
  */
 - (void)loadAdsForAdUnitID:(NSString *)adUnitID;
 
 /**
- * Requests ads from the TradPlusAd ad server using the specified ad unit ID and targeting parameters.
+ * Requests ads from the MeetSocial ad server using the specified ad unit ID and targeting parameters.
  *
- * @param adUnitID A string representing a TradPlusAd ad unit ID.
+ * @param adUnitID A string representing a MeetSocial ad unit ID.
  * @param targeting An object containing targeting information, such as geolocation data.
  */
 - (void)loadAdsForAdUnitID:(NSString *)adUnitID targeting:(MSNativeAdRequestTargeting *)targeting;
