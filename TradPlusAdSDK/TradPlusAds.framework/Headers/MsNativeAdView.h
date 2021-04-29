@@ -18,6 +18,11 @@ NS_ASSUME_NONNULL_BEGIN
 //- (instancetype)initWithPlacement:(NSString *)placementID;
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)loadAd;
+
+//模版渲染类型的广告 可以设置在load成功后不进行渲染 后续手动调用render方法
+- (void)loadAdWithTemplateNativeNotRender;
+- (void)templateNativeRender:(CGSize)size;
+
 - (NSString *)getLoadDetailInfo;
 
 @property (nonatomic, weak, nullable) id<MsNativeAdViewDelegate> delegate;

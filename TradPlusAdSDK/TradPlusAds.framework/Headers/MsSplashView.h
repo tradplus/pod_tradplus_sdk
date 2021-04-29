@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MsSplashView : UIView
 @property (nonatomic, weak, nullable) id<MsSplashViewDelegate> delegate;
 @property (nonatomic, strong) NSString *channelName;
+//相关回调时可以访问到的具体渠道信息。
+@property (nonatomic, strong) NSMutableDictionary *dicChannelInfo;
 @property (nonatomic) BOOL isAdReady;
 @property (nonatomic, assign) NSTimeInterval adTimeoutInterval; //default 3s
 //流量分组

@@ -4,6 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @class MSNativeAd;
 @class MSNativeAdRequest;
@@ -63,4 +64,5 @@ typedef void(^MSNativeAdRequestHandler)(MSNativeAdRequest *request,
  * if it's TradPlusAd native, restart load, through original process.
  */
 - (void)restartLoadAd;
+- (void)templateNativeRender:(CGSize)size;
 @end

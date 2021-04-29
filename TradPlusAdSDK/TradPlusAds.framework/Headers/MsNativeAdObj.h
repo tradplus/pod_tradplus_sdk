@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id<MsNativeAdObjDelegate> delegate;
 @property (nonatomic, strong) NSString *channelName;
 @property (nonatomic, copy) NSString *placementID;
+@property (nonatomic, assign) CGSize sizeNativeView; //模版渲染的原生广告 需要提供尺寸
 
 @end
 
