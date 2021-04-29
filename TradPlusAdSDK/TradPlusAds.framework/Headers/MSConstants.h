@@ -1,7 +1,7 @@
 //
 //  MSConstants.h
 //
-//  Copyright 2016 MeetSocial, Inc. All rights reserved.
+//  Copyright 2016 TradPlusAd, Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,14 +12,14 @@
 
 #define DEFAULT_PUB_ID              @"agltb3B1Yi1pbmNyDAsSBFNpdGUYkaoMDA"
 #define MS_SERVER_VERSION           @"8"
-#define MS_BUNDLE_IDENTIFIER        @"com.meetsocial.meetsocial"
-#define MS_SDK_VERSION              @"5.4.1"
+#define MS_BUNDLE_IDENTIFIER        @"com.TradPlusAd.TradPlusAd"
+#define MS_SDK_VERSION              @"5.4.7.1"
 
 // Sizing constants.
-extern CGSize const MeetSocial_BANNER_SIZE;
-extern CGSize const MeetSocial_MEDIUM_RECT_SIZE;
-extern CGSize const MeetSocial_LEADERBOARD_SIZE;
-extern CGSize const MeetSocial_WIDE_SKYSCRAPER_SIZE;
+extern CGSize const TradPlusAd_BANNER_SIZE;
+extern CGSize const TradPlusAd_MEDIUM_RECT_SIZE;
+extern CGSize const TradPlusAd_LEADERBOARD_SIZE;
+extern CGSize const TradPlusAd_WIDE_SKYSCRAPER_SIZE;
 
 // Miscellaneous constants.
 #define MINIMUM_REFRESH_INTERVAL            10.0

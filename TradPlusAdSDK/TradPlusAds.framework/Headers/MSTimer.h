@@ -2,7 +2,7 @@
 //  MSTimer.h
 //  AdExpress
 //
-//  Copyright 2016 MeetSocial, Inc. All rights reserved.
+//  Copyright 2016 TradPlusAd, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

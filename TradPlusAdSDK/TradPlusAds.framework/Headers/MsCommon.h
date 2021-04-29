@@ -72,8 +72,7 @@ typedef enum
     NETWORK_APPLOVIN  = 9,
     NETWORK_IRONSOURCE,
 //    NETWORK_INMOBI,
-    NETWORK_SMAATO   = 12,
-    NETWORK_ADEXPRESS,
+    NETWORK_ADEXPRESS = 13,
     NETWORK_MOBFOX,
     NETWORK_CHARTBOOST,
     NETWORK_GDTMOB,
@@ -85,7 +84,8 @@ typedef enum
     NETWORK_INMOBI   = 23,
     NETWORK_YOUDAO   = 25,     //有道
     NETWORK_STARTAPP = 28,
-    NETWORK_HELIUM   = 30      
+    NETWORK_HELIUM   = 30,
+    NETWORK_SMAATO   = 38
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject

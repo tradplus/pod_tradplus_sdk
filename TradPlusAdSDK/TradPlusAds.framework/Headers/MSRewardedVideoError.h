@@ -2,7 +2,7 @@
 //  MSRewardedVideoError.h
 //  MsSDK
 //
-//  Copyright (c) 2015 MeetSocial. All rights reserved.
+//  Copyright (c) 2015 TradPlusAd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -19,4 +19,4 @@ typedef enum {
     MSRewardedVideoAdErrorInvalidAdUnitID = -1500
 } MSRewardedVideoErrorCode;
 
-extern NSString * const MeetSocialRewardedVideoAdsSDKDomain;
+extern NSString * const TradPlusAdRewardedVideoAdsSDKDomain;

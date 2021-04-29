@@ -2,7 +2,7 @@
 //  MSAdServerURLBuilder.h
 //  AdExpress
 //
-//  Copyright (c) 2012 MeetSocial. All rights reserved.
+//  Copyright (c) 2012 TradPlusAd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

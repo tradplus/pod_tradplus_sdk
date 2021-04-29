@@ -30,6 +30,8 @@
  * A dictionary representing the native ad properties.
  */
 @property (nonatomic, readonly) NSDictionary *properties;
+@property (nonatomic, assign) BOOL isTemplateRender;
+@property (nonatomic, strong) UIView *templateView;
 
 - (instancetype)initWithAdAdapter:(id<MSNativeAdAdapter>)adAdapter;
 

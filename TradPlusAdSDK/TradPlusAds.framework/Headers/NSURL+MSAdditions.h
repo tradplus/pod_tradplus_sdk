@@ -8,18 +8,18 @@
 #import <Foundation/Foundation.h>
 
 typedef enum {
-    MSMeetSocialHostCommandUnrecognized,
-    MSMeetSocialHostCommandClose,
-    MSMeetSocialHostCommandFinishLoad,
-    MSMeetSocialHostCommandFailLoad,
-    MSMeetSocialHostCommandPrecacheComplete,
-    MSMeetSocialHostCommandRewardedVideoEnded
-} MSMeetSocialHostCommand;
+    MSTradPlusAdHostCommandUnrecognized,
+    MSTradPlusAdHostCommandClose,
+    MSTradPlusAdHostCommandFinishLoad,
+    MSTradPlusAdHostCommandFailLoad,
+    MSTradPlusAdHostCommandPrecacheComplete,
+    MSTradPlusAdHostCommandRewardedVideoEnded
+} MSTradPlusAdHostCommand;
 
 typedef enum {
-    MSMeetSocialShareHostCommandTweet,
-    MSMeetSocialShareHostCommandUnrecognized
-} MSMeetSocialShareHostCommand;
+    MSTradPlusAdShareHostCommandTweet,
+    MSTradPlusAdShareHostCommandUnrecognized
+} MSTradPlusAdShareHostCommand;
 
 @interface NSURL (MSAdditions)
 
@@ -29,9 +29,9 @@ typedef enum {
 - (BOOL)mp_hasTelephoneScheme;
 - (BOOL)mp_hasTelephonePromptScheme;
 - (BOOL)mp_isSafeForLoadingWithoutUserAction;
-- (BOOL)mp_isMeetSocialScheme;
-- (MSMeetSocialHostCommand)mp_fluteHostCommand;
-- (BOOL)mp_isMeetSocialShareScheme;
-- (MSMeetSocialShareHostCommand)mp_MeetSocialShareHostCommand;
+- (BOOL)mp_isTradPlusAdScheme;
+- (MSTradPlusAdHostCommand)mp_fluteHostCommand;
+- (BOOL)mp_isTradPlusAdShareScheme;
+- (MSTradPlusAdShareHostCommand)mp_TradPlusAdShareHostCommand;
 
 @end

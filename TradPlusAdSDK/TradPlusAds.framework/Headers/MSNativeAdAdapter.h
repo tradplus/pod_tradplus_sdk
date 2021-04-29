@@ -1,6 +1,6 @@
 //
 //  MSNativeAdAdapter.h
-//  Copyright (c) 2016 MeetSocial. All rights reserved.
+//  Copyright (c) 2016 TradPlusAd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -10,7 +10,7 @@
 /**
  * Classes that conform to the `MSNativeAdAdapter` protocol can have an
  * `MSNativeAdAdapterDelegate` delegate object. You use this delegate to communicate
- * native ad events (such as impressions and clicks occurring) back to the MeetSocial SDK.
+ * native ad events (such as impressions and clicks occurring) back to the TradPlusAd SDK.
  */
 @protocol MSNativeAdAdapterDelegate <NSObject>
 
@@ -50,7 +50,7 @@
 /**
  * This method is called before the backing native ad logs an impression.
  *
- * @param adAdapter You should pass `self` to allow the MeetSocial SDK to associate this event with the
+ * @param adAdapter You should pass `self` to allow the TradPlusAd SDK to associate this event with the
  * correct instance of your ad adapter.
  */
 - (void)nativeAdWillLogImpression:(id<MSNativeAdAdapter>)adAdapter;
@@ -58,7 +58,7 @@
 /**
  * This method is called when the user interacts with the ad.
  *
- * @param adAdapter You should pass `self` to allow the MeetSocial SDK to associate this event with the
+ * @param adAdapter You should pass `self` to allow the TradPlusAd SDK to associate this event with the
  * correct instance of your ad adapter.
  */
 - (void)nativeAdClicked:(id<MSNativeAdAdapter>)adAdapter;
@@ -66,9 +66,9 @@
 @end
 
 /**
- * The `MSNativeAdAdapter` protocol allows the MeetSocial SDK to interact with native ad objects obtained
+ * The `MSNativeAdAdapter` protocol allows the TradPlusAd SDK to interact with native ad objects obtained
  * from third-party ad networks. An object that adopts this protocol acts as a wrapper for a native
- * ad object, translating its proprietary interface into a common one that the MeetSocial SDK can
+ * ad object, translating its proprietary interface into a common one that the TradPlusAd SDK can
  * understand.
  *
  * An object that adopts this protocol must implement the `properties` property to specify a
@@ -141,7 +141,7 @@
 /**
  * The `MSNativeAdAdapterDelegate` to send messages to as events occur.
  *
- * The `delegate` object defines several methods that you should call in order to inform MeetSocial
+ * The `delegate` object defines several methods that you should call in order to inform TradPlusAd
  * of interactions with the ad. This delegate needs to be implemented if third party impression and/or
  * click tracking is enabled.
  */

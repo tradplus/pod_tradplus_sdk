@@ -1,8 +1,8 @@
 //
 //  UnityRouter.h
-//  MeetSocialSDK
+//  TradPlusAdSDK
 //
-//  Copyright (c) 2016 MeetSocial. All rights reserved.
+//  Copyright (c) 2016 TradPlusAd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
