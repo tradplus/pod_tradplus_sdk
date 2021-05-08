@@ -17,14 +17,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *channelName;
 //相关回调时可以访问到的具体渠道信息。
 @property (nonatomic, strong) NSMutableDictionary *dicChannelInfo;
-@property (nonatomic) BOOL isAdReady;
+@property (nonatomic, assign) BOOL isAdReady;
 @property (nonatomic, assign) NSTimeInterval adTimeoutInterval; //default 3s
 //流量分组
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 //穿山甲开屏底部预留空白的高度，可在show的时候customView传入对应高度的view，view的frame自行设置。
 //default 0
-@property (nonatomic) int pangleBottomHeight;
+@property (nonatomic, assign) int pangleBottomHeight;
+@property (nonatomic, assign) BOOL isAdLoading;
 
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)loadAd;

@@ -35,6 +35,8 @@ NS_ASSUME_NONNULL_BEGIN
 //流量分组
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
+
+@property (nonatomic, assign) BOOL isAdLoading;
 @end
 
 @protocol MsNativeAdViewDelegate <NSObject>

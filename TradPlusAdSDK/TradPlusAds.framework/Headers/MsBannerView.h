@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 //流量分组
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
-@property (nonatomic, strong) UIView *realAdView;
+@property (nonatomic, assign) BOOL isAdLoading;
 
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)loadAd;
