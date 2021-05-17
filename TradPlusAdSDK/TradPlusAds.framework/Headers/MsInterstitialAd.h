@@ -51,6 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)interstitialAdLoaded:(MsInterstitialAd *)interstitialAd;
 - (void)interstitialAd:(MsInterstitialAd *)interstitialAd didFailWithError:(NSError *)error;
 - (void)interstitialAdShown:(MsInterstitialAd *)interstitialAd;
+- (void)interstitialAdFailToPlay:(MsInterstitialAd *)interstitialAd error:(NSError *)error;
 - (void)interstitialAdClicked:(MsInterstitialAd *)interstitialAd;
 - (void)interstitialAdDismissed:(MsInterstitialAd *)interstitialAd;
 //for debug

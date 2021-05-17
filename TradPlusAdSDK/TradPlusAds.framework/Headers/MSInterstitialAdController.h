@@ -244,4 +244,6 @@
 
 - (void)interstitialDidLoadWinningBidWithInfo:(MSInterstitialAdController *)interstitial bidInfo:(NSDictionary *)bidInfo;
 
+- (void)interstitialDidFailToPlay:(MSInterstitialAdController *)interstitial error:(NSError *)error;
+
 @end

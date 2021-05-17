@@ -64,5 +64,6 @@
 - (void)interstitialDidReceiveTapEventForAdapter:(MSBaseInterstitialAdapter *)adapter;
 - (void)interstitialWillLeaveApplicationForAdapter:(MSBaseInterstitialAdapter *)adapter;
 - (void)interstitialDidLoadWinningBidWithInfoForAdapter:(MSBaseInterstitialAdapter *)adapter bidInfo:(NSDictionary *)bidInfo;
+- (void)interstitialCustomEventDidFailToPlayForAdapter:(MSBaseInterstitialAdapter *)customEvent error:(NSError *)error;
 
 @end

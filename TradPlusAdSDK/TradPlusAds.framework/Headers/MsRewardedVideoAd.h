@@ -54,6 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardedVideoAdLoaded:(MsRewardedVideoAd *)rewardedVideoAd;
 - (void)rewardedVideoAd:(MsRewardedVideoAd *)rewardedVideoAd didFailWithError:(NSError *)error;
 - (void)rewardedVideoAdShown:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdDidFailToPlay:(MsRewardedVideoAd *)rewardedVideoAd error:(NSError *)error;
 - (void)rewardedVideoAdClicked:(MsRewardedVideoAd *)rewardedVideoAd;
 - (void)rewardedVideoAdDismissed:(MsRewardedVideoAd *)rewardedVideoAd;
 //have reward

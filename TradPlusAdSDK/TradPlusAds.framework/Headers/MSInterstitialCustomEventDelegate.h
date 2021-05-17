@@ -170,4 +170,6 @@
 
 - (void)interstitialCustomEventDidLoadWinningBidWithInfo:(MSInterstitialCustomEvent *)customEvent bidInfo:(NSDictionary *)bidInfo;
 
+- (void)interstitialCustomEventDidFailToPlay:(MSInterstitialCustomEvent *)customEvent error:(NSError *)error;
+
 @end
