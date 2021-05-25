@@ -28,10 +28,10 @@
 "The configured policy is empty" = "配置的策略为空";
 "File download error" = "文件下载错误";
 "Reward Video ad play error" = "激励视频播放出错";
-"Ad is not ready" = "激励视频未准备好";
+"Ad is not ready" = "广告未准备好";
 "The advertising information sent by server is missing key information" = "server下发的广告信息缺失关键信息";
 "The downloaded file checked md5 error" = "下载的文件校验md5出错";
-"Ad download is timeout" = "下载广告超时";
+"Ad download is timeout" = "广告加载超时";
 "Splash ads does not support the direction of the current application" = "开屏广告不支持当前应用的方向";
 "Splash ads does not support the type of resources" = "开屏广告不支持的资源类型";
 "The AD is not ready or expired" = "广告未准备好或者广告已过期";
@@ -46,6 +46,11 @@
 "Mraid ads does not support the application os version" = "Mraid Ad不支持当前os_version";
 "Not loaded into resource bundle(Sigmob.bundle)" = "缺少资源包Sigmob.bundle";
 "Placement id is empty" = "广告位id为空";
+"The adapter version of the channel does not match" = "渠道的适配器版本不匹配";
+"The AD cannot be loaded during the playback. Please do automatic loading when the AD is closed" = "广告正在播放中，如果需要自动加载，请在广告关闭的回调中处理";
+"The AD is loading, please wait" = "广告正在加载中，请稍后";
+"Ads load too frequently, please try again later" = "广告加载频繁，请稍后在试";
+
 
 //splash Ad
 "Skip Ad" = "跳过广告";

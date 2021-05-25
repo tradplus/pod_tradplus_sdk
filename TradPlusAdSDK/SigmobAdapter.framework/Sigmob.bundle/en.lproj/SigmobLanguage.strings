@@ -46,9 +46,12 @@
 "Mraid ads does not support the application os version" = "Mraid ads does not support the application os version";
 "Not loaded into resource bundle(Sigmob.bundle)" = "Not loaded into resource bundle(Sigmob.bundle)";
 "Placement id is empty" = "Placement id is empty";
-
+"The adapter version of the channel does not match" = "The adapter version of the channel does not match";
+"The AD cannot be loaded during the playback. Please do automatic loading when the AD is closed" = "The AD cannot be loaded during the playback. Please do automatic loading when the AD is closed";
+"The AD is loading, please wait" = "The AD is loading, please wait";
+"Ads load too frequently, please try again later" = "Ads load too frequently, please try again later";
 //splash Ad
-"Skip Ad" = "Skip Ad";b
+"Skip Ad" = "Skip Ad";
 "Skip" = "Skip";
 "Ad" = "Ad";
 
