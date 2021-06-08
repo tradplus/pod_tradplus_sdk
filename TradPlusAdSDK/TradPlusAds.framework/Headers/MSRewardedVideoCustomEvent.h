@@ -1,10 +1,3 @@
-//
-//  MSRewardedVideoCustomEvent.h
-//  MsSDK
-//
-//  Copyright (c) 2015 TradPlusAd. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
@@ -12,19 +5,6 @@
 @protocol MSMediationSettingsProtocol;
 
 @class MSRewardedVideoReward;
-
-/**
- * The TradPlusAd iOS SDK mediates third party Ad Networks using custom events.  The custom events are
- * responsible for instantiating and manipulating objects in the third party SDK and translating
- * and communicating events from those objects back to the TradPlusAd SDK by notifying a delegate.
- *
- * `MSRewardedVideoCustomEvent` is a base class for custom events that support full-screen rewarded video ads.
- * By implementing subclasses of `MSRewardedVideoCustomEvent` you can enable the TradPlusAd SDK to
- * natively support a wide variety of third-party ad networks.
- *
- * At runtime, the TradPlusAd SDK will find and instantiate an `MSRewardedVideoCustomEvent` subclass as needed and
- * invoke its `-requestRewardedVideoWithCustomEventInfo:` method.
- */
 
 @interface MSRewardedVideoCustomEvent : NSObject
 
@@ -303,4 +283,6 @@
  *  Head Bidding return bid info.
  */
 - (void)rewardedVideoDidLoadWinningBidWithInfoForCustomEvent:(MSRewardedVideoCustomEvent *)customEvent bidInfo:(NSDictionary*)bidInfo;
+- (void)rewardedVideoDidPlayStartForCustomEvent:(MSRewardedVideoCustomEvent *)customEvent;
+- (void)rewardedVideoDidPlayEndForCustomEvent:(MSRewardedVideoCustomEvent *)customEvent;
 @end

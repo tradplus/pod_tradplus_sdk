@@ -56,7 +56,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)interstitialAdDismissed:(MsInterstitialAd *)interstitialAd;
 //for debug
 - (void)loadingInfoChangedI:(MsInterstitialAd *)interstitialAd;
-
 @end
 
 NS_ASSUME_NONNULL_END

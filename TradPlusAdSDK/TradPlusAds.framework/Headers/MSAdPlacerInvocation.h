@@ -1,10 +1,3 @@
-//
-//  MSAdPlacerInvocation.h
-//  MsSDK
-//
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 @class MSStreamAdPlacer;

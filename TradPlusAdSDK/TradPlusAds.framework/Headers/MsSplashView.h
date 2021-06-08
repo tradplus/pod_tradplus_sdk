@@ -28,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isAdLoading;
 
 - (void)setAdUnitID:(NSString *)adUnitID;
+
 - (void)loadAd;
 //部分渠道 不支持customView 和skipView 将自动忽略这两个参数
 - (void)showAdInKeyWindow:(UIWindow *)window customView:(nullable UIView *)customView skipView:(nullable UIView *)skipView;

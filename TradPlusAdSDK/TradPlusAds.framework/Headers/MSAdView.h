@@ -17,6 +17,7 @@ typedef enum
 
 @protocol MSAdViewDelegate;
 
+NS_ASSUME_NONNULL_BEGIN
 /**
  * The MSAdView class provides a view that can display banner advertisements.
  */
@@ -289,5 +290,8 @@ typedef enum
  * @param view The ad view sending the message.
  */
 - (void)willLeaveApplicationFromAd:(MSAdView *)view;
-- (void)splashAdShown;
+- (void)adViewDidShown:(MSAdView *)view;
+
+NS_ASSUME_NONNULL_END
+
 @end

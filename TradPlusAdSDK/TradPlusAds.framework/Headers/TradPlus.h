@@ -3,21 +3,20 @@
 //  TradPlusAds
 //
 //  Created by ms-mac on 2020/10/12.
-//  Copyright © 2020 ms-mac. All rights reserved.
+//  Copyright © 2020 TradPlusAd All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "MSLogging.h"
+#import "MsCommon.h"
 
-/// Position of the AdChoices icon in the containing ad.
+NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
     AdMobAdChoicesPositionTopRightCorner,     ///< Top right corner.
     AdMobAdChoicesPositionTopLeftCorner,      ///< Top left corner.
     AdMobAdChoicesPositionBottomRightCorner,  ///< Bottom right corner.
     AdMobAdChoicesPositionBottomLeftCorner    ///< Bottom Left Corner.
 };
-
-NS_ASSUME_NONNULL_BEGIN
 
 @interface TradPlus : NSObject
 + (instancetype)sharedInstance;
@@ -26,9 +25,16 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)getVersion;
 + (void)setLogLevel:(MSLogLevel)level;
 
-+ (void)setCCPA:(BOOL)isCCPA;
-+ (void)setCOPPAChild:(BOOL)isCOPPAChild;
++ (void)setGDPRDataCollection:(BOOL)canDataCollection;
++ (MSConsentStatus)getGDPRDataCollection;
+
++ (void)setCCPADoNotSell:(BOOL)isCCPA;
++ (void)setCOPPAIsAgeRestrictedUser:(BOOL)isAgeRestrictedUser;
 + (void)setAuthUID:(BOOL)authUID;
++ (void)setDevAllowTracking:(BOOL)allowTracking;
+
+
++ (BOOL)isAllowTracking;
 
 + (void)setAdMobNativeLogoPosition:(AdMobAdChoicesPosition)positionType;
 @property (nonatomic, strong) NSString *appId;

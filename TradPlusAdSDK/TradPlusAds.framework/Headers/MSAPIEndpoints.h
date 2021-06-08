@@ -1,10 +1,3 @@
-//
-//  MSAPIEndpoints.h
-//  AdExpress
-//
-//  Copyright (c) 2015 TradPlusAd. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 #define TradPlusAd_BASE_HOSTNAME_FOR_TESTING     @"testing.ads.TradPlusAd.com"

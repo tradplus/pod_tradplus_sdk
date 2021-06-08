@@ -1,10 +1,3 @@
-//
-//  MMRConstants.h
-//  MsSDK
-//
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
-//
-
 enum {
     MMRAdViewStateHidden,
     MMRAdViewStateDefault,

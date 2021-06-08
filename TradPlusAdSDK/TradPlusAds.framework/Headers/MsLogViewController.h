@@ -3,7 +3,7 @@
 //  TradPlusAds
 //
 //  Created by hy on 2020/4/21.
-//  Copyright © 2020 TradPlus. All rights reserved.
+//  Copyright © 2020 TradPlusAd All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

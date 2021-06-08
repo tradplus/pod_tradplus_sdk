@@ -65,5 +65,7 @@
 - (void)interstitialWillLeaveApplicationForAdapter:(MSBaseInterstitialAdapter *)adapter;
 - (void)interstitialDidLoadWinningBidWithInfoForAdapter:(MSBaseInterstitialAdapter *)adapter bidInfo:(NSDictionary *)bidInfo;
 - (void)interstitialCustomEventDidFailToPlayForAdapter:(MSBaseInterstitialAdapter *)customEvent error:(NSError *)error;
+- (void)interstitialDidPlayStartForAdapter:(MSBaseInterstitialAdapter *)adapter;
+- (void)interstitialDidPlayEndForAdapter:(MSBaseInterstitialAdapter *)adapter;
 
 @end

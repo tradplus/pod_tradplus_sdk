@@ -51,4 +51,5 @@
 - (UIView *)retrieveAdViewWithError:(Class)renderingViewClass error:(NSError **)error;
 
 - (void)trackMetricForURL:(NSURL *)URL;
+
 @end

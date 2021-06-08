@@ -15,7 +15,7 @@
 + (NSString *)os;
 + (NSString *)osVersion;
 + (NSString *)isADTrackLimited;
-+ (NSString *)idfa;
++ (NSString *)getIDFA;
 + (NSString *)deviceType;
 + (NSString *)type;
 + (NSString *)getScreenScale;
@@ -27,6 +27,9 @@
 + (NSString *)getMCC;
 + (NSString *)getCurrentLanguage;
 + (NSString *)resolution;
+
+//横竖屏
++ (int)orientation;
 
 //流量分组
 + (NSString *)app_ver;

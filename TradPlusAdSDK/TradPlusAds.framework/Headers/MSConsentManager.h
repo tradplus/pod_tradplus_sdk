@@ -1,18 +1,7 @@
 
 #import <UIKit/UIKit.h>
 #import "TPConsentDialogViewController.h"
-
-typedef NS_ENUM(NSInteger, MSBool) {
-    MSBoolNo = -1,
-    MSBoolUnknown = 0,
-    MSBoolYes = 1,
-};
-
-typedef NS_ENUM(NSInteger, MSConsentStatus) {
-    MSConsentStatusUnknown = 0,
-    MSConsentStatusDenied,
-    MSConsentStatusConsented
-};
+#import "MsCommon.h"
 
 @interface MSConsentManager : NSObject
 

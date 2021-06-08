@@ -76,5 +76,5 @@
  * current application (e.g. the ad action opens the iTunes store, Mobile Safari, etc).
  */
 - (void)userWillLeaveApplicationFromAdapter:(MSBaseBannerAdapter *)adapter;
-- (void)splashAdShownForAdapter:(MSBaseBannerAdapter *)adapter;
+- (void)adViewDidShownForAdapter:(MSBaseBannerAdapter *)adapter;
 @end

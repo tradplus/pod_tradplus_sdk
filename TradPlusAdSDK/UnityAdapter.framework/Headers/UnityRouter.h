@@ -1,10 +1,3 @@
-//
-//  UnityRouter.h
-//  TradPlusAdSDK
-//
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <UnityAds/UnityAds.h>
 #import <UnityAds/UnityAdsExtended.h>

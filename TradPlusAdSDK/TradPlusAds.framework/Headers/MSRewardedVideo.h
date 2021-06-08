@@ -94,6 +94,7 @@
  */
 + (void)presentRewardedVideoAdForAdUnitID:(NSString *)adUnitID fromViewController:(UIViewController *)viewController;
 
++ (void)removeRewardedVideoAdForAdUnitID:(NSString *)adUnitID;
 @end
 
 @protocol MSRewardedVideoDelegate <NSObject>
@@ -181,4 +182,6 @@
 - (void)rewardedVideoAdShouldRewardForAdUnitID:(NSString *)adUnitID reward:(MSRewardedVideoReward *)reward;
 
 - (void)rewardedVideoDidLoadWinningBidWithInfoForAdUnitID:(NSString *)adUnitID bidInfo:(NSDictionary *)bidInfo;
+- (void)rewardedVideoDidPlayStartForAdUnitID:(NSString *)adUnitID;
+- (void)rewardedVideoDidPlayEndForAdUnitID:(NSString *)adUnitID;
 @end

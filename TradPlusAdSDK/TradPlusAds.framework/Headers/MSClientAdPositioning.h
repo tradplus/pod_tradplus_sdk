@@ -1,24 +1,5 @@
-//
-//  MSClientAdPositioning.h
-//  AdExpress
-//
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import "MSAdPositioning.h"
-
-/**
- * The `MSClientAdPositioning` class is a model that allows you to control the positions where
- * native advertisements should appear within a stream. A positioning object works in conjunction
- * with an ad placer, giving the ad placer the information it needs to configure the positions and
- * frequency of ads. You can specify that ads should appear at fixed index paths and/or at equally
- * spaced intervals throughout your content.
- *
- * Unlike with `MSServerAdPositioning`, which tells an ad placer to obtain its positioning
- * information from the TradPlusAd ad server, client ad positioning does not allow you to control your ad
- * positions via the TradPlusAd website.
- */
 
 @interface MSClientAdPositioning : MSAdPositioning
 

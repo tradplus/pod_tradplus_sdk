@@ -2,7 +2,7 @@
 //  MsOfferwallAd.h
 //
 //  Created by ms-mac on 2017/1/12.
-//  Copyright © 2017年 ms-mac. All rights reserved.
+//  Copyright © 2017年 TradPlusAd All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

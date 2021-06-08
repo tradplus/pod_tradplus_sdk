@@ -3,7 +3,7 @@
 //  TradPlusAds
 //
 //  Created by hy on 2020/6/11.
-//  Copyright © 2020 ms-mac. All rights reserved.
+//  Copyright © 2020 TradPlusAd All rights reserved.
 //
 
 #import "MSNativeAd.h"

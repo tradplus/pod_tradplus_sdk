@@ -1,10 +1,3 @@
-//
-//  MMRBridge.h
-//  MsSDK
-//
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 #import "MMRConstants.h"
 #import "MSWebView.h"
@@ -12,13 +5,6 @@
 @class MMRProperty;
 @protocol MMRBridgeDelegate;
 
-/**
- * The `MMRBridge` class is an intermediate object between native code and JavaScript for
- * MMRAID ads. The MMRAID web view communicates events to `MMRBridge` which translates them
- * down to native code. Likewise, native code will communicate with `MMRBridge` to execute
- * commands inside the JavaScript. `MMRBridge` also inserts mraid.js into the web view when
- * loading an ad's HTML.
- */
 @interface MMRBridge : NSObject
 
 @property (nonatomic, assign) BOOL shouldHandleRequests;

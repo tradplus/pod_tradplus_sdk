@@ -1,10 +1,3 @@
-//
-//  AdExpress.h
-//  AdExpress
-//
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
-//
-
 #import "MSConstants.h"
 
 #if __has_include("MSStaticNativeAdView.h")

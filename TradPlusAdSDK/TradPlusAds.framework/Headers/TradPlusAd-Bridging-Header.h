@@ -1,10 +1,3 @@
-//
-//  AdExpress-Bridging-Header.h
-//  MsSDK
-//
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
-//
-
 #import "TradPlusAd.h"
 
 #import "MSAdConversionTracker.h"

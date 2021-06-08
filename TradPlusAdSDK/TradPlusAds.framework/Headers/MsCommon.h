@@ -2,7 +2,7 @@
 //  MsCommon.h
 //
 //  Created by ms-mac on 2016/12/1.
-//  Copyright © 2016年 TradPlus. All rights reserved.
+//  Copyright © 2016年 TradPlusAd All rights reserved.
 //
 
 
@@ -18,12 +18,24 @@ extern BOOL gMsSDKAllowWrite;
 extern BOOL gMsSDKAuthUID;
 extern BOOL gMsSDKIsCN;
 extern int gMsEventInterval;
-extern int gMsCCPA;
-extern int gMsCOPPAChild;
+extern int gMsHTTPTimeout;
+extern int gMsPayLoadTimeout;
 extern NSString * const gConsentStatusStorageKey;
 extern NSString * const gGDPRAppliesStorageKey;
 extern NSString * const gEventServerDefaultURL;
 
+
+typedef NS_ENUM(NSInteger, MSBool) {
+    MSBoolNo = -1,
+    MSBoolUnknown = 0,
+    MSBoolYes = 1,
+};
+
+typedef NS_ENUM(NSInteger, MSConsentStatus) {
+    MSConsentStatusUnknown = 0,
+    MSConsentStatusDenied,
+    MSConsentStatusConsented
+};
 
 typedef enum
 {
@@ -43,6 +55,10 @@ typedef enum
     EV_PRE_LOAD_ADCONF       = 400,
     EV_LOAD_AD_START         = 500,
     EV_LOAD_AD               = 600,
+    EV_BID_START             = 610,
+    EV_BID_END               = 611,
+    EV_BID_WIN               = 620,
+    EV_BID_LOST              = 621,
     EV_LOAD_NETWORK_AD_START = 700,
     EV_LOAD_NETWORK_AD       = 800,
     EV_LOAD_FIRST_NETWORK_AD = 805,
@@ -53,6 +69,7 @@ typedef enum
     EV_SHOW_AD               = 1100,
     EV_CLICK_AD              = 1200,
     EV_AD_VIDEO_START        = 1300,
+    EV_BID_IMP               = 1320,
     EV_AD_VIDEO_CLOSE        = 1400,
     EV_AD_VIDEO_REWARD       = 1500,
     //custom
@@ -72,7 +89,8 @@ typedef enum
     NETWORK_APPLOVIN  = 9,
     NETWORK_IRONSOURCE,
 //    NETWORK_INMOBI,
-    NETWORK_ADEXPRESS = 13,
+//    NETWORK_SMAATO   = 12,
+    NETWORK_ADEXPRESS   = 13,
     NETWORK_MOBFOX,
     NETWORK_CHARTBOOST,
     NETWORK_GDTMOB,
@@ -83,9 +101,11 @@ typedef enum
     NETWORK_SIGMOB,
     NETWORK_INMOBI   = 23,
     NETWORK_YOUDAO   = 25,     //有道
-    NETWORK_STARTAPP = 28,
     NETWORK_HELIUM   = 30,
-    NETWORK_SMAATO   = 38
+    NETWORK_MAIO     = 31,
+    NETWORK_MYTARGET = 33,
+    NETWORK_SMAATO   = 38,
+    NETWORK_TPADX    = 40
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject
@@ -114,4 +134,6 @@ typedef enum
 + (NSString *)handleAdUnitId:(NSString *)adUnitId;
 + (BOOL)isScreenPortrait;
 + (void)changeCNValue:(id)cnObj;
+
++ (NSString *)generateAdUnitId:(NSDictionary *)wfItem;
 @end

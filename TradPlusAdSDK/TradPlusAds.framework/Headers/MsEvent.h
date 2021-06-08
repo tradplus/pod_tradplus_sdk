@@ -3,7 +3,7 @@
 //  TradPlusSDKSample
 //
 //  Created by ms-mac on 2019/11/5.
-//  Copyright © 2019 TradPlus. All rights reserved.
+//  Copyright © 2019 TradPlusAd All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

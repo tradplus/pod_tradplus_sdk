@@ -1,10 +1,3 @@
-//
-//  MSInternalUtils.h
-//  MsSDK
-//
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 #define SUPPRESS_PERFORM_SELECTOR_LEAK_WARNING(code)                        \

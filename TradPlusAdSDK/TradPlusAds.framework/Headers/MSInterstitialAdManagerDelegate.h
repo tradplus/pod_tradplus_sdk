@@ -26,5 +26,7 @@ didFailToLoadInterstitialWithError:(NSError *)error;
 - (void)managerDidLoadWinningBidWithInfoFromInterstitial:(MSInterstitialAdManager *)manager bidInfo:(NSDictionary *)bidInfo;
 - (void)managerDidFailToPlayFromInterstitial:(MSInterstitialAdManager *)manager error:(NSError *)error;
 - (NSDictionary *)managerGetAdConfig;
+- (void)managerDidPlayStartInterstitial:(MSInterstitialAdManager *)manager;
+- (void)managerDidPlayEndInterstitial:(MSInterstitialAdManager *)manager;
 
 @end

@@ -1,9 +1,3 @@
-//
-//  MSRewardedVideoConnection.h
-//  MsSDK
-//  Copyright © 2016 TradPlusAd. All rights reserved.
-//
-
 @class MSRewardedVideoConnection;
 
 @protocol MSRewardedVideoConnectionDelegate <NSObject>

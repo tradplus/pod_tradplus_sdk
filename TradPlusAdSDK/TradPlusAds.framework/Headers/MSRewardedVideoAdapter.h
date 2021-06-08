@@ -1,10 +1,3 @@
-//
-//  MSRewardedVideoAdapter.h
-//  MsSDK
-//
-//  Copyright (c) 2015 TradPlusAd. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "MSPrivateRewardedVideoCustomEventDelegate.h"
@@ -51,7 +44,7 @@
  * represents.
  */
 - (void)handleAdPlayedForCustomEventNetwork;
-
+- (void)removeRewardedVideoAd;
 @end
 
 @protocol MSRewardedVideoAdapterDelegate <NSObject>
@@ -70,6 +63,8 @@
 - (void)rewardedVideoWillLeaveApplicationForAdapter:(MSRewardedVideoAdapter *)adapter;
 - (void)rewardedVideoShouldRewardUserForAdapter:(MSRewardedVideoAdapter *)adapter reward:(MSRewardedVideoReward *)reward;
 - (void)rewardedVideoDidLoadWinningBidWithInfoForAdapter:(MSRewardedVideoAdapter *)adapter bidInfo:(NSDictionary*)bidInfo;
+- (void)rewardedVideoDidPlayStartForAdapter:(MSRewardedVideoAdapter *)adapter;
+- (void)rewardedVideoDidPlayEndForAdapter:(MSRewardedVideoAdapter *)adapter;
 
 @optional
 - (NSString *)rewardedVideoAdUnitId;

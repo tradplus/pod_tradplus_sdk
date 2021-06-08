@@ -1,10 +1,3 @@
-//
-//  MSAdServerURLBuilder.h
-//  AdExpress
-//
-//  Copyright (c) 2012 TradPlusAd. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 @interface MSAdServerURLBuilder : NSObject

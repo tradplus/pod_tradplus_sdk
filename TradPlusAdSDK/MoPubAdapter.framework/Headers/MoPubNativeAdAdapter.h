@@ -1,4 +1,4 @@
-#import <MoPub/MoPub.h>
+#import <MoPubSDK/MoPub.h>
 #import <TradPlusAds/MSNativeAdAdapter.h>
 
 @interface MoPubNativeAdAdapter : NSObject <MSNativeAdAdapter>

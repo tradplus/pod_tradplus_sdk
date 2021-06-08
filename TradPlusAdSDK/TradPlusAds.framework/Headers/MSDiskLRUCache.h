@@ -1,9 +1,3 @@
-//
-//  MSDiskLRUCache.h
-//  
-//  Copyright (c) 2016 TradPlusAd. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 @interface MSDiskLRUCache : NSObject

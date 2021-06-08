@@ -36,6 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)MsBannerViewLoaded:(MsBannerView *)adView;
 - (void)MsBannerView:(MsBannerView *)adView didFailWithError:(NSError *)error;
+- (void)MsBannerViewShown:(MsBannerView *)adView;
 - (void)MsBannerViewClicked:(MsBannerView *)adView;
 @end
 NS_ASSUME_NONNULL_END

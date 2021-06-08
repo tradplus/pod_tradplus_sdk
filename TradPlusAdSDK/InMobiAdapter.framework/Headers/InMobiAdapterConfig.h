@@ -3,7 +3,7 @@
 //  InMobiAdapter
 //
 //  Created by ms-mac on 2020/10/13.
-//  Copyright © 2020 ms-mac. All rights reserved.
+//  Copyright © 2020 TradPlusAd All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

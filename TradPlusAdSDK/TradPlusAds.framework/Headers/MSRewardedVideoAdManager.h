@@ -1,10 +1,3 @@
-//
-//  MSRewardedVideoAdManager.h
-//  MsSDK
-//
-//  Copyright (c) 2015 TradPlusAd. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
@@ -63,7 +56,7 @@
  * represents.
  */
 - (void)handleAdPlayedForCustomEventNetwork;
-
+- (void)removeRewardedVideoAd;
 @end
 
 @protocol MSRewardedVideoAdManagerDelegate <NSObject>
@@ -80,5 +73,7 @@
 - (void)rewardedVideoWillLeaveApplicationForAdManager:(MSRewardedVideoAdManager *)manager;
 - (void)rewardedVideoShouldRewardUserForAdManager:(MSRewardedVideoAdManager *)manager reward:(MSRewardedVideoReward *)reward;
 - (void)rewardedVideoDidLoadWinningBidWithInfoForAdManager:(MSRewardedVideoAdManager *)manager bidInfo:(NSDictionary*)bidInfo;
+- (void)rewardedVideoDidPlayStartForAdManager:(MSRewardedVideoAdManager *)manager;
+- (void)rewardedVideoDidPlayEndForAdManager:(MSRewardedVideoAdManager *)manager;
 
 @end

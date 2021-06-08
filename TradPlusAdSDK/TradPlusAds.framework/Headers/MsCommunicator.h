@@ -3,7 +3,7 @@
 //  TradPlusDemo
 //
 //  Created by ms-mac on 2016/11/30.
-//  Copyright © 2016年 TradPlus. All rights reserved.
+//  Copyright © 2016年 TradPlusAd All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
