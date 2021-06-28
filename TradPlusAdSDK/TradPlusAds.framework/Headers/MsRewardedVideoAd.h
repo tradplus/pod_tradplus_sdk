@@ -64,6 +64,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 //for debug
 - (void)loadingInfoChangedR:(MsRewardedVideoAd *)rewardedVideoAd;
+
+- (void)rewardedVideoAdBidStart:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdBidEnd:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdLoadStart:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdPlayStart:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdPlayEnd:(MsRewardedVideoAd *)rewardedVideoAd;
 @end
 
 NS_ASSUME_NONNULL_END

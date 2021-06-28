@@ -120,5 +120,6 @@
 - (void)trackClick;
 
 - (void)adViewDidShown:(MSBannerCustomEvent *)event;
+- (void)adViewCountdownToZero:(MSBannerCustomEvent *)event;
 //- (void)splashAdDismissed:(MSBannerCustomEvent *)event;
 @end

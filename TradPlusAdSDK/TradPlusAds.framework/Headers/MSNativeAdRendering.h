@@ -102,4 +102,5 @@
  */
 + (UINib *)nibForAd;
 
+- (NSArray <UIView *> *)clickableViews;
 @end

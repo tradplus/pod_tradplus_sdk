@@ -291,6 +291,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)willLeaveApplicationFromAd:(MSAdView *)view;
 - (void)adViewDidShown:(MSAdView *)view;
+- (void)adViewCountdownToZero:(MSAdView *)view;
 
 NS_ASSUME_NONNULL_END
 

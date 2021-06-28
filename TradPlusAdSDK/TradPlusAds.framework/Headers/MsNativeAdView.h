@@ -47,6 +47,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)nativeAdLoaded:(MsNativeAdView *)nativeAd;
 - (void)nativeAd:(MsNativeAdView *)nativeAd didFailWithError:(NSError *)error;
 - (void)nativeAdClicked:(MsNativeAdView *)nativeAd;
+
+- (void)nativeAdBidStart:(MsNativeAdView *)nativeAd;
+- (void)nativeAdBidEnd:(MsNativeAdView *)nativeAd;
+- (void)nativeAdLoadStart:(MsNativeAdView *)nativeAd;
+- (void)nativeAdAllLoaded:(MsNativeAdView *)nativeAd;
 @end
 
 NS_ASSUME_NONNULL_END

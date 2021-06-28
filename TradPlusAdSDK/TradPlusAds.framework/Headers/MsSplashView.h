@@ -29,6 +29,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)setAdUnitID:(NSString *)adUnitID;
 
+//设置本地策略 首次启动时不用从TradPlus后台拉取策略
+- (void)setStrategy:(NSString *)base64Strategy;
+
 - (void)loadAd;
 //部分渠道 不支持customView 和skipView 将自动忽略这两个参数
 - (void)showAdInKeyWindow:(UIWindow *)window customView:(nullable UIView *)customView skipView:(nullable UIView *)skipView;
@@ -42,6 +45,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)MsSplashView:(MsSplashView *)adView didFailWithError:(NSError *)error;
 - (void)MsSplashViewClicked:(MsSplashView *)adView;
 - (void)MsSplashViewShown:(MsSplashView *)adView;
+- (void)MsSplashViewCountdownToZero:(MsSplashView *)adView;
 - (void)MsSplashViewDismissed:(MsSplashView *)adView;
+
+- (void)MsSplashViewBidStart:(MsSplashView *)adView;
+- (void)MsSplashViewBidEnd:(MsSplashView *)adView;
+- (void)MsSplashViewLoadStart:(MsSplashView *)adView;
 @end
 NS_ASSUME_NONNULL_END
