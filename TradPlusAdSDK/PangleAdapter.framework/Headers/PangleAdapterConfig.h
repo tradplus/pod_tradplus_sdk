@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setPrivacy:(NSDictionary *)info;
 
 + (void)initPangleSDK:(NSString *)appid isCN:(BOOL)isCN;
+
++ (NSString *)getNotificationStr;
 @end
 
 NS_ASSUME_NONNULL_END
