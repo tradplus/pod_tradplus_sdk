@@ -24,6 +24,9 @@ extern NSString * const gConsentStatusStorageKey;
 extern NSString * const gGDPRAppliesStorageKey;
 extern NSString * const gEventServerDefaultURL;
 
+extern NSString * const kTPCapHourLimit;
+extern NSString * const kTPCapDayLimit;
+extern NSString * const kTPPacingLimit;
 
 typedef NS_ENUM(NSInteger, MSBool) {
     MSBoolNo = -1,
