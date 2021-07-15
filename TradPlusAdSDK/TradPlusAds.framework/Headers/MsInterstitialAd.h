@@ -47,21 +47,25 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol MsInterstitialAdDelegate <NSObject>
 @optional
-- (void)interstitialAdAllLoaded:(MsInterstitialAd *)interstitialAd readyCount:(int)readyCount;
-- (void)interstitialAdLoaded:(MsInterstitialAd *)interstitialAd;
-- (void)interstitialAd:(MsInterstitialAd *)interstitialAd didFailWithError:(NSError *)error;
+- (void)interstitialAdDidLoaded:(MsInterstitialAd *)interstitialAd;
+- (void)interstitialAd:(MsInterstitialAd *)interstitialAd didFailedWithError:(NSError *)error;
 - (void)interstitialAdShown:(MsInterstitialAd *)interstitialAd;
 - (void)interstitialAdFailToPlay:(MsInterstitialAd *)interstitialAd error:(NSError *)error;
 - (void)interstitialAdClicked:(MsInterstitialAd *)interstitialAd;
 - (void)interstitialAdDismissed:(MsInterstitialAd *)interstitialAd;
-//for debug
-- (void)loadingInfoChangedI:(MsInterstitialAd *)interstitialAd;
 
+- (void)interstitialAdAllLoaded:(MsInterstitialAd *)interstitialAd readyCount:(int)readyCount;
+- (void)interstitialAdOneLayerLoaded:(MsInterstitialAd *)interstitialAd;
+- (void)interstitialAdOneLayer:(MsInterstitialAd *)interstitialAd didFailWithError:(NSError *)error;
 - (void)interstitialAdBidStart:(MsInterstitialAd *)interstitialAd;
 - (void)interstitialAdBidEnd:(MsInterstitialAd *)interstitialAd;
 - (void)interstitialAdLoadStart:(MsInterstitialAd *)interstitialAd;
 - (void)interstitialAdPlayStart:(MsInterstitialAd *)interstitialAd;
 - (void)interstitialAdPlayEnd:(MsInterstitialAd *)interstitialAd;
+
+//for debug
+- (void)loadingInfoChangedI:(MsInterstitialAd *)interstitialAd;
+
 @end
 
 NS_ASSUME_NONNULL_END

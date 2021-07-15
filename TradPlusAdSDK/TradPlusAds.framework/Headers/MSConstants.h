@@ -13,7 +13,7 @@
 #define DEFAULT_PUB_ID              @"agltb3B1Yi1pbmNyDAsSBFNpdGUYkaoMDA"
 #define MS_SERVER_VERSION           @"8"
 #define MS_BUNDLE_IDENTIFIER        @"com.TradPlusAd.TradPlusAd"
-#define MS_SDK_VERSION              @"5.7.2.1.1"
+#define MS_SDK_VERSION              @"5.7.3"
 
 // Sizing constants.
 extern CGSize const TradPlusAd_BANNER_SIZE;

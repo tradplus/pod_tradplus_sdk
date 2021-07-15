@@ -50,9 +50,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol MsRewardedVideoAdDelegate <NSObject>
 @optional
-- (void)rewardedVideoAdAllLoaded:(MsRewardedVideoAd *)rewardedVideoAd readyCount:(int)readyCount;
-- (void)rewardedVideoAdLoaded:(MsRewardedVideoAd *)rewardedVideoAd;
-- (void)rewardedVideoAd:(MsRewardedVideoAd *)rewardedVideoAd didFailWithError:(NSError *)error;
+- (void)rewardedVideoAdDidLoaded:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAd:(MsRewardedVideoAd *)rewardedVideoAd didFailedWithError:(NSError *)error;
 - (void)rewardedVideoAdShown:(MsRewardedVideoAd *)rewardedVideoAd;
 - (void)rewardedVideoAdDidFailToPlay:(MsRewardedVideoAd *)rewardedVideoAd error:(NSError *)error;
 - (void)rewardedVideoAdClicked:(MsRewardedVideoAd *)rewardedVideoAd;
@@ -62,14 +61,18 @@ NS_ASSUME_NONNULL_BEGIN
 //no reward
 - (void)rewardedVideoAdShouldNotReward:(MsRewardedVideoAd *)rewardedVideoAd;
 
-//for debug
-- (void)loadingInfoChangedR:(MsRewardedVideoAd *)rewardedVideoAd;
-
+- (void)rewardedVideoAdAllLoaded:(MsRewardedVideoAd *)rewardedVideoAd readyCount:(int)readyCount;
+- (void)rewardedVideoAdOneLayerLoaded:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdOneLayer:(MsRewardedVideoAd *)rewardedVideoAd didFailWithError:(NSError *)error;
 - (void)rewardedVideoAdBidStart:(MsRewardedVideoAd *)rewardedVideoAd;
 - (void)rewardedVideoAdBidEnd:(MsRewardedVideoAd *)rewardedVideoAd;
 - (void)rewardedVideoAdLoadStart:(MsRewardedVideoAd *)rewardedVideoAd;
 - (void)rewardedVideoAdPlayStart:(MsRewardedVideoAd *)rewardedVideoAd;
 - (void)rewardedVideoAdPlayEnd:(MsRewardedVideoAd *)rewardedVideoAd;
+
+//for debug
+- (void)loadingInfoChangedR:(MsRewardedVideoAd *)rewardedVideoAd;
+
 @end
 
 NS_ASSUME_NONNULL_END
