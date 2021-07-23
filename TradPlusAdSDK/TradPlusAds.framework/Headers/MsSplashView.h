@@ -26,6 +26,8 @@ NS_ASSUME_NONNULL_BEGIN
 //default 0
 @property (nonatomic, assign) int pangleBottomHeight;
 @property (nonatomic, assign) BOOL isAdLoading;
+//开屏的方向 目前admob会使用 默认为手机当前的orientation
+@property (nonatomic, assign) UIInterfaceOrientation orientation;
 
 - (void)setAdUnitID:(NSString *)adUnitID;
 
