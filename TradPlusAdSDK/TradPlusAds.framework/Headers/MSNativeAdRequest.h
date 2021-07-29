@@ -65,4 +65,8 @@ typedef void(^MSNativeAdRequestHandler)(MSNativeAdRequest *request,
  */
 - (void)restartLoadAd;
 - (void)templateNativeRender:(CGSize)size;
+
+///MsNativeAdView 当被add时的事件 某些源需要在这时做展现或其他操作
+- (void)nativeDidShow;
+
 @end

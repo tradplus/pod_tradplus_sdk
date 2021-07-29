@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) Class YDRenderingViewClass; //有道专用 布局类
 @property (nonatomic, weak, nullable) id<MsNativeAdsLoaderDelegate> delegate;
 @property (nonatomic) BOOL isLoading;
+@property (nonatomic, assign) NSTimeInterval timeoutInterval; //超时秒数，默认10
 //流量分组
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;

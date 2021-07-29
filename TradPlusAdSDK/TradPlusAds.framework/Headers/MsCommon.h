@@ -22,6 +22,9 @@ extern int gMsHTTPTimeout;
 extern int gMsPayLoadTimeout;
 extern NSString * const gConsentStatusStorageKey;
 extern NSString * const gGDPRAppliesStorageKey;
+extern NSString * const gTPCCPAStorageKey;
+extern NSString * const gTPCOPPAStorageKey;
+extern NSString * const gTPATTEnableStorageKey;
 extern NSString * const gEventServerDefaultURL;
 
 extern NSString * const kTPCapHourLimit;

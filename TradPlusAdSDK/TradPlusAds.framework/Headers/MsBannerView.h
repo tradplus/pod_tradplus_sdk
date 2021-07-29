@@ -25,6 +25,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)loadAd;
+/// @param sceneId 场景ID
+- (void)loadAd:(nullable NSString *)sceneId;
+/// 进入广告场景
+/// @param sceneId 场景ID
+- (void)entryAdScenario:(nullable NSString *)sceneId;
 - (NSString *)getLoadDetailInfo;
 @end
 

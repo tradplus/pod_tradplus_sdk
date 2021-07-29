@@ -18,7 +18,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)initializeWithGameId:(NSString *)appid appkey:(NSString *)appkey;
 - (void)requestFullscreenVideoAdWithAppId:(NSString *)appId appKey:(NSString *)appKey placementId:(NSString *)placementId delegate:(id<SigmobRouterDelegate>)delegate;
+
+//v5.7.4.0 增加参数 userId
+- (void)requestVideoAdWithAppId:(NSString *)appId appKey:(NSString *)appKey placementId:(NSString *)placementId userId:(NSString *)userId delegate:(id<SigmobRouterDelegate>)delegate;
+
 - (void)requestVideoAdWithAppId:(NSString *)appId appKey:(NSString *)appKey placementId:(NSString *)placementId delegate:(id<SigmobRouterDelegate>)delegate;
+
+
 - (void)presentFullscreenVideoAdFromViewController:(UIViewController *)viewController placementId:(NSString *)placementId           delegate:(id<SigmobRouterDelegate>)delegate;
 - (void)presentVideoAdFromViewController:(UIViewController *)viewController placementId:(NSString *)placementId           delegate:(id<SigmobRouterDelegate>)delegate;
 - (void)clearDelegate:(id<SigmobRouterDelegate>)delegate;

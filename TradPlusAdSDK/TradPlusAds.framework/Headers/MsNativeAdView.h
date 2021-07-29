@@ -18,10 +18,18 @@ NS_ASSUME_NONNULL_BEGIN
 //- (instancetype)initWithPlacement:(NSString *)placementID;
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)loadAd;
+/// @param sceneId 场景ID
+- (void)loadAd:(nullable NSString *)sceneId;
 
 //模版渲染类型的广告 可以设置在load成功后不进行渲染 后续手动调用render方法
 - (void)loadAdWithTemplateNativeNotRender;
+/// @param sceneId 场景ID
+- (void)loadAdWithTemplateNativeNotRender:(nullable NSString *)sceneId;
 - (void)templateNativeRender:(CGSize)size;
+
+/// 进入广告场景
+/// @param sceneId 场景ID
+- (void)entryAdScenario:(nullable NSString *)sceneId;
 
 - (NSString *)getLoadDetailInfo;
 

@@ -38,6 +38,7 @@
  * However, if an ad has been played for the last time a load was issued and load is called again, the method will request a new ad.
  */
 - (void)loadRewardedVideoAdWithKeywords:(NSString *)keywords customerId:(NSString *)customerId;
+- (void)loadRewardedVideoAdWithTimeoutInterval:(NSTimeInterval)interval customerId:(NSString *)customerId;
 
 /**
  * Tells the caller whether the underlying ad network currently has an ad available for presentation.

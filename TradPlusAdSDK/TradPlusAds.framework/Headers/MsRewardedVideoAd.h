@@ -46,6 +46,14 @@ NS_ASSUME_NONNULL_BEGIN
 //850埋点 用于统计广告展示前的广告ready比率
 - (void)entryAdScenario; //没有设置广告场景
 - (void)entryAdScenario:(nullable NSString *)sceneId; //后台设置了广告场景
+
+
+
+/// 设置服务器端奖励验证用户数据
+/// @param userID 用户唯一识别码 必填
+/// @param customData 附加信息 根据平台要求填写
+- (void)setServerSideVerificationOptionsWithUserID:(nonnull NSString *)userID customData:(nullable NSString *)customData;
+
 @end
 
 @protocol MsRewardedVideoAdDelegate <NSObject>

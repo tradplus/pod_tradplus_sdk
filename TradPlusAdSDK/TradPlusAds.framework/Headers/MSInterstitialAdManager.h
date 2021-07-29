@@ -21,6 +21,7 @@
 - (void)loadInterstitialWithAdUnitID:(NSString *)ID
                             keywords:(NSString *)keywords
                              testing:(BOOL)testing;
+- (void)loadInterstitialWithAdUnitID:(NSString *)ID interval:(NSTimeInterval)interval;
 - (void)loadInterstitialWithURL:(NSURL *)url;
 - (void)presentInterstitialFromViewController:(UIViewController *)controller;
 

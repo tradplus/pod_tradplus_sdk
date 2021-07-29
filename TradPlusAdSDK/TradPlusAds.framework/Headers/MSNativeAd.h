@@ -33,6 +33,10 @@
 @property (nonatomic, assign) BOOL isTemplateRender;
 @property (nonatomic, strong) UIView *templateView;
 
+//v5.7.4.0
+///隐藏associatedView MyTarget Native 需要隐藏
+@property (nonatomic,assign) BOOL hideAssociatedView;
+
 - (instancetype)initWithAdAdapter:(id<MSNativeAdAdapter>)adAdapter;
 
 /** @name Retrieving Ad View */
