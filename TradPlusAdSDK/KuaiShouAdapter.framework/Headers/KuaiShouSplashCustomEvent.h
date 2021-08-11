@@ -1,9 +1,9 @@
-#import <TradPlusAds/MSBannerCustomEvent.h>
+#import <TradPlusAds/MSInterstitialCustomEvent.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface KuaiShouSplashCustomEvent : MSBannerCustomEvent
+@interface KuaiShouSplashCustomEvent : MSInterstitialCustomEvent
 
 @end
 

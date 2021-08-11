@@ -24,5 +24,5 @@
 - (void)loadInterstitialWithAdUnitID:(NSString *)ID interval:(NSTimeInterval)interval;
 - (void)loadInterstitialWithURL:(NSURL *)url;
 - (void)presentInterstitialFromViewController:(UIViewController *)controller;
-
+- (void)showSplashInWindow:(UIWindow *)window withBottomView:(nullable UIView *)bottomView;
 @end

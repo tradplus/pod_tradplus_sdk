@@ -68,6 +68,7 @@ typedef enum
     EV_LOAD_NETWORK_AD_START = 700,
     EV_LOAD_NETWORK_AD       = 800,
     EV_LOAD_FIRST_NETWORK_AD = 805,
+    EV_LOAD_FIRST_SUCCESS_AD = 808,
     EV_LOAD_AD_RESULT        = 810,
     EV_NETWORK_AD_ISREADY    = 850,
     EV_IS_READY              = 900,
