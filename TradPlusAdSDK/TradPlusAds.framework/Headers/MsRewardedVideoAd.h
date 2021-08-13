@@ -58,28 +58,28 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol MsRewardedVideoAdDelegate <NSObject>
 @optional
-- (void)rewardedVideoAdDidLoaded:(NSDictionary *)dicChannelInfo;
-- (void)rewardedVideoAd:(NSDictionary *)dicChannelInfo didFailedWithError:(NSError *)error;
-- (void)rewardedVideoAdShown:(NSDictionary *)dicChannelInfo;
-- (void)rewardedVideoAdDidFailToPlay:(NSDictionary *)dicChannelInfo error:(NSError *)error;
-- (void)rewardedVideoAdClicked:(NSDictionary *)dicChannelInfo;
-- (void)rewardedVideoAdDismissed:(NSDictionary *)dicChannelInfo;
+- (void)rewardedVideoAdDidLoaded:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAd:(MsRewardedVideoAd *)rewardedVideoAd didFailedWithError:(NSError *)error;
+- (void)rewardedVideoAdShown:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdDidFailToPlay:(MsRewardedVideoAd *)rewardedVideoAd error:(NSError *)error;
+- (void)rewardedVideoAdClicked:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdDismissed:(MsRewardedVideoAd *)rewardedVideoAd;
 //have reward
-- (void)rewardedVideoAdShouldReward:(NSDictionary *)dicChannelInfo reward:(MSRewardedVideoReward *)reward;
+- (void)rewardedVideoAdShouldReward:(MsRewardedVideoAd *)rewardedVideoAd reward:(MSRewardedVideoReward *)reward;
 //no reward
-- (void)rewardedVideoAdShouldNotReward:(NSDictionary *)dicChannelInfo;
+- (void)rewardedVideoAdShouldNotReward:(MsRewardedVideoAd *)rewardedVideoAd;
 
-- (void)rewardedVideoAdAllLoaded:(int)readyCount;
-- (void)rewardedVideoAdOneLayerLoaded:(NSDictionary *)dicChannelInfo;
-- (void)rewardedVideoAdOneLayer:(NSDictionary *)dicChannelInfo didFailWithError:(NSError *)error;
-- (void)rewardedVideoAdBidStart;
-- (void)rewardedVideoAdBidEnd;
-- (void)rewardedVideoAdLoadStart:(NSDictionary *)dicChannelInfo;
-- (void)rewardedVideoAdPlayStart:(NSDictionary *)dicChannelInfo;
-- (void)rewardedVideoAdPlayEnd:(NSDictionary *)dicChannelInfo;
+- (void)rewardedVideoAdAllLoaded:(MsRewardedVideoAd *)rewardedVideoAd readyCount:(int)readyCount;
+- (void)rewardedVideoAdOneLayerLoaded:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdOneLayer:(MsRewardedVideoAd *)rewardedVideoAd didFailWithError:(NSError *)error;
+- (void)rewardedVideoAdBidStart:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdBidEnd:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdLoadStart:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdPlayStart:(MsRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdPlayEnd:(MsRewardedVideoAd *)rewardedVideoAd;
 
 //for debug
-- (void)loadingInfoChangedR:(NSDictionary *)dicChannelInfo;
+- (void)loadingInfoChangedR:(MsRewardedVideoAd *)rewardedVideoAd;
 
 @end
 

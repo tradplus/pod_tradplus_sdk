@@ -1,9 +1,9 @@
-#import <TradPlusAds/MSInterstitialCustomEvent.h>
+#import <TradPlusAds/MSBannerCustomEvent.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PangleSplashCustomEvent : MSInterstitialCustomEvent
+@interface PangleSplashCustomEvent : MSBannerCustomEvent
 
 @end
 

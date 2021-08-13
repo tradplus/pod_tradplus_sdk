@@ -54,7 +54,7 @@
  *
  */
 - (void)showInterstitialFromRootViewController:(UIViewController *)rootViewController;
-- (void)showSplashInWindow:(UIWindow *)window withBottomView:(nullable UIView *)bottomView;
+
 /** @name Impression and Click Tracking */
 
 /**

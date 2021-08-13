@@ -27,8 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadAdWithTemplateNativeNotRender:(nullable NSString *)sceneId;
 - (void)templateNativeRender:(CGSize)size;
 
-//设置本地策略 首次启动时不用从TradPlus后台拉取策略
-- (void)setStrategy:(NSString *)base64Strategy;/// 进入广告场景
+/// 进入广告场景
 /// @param sceneId 场景ID
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 

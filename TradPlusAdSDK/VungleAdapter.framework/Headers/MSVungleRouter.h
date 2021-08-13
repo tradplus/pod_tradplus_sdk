@@ -26,9 +26,6 @@ extern NSString *const kVungleOrdinal;
 - (void)updateConsentStatus:(VungleConsentStatus)status;
 - (VungleConsentStatus) getCurrentConsentStatus;
 - (void)clearDelegateForPlacementId:(NSString *)placementId;
-- (void)requestBannerAdWithCustomEventInfo:(NSDictionary *)info
-                                  size:(VungleAdSize)size
-                              delegate:(id<MSVungleRouterDelegate>)delegate;
 
 //v5.7.4.0
 //初始化传入 appid

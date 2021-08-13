@@ -47,24 +47,24 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol MsInterstitialAdDelegate <NSObject>
 @optional
-- (void)interstitialAdDidLoaded:(NSDictionary *)dicChannelInfo;
-- (void)interstitialAd:(NSDictionary *)dicChannelInfo didFailedWithError:(NSError *)error;
-- (void)interstitialAdShown:(NSDictionary *)dicChannelInfo;
-- (void)interstitialAdFailToPlay:(NSDictionary *)dicChannelInfo error:(NSError *)error;
-- (void)interstitialAdClicked:(NSDictionary *)dicChannelInfo;
-- (void)interstitialAdDismissed:(NSDictionary *)dicChannelInfo;
+- (void)interstitialAdDidLoaded:(MsInterstitialAd *)interstitialAd;
+- (void)interstitialAd:(MsInterstitialAd *)interstitialAd didFailedWithError:(NSError *)error;
+- (void)interstitialAdShown:(MsInterstitialAd *)interstitialAd;
+- (void)interstitialAdFailToPlay:(MsInterstitialAd *)interstitialAd error:(NSError *)error;
+- (void)interstitialAdClicked:(MsInterstitialAd *)interstitialAd;
+- (void)interstitialAdDismissed:(MsInterstitialAd *)interstitialAd;
 
-- (void)interstitialAdAllLoaded:(int)readyCount;
-- (void)interstitialAdOneLayerLoaded:(NSDictionary *)dicChannelInfo;
-- (void)interstitialAdOneLayer:(NSDictionary *)dicChannelInfo didFailWithError:(NSError *)error;
-- (void)interstitialAdBidStart;
-- (void)interstitialAdBidEnd;
-- (void)interstitialAdLoadStart:(NSDictionary *)dicChannelInfo;
-- (void)interstitialAdPlayStart:(NSDictionary *)dicChannelInfo;
-- (void)interstitialAdPlayEnd:(NSDictionary *)dicChannelInfo;
+- (void)interstitialAdAllLoaded:(MsInterstitialAd *)interstitialAd readyCount:(int)readyCount;
+- (void)interstitialAdOneLayerLoaded:(MsInterstitialAd *)interstitialAd;
+- (void)interstitialAdOneLayer:(MsInterstitialAd *)interstitialAd didFailWithError:(NSError *)error;
+- (void)interstitialAdBidStart:(MsInterstitialAd *)interstitialAd;
+- (void)interstitialAdBidEnd:(MsInterstitialAd *)interstitialAd;
+- (void)interstitialAdLoadStart:(MsInterstitialAd *)interstitialAd;
+- (void)interstitialAdPlayStart:(MsInterstitialAd *)interstitialAd;
+- (void)interstitialAdPlayEnd:(MsInterstitialAd *)interstitialAd;
 
 //for debug
-- (void)loadingInfoChangedI;
+- (void)loadingInfoChangedI:(MsInterstitialAd *)interstitialAd;
 
 @end
 

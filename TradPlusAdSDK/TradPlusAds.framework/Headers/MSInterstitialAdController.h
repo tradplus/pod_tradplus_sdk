@@ -117,7 +117,7 @@
  * @param controller The view controller that should be used to present the interstitial ad.
  */
 - (void)showFromViewController:(UIViewController *)controller;
-- (void)showSplashInWindow:(UIWindow *)window withBottomView:(nullable UIView *)bottomView;
+
 /** @name Disposing of an Interstitial Ad */
 
 /**
