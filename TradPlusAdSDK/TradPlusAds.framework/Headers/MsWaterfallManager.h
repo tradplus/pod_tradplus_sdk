@@ -28,6 +28,8 @@ typedef enum {
 @property (nonatomic, strong) NSMutableArray *arrStrategyBid;
 @property (nonatomic, weak, nullable) id<MsWaterfallManagerDelegate> delegate;
 @property (nonatomic, strong) NSString *placementID;
+@property (nonatomic, strong) NSString *segmentId;
+@property (nonatomic, strong) NSString *bucketId;
 @property (nonatomic, strong) NSString *requestID;
 @property (nonatomic, strong) NSMutableDictionary *dicAsuidBidResItem; //only success
 @property (nonatomic, strong) NSMutableDictionary *dicAsuidBidResItemExpired;

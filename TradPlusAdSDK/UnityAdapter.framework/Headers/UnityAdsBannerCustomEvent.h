@@ -1,4 +1,4 @@
-#import <UnityAds/UADSBanner.h>
+#import <UnityAds/UADSBannerViewDelegate.h>
 
 #import <TradPlusAds/TradPlusAd.h>
 

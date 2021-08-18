@@ -13,7 +13,7 @@
 #define DEFAULT_PUB_ID              @"agltb3B1Yi1pbmNyDAsSBFNpdGUYkaoMDA"
 #define MS_SERVER_VERSION           @"8"
 #define MS_BUNDLE_IDENTIFIER        @"com.TradPlusAd.TradPlusAd"
-#define MS_SDK_VERSION              @"6.0.1.0.0"
+#define MS_SDK_VERSION              @"5.9.0"
 
 // Sizing constants.
 extern CGSize const TradPlusAd_BANNER_SIZE;
@@ -24,7 +24,7 @@ extern CGSize const TradPlusAd_WIDE_SKYSCRAPER_SIZE;
 // Miscellaneous constants.
 #define MINIMUM_REFRESH_INTERVAL            10.0
 #define DEFAULT_BANNER_REFRESH_INTERVAL     60
-#define BANNER_TIMEOUT_INTERVAL             60
+#define TP_BANNER_TIMEOUT_INTERVAL          60
 #define INTERSTITIAL_TIMEOUT_INTERVAL       60
 #define REWARDED_VIDEO_TIMEOUT_INTERVAL     60
 

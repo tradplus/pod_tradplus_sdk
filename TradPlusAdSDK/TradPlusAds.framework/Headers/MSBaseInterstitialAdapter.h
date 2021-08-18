@@ -35,7 +35,7 @@
  * Presents the interstitial from the specified view controller.
  */
 - (void)showInterstitialFromViewController:(UIViewController *)controller;
-
+- (void)showSplashInWindow:(UIWindow *)window withBottomView:(nullable UIView *)bottomView;
 @end
 
 @interface MSBaseInterstitialAdapter (ProtectedMethods)
