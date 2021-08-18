@@ -135,6 +135,7 @@ typedef enum
     NETWORK_SIGMOB,
     NETWORK_INMOBI   = 23,
     NETWORK_YOUDAO   = 25,     //有道
+    NETWORK_STARTAPP = 28,
     NETWORK_HELIUM   = 30,
     NETWORK_MAIO     = 31,
     NETWORK_MYTARGET = 33,

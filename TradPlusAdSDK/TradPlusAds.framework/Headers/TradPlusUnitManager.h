@@ -18,6 +18,7 @@
 - (void)loadAd;
 - (BOOL)checkReady;
 - (void)entryAdScenario:(NSString *)sceneId;
+- (void)logBase64Config;
 
 ///获取ready的缓存
 - (void)getReadyItemWithSceneId:(NSString *)sceneId callback:(void (^)(TradPlusAdWaterfallItem *item , NSError *error))callback;
