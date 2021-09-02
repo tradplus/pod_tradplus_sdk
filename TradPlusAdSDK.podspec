@@ -151,4 +151,9 @@ Pod::Spec.new do |spec|
      ss.vendored_frameworks = 'TradPlusAdSDK/KlevinAdapter.framework'
   end   
    
+  spec.subspec 'StartAppAdapter' do |ss|
+     ss.dependency 'TradPlusAdSDK/TradPlusAds'
+     ss.ios.deployment_target = '9.0'
+     ss.vendored_frameworks = 'TradPlusAdSDK/StartAppAdapter.framework'
+  end
 end
