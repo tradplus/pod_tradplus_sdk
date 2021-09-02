@@ -11,12 +11,13 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface PangleAdapterConfig : NSObject
-
-+ (void)setPrivacy:(NSDictionary *)info;
++ (PangleAdapterConfig *)sharedInstance;
 
 + (void)initPangleSDK:(NSString *)appid isCN:(BOOL)isCN;
 
 + (NSString *)getNotificationStr;
+
+- (void)initializeWithAdInfo:(NSDictionary *)adInfo instance:(id)instance;
 @end
 
 NS_ASSUME_NONNULL_END

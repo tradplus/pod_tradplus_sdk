@@ -33,10 +33,24 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 + (void)setAuthUID:(BOOL)authUID;
 + (void)setDevAllowTracking:(BOOL)allowTracking;
 
-
 + (BOOL)isAllowTracking;
 
 + (void)setAdMobNativeLogoPosition:(AdMobAdChoicesPosition)positionType;
+
+/// 设置本地配置信息
+/// 暂时只支持native6.0
+/// @param configInfo 本地配置信息
+/// @param placementId 广告位ID
++ (void)setLocalConfig:(NSString *)configInfo placementId:(NSString *)placementId;
+
+///暂时只支持native6.0
+///检测缓存过期状态
++ (void)expiredAdCheck;
+
+///暂时只支持native6.0
+///yes=允许定时检测 no=关闭定时监测 默认为YES
+@property (nonatomic,assign)BOOL isExpiredAdChecking;
+
 @property (nonatomic, strong) NSString *appId;
 //用户信息自定义 key:{user_id, user_age, user_gender...}
 @property (nonatomic, strong) NSDictionary *dicCustomValue;

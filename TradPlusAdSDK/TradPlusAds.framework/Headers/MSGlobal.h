@@ -75,6 +75,8 @@ typedef NSUInteger MSInterstitialOrientationType;
  */
 - (NSString *)mp_URLEncodedString;
 
++ (NSString *)localizedStringWithKey:(NSString *)key defaultValue:(NSString *)value;
+
 @end
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////

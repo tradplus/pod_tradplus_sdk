@@ -8,11 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
+#ifndef tp_dispatch_main_async_safe
+#define tp_dispatch_main_async_safe(block)\
+    if (dispatch_queue_get_label(DISPATCH_CURRENT_QUEUE_LABEL) == dispatch_queue_get_label(dispatch_get_main_queue())) {\
+        block();\
+    } else {\
+        dispatch_async(dispatch_get_main_queue(), block);\
+    }
+#endif
+
 static int const kMsSDKReqTimeout = 15;
 
 extern NSString *gEventServerURL;
+extern NSString *gAdxEventServerURL;
 extern NSString *gAdconfServerURL;
 extern BOOL gMsSDKDebugMode;
+extern BOOL gMsSDKForceTest;
 extern BOOL gMsSDKInited;
 extern BOOL gMsSDKAllowWrite;
 extern BOOL gMsSDKAuthUID;
@@ -25,11 +36,35 @@ extern NSString * const gGDPRAppliesStorageKey;
 extern NSString * const gTPCCPAStorageKey;
 extern NSString * const gTPCOPPAStorageKey;
 extern NSString * const gTPATTEnableStorageKey;
+extern NSString * const gTPPayloadOutTimeKey;
 extern NSString * const gEventServerDefaultURL;
+extern NSString * const gAdxEventServerDefaultURL;
+extern NSString * const gNeedCheckExpiredAd;
 
 extern NSString * const kTPCapHourLimit;
 extern NSString * const kTPCapDayLimit;
 extern NSString * const kTPPacingLimit;
+
+extern NSString * const kTPRendererTitleLable;
+extern NSString * const kTPRendererTextLable;
+extern NSString * const kTPRendererCtaLabel;
+extern NSString * const kTPRendererIconView;
+extern NSString * const kTPRendererMainImageView;
+extern NSString * const kTPRendererMediaView;
+extern NSString * const kTPRendererAdView;
+extern NSString * const kTPRendererAdChoiceImageView;
+
+typedef enum : NSUInteger {
+    TPTemplateContentModeScaleToFill,//自动充满subview默认
+    TPTemplateContentModeCenter,//保持在subview的center
+} TPTemplateContentMode;
+
+typedef enum : NSUInteger {
+    TPAdOperationStatusNormal = 0,
+    TPAdOperationStatusLoading = 1,
+    TPAdOperationStatusFailed = 2,
+    TPAdOperationStatusFinish = 3
+} TPAdOperationStatus;
 
 typedef NS_ENUM(NSInteger, MSBool) {
     MSBoolNo = -1,
@@ -108,6 +143,7 @@ typedef enum
     NETWORK_SIGMOB,
     NETWORK_INMOBI   = 23,
     NETWORK_YOUDAO   = 25,     //有道
+    NETWORK_STARTAPP = 28,
     NETWORK_HELIUM   = 30,
     NETWORK_MAIO     = 31,
     NETWORK_MYTARGET = 33,

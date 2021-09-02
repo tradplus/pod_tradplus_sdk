@@ -33,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 
+//获取当前是否做过期检测，或通过设置此属性，控制广告是否做过期检测。
+@property (nonatomic, assign) BOOL isExpiredAdChecking;
+
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)setAdUnitID:(NSString *)adUnitID isAutoLoad:(BOOL)isAutoLoad;
 - (void)loadAd;
@@ -47,7 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)entryAdScenario; //没有设置广告场景
 - (void)entryAdScenario:(nullable NSString *)sceneId; //后台设置了广告场景
 
-
+- (void)expiredAdCheck;
 
 /// 设置服务器端奖励验证用户数据
 /// @param userID 用户唯一识别码 必填

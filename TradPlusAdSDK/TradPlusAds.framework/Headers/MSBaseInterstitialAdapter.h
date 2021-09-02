@@ -36,6 +36,8 @@
  */
 - (void)showInterstitialFromViewController:(UIViewController *)controller;
 - (void)showSplashInWindow:(UIWindow *)window withBottomView:(nullable UIView *)bottomView;
+
+- (BOOL)hasAdAvailable;
 @end
 
 @interface MSBaseInterstitialAdapter (ProtectedMethods)

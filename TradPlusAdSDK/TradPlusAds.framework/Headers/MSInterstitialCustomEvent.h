@@ -79,7 +79,7 @@
  * and your `MSInterstitialAdController`'s delegate of the progress of your custom event.
  *
  */
-
+- (BOOL)hasAdAvailable;
 @property (nonatomic, weak) id<MSInterstitialCustomEventDelegate> delegate;
 
 @end

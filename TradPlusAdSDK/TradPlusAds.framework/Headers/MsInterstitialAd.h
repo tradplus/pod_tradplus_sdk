@@ -30,6 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 //流量分组
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
+@property (nonatomic, assign) BOOL isExpiredAdChecking;
 
 - (void)setAdUnitID:(NSString *)adUnitID;
 - (void)setAdUnitID:(NSString *)adUnitID isAutoLoad:(BOOL)isAutoLoad;
@@ -43,6 +44,8 @@ NS_ASSUME_NONNULL_BEGIN
 //850埋点 用于统计广告展示前的广告ready比率
 - (void)entryAdScenario;
 - (void)entryAdScenario:(nullable NSString *)sceneId; //后台设置了广告场景 参数为场景ID
+
+- (void)expiredAdCheck;
 @end
 
 @protocol MsInterstitialAdDelegate <NSObject>

@@ -25,4 +25,5 @@
 - (void)loadInterstitialWithURL:(NSURL *)url;
 - (void)presentInterstitialFromViewController:(UIViewController *)controller;
 - (void)showSplashInWindow:(UIWindow *)window withBottomView:(nullable UIView *)bottomView;
+- (BOOL)hasAdAvailable;
 @end
