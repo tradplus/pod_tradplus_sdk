@@ -14,7 +14,7 @@
 #define MS_SERVER_VERSION           @"8"
 #define MS_BUNDLE_IDENTIFIER        @"com.TradPlusAd.TradPlusAd"
 
-#define MS_SDK_VERSION              @"6.1.0.0.0"
+#define MS_SDK_VERSION              @"6.1.2"
 
 // Sizing constants.
 extern CGSize const TradPlusAd_BANNER_SIZE;
