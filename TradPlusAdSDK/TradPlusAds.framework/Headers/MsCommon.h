@@ -28,6 +28,7 @@ extern BOOL gMsSDKInited;
 extern BOOL gMsSDKAllowWrite;
 extern BOOL gMsSDKAuthUID;
 extern BOOL gMsSDKIsCN;
+extern BOOL gMsSDKIsCA;
 extern int gMsEventInterval;
 extern int gMsHTTPTimeout;
 extern int gMsPayLoadTimeout;
