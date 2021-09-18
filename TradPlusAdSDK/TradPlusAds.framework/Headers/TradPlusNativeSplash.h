@@ -20,11 +20,6 @@
 /// 加载广告
 - (void)loadAd;
 
-
-/// 显示AD 会使用默认模版进行渲染
-/// @param window window
-- (void)showInWindow:(UIWindow *)window;
-
 /// 设置模版渲染的尺寸 需要在load之前设置
 /// 默认使用 屏幕最短边正方形size进行渲染
 /// @param size 尺寸
@@ -32,6 +27,9 @@
 ///设置模版渲染的布局方式 默认 TPTemplateContentModeCenter
 @property (nonatomic,assign)TPTemplateContentMode templateContentMode;
 
+/// 显示AD 会使用默认模版进行渲染
+/// @param window window
+- (void)showInWindow:(UIWindow *)window;
 
 /// 通过指定渲染模版 展示广告
 /// @param renderingViewClass renderingViewClass
@@ -45,9 +43,27 @@
 - (void)showWithRenderer:(TradPlusNativeRenderer *)renderer window:(UIWindow *)window;
 
 
+/// 显示AD 会使用默认模版进行渲染
+/// @param subView subView
+- (void)showInSubView:(UIView *)subView;
+
+/// 通过指定渲染模版 展示广告
+/// @param renderingViewClass renderingViewClass
+/// @param subView subView
+- (void)showWithRenderingViewClass:(Class)renderingViewClass subView:(UIView *)subView;
+
+
+/// 通过指定 renderer 展示广告
+/// @param renderer 自定义renderer
+/// @param subView subView
+- (void)showWithRenderer:(TradPlusNativeRenderer *)renderer subView:(UIView *)subView;
+
+
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic,weak) id <TradPlusADNativeSplashDelegate> delegate;
 
+@property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
+@property (nonatomic, strong) NSDictionary *dicCustomValue;
 @end
 
 @protocol TradPlusADNativeSplashDelegate <NSObject>

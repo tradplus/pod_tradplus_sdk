@@ -15,6 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setPrivacy:(NSDictionary *)info;
 
 + (void)initKuaiShouSDK:(NSString *)appid;
+
++(KuaiShouAdapterConfig *)sharedInstance;
+
+@property (nonatomic,assign)BOOL didInit;
 @end
 
 NS_ASSUME_NONNULL_END

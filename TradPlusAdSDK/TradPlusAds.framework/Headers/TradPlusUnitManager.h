@@ -31,7 +31,7 @@
 ///show 1300
 - (void)showFinish1300WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 
-///show Fail
+///show Fail 1300 失败
 - (void)showFailWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///click
 - (void)clickEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
@@ -78,5 +78,6 @@
 @property (nonatomic,assign)BOOL isAutoLoadMode;
 @property (nonatomic,assign)TPTemplateContentMode templateContentMode;
 
+//banner相关属性
+@property (nonatomic,weak)UIViewController *bannerRootViewController;
 @end
-

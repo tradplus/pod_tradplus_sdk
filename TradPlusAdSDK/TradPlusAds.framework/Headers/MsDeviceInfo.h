@@ -30,6 +30,8 @@
 
 //横竖屏
 + (int)orientation;
+///在initSDK时调用
++ (int)bidOrientation;
 
 //流量分组
 + (NSString *)app_ver;

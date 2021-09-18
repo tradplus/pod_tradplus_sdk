@@ -21,7 +21,9 @@ static int const kMsSDKReqTimeout = 15;
 
 extern NSString *gEventServerURL;
 extern NSString *gAdxEventServerURL;
+extern NSString *gCrossEventServerURL;
 extern NSString *gAdconfServerURL;
+extern NSString *gCrossAdconfServerURL;
 extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKForceTest;
 extern BOOL gMsSDKInited;
@@ -40,6 +42,7 @@ extern NSString * const gTPATTEnableStorageKey;
 extern NSString * const gTPPayloadOutTimeKey;
 extern NSString * const gEventServerDefaultURL;
 extern NSString * const gAdxEventServerDefaultURL;
+extern NSString * const gCrossEventServerDefaultURL;
 extern NSString * const gNeedCheckExpiredAd;
 
 extern NSString * const kTPCapHourLimit;
@@ -115,6 +118,30 @@ typedef enum
     EV_BID_IMP               = 1320,
     EV_AD_VIDEO_CLOSE        = 1400,
     EV_AD_VIDEO_REWARD       = 1500,
+    
+    EV_CROSS_INIT_SDK        = 5100,
+    EV_CROSS_LOAD_START      = 5700,
+    EV_CROSS_LOAD_END        = 5800,
+    EV_CROSS_DOWNLOAD_VIDEO_START = 5830,
+    EV_CROSS_DOWNLOAD_VIDEO_END   = 5840,
+    EV_CROSS_DOWNLOAD_IMAGE_START = 5850,
+    EV_CROSS_DOWNLOAD_IMAGE_END   = 5860,
+    EV_CROSS_IS_ADREADY      = 5900,
+    EV_CROSS_SHOW_START      = 6000,
+    EV_CROSS_SHOW_END        = 6100,
+    EV_CROSS_TRACK_SHOW_START     = 6145,
+    EV_CROSS_TRACK_SHOW_END       = 6150,
+    EV_CROSS_CLICK_START          = 6200,
+    EV_CROSS_CLICK_END            = 6230,
+    EV_CROSS_OPEN_APP             = 6240,
+    EV_CROSS_TRACK_CLICK_START    = 6245,
+    EV_CROSS_TRACK_CLICK_END      = 6250,
+    EV_CROSS_VIDEO_START          = 6300,
+    EV_CROSS_VIDEO_25PER          = 6400,
+    EV_CROSS_VIDEO_50PER          = 6500,
+    EV_CROSS_VIDEO_70PER          = 6600,
+    EV_CROSS_VIDEO_REWARD         = 6650,
+    EV_CROSS_VIDEO_CLOSE          = 6700,
     //custom
     EV_APP_CRASH             = 10000,
     EV_LOAD_AD_SKIP          = 10600
@@ -144,6 +171,7 @@ typedef enum
     NETWORK_SIGMOB,
     NETWORK_INMOBI   = 23,
     NETWORK_YOUDAO   = 25,     //有道
+    NETWORK_CROSS    = 27,     //有道
     NETWORK_STARTAPP = 28,
     NETWORK_HELIUM   = 30,
     NETWORK_MAIO     = 31,
@@ -167,6 +195,7 @@ typedef enum
 + (NSString *)getNowStrWithFormat:(NSString *)formatStr;
 + (NSString *)getLocalFileFullPath:(NSString *)fileName;
 + (NSString *)getStrategyFullPath:(NSString *)fileName;
++ (NSString *)getCrossFullPath:(NSString *)fileName;
 + (NSString *)channelID2Name:(int)channelID;
 + (NSString *)eventType2Str:(MSEventType)evid;
 + (BOOL)isMemoryLimit;

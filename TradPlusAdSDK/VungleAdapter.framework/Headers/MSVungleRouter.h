@@ -1,4 +1,5 @@
 #import <VungleSDK/VungleSDK.h>
+#import <UIKit/UIKit.h>
 
 @protocol MSVungleRouterDelegate;
 @class VungleInstanceMediationSettings;
@@ -12,23 +13,9 @@ extern NSString *const kVunglePlacementIdKey;
 extern NSString *const kVungleFlexViewAutoDismissSeconds;
 extern NSString *const kVungleUserId;
 extern NSString *const kVungleOrdinal;
+extern NSString *const kVungleBidTokenKey;
 
 + (MSVungleRouter *)sharedRouter;
-
-
-
-- (void)initializeSdkWithInfo:(NSDictionary *)info;
-- (void)requestInterstitialAdWithCustomEventInfo:(NSDictionary *)info delegate:(id<MSVungleRouterDelegate>)delegate;
-- (void)requestRewardedVideoAdWithCustomEventInfo:(NSDictionary *)info delegate:(id<MSVungleRouterDelegate>)delegate;
-- (BOOL)isAdAvailableForPlacementId:(NSString *)placementId;
-- (void)presentInterstitialAdFromViewController:(UIViewController *)viewController options:(NSDictionary *)options forPlacementId:(NSString *)placementId;
-- (void)presentRewardedVideoAdFromViewController:(UIViewController *)viewController customerId:(NSString *)customerId settings:(VungleInstanceMediationSettings *)settings forPlacementId:(NSString *)placementId;
-- (void)updateConsentStatus:(VungleConsentStatus)status;
-- (VungleConsentStatus) getCurrentConsentStatus;
-- (void)clearDelegateForPlacementId:(NSString *)placementId;
-- (void)requestBannerAdWithCustomEventInfo:(NSDictionary *)info
-                                  size:(VungleAdSize)size
-                              delegate:(id<MSVungleRouterDelegate>)delegate;
 
 //v5.7.4.0
 //初始化传入 appid
@@ -36,9 +23,32 @@ extern NSString *const kVungleOrdinal;
 //获取bidToken
 - (NSString *)getbidToken;
 
+- (void)initializeSdkWithInfo:(NSDictionary *)info;
+
+- (BOOL)isAdAvailableForPlacementId:(NSString *)placementId bidToken:(NSString *)bidToken;
+
+- (void)requestInterstitialAdWithCustomEventInfo:(NSDictionary *)info delegate:(id<MSVungleRouterDelegate>)delegate;
+
+- (void)presentInterstitialAdFromViewController:(UIViewController *)viewController options:(NSDictionary *)options forPlacementId:(NSString *)placementId bidToken:(NSString *)bidToken;
+
+
+- (void)requestRewardedVideoAdWithCustomEventInfo:(NSDictionary *)info delegate:(id<MSVungleRouterDelegate>)delegate;
+
+- (void)presentRewardedVideoAdFromViewController:(UIViewController *)viewController customerId:(NSString *)customerId settings:(VungleInstanceMediationSettings *)settings forPlacementId:(NSString *)placementId bidToken:(NSString *)bidToken;
+
+- (void)requestBannerAdWithCustomEventInfo:(NSDictionary *)info
+                                  size:(VungleAdSize)size
+                              delegate:(id<MSVungleRouterDelegate>)delegate;
+
 ///MREC 用于原生广告
 - (void)requestMRECAdWithCustomEventInfo:(NSDictionary *)info delegate:(id<MSVungleRouterDelegate>)delegate;
-- (BOOL)addAdViewToView:(UIView *)publisherView placementID:(NSString *)placementID error:(NSError **)error;
+
+- (BOOL)addAdViewToView:(UIView *)publisherView placementID:(NSString *)placementID bidToken:(NSString *)bidToken error:(NSError **)error;
+
+
+- (void)updateConsentStatus:(VungleConsentStatus)status;
+- (VungleConsentStatus) getCurrentConsentStatus;
+- (void)clearDelegateForPlacementId:(NSString *)placementId;
 @end
 
 @protocol MSVungleRouterDelegate <NSObject>

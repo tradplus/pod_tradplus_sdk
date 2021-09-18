@@ -48,6 +48,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic,weak) id <TradPlusADNativeBannerDelegate> delegate;
 
+@property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
+@property (nonatomic, strong) NSDictionary *dicCustomValue;
 @end
 
 @protocol TradPlusADNativeBannerDelegate <NSObject>

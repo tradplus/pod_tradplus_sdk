@@ -95,6 +95,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)CGSize templateRenderSize;
 @property (nonatomic,assign)TPTemplateContentMode templateContentMode;
 @property (nonatomic,strong)Class renderingViewClass;
+
+//banner相关属性
+@property (nonatomic,weak)UIViewController *bannerRootViewController;
 ///no = 被限制
 - (BOOL)noLimit;
 - (NSString *)asu;

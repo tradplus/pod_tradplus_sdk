@@ -14,6 +14,8 @@
 
 - (void)fetchStrategyWithPlacementID:(NSString*)placementID segmentTag:(NSString*)segmentTag dicUserInfo:(NSDictionary *)dicUserInfo completHandler:(void (^)(NSDictionary *dicRep, NSError *error))handler;
 
+- (void)fetchCrossStrategyWithPlacementID:(NSString*)placementID adType:(int)adType completHandler:(void (^)(NSDictionary *dicRep, NSError *error))handler;
+
 - (NSString *)generateOpenParams;
 
 - (BOOL)isStrategyExist:(NSString *)placementID segmentTag:(NSString *)segmentTag dicUserInfo:(NSDictionary *)dicUserInfo;

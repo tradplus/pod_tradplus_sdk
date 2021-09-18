@@ -20,6 +20,10 @@
 - (void)templateRender:(UIView *)subView;
 ///渲染完成后添加到subview时
 - (void)didAddSubView;
+///释放前处理
+- (void)adViewWillDestroy;
+///banner add时
+- (void)bannerDidAddSubView:(UIView *)subView;
 ///点击后三方的viewController关闭时
 - (void)didCloseOtherController;
 
