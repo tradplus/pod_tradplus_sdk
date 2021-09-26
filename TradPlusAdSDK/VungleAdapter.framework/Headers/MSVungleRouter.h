@@ -27,12 +27,12 @@ extern NSString *const kVungleBidTokenKey;
 
 - (BOOL)isAdAvailableForPlacementId:(NSString *)placementId bidToken:(NSString *)bidToken;
 
-- (void)requestInterstitialAdWithCustomEventInfo:(NSDictionary *)info delegate:(id<MSVungleRouterDelegate>)delegate;
+- (void)requestInterstitialAdWithCustomEventInfo:(NSDictionary *)info delegate:(id<MSVungleRouterDelegate>)delegate bidToken:(NSString *)bidToken;
 
 - (void)presentInterstitialAdFromViewController:(UIViewController *)viewController options:(NSDictionary *)options forPlacementId:(NSString *)placementId bidToken:(NSString *)bidToken;
 
 
-- (void)requestRewardedVideoAdWithCustomEventInfo:(NSDictionary *)info delegate:(id<MSVungleRouterDelegate>)delegate;
+- (void)requestRewardedVideoAdWithCustomEventInfo:(NSDictionary *)info delegate:(id<MSVungleRouterDelegate>)delegate bidToken:(NSString *)bidToken;
 
 - (void)presentRewardedVideoAdFromViewController:(UIViewController *)viewController customerId:(NSString *)customerId settings:(VungleInstanceMediationSettings *)settings forPlacementId:(NSString *)placementId bidToken:(NSString *)bidToken;
 
