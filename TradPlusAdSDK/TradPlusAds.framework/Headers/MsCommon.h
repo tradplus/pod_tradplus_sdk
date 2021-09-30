@@ -179,7 +179,8 @@ typedef enum
     NETWORK_KIDOZ    = 37,
     NETWORK_SMAATO   = 38,
     NETWORK_TPADX    = 40,
-    NETWORK_KLEVIN   = 44
+    NETWORK_KLEVIN   = 44,
+    NETWORK_A4G      = 45,
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject

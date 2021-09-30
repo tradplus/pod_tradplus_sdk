@@ -14,4 +14,6 @@
 @property (nonatomic,copy)void (^showFinishAct)(void);
 
 @property (nonatomic,copy)void (^didCloseOtherControllerAct)(void);
+
+@property (nonatomic,copy)void (^rewardedAct)(NSDictionary *info);
 @end

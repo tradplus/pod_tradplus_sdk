@@ -26,7 +26,10 @@
 - (void)bannerDidAddSubView:(UIView *)subView;
 ///点击后三方的viewController关闭时
 - (void)didCloseOtherController;
-
+///插屏 激励视频show
+- (void)showAdFromRootViewController:(UIViewController *)rootViewController;
+///开屏 show
+- (void)showAdInWindow:(UIWindow *)window bottomView:(UIView *)bottomView;
 //状态返回事件
 - (void)AdLoadFinsh;
 - (void)AdLoadFailWithError:(NSError *)error;
@@ -36,8 +39,11 @@
 - (void)AdClose;
 - (void)AdShowFailWithError:(NSError *)error;
 - (void)showFinish;
+- (void)AdRewardedWithInfo:(NSDictionary *)info;
 
 @property (nonatomic,weak)TradPlusAdWaterfallItem *waterfallItem;
 @property (nonatomic,strong)NSMutableArray *downLoadURLArray;
 @property (nonatomic,weak)UIViewController *rootViewController;
+///是否ready
+@property (nonatomic,assign)BOOL isAdReady;
 @end
