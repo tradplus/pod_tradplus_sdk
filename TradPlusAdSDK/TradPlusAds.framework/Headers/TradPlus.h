@@ -47,9 +47,6 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 ///检测缓存过期状态
 + (void)expiredAdCheck;
 
-///设置应用在app store上的id 
-+ (void)setAppStoreId:(NSString *)appStoreId;
-
 ///暂时只支持native6.0
 ///yes=允许定时检测 no=关闭定时监测 默认为YES
 @property (nonatomic,assign)BOOL isExpiredAdChecking;

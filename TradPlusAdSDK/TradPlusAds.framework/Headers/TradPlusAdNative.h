@@ -68,10 +68,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak) id <TradPlusADNativeDelegate> delegate;
 
 ///返回下一个Ready的AD信息 无广告时返回nil
-- (nullable NSDictionary *)getReadyAdInfo;
+- (NSDictionary *)getReadyAdInfo;
 
 ///返回当前显示的AD信息
-- (nullable NSDictionary *)getCurrentAdInfo;
+- (NSDictionary *)getCurrentAdInfo;
 @end
 
 @protocol TradPlusADNativeDelegate <NSObject>

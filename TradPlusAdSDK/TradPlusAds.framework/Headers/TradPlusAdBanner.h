@@ -33,10 +33,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 
 ///返回下一个Ready的AD信息 无广告时返回nil
-- (nullable NSDictionary *)getReadyAdInfo;
+- (NSDictionary *)getReadyAdInfo;
 
 ///返回当前显示的AD信息
-- (nullable NSDictionary *)getCurrentAdInfo;
+- (NSDictionary *)getCurrentAdInfo;
 
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag

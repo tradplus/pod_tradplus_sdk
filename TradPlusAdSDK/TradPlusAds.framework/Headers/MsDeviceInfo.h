@@ -27,7 +27,6 @@
 + (NSString *)getMCC;
 + (NSString *)getCurrentLanguage;
 + (NSString *)resolution;
-+ (NSString *)appName;
 
 //横竖屏
 + (int)orientation;
@@ -45,8 +44,5 @@
 + (NSString *)device_make; //manufacturer "Apple"
 + (NSString *)device_model;
 + (NSString *)device_contype; //0: unknown, 1: 有线网络, 2: WiFi, 3: 未知几代蜂窝网络, 4: 2G, 5: 3G, 6: 4G, 7: 5G
-
-///获取 SKAdNetworkIdentifier子集
-+ (NSArray *)getAdNetworkItems;
 
 @end

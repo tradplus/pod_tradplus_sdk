@@ -14,9 +14,6 @@
 @property (nonatomic,copy)NSString *segmentTag;
 @property (nonatomic,copy)NSString *bucketId;
 @property (nonatomic,strong)NSDictionary *dicCustomValue;
-//服务器奖励验证信息
-@property (nonatomic,copy)NSString *serverSideUserID;
-@property (nonatomic,copy)NSString *serverSideCustomData;
 
 - (instancetype)initWithPlacementID:(NSString *)placementID;
 - (void)loadAd;
@@ -38,17 +35,13 @@
 - (void)showFailWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///click
 - (void)clickEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
-///close 1400 插屏和开屏使用
-- (void)closeEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
-///1500 回调奖励
-- (void)rewardedEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///获取最近缓存广告信息 nil = 没有
 - (NSDictionary *)getReadyItemInfo;
 
 ///缓存清理后需要重新load
 - (void)cacheAdExpired;
 ///返回数据封装
-- (NSMutableDictionary *)getCallbackInfoWithItem:(TradPlusAdWaterfallItem *)item;
+- (NSDictionary *)getCallbackInfoWithItem:(TradPlusAdWaterfallItem *)item;
 ///日志上报
 - (void)uploadEvent:(NSInteger)EventType item:(TradPlusAdWaterfallItem *)item errorCode:(NSInteger)errorCode info:(NSDictionary *)info;
 ///获取 Waterfall第一个Item
@@ -87,7 +80,4 @@
 
 //banner相关属性
 @property (nonatomic,weak)UIViewController *bannerRootViewController;
-
-@property (nonatomic,assign)CGSize splashBottomSize;
-@property (nonatomic,weak)UIWindow *splashWindow;
 @end
