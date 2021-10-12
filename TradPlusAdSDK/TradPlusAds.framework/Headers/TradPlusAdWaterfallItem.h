@@ -43,17 +43,24 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger is_template_rendering;
 ///load超时
 @property (nonatomic,assign)NSInteger loadTimeout;
+//是否全屏视频  1:是  2:否'
+@property (nonatomic,assign)NSInteger full_screen_video;
 ///广告有效时间
 @property (nonatomic,assign)NSInteger adValidTime;
 ///ecpm
-@property (nonatomic,assign)NSString *ecpm;
-@property (nonatomic,assign)NSString *ecpm_avg;
+@property (nonatomic,copy)NSString *ecpm;
+@property (nonatomic,copy)NSString *ecpm_avg;
 ///ecpm_cny
-@property (nonatomic,assign)NSString *ecpm_cny;
+@property (nonatomic,copy)NSString *ecpm_cny;
 ///视频最大时长 -1:不限时长  限定时长5-60
 @property (nonatomic,assign)NSInteger video_max_time;
+///广告类型
+@property (nonatomic,assign)NSInteger adsource_type;
+///尺寸比例
+@property (nonatomic,assign)NSInteger ad_size_ratio;
 
-
+//广告格式  1:插屏视频  2:插屏图片
+@property (nonatomic,assign)NSInteger ad_format;
 
 ///广告源状态 0=通常 1=loading 2=ready 3=过期
 @property (nonatomic,assign)TPAdWaterfallItemStatus status;
@@ -71,6 +78,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong)NSArray *style_name;
 
+//广告倒计时时间
+@property (nonatomic,assign)NSInteger countdown_time;
+//广告可否跳过
+@property (nonatomic,assign)NSInteger is_skipable;
+//开屏点睛
+@property (nonatomic,assign)NSInteger zoom_out;
 //bidding相关
 @property (nonatomic,assign)BOOL isBidding;
 @property (nonatomic,copy)NSString *biddingValue;
@@ -98,6 +111,22 @@ NS_ASSUME_NONNULL_BEGIN
 
 //banner相关属性
 @property (nonatomic,weak)UIViewController *bannerRootViewController;
+
+@property (nonatomic,copy)NSString *customClassName;
+//开屏相关属性
+@property (nonatomic,assign)CGSize splashBottomSize;
+@property (nonatomic,weak)UIWindow *splashWindow;
+
+//激励视频
+@property (nonatomic,assign)BOOL rewarded;
+
+//服务器奖励
+@property (nonatomic,copy)NSString *serverSideUserID;
+@property (nonatomic,copy)NSString *serverSideCustomData;
+//广告场景ID
+@property (nonatomic,copy)NSString *sceneId;
+
+@property (nonatomic,assign)NSTimeInterval startPlayTime;
 ///no = 被限制
 - (BOOL)noLimit;
 - (NSString *)asu;

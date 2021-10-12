@@ -19,33 +19,42 @@ typedef enum : NSUInteger {
 
 @interface TradPlusAdRes : NSObject
 
+//默认 TPAdResTypeAssets
 @property (nonatomic,assign)TPAdResType adType;
 
-///TPAdResType = TPAdResTypeView
+//模版类型的adView
+//TPAdResType = TPAdResTypeView
 @property (nonatomic,strong)UIView *adView;
-///TPAdResType = TPAdResTypeViewList
+
+//多个adView时使用
+//TPAdResType = TPAdResTypeViewList
 @property (nonatomic,strong)NSArray *adViewList;
 
+//自渲染类型的素材
+//广告标题
 @property (nonatomic,copy)NSString *title;
+//广告描述
 @property (nonatomic,copy)NSString *body;
+//广告按钮
 @property (nonatomic,copy)NSString *ctaText;
-
+//广告图标
 @property (nonatomic,readonly)TPAdResMediaType iconType;
 @property (nonatomic,strong)UIImage *iconImage;
 @property (nonatomic,copy)NSString *iconImageURL;
 @property (nonatomic,strong)UIView *iconView;
-
+//广告media
 @property (nonatomic,readonly)TPAdResMediaType mediaType;
 @property (nonatomic,strong)UIImage *mediaImage;
 @property (nonatomic,copy)NSString *mediaImageURL;
 @property (nonatomic,strong)UIView *mediaView;
 @property (nonatomic,strong)NSArray *mediaImageList;
-
+//广告adChoice图标
 @property (nonatomic,readonly)TPAdResMediaType adChoiceType;
 @property (nonatomic,strong)UIImage *adChoiceImage;
 @property (nonatomic,copy)NSString *adChoiceImageURL;
 @property (nonatomic,strong)UIView *adChoiceView;
 
+//其他非常用参数
 //smaato AdMob InMobi Pangle GDTMob MyTarget kuaishou
 @property (nonatomic,copy)NSNumber *rating;
 
@@ -64,7 +73,6 @@ typedef enum : NSUInteger {
 @property (nonatomic,copy)NSString *subcategory;
 @property (nonatomic,copy)NSString *domain;
 @property (nonatomic,assign)NSInteger votes;
-
 
 //smaato Facebook MoPub
 @property (nonatomic,copy)NSString *sponsored;

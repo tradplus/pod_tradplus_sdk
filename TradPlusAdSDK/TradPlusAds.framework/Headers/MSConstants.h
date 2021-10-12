@@ -15,9 +15,9 @@
 #define MS_BUNDLE_IDENTIFIER        @"com.TradPlusAd.TradPlusAd"
 
 //买量时使用5位版本号
-//#define MS_SDK_VERSION              @"6.3.0.0.0"
+//#define MS_SDK_VERSION              @"6.4.0.0.0"
 //正式版使用3位
-#define MS_SDK_VERSION              @"6.3.2"
+#define MS_SDK_VERSION              @"6.4.0"
 
 // Sizing constants.
 extern CGSize const TradPlusAd_BANNER_SIZE;

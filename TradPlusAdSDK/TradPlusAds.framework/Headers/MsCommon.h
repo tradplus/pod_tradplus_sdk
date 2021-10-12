@@ -49,15 +49,6 @@ extern NSString * const kTPCapHourLimit;
 extern NSString * const kTPCapDayLimit;
 extern NSString * const kTPPacingLimit;
 
-extern NSString * const kTPRendererTitleLable;
-extern NSString * const kTPRendererTextLable;
-extern NSString * const kTPRendererCtaLabel;
-extern NSString * const kTPRendererIconView;
-extern NSString * const kTPRendererMainImageView;
-extern NSString * const kTPRendererMediaView;
-extern NSString * const kTPRendererAdView;
-extern NSString * const kTPRendererAdChoiceImageView;
-
 typedef enum : NSUInteger {
     TPTemplateContentModeScaleToFill,//自动充满subview默认
     TPTemplateContentModeCenter,//保持在subview的center
@@ -179,7 +170,8 @@ typedef enum
     NETWORK_KIDOZ    = 37,
     NETWORK_SMAATO   = 38,
     NETWORK_TPADX    = 40,
-    NETWORK_KLEVIN   = 44
+    NETWORK_KLEVIN   = 44,
+    NETWORK_A4G      = 45,
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject
