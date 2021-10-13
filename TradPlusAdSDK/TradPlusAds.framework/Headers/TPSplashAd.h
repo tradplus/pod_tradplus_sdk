@@ -60,8 +60,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)splashAdAllLoaded:(int)readyCount;
 - (void)splashAdOneLayerLoaded:(NSDictionary *)dicChannelInfo;
 - (void)splashAdOneLayer:(NSDictionary *)dicChannelInfo didFailWithError:(NSError *)error;
-- (void)splashAdBidStart:(NSDictionary *)dicChannelInfo;
-- (void)splashAdBidEnd:(NSDictionary *)dicChannelInfo;
+- (void)splashAdBidStart;
+- (void)splashAdBidEnd;
 - (void)splashAdLoadStart:(NSDictionary *)dicChannelInfo;
 - (void)splashAdPlayStart:(NSDictionary *)dicChannelInfo;
 - (void)splashAdPlayEnd:(NSDictionary *)dicChannelInfo;
