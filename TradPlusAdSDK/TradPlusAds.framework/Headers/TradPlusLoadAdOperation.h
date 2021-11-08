@@ -6,7 +6,7 @@
 
 @interface TradPlusLoadAdOperation : NSOperation
 
-@property (nonatomic,weak)TradPlusUnitManager *tradPlusUnitManager;
+@property (nonatomic, weak)TradPlusUnitManager *tradPlusUnitManager;
 @property (nonatomic, copy)void (^AdDidLoadFinish)(TradPlusAdWaterfallItem *item);
 @property (nonatomic, copy)void (^AdLoadFailed)(TradPlusAdWaterfallItem *item,NSInteger errorCode,NSError *error);
 

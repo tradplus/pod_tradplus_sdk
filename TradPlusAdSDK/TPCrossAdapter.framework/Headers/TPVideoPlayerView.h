@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary *videoConfig;
 
 - (void)skipToEnd;
+- (void)playerMute:(BOOL)mute;
 
 @end
 

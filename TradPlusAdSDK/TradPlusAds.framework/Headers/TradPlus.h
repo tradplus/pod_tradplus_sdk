@@ -50,8 +50,11 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 ///设置应用在app store上的id 
 + (void)setAppStoreId:(NSString *)appStoreId;
 
-///暂时只支持native6.0
-///yes=允许定时检测 no=关闭定时监测 默认为YES
+///设置是否允许上传用户使用时长 默认允许
++ (void)setAppAllowUploadUseTime:(BOOL)allowUpload;
+
+///支持 TradPlusAdSplash TradPlusAdRewarded TradPlusAdInterstitial TradPlusAdBanner TradPlusAdNative 类型开启关闭定时检查广告过期
+///yes=允许定时检查 no=关闭定时检查 默认为YES
 @property (nonatomic,assign)BOOL isExpiredAdChecking;
 
 @property (nonatomic, strong) NSString *appId;

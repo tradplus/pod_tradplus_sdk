@@ -8,6 +8,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TPCountdownTimerView : UIView
 @property (nonatomic, assign, readonly) BOOL isCountdownActive;
 @property (nonatomic, weak, nullable) id<TPCountdownTimerViewDelegate> delegate;
+@property (nonatomic, assign) NSTimeInterval remainingSeconds;
+@property (nonatomic, assign) NSTimeInterval totalSeconds;
 
 - (instancetype)initWithDuration:(NSTimeInterval)seconds timerCompletion:(void(^)(BOOL hasElapsed))completion;
 - (void)start;

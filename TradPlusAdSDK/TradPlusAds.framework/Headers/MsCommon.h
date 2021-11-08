@@ -32,6 +32,7 @@ extern BOOL gMsSDKAuthUID;
 extern BOOL gMsSDKIsCN;
 extern BOOL gMsSDKIsCA;
 extern int gMsEventInterval;
+extern int gMsEventUPLoadMaxCount;
 extern int gMsHTTPTimeout;
 extern int gMsPayLoadTimeout;
 extern NSString * const gConsentStatusStorageKey;
@@ -44,6 +45,7 @@ extern NSString * const gEventServerDefaultURL;
 extern NSString * const gAdxEventServerDefaultURL;
 extern NSString * const gCrossEventServerDefaultURL;
 extern NSString * const gNeedCheckExpiredAd;
+extern NSString * const gAppAllowUploadUseTime;
 
 extern NSString * const kTPCapHourLimit;
 extern NSString * const kTPCapDayLimit;
@@ -85,6 +87,7 @@ typedef enum
 
 typedef enum
 {
+    EV_APP_USE_TIME          = 10,
     EV_REQ_OPEN_API_START    = 100,
     EV_REQ_OPEN_API          = 200,
     EV_PRE_LOAD_ADCONF_START = 300,
@@ -107,6 +110,7 @@ typedef enum
     EV_CLICK_AD              = 1200,
     EV_AD_VIDEO_START        = 1300,
     EV_BID_IMP               = 1320,
+    EV_AD_VIDEO_ERROR        = 1350,
     EV_AD_VIDEO_CLOSE        = 1400,
     EV_AD_VIDEO_REWARD       = 1500,
     

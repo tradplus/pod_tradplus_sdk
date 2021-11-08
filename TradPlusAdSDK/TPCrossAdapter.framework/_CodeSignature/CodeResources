@@ -22,11 +22,11 @@
 		</data>
 		<key>Headers/TPAdViewOverlay+Private.h</key>
 		<data>
-		eAXXPjZz6PNQJkbzXY/f34WekMw=
+		JgeoJcDnjA0v8Lh+MV4ekaeYmSs=
 		</data>
 		<key>Headers/TPAdViewOverlay.h</key>
 		<data>
-		u3vbXGH4N78nDyOzGAHVwo6MHyg=
+		J3LGDGeBPkX5lVa0RxsRHUih15k=
 		</data>
 		<key>Headers/TPClickThroughView.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/TPCountdownTimerView.h</key>
 		<data>
-		5PRqezm543zhBXJiy0g5a8BOpYc=
+		1jC9vs81ISXlDWdk19zsxI8iyN4=
 		</data>
 		<key>Headers/TPCrossAd.h</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Headers/TPVideoPlayerView.h</key>
 		<data>
-		311a6DSAKNYjw9fYLqc+/pX+qsQ=
+		/PDxXtW6YYxrpFpdYtBWp5WNe24=
 		</data>
 		<key>Headers/TPViewADLogo.h</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f4IAjiJ7YKnyzssLWab0pbVIRP4=
+		nZd5kidMXkTLcFwC0X88Pa/E1d4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -203,22 +203,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eAXXPjZz6PNQJkbzXY/f34WekMw=
+			JgeoJcDnjA0v8Lh+MV4ekaeYmSs=
 			</data>
 			<key>hash2</key>
 			<data>
-			QIqyuz5ifx4/7rm88Ki6rJsnb3JBJMSSvme1hkSRx4g=
+			mqURChj7KwFvgGyVAVRyVKs9wnf0XNv6FQrGj16xBUA=
 			</data>
 		</dict>
 		<key>Headers/TPAdViewOverlay.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u3vbXGH4N78nDyOzGAHVwo6MHyg=
+			J3LGDGeBPkX5lVa0RxsRHUih15k=
 			</data>
 			<key>hash2</key>
 			<data>
-			KKLiA8FTj5Ilgi9yWR+vQIP4yW714DGnd9MAzjW1PLM=
+			Uha+9koF2RGQ9OxYWbxJan7MzANJ2P2nxfp0niMvjeQ=
 			</data>
 		</dict>
 		<key>Headers/TPClickThroughView.h</key>
@@ -236,11 +236,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5PRqezm543zhBXJiy0g5a8BOpYc=
+			1jC9vs81ISXlDWdk19zsxI8iyN4=
 			</data>
 			<key>hash2</key>
 			<data>
-			QTcG68bCeDvYPGytDSE4j0LhTiDswUdEjLmAR1Ktlc4=
+			PPIJaoozqHVsEWXiWltuxwqwqYYX+l9+MAoc32zMmks=
 			</data>
 		</dict>
 		<key>Headers/TPCrossAd.h</key>
@@ -522,11 +522,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			311a6DSAKNYjw9fYLqc+/pX+qsQ=
+			/PDxXtW6YYxrpFpdYtBWp5WNe24=
 			</data>
 			<key>hash2</key>
 			<data>
-			3AxsZ31pUwisrA5qOTaZr+gM6qqpt3RABk3e1z6ZI7k=
+			GjKf+E3pnkYZU8259IWPK6WDUjMhyH07lBXIuDKiomY=
 			</data>
 		</dict>
 		<key>Headers/TPViewADLogo.h</key>

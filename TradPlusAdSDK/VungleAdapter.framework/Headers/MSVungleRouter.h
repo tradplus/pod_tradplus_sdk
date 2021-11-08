@@ -45,10 +45,11 @@ extern NSString *const kVungleBidTokenKey;
 
 - (BOOL)addAdViewToView:(UIView *)publisherView placementID:(NSString *)placementID bidToken:(NSString *)bidToken error:(NSError **)error;
 
-
 - (void)updateConsentStatus:(VungleConsentStatus)status;
 - (VungleConsentStatus) getCurrentConsentStatus;
 - (void)clearDelegateForPlacementId:(NSString *)placementId;
+
+- (void)finishedDisplayingAd:(NSString *)placementId bidToken:(NSString *)bidToken;
 @end
 
 @protocol MSVungleRouterDelegate <NSObject>

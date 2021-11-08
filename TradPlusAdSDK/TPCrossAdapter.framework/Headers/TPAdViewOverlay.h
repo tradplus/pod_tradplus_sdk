@@ -16,6 +16,13 @@ typedef NS_ENUM(NSUInteger, TPAdOverlayClickthroughType) {
     TPAdOverlayClickthroughTypePassthrough
 };
 
+typedef NS_ENUM(NSUInteger, TPAdOverlayEventType) {
+    TPAdOverlayEventTypeSkip,
+    TPAdOverlayEventTypeClose,
+    TPAdOverlayEventTypeClick,
+    TPAdOverlayEventTypeMute,
+    TPAdOverlayEventTypeUnMute,
+};
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -9,6 +9,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, weak) id<MSNativeAdAdapterDelegate> delegate;
 @property (nonatomic, strong) NSDictionary *properties;
 @property (nonatomic, strong) NSURL *defaultActionURL;
+@property (nonatomic, assign) float viewWidth;
+@property (nonatomic, assign) float viewHeight;
 
 @property(nonatomic, strong) GDTUnifiedNativeAdView *gdtUnifiedNativeAdView;
 @property (nonatomic, strong) GDTUnifiedNativeAdDataObject *nativeAdObject;

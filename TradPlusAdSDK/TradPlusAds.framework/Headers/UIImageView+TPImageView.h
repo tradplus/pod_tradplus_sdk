@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImageView (TPImageView)
 
-- (void)setImageWithURL:(NSString *)urlStr;
+- (void)TPSetImageWithURLString:(NSString *)urlStr;
 @end
 
 NS_ASSUME_NONNULL_END

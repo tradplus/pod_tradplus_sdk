@@ -88,5 +88,6 @@ typedef enum : NSUInteger {
 @property (nonatomic,assign)NSInteger commentNum;
 //Pangle kuaishou
 @property (nonatomic,copy)NSString *source;
+@property (nonatomic,copy)NSString *likes;
 
 @end

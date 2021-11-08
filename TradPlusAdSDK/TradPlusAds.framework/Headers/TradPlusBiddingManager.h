@@ -24,6 +24,7 @@
 
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;
 @property (nonatomic,assign)NSInteger topWaterfallIndex;
+@property (nonatomic,assign)MsADType adType;
 
 @property (nonatomic, copy) void (^biddingItemStart)(TradPlusAdWaterfallItem *biddingItem);
 @property (nonatomic, copy) void (^biddingItemEnd)(TradPlusAdWaterfallItem *biddingItem,NSInteger errorCode,NSError *error);

@@ -34,7 +34,7 @@
 ///show 1300
 - (void)showFinish1300WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 
-///show Fail 1300 失败
+///show Fail 1350 失败
 - (void)showFailWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///click
 - (void)clickEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
@@ -90,4 +90,6 @@
 
 @property (nonatomic,assign)CGSize splashBottomSize;
 @property (nonatomic,weak)UIWindow *splashWindow;
+
+@property (nonatomic,assign)MsADType adType;
 @end

@@ -27,6 +27,7 @@ typedef NS_ENUM(NSUInteger, TPAdOverlayControlState) {
 @property (nonatomic, strong) UIButton *callToActionButton; // located at the bottom-right corner
 @property (nonatomic, strong) UIButton *closeButton; // located at the top-right corner by default, created during `init`
 @property (nonatomic, strong) UIButton *skipButton; // located at the top-right corner
+@property (nonatomic, strong) UIButton *soundButton; 
 @property (nonatomic, strong) NSArray<NSLayoutConstraint *> *closeButtonConstraints;
 @property (nonatomic, strong) NSLayoutConstraint *iconViewWidthConstraint;
 @property (nonatomic, strong) NSLayoutConstraint *iconViewHeightConstraint;

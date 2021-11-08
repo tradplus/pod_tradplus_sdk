@@ -52,6 +52,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *ecpm_avg;
 ///ecpm_cny
 @property (nonatomic,copy)NSString *ecpm_cny;
+///ecpm_precision
+@property (nonatomic,copy)NSString *ecpm_precision;
+///ecpm_level
+@property (nonatomic,assign)NSInteger ecpm_level;
 ///视频最大时长 -1:不限时长  限定时长5-60
 @property (nonatomic,assign)NSInteger video_max_time;
 ///广告类型
@@ -73,6 +77,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger secType;
 ///广告类型
 @property (nonatomic,copy)NSString *adType;
+///激励视频的奖励信息
+@property (nonatomic,strong)NSDictionary *rewardedInfo;
 
 @property (nonatomic,assign)NSInteger waterfallIndex;
 
