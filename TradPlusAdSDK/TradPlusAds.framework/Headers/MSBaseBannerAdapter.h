@@ -78,4 +78,5 @@
 - (void)userWillLeaveApplicationFromAdapter:(MSBaseBannerAdapter *)adapter;
 - (void)adViewDidShownForAdapter:(MSBaseBannerAdapter *)adapter;
 - (void)adViewCountdownToZeroForAdapter:(MSBaseBannerAdapter *)adapter;
+- (void)adViewCloseForAdapter:(MSBaseBannerAdapter *)adapter;
 @end

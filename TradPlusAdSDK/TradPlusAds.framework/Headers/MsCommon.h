@@ -31,8 +31,8 @@ extern BOOL gMsSDKAllowWrite;
 extern BOOL gMsSDKAuthUID;
 extern BOOL gMsSDKIsCN;
 extern BOOL gMsSDKIsCA;
-extern int gMsEventInterval;
-extern int gMsEventUPLoadMaxCount;
+extern NSInteger gMsEventInterval;
+extern NSInteger gMsEventUPLoadMaxCount;
 extern int gMsHTTPTimeout;
 extern int gMsPayLoadTimeout;
 extern NSString * const gConsentStatusStorageKey;
@@ -165,8 +165,9 @@ typedef enum
     NETWORK_KUAISHOU,
     NETWORK_SIGMOB,
     NETWORK_INMOBI   = 23,
+    NETWORK_FYBER    = 24,
     NETWORK_YOUDAO   = 25,     //有道
-    NETWORK_CROSS    = 27,     //有道
+    NETWORK_CROSS    = 27,     
     NETWORK_STARTAPP = 28,
     NETWORK_HELIUM   = 30,
     NETWORK_MAIO     = 31,
@@ -176,6 +177,7 @@ typedef enum
     NETWORK_TPADX    = 40,
     NETWORK_KLEVIN   = 44,
     NETWORK_A4G      = 45,
+    NETWORK_SUPERAWESOME  = 47, 
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject

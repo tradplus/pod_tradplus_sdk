@@ -28,12 +28,15 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 + (void)setGDPRDataCollection:(BOOL)canDataCollection;
 + (MSConsentStatus)getGDPRDataCollection;
 
+///NO:加州用户均不上报数据；YES:接受上报数据
 + (void)setCCPADoNotSell:(BOOL)isCCPA;
+
 + (void)setCOPPAIsAgeRestrictedUser:(BOOL)isAgeRestrictedUser;
 + (void)setAuthUID:(BOOL)authUID;
 + (void)setDevAllowTracking:(BOOL)allowTracking;
-
++ (void)setAllowMessagePush:(BOOL)bo;
 + (BOOL)isAllowTracking;
+
 
 + (void)setAdMobNativeLogoPosition:(AdMobAdChoicesPosition)positionType;
 

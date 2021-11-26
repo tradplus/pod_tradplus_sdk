@@ -32,5 +32,6 @@
 - (void)userWillLeaveApplication;
 - (void)managerBannerAdShown;
 - (void)managerBannerCountdownToZero;
+- (void)managerBannerAdClose;
 
 @end

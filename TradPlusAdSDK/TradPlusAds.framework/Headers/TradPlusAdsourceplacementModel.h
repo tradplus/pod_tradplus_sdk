@@ -8,6 +8,8 @@
 @property (nonatomic,copy)NSString *id;
 ///bid的出价 广告cpm出价；固定为0
 @property (nonatomic,copy)NSString *price;
+///
+@property (nonatomic,copy)NSString *price_cny;
 ///三方biddid， 后续竞价胜出后用于加载广告的token id；
 @property (nonatomic,copy)NSString *bidid;
 ///0 失败; 1 成功

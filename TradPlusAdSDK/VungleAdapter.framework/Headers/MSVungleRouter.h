@@ -17,7 +17,6 @@ extern NSString *const kVungleBidTokenKey;
 
 + (MSVungleRouter *)sharedRouter;
 
-//v5.7.4.0
 //初始化传入 appid
 - (void)initializeSdkWithAppId:(NSString *)appId;
 //获取bidToken
@@ -49,7 +48,9 @@ extern NSString *const kVungleBidTokenKey;
 - (VungleConsentStatus) getCurrentConsentStatus;
 - (void)clearDelegateForPlacementId:(NSString *)placementId;
 
-- (void)finishedDisplayingAd:(NSString *)placementId bidToken:(NSString *)bidToken;
+- (BOOL)finishedDisplayingAd:(NSString *)placementId delegate:(id<MSVungleRouterDelegate>)delegate;
+
+- (BOOL)hasPlacementIdAd:(NSString *)placementId;
 @end
 
 @protocol MSVungleRouterDelegate <NSObject>
@@ -65,7 +66,6 @@ extern NSString *const kVungleBidTokenKey;
 - (void)vungleAdDidFailToPlay:(NSError *)error;
 ///缓存加载失败
 - (void)vungleAdDidFailToLoad:(NSError *)error;
-
 @optional
 
 - (void)vungleAdShouldRewardUser;
