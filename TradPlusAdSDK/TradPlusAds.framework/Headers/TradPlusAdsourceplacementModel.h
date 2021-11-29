@@ -12,6 +12,7 @@
 @property (nonatomic,copy)NSString *price_cny;
 ///三方biddid， 后续竞价胜出后用于加载广告的token id；
 @property (nonatomic,copy)NSString *bidid;
+@property (nonatomic,assign)NSInteger bid_price;
 ///0 失败; 1 成功
 @property (nonatomic,assign)NSInteger isbid;
 ///server返回码

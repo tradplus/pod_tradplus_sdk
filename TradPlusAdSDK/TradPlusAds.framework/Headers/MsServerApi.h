@@ -28,5 +28,5 @@
 - (BOOL)netNotReachable;
 - (void)setDefaultServerURL;
 
-- (void)httpsGET:(NSString *)strURL ecpmValue:(NSString *)ecpmValue lostCode:(NSString *)lostCode completionBlock:(void (^)(NSString *ec))completionBlock;
+- (void)httpsGET:(NSString *)strURL ecpmValue:(NSString *)ecpmValue lostCode:(NSString *)lostCode ASPID:(NSString *)ASPID completionBlock:(void (^)(NSString *ec))completionBlock;
 @end

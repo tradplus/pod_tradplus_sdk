@@ -19,7 +19,7 @@
 - (void)sendWinWithItem:(TradPlusAdWaterfallItem *)item;
 - (void)sendImpressionWithItem:(TradPlusAdWaterfallItem *)item;
 - (void)removeItem:(TradPlusAdWaterfallItem *)item;
-- (void)updataTopPrice:(NSString *)topPrice;
+- (void)updataTopPrice:(NSString *)topPrice adsourceId:(NSString *)adsourceId;
 - (void)clear;
 
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;

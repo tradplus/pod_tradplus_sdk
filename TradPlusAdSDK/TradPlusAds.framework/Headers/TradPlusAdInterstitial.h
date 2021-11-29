@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol TradPlusADInterstitialDelegate <NSObject>
 
-///AD加载完成
+///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpInterstitialAdLoaded:(NSDictionary *)adInfo;
 ///AD加载失败
 - (void)tpInterstitialAdLoadFailWithError:(NSError *)error;

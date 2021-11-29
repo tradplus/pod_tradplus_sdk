@@ -9,5 +9,7 @@
 + (NSString *)getBuyeruidWithInfo:(NSDictionary *)infoDic;
 ///获取版本号
 + (NSString *)sdkVersion;
+@optional
++ (NSString *)getSDKInfoWithInfo:(NSDictionary *)infoDic;
 
 @end

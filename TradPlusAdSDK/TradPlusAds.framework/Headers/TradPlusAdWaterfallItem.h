@@ -95,6 +95,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *biddingValue;
 @property (nonatomic,strong)TradPlusAdsourceplacementModel *adsourceplacement;
 @property (nonatomic,copy)NSString *topPirce;
+@property (nonatomic,copy)NSString *topPirceASPID;
 @property (nonatomic,assign)NSInteger payloadTimeout;
 @property (nonatomic,strong)NSDate *startBidddingDate;
 @property (nonatomic,strong)NSDate *finishBiddingDate;
