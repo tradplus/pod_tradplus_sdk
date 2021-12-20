@@ -87,6 +87,7 @@
 
 //banner相关属性
 @property (nonatomic,weak)UIViewController *bannerRootViewController;
+@property (nonatomic,assign)CGSize bannerSize;
 
 @property (nonatomic,assign)CGSize splashBottomSize;
 @property (nonatomic,weak)UIWindow *splashWindow;

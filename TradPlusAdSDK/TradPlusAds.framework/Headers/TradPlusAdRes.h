@@ -14,7 +14,7 @@ typedef enum : NSUInteger {
     TPAdResMediaTypeImage,
     TPAdResMediaTypeView,
     TPAdResMediaTypeURLString,
-    TPAdResMediaTypeImageList,
+    TPAdResMediaTypeImageList
 } TPAdResMediaType;
 
 @interface TradPlusAdRes : NSObject
@@ -83,11 +83,15 @@ typedef enum : NSUInteger {
 @property (nonatomic,copy)NSString *rawBodyText;
 @property (nonatomic,copy)NSString *adTranslation;
 @property (nonatomic,copy)NSString *promotedTranslation;
-
+//baidu
+@property (nonatomic,copy)NSString *brandName;
 //Pangle
 @property (nonatomic,assign)NSInteger commentNum;
 //Pangle kuaishou
 @property (nonatomic,copy)NSString *source;
 @property (nonatomic,copy)NSString *likes;
+
+//百度多图 imageURL数组
+@property (nonatomic,strong)NSArray *imageURLList;
 
 @end

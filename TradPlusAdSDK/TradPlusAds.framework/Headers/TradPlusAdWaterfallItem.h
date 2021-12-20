@@ -118,6 +118,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //banner相关属性
 @property (nonatomic,weak)UIViewController *bannerRootViewController;
+@property (nonatomic,assign)CGSize bannerSize;
 
 @property (nonatomic,copy)NSString *customClassName;
 //开屏相关属性
