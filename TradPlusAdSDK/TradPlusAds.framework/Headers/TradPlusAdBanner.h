@@ -17,9 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 设置广告位ID
 - (void)setAdUnitID:(NSString *)adUnitID;
 
-///设置banner尺寸 ，需在load前设置（百度 Pangle）
-- (void)setBannerSize:(CGSize)size;
-
 ///是否为自动展示模式 默认 YES
 @property (nonatomic,assign)BOOL autoShow;
 
@@ -34,6 +31,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 进入广告场景
 /// @param sceneId 场景ID 没有则设置为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
+
+///设置banner尺寸 ，需在load前设置（百度 Pangle）
+- (void)setBannerSize:(CGSize)size;
 
 ///返回下一个Ready的AD信息 无广告时返回nil
 - (nullable NSDictionary *)getReadyAdInfo;

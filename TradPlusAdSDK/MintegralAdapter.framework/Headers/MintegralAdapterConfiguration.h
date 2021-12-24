@@ -11,6 +11,8 @@ extern NSString *const kMintegralErrorDomain;
 
 +(void)sdkInitialized;
 
++ (void)setPersonalizedAd;
+
 +(BOOL)isMute;
 
 +(void)setMute:(BOOL)muteStatus;

@@ -16,5 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (SigmobRouter *)sharedRouter;
 
 - (void)initializeWithGameId:(NSString *)appid appkey:(NSString *)appkey;
+- (void)setPersonalizedAd;
 @end
 NS_ASSUME_NONNULL_END

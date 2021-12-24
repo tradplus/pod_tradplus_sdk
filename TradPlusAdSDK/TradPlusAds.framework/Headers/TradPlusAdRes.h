@@ -14,7 +14,7 @@ typedef enum : NSUInteger {
     TPAdResMediaTypeImage,
     TPAdResMediaTypeView,
     TPAdResMediaTypeURLString,
-    TPAdResMediaTypeImageList
+    TPAdResMediaTypeImageList,
 } TPAdResMediaType;
 
 @interface TradPlusAdRes : NSObject
@@ -55,7 +55,7 @@ typedef enum : NSUInteger {
 @property (nonatomic,strong)UIView *adChoiceView;
 
 //其他非常用参数
-//smaato AdMob InMobi Pangle GDTMob MyTarget kuaishou
+//smaato AdMob InMobi Pangle GDTMob MyTarget kuaishou StartApp
 @property (nonatomic,copy)NSNumber *rating;
 
 //ADMob
@@ -69,10 +69,12 @@ typedef enum : NSUInteger {
 @property (nonatomic,copy)NSString *advertisingLabel;
 @property (nonatomic,copy)NSString *ageRestrictions;
 @property (nonatomic,copy)NSString *disclaimer;
-@property (nonatomic,copy)NSString *category;
 @property (nonatomic,copy)NSString *subcategory;
 @property (nonatomic,copy)NSString *domain;
 @property (nonatomic,assign)NSInteger votes;
+
+//MyTarget startApp
+@property (nonatomic,copy)NSString *category;
 
 //smaato Facebook MoPub
 @property (nonatomic,copy)NSString *sponsored;
@@ -83,15 +85,11 @@ typedef enum : NSUInteger {
 @property (nonatomic,copy)NSString *rawBodyText;
 @property (nonatomic,copy)NSString *adTranslation;
 @property (nonatomic,copy)NSString *promotedTranslation;
-//baidu
-@property (nonatomic,copy)NSString *brandName;
+
 //Pangle
 @property (nonatomic,assign)NSInteger commentNum;
 //Pangle kuaishou
 @property (nonatomic,copy)NSString *source;
 @property (nonatomic,copy)NSString *likes;
-
-//百度多图 imageURL数组
-@property (nonatomic,strong)NSArray *imageURLList;
 
 @end

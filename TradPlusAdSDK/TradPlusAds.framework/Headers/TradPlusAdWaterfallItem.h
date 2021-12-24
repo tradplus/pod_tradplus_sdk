@@ -135,6 +135,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *sceneId;
 
 @property (nonatomic,assign)NSTimeInterval startPlayTime;
+//自定义参数
+@property (nonatomic, strong) NSDictionary *dicCustomValue;
 ///no = 被限制
 - (BOOL)noLimit;
 - (NSString *)asu;

@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(KuaiShouAdapterConfig *)sharedInstance;
 
+- (void)setPersonalizedAd;
+
 @property (nonatomic,assign)BOOL didInit;
 @end
 

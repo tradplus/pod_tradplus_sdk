@@ -40,6 +40,7 @@ extern BOOL gMsSDKAllowWrite;
 extern BOOL gMsSDKAuthUID;
 extern BOOL gMsSDKIsCN;
 extern BOOL gMsSDKIsCA;
+extern BOOL gTPOpenPersonalizedAd;
 extern NSInteger gMsEventInterval;
 extern NSInteger gMsEventUPLoadMaxCount;
 extern int gMsHTTPTimeout;
@@ -184,7 +185,6 @@ typedef enum
     NETWORK_KIDOZ    = 37,
     NETWORK_SMAATO   = 38,
     NETWORK_TPADX    = 40,
-    NETWORK_BAIDU    = 43,
     NETWORK_KLEVIN   = 44,
     NETWORK_A4G      = 45,
     NETWORK_SUPERAWESOME  = 47, 
