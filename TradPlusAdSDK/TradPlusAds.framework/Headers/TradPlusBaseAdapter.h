@@ -56,6 +56,8 @@ extern NSString * const kTPRendererAdChoiceImageView;
 - (void)AdShowFailWithError:(NSError *)error;
 - (void)showFinish;
 - (void)AdRewardedWithInfo:(NSDictionary *)info;
+//贴片播放完成事件
+- (void)AdPasterPlayFinish;
 
 @property (nonatomic,weak)TradPlusAdWaterfallItem *waterfallItem;
 @property (nonatomic,strong)NSMutableArray *downLoadURLArray;

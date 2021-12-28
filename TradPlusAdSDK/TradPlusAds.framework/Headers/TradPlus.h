@@ -37,6 +37,10 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 + (void)setAllowMessagePush:(BOOL)bo;
 + (BOOL)isAllowTracking;
 
+///注：此接口需要在initSDK之前调用
+///此接口设置为Yes后SDK将只使用国内域名
++ (void)setCnServer:(BOOL)bo;
+
 
 + (void)setAdMobNativeLogoPosition:(AdMobAdChoicesPosition)positionType;
 

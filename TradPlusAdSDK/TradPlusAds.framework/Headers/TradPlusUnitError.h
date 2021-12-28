@@ -42,5 +42,7 @@ typedef enum : NSUInteger {
 + (NSError *)errorWithCode:(TPUnitErrorCode)code message:(NSString *)message;
 + (NSError *)errorWithEvent:(MSEventType)eventType code:(NSInteger)code message:(NSString *)msg;
 + (NSError *)NoImageDataError;
+
++ (NSError *)biddingErrorWithNbr:(NSInteger)nbr;
 @end
 

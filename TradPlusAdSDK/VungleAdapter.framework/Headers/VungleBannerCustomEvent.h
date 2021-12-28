@@ -2,8 +2,5 @@
 
 @interface VungleBannerCustomEvent : MSBannerCustomEvent
 
-- (VungleAdSize)getBannerSize;
-- (NSString *)getPlacementID;
-
 @end
 

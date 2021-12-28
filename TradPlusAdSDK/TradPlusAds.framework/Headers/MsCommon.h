@@ -33,6 +33,8 @@ extern NSString *gAdxEventServerURL;
 extern NSString *gCrossEventServerURL;
 extern NSString *gAdconfServerURL;
 extern NSString *gCrossAdconfServerURL;
+extern NSString *gBiddingServerURL;
+
 extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKForceTest;
 extern BOOL gMsSDKInited;
@@ -51,9 +53,9 @@ extern NSString * const gTPCCPAStorageKey;
 extern NSString * const gTPCOPPAStorageKey;
 extern NSString * const gTPATTEnableStorageKey;
 extern NSString * const gTPPayloadOutTimeKey;
-extern NSString * const gEventServerDefaultURL;
-extern NSString * const gAdxEventServerDefaultURL;
-extern NSString * const gCrossEventServerDefaultURL;
+
+extern BOOL gTPCNServer;
+
 extern NSString * const gNeedCheckExpiredAd;
 extern NSString * const gAppAllowUploadUseTime;
 
@@ -185,6 +187,7 @@ typedef enum
     NETWORK_KIDOZ    = 37,
     NETWORK_SMAATO   = 38,
     NETWORK_TPADX    = 40,
+    NETWORK_BAIDU    = 43,
     NETWORK_KLEVIN   = 44,
     NETWORK_A4G      = 45,
     NETWORK_SUPERAWESOME  = 47, 

@@ -42,6 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 
 @property (nonatomic, readonly) BOOL isAdReady;
+@property (nonatomic, readonly) NSString *unitID;
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
@@ -69,7 +70,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///bidding开始
 - (void)tpInterstitialAdBidStart:(NSDictionary *)adInfo;
 ///bidding结束
-- (void)tpInterstitialAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success;
+- (void)tpInterstitialAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpInterstitialAdBidEnd:error:");
+///bidding结束 error = nil 表示成功
+- (void)tpInterstitialAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
 ///开始加载
 - (void)tpInterstitialAdLoadStart:(NSDictionary *)adInfo;
 //多缓存情况下，当每个广告源加载成功后会都会回调一次。
