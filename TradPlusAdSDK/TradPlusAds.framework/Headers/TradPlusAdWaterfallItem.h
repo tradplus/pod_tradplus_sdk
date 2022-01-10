@@ -118,7 +118,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 //banner相关属性
 @property (nonatomic,weak)UIViewController *bannerRootViewController;
-@property (nonatomic,assign)CGSize bannerSize;
 
 @property (nonatomic,copy)NSString *customClassName;
 //开屏相关属性
@@ -135,8 +134,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *sceneId;
 
 @property (nonatomic,assign)NSTimeInterval startPlayTime;
-//自定义参数
-@property (nonatomic, strong) NSDictionary *dicCustomValue;
 ///no = 被限制
 - (BOOL)noLimit;
 - (NSString *)asu;

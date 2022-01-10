@@ -31,7 +31,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)show;
 
 @property (nonatomic, readonly) BOOL isAdReady;
-@property (nonatomic, readonly) NSString *unitID;
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
@@ -58,9 +57,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///bidding开始
 - (void)tpSplashAdBidStart:(NSDictionary *)adInfo;
 ///bidding结束
-- (void)tpSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpSplashAdBidEnd:error:");
-///bidding结束 error = nil 表示成功
-- (void)tpSplashAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
+- (void)tpSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success;
 ///开始加载
 - (void)tpSplashAdLoadStart:(NSDictionary *)adInfo;
 //多缓存情况下，当每个广告源加载成功后会都会回调一次。

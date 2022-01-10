@@ -9,7 +9,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary *properties;
 @property (nonatomic, strong) NSURL *defaultActionURL;
 @property (nonatomic, strong) NSString *notifyStr;
-- (instancetype)initWithBUNativeAd:(BUNativeAd *)nativeAd placementId:(NSString *)placementId notifyStr:(NSString *)notifyStr;
+- (instancetype)initWithBUNativeAd:(BUNativeAd *)nativeAd placementId:(NSString *)placementId;
 
 @end
 

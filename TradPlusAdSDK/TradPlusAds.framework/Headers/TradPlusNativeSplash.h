@@ -60,8 +60,6 @@
 
 
 @property (nonatomic, readonly) BOOL isAdReady;
-@property (nonatomic, readonly)NSString *unitID;
-
 @property (nonatomic,weak) id <TradPlusADNativeSplashDelegate> delegate;
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
@@ -88,9 +86,7 @@
 ///bidding开始
 - (void)tpNativeSplashAdBidStart:(NSDictionary *)adInfo;
 ///bidding结束
-- (void)tpNativeSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeSplashAdBidEnd:error:");
-///bidding结束 error = nil 表示成功
-- (void)tpNativeSplashAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
+- (void)tpNativeSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success;
 ///开始加载
 - (void)tpNativeSplashAdLoadStart:(NSDictionary *)adInfo;
 //多缓存情况下，当每个广告源加载成功后会都会回调一次。

@@ -5,15 +5,18 @@
 #import "TradPlusAdWaterfallItem.h"
 #import "TradPlusNativeRenderer.h"
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface TradPlusAdNativeItem : NSObject
 
 - (instancetype)initWithWaterfallItem:(TradPlusAdWaterfallItem *)item;
 
-- (void)showAdWithSubView:(UIView *)subView renderer:(TradPlusNativeRenderer *)renderer;
-///用于移除adView
+
+- (void)showAdWithSubView:(UIView *)subview renderer:(TradPlusNativeRenderer *)renderer;
+
 - (void)clear;
+@property (nonatomic,readonly)TradPlusAdRes *res;
+@property (nonatomic,readonly)id customObject;
+@property (nonatomic,readonly)TradPlusBaseAdapter *adapter;
+
 @end
 
-NS_ASSUME_NONNULL_END

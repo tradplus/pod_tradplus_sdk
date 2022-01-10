@@ -47,7 +47,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setServerSideVerificationOptionsWithUserID:(nonnull NSString *)userID customData:(nullable NSString *)customData;
 
 @property (nonatomic, readonly) BOOL isAdReady;
-@property (nonatomic, readonly) NSString *unitID;
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
@@ -76,9 +75,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///bidding开始
 - (void)tpRewardedAdBidStart:(NSDictionary *)adInfo;
 ///bidding结束
-- (void)tpRewardedAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpRewardedAdBidEnd:error:");
-///bidding结束 error = nil 表示成功
-- (void)tpRewardedAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
+- (void)tpRewardedAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success;
 ///开始加载
 - (void)tpRewardedAdLoadStart:(NSDictionary *)adInfo;
 //多缓存情况下，当每个广告源加载成功后会都会回调一次。

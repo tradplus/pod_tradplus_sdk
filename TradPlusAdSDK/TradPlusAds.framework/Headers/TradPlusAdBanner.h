@@ -32,9 +32,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param sceneId 场景ID 没有则设置为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 
-///设置banner尺寸 ，需在load前设置（百度 Pangle）
-- (void)setBannerSize:(CGSize)size;
-
 ///返回下一个Ready的AD信息 无广告时返回nil
 - (nullable NSDictionary *)getReadyAdInfo;
 
@@ -42,8 +39,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable NSDictionary *)getCurrentAdInfo;
 
 @property (nonatomic, readonly) BOOL isAdReady;
-@property (nonatomic, readonly) NSString *unitID;
-
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 @property (nonatomic,weak) id <TradPlusADBannerDelegate> delegate;
@@ -68,9 +63,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///bidding开始
 - (void)tpBannerAdBidStart:(NSDictionary *)adInfo;
 ///bidding结束
-- (void)tpBannerAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpBannerAdBidEnd:error:");
-///bidding结束 error = nil 表示成功
-- (void)tpBannerAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
+- (void)tpBannerAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success;
 ///开始加载
 - (void)tpBannerAdLoadStart:(NSDictionary *)adInfo;
 //多缓存情况下，当每个广告源加载成功后会都会回调一次。
