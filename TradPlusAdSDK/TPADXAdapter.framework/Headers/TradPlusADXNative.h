@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign) BOOL isMute;
 @property (nonatomic,weak) id <TPADXNativeDelegate> delegate;
+@property (nonatomic,strong)TPADXNativeData *nativeData;
 @end
 
 @protocol TPADXNativeDelegate <NSObject>

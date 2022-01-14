@@ -33,6 +33,8 @@ extern NSString *gAdxEventServerURL;
 extern NSString *gCrossEventServerURL;
 extern NSString *gAdconfServerURL;
 extern NSString *gCrossAdconfServerURL;
+extern NSString *gBiddingServerURL;
+
 extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKForceTest;
 extern BOOL gMsSDKInited;
@@ -40,6 +42,7 @@ extern BOOL gMsSDKAllowWrite;
 extern BOOL gMsSDKAuthUID;
 extern BOOL gMsSDKIsCN;
 extern BOOL gMsSDKIsCA;
+extern BOOL gTPOpenPersonalizedAd;
 extern NSInteger gMsEventInterval;
 extern NSInteger gMsEventUPLoadMaxCount;
 extern int gMsHTTPTimeout;
@@ -50,9 +53,9 @@ extern NSString * const gTPCCPAStorageKey;
 extern NSString * const gTPCOPPAStorageKey;
 extern NSString * const gTPATTEnableStorageKey;
 extern NSString * const gTPPayloadOutTimeKey;
-extern NSString * const gEventServerDefaultURL;
-extern NSString * const gAdxEventServerDefaultURL;
-extern NSString * const gCrossEventServerDefaultURL;
+
+extern BOOL gTPCNServer;
+
 extern NSString * const gNeedCheckExpiredAd;
 extern NSString * const gAppAllowUploadUseTime;
 
@@ -64,6 +67,12 @@ typedef enum : NSUInteger {
     TPTemplateContentModeScaleToFill,//自动充满subview默认
     TPTemplateContentModeCenter,//保持在subview的center
 } TPTemplateContentMode;
+
+typedef enum : NSUInteger {
+    TPBannerContentModeTop,//顶部水平居中
+    TPBannerContentModeCenter,//垂直居中并水平居中
+    TPBannerContentModeBottom,//底边水平居中
+} TPBannerContentMode;
 
 typedef enum : NSUInteger {
     TPAdOperationStatusNormal = 0,
@@ -93,6 +102,14 @@ typedef enum
     ADTYPE_OFFERWALL,
     ADTYPE_SPLASH
 } MsADType;
+
+typedef enum : NSUInteger {
+    TPNativeADTYPE_Unknown = 0,//未知
+    TPNativeADTYPE_Feed,//自渲染
+    TPNativeADTYPE_Template,//模版
+    TPNativeADTYPE_Paster,//贴片
+    TPNativeADTYPE_Draw//draw信息流
+} TPNativeADTYPE;
 
 typedef enum
 {
@@ -181,9 +198,11 @@ typedef enum
     NETWORK_HELIUM   = 30,
     NETWORK_MAIO     = 31,
     NETWORK_MYTARGET = 33,
+    NETWORK_OGURY = 34,
     NETWORK_KIDOZ    = 37,
     NETWORK_SMAATO   = 38,
     NETWORK_TPADX    = 40,
+    NETWORK_BAIDU    = 43,
     NETWORK_KLEVIN   = 44,
     NETWORK_A4G      = 45,
     NETWORK_SUPERAWESOME  = 47, 

@@ -37,17 +37,20 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 + (void)setAllowMessagePush:(BOOL)bo;
 + (BOOL)isAllowTracking;
 
+///注：此接口需要在initSDK之前调用
+///此接口设置为Yes后SDK将只使用国内域名
++ (void)setCnServer:(BOOL)bo;
+
 
 + (void)setAdMobNativeLogoPosition:(AdMobAdChoicesPosition)positionType;
 
 /// 设置本地配置信息
-/// 暂时只支持native6.0
+/// 支持 TradPlusAdSplash TradPlusAdRewarded TradPlusAdInterstitial TradPlusAdBanner TradPlusAdNative TradPlusNativeSplash TradPlusNativeBanner
 /// @param configInfo 本地配置信息
 /// @param placementId 广告位ID
 + (void)setLocalConfig:(NSString *)configInfo placementId:(NSString *)placementId;
 
-///暂时只支持native6.0
-///检测缓存过期状态
+///支持 TradPlusAdBanner TradPlusAdNative TradPlusNativeSplash TradPlusNativeBanner TradPlusAdInterstitial TradPlusAdRewarded TradPlusAdSplash 类型进行缓存过期的手动检测
 + (void)expiredAdCheck;
 
 ///设置应用在app store上的id 
@@ -56,7 +59,13 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 ///设置是否允许上传用户使用时长 默认允许
 + (void)setAppAllowUploadUseTime:(BOOL)allowUpload;
 
-///支持 TradPlusAdSplash TradPlusAdRewarded TradPlusAdInterstitial TradPlusAdBanner TradPlusAdNative 类型开启关闭定时检查广告过期
+///设置是否开启个性化推荐广告。NO = 关闭 ，YES = 开启。默认 YES 开启
++ (void)setOpenPersonalizedAd:(BOOL)isOpen;
+
+///当前的个性化状态
+@property (nonatomic,readonly)BOOL isOpenPersonalizedAd;
+
+///支持 TradPlusAdSplash TradPlusAdRewarded TradPlusAdInterstitial TradPlusAdBanner TradPlusAdNative TradPlusNativeSplash TradPlusNativeBanner 类型开启关闭定时检查广告过期
 ///yes=允许定时检查 no=关闭定时检查 默认为YES
 @property (nonatomic,assign)BOOL isExpiredAdChecking;
 

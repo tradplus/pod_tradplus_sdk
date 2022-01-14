@@ -20,6 +20,7 @@
 - (void)sendImpressionWithItem:(TradPlusAdWaterfallItem *)item;
 - (void)removeItem:(TradPlusAdWaterfallItem *)item;
 - (void)updataTopPrice:(NSString *)topPrice adsourceId:(NSString *)adsourceId;
+- (void)removeAllCache;
 - (void)clear;
 
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;
@@ -27,5 +28,5 @@
 @property (nonatomic,assign)MsADType adType;
 
 @property (nonatomic, copy) void (^biddingItemStart)(TradPlusAdWaterfallItem *biddingItem);
-@property (nonatomic, copy) void (^biddingItemEnd)(TradPlusAdWaterfallItem *biddingItem,NSInteger errorCode,NSError *error);
+@property (nonatomic, copy) void (^biddingItemEnd)(TradPlusAdWaterfallItem *biddingItem,NSInteger errorCode,NSError *error,NSInteger nbr);
 @end

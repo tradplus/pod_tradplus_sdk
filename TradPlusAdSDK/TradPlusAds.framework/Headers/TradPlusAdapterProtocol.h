@@ -12,4 +12,6 @@
 @optional
 + (NSString *)getSDKInfoWithInfo:(NSDictionary *)infoDic;
 
++ (void)initSDKWithInfo:(NSDictionary *)infoDic callback:(void(^)(void))callback;
+
 @end

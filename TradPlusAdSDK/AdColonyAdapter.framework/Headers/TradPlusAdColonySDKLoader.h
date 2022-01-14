@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setUserID:(NSString *)userID;
 //设置测试模式
 @property (nonatomic,assign)BOOL testModel;
+@property (nonatomic,assign)BOOL didInit;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MsCommon.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -32,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param sceneId 场景ID 没有则设置为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 
+///设置banner尺寸 ，需在load前设置（百度 Pangle）
+- (void)setBannerSize:(CGSize)size;
+
 ///返回下一个Ready的AD信息 无广告时返回nil
 - (nullable NSDictionary *)getReadyAdInfo;
 
@@ -39,18 +43,24 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable NSDictionary *)getCurrentAdInfo;
 
 @property (nonatomic, readonly) BOOL isAdReady;
+@property (nonatomic, readonly) NSString *unitID;
+//@property (nonatomic, assign) BOOL
+
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 @property (nonatomic,weak) id <TradPlusADBannerDelegate> delegate;
 
+//三方banner的对其方式 默认：TPBannerContentModeTop
+@property (nonatomic,assign)TPBannerContentMode bannerContentMode;
 @end
 
 @protocol TradPlusADBannerDelegate <NSObject>
-
+///为三方提供rootviewController 用于点击广告后的操作
 - (UIViewController *)viewControllerForPresentingModalView;
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpBannerAdLoaded:(NSDictionary *)adInfo;
 ///AD加载失败
+///tpBannerAdOneLayerLoad:didFailWithError：返回三方源的错误信息
 - (void)tpBannerAdLoadFailWithError:(NSError *)error;
 ///AD展现
 - (void)tpBannerAdImpression:(NSDictionary *)adInfo;
@@ -63,16 +73,18 @@ NS_ASSUME_NONNULL_BEGIN
 ///bidding开始
 - (void)tpBannerAdBidStart:(NSDictionary *)adInfo;
 ///bidding结束
-- (void)tpBannerAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success;
+- (void)tpBannerAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpBannerAdBidEnd:error:");
+///bidding结束 error = nil 表示成功
+- (void)tpBannerAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
 ///开始加载
 - (void)tpBannerAdLoadStart:(NSDictionary *)adInfo;
-//多缓存情况下，当每个广告源加载成功后会都会回调一次。
+///当每个广告源加载成功后会都会回调一次。
 - (void)tpBannerAdOneLayerLoaded:(NSDictionary *)adInfo;
-//多缓存情况下，当每个广告源加载失败后会都会回调一次。
+///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
 - (void)tpBannerAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
 ///加载流程全部结束
 - (void)tpBannerAdAllLoaded:(BOOL)success;
-//用户主动关闭是时的回调 GDTMOB Pangle(需要自行处理)
+///三方关闭按钮触发时的回调
 - (void)tpBannerAdClose:(NSDictionary *)adInfo;
 @end
 
