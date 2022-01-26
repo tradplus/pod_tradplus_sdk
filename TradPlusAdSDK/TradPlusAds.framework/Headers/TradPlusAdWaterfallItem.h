@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger sigmob_type;
 ///非零情况下以为有尺寸
 @property (nonatomic,assign)NSInteger ad_size;
-@property (nonatomic,assign)NSDictionary *ad_size_info;
+@property (nonatomic,strong)NSDictionary *ad_size_info;
 ///视频静音 1:是 2:否
 @property (nonatomic,assign)NSInteger video_mute;
 ///自动播放视频  1:总是  2:仅wifi'
