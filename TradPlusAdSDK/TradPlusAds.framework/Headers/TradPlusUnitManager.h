@@ -12,6 +12,7 @@
 
 //流量分组
 @property (nonatomic,copy)NSString *segmentTag;
+@property (nonatomic,copy)NSString *segmentId;
 @property (nonatomic,copy)NSString *bucketId;
 @property (nonatomic,strong)NSDictionary *dicCustomValue;
 //服务器奖励验证信息
