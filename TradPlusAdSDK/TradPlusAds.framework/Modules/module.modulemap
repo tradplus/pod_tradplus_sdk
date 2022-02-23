@@ -1,0 +1,6 @@
+framework module TradPlusAds {
+  umbrella header "TradPlusAds.h"
+
+  export *
+  module * { export * }
+}

@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 #import <TradPlusAds/TPSDKLoaderDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -18,7 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
                  delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
 + (NSString *)getNotificationStr;
 - (void)setPersonalizedAd;
-- (void)setIcon:(UIImage *)image;
 
 @property (nonatomic,assign)BOOL didInit;
 @end
