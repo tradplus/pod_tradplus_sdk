@@ -1,0 +1,6 @@
+framework module UnityAdapter {
+  umbrella header "UnityAdapter.h"
+
+  export *
+  module * { export * }
+}

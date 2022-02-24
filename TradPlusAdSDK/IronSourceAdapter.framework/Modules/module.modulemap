@@ -1,0 +1,6 @@
+framework module IronSourceAdapter {
+  umbrella header "IronSourceAdapter.h"
+
+  export *
+  module * { export * }
+}

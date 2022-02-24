@@ -1,0 +1,6 @@
+framework module BaiduAdapter {
+  umbrella header "BaiduAdapter.h"
+
+  export *
+  module * { export * }
+}
