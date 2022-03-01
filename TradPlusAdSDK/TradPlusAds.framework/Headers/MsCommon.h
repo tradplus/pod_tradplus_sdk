@@ -35,6 +35,7 @@ extern NSString *gAdconfServerURL;
 extern NSString *gCrossAdconfServerURL;
 extern NSString *gBiddingServerURL;
 
+extern BOOL gForceGetIDFA;
 extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKForceTest;
 extern BOOL gMsSDKInited;

@@ -211,3 +211,4 @@
 #import <TradPlusAds/TradPlusAdCacheManager.h>
 #import <TradPlusAds/TradPlusAdAVPlayerView.h>
 #import <TradPlusAds/TradPlusAdActivityIndicatorView.h>
+#import <TradPlusAds/TPTestModeController.h>
