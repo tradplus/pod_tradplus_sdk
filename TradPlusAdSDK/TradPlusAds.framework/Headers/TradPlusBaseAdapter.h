@@ -77,6 +77,4 @@ extern NSString * const kTPRendererAdChoiceImageView;
 ///是否ready
 @property (nonatomic,assign)BOOL isAdReady;
 @property (nonatomic,assign)BOOL didShow;
-
-@property (nonatomic,assign)NSTimeInterval showTime;
 @end
