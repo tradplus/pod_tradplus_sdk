@@ -187,16 +187,4 @@ Pod::Spec.new do |spec|
      ss.ios.deployment_target = '9.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/SuperAwesomeAdapter.framework'
   end
-
-  spec.subspec 'BaiduAdapter' do |ss|
-     ss.dependency 'TradPlusAdSDK/TradPlusAds'
-     ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/BaiduAdapter.framework'
-  end
-
-  spec.subspec 'OguryAdapter' do |ss|
-     ss.dependency 'TradPlusAdSDK/TradPlusAds'
-     ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/OguryAdapter.framework'
-  end
 end
