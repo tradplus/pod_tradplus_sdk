@@ -15,7 +15,5 @@ NS_ASSUME_NONNULL_BEGIN
 + (TradPlusMoPubSDKLoader *)sharedInstance;
 - (void)initWithAccountID:(NSString *)accountID
                  delegate:(id <TPSDKLoaderDelegate>)delegate;
-
-@property (nonatomic,assign)BOOL didInit;
 @end
 NS_ASSUME_NONNULL_END

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@import MoPubSDK;
+#import "MoPub.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

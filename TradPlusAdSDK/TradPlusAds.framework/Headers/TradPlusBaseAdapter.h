@@ -34,10 +34,6 @@ extern NSString * const kTPRendererAdChoiceImageView;
 - (UIView *)endRender:(NSDictionary *)viewInfo clickView:(NSArray *)array;
 ///模版类型渲染
 - (void)templateRender:(UIView *)subView;
-///drawList
-- (NSArray <UIView *>*)getDrawList;
-///draw信息流
-- (UIView *)drawRender:(UIView *)subView;
 ///渲染完成后添加到subview时
 - (void)didAddSubView;
 ///释放前处理
@@ -55,26 +51,15 @@ extern NSString * const kTPRendererAdChoiceImageView;
 - (void)AdLoadFailWithError:(NSError *)error;
 - (void)AdConfigError;
 - (void)AdClick;
-///限制一个Adapter只能触发一次
 - (void)AdShow;
-///需要多次触发时使用此方法，例：draw信息流
-- (void)AdShowNoLimit;
-///插屏 激励视频关闭事件，部分 原生 banner 国内源附带关闭功能
 - (void)AdClose;
 - (void)AdShowFailWithError:(NSError *)error;
 - (void)showFinish;
 - (void)AdRewardedWithInfo:(NSDictionary *)info;
-//再看一次奖励回调
-- (void)AdPlayAgainRewardedWithInfo:(NSDictionary *)info;
-//贴片播放完成事件
-- (void)AdPasterPlayFinish;
-
-- (void)setBannerCenterWithBanner:(UIView *)banner subView:(UIView *)subView;
 
 @property (nonatomic,weak)TradPlusAdWaterfallItem *waterfallItem;
 @property (nonatomic,strong)NSMutableArray *downLoadURLArray;
 @property (nonatomic,weak)UIViewController *rootViewController;
 ///是否ready
 @property (nonatomic,assign)BOOL isAdReady;
-@property (nonatomic,assign)BOOL didShow;
 @end

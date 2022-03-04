@@ -6,7 +6,7 @@
 typedef enum : NSUInteger {
     TPAdResTypeAssets,
     TPAdResTypeView,
-    TPAdResTypeDrawList,
+    TPAdResTypeViewList,
 } TPAdResType;
 
 typedef enum : NSUInteger {
@@ -14,7 +14,7 @@ typedef enum : NSUInteger {
     TPAdResMediaTypeImage,
     TPAdResMediaTypeView,
     TPAdResMediaTypeURLString,
-    TPAdResMediaTypeImageList
+    TPAdResMediaTypeImageList,
 } TPAdResMediaType;
 
 @interface TradPlusAdRes : NSObject
@@ -22,15 +22,13 @@ typedef enum : NSUInteger {
 //默认 TPAdResTypeAssets
 @property (nonatomic,assign)TPAdResType adType;
 
-//YES = 穿山甲视频贴片
-@property (nonatomic,assign)BOOL isCustomVideoPaster;
 //模版类型的adView
 //TPAdResType = TPAdResTypeView
 @property (nonatomic,strong)UIView *adView;
 
 //多个adView时使用
-//TPAdResType = TPAdResTypeDrawList
-@property (nonatomic,strong)NSArray *drawList;
+//TPAdResType = TPAdResTypeViewList
+@property (nonatomic,strong)NSArray *adViewList;
 
 //自渲染类型的素材
 //广告标题
@@ -88,19 +86,10 @@ typedef enum : NSUInteger {
 @property (nonatomic,copy)NSString *adTranslation;
 @property (nonatomic,copy)NSString *promotedTranslation;
 
-///穿山甲国内 腾讯 视频贴片的视频播放时间
-@property (nonatomic, assign) NSInteger videoDuration;
-///穿山甲国内 视频贴片的视频播放地址
-@property (nonatomic, copy) NSString *videoUrl;
-//baidu
-@property (nonatomic,copy)NSString *brandName;
 //Pangle
 @property (nonatomic,assign)NSInteger commentNum;
 //Pangle kuaishou
 @property (nonatomic,copy)NSString *source;
 @property (nonatomic,copy)NSString *likes;
-
-//百度多图 imageURL数组
-@property (nonatomic,strong)NSArray *imageURLList;
 
 @end

@@ -1,6 +1,0 @@
-framework module YouDaoAdapter {
-  umbrella header "YouDaoAdapter.h"
-
-  export *
-  module * { export * }
-}

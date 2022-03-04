@@ -22,7 +22,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setUserID:(NSString *)userID;
 
 @property (nonatomic,strong)ALSdk *sdk;
-@property (nonatomic,assign)BOOL didInit;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -1,6 +1,0 @@
-framework module MyTargetAdapter {
-  umbrella header "MyTargetAdapter.h"
-
-  export *
-  module * { export * }
-}

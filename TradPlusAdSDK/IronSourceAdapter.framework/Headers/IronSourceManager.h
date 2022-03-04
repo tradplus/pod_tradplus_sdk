@@ -8,13 +8,11 @@
 #import "IronSourceConstants.h"
 #import "IronSourceInterstitialDelegate.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface IronSourceManager
 : NSObject <ISDemandOnlyRewardedVideoDelegate, ISDemandOnlyInterstitialDelegate>
 
 + (instancetype)sharedManager;
-
+- (void)initIronSourceSDKWithAppKey:(NSString *)appKey forAdUnits:(NSSet *)adUnits;
 - (void)loadRewardedAdWithDelegate:(id<IronSourceRewardedVideoDelegate>)delegate
                         instanceID:(NSString *)instanceID;
 - (void)presentRewardedAdFromViewController:(nonnull UIViewController *)viewController
@@ -25,5 +23,3 @@ NS_ASSUME_NONNULL_BEGIN
                                      instanceID: (NSString *) instanceID;
 
 @end
-
-NS_ASSUME_NONNULL_END

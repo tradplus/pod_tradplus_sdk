@@ -1,6 +1,0 @@
-framework module StartAppAdapter {
-  umbrella header "StartAppAdapter.h"
-
-  export *
-  module * { export * }
-}

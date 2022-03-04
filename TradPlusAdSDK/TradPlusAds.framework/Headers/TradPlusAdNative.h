@@ -10,7 +10,6 @@
 #import <UIKit/UIKit.h>
 #import "TradPlusNativeRenderer.h"
 #import "MsCommon.h"
-#import "TradPlusAdNativeObject.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -65,7 +64,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 
 @property (nonatomic,readonly)BOOL isAdReady;
-@property (nonatomic, readonly) NSString *unitID;
 
 @property (nonatomic,weak) id <TradPlusADNativeDelegate> delegate;
 
@@ -74,9 +72,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///返回当前显示的AD信息
 - (nullable NSDictionary *)getCurrentAdInfo;
-
-///获取一个已缓存广告,获取后此广告会从缓存中移除，无广告时返回nil
-- (TradPlusAdNativeObject *)getReadyNativeObject;
 @end
 
 @protocol TradPlusADNativeDelegate <NSObject>
@@ -84,7 +79,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpNativeAdLoaded:(NSDictionary *)adInfo;
 ///AD加载失败
-///tpNativeAdOneLayerLoad:didFailWithError：返回三方源的错误信息
 - (void)tpNativeAdLoadFailWithError:(NSError *)error;
 ///AD展现
 - (void)tpNativeAdImpression:(NSDictionary *)adInfo;
@@ -92,28 +86,25 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpNativeAdShow:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
 ///AD被点击
 - (void)tpNativeAdClicked:(NSDictionary *)adInfo;
-///为三方提供rootviewController 用于点击广告后的操作
-- (UIViewController *)viewControllerForPresentingModalView;
 
 @optional
+///部分三方源需要设置rootviewController smaato GDTMob kuaishou
+- (UIViewController *)viewControllerForPresentingModalView;
+
 ///AD被关闭
 - (void)tpNativeAdClose:(NSDictionary *)adInfo;
 ///bidding开始
 - (void)tpNativeAdBidStart:(NSDictionary *)adInfo;
 ///bidding结束
-- (void)tpNativeAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeAdBidEnd:error:");
-///bidding结束 error = nil 表示成功
-- (void)tpNativeAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
+- (void)tpNativeAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success;
 ///开始加载
 - (void)tpNativeAdLoadStart:(NSDictionary *)adInfo;
-///当每个广告源加载成功后会都会回调一次。
+//多缓存情况下，当每个广告源加载成功后会都会回调一次。
 - (void)tpNativeAdOneLayerLoaded:(NSDictionary *)adInfo;
-///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
+//多缓存情况下，当每个广告源加载失败后会都会回调一次。
 - (void)tpNativeAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
 ///加载流程全部结束
 - (void)tpNativeAdAllLoaded:(BOOL)success;
-///视频贴片类型播放完成回调
-- (void)tpNativePasterDidPlayFinished:(NSDictionary *)adInfo;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -13,6 +13,7 @@
 
 @property (nonatomic,copy)NSString *placementId;
 @property (nonatomic,copy)NSString *segmentTag;
+@property (nonatomic,copy)NSString *bucketId;
 @property (nonatomic,strong)NSDictionary *dicUserInfo;
 
 @property (nonatomic,strong)NSDate *startLoadDate;

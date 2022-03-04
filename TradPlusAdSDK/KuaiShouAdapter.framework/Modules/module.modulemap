@@ -1,6 +1,0 @@
-framework module KuaiShouAdapter {
-  umbrella header "KuaiShouAdapter.h"
-
-  export *
-  module * { export * }
-}

@@ -18,8 +18,6 @@
 
 //获取一个缓存并移除缓存
 - (TradPlusAdWaterfallItem *)getCacheItemAndRemove;
-//获取一个缓存并移除缓存 不进行频次检测
-- (TradPlusAdWaterfallItem *)getNoCheckCacheItemAndRemove;
 - (TradPlusAdWaterfallItem *)getCacheItem;
 //获取缓存中第一个对象的引用
 - (TradPlusAdWaterfallItem *)getCacheFirstItem;

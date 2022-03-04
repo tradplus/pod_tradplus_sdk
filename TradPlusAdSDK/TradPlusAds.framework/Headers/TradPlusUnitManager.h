@@ -12,7 +12,6 @@
 
 //流量分组
 @property (nonatomic,copy)NSString *segmentTag;
-@property (nonatomic,copy)NSString *segmentId;
 @property (nonatomic,copy)NSString *bucketId;
 @property (nonatomic,strong)NSDictionary *dicCustomValue;
 //服务器奖励验证信息
@@ -21,7 +20,6 @@
 
 - (instancetype)initWithPlacementID:(NSString *)placementID;
 - (void)loadAd;
-- (void)loadAdWithType:(NSInteger)loadType;
 - (BOOL)checkReady;
 - (void)entryAdScenario:(NSString *)sceneId;
 - (void)logBase64Config;
@@ -46,11 +44,6 @@
 - (void)rewardedEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///获取最近缓存广告信息 nil = 没有
 - (NSDictionary *)getReadyItemInfo;
-
-- (NSError *)checkLimitWithWaterfallItem:(TradPlusAdWaterfallItem *)item;
-
-///获取缓存广告 nil = 没有 获取后会从缓存中移除
-- (TradPlusAdWaterfallItem *)getReadWaterfallItem;
 
 ///缓存清理后需要重新load
 - (void)cacheAdExpired;
@@ -95,7 +88,6 @@
 //banner相关属性
 @property (nonatomic,weak)UIViewController *bannerRootViewController;
 @property (nonatomic,assign)CGSize bannerSize;
-@property (nonatomic,assign)TPBannerContentMode bannerContentMode;
 
 @property (nonatomic,assign)CGSize splashBottomSize;
 @property (nonatomic,weak)UIWindow *splashWindow;

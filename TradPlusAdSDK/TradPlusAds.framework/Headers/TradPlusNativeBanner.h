@@ -46,8 +46,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 
 @property (nonatomic, readonly) BOOL isAdReady;
-@property (nonatomic, readonly)NSString *unitID;
-
 @property (nonatomic,weak) id <TradPlusADNativeBannerDelegate> delegate;
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
@@ -60,7 +58,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpNativeBannerAdDidLoaded:(NSDictionary *)adInfo;
 ///AD加载失败
-///tpNativeBannerAdOneLayerLoaded:didFailWithError：返回三方源的错误信息
 - (void)tpNativeBannerAdLoadFailWithError:(NSError *)error;
 ///AD展现
 - (void)tpNativeBannerAdImpression:(NSDictionary *)adInfo;
@@ -73,14 +70,12 @@ NS_ASSUME_NONNULL_BEGIN
 ///bidding开始
 - (void)tpNativeBannerAdBidStart:(NSDictionary *)adInfo;
 ///bidding结束
-- (void)tpNativeBannerAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeBannerAdBidEnd:error:");
-///bidding结束 error = nil 表示成功
-- (void)tpNativeBannerAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
+- (void)tpNativeBannerAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success;
 ///开始加载
 - (void)tpNativeBannerAdLoadStart:(NSDictionary *)adInfo;
-///当每个广告源加载成功后会都会回调一次。
+//多缓存情况下，当每个广告源加载成功后会都会回调一次。
 - (void)tpNativeBannerAdOneLayerLoaded:(NSDictionary *)adInfo;
-///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
+//多缓存情况下，当每个广告源加载失败后会都会回调一次。
 - (void)tpNativeBannerAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
 ///加载流程全部结束
 - (void)tpNativeBannerAdAllLoaded:(BOOL)success;

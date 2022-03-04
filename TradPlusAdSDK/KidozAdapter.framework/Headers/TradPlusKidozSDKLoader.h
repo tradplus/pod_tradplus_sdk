@@ -18,8 +18,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)initWithAppID:(NSString *)appID
         securityToken:(NSString *)securityToken
              delegate:(id <TPSDKLoaderDelegate>)delegate;
-
-@property (nonatomic,assign)BOOL didInit;
 @end
 
 NS_ASSUME_NONNULL_END
