@@ -60,6 +60,8 @@
 
 
 @property (nonatomic, readonly) BOOL isAdReady;
+@property (nonatomic, readonly)NSString *unitID;
+
 @property (nonatomic,weak) id <TradPlusADNativeSplashDelegate> delegate;
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
@@ -72,6 +74,7 @@
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpNativeSplashAdDidLoaded:(NSDictionary *)adInfo;
 ///AD加载失败
+///tpNativeSplashAdOneLayerLoad:didFailWithError：返回三方源的错误信息
 - (void)tpNativeSplashAdLoadFailWithError:(NSError *)error;
 ///AD展现
 - (void)tpNativeSplashAdImpression:(NSDictionary *)adInfo;
@@ -86,12 +89,14 @@
 ///bidding开始
 - (void)tpNativeSplashAdBidStart:(NSDictionary *)adInfo;
 ///bidding结束
-- (void)tpNativeSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success;
+- (void)tpNativeSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeSplashAdBidEnd:error:");
+///bidding结束 error = nil 表示成功
+- (void)tpNativeSplashAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
 ///开始加载
 - (void)tpNativeSplashAdLoadStart:(NSDictionary *)adInfo;
-//多缓存情况下，当每个广告源加载成功后会都会回调一次。
+///当每个广告源加载成功后会都会回调一次。
 - (void)tpNativeSplashAdOneLayerLoaded:(NSDictionary *)adInfo;
-//多缓存情况下，当每个广告源加载失败后会都会回调一次。
+///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
 - (void)tpNativeSplashAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
 ///加载流程全部结束
 - (void)tpNativeSplashAdAllLoaded:(BOOL)success;

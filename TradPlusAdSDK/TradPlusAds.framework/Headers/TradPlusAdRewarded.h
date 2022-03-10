@@ -47,6 +47,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setServerSideVerificationOptionsWithUserID:(nonnull NSString *)userID customData:(nullable NSString *)customData;
 
 @property (nonatomic, readonly) BOOL isAdReady;
+@property (nonatomic, readonly) NSString *unitID;
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
@@ -60,6 +61,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpRewardedAdLoaded:(NSDictionary *)adInfo;
 ///AD加载失败
+///tpRewardedAdOneLayerLoad:didFailWithError：返回三方源的错误信息
 - (void)tpRewardedAdLoadFailWithError:(NSError *)error;
 ///AD展现
 - (void)tpRewardedAdImpression:(NSDictionary *)adInfo;
@@ -72,15 +74,19 @@ NS_ASSUME_NONNULL_BEGIN
 ///完成奖励
 - (void)tpRewardedAdReward:(NSDictionary *)adInfo;
 @optional
+///再看一个的完成奖励 （快手）
+- (void)tpRewardedAdPlayAgainReward:(NSDictionary *)adInfo;
 ///bidding开始
 - (void)tpRewardedAdBidStart:(NSDictionary *)adInfo;
 ///bidding结束
-- (void)tpRewardedAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success;
+- (void)tpRewardedAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpRewardedAdBidEnd:error:");
+///bidding结束 error = nil 表示成功
+- (void)tpRewardedAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
 ///开始加载
 - (void)tpRewardedAdLoadStart:(NSDictionary *)adInfo;
-//多缓存情况下，当每个广告源加载成功后会都会回调一次。
+///当每个广告源加载成功后会都会回调一次。
 - (void)tpRewardedAdOneLayerLoaded:(NSDictionary *)adInfo;
-//多缓存情况下，当每个广告源加载失败后会都会回调一次。
+///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
 - (void)tpRewardedAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
 ///加载流程全部结束
 - (void)tpRewardedAdAllLoaded:(BOOL)success;
@@ -88,6 +94,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpRewardedAdPlayStart:(NSDictionary *)adInfo;
 ///播放结束
 - (void)tpRewardedAdPlayEnd:(NSDictionary *)adInfo;
+
 - (void)tpRewardedAdNoReward:(NSDictionary *)adInfo;
 @end
 NS_ASSUME_NONNULL_END
