@@ -1,0 +1,6 @@
+framework module KidozAdapter {
+  umbrella header "KidozAdapter.h"
+
+  export *
+  module * { export * }
+}

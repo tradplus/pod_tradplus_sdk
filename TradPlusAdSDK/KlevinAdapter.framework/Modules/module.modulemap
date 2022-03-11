@@ -1,0 +1,6 @@
+framework module KlevinAdapter {
+  umbrella header "KlevinAdapter.h"
+
+  export *
+  module * { export * }
+}

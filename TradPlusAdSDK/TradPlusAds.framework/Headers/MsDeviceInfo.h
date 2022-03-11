@@ -28,7 +28,6 @@
 + (NSString *)getCurrentLanguage;
 + (NSString *)resolution;
 + (NSString *)appName;
-+ (void)checkIDFAPermission;
 
 //横竖屏
 + (int)orientation;

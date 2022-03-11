@@ -51,7 +51,6 @@ extern int gMsPayLoadTimeout;
 extern NSString * const gConsentStatusStorageKey;
 extern NSString * const gGDPRAppliesStorageKey;
 extern NSString * const gTPCCPAStorageKey;
-extern NSString * const gTPIDFAPermissionKey;
 extern NSString * const gTPCOPPAStorageKey;
 extern NSString * const gTPATTEnableStorageKey;
 extern NSString * const gTPPayloadOutTimeKey;

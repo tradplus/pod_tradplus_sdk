@@ -16,6 +16,9 @@
 - (NSInteger)getCacheCount;
 - (TradPlusAdWaterfallItem *)checkCacheLimit;
 
+//清理缓存
+- (void)clearCache;
+
 //获取一个缓存并移除缓存
 - (TradPlusAdWaterfallItem *)getCacheItemAndRemove;
 //获取一个缓存并移除缓存 不进行频次检测

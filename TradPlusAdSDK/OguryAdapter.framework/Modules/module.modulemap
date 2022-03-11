@@ -1,0 +1,6 @@
+framework module OguryAdapter {
+  umbrella header "OguryAdapter.h"
+
+  export *
+  module * { export * }
+}

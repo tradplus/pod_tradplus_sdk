@@ -1,0 +1,6 @@
+framework module TPADXAdapter {
+  umbrella header "TPADXAdapter.h"
+
+  export *
+  module * { export * }
+}

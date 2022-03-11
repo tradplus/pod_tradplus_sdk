@@ -1,0 +1,6 @@
+framework module TPCrossAdapter {
+  umbrella header "TPCrossAdapter.h"
+
+  export *
+  module * { export * }
+}
