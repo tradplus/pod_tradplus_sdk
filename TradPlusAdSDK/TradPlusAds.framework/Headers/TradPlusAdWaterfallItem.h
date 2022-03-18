@@ -23,7 +23,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger id;
 ///频次限制
 @property (nonatomic,strong)NSDictionary *frequency;
-@property (nonatomic,copy)NSString *name;//特殊 nothing
+
+///请求间隔控制配置
+@property (nonatomic,strong)NSDictionary *request_interval_config;
+///连续请求无填充次数
+@property (nonatomic,assign)NSInteger request_no_fill_num;
+///请求间隔（秒）
+@property (nonatomic,assign)NSInteger request_interval;
+
+///特殊 nothing
+@property (nonatomic,copy)NSString *name;
 ///三方授权信息
 @property (nonatomic,strong)NSDictionary *config;
 ///广告源id
@@ -140,6 +149,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong)NSDictionary *dicCustomValue;
 
 @property (nonatomic,assign)TPNativeADTYPE nativeType;
+
+///新增数据 Adapter需从此字典中获取
+@property (nonatomic,strong)NSMutableDictionary *extraInfoDictionary;
 ///no = 被限制
 - (BOOL)noLimit;
 - (NSString *)asu;

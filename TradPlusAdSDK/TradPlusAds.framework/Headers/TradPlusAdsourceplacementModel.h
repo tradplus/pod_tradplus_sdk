@@ -27,5 +27,8 @@
 @property (nonatomic,strong)NSDictionary *payload;
 @property (nonatomic,strong)NSDictionary *ext;
 @property (nonatomic,strong)NSDictionary *originalDictionary;
+
+///扩展数据
+@property (nonatomic,strong)NSMutableDictionary *extraInfoDictionary;
 @end
 

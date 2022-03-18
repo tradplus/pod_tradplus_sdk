@@ -38,7 +38,7 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 + (BOOL)isAllowTracking;
 
 
-/// 强制获取IDFA 配置后台的测试模式时用
+/// 强制获取IDFA 配合后台的测试模式使用
 /// 注：测试完成后一定要移除或关闭，开启时会忽略所有隐私规则获取IDFA
 /// @param bo 是否开启
 + (void)forceGetIDFA:(BOOL)bo;

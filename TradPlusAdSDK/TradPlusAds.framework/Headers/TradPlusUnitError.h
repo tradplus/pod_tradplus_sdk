@@ -29,6 +29,7 @@ typedef enum : NSUInteger {
     TPUnitErrorNetWorkNoAdconf = 800012,
     TPUnitErrorNetWorkNoAdapter = 800013,
     TPUnitErrorNetWorkAdconfError = 800017,
+    TPUnitErrorNetWorkLoadFailedLimitError = 801107,
     TPUnitErrorLoadFail = 810011,
     TPUnitErrorShowLimit = 1000004,
     TPUnitErrorShowNoReadyAd = 1000005,

@@ -63,6 +63,9 @@
 
 - (void)setExtra:(TradPlusAdWaterfallItem *)item;
 
+// YES = 通过；NO = 未通过
+- (BOOL)checkLoadFailedHisWithItem:(TradPlusAdWaterfallItem *)item;
+
 //缓存检测
 - (void)startCheckExpire;
 - (void)stopCheckExpire;

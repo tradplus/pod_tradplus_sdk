@@ -79,4 +79,14 @@ extern NSString * const kTPRendererAdChoiceImageView;
 @property (nonatomic,assign)BOOL didShow;
 
 @property (nonatomic,assign)NSTimeInterval showTime;
+
+
+///扩展事件，传入名称及相关数据 Adapter继承，
+///引擎或广告对象通过此接口将事件及相关数据 传递到Adapter，Adapter则根据事件进行处理
+///返回 NO = Adapter不支持此事件 YES = 支持
+- (BOOL)extraActWithEvent:(NSString *)event info:(NSDictionary *)info;
+///Adapter 可在loaded前通过此接口向引擎进行回调
+- (void)ADLoadExtraCallbackWithEvent:(NSString *)event info:(NSDictionary *)info;
+///Adapter 可在show之后通过此接口向广告对象进行回调
+- (void)ADShowExtraCallbackWithEvent:(NSString *)event info:(NSDictionary *)info;
 @end

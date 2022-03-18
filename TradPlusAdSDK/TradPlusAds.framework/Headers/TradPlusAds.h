@@ -212,3 +212,4 @@
 #import <TradPlusAds/TradPlusAdAVPlayerView.h>
 #import <TradPlusAds/TradPlusAdActivityIndicatorView.h>
 #import <TradPlusAds/TPTestModeController.h>
+#import <TradPlusAds/TPADLoadFailedRecord.h>
