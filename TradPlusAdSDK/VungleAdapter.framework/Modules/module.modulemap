@@ -1,6 +1,0 @@
-framework module VungleAdapter {
-  umbrella header "VungleAdapter.h"
-
-  export *
-  module * { export * }
-}

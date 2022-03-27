@@ -1,6 +1,0 @@
-framework module AdMobAdapter {
-  umbrella header "AdMobAdapter.h"
-
-  export *
-  module * { export * }
-}

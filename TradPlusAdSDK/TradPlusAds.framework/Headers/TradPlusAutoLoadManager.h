@@ -23,8 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)noReady;
 - (void)noCache;
 
-- (void)noNet;
-
 
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;
 @end

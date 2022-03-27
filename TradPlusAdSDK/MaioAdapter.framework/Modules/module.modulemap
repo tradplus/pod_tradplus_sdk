@@ -1,6 +1,0 @@
-framework module MaioAdapter {
-  umbrella header "MaioAdapter.h"
-
-  export *
-  module * { export * }
-}

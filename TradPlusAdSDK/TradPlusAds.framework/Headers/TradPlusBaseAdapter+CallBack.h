@@ -18,8 +18,4 @@
 
 @property (nonatomic,copy)void (^rewardedAct)(TradPlusAdWaterfallItem *waterfallItem , NSDictionary *info, BOOL playAgain);
 
-///加载扩展接口 info中包括返回的数据 事件及其他信息等 例：@{@"event":@"loadx"}
-@property (nonatomic,copy)void (^extraLoadCallback)(TradPlusAdWaterfallItem *waterfallItem,NSDictionary *info);
-///展示扩展接口 info中包括返回的数据 事件及其他信息等 例：@{@"event":@"loadx"}
-@property (nonatomic,copy)void (^extraShowCallback)(TradPlusAdWaterfallItem *waterfallItem,NSDictionary *info);
 @end

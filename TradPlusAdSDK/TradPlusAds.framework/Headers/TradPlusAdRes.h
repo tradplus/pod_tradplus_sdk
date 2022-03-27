@@ -100,9 +100,7 @@ typedef enum : NSUInteger {
 @property (nonatomic,copy)NSString *source;
 @property (nonatomic,copy)NSString *likes;
 
-// imageURL数组
+//百度多图 imageURL数组
 @property (nonatomic,strong)NSArray *imageURLList;
 
-//非常用 扩展数据 
-@property (nonatomic,strong)NSMutableDictionary *extraInfo;
 @end

@@ -63,16 +63,11 @@
 
 - (void)setExtra:(TradPlusAdWaterfallItem *)item;
 
-// YES = 通过；NO = 未通过
-- (BOOL)checkLoadFailedHisWithItem:(TradPlusAdWaterfallItem *)item;
-
 //缓存检测
 - (void)startCheckExpire;
 - (void)stopCheckExpire;
 - (void)checkExpiredAd;
 
-//清除缓存
-- (void)clearCache;
 
 @property (nonatomic, copy) void (^AdStartLoad)(TradPlusAdWaterfallItem *item);
 @property (nonatomic, copy) void (^AdLoadFail)(NSError *error);
@@ -106,6 +101,4 @@
 @property (nonatomic,weak)UIWindow *splashWindow;
 
 @property (nonatomic,assign)MsADType adType;
-@property (nonatomic,assign)NSInteger customCacheCount;
-@property (nonatomic,readonly)NSInteger readyAdCount;
 @end

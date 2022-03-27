@@ -1,6 +1,0 @@
-framework module PangleAdapter {
-  umbrella header "PangleAdapter.h"
-
-  export *
-  module * { export * }
-}

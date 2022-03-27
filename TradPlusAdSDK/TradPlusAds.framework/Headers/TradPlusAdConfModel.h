@@ -50,5 +50,4 @@
 
 @property (nonatomic,strong)NSDictionary *originalConfigDictionary;
 
-@property (nonatomic,assign)NSInteger is_test_mode;
 @end
