@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol MsNativeAdViewDelegate;
 
+__attribute__((deprecated("MsNativeAdView is deprecated, and will be removed in the future release, use TradPlusAdNative instead.")))
+
 @interface MsNativeAdView : UIView
 
 //- (instancetype)initWithPlacement:(NSString *)placementID;

@@ -1,0 +1,6 @@
+framework module SmaatoAdapter {
+  umbrella header "SmaatoAdapter.h"
+
+  export *
+  module * { export * }
+}

@@ -44,6 +44,7 @@ extern BOOL gMsSDKAuthUID;
 extern BOOL gMsSDKIsCN;
 extern BOOL gMsSDKIsCA;
 extern BOOL gTPOpenPersonalizedAd;
+extern BOOL gTPUploadUseTime;
 extern NSInteger gMsEventInterval;
 extern NSInteger gMsEventUPLoadMaxCount;
 extern int gMsHTTPTimeout;

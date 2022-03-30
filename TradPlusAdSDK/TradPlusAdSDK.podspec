@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusAdSDK"
-  spec.version      = "6.9.0.0"
+  spec.version      = "7.3.0.0"
   spec.summary      = "A short description of TradPlusAd SDK for iOS."
   spec.description  = <<-DESC
             TradPlus SDK 
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'TradPlusAds' do |ss|
      ss.ios.deployment_target = '9.0'
      ss.vendored_frameworks = 'TradPlusAds.framework'
-     ss.resource = 'TradPlusAds.bundle'
+     ss.resources = ['TradPlusAds.bundle','TradPlusADX.bundle']
   end
 
   spec.subspec 'AdMobAdapter' do |ss|
@@ -168,13 +168,6 @@ Pod::Spec.new do |spec|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
      ss.vendored_frameworks = 'TPCrossAdapter.framework'
-  end
-
-  spec.subspec 'TPADXAdapter' do |ss|
-     ss.dependency 'TradPlusAdSDK/TradPlusAds'
-     ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TPADXAdapter.framework'
-     ss.resource = 'TradPlusADX.bundle'
   end
 
   spec.subspec 'FyberAdapter' do |ss|

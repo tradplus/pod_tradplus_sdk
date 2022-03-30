@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol MsInterstitialAdDelegate;
 
+__attribute__((deprecated("MsInterstitialAd is deprecated, and will be removed in the future release, use TradPlusAdInterstitial instead.")))
+
 @interface MsInterstitialAd : NSObject
 
 @property (nonatomic, weak, nullable) id<MsInterstitialAdDelegate> delegate;

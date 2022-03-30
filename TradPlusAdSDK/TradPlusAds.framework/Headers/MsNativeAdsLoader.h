@@ -12,6 +12,8 @@
 NS_ASSUME_NONNULL_BEGIN
 @protocol MsNativeAdsLoaderDelegate;
 
+__attribute__((deprecated("MsNativeAdsLoader is deprecated, and will be removed in the future release, use TradPlusAdNative instead.")))
+
 @interface MsNativeAdsLoader : NSObject
 
 @property (nonatomic, strong) Class defaultRenderingViewClass; //高级原生，默认的布局类

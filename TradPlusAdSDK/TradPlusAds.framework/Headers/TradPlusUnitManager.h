@@ -37,7 +37,7 @@
 - (void)showFinish1300WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 
 ///show Fail 1350 失败
-- (void)showFailWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
+- (void)showFailWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId error:(NSError *)error;
 ///click
 - (void)clickEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///close 1400 插屏和开屏使用
@@ -63,11 +63,16 @@
 
 - (void)setExtra:(TradPlusAdWaterfallItem *)item;
 
+// YES = 通过；NO = 未通过
+- (BOOL)checkLoadFailedHisWithItem:(TradPlusAdWaterfallItem *)item;
+
 //缓存检测
 - (void)startCheckExpire;
 - (void)stopCheckExpire;
 - (void)checkExpiredAd;
 
+//清除缓存
+- (void)clearCache;
 
 @property (nonatomic, copy) void (^AdStartLoad)(TradPlusAdWaterfallItem *item);
 @property (nonatomic, copy) void (^AdLoadFail)(NSError *error);
@@ -101,4 +106,6 @@
 @property (nonatomic,weak)UIWindow *splashWindow;
 
 @property (nonatomic,assign)MsADType adType;
+@property (nonatomic,assign)NSInteger customCacheCount;
+@property (nonatomic,readonly)NSInteger readyAdCount;
 @end

@@ -29,8 +29,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param isAutoLoad  是否开启自动加载模式
 - (void)setAdUnitID:(NSString *)adUnitID isAutoLoad:(BOOL)isAutoLoad;
 
+
 /// 加载广告
 - (void)loadAd;
+
+
+/// 加载广告并设置缓存个数
+/// @param adsCount 缓存个数
+- (void)loadAds:(NSInteger)adsCount;
 
 /// 显示广告
 /// @param renderingViewClass renderingViewClass
@@ -65,6 +71,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 
 @property (nonatomic,readonly)BOOL isAdReady;
+///已缓存广告数量
+@property (nonatomic,readonly)NSInteger readyAdCount;
 @property (nonatomic, readonly) NSString *unitID;
 
 @property (nonatomic,weak) id <TradPlusADNativeDelegate> delegate;

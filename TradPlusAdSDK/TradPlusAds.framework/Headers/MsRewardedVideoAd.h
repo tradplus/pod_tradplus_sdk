@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol MsRewardedVideoAdDelegate;
 
+__attribute__((deprecated("MsRewardedVideoAd is deprecated, and will be removed in the future release, use TradPlusAdRewarded instead.")))
+
 @interface MsRewardedVideoAd : NSObject
 @property (nonatomic, weak, nullable) id<MsRewardedVideoAdDelegate> delegate;
 @property (nonatomic, readonly) BOOL isAdLoading;

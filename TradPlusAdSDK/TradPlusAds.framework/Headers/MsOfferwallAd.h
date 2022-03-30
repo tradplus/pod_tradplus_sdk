@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol MsOfferwallAdDelegate;
 
+__attribute__((deprecated("MsOfferwallAd is deprecated, and will be removed in the future release")))
+
 @interface MsOfferwallAd : NSObject
 
 - (void)setAdUnitID:(NSString *)adUnitID;

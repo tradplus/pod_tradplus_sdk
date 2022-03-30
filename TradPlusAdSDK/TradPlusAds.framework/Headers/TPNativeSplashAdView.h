@@ -5,6 +5,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol TPNativeSplashAdViewDelegate;
 
+__attribute__((deprecated("TPNativeSplashAdView is deprecated, and will be removed in the future release, use TradPlusNativeSplash instead.")))
+
 @interface TPNativeSplashAdView : UIView
 @property (nonatomic, weak, nullable) id<TPNativeSplashAdViewDelegate> delegate;
 @property (nonatomic, assign) BOOL isAdReady;

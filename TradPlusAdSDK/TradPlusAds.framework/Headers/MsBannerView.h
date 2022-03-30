@@ -11,9 +11,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
 @protocol MsBannerViewDelegate;
 
-@interface MsBannerView : UIView 
+__attribute__((deprecated("MsBannerView is deprecated, and will be removed in the future release, use TradPlusAdBanner instead.")))
+
+@interface MsBannerView : UIView
+
 @property (nonatomic, weak, nullable) id<MsBannerViewDelegate> delegate;
 @property (nonatomic, strong) NSString *channelName;
 //相关回调时可以访问到的具体渠道信息。

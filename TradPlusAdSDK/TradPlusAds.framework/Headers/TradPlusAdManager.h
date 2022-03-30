@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)startCheckExpire;
 - (void)stopCheckExpire;
 - (void)checkExpiredAd;
+- (void)clearCacheWithPlacementID:(NSString *)placementID;
+- (void)startNetListener;
+- (void)stopNetListener;
 
 @property (nonatomic,strong)dispatch_queue_t tradPlusAdManagerQueue;
 @property (nonatomic,strong)dispatch_queue_t tradPlusTimerQueue;

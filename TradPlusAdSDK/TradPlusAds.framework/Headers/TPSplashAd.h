@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol TPSplashAdDelegate;
 
+__attribute__((deprecated("TPSplashAd is deprecated, and will be removed in the future release, use TradPlusAdSplash instead.")))
+
 @interface TPSplashAd : NSObject
 
 @property (nonatomic, weak, nullable) id<TPSplashAdDelegate> delegate;
