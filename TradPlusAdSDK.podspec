@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'TradPlusAds' do |ss|
      ss.ios.deployment_target = '9.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TradPlusAds.framework'
-     ss.resources = ['TradPlusAds.bundle','TradPlusADX.bundle']
+     ss.resources = ['TradPlusAdSDK/TradPlusAds.bundle','TradPlusAdSDK/TradPlusADX.bundle']
   end
 
   spec.subspec 'AdMobAdapter' do |ss|
