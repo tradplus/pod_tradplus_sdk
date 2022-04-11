@@ -26,12 +26,12 @@ typedef enum
 
 MSLogLevel MSLogGetLevel(void);
 void MSLogSetLevel(MSLogLevel level);
-void _MSLogTrace(NSString *format, ...);
-void _MSLogDebug(NSString *format, ...);
-void _MSLogInfo(NSString *format, ...);
-void _MSLogWarn(NSString *format, ...);
-void _MSLogError(NSString *format, ...);
-void _MSLogFatal(NSString *format, ...);
+FOUNDATION_EXPORT void _MSLogTrace(NSString *format, ...)NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;
+FOUNDATION_EXPORT void _MSLogDebug(NSString *format, ...)NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;
+FOUNDATION_EXPORT void _MSLogInfo(NSString *format, ...)NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;
+FOUNDATION_EXPORT void _MSLogWarn(NSString *format, ...)NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;
+FOUNDATION_EXPORT void _MSLogError(NSString *format, ...)NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;
+FOUNDATION_EXPORT void _MSLogFatal(NSString *format, ...)NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;
 
 #if MS_DEBUG_MODE && !SPECS
 
