@@ -1,7 +1,6 @@
-
-#import "TPADXVASTModel.h"
-#import "TPADXVASTJavaScriptResource.h"
-#import "TPADXVASTTrackingEvent.h"
+#import <TradPlusAds/TPADXVASTModel.h>
+#import <TradPlusAds/TPADXVASTJavaScriptResource.h>
+#import <TradPlusAds/TPADXVASTTrackingEvent.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

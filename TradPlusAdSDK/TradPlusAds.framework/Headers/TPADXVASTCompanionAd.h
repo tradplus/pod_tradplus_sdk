@@ -1,9 +1,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "TPADXVASTModel.h"
-#import "TPADXVASTResource.h"
-#import "TPADXVASTTrackingEvent.h"
+#import <TradPlusAds/TPADXVASTModel.h>
+#import <TradPlusAds/TPADXVASTResource.h>
+#import <TradPlusAds/TPADXVASTTrackingEvent.h>
 
 @class TPADXVASTCompanionAd;
 

@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/TradPlusAdapterProtocol.h>
-#import "TradPlusADXInterstitial.h"
-#import "TradPlusADXRewarded.h"
-#import "TradPlusADXNative.h"
+#import <TradPlusAds/TradPlusADXInterstitial.h>
+#import <TradPlusAds/TradPlusADXRewarded.h>
+#import <TradPlusAds/TradPlusADXNative.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

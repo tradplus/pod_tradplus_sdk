@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TPADXVideoView.h"
+#import <TradPlusAds/TPADXVideoView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

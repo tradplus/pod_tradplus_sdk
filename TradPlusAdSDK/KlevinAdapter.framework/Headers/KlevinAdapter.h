@@ -6,3 +6,4 @@
 #import <KlevinAdapter/TradPlusKlevinRewardedAdapter.h>
 #import <KlevinAdapter/TradPlusKlevinSDKLoader.h>
 #import <KlevinAdapter/TradPlusKlevinSplashAdapter.h>
+#import <KlevinAdapter/KlevinAdapterBaseInfo.h>

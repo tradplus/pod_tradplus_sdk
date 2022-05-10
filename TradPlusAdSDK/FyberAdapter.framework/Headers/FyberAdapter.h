@@ -2,3 +2,4 @@
 #import <FyberAdapter/TradPlusFyberInterstitialAdapter.h>
 #import <FyberAdapter/TradPlusFyberRewardedAdapter.h>
 #import <FyberAdapter/TradPlusFyberSDKLoader.h>
+#import <FyberAdapter/FyberAdapterBaseInfo.h>

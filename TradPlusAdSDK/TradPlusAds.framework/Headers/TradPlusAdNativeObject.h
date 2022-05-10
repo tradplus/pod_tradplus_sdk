@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TradPlusAdNativeItem.h"
-#import "TradPlusAdCustomVideoPaster.h"
+#import <TradPlusAds/TradPlusAdNativeItem.h>
+#import <TradPlusAds/TradPlusAdCustomVideoPaster.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

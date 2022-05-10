@@ -5,3 +5,4 @@
 #import <ChartboostAdapter/TradPlusChartboostInterstitialAdapter.h>
 #import <ChartboostAdapter/TradPlusChartboostRewardedAdapter.h>
 #import <ChartboostAdapter/TradPlusChartboostSDKLoader.h>
+#import <ChartboostAdapter/ChartboostAdapterBaseInfo.h>

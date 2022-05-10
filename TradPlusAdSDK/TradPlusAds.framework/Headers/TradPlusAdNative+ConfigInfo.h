@@ -6,7 +6,7 @@
 //  Copyright © 2021 TradPlus. All rights reserved.
 //
 
-#import "TradPlusAdWaterfallItem.h"
+#import <TradPlusAds/TradPlusAdWaterfallItem.h>
 
 @interface TradPlusAdNative ()
 

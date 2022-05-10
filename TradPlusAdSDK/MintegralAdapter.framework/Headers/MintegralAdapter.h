@@ -13,3 +13,4 @@
 #import <MintegralAdapter/TradPlusMintegralRewardedAdapter.h>
 #import <MintegralAdapter/TradPlusMintegralSDKLoader.h>
 #import <MintegralAdapter/TradPlusMintegralSplashAdapter.h>
+#import <MintegralAdapter/MintegralAdapterBaseInfo.h>

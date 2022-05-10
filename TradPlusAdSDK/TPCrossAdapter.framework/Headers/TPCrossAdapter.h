@@ -35,3 +35,4 @@
 #import <TPCrossAdapter/TPVideoPlayerView.h>
 #import <TPCrossAdapter/TPViewADLogo.h>
 #import <TPCrossAdapter/UIView+TPAdditions.h>
+#import <TPCrossAdapter/TPCrossAdapterBaseInfo.h>

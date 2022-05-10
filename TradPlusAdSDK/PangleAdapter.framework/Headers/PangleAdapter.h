@@ -17,3 +17,4 @@
 #import <PangleAdapter/TradPlusPangleExpressRewardedPlayAgain.h>
 #import <PangleAdapter/TradPlusPangleRewardedPlayAgain.h>
 #import <PangleAdapter/TradPlusPangleGlobalSplashAdapter.h>
+#import <PangleAdapter/PangleAdapterBaseInfo.h>

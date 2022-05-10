@@ -2,7 +2,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "TPADXVASTModel.h"
+#import <TradPlusAds/TPADXVASTModel.h>
 
 /**
  Per VAST 3.0 spec, section 2.3.3.2 "Companion Resource Elements":

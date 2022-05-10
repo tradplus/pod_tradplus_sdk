@@ -1,6 +1,6 @@
 
 #import <Foundation/Foundation.h>
-#import "MsCommon.h"
+#import <TradPlusAds/MsCommon.h>
 
 @interface TradPlusDownLoadOperation : NSOperation
 

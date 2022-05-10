@@ -1,9 +1,9 @@
 
 #import <Foundation/Foundation.h>
-#import "TradPlusAdRes.h"
-#import "TradPlusBaseAdapter.h"
-#import "TradPlusAdWaterfallItem.h"
-#import "TradPlusNativeRenderer.h"
+#import <TradPlusAds/TradPlusAdRes.h>
+#import <TradPlusAds/TradPlusBaseAdapter.h>
+#import <TradPlusAds/TradPlusAdWaterfallItem.h>
+#import <TradPlusAds/TradPlusNativeRenderer.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

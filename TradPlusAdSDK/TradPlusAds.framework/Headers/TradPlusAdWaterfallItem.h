@@ -1,10 +1,9 @@
-
-#import "TradPlusDataModel.h"
-#import "TradPlusAdapterProtocol.h"
-#import "TradPlusBaseAdapter.h"
-#import "TradPlusAdRes.h"
-#import "TradPlusAdsourceplacementModel.h"
-#import "MsCommon.h"
+#import <TradPlusAds/TradPlusDataModel.h>
+#import <TradPlusAds/TradPlusAdapterProtocol.h>
+#import <TradPlusAds/TradPlusBaseAdapter.h>
+#import <TradPlusAds/TradPlusAdRes.h>
+#import <TradPlusAds/TradPlusAdsourceplacementModel.h>
+#import <TradPlusAds/MsCommon.h>
 
 typedef enum : NSUInteger {
     TPAdWaterfallItemStatusNormal = 0,
@@ -88,6 +87,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *adType;
 ///激励视频的奖励信息
 @property (nonatomic,strong)NSDictionary *rewardedInfo;
+
+//是否服务端奖励回调
+@property (nonatomic,assign)NSInteger is_server_callback;
 
 @property (nonatomic,assign)NSInteger waterfallIndex;
 

@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MSConstants.h"
+#import <TradPlusAds/MSConstants.h>
 
 extern NSString * const gMPClearErrorLogFormatWithAdUnitID;
 extern NSString * const gMPWarmingUpErrorLogFormatWithAdUnitID;

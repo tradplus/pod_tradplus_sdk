@@ -9,3 +9,4 @@
 #import <InMobiAdapter/TradPlusInMobiNativeAdapter.h>
 #import <InMobiAdapter/TradPlusInMobiRewardedAdapter.h>
 #import <InMobiAdapter/TradPlusInMobiSDKLoader.h>
+#import <InMobiAdapter/InMobiAdapterBaseInfo.h>

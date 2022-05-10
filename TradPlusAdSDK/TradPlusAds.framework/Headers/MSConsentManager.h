@@ -1,7 +1,7 @@
 
 #import <UIKit/UIKit.h>
-#import "TPConsentDialogViewController.h"
-#import "MsCommon.h"
+#import <TradPlusAds/TPConsentDialogViewController.h>
+#import <TradPlusAds/MsCommon.h>
 
 @interface MSConsentManager : NSObject
 

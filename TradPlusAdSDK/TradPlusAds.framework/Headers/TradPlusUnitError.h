@@ -1,7 +1,7 @@
 
 
 #import <Foundation/Foundation.h>
-#import "MsCommon.h"
+#import <TradPlusAds/MsCommon.h>
 
 typedef enum : NSUInteger {
     TPUnitErrorNoNetWork= 1007,

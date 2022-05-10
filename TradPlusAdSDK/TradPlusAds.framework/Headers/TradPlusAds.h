@@ -215,6 +215,9 @@
 #import <TradPlusAds/TPADLoadFailedRecord.h>
 #import <TradPlusAds/TPFrequencyLimitData.h>
 #import <TradPlusAds/TPFrequencyLimitService.h>
+#import <TradPlusAds/TPNetworkSession.h>
+#import <TradPlusAds/TPAdapterLoaderManager.h>
+#import <TradPlusAds/NSData+TPAES.h>
 
 #import <TradPlusAds/TPADXADLabel.h>
 #import <TradPlusAds/TPADXCountdownView.h>

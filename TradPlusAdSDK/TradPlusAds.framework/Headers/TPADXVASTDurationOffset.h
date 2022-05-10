@@ -1,7 +1,7 @@
 
 
 #import <Foundation/Foundation.h>
-#import "TPADXVASTModel.h"
+#import <TradPlusAds/TPADXVASTModel.h>
 
 typedef NS_ENUM(NSUInteger, TPADXVASTDurationOffsetType) {
     TPADXVASTDurationOffsetTypeAbsolute,

@@ -1,7 +1,7 @@
 
 #import <Foundation/Foundation.h>
-#import "TradPlusUnitManager.h"
-#import "MSReachability.h"
+#import <TradPlusAds/TradPlusUnitManager.h>
+#import <TradPlusAds/MSReachability.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

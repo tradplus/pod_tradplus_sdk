@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MsCommon.h"
+#import <TradPlusAds/MsCommon.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

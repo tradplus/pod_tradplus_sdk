@@ -8,3 +8,4 @@
 #import <IronSourceAdapter/TradPlusIronSourceInterstitialAdapter.h>
 #import <IronSourceAdapter/TradPlusIronSourceRewardedAdapter.h>
 #import <IronSourceAdapter/TradPlusIronSourceSDKLoader.h>
+#import <IronSourceAdapter/IronSourceAdapterBaseInfo.h>

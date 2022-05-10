@@ -20,7 +20,7 @@ CGRect MSScreenBounds(void);
 CGSize MSScreenResolution(void);
 CGFloat MSDeviceScaleFactor(void);
 NSDictionary *MSDictionaryFromQueryString(NSString *query);
-NSString *MSSHA1Digest(NSString *string);
+NSString *MSSHA256Digest(NSString *string);
 BOOL MSViewIsVisible(UIView *view);
 BOOL MSViewIntersectsParentWindowWithPercent(UIView *view, CGFloat percentVisible);
 NSString *MSResourcePathForResource(NSString *resourceName);

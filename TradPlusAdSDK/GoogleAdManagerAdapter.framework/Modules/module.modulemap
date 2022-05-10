@@ -1,0 +1,6 @@
+framework module GoogleAdManagerAdapter {
+  umbrella header "GoogleAdManagerAdapter.h"
+
+  export *
+  module * { export * }
+}

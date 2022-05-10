@@ -1,6 +1,6 @@
 
 #import <Foundation/Foundation.h>
-#import "TradPlusGCDTimer.h"
+#import <TradPlusAds/TradPlusGCDTimer.h>
 
 @interface TPEventTimer : NSObject
 

@@ -2,9 +2,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "TPADXVASTDurationOffset.h"
-#import "TPADXVASTModel.h"
-#import "TPADXVASTResource.h"
+#import <TradPlusAds/TPADXVASTDurationOffset.h>
+#import <TradPlusAds/TPADXVASTModel.h>
+#import <TradPlusAds/TPADXVASTResource.h>
 
 @interface TPADXVASTIndustryIcon : TPADXVASTModel
 

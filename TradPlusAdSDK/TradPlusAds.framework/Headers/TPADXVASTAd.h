@@ -1,7 +1,7 @@
 
 
 #import <Foundation/Foundation.h>
-#import "TPADXVASTModel.h"
+#import <TradPlusAds/TPADXVASTModel.h>
 
 @class TPADXVASTInline;
 @class TPADXVASTWrapper;

@@ -1,19 +1,18 @@
 
 
 #import <Foundation/Foundation.h>
-#import "TPADXVASTModel.h"
-
-#import "TPADXVASTAd.h"
-#import "TPADXVASTCompanionAd.h"
-#import "TPADXVASTCreative.h"
-#import "TPADXVASTDurationOffset.h"
-#import "TPADXVASTIndustryIcon.h"
-#import "TPADXVASTInline.h"
-#import "TPADXVASTLinearAd.h"
-#import "TPADXVASTMediaFile.h"
-#import "TPADXVASTResource.h"
-#import "TPADXVASTTrackingEvent.h"
-#import "TPADXVASTWrapper.h"
+#import <TradPlusAds/TPADXVASTModel.h>
+#import <TradPlusAds/TPADXVASTAd.h>
+#import <TradPlusAds/TPADXVASTCompanionAd.h>
+#import <TradPlusAds/TPADXVASTCreative.h>
+#import <TradPlusAds/TPADXVASTDurationOffset.h>
+#import <TradPlusAds/TPADXVASTIndustryIcon.h>
+#import <TradPlusAds/TPADXVASTInline.h>
+#import <TradPlusAds/TPADXVASTLinearAd.h>
+#import <TradPlusAds/TPADXVASTMediaFile.h>
+#import <TradPlusAds/TPADXVASTResource.h>
+#import <TradPlusAds/TPADXVASTTrackingEvent.h>
+#import <TradPlusAds/TPADXVASTWrapper.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

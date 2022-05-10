@@ -1,8 +1,8 @@
 
 #import <Foundation/Foundation.h>
-#import "TradPlusUnitManager.h"
-#import "TradPlusAdWaterfallItem.h"
-#import "MsCommon.h"
+#import <TradPlusAds/TradPlusUnitManager.h>
+#import <TradPlusAds/TradPlusAdWaterfallItem.h>
+#import <TradPlusAds/MsCommon.h>
 
 @interface TradPlusLoadAdOperation : NSOperation
 

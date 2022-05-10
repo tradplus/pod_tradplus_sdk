@@ -3,3 +3,4 @@
 #import <YouDaoAdapter/YouDaoNativeAdRenderer.h>
 #import <YouDaoAdapter/YouDaoNativeAdViewTP.h>
 #import <YouDaoAdapter/YouDaoNativeCustomEvent.h>
+#import <YouDaoAdapter/YouDaoAdapterBaseInfo.h>

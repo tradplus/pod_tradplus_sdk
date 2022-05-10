@@ -1,8 +1,8 @@
 
 
 #import <Foundation/Foundation.h>
-#import "TPADXVASTModel.h"
-#import "TPADXVideoEvent.h"
+#import <TradPlusAds/TPADXVASTModel.h>
+#import <TradPlusAds/TPADXVideoEvent.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

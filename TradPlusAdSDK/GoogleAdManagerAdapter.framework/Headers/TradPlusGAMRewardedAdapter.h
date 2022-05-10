@@ -1,8 +1,8 @@
 //
-//  TradPlusMoPubBannerAdapter.h
+//  TradPlusGAMRewardedAdapter.h
 //  fluteSDKSample
 //
-//  Created by xuejun on 2021/8/26.
+//  Created by xuejun on 2021/9/6.
 //  Copyright © 2021 TradPlus. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TradPlusMoPubBannerAdapter : TradPlusBaseAdapter
+@interface TradPlusGAMRewardedAdapter : TradPlusBaseAdapter
 
 @end
 

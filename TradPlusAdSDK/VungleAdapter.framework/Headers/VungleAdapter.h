@@ -12,3 +12,4 @@
 #import <VungleAdapter/VungleNativeAdRenderer.h>
 #import <VungleAdapter/VungleNativeCustomEvent.h>
 #import <VungleAdapter/VungleRewardedVideoCustomEvent.h>
+#import <VungleAdapter/VungleAdapterBaseInfo.h>

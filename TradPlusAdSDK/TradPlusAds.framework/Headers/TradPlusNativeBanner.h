@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TradPlusNativeRenderer.h"
+#import <TradPlusAds/TradPlusNativeRenderer.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

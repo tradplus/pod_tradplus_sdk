@@ -1,8 +1,8 @@
 
 
 #import <Foundation/Foundation.h>
-#import "TPADXVASTAdVerifications.h"
-#import "TPADXVASTModel.h"
+#import <TradPlusAds/TPADXVASTAdVerifications.h>
+#import <TradPlusAds/TPADXVASTModel.h>
 
 @class TPADXVASTCreative;
 

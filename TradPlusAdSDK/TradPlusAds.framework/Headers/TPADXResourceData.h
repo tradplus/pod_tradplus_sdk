@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TPADXVASTResponse.h"
-#import "TPADXWebView.h"
+#import <TradPlusAds/TPADXVASTResponse.h>
+#import <TradPlusAds/TPADXWebView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

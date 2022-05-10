@@ -10,3 +10,4 @@
 #import <FacebookAdapter/TradPlusFacebookInterstitialAdapter.h>
 #import <FacebookAdapter/TradPlusFacebookNativeAdapter.h>
 #import <FacebookAdapter/TradPlusFacebookRewardedAdapter.h>
+#import <FacebookAdapter/FacebookAdapterBaseInfo.h>

@@ -1,6 +1,5 @@
 
-
-#import "TradPlusDataModel.h"
+#import <TradPlusAds/TradPlusDataModel.h>
 
 @interface TradPlusAdsourceplacementModel : TradPlusDataModel
 

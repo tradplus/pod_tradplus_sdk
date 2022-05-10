@@ -1,6 +1,4 @@
-
-
-#import "TPADXVASTModel.h"
+#import <TradPlusAds/TPADXVASTModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

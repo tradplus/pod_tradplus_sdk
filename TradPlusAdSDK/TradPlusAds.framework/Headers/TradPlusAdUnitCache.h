@@ -1,7 +1,7 @@
 
 
 #import <Foundation/Foundation.h>
-#import "TradPlusAdWaterfallItem.h"
+#import <TradPlusAds/TradPlusAdWaterfallItem.h>
 
 @class TradPlusUnitManager;
 @interface TradPlusAdUnitCache : NSObject

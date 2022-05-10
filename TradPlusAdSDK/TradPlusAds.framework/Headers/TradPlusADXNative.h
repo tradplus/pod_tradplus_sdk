@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TradPlusADXBase.h"
-#import "TPADXNativeData.h"
-#import "TPADXNativeVideoView.h"
+#import <TradPlusAds/TradPlusADXBase.h>
+#import <TradPlusAds/TPADXNativeData.h>
+#import <TradPlusAds/TPADXNativeVideoView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -34,6 +34,7 @@ extern NSString *gCrossEventServerURL;
 extern NSString *gAdconfServerURL;
 extern NSString *gCrossAdconfServerURL;
 extern NSString *gBiddingServerURL;
+extern NSString *gRewardServerURL;
 
 extern BOOL gForceGetIDFA;
 extern BOOL gMsSDKDebugMode;
@@ -58,6 +59,8 @@ extern NSString * const gTPATTEnableStorageKey;
 extern NSString * const gTPPayloadOutTimeKey;
 
 extern BOOL gTPCNServer;
+
+extern NSInteger TP_Encryption_Mode;
 
 extern NSString * const gNeedCheckExpiredAd;
 extern NSString * const gAppAllowUploadUseTime;
@@ -119,6 +122,7 @@ typedef enum
     EV_APP_USE_TIME          = 10,
     EV_REQ_OPEN_API_START    = 100,
     EV_REQ_OPEN_API          = 200,
+    EV_INIT_NETWORK          = 250,
     EV_PRE_LOAD_ADCONF_START = 300,
     EV_PRE_LOAD_ADCONF       = 400,
     EV_LOAD_AD_START         = 500,
@@ -208,7 +212,8 @@ typedef enum
     NETWORK_BAIDU    = 43,
     NETWORK_KLEVIN   = 44,
     NETWORK_A4G      = 45,
-    NETWORK_SUPERAWESOME  = 47, 
+    NETWORK_SUPERAWESOME  = 47,
+    NETWORK_GOOGLEAdMANAGER = 48,
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject

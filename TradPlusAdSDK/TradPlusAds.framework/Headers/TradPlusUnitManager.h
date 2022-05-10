@@ -1,9 +1,9 @@
 
 
 #import <Foundation/Foundation.h>
-#import "TradPlusAdWaterfallItem.h"
-#import "TradPlusAdUnitCache.h"
-#import "TradPlusBiddingManager.h"
+#import <TradPlusAds/TradPlusAdWaterfallItem.h>
+#import <TradPlusAds/TradPlusAdUnitCache.h>
+#import <TradPlusAds/TradPlusBiddingManager.h>
 
 
 @interface TradPlusUnitManager : NSObject
@@ -65,6 +65,9 @@
 
 // YES = 通过；NO = 未通过
 - (BOOL)checkLoadFailedHisWithItem:(TradPlusAdWaterfallItem *)item;
+
+//服务器奖励
+- (void)tpServerRewardWithItem:(TradPlusAdWaterfallItem *)item callbackInfo:(NSDictionary *)callbackInfo;
 
 //缓存检测
 - (void)startCheckExpire;

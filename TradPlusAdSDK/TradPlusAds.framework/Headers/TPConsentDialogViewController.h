@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TPConsentDialogViewController : UIViewController
 
+@property (nonatomic,copy)void (^didShowAct)(void);
+@property (nonatomic,copy)void (^didDismissAct)(void);
 @end
 
 NS_ASSUME_NONNULL_END

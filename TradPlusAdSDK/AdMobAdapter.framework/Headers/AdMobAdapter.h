@@ -12,3 +12,5 @@
 #import <AdMobAdapter/TradPlusAdMobRewardedAdapter.h>
 #import <AdMobAdapter/TradPlusAdMobSplashAdapter.h>
 #import <AdMobAdapter/UIView+MSGoogleAdMobAdditions.h>
+#import <AdMobAdapter/AdMobAdapterBaseInfo.h>
+

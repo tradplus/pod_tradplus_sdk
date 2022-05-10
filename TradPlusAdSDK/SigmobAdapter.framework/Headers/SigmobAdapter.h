@@ -6,3 +6,4 @@
 #import <SigmobAdapter/TradPlusSigmobRewardedAdapter.h>
 #import <SigmobAdapter/TradPlusSigmobSDKLoader.h>
 #import <SigmobAdapter/TradPlusSigmobSplashAdapter.h>
+#import <SigmobAdapter/SigmobAdapterBaseInfo.h>

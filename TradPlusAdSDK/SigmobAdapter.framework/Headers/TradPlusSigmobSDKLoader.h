@@ -15,9 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (TradPlusSigmobSDKLoader *)sharedInstance;
 - (void)initWithAppID:(NSString *)appID
                appKey:(NSString *)appKey
-                 delegate:(id <TPSDKLoaderDelegate>)delegate;
+                 delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
 - (void)setPersonalizedAd;
 
 @property (nonatomic,assign)BOOL didInit;
+//初始化来源 1:open 2:bidding 3:load
+@property (nonatomic,assign)NSInteger initSource;
 @end
 NS_ASSUME_NONNULL_END

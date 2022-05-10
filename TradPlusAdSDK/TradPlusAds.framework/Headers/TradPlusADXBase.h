@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TradPlusADXReportManager.h"
-#import "TradPlusReportTask.h"
+#import <TradPlusAds/TradPlusADXReportManager.h>
+#import <TradPlusAds/TradPlusReportTask.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

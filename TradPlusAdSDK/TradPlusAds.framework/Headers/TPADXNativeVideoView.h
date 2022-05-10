@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TPADXResourceData.h"
+#import <TradPlusAds/TPADXResourceData.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

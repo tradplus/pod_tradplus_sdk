@@ -1,6 +1,6 @@
 
 #import <Foundation/Foundation.h>
-#import "TPADXVASTResponse.h"
+#import <TradPlusAds/TPADXVASTResponse.h>
 
 @interface TPADXVASTManager : NSObject
 

@@ -4,3 +4,4 @@
 #import <BaiduAdapter/TradPlusBaiduRewardedAdapter.h>
 #import <BaiduAdapter/TradPlusBaiduSDKSetting.h>
 #import <BaiduAdapter/TradPlusBaiduSplashAdapter.h>
+#import <BaiduAdapter/BaiduAdapterBaseInfo.h>

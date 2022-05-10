@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "TradPlusADXBase.h"
+#import <TradPlusAds/TradPlusADXBase.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

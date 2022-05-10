@@ -16,3 +16,4 @@
 #import <GDTMobAdapter/TradPlusGDTMobSDKLoader.h>
 #import <GDTMobAdapter/TradPlusGDTMobSplashAdapter.h>
 #import <GDTMobAdapter/UIView+GDTMobAdditions.h>
+#import <GDTMobAdapter/GDTMobAdapterBaseInfo.h>

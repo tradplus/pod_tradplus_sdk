@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TradPlusDataModel.h"
+#import <TradPlusAds/TradPlusDataModel.h>
 
 @interface TradPlusAdConfModel : TradPlusDataModel<NSCopying>
 
@@ -51,4 +51,6 @@
 @property (nonatomic,strong)NSDictionary *originalConfigDictionary;
 
 @property (nonatomic,assign)NSInteger is_test_mode;
+//是否服务端奖励回调
+@property (nonatomic,assign)NSInteger is_server_callback;
 @end

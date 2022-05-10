@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TradPlusAdWaterfallItem.h"
-#import "TradPlusAdConfModel.h"
-#import "TradPlusAdUnitCache.h"
+#import <TradPlusAds/TradPlusAdWaterfallItem.h>
+#import <TradPlusAds/TradPlusAdConfModel.h>
+#import <TradPlusAds/TradPlusAdUnitCache.h>
 
 @class TradPlusUnitManager;
 @interface TradPlusBiddingManager : NSObject

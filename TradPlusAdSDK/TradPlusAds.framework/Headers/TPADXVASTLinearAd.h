@@ -1,8 +1,8 @@
 
 
 #import <Foundation/Foundation.h>
-#import "TPADXVASTModel.h"
-#import "TPADXVideoEvent.h"
+#import <TradPlusAds/TPADXVASTModel.h>
+#import <TradPlusAds/TPADXVideoEvent.h>
 
 @class TPADXVASTDurationOffset;
 @class TPADXVASTIndustryIcon;

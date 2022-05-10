@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "TradPlusNativeRenderer.h"
-#import "MsCommon.h"
-#import "TradPlusAdNativeObject.h"
+#import <TradPlusAds/TradPlusNativeRenderer.h>
+#import <TradPlusAds/MsCommon.h>
+#import <TradPlusAds/TradPlusAdNativeObject.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

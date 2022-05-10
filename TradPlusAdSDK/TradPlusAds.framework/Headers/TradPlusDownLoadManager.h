@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "TradPlusDownLoadOperation.h"
+#import <TradPlusAds/TradPlusDownLoadOperation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

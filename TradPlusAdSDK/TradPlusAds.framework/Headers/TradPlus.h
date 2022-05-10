@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MSLogging.h"
-#import "MsCommon.h"
+#import <TradPlusAds/MSLogging.h>
+#import <TradPlusAds/MsCommon.h>
 
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {

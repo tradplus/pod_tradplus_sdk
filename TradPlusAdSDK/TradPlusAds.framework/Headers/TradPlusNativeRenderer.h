@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TradPlusAdRes.h"
+#import <TradPlusAds/TradPlusAdRes.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
