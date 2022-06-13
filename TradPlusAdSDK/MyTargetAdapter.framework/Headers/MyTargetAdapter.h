@@ -1,9 +1,3 @@
-#import <MyTargetAdapter/MyTargetBannerCustomEvent.h>
-#import <MyTargetAdapter/MyTargetInterstitialCustomEvent.h>
-#import <MyTargetAdapter/MyTargetNativeAdAdapter.h>
-#import <MyTargetAdapter/MyTargetNativeAdRenderer.h>
-#import <MyTargetAdapter/MyTargetNativeCustomEvent.h>
-#import <MyTargetAdapter/MyTargetRewardedVideoCustomEvent.h>
 #import <MyTargetAdapter/TradPlusMyTargetAdapter.h>
 #import <MyTargetAdapter/TradPlusMyTargetBannerAdapter.h>
 #import <MyTargetAdapter/TradPlusMyTargetInterstitialAdapter.h>

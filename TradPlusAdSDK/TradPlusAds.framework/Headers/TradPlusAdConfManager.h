@@ -1,6 +1,6 @@
 
 #import <Foundation/Foundation.h>
-#import "TradPlusAdConfModel.h"
+#import <TradPlusAds/TradPlusAdConfModel.h>
 
 
 @interface TradPlusAdConfManager : NSObject

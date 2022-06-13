@@ -33,6 +33,7 @@
 @property (nonatomic,assign)NSInteger cacheNum;
 @property (nonatomic,strong)NSArray *waterfall;
 @property (nonatomic,strong)NSArray *biddingwaterfall;
+@property (nonatomic,strong)NSArray *c2sbiddingwaterfall;
 
 @property (nonatomic,assign)NSInteger is_skip;
 @property (nonatomic,assign)NSInteger countdown_time;

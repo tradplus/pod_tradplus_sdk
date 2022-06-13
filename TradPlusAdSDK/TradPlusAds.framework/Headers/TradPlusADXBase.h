@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/TradPlusADXReportManager.h>
 #import <TradPlusAds/TradPlusReportTask.h>
+#import <TradPlusAds/TPADXResourceData.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -19,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *placementId;
 @property (nonatomic,assign)NSInteger adValidTime;
 @property (nonatomic,strong)NSMutableArray <TradPlusReportTask *>*reportTaskArray;
+@property (nonatomic,strong)TPADXResourceData *resourceData;
 
 
 - (void)startLoadEvent;

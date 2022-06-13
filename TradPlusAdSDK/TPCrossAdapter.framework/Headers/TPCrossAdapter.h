@@ -8,9 +8,6 @@
 #import <TPCrossAdapter/TPCountdownTimerView.h>
 #import <TPCrossAdapter/TPCrossAd.h>
 #import <TPCrossAdapter/TPCrossEvent.h>
-#import <TPCrossAdapter/TPCrossInterstitialCustomEvent.h>
-#import <TPCrossAdapter/TPCrossRewardedVideoCustomEvent.h>
-#import <TPCrossAdapter/TPCrossSplashCustomEvent.h>
 #import <TPCrossAdapter/TPCrossTimer.h>
 #import <TPCrossAdapter/TPDiskLRUCache.h>
 #import <TPCrossAdapter/TPEndCardView.h>
@@ -36,3 +33,6 @@
 #import <TPCrossAdapter/TPViewADLogo.h>
 #import <TPCrossAdapter/UIView+TPAdditions.h>
 #import <TPCrossAdapter/TPCrossAdapterBaseInfo.h>
+#import <TPCrossAdapter/TPCrossSplashAdapter.h>
+#import <TPCrossAdapter/TPCrossInterstitialAdapter.h>
+#import <TPCrossAdapter/TPCrossRewardedVideoAdapter.h>

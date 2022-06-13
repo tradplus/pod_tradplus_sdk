@@ -1,9 +1,7 @@
 #import <IronSourceAdapter/IronSourceConstants.h>
-#import <IronSourceAdapter/IronSourceInterstitialCustomEvent.h>
 #import <IronSourceAdapter/IronSourceInterstitialDelegate.h>
-#import <IronSourceAdapter/IronSourceManager.h>
-#import <IronSourceAdapter/IronSourceRewardedVideoCustomEvent.h>
 #import <IronSourceAdapter/IronSourceRewardedVideoDelegate.h>
+#import <IronSourceAdapter/IronSourceManager.h>
 #import <IronSourceAdapter/IronSourceUtils.h>
 #import <IronSourceAdapter/TradPlusIronSourceInterstitialAdapter.h>
 #import <IronSourceAdapter/TradPlusIronSourceRewardedAdapter.h>

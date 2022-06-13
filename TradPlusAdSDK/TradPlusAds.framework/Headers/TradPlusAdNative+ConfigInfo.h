@@ -6,10 +6,11 @@
 //  Copyright © 2021 TradPlus. All rights reserved.
 //
 
-#import <TradPlusAds/TradPlusAdWaterfallItem.h>
+#import <TradPlusAds/TradPlusAdNative.h>
 
 @interface TradPlusAdNative ()
 
+- (void)refresh;
 @property (nonatomic,readonly)BOOL isSkip;
 @property (nonatomic,readonly)NSInteger countdownTime;
 @property (nonatomic,readonly)NSInteger skipTime;

@@ -65,7 +65,7 @@ typedef enum : NSUInteger {
 //ADMob GDTMob
 @property (nonatomic,copy)NSString *price;
 
-//Facebook ADMob
+//Facebook ADMob Max
 @property (nonatomic,copy)NSString *advertiser;
 //MyTarget
 @property (nonatomic,copy)NSString *advertisingLabel;

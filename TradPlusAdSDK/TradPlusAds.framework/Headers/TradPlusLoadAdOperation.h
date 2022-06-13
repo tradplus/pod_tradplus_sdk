@@ -12,4 +12,5 @@
 
 ///0=未启动 1=loading 2=失败 3=成功
 @property (nonatomic,readonly)TPAdOperationStatus status;
+@property (nonatomic,assign)TPLoadMode loadMode;
 @end

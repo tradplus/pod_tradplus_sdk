@@ -24,6 +24,7 @@
 /// 默认使用 屏幕最短边正方形size进行渲染
 /// @param size 尺寸
 - (void)setTemplateRenderSize:(CGSize)size;
+
 ///设置模版渲染的布局方式 默认 TPTemplateContentModeCenter
 @property (nonatomic,assign)TPTemplateContentMode templateContentMode;
 
@@ -58,7 +59,6 @@
 /// @param subView subView
 - (void)showWithRenderer:(TradPlusNativeRenderer *)renderer subView:(UIView *)subView;
 
-
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly)NSString *unitID;
 
@@ -70,40 +70,62 @@
 
 @protocol TradPlusADNativeSplashDelegate <NSObject>
 
+///为三方提供rootviewController 用于点击广告后的操作
 - (UIViewController *)viewControllerForPresentingModalView;
+
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpNativeSplashAdDidLoaded:(NSDictionary *)adInfo;
+
 ///AD加载失败
 ///tpNativeSplashAdOneLayerLoad:didFailWithError：返回三方源的错误信息
 - (void)tpNativeSplashAdLoadFailWithError:(NSError *)error;
+
 ///AD展现
 - (void)tpNativeSplashAdImpression:(NSDictionary *)adInfo;
+
 ///AD展现失败
 - (void)tpNativeSplashAdShow:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///AD被点击
 - (void)tpNativeSplashAdClicked:(NSDictionary *)adInfo;
+
 ///关闭
 - (void)tpNativeSplashAdClosed:(NSDictionary *)adInfo;
 
 @optional
+
+///v7.6.0+新增 开始加载流程
+- (void)tpNativeSplashAdStartLoad:(NSDictionary *)adInfo;
+
+///当每个广告源开始加载时会都会回调一次。
+///v7.6.0+新增。替代原回调接口：tpNativeSplashAdLoadStart:(NSDictionary *)adInfo;
+- (void)tpNativeSplashAdOneLayerStartLoad:(NSDictionary *)adInfo;
+
 ///bidding开始
 - (void)tpNativeSplashAdBidStart:(NSDictionary *)adInfo;
-///bidding结束
-- (void)tpNativeSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeSplashAdBidEnd:error:");
+
 ///bidding结束 error = nil 表示成功
 - (void)tpNativeSplashAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
-///开始加载
-- (void)tpNativeSplashAdLoadStart:(NSDictionary *)adInfo;
+
 ///当每个广告源加载成功后会都会回调一次。
 - (void)tpNativeSplashAdOneLayerLoaded:(NSDictionary *)adInfo;
+
 ///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
 - (void)tpNativeSplashAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///加载流程全部结束
 - (void)tpNativeSplashAdAllLoaded:(BOOL)success;
+
 ///点击了跳过
 - (void)tpNativeSplashAdClickSkip:(NSDictionary *)adInfo;
+
 ///跳过按钮显示
 - (void)tpNativeSplashAdShowSkip:(NSDictionary *)adInfo;
+
 ///倒计时
 - (void)tpNativeSplashAdCountDown:(NSDictionary *)adInfo progress:(NSInteger)progress;
+
+///以下回调接口已废弃v7.6.0+
+- (void)tpNativeSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeSplashAdBidEnd:error:");
+- (void)tpNativeSplashAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeSplashAdOneLayerStartLoad:");
 @end

@@ -44,7 +44,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly) NSString *unitID;
-//@property (nonatomic, assign) BOOL
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
@@ -57,35 +56,54 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol TradPlusADBannerDelegate <NSObject>
 ///为三方提供rootviewController 用于点击广告后的操作
 - (UIViewController *)viewControllerForPresentingModalView;
+
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpBannerAdLoaded:(NSDictionary *)adInfo;
+
 ///AD加载失败
 ///tpBannerAdOneLayerLoad:didFailWithError：返回三方源的错误信息
 - (void)tpBannerAdLoadFailWithError:(NSError *)error;
+
 ///AD展现
 - (void)tpBannerAdImpression:(NSDictionary *)adInfo;
+
 ///AD展现失败
 - (void)tpBannerAdShow:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///AD被点击 
 - (void)tpBannerAdClicked:(NSDictionary *)adInfo;
 
 @optional
+
+///v7.6.0+新增 开始加载流程
+- (void)tpBannerAdStartLoad:(NSDictionary *)adInfo;
+
+///当每个广告源开始加载时会都会回调一次。
+///v7.6.0+新增。替代原回调接口：tpBannerAdLoadStart:(NSDictionary *)adInfo;
+- (void)tpBannerAdOneLayerStartLoad:(NSDictionary *)adInfo;
+
 ///bidding开始
 - (void)tpBannerAdBidStart:(NSDictionary *)adInfo;
-///bidding结束
-- (void)tpBannerAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpBannerAdBidEnd:error:");
+
 ///bidding结束 error = nil 表示成功
 - (void)tpBannerAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
-///开始加载
-- (void)tpBannerAdLoadStart:(NSDictionary *)adInfo;
+
 ///当每个广告源加载成功后会都会回调一次。
 - (void)tpBannerAdOneLayerLoaded:(NSDictionary *)adInfo;
+
 ///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
 - (void)tpBannerAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///加载流程全部结束
 - (void)tpBannerAdAllLoaded:(BOOL)success;
+
 ///三方关闭按钮触发时的回调
 - (void)tpBannerAdClose:(NSDictionary *)adInfo;
+
+///以下回调接口已废弃v7.6.0+
+- (void)tpBannerAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpBannerAdBidEnd:error:");
+- (void)tpBannerAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpBannerAdOneLayerStartLoad:");
+
 @end
 
 NS_ASSUME_NONNULL_END

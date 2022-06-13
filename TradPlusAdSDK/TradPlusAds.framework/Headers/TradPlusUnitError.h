@@ -7,6 +7,7 @@ typedef enum : NSUInteger {
     TPUnitErrorNoNetWork= 1007,
     TPUnitErrorWrongConfig = 1000,
     TPUnitErrorLoading = 1001,
+    TPUnitErrorC2SBiddingInfoError = 20006,
     TPUnitErrorNoAdUnitID = 10002,
     TPUnitErrorNoRenderingClass = 10003,
     TPUnitErrorNoRenderer = 10004,

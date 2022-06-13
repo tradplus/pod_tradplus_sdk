@@ -1,5 +1,6 @@
 
 #import <Foundation/Foundation.h>
+#import <TradPlusAds/TradPlusAdWaterfallItem.h>
 
 @protocol TPAdapterProtocol <NSObject>
 

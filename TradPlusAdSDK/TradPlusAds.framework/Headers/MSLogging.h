@@ -8,9 +8,6 @@
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/MSConstants.h>
 
-extern NSString * const gMPClearErrorLogFormatWithAdUnitID;
-extern NSString * const gMPWarmingUpErrorLogFormatWithAdUnitID;
-
 // Lower = finer-grained logs.
 typedef enum
 {

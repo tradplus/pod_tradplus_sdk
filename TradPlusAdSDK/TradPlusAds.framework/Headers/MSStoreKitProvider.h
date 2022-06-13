@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MSGlobal.h"
+#import <TradPlusAds/MSGlobal.h>
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= MS_IOS_6_0
 #import <StoreKit/StoreKit.h>
 #endif

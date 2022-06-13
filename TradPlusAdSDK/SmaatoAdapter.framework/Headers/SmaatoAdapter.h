@@ -1,9 +1,3 @@
-#import <SmaatoAdapter/SmaatoBannerCustomEvent.h>
-#import <SmaatoAdapter/SmaatoInterstitialCustomEvent.h>
-#import <SmaatoAdapter/SmaatoNativeAdAdapter.h>
-#import <SmaatoAdapter/SmaatoNativeAdRenderer.h>
-#import <SmaatoAdapter/SmaatoNativeCustomEvent.h>
-#import <SmaatoAdapter/SmaatoRewardedVideoCustomEvent.h>
 #import <SmaatoAdapter/TradPlusSmaatoBannerAdapter.h>
 #import <SmaatoAdapter/TradPlusSmaatoInterstitialAdapter.h>
 #import <SmaatoAdapter/TradPlusSmaatoNativeAdapter.h>

@@ -23,6 +23,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSArray *burl;
 @property (nonatomic,strong) NSArray *clkurl;
 
+@property (nonatomic,assign)NSInteger app_id;
+@property (nonatomic,assign)NSInteger adseat_id;
+@property (nonatomic,assign)NSInteger bucket_id;
+@property (nonatomic,assign)NSInteger segment_id;
+@property (nonatomic,assign)NSInteger asp_id;
+@property (nonatomic,assign)NSInteger dsp_account_id;
+
 @property (nonatomic,strong)TPADXVASTResponse *VASTResponse;
 @property (nonatomic,copy)NSString *videoRemoteURL;
 @property (nonatomic,copy)NSString *videoLocalURL;

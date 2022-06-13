@@ -4,7 +4,6 @@
 
 #import <IronSource/IronSource.h>
 #import "IronSourceRewardedVideoDelegate.h"
-#import "IronSourceRewardedVideoCustomEvent.h"
 #import "IronSourceConstants.h"
 #import "IronSourceInterstitialDelegate.h"
 

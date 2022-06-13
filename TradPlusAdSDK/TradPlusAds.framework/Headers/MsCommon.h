@@ -26,6 +26,8 @@
     }
 #endif
 
+extern NSInteger TP_Encryption_Mode;
+
 static int const kMsSDKReqTimeout = 15;
 
 extern NSString *gEventServerURL;
@@ -36,6 +38,7 @@ extern NSString *gCrossAdconfServerURL;
 extern NSString *gBiddingServerURL;
 extern NSString *gRewardServerURL;
 
+extern BOOL gTPTestMode;
 extern BOOL gForceGetIDFA;
 extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKForceTest;
@@ -59,8 +62,6 @@ extern NSString * const gTPATTEnableStorageKey;
 extern NSString * const gTPPayloadOutTimeKey;
 
 extern BOOL gTPCNServer;
-
-extern NSInteger TP_Encryption_Mode;
 
 extern NSString * const gNeedCheckExpiredAd;
 extern NSString * const gAppAllowUploadUseTime;
@@ -99,6 +100,11 @@ typedef NS_ENUM(NSInteger, MSConsentStatus) {
     MSConsentStatusConsented
 };
 
+typedef enum : NSUInteger {
+    TPLoadMode_ECPM = 0,//ecpm优先 默认
+    TPLoadMode_SPEED,//速度优先
+} TPLoadMode;
+
 typedef enum
 {
     ADTYPE_BANNER,
@@ -129,6 +135,7 @@ typedef enum
     EV_LOAD_AD               = 600,
     EV_BID_START             = 610,
     EV_BID_END               = 611,
+    EV_BID_NETWORK_TIME      = 615,
     EV_BID_WIN               = 620,
     EV_BID_LOST              = 621,
     EV_LOAD_NETWORK_AD_START = 700,
@@ -214,6 +221,8 @@ typedef enum
     NETWORK_A4G      = 45,
     NETWORK_SUPERAWESOME  = 47,
     NETWORK_GOOGLEAdMANAGER = 48,
+    NETWORK_GROMORE  = 49,
+    NETWORK_MAX = 51,
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject
@@ -245,4 +254,7 @@ typedef enum
 + (void)changeCNValue:(id)cnObj;
 
 + (NSString *)generateAdUnitId:(NSDictionary *)wfItem;
++ (BOOL)hasMediationHelper;
++ (void)openMediationHelper;
++ (BOOL)mediationHelperIsOpening;
 @end

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <TradPlusAds/MsCommon.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -41,6 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param sceneId 场景ID 没有则设置为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 
+
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly) NSString *unitID;
 
@@ -62,31 +64,48 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///AD展现
 - (void)tpInterstitialAdImpression:(NSDictionary *)adInfo;
+
 ///AD展现失败
 - (void)tpInterstitialAdShow:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///AD被点击
 - (void)tpInterstitialAdClicked:(NSDictionary *)adInfo;
+
 ///AD关闭
 - (void)tpInterstitialAdDismissed:(NSDictionary *)adInfo;
 
 @optional
+
+///v7.6.0+ 开始加载流程
+- (void)tpInterstitialAdStartLoad:(NSDictionary *)adInfo;
+
+///当每个广告源开始加载时会都会回调一次。
+///v7.6.0+新增。替代原回调接口：tpInterstitialAdLoadStart:(NSDictionary *)adInfo;
+- (void)tpInterstitialAdOneLayerStartLoad:(NSDictionary *)adInfo;
+
 ///bidding开始
 - (void)tpInterstitialAdBidStart:(NSDictionary *)adInfo;
-///bidding结束
-- (void)tpInterstitialAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpInterstitialAdBidEnd:error:");
+
 ///bidding结束 error = nil 表示成功
 - (void)tpInterstitialAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
-///开始加载
-- (void)tpInterstitialAdLoadStart:(NSDictionary *)adInfo;
+
 ///当每个广告源加载成功后会都会回调一次。
 - (void)tpInterstitialAdOneLayerLoaded:(NSDictionary *)adInfo;
+
 ///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
 - (void)tpInterstitialAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///加载流程全部结束
 - (void)tpInterstitialAdAllLoaded:(BOOL)success;
+
 ///开始播放
 - (void)tpInterstitialAdPlayStart:(NSDictionary *)adInfo;
+
 ///播放结束
 - (void)tpInterstitialAdPlayEnd:(NSDictionary *)adInfo;
+
+///以下回调接口已废弃v7.6.0+
+- (void)tpInterstitialAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpInterstitialAdBidEnd:error:");
+- (void)tpInterstitialAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpInterstitialAdOneLayerStartLoad:");
 @end
 NS_ASSUME_NONNULL_END

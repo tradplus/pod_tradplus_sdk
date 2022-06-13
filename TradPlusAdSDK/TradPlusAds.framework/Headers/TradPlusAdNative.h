@@ -62,6 +62,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// Mintegral Pangle GDTMob KuaiShou 的模版渲染需要设置
 /// @param size 尺寸
 - (void)setTemplateRenderSize:(CGSize)size;
+
 ///设置模版渲染的布局方式 默认 TPTemplateContentModeScaleToFill
 @property (nonatomic,assign)TPTemplateContentMode templateContentMode;
 
@@ -91,37 +92,57 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpNativeAdLoaded:(NSDictionary *)adInfo;
+
 ///AD加载失败
 ///tpNativeAdOneLayerLoad:didFailWithError：返回三方源的错误信息
 - (void)tpNativeAdLoadFailWithError:(NSError *)error;
+
 ///AD展现
 - (void)tpNativeAdImpression:(NSDictionary *)adInfo;
+
 ///AD展现失败
 - (void)tpNativeAdShow:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///AD被点击
 - (void)tpNativeAdClicked:(NSDictionary *)adInfo;
+
 ///为三方提供rootviewController 用于点击广告后的操作
 - (UIViewController *)viewControllerForPresentingModalView;
 
 @optional
+
+///v7.6.0+新增 开始加载流程
+- (void)tpNativeAdStartLoad:(NSDictionary *)adInfo;
+
+///当每个广告源开始加载时会都会回调一次。
+///v7.6.0+新增。替代原回调接口：tpNativeAdLoadStart:(NSDictionary *)adInfo;
+- (void)tpNativeAdOneLayerStartLoad:(NSDictionary *)adInfo;
+
 ///AD被关闭
 - (void)tpNativeAdClose:(NSDictionary *)adInfo;
+
 ///bidding开始
 - (void)tpNativeAdBidStart:(NSDictionary *)adInfo;
-///bidding结束
-- (void)tpNativeAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeAdBidEnd:error:");
+
 ///bidding结束 error = nil 表示成功
 - (void)tpNativeAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
-///开始加载
-- (void)tpNativeAdLoadStart:(NSDictionary *)adInfo;
+
 ///当每个广告源加载成功后会都会回调一次。
 - (void)tpNativeAdOneLayerLoaded:(NSDictionary *)adInfo;
+
 ///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
 - (void)tpNativeAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///加载流程全部结束
 - (void)tpNativeAdAllLoaded:(BOOL)success;
-///视频贴片类型播放完成回调
+
+///视频贴片类型播放完成回调 v6.8.0+
 - (void)tpNativePasterDidPlayFinished:(NSDictionary *)adInfo;
+
+///以下回调接口已废弃v7.6.0+
+- (void)tpNativeAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeAdBidEnd:error:");
+- (void)tpNativeAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeAdOneLayerStartLoad:");
+
 @end
 
 NS_ASSUME_NONNULL_END

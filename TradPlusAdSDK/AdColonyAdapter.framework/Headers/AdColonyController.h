@@ -4,9 +4,6 @@
 //  Copyright (c) 2016 TradPlus. All rights reserved.
 //
 
-#import "AdColonyInterstitialCustomEvent.h"
-#import "AdColonyRewardedVideoCustomEvent.h"
-
 typedef enum {
     INIT_STATE_UNKNOWN,
     INIT_STATE_INITIALIZED,

@@ -2,7 +2,6 @@
 //  IronSourceUtils.h
 //
 #import <Foundation/Foundation.h>
-#import <TradPlusAds/MSInterstitialCustomEvent.h>
 
 @interface IronSourceUtils : NSObject
 

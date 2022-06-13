@@ -1,11 +1,3 @@
-#import <MintegralAdapter/MintegralBannerCustomEvent.h>
-#import <MintegralAdapter/MintegralInterstitialCustomEvent.h>
-#import <MintegralAdapter/MintegralNativeAdAdapter.h>
-#import <MintegralAdapter/MintegralNativeAdRenderer.h>
-#import <MintegralAdapter/MintegralNativeAdvancedAdAdapter.h>
-#import <MintegralAdapter/MintegralNativeCustomEvent.h>
-#import <MintegralAdapter/MintegralRewardedVideoCustomEvent.h>
-#import <MintegralAdapter/MintegralSplashCustomEvent.h>
 #import <MintegralAdapter/TradPlusMintegralAdapter.h>
 #import <MintegralAdapter/TradPlusMintegralBannerAdapter.h>
 #import <MintegralAdapter/TradPlusMintegralInterstitialAdapter.h>

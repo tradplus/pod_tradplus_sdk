@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <TradPlusAds/MsCommon.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -60,41 +61,63 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpRewardedAdLoaded:(NSDictionary *)adInfo;
+
 ///AD加载失败
 ///tpRewardedAdOneLayerLoad:didFailWithError：返回三方源的错误信息
 - (void)tpRewardedAdLoadFailWithError:(NSError *)error;
+
 ///AD展现
 - (void)tpRewardedAdImpression:(NSDictionary *)adInfo;
+
 ///AD展现失败
 - (void)tpRewardedAdShow:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///AD被点击
 - (void)tpRewardedAdClicked:(NSDictionary *)adInfo;
+
 ///AD关闭
 - (void)tpRewardedAdDismissed:(NSDictionary *)adInfo;
+
 ///完成奖励
 - (void)tpRewardedAdReward:(NSDictionary *)adInfo;
+
 @optional
-///再看一个的完成奖励 （快手）
+
+///v7.6.0+新增 开始加载流程
+- (void)tpRewardedAdStartLoad:(NSDictionary *)adInfo;
+
+///当每个广告源开始加载时会都会回调一次。
+///v7.6.0+新增。替代原回调接口：tpRewardedAdLoadStart:(NSDictionary *)adInfo;
+- (void)tpRewardedAdOneLayerStartLoad:(NSDictionary *)adInfo;
+
+///再看一个的完成奖励 （快手，穿山甲）
 - (void)tpRewardedAdPlayAgainReward:(NSDictionary *)adInfo;
+
 ///bidding开始
 - (void)tpRewardedAdBidStart:(NSDictionary *)adInfo;
-///bidding结束
-- (void)tpRewardedAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpRewardedAdBidEnd:error:");
+
 ///bidding结束 error = nil 表示成功
 - (void)tpRewardedAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
-///开始加载
-- (void)tpRewardedAdLoadStart:(NSDictionary *)adInfo;
+
 ///当每个广告源加载成功后会都会回调一次。
 - (void)tpRewardedAdOneLayerLoaded:(NSDictionary *)adInfo;
+
 ///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
 - (void)tpRewardedAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///加载流程全部结束
 - (void)tpRewardedAdAllLoaded:(BOOL)success;
+
 ///开始播放
 - (void)tpRewardedAdPlayStart:(NSDictionary *)adInfo;
+
 ///播放结束
 - (void)tpRewardedAdPlayEnd:(NSDictionary *)adInfo;
 
 - (void)tpRewardedAdNoReward:(NSDictionary *)adInfo;
+
+///以下回调接口已废弃v7.6.0+
+- (void)tpRewardedAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpRewardedAdBidEnd:error:");
+- (void)tpRewardedAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpRewardedAdOneLayerStartLoad:");
 @end
 NS_ASSUME_NONNULL_END

@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "MSLogging.h"
+#import <TradPlusAds/MSLogging.h>
 
 @protocol MSLogger;
 

@@ -5,11 +5,5 @@
 #import <VungleAdapter/TradPlusVungleNativeAdapter.h>
 #import <VungleAdapter/TradPlusVungleRewardedAdapter.h>
 #import <VungleAdapter/TradPlusVungleSDKLoader.h>
-#import <VungleAdapter/VungleBannerCustomEvent.h>
 #import <VungleAdapter/VungleInstanceMediationSettings.h>
-#import <VungleAdapter/VungleInterstitialCustomEvent.h>
-#import <VungleAdapter/VungleNativeAdAdapter.h>
-#import <VungleAdapter/VungleNativeAdRenderer.h>
-#import <VungleAdapter/VungleNativeCustomEvent.h>
-#import <VungleAdapter/VungleRewardedVideoCustomEvent.h>
 #import <VungleAdapter/VungleAdapterBaseInfo.h>

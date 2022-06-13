@@ -5,6 +5,8 @@
 //  Created by xuejun on 2021/8/16.
 //  Copyright © 2021 ms-mac. All rights reserved.
 //
+#import <TradPlusAds/TradPlusAdConfManager.h>
+
 
 @interface TradPlusAdConfManager ()
 

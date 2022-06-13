@@ -1,12 +1,4 @@
 #import <PangleAdapter/PangleAnimationTool.h>
-#import <PangleAdapter/PangleBannerCustomEvent.h>
-#import <PangleAdapter/PangleInterstitialCustomEvent.h>
-#import <PangleAdapter/PangleNativeAdAdapter.h>
-#import <PangleAdapter/PangleNativeAdRenderer.h>
-#import <PangleAdapter/PangleNativeCustomEvent.h>
-#import <PangleAdapter/PangleNativeExpressAdAdapter.h>
-#import <PangleAdapter/PangleRewardedVideoCustomEvent.h>
-#import <PangleAdapter/PangleSplashCustomEvent.h>
 #import <PangleAdapter/TradPlusPangleAdapter.h>
 #import <PangleAdapter/TradPlusPangleBannerAdapter.h>
 #import <PangleAdapter/TradPlusPangleInterstitialAdapter.h>

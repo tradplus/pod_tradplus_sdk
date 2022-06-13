@@ -51,6 +51,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger is_template_rendering;
 ///load超时
 @property (nonatomic,assign)NSInteger loadTimeout;
+//C2S 超时时间
+@property (nonatomic,assign)NSInteger buyeruidTimeout;
 //是否全屏视频  1:是  2:否'
 @property (nonatomic,assign)NSInteger full_screen_video;
 ///广告有效时间
@@ -101,6 +103,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger is_skipable;
 //开屏点睛
 @property (nonatomic,assign)NSInteger zoom_out;
+//C2S
+@property (nonatomic,assign)BOOL isC2SBidding;
+@property (nonatomic,copy)NSString *networksdkver;
+@property (nonatomic,copy)NSString *networkECPM;
 //bidding相关
 @property (nonatomic,assign)BOOL isBidding;
 @property (nonatomic,copy)NSString *biddingValue;

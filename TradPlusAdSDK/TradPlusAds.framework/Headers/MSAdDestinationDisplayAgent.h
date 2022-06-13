@@ -6,10 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MSActivityViewControllerHelper+TweetShare.h"
-#import "MSURLResolver.h"
-#import "MSProgressOverlayView.h"
-#import "MSStoreKitProvider.h"
+
+#import <TradPlusAds/MSActivityViewControllerHelper+TweetShare.h>
+#import <TradPlusAds/MSProgressOverlayView.h>
+#import <TradPlusAds/MSStoreKitProvider.h>
 #import <SafariServices/SafariServices.h>
 
 @protocol MSAdDestinationDisplayAgentDelegate;
@@ -34,8 +34,15 @@
 - (void)displayAgentWillLeaveApplication;
 - (void)displayAgentDidDismissModal;
 
-@optional
+@end
 
-- (MSAdConfiguration *)adConfiguration;
+@class MSTelephoneConfirmationController;
+
+typedef void (^MSTelephoneConfirmationControllerClickHandler)(NSURL *targetTelephoneURL, BOOL confirmed);
+
+@interface MSTelephoneConfirmationController : NSObject <UIAlertViewDelegate>
+
+- (id)initWithURL:(NSURL *)url clickHandler:(MSTelephoneConfirmationControllerClickHandler)clickHandler;
+- (void)show;
 
 @end

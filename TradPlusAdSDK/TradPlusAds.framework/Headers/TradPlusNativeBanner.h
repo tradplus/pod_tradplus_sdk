@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <TradPlusAds/TradPlusNativeRenderer.h>
+#import <TradPlusAds/MsCommon.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -56,34 +57,53 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol TradPlusADNativeBannerDelegate <NSObject>
 
+///为三方提供rootviewController 用于点击广告后的操作
 - (UIViewController *)viewControllerForPresentingModalView;
+
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpNativeBannerAdDidLoaded:(NSDictionary *)adInfo;
+
 ///AD加载失败
 ///tpNativeBannerAdOneLayerLoaded:didFailWithError：返回三方源的错误信息
 - (void)tpNativeBannerAdLoadFailWithError:(NSError *)error;
+
 ///AD展现
 - (void)tpNativeBannerAdImpression:(NSDictionary *)adInfo;
+
 ///AD展现失败
 - (void)tpNativeBannerAdShow:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///AD被点击
 - (void)tpNativeBannerAdClicked:(NSDictionary *)adInfo;
 
 @optional
+
+///v7.6.0+新增 开始加载流程
+- (void)tpNativeBannerAdStartLoad:(NSDictionary *)adInfo;
+
+///当每个广告源开始加载时会都会回调一次。
+///v7.6.0+新增。替代原回调接口：tpNativeBannerAdLoadStart:(NSDictionary *)adInfo;
+- (void)tpNativeBannerAdOneLayerStartLoad:(NSDictionary *)adInfo;
+
 ///bidding开始
 - (void)tpNativeBannerAdBidStart:(NSDictionary *)adInfo;
-///bidding结束
-- (void)tpNativeBannerAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeBannerAdBidEnd:error:");
+
 ///bidding结束 error = nil 表示成功
 - (void)tpNativeBannerAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
-///开始加载
-- (void)tpNativeBannerAdLoadStart:(NSDictionary *)adInfo;
+
 ///当每个广告源加载成功后会都会回调一次。
 - (void)tpNativeBannerAdOneLayerLoaded:(NSDictionary *)adInfo;
+
 ///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
 - (void)tpNativeBannerAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
 ///加载流程全部结束
 - (void)tpNativeBannerAdAllLoaded:(BOOL)success;
+
+///以下回调接口已废弃v7.6.0+
+- (void)tpNativeBannerAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeBannerAdBidEnd:error:");
+- (void)tpNativeBannerAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeBannerAdOneLayerStartLoad:");
+
 @end
 
 NS_ASSUME_NONNULL_END
