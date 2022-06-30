@@ -20,11 +20,12 @@ CGRect MSScreenBounds(void);
 CGSize MSScreenResolution(void);
 CGFloat MSDeviceScaleFactor(void);
 NSDictionary *MSDictionaryFromQueryString(NSString *query);
-NSString *MSSHA256Digest(NSString *string);
 BOOL MSViewIsVisible(UIView *view);
 BOOL MSViewIntersectsParentWindowWithPercent(UIView *view, CGFloat percentVisible);
-NSString *MSResourcePathForResource(NSString *resourceName);
 NSArray *MSConvertStringArrayToURLArray(NSArray *strArray);
-NSBundle *MSResourceBundleForClass(Class aClass);
 
+NSBundle *MSResourceBundleForClass(Class aClass);
+NSString *MSResourcePathForResource(NSString *resourceName);
+NSString *MSBundlePath(NSString *bundleName);
+NSString *MSSHA256Digest(NSString *string);
 

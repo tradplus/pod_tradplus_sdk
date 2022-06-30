@@ -11,6 +11,7 @@
 @interface TradPlusAdNative ()
 
 - (void)refresh;
+- (void)closeEvent;
 @property (nonatomic,readonly)BOOL isSkip;
 @property (nonatomic,readonly)NSInteger countdownTime;
 @property (nonatomic,readonly)NSInteger skipTime;

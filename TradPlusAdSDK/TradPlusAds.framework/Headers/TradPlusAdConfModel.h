@@ -54,4 +54,8 @@
 @property (nonatomic,assign)NSInteger is_test_mode;
 //是否服务端奖励回调
 @property (nonatomic,assign)NSInteger is_server_callback;
+
+@property (nonatomic,assign)NSInteger ad_fill_callback;
+
+@property (nonatomic,assign)NSInteger createTime;
 @end

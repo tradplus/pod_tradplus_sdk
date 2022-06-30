@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TradPlusAdInterstitial : NSObject
 
-/// 设置广告位ID
+/// 设置广告位ID 默认开启自动加载模式
 - (void)setAdUnitID:(NSString *)adUnitID;
 
 ///  设置广告位ID
@@ -34,12 +34,17 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadAd;
 
 /// 显示广告
+/// @param sceneId 场景ID 可以为nil
+- (void)showAdWithSceneId:(nullable NSString *)sceneId;
+
+/// 显示广告
 /// @param rootViewController rootViewController
-/// @param sceneId 广告位ID
-- (void)showAdFromRootViewController:(UIViewController *)rootViewController sceneId:(nullable NSString *)sceneId;
+/// 当传入nil时SDK会自行获取key windows 的 rootViewController
+/// @param sceneId 场景ID 可以为nil
+- (void)showAdFromRootViewController:(nullable UIViewController *)rootViewController sceneId:(nullable NSString *)sceneId;
 
 /// 进入广告场景
-/// @param sceneId 场景ID 没有则设置为nil
+/// @param sceneId 场景ID 可以为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 
 

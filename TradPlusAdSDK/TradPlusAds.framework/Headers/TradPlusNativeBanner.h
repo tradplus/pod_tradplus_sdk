@@ -57,9 +57,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol TradPlusADNativeBannerDelegate <NSObject>
 
-///为三方提供rootviewController 用于点击广告后的操作
-- (UIViewController *)viewControllerForPresentingModalView;
-
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpNativeBannerAdDidLoaded:(NSDictionary *)adInfo;
 
@@ -77,6 +74,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpNativeBannerAdClicked:(NSDictionary *)adInfo;
 
 @optional
+
+///为三方提供rootviewController 用于点击广告后的操作
+- (nullable UIViewController *)viewControllerForPresentingModalView;
 
 ///v7.6.0+新增 开始加载流程
 - (void)tpNativeBannerAdStartLoad:(NSDictionary *)adInfo;

@@ -11,6 +11,8 @@
 #import <TradPlusAds/TradPlusNativeRenderer.h>
 #import <TradPlusAds/MsCommon.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @protocol TradPlusADNativeSplashDelegate;
 
 @interface TradPlusNativeSplash : NSObject
@@ -70,9 +72,6 @@
 
 @protocol TradPlusADNativeSplashDelegate <NSObject>
 
-///为三方提供rootviewController 用于点击广告后的操作
-- (UIViewController *)viewControllerForPresentingModalView;
-
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpNativeSplashAdDidLoaded:(NSDictionary *)adInfo;
 
@@ -93,6 +92,9 @@
 - (void)tpNativeSplashAdClosed:(NSDictionary *)adInfo;
 
 @optional
+
+///为三方提供rootviewController 用于点击广告后的操作
+- (nullable UIViewController *)viewControllerForPresentingModalView;
 
 ///v7.6.0+新增 开始加载流程
 - (void)tpNativeSplashAdStartLoad:(NSDictionary *)adInfo;
@@ -129,3 +131,5 @@
 - (void)tpNativeSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeSplashAdBidEnd:error:");
 - (void)tpNativeSplashAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeSplashAdOneLayerStartLoad:");
 @end
+
+NS_ASSUME_NONNULL_END

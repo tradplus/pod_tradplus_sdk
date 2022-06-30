@@ -7,6 +7,7 @@
 
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #ifndef tp_dispatch_main_async_safe
 #define tp_dispatch_main_async_safe(block)\
@@ -223,6 +224,7 @@ typedef enum
     NETWORK_GOOGLEAdMANAGER = 48,
     NETWORK_GROMORE  = 49,
     NETWORK_MAX = 51,
+    NETWORK_VERVE    = 53,
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject
@@ -257,4 +259,6 @@ typedef enum
 + (BOOL)hasMediationHelper;
 + (void)openMediationHelper;
 + (BOOL)mediationHelperIsOpening;
++ (UIViewController *)getTopRootViewController;
++ (UIWindow *)getTopWindow;
 @end

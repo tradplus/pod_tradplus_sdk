@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /// 设置广告位ID
-/// @param adUnitID  广告位ID
+/// @param adUnitID  广告位ID 默认开启自动加载模式
 - (void)setAdUnitID:(NSString *)adUnitID;
 
 
@@ -106,10 +106,10 @@ NS_ASSUME_NONNULL_BEGIN
 ///AD被点击
 - (void)tpNativeAdClicked:(NSDictionary *)adInfo;
 
-///为三方提供rootviewController 用于点击广告后的操作
-- (UIViewController *)viewControllerForPresentingModalView;
-
 @optional
+
+///为三方提供rootviewController 用于点击广告后的操作
+- (nullable UIViewController *)viewControllerForPresentingModalView;
 
 ///v7.6.0+新增 开始加载流程
 - (void)tpNativeAdStartLoad:(NSDictionary *)adInfo;

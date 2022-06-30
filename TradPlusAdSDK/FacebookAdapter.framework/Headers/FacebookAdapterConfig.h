@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FacebookAdapterConfig : NSObject
 
 + (void)setPrivacy:(NSDictionary *)info;
++ (void)showAdapterInfo;
 @end
 
 NS_ASSUME_NONNULL_END
