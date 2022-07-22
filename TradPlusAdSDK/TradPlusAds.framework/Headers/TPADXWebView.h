@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TPADXWebView : UIView
 
 - (void)loadWithAdm:(NSString *)adm;
+- (void)stopCheckVisible;
 
 @property (nonatomic, copy) void (^loadFinishAct)(void);
 @property (nonatomic, copy) void (^loadFailAct)(NSError *error);

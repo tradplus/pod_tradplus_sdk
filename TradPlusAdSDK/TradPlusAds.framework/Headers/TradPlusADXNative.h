@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)registerContainer:(UIView *)containerView
        withClickableViews:(NSArray<UIView *> *_Nullable)clickableViews;
 
-- (void)loadWithPayload:(NSDictionary *)payload;
+- (void)loadWithPayload:(NSDictionary *)payload finishBiddingDate:(NSDate *)finishBiddingDate;
 
 @property (nonatomic,assign) BOOL isMute;
 @property (nonatomic,weak) id <TPADXNativeDelegate> delegate;

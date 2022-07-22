@@ -16,7 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TradPlusADXRewarded : TradPlusADXBase
 
-- (void)loadWithPayload:(NSDictionary *)payload;
+- (void)loadWithPayload:(NSDictionary *)payload finishBiddingDate:(NSDate *)finishBiddingDate;
+
 - (void)showAdFromRootViewController:(UIViewController *)rootViewController;
 @property (nonatomic,assign) BOOL isMute;
 @property (nonatomic,weak) id <TradPlusADXRewardedDelegate> delegate;

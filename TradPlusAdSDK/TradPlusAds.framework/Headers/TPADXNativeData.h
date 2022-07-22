@@ -21,6 +21,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *iconImageURL;
 @property (nonatomic,copy)NSString *logoImageURL;
 @property (nonatomic,copy)NSString *mainImageURL;
+@property (nonatomic,assign)CGFloat iconHeight;
+@property (nonatomic,assign)CGFloat iconWidth;
+@property (nonatomic,assign)CGFloat mainImageHeight;
+@property (nonatomic,assign)CGFloat mainImageWidth;
 
 @property (nonatomic,copy)NSString *vastString;
 //imptrackers

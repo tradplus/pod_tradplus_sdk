@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)isReady;
 
-- (void)loadWithPayload:(NSDictionary *)payload;
+- (void)loadWithPayload:(NSDictionary *)payload finishBiddingDate:(NSDate *)finishBiddingDate;
 
 @property (nonatomic,weak) id <TPADXBannerDelegate> delegate;
 @property (nonatomic,assign) CGSize adSize;

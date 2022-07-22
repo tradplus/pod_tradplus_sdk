@@ -139,6 +139,12 @@ NS_ASSUME_NONNULL_BEGIN
 ///视频贴片类型播放完成回调 v6.8.0+
 - (void)tpNativePasterDidPlayFinished:(NSDictionary *)adInfo;
 
+///开始播放 v7.8.0+
+- (void)tpNativeAdVideoPlayStart:(NSDictionary *)adInfo;
+
+///播放结束 v7.8.0+
+- (void)tpNativeAdVideoPlayEnd:(NSDictionary *)adInfo;
+
 ///以下回调接口已废弃v7.6.0+
 - (void)tpNativeAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeAdBidEnd:error:");
 - (void)tpNativeAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeAdOneLayerStartLoad:");

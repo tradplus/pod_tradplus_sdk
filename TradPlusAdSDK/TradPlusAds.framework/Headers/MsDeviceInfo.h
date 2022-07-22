@@ -16,6 +16,7 @@
 + (NSString *)osVersion;
 + (NSString *)isADTrackLimited;
 + (NSString *)getIDFA;
++ (NSString *)getEid;
 + (NSString *)deviceType;
 + (NSString *)type;
 + (NSString *)getScreenScale;

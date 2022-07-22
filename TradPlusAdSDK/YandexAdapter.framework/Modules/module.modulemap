@@ -1,0 +1,6 @@
+framework module YandexAdapter {
+  umbrella header "YandexAdapter.h"
+
+  export *
+  module * { export * }
+}

@@ -18,7 +18,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)BOOL isLoading;
 @property (nonatomic,assign)BOOL willRelease;
 @property (nonatomic,copy)NSString *placementId;
-@property (nonatomic,assign)NSInteger adValidTime;
 @property (nonatomic,strong)NSMutableArray <TradPlusReportTask *>*reportTaskArray;
 @property (nonatomic,strong)TPADXResourceData *resourceData;
 

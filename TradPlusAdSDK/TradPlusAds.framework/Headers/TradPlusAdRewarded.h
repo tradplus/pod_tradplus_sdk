@@ -13,6 +13,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol TradPlusADRewardedDelegate;
+@protocol TradPlusADRewardedPlayAgainDelegate;
 
 @interface TradPlusAdRewarded : NSObject
 
@@ -59,6 +60,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 
 @property (nonatomic,weak) id <TradPlusADRewardedDelegate> delegate;
+@property (nonatomic,weak) id <TradPlusADRewardedPlayAgainDelegate> playAgainDelegate;
 
 @end
 
@@ -95,9 +97,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///v7.6.0+新增。替代原回调接口：tpRewardedAdLoadStart:(NSDictionary *)adInfo;
 - (void)tpRewardedAdOneLayerStartLoad:(NSDictionary *)adInfo;
 
-///再看一个的完成奖励 （快手，穿山甲）
-- (void)tpRewardedAdPlayAgainReward:(NSDictionary *)adInfo;
-
 ///bidding开始
 - (void)tpRewardedAdBidStart:(NSDictionary *)adInfo;
 
@@ -124,5 +123,29 @@ NS_ASSUME_NONNULL_BEGIN
 ///以下回调接口已废弃v7.6.0+
 - (void)tpRewardedAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpRewardedAdBidEnd:error:");
 - (void)tpRewardedAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpRewardedAdOneLayerStartLoad:");
+@end
+
+
+@protocol TradPlusADRewardedPlayAgainDelegate <NSObject>
+
+///AD展现
+- (void)tpRewardedAdPlayAgainImpression:(NSDictionary *)adInfo;
+
+///AD展现失败
+- (void)tpRewardedAdPlayAgainShow:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
+///AD被点击
+- (void)tpRewardedAdPlayAgainClicked:(NSDictionary *)adInfo;
+
+///完成奖励
+- (void)tpRewardedAdPlayAgainReward:(NSDictionary *)adInfo;
+
+@optional
+
+///开始播放
+- (void)tpRewardedAdPlayAgainPlayStart:(NSDictionary *)adInfo;
+
+///播放结束
+- (void)tpRewardedAdPlayAgainPlayEnd:(NSDictionary *)adInfo;
 @end
 NS_ASSUME_NONNULL_END

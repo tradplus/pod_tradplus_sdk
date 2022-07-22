@@ -78,6 +78,10 @@
 #import <TradPlusAds/TPSDKLoaderDelegate.h>
 #import <TradPlusAds/TPTestModeController.h>
 #import <TradPlusAds/TPWebViewManager.h>
+#import <TradPlusAds/TPEventControl.h>
+#import <TradPlusAds/TPFullEventControl.h>
+#import <TradPlusAds/TPSimplifyEventControl.h>
+#import <TradPlusAds/TPADXEventControl.h>
 #import <TradPlusAds/TradPlus.h>
 #import <TradPlusAds/TradPlusADXAdapter.h>
 #import <TradPlusAds/TradPlusADXBanner.h>
@@ -139,3 +143,4 @@
 #import <TradPlusAds/UIColor+MSAdditions.h>
 #import <TradPlusAds/UIImage+TradPlusADX.h>
 #import <TradPlusAds/UIImageView+TPImageView.h>
+#import <TradPlusAds/UIView+TPADX.h>

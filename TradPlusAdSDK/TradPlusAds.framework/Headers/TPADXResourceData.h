@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithPayload:(NSDictionary *)payload;
 
 @property (nonatomic,readonly) NSString *adm;
+@property (nonatomic,assign) NSInteger exp;
 @property (nonatomic,strong) NSArray *nurl;
 @property (nonatomic,strong) NSArray *lurl;
 @property (nonatomic,strong) NSArray *impurl;

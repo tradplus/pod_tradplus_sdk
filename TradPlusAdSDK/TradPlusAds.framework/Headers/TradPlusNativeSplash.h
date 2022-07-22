@@ -127,6 +127,12 @@ NS_ASSUME_NONNULL_BEGIN
 ///倒计时
 - (void)tpNativeSplashAdCountDown:(NSDictionary *)adInfo progress:(NSInteger)progress;
 
+///开始播放 v7.8.0+
+- (void)tpNativeSplashAdVideoPlayStart:(NSDictionary *)adInfo;
+
+///播放结束 v7.8.0+
+- (void)tpNativeSplashAdVideoPlayEnd:(NSDictionary *)adInfo;
+
 ///以下回调接口已废弃v7.6.0+
 - (void)tpNativeSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeSplashAdBidEnd:error:");
 - (void)tpNativeSplashAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeSplashAdOneLayerStartLoad:");

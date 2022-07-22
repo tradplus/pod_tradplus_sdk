@@ -18,6 +18,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)NSURLSession *eventSession;
 @property (nonatomic,strong)NSURLSession *networkSession;
 
+//GET请求
+- (void)getNetWorkWithURLStr:(NSString *)urlStr completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
+
+//POST
+- (void)postNetWorkWithURLStr:(NSString *)urlStr timeOut:(NSTimeInterval)timeOut body:(NSData *)body completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
 
 - (void)encryptionWithURLStr:(NSString *)urlStr jsonObject:(id)jsonObject completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
 //埋点

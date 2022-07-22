@@ -93,6 +93,9 @@ NS_ASSUME_NONNULL_BEGIN
 //是否服务端奖励回调
 @property (nonatomic,assign)NSInteger is_server_callback;
 
+//是否服务端展示回调
+@property (nonatomic,assign)NSInteger is_server_imp_callback;
+
 @property (nonatomic,assign)NSInteger waterfallIndex;
 
 @property (nonatomic,strong)NSArray *style_name;
@@ -157,6 +160,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong)NSDictionary *dicCustomValue;
 
 @property (nonatomic,assign)TPNativeADTYPE nativeType;
+
+@property (nonatomic,assign)BOOL did_start_play;
+@property (nonatomic,assign)BOOL did_close;
+@property (nonatomic,assign)BOOL playAgain_did_click;
+
+//extraInfoDictionary key及说明
+//点击去重标记 addClickEvent：0 默认未点击，1 已点击，2 强制增加记录点击。
+//addClickEvent = 1 时，引擎在记录点击埋点后自动设置为1 通过判断是否 =1 去重点击埋点。
+//需要额外的点击埋点时需要设置为 非1 后回调点击。
 
 ///新增数据 Adapter需从此字典中获取
 @property (nonatomic,strong)NSMutableDictionary *extraInfoDictionary;

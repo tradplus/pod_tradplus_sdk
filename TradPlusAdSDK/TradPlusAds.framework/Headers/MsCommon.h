@@ -32,12 +32,14 @@ extern NSInteger TP_Encryption_Mode;
 static int const kMsSDKReqTimeout = 15;
 
 extern NSString *gEventServerURL;
+extern NSString *gEventServerV2URL;
 extern NSString *gAdxEventServerURL;
 extern NSString *gCrossEventServerURL;
 extern NSString *gAdconfServerURL;
 extern NSString *gCrossAdconfServerURL;
 extern NSString *gBiddingServerURL;
 extern NSString *gRewardServerURL;
+extern NSString *gImpCallbackURL;
 
 extern BOOL gTPTestMode;
 extern BOOL gForceGetIDFA;
@@ -50,6 +52,7 @@ extern BOOL gMsSDKIsCN;
 extern BOOL gMsSDKIsCA;
 extern BOOL gTPOpenPersonalizedAd;
 extern BOOL gTPUploadUseTime;
+extern BOOL gTPUploadFullMode;
 extern NSInteger gMsEventInterval;
 extern NSInteger gMsEventUPLoadMaxCount;
 extern int gMsHTTPTimeout;
@@ -223,6 +226,7 @@ typedef enum
     NETWORK_SUPERAWESOME  = 47,
     NETWORK_GOOGLEAdMANAGER = 48,
     NETWORK_GROMORE  = 49,
+    NETWORK_YANDEX   = 50,
     NETWORK_MAX = 51,
     NETWORK_VERVE    = 53,
 } MSThirdNetwork;

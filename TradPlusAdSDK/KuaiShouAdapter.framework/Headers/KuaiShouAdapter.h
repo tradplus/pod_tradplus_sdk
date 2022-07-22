@@ -4,4 +4,5 @@
 #import <KuaiShouAdapter/TradPlusKuaiShouRewardedPlayAgain.h>
 #import <KuaiShouAdapter/TradPlusKuaiShouSDKLoader.h>
 #import <KuaiShouAdapter/TradPlusKuaiShouSplashAdapter.h>
+#import <KuaiShouAdapter/TradPlusKuaiShouAdapter.h>
 #import <KuaiShouAdapter/KuaiShouAdapterBaseInfo.h>
