@@ -79,6 +79,8 @@
 //清除缓存
 - (void)clearCache;
 
+@property (nonatomic,copy) void (^OfferwallClassNameCallback)(NSString *className);
+
 @property (nonatomic, copy) void (^AdStartLoad)(void);
 @property (nonatomic, copy) void (^AdLoadFail)(NSError *error);
 @property (nonatomic, copy) void (^AdAllLoaded)(BOOL success);

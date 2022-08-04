@@ -247,6 +247,7 @@ typedef enum
 + (NSString *)getCrossFullPath:(NSString *)fileName;
 + (NSString *)channelID2Name:(int)channelID;
 + (NSString *)eventType2Str:(MSEventType)evid;
++ (NSData *)getJsonDataWithObj:(id)obj;
 + (BOOL)isMemoryLimit;
 
 + (BOOL)checkFrequency:(NSMutableArray *)arrImpTimes freqMinutes:(int)freqMinutes freqCounts:(int)freqCounts;

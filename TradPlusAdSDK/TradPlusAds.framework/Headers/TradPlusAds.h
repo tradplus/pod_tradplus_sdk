@@ -137,6 +137,7 @@
 #import <TradPlusAds/TradPlusNativeSplash.h>
 #import <TradPlusAds/TradPlusNativeSplashTemplate.h>
 #import <TradPlusAds/TradPlusNativeSplashViewController.h>
+#import <TradPlusAds/TradPlusAdOfferwall.h>
 #import <TradPlusAds/TradPlusReportTask.h>
 #import <TradPlusAds/TradPlusUnitError.h>
 #import <TradPlusAds/TradPlusUnitManager.h>

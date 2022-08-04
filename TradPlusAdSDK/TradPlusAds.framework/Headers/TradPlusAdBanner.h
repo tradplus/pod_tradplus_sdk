@@ -51,6 +51,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 //三方banner的对其方式 默认：TPBannerContentModeTop
 @property (nonatomic,assign)TPBannerContentMode bannerContentMode;
+
+@property (nonatomic,readonly)BOOL isAutoRefresh;
 @end
 
 @protocol TradPlusADBannerDelegate <NSObject>
