@@ -32,7 +32,6 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 + (void)setCCPADoNotSell:(BOOL)isCCPA;
 
 + (void)setCOPPAIsAgeRestrictedUser:(BOOL)isAgeRestrictedUser;
-+ (void)setAuthUID:(BOOL)authUID;
 + (void)setDevAllowTracking:(BOOL)allowTracking;
 + (void)setAllowMessagePush:(BOOL)bo;
 + (BOOL)isAllowTracking;

@@ -46,8 +46,6 @@ extern BOOL gForceGetIDFA;
 extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKForceTest;
 extern BOOL gMsSDKInited;
-extern BOOL gMsSDKAllowWrite;
-extern BOOL gMsSDKAuthUID;
 extern BOOL gMsSDKIsCN;
 extern BOOL gMsSDKIsCA;
 extern BOOL gTPOpenPersonalizedAd;
@@ -55,24 +53,16 @@ extern BOOL gTPUploadUseTime;
 extern BOOL gTPUploadFullMode;
 extern NSInteger gMsEventInterval;
 extern NSInteger gMsEventUPLoadMaxCount;
-extern int gMsHTTPTimeout;
-extern int gMsPayLoadTimeout;
 extern NSString * const gConsentStatusStorageKey;
 extern NSString * const gGDPRAppliesStorageKey;
 extern NSString * const gTPCCPAStorageKey;
 extern NSString * const gTPIDFAPermissionKey;
 extern NSString * const gTPCOPPAStorageKey;
 extern NSString * const gTPATTEnableStorageKey;
-extern NSString * const gTPPayloadOutTimeKey;
 
 extern BOOL gTPCNServer;
 
-extern NSString * const gNeedCheckExpiredAd;
 extern NSString * const gAppAllowUploadUseTime;
-
-extern NSString * const kTPCapHourLimit;
-extern NSString * const kTPCapDayLimit;
-extern NSString * const kTPPacingLimit;
 
 typedef enum : NSUInteger {
     TPTemplateContentModeScaleToFill,//自动充满subview默认
@@ -235,35 +225,20 @@ typedef enum
 
 + (instancetype)sharedInstance;
 
-+ (NSString *)date2str:(NSDate *)date;
-+ (NSDate *)str2date:(NSString *)str;
-
 + (NSString *)localUUID;
-+ (NSString *)getTimeStringForNow;
-+ (NSString *)getSecondsStringForNow;
-+ (NSString *)getNowStrWithFormat:(NSString *)formatStr;
 + (NSString *)getLocalFileFullPath:(NSString *)fileName;
 + (NSString *)getStrategyFullPath:(NSString *)fileName;
 + (NSString *)getCrossFullPath:(NSString *)fileName;
 + (NSString *)channelID2Name:(int)channelID;
-+ (NSString *)eventType2Str:(MSEventType)evid;
-+ (NSData *)getJsonDataWithObj:(id)obj;
-+ (BOOL)isMemoryLimit;
-
-+ (BOOL)checkFrequency:(NSMutableArray *)arrImpTimes freqMinutes:(int)freqMinutes freqCounts:(int)freqCounts;
-
-+ (NSString *)generateLoadSuccessInfo:(NSString *)oldInfo curChannel:(NSString *)curChannel;
-+ (NSString *)generateLoadFailInfo:(NSString *)oldInfo curChannel:(NSString *)curChannel errCode:(NSInteger)errCode;
-+ (NSString *)getCustomEventClsName:(int)channelID adType:(MsADType)adType;
-
 + (NSString *)handleAdUnitId:(NSString *)adUnitId;
-+ (BOOL)isScreenPortrait;
 + (void)changeCNValue:(id)cnObj;
 
-+ (NSString *)generateAdUnitId:(NSDictionary *)wfItem;
 + (BOOL)hasMediationHelper;
 + (void)openMediationHelper;
 + (BOOL)mediationHelperIsOpening;
+
 + (UIViewController *)getTopRootViewController;
 + (UIWindow *)getTopWindow;
+
++ (NSData *)getJsonDataWithObj:(id)obj;
 @end

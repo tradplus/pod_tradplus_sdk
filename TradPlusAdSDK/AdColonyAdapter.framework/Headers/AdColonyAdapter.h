@@ -1,4 +1,3 @@
-#import <AdColonyAdapter/AdColonyController.h>
 #import <AdColonyAdapter/TradPlusAdColonyBannerAdapter.h>
 #import <AdColonyAdapter/TradPlusAdColonyInterstitialAdapter.h>
 #import <AdColonyAdapter/TradPlusAdColonyRewardedAdapter.h>
