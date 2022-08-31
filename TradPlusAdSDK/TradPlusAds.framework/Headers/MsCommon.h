@@ -120,6 +120,7 @@ typedef enum : NSUInteger {
 typedef enum
 {
     EV_APP_USE_TIME          = 10,
+    EV_APP_USE_TIME_V2       = 20,
     EV_REQ_OPEN_API_START    = 100,
     EV_REQ_OPEN_API          = 200,
     EV_INIT_NETWORK          = 250,
@@ -241,4 +242,6 @@ typedef enum
 + (UIWindow *)getTopWindow;
 
 + (NSData *)getJsonDataWithObj:(id)obj;
+
++ (NSDate *)SDKStartDate;
 @end

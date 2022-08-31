@@ -146,3 +146,4 @@
 #import <TradPlusAds/UIImageView+TPImageView.h>
 #import <TradPlusAds/UIView+TPADX.h>
 #import <TradPlusAds/TradPlus+OpenSDK.h>
+#import <TradPlusAds/TradPlusUseTime.h>

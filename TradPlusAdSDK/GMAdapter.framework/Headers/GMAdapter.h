@@ -1,9 +1,0 @@
-#import <GMAdapter/GMBannerAdapter.h>
-#import <GMAdapter/GMInterstitialAdapter.h>
-#import <GMAdapter/GMNativeAdapter.h>
-#import <GMAdapter/GMRewardedAdapter.h>
-#import <GMAdapter/GMSDKLoader.h>
-#import <GMAdapter/GMSplashAdapter.h>
-#import <GMAdapter/GMExpressRewardedPlayAgain.h>
-#import <GMAdapter/GMRewardedPlayAgain.h>
-#import <GMAdapter/GMAdapterBaseInfo.h>

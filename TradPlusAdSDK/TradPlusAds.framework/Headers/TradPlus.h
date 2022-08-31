@@ -72,6 +72,10 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 /// @param placementId 广告位ID
 + (void)clearCacheWithPlacementId:(NSString *)placementId;
 
+//查看用户当前区域
+//isUnknown = YES时表示 未知IP 或 网络请求失败
++ (void)checkCurrentArea:(void (^)(BOOL isUnknown,BOOL isCN,BOOL isCA,BOOL isEU))completionBlock;
+
 ///当前的个性化状态
 @property (nonatomic,readonly)BOOL isOpenPersonalizedAd;
 

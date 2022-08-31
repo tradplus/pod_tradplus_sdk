@@ -1,6 +1,0 @@
-framework module GMAdapter {
-  umbrella header "GMAdapter.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module MaxAdapter {
-  umbrella header "MaxAdapter.h"
-
-  export *
-  module * { export * }
-}

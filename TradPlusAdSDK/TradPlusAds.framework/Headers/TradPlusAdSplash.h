@@ -86,6 +86,13 @@ NS_ASSUME_NONNULL_BEGIN
 ///加载流程全部结束
 - (void)tpSplashAdAllLoaded:(BOOL)success;
 
+//v8.1.0+新增 跳过
+- (void)tpSplashAdSkip:(NSDictionary *)adInfo;
+//v8.1.0+新增 点睛开始
+- (void)tpSplashAdZoomOutViewShow:(NSDictionary *)adInfo;
+//v8.1.0+新增 点睛关闭
+- (void)tpSplashAdZoomOutViewClose:(NSDictionary *)adInfo;
+
 ///以下回调接口已废弃v7.6.0+
 - (void)tpSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpSplashAdBidEnd:error:");
 - (void)tpSplashAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpSplashAdOneLayerStartLoad:");

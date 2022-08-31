@@ -1,3 +1,3 @@
-#define TP_KlevinAdapter_Version @"8.0.0"
-#define TP_KlevinAdapter_PlatformSDK_Version @"2.9.0.216"
+#define TP_KlevinAdapter_Version @"8.1.0"
+#define TP_KlevinAdapter_PlatformSDK_Version @"2.9.1.207"
 
