@@ -47,6 +47,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param sceneId 场景ID 可以为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 
+///获取三方渠道广告对象
+- (id)getInterstitialAd;
 
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly) NSString *unitID;

@@ -42,6 +42,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///返回当前显示的AD信息
 - (nullable NSDictionary *)getCurrentAdInfo;
 
+///获取三方渠道广告对象
+- (id)getBannerAd;
+
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly) NSString *unitID;
 

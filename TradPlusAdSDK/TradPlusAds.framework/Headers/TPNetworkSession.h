@@ -28,8 +28,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)postNetWorkWithURLStr:(NSString *)urlStr timeOut:(NSTimeInterval)timeOut body:(NSData *)body completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
 //加密请求（POST）
 - (void)encryptionWithURLStr:(NSString *)urlStr jsonObject:(id)jsonObject completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
+- (void)encryptionWithURLStr:(NSString *)urlStr jsonData:(NSData *)jsonData completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
 //加密请求（埋点）
 - (void)encryptionEventWithURLStr:(NSString *)urlStr eventStr:(NSString *)eventStr completionHandler:(void (^)(NSError * _Nullable error))completionHandler;
+- (void)encryptionEventWithURLStr:(NSString *)urlStr eventData:(NSData *)eventData completionHandler:(void (^)(NSError * _Nullable error))completionHandler;
 //bidding 通知
 - (void)bidTrackingWithURLStr:(NSString *)strURL ecpmValue:(NSString *)ecpmValue lostCode:(NSString *)lostCode ASPID:(NSString *)ASPID completionBlock:(void (^)(NSString *ec))completionBlock;
 @end

@@ -79,6 +79,9 @@
 //清除缓存
 - (void)clearCache;
 
+//获取三方广告对象
+- (id)getCustomObject;
+
 @property (nonatomic,copy) void (^OfferwallClassNameCallback)(NSString *className);
 
 @property (nonatomic, copy) void (^AdStartLoad)(void);

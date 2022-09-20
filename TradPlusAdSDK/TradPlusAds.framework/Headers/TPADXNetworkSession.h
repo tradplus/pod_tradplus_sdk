@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)sendVASTErrorWithRequest:(NSURLRequest *)request;
 - (void)startTaskWithWithRequest:(NSURLRequest *)request completionHandler:(void (^)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error))completionHandler;
+//加密请求（埋点）
+- (void)encryptionEventWithURLStr:(NSString *)urlStr eventStr:(NSString *)eventStr completionHandler:(void (^)(NSError * _Nullable error))completionHandler;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -53,6 +53,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param customData 附加信息 根据平台要求填写
 - (void)setServerSideVerificationOptionsWithUserID:(nonnull NSString *)userID customData:(nullable NSString *)customData;
 
+///获取三方渠道广告对象
+- (id)getRewardedAd;
+
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly) NSString *unitID;
 

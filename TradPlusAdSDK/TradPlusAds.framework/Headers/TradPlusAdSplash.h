@@ -31,6 +31,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 显示广告
 - (void)show;
 
+///获取三方渠道广告对象
+- (id)getSplashAd;
+
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly) NSString *unitID;
 

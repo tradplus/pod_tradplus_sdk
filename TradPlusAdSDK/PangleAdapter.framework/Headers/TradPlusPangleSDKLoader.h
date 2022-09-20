@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)initWithAppID:(NSString *)appID
                  delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
 + (NSString *)getNotificationStr;
++ (NSString *)getSDKVersion;
 - (void)setPersonalizedAd;
 - (void)setIcon:(UIImage *)image;
 
