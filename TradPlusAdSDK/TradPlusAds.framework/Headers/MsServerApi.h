@@ -25,6 +25,8 @@
 - (NSDictionary *)getDicStrategyWithPlacement:(NSString *)placement;
 
 - (void)sdkOpen:(void (^)(NSError *error))completionBlock;
+- (BOOL)netNotReachable;
+- (void)setDefaultServerURL;
 
 - (void)httpsGET:(NSString *)strURL ecpmValue:(NSString *)ecpmValue lostCode:(NSString *)lostCode ASPID:(NSString *)ASPID completionBlock:(void (^)(NSString *ec))completionBlock;
 @end

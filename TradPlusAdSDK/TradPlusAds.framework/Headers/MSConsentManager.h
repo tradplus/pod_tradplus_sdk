@@ -5,16 +5,28 @@
 
 @interface MSConsentManager : NSObject
 
-+ (MSConsentManager * _Nonnull)sharedManager;
-
-// 是否在GDPR地区
+/**
+Flag indicating if GDPR is applicable to the user.
+*/
 @property (nonatomic, readonly) MSBool isGDPRApplicable;
-//当前授权页面状态
+/**
+Current consent status.
+*/
 @property (nonatomic, readonly) MSConsentStatus currentStatus;
-//是否需要进行GDPR授权
+/**
+Flag indicating that personally identifiable information can be collected.
+*/
 @property (nonatomic) BOOL canCollectPersonalInfo;
 
-//展示GDPR授权页面
+/**
+ * Singleton instance of the manager.
+ */
++ (MSConsentManager * _Nonnull)sharedManager;
+
+/**
+ If a consent dialog is loaded, this method will present it modally from the given `viewController`. If no consent
+ dialog is loaded this method will do nothing. `completion` is called upon successful presentation; it is not called otherwise.
+ */
 - (void)showConsentDialogFromViewController:(UIViewController * _Nonnull)viewController
                                     didShow:(void (^ _Nullable)(void))didShow
                                  didDismiss:(void (^ _Nullable)(void))didDismiss;

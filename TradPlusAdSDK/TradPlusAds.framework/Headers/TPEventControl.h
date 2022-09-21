@@ -22,7 +22,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)uploadWithDataArray:(NSArray *)uploadArray;
 //子类需要时实现 直传埋点
 - (void)sendEventWithInfoDic:(NSDictionary *)infoDic;
-- (void)sendEventWithInfoDic:(NSDictionary *)infoDic callback:(void (^ _Nullable)(NSError *error))callback;
 //子类需要时实现 添加埋点时的其他规则设置
 - (void)addEvent:(NSDictionary *)infoDic;
 

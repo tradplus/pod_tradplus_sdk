@@ -165,8 +165,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)BOOL did_close;
 @property (nonatomic,assign)BOOL playAgain_did_click;
 
-@property (nonatomic,assign)NSInteger is_closable;
-
 //extraInfoDictionary key及说明
 //点击去重标记 addClickEvent：0 默认未点击，1 已点击，2 强制增加记录点击。
 //addClickEvent = 1 时，引擎在记录点击埋点后自动设置为1 通过判断是否 =1 去重点击埋点。

@@ -21,7 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,weak) id <TPADXBannerDelegate> delegate;
 @property (nonatomic,assign) CGSize adSize;
-@property (nonatomic,assign) BOOL isClosable;
 @end
 
 @protocol TPADXBannerDelegate <NSObject>
@@ -31,7 +30,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)ADXImpression;
 - (void)ADXShowFailWithError:(NSError *)error;
 - (void)ADXClicked;
-- (void)ADXClosed;
 @end
 
 NS_ASSUME_NONNULL_END

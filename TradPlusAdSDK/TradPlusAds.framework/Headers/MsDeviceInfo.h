@@ -39,7 +39,10 @@
 //流量分组
 + (NSString *)app_ver;
 + (NSString *)app_instime; //install time
+////v adconf; V event; sdk version.
+//+ (NSString *)device_idfa; ->idfa
 + (NSString *)device_idfv;
+//+ (NSString *)device_osv; ->osVersion
 + (NSString *)device_type; //iphone,ipad
 + (NSString *)device_make; //manufacturer "Apple"
 + (NSString *)device_model;

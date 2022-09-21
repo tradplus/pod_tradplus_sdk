@@ -32,6 +32,7 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 + (void)setCCPADoNotSell:(BOOL)isCCPA;
 
 + (void)setCOPPAIsAgeRestrictedUser:(BOOL)isAgeRestrictedUser;
++ (void)setAuthUID:(BOOL)authUID;
 + (void)setDevAllowTracking:(BOOL)allowTracking;
 + (void)setAllowMessagePush:(BOOL)bo;
 + (BOOL)isAllowTracking;
@@ -71,10 +72,6 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 /// 清理 激励视频 指定广告位的缓存广告，
 /// @param placementId 广告位ID
 + (void)clearCacheWithPlacementId:(NSString *)placementId;
-
-//查看用户当前区域
-//isUnknown = YES时表示 未知IP 或 网络请求失败
-+ (void)checkCurrentArea:(void (^)(BOOL isUnknown,BOOL isCN,BOOL isCA,BOOL isEU))completionBlock;
 
 ///当前的个性化状态
 @property (nonatomic,readonly)BOOL isOpenPersonalizedAd;
