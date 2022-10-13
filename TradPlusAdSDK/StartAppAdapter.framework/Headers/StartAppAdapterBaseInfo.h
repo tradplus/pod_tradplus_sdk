@@ -1,3 +1,3 @@
-#define TP_StartAppAdapter_Version @"7.9.10"
-#define TP_StartAppAdapter_PlatformSDK_Version @"4.7.1"
+#define TP_StartAppAdapter_Version @"8.3.0"
+#define TP_StartAppAdapter_PlatformSDK_Version @"4.7.3"
 

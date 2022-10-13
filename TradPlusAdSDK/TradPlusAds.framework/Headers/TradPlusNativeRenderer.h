@@ -32,6 +32,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setCustomerView:(UIView *)view key:(NSString *)key canClick:(BOOL)canClick;
 ///重写此接口来添加额外元素
 - (void)customerRendererWithRes:(TradPlusAdRes *)res;
+///重写此接口 在渲染完成后对Adview添加布局约束等操作 v8.2.0新增
+- (void)addConstraintWithAdView:(UIView *)adView;
 @end
 
 NS_ASSUME_NONNULL_END

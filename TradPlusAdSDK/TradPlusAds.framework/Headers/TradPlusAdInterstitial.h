@@ -47,6 +47,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param sceneId 场景ID 可以为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 
+///获取三方渠道广告对象
+- (id)getInterstitialAd;
+
+//用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
+//开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
+@property (nonatomic, strong)NSDictionary *customAdInfo;
 
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly) NSString *unitID;

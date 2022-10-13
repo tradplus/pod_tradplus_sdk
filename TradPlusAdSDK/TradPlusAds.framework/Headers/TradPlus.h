@@ -32,7 +32,6 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 + (void)setCCPADoNotSell:(BOOL)isCCPA;
 
 + (void)setCOPPAIsAgeRestrictedUser:(BOOL)isAgeRestrictedUser;
-+ (void)setAuthUID:(BOOL)authUID;
 + (void)setDevAllowTracking:(BOOL)allowTracking;
 + (void)setAllowMessagePush:(BOOL)bo;
 + (BOOL)isAllowTracking;
@@ -51,7 +50,6 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 + (void)setAdMobNativeLogoPosition:(AdMobAdChoicesPosition)positionType;
 
 /// 设置本地配置信息
-/// 支持 TradPlusAdSplash TradPlusAdRewarded TradPlusAdInterstitial TradPlusAdBanner TradPlusAdNative TradPlusNativeSplash TradPlusNativeBanner
 /// @param configInfo 本地配置信息
 /// @param placementId 广告位ID
 + (void)setLocalConfig:(NSString *)configInfo placementId:(NSString *)placementId;
@@ -73,10 +71,14 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 /// @param placementId 广告位ID
 + (void)clearCacheWithPlacementId:(NSString *)placementId;
 
+//查看用户当前区域
+//isUnknown = YES时表示 未知IP 或 网络请求失败
++ (void)checkCurrentArea:(void (^)(BOOL isUnknown,BOOL isCN,BOOL isCA,BOOL isEU))completionBlock;
+
 ///当前的个性化状态
 @property (nonatomic,readonly)BOOL isOpenPersonalizedAd;
 
-///支持 TradPlusAdSplash TradPlusAdRewarded TradPlusAdInterstitial TradPlusAdBanner TradPlusAdNative TradPlusNativeSplash TradPlusNativeBanner 类型开启关闭定时检查广告过期
+///是否开启定时检查广告过期
 ///yes=允许定时检查 no=关闭定时检查 默认为YES
 @property (nonatomic,assign)BOOL isExpiredAdChecking;
 

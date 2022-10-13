@@ -31,6 +31,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 显示广告
 - (void)show;
 
+///获取三方渠道广告对象
+- (id)getSplashAd;
+
+//用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
+//开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
+@property (nonatomic, strong)NSDictionary *customAdInfo;
+
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly) NSString *unitID;
 
@@ -85,6 +92,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///加载流程全部结束
 - (void)tpSplashAdAllLoaded:(BOOL)success;
+
+//v8.1.0+新增 跳过
+- (void)tpSplashAdSkip:(NSDictionary *)adInfo;
+//v8.1.0+新增 点睛开始
+- (void)tpSplashAdZoomOutViewShow:(NSDictionary *)adInfo;
+//v8.1.0+新增 点睛关闭
+- (void)tpSplashAdZoomOutViewClose:(NSDictionary *)adInfo;
 
 ///以下回调接口已废弃v7.6.0+
 - (void)tpSplashAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpSplashAdBidEnd:error:");

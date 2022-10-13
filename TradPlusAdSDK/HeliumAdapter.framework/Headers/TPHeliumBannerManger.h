@@ -16,8 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)bannerLoaded:(NSDictionary *)bidInfo;
 - (void)bannerLoadWithError:(HeliumError *)error;
 - (void)bannerDidClick;
-- (void)bannerDidShowWithError:(nullable HeliumError *)error;
-- (void)bannerDidClose;
 @end;
 
 @interface TPHeliumBannerManger : NSObject

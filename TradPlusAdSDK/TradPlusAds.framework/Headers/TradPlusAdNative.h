@@ -63,6 +63,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param size 尺寸
 - (void)setTemplateRenderSize:(CGSize)size;
 
+//用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
+//开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
+@property (nonatomic, strong)NSDictionary *customAdInfo;
+
 ///设置模版渲染的布局方式 默认 TPTemplateContentModeScaleToFill
 @property (nonatomic,assign)TPTemplateContentMode templateContentMode;
 

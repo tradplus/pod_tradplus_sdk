@@ -18,12 +18,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (MsEvent *)sharedInstance;
 
+//添加埋点组件
+- (void)addEventControl:(TPEventControl *)eventControl;
+
+//轮询埋点
 - (void)uploadEvent:(MSEventType)evid info:(NSDictionary * _Nullable)info;
+
 - (void)uploadEvent:(MSEventType)evid dicUserInfo:(NSDictionary * _Nullable)dicUserInfo segmentId:(NSString * _Nullable)segmentId bucketId:(NSString * _Nullable)bucketId info:(NSDictionary * _Nullable)info;
 
-- (void)uploadEvent:(MSEventType)evid dicUserInfo:(NSDictionary * _Nullable)dicUserInfo segmentId:(NSString * _Nullable)segmentId bucketId:(NSString * _Nullable)bucketId info:(NSDictionary * _Nullable)info isNewWrapper:(BOOL)isNewWrapper;
+//直传埋点
+- (void)sendEvent:(MSEventType)evid info:(NSDictionary * _Nullable)info callback:(void (^ _Nullable)(NSError *error))callback;
 
-- (void)addEventControl:(TPEventControl *)eventControl;
+- (void)sendEvent:(MSEventType)evid dicUserInfo:(NSDictionary * _Nullable)dicUserInfo segmentId:(NSString * _Nullable)segmentId bucketId:(NSString * _Nullable)bucketId info:(NSDictionary * _Nullable)info callback:(void (^ _Nullable)(NSError *error))callback;
 
 @property (nonatomic, strong) NSString *iso;
 @property (nonatomic, strong) NSString *deviceId;

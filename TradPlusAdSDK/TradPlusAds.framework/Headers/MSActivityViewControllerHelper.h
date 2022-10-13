@@ -21,7 +21,7 @@
  * Initializes the MSActivityViewControllerHelper and stores a weak reference
  * to the supplied delegate.
  *
- * @param delegate
+ * @param delegate helperDelegate
  */
 - (instancetype)initWithDelegate:(id<MSActivityViewControllerHelperDelegate>)delegate;
 

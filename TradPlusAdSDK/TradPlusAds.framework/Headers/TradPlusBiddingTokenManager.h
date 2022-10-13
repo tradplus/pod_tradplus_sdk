@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/TradPlusAdWaterfallItem.h>
 #import <TradPlusAds/TradPlusAdConfModel.h>
+#import <TradPlusAds/TradPlusMutableArray.h>
 
 @class TradPlusUnitManager;
 @interface TradPlusBiddingTokenManager : NSObject
@@ -21,9 +22,9 @@
 
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;
 
-@property (nonatomic,readonly)NSMutableArray <TradPlusAdWaterfallItem *>*finishC2SBiddingArray;
+@property (nonatomic,readonly)TradPlusMutableArray *finishC2SBiddingArray;
+@property (nonatomic,readonly)TradPlusMutableArray *adsourceplacements;
 @property (nonatomic,readonly)NSMutableArray <TradPlusAdWaterfallItem *>*biddingArray;
-@property (nonatomic,readonly)NSMutableArray *adsourceplacements;
 @property (nonatomic,assign)BOOL hasADX;
 
 @property (nonatomic, copy) void (^biddingItemStart)(TradPlusAdWaterfallItem *biddingItem);

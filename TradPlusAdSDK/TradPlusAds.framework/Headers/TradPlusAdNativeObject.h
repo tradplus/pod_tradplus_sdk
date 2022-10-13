@@ -36,6 +36,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)clear;
 
 - (NSArray <UIView *>*)getDrawList;
+
+//用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
+//开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
+@property (nonatomic, strong)NSDictionary *customAdInfo;
+
 ///TP封装的Native资源
 @property (nonatomic,readonly)TradPlusAdRes *res;
 

@@ -61,6 +61,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param subView subView
 - (void)showWithRenderer:(TradPlusNativeRenderer *)renderer subView:(UIView *)subView;
 
+//用于开发者设置透传的自定义数据，SDK将在各回调的adInfo中返回。
+//开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
+@property (nonatomic, strong)NSDictionary *customAdInfo;
+
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly)NSString *unitID;
 

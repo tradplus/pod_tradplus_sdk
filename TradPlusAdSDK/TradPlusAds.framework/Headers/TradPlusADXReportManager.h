@@ -33,6 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
                        error:(nullable NSError *)error;
 
 + (void)reportWithURLArray:(NSArray <NSString *>*)urlArray;
++ (void)reportTPURLArray:(NSArray <NSString *>*)urlArray;
 
 + (nullable NSArray <NSURL *>*)getVideoClickWithResourceData:(TPADXResourceData *)resourceData videoTimeOffset:(NSTimeInterval)videoTimeOffset;
 + (nullable NSArray <NSURL *>*)getEndCardClickWithResourceData:(TPADXResourceData *)resourceData;

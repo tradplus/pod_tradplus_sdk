@@ -23,6 +23,7 @@
 @property (nonatomic,assign)NSInteger expires;
 @property (nonatomic,copy)NSString *adType;
 @property (nonatomic,strong)NSDictionary *rewardedInfo;
+@property (nonatomic,assign)NSInteger code;
 
 @property (nonatomic,assign)NSInteger secType;
 //是否为中国大陆或中国香港

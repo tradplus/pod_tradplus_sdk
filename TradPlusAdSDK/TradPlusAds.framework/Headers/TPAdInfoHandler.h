@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TradPlusAdWaterfallItem.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

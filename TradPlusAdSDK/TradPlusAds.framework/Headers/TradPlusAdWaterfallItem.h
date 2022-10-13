@@ -156,6 +156,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *sceneId;
 
 @property (nonatomic,assign)NSTimeInterval startPlayTime;
+//用户的透传AdInfo
+@property (nonatomic, strong)NSDictionary *customAdInfo;
 //自定义参数
 @property (nonatomic, strong)NSDictionary *dicCustomValue;
 
@@ -164,6 +166,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)BOOL did_start_play;
 @property (nonatomic,assign)BOOL did_close;
 @property (nonatomic,assign)BOOL playAgain_did_click;
+
+@property (nonatomic,assign)NSInteger is_closable;
 
 //extraInfoDictionary key及说明
 //点击去重标记 addClickEvent：0 默认未点击，1 已点击，2 强制增加记录点击。

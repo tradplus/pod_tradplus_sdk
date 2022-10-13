@@ -46,6 +46,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param sceneId 场景ID 没有则设置为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 
+//用于开发者设置透传的自定义数据，SDK将在各回调的adInfo中返回。
+//开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
+@property (nonatomic, strong)NSDictionary *customAdInfo;
+
 @property (nonatomic, readonly) BOOL isAdReady;
 @property (nonatomic, readonly)NSString *unitID;
 
@@ -53,6 +57,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
+
+@property (nonatomic,readonly)BOOL isAutoRefresh;
 @end
 
 @protocol TradPlusADNativeBannerDelegate <NSObject>
