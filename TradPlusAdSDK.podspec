@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusAdSDK"
   spec.version      = "8.3.0"
-  spec.summary      = "A short description of TradPlusAd SDK for iOS."
+  spec.summary      = "TradPlusAd SDK"
   spec.description  = <<-DESC
-            TradPlus SDK 
+            "A short description of TradPlusAd SDK for iOS.
                    DESC
   spec.homepage     = "https://github.com/tradplus/pod_tradplus_sdk"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
