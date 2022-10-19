@@ -11,9 +11,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TPAdInfoHandler : NSObject
-@property (nonatomic, strong) NSDictionary *dicAdInfo;
 
 + (TPAdInfoHandler *)sharedInstance;
+
+@property (nonatomic, strong) NSDictionary *dicAdInfo;
+//是否开启，默认 false 开启
+@property (nonatomic, assign) BOOL close;
 
 - (void)startHandler;
 - (void)stopHandler;
