@@ -22,6 +22,16 @@ NS_ASSUME_NONNULL_BEGIN
 ///是否为自动展示模式 默认 YES
 @property (nonatomic,assign)BOOL autoShow;
 
+/// v8.4.0新增
+/// 指定原生横幅的渲染模版 未设置时SDK会使用默认模版进行渲染
+/// customRenderingViewClass 仅对Waterfall中的原生广告生效 
+@property (nonatomic,strong,nullable)Class customRenderingViewClass;
+
+/// v8.4.0新增
+/// 指定原生横幅的renderer 未设置时SDK会使用默认模版进行渲染
+/// customRenderer 仅对Waterfall中的原生广告生效
+@property (nonatomic,strong,nullable)TradPlusNativeRenderer *customRenderer;
+
 /// 加载广告
 /// @param sceneId 场景ID 没有则设置为nil 用于自动展示模式下
 - (void)loadAdWithSceneId:(nullable NSString *)sceneId;
@@ -29,18 +39,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 展示广告
 /// @param sceneId 场景ID 没有则设置为nil
 - (void)showWithSceneId:(nullable NSString *)sceneId;
-
-/// v8.4.0新增
-/// 指定原生横幅的渲染模版 展示广告
-/// @param renderingViewClass renderingViewClass 仅对Waterfall中的原生广告生效
-/// @param sceneId 场景ID 没有则设置为nil
-- (void)showWithRenderingViewClass:(Class)renderingViewClass sceneId:(nullable NSString *)sceneId;
-
-/// v8.4.0新增
-/// 指定原生横幅的renderer 展示广告 v8.4.0新增
-/// @param renderer 自定义renderer 仅对Waterfall中的原生广告生效
-/// @param sceneId 场景ID 没有则设置为nil
-- (void)showWithRenderer:(TradPlusNativeRenderer *)renderer sceneId:(nullable NSString *)sceneId;
 
 /// 进入广告场景
 /// @param sceneId 场景ID 没有则设置为nil
