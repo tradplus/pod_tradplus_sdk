@@ -19,6 +19,7 @@ typedef enum : NSUInteger {
     TPUnitErrorNoRootViewController = 10010,
     TPUnitErrorNoWindow = 10011,
     TPUnitErrorPostBiddingDataError = 10012,
+    TPUnitErrorWrongAdType= 10013,
     TPUnitErrorLimit = 600004,
     TPUnitErrorNoWaterfall = 600009,
     TPUnitErrorLoadToFast = 600015,

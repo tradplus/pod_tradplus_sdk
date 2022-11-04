@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <TradPlusAds/MsCommon.h>
+#import <TradPlusAds/TradPlusNativeRenderer.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -28,6 +29,18 @@ NS_ASSUME_NONNULL_BEGIN
 /// 展示广告
 /// @param sceneId 场景ID 没有则设置为nil
 - (void)showWithSceneId:(nullable NSString *)sceneId;
+
+/// v8.4.0新增
+/// 指定原生横幅的渲染模版 展示广告
+/// @param renderingViewClass renderingViewClass 仅对Waterfall中的原生广告生效
+/// @param sceneId 场景ID 没有则设置为nil
+- (void)showWithRenderingViewClass:(Class)renderingViewClass sceneId:(nullable NSString *)sceneId;
+
+/// v8.4.0新增
+/// 指定原生横幅的renderer 展示广告 v8.4.0新增
+/// @param renderer 自定义renderer 仅对Waterfall中的原生广告生效
+/// @param sceneId 场景ID 没有则设置为nil
+- (void)showWithRenderer:(TradPlusNativeRenderer *)renderer sceneId:(nullable NSString *)sceneId;
 
 /// 进入广告场景
 /// @param sceneId 场景ID 没有则设置为nil

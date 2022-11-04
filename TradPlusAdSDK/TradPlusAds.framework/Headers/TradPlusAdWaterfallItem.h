@@ -130,6 +130,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)TradPlusAdRes *adRes;
 
 @property (nonatomic,copy)NSString *requestId;
+@property (nonatomic,assign)BOOL isNative;
 //Native 相关属性
 @property (nonatomic,assign)BOOL finishDownload;
 @property (nonatomic,assign)CGSize templateRenderSize;

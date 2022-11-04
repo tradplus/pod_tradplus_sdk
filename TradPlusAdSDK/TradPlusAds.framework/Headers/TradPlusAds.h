@@ -148,3 +148,4 @@
 #import <TradPlusAds/TradPlus+OpenSDK.h>
 #import <TradPlusAds/TradPlusUseTime.h>
 #import <TradPlusAds/TradPlusMutableArray.h>
+#import <TradPlusAds/TradPlusBannerRenderer.h>

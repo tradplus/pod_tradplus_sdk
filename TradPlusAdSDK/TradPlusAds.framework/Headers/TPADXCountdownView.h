@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)clear;
 - (void)countDownStart;
 - (void)countDownStop;
+- (void)finish;
 @property (nonatomic,assign)NSInteger videoTime;
 @property (nonatomic,assign)NSInteger showSkipTime;
 @property (nonatomic,assign)BOOL noShowSkip;

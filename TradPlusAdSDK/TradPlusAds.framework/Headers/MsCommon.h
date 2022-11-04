@@ -220,12 +220,15 @@ typedef enum
     NETWORK_YANDEX   = 50,
     NETWORK_MAX = 51,
     NETWORK_VERVE    = 53,
-    NETWORK_REKLAMUP = 56
+    NETWORK_REKLAMUP = 56,
+    NETWORK_BIGO = 57
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject
 
 + (instancetype)sharedInstance;
+
+@property (nonatomic,assign)BOOL testModeOpen;
 
 + (NSString *)localUUID;
 + (NSString *)getLocalFileFullPath:(NSString *)fileName;
@@ -235,9 +238,7 @@ typedef enum
 + (NSString *)handleAdUnitId:(NSString *)adUnitId;
 + (void)changeCNValue:(id)cnObj;
 
-+ (BOOL)hasMediationHelper;
-+ (void)openMediationHelper;
-+ (BOOL)mediationHelperIsOpening;
++ (void)testModeOpen:(NSString *)open;
 
 + (UIViewController *)getTopRootViewController;
 + (UIWindow *)getTopWindow;

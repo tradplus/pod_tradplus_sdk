@@ -61,4 +61,7 @@
 @property (nonatomic,assign)NSInteger ad_fill_callback;
 
 @property (nonatomic,assign)NSInteger createTime;
+//waterfall是否为空：0否 1是
+@property (nonatomic,assign)NSInteger is_nothing;
+
 @end

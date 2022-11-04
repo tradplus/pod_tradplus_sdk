@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <TradPlusAds/MsCommon.h>
+#import <TradPlusAds/TradPlusAds.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -26,10 +26,32 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable NSDictionary *)getCurrentAdInfo;
 
 ///加载广告
+/////
 - (void)loadAdWithWindow:(UIWindow *)window bottomView:(nullable UIView *)bottomView;
 
 /// 显示广告
 - (void)show;
+
+/// v8.4.0新增
+/// 指定原生开屏的渲染模版 展示广告
+/// @param renderingViewClass renderingViewClass 仅对Waterfall中的原生广告生效
+- (void)showWithRenderingViewClass:(Class)renderingViewClass;
+
+
+/// v8.4.0新增
+/// 指定原生开屏的renderer 展示广告
+/// @param renderer 自定义renderer 仅对Waterfall中的原生广告生效
+- (void)showWithRenderer:(TradPlusNativeRenderer *)renderer;
+
+///v8.4.0新增
+///设置 原生开屏 模版渲染的布局方式 默认 TPTemplateContentModeCenter
+@property (nonatomic,assign)TPTemplateContentMode templateContentMode;
+
+///v8.4.0新增
+/// 设置 原生开屏 模版渲染的尺寸 需要在load之前设置
+/// 默认使用 屏幕最短边正方形size进行渲染
+/// @param size 尺寸
+- (void)setTemplateRenderSize:(CGSize)size;
 
 ///获取三方渠道广告对象
 - (id)getSplashAd;
