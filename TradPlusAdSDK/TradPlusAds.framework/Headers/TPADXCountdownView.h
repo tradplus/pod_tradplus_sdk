@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)BOOL onlyShowClose;
 
 @property (nonatomic, copy) void (^skipAct)(void);
+@property (nonatomic, copy) void (^countDownFinish)(void);
 @property (nonatomic, copy) void (^closeAct)(void);
 @end
 

@@ -92,6 +92,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 //是否服务端奖励回调
 @property (nonatomic,assign)NSInteger is_server_callback;
+//是否强制奖励回调, 0 否 1 是
+@property (nonatomic,assign)NSInteger always_reward;
 
 //是否服务端展示回调
 @property (nonatomic,assign)NSInteger is_server_imp_callback;
@@ -110,6 +112,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)BOOL isC2SBidding;
 @property (nonatomic,copy)NSString *networksdkver;
 @property (nonatomic,copy)NSString *networkECPM;
+//兜底
+@property (nonatomic,assign)BOOL isBottomAd;
 //bidding相关
 @property (nonatomic,assign)BOOL isBidding;
 @property (nonatomic,copy)NSString *biddingValue;

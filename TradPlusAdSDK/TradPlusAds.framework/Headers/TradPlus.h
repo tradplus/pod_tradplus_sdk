@@ -18,6 +18,8 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
     AdMobAdChoicesPositionBottomLeftCorner    ///< Bottom Left Corner.
 };
 
+@protocol TradPlusAdImpressionDelegate;
+
 @interface TradPlus : NSObject
 + (instancetype)sharedInstance;
 
@@ -32,6 +34,8 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 + (void)setCCPADoNotSell:(BOOL)isCCPA;
 
 + (void)setCOPPAIsAgeRestrictedUser:(BOOL)isAgeRestrictedUser;
+///v8.5.0版本新增LGPD设置
++ (void)setLGPDIsConsentEnabled:(BOOL)isConsentEnabled;
 + (void)setDevAllowTracking:(BOOL)allowTracking;
 + (void)setAllowMessagePush:(BOOL)bo;
 + (BOOL)isAllowTracking;
@@ -85,6 +89,16 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 @property (nonatomic, strong) NSString *appId;
 //用户信息自定义 key:{user_id, user_age, user_gender...}
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
+
+//v8.5.0新增，统一展示回调
+@property (nonatomic,weak) id <TradPlusAdImpressionDelegate> impressionDelegate;
+@end
+
+@protocol TradPlusAdImpressionDelegate <NSObject>
+//统一展示回调，开发者可通过此回调获取到各广告位的展示回调信息，方便开发者进行统计。
+//注：此回调不保证在主线程回调。
+- (void)tradPlusAdImpression:(NSDictionary *)adInfo;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -36,6 +36,10 @@
 @property (nonatomic,strong)NSArray *biddingwaterfall;
 @property (nonatomic,strong)NSArray *c2sbiddingwaterfall;
 
+//兜底
+@property (nonatomic,assign)NSInteger bottomWaitTime;
+@property (nonatomic,strong)NSArray *bottomwaterfall;
+
 @property (nonatomic,assign)NSInteger is_skip;
 @property (nonatomic,assign)NSInteger countdown_time;
 @property (nonatomic,assign)NSInteger skip_time;

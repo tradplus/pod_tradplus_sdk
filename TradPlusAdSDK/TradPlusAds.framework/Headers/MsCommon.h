@@ -58,6 +58,7 @@ extern NSString * const gGDPRAppliesStorageKey;
 extern NSString * const gTPCCPAStorageKey;
 extern NSString * const gTPIDFAPermissionKey;
 extern NSString * const gTPCOPPAStorageKey;
+extern NSString * const gTPLGPDStorageKey;
 extern NSString * const gTPATTEnableStorageKey;
 
 extern BOOL gTPCNServer;

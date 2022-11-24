@@ -1,12 +1,15 @@
 
 #import <Foundation/Foundation.h>
-#import <TradPlusAds/TradPlusUnitManager.h>
+#import <TradPlusAds/TradPlusWaterfallManager.h>
+#import <TradPlusAds/TradPlusBottomManager.h>
 #import <TradPlusAds/TradPlusAdWaterfallItem.h>
 #import <TradPlusAds/MsCommon.h>
 
 @interface TradPlusLoadAdOperation : NSOperation
 
-@property (nonatomic, weak)TradPlusUnitManager *tradPlusUnitManager;
+@property (nonatomic, weak)TradPlusWaterfallManager *waterfallManager;
+@property (nonatomic, weak)TradPlusBottomManager *bottomManager;
+@property (nonatomic,weak)TradPlusUnitManager *unitManager;
 @property (nonatomic, copy)void (^AdDidLoadFinish)(TradPlusAdWaterfallItem *item);
 @property (nonatomic, copy)void (^AdLoadFailed)(TradPlusAdWaterfallItem *item,NSInteger errorCode,NSError *error);
 

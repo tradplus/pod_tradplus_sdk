@@ -3,8 +3,8 @@
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/TradPlusAdWaterfallItem.h>
 #import <TradPlusAds/TradPlusAdUnitCache.h>
-#import <TradPlusAds/TradPlusBiddingTokenManager.h>
-#import <TradPlusAds/TradPlusBiddingManager.h>
+#import <TradPlusAds/TradPlusUnitError.h>
+#import <TradPlusAds/TradPlusAdLoadManager.h>
 
 
 @interface TradPlusUnitManager : NSObject
@@ -29,14 +29,27 @@
 - (void)autoLoadShowSuccess;
 - (void)autoLoadShowFail;
 
+///获取最近缓存广告信息 nil = 没有
+- (NSDictionary *)getReadyItemInfo;
 ///获取ready的缓存
 - (void)getReadyItemWithSceneId:(NSString *)sceneId callback:(void (^)(TradPlusAdWaterfallItem *item , NSError *error))callback;
+///获取缓存广告 nil = 没有 获取后会从缓存中移除
+- (TradPlusAdWaterfallItem *)getReadWaterfallItem;
+///缓存清理后需要重新load
+- (void)cacheAdExpired;
+//缓存检测
+- (void)startCheckExpire;
+- (void)stopCheckExpire;
+- (void)checkExpiredAd;
+//清除缓存
+- (void)clearCache;
 
+///全局展示回调
+- (void)adImpression:(NSDictionary *)adInfo;
 ///show 1100
 - (void)showFinsihWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///show 1300
 - (void)showFinish1300WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
-
 ///show Fail 1350 失败
 - (void)showFailWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId error:(NSError *)error;
 ///click
@@ -45,39 +58,54 @@
 - (void)closeEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///1500 回调奖励
 - (void)rewardedEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
-///获取最近缓存广告信息 nil = 没有
-- (NSDictionary *)getReadyItemInfo;
 
+///是否频限
 - (NSError *)checkLimitWithWaterfallItem:(TradPlusAdWaterfallItem *)item;
 
-///获取缓存广告 nil = 没有 获取后会从缓存中移除
-- (TradPlusAdWaterfallItem *)getReadWaterfallItem;
-
-///缓存清理后需要重新load
-- (void)cacheAdExpired;
 ///返回数据封装
 - (NSMutableDictionary *)getCallbackInfoWithItem:(TradPlusAdWaterfallItem *)item;
 - (NSMutableDictionary *)getBaseCallbackInfo;
-///日志上报
-- (void)uploadEvent:(NSInteger)EventType item:(TradPlusAdWaterfallItem *)item errorCode:(NSInteger)errorCode info:(NSDictionary *)info;
-///获取 Waterfall第一个Item
-- (TradPlusAdWaterfallItem *)getNextWaterfallItem;
 
+///日志上报
+- (void)uploadEvent:(MSEventType)EventType errorCode:(NSInteger)errorCode;
+- (void)uploadEvent:(NSInteger)EventType item:(TradPlusAdWaterfallItem *)item errorCode:(NSInteger)errorCode info:(NSDictionary *)info;
+
+///bidding埋点回调
+- (void)biddingItemStart:(TradPlusAdWaterfallItem *)item;
+- (void)biddingItemEnd:(TradPlusAdWaterfallItem *)item errorCode:(NSInteger)errorCode error:(NSError *)error nbr:(NSInteger)nbr;
+- (void)C2SBiddingItemError:(TradPlusAdWaterfallItem *)item errorCode:(NSInteger)errorCode errorStr:(NSString *)errorStr;
+
+//加载埋点及回调
+- (void)startLoadAdWithItem:(TradPlusAdWaterfallItem *)item;
+- (void)callbackWithErrorCode:(TPUnitErrorCode)code;
+
+- (void)speedModeLoaded:(TradPlusAdLoadManager *)adLoadManager;
+- (void)didLoadWithWaterfallItem:(TradPlusAdWaterfallItem *)item noCache:(BOOL)noCache adLoadManager:(TradPlusAdLoadManager *)adLoadManager;
+- (void)bottomAdOneLayerLoad:(TradPlusAdWaterfallItem *)item adLoadManager:(TradPlusAdLoadManager *)adLoadManager isCache:(BOOL)isCache;
+- (void)callbackBottomAdLoaded:(TradPlusAdWaterfallItem *)item adLoadManager:(TradPlusAdLoadManager *)adLoadManager;
+///兜底广告loaded埋点及回调
+- (void)bottomAdLoadedWithItem:(TradPlusAdWaterfallItem *)item adLoadManager:(TradPlusAdLoadManager *)adLoadManager;
+
+- (void)loadFailedWithWaterfallItem:(TradPlusAdWaterfallItem *)item errorCode:(NSInteger)errorCode error:(NSError *)error;
+- (void)allLoadedWithWaterfallSuccess:(BOOL)waterfallSuccess bottomSuccess:(BOOL)bottomSuccess code:(NSInteger)code;
+
+
+///waterfallItem 赋值源级别参数
 - (void)setExtra:(TradPlusAdWaterfallItem *)item;
 
+//bidding通知
+- (void)sendLossWithItem:(TradPlusAdWaterfallItem *)item loadFail:(BOOL)loadFail;
+- (void)sendWinWithItem:(TradPlusAdWaterfallItem *)item;
+- (void)sendImpressionWithItem:(TradPlusAdWaterfallItem *)item;
+
+//加载失败记录相关
 // YES = 通过；NO = 未通过
 - (BOOL)checkLoadFailedHisWithItem:(TradPlusAdWaterfallItem *)item;
+- (void)removeLoadFailedHisWithItem:(TradPlusAdWaterfallItem *)item;
+- (void)saveLoadFailedHisWithItem:(TradPlusAdWaterfallItem *)item;
 
 //服务器奖励
 - (void)tpServerRewardWithItem:(TradPlusAdWaterfallItem *)item callbackInfo:(NSDictionary *)callbackInfo;
-
-//缓存检测
-- (void)startCheckExpire;
-- (void)stopCheckExpire;
-- (void)checkExpiredAd;
-
-//清除缓存
-- (void)clearCache;
 
 //获取三方广告对象
 - (id)getCustomObject;
@@ -96,11 +124,11 @@
 @property (nonatomic, copy) void (^AdStartBidding)(TradPlusAdWaterfallItem *item);
 @property (nonatomic, copy) void (^AdEndBidding)(TradPlusAdWaterfallItem *item, NSError *error);
 
+@property (nonatomic,strong)TradPlusMutableArray *adLoadManagerArray;
+
 @property (nonatomic,strong)NSDate *startLoadTime;
 @property (nonatomic,readonly)NSString *placementID;
 @property (nonatomic,readonly)TradPlusAdUnitCache *adCache;
-@property (nonatomic,readonly)TradPlusBiddingManager *biddingManager;
-@property (nonatomic,readonly)TradPlusBiddingTokenManager *biddingTokenManager;
 @property (nonatomic,readonly)TradPlusAdConfModel *confModel;
 
 //Native 相关属性
@@ -121,6 +149,5 @@
 @property (nonatomic,assign)NSInteger customCacheCount;
 @property (nonatomic,readonly)NSInteger readyAdCount;
 
-///加载模式
-@property (nonatomic,assign)TPLoadMode loadMode;
+@property (nonatomic,assign)BOOL isReady;
 @end

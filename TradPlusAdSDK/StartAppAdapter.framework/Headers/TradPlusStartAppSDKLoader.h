@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TradPlusStartAppSDKLoader : NSObject
 
 + (TradPlusStartAppSDKLoader *)sharedInstance;
+- (void)setTestMode;
 - (void)initWithAppID:(NSString *)appID
              delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
 

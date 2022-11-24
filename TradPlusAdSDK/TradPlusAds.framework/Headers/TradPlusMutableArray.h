@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TradPlusMutableArray : NSObject
 
 - (void)addObject:(id)anObject;
+- (void)removeObject:(id)anObject;
 
 @property (nonatomic,strong)NSMutableArray *array;
 @end

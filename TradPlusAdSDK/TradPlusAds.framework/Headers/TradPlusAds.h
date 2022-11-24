@@ -149,3 +149,6 @@
 #import <TradPlusAds/TradPlusUseTime.h>
 #import <TradPlusAds/TradPlusMutableArray.h>
 #import <TradPlusAds/TradPlusBannerRenderer.h>
+#import <TradPlusAds/TradPlusBottomManager.h>
+#import <TradPlusAds/TradPlusAdLoadManager.h>
+#import <TradPlusAds/TradPlusWaterfallManager.h>
