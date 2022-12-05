@@ -64,6 +64,10 @@ extern NSString * const gTPATTEnableStorageKey;
 extern BOOL gTPCNServer;
 
 extern NSString * const gAppAllowUploadUseTime;
+extern NSInteger gTPHttpTimeoutCross;
+extern NSInteger gTPHttpTimeoutAdx;
+extern NSInteger gTPHttpTimeoutEvent;
+extern NSInteger gTPHttpTimeoutConf;
 
 typedef enum : NSUInteger {
     TPTemplateContentModeScaleToFill,//自动充满subview默认

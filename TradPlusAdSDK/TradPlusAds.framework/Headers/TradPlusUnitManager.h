@@ -86,7 +86,8 @@
 ///兜底广告loaded埋点及回调
 - (void)bottomAdLoadedWithItem:(TradPlusAdWaterfallItem *)item adLoadManager:(TradPlusAdLoadManager *)adLoadManager;
 
-- (void)loadFailedWithWaterfallItem:(TradPlusAdWaterfallItem *)item errorCode:(NSInteger)errorCode error:(NSError *)error;
+- (void)loadFailedWithWaterfallItem:(TradPlusAdWaterfallItem *)item errorCode:(NSInteger)errorCode error:(NSError *)error netStatus:(NSString *)netStatus;
+
 - (void)allLoadedWithWaterfallSuccess:(BOOL)waterfallSuccess bottomSuccess:(BOOL)bottomSuccess code:(NSInteger)code;
 
 

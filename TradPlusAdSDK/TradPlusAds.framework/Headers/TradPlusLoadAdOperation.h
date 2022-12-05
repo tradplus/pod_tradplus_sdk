@@ -11,7 +11,7 @@
 @property (nonatomic, weak)TradPlusBottomManager *bottomManager;
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;
 @property (nonatomic, copy)void (^AdDidLoadFinish)(TradPlusAdWaterfallItem *item);
-@property (nonatomic, copy)void (^AdLoadFailed)(TradPlusAdWaterfallItem *item,NSInteger errorCode,NSError *error);
+@property (nonatomic, copy)void (^AdLoadFailed)(TradPlusAdWaterfallItem *item,NSInteger errorCode,NSError *error,NSString *netStatus);
 
 ///0=未启动 1=loading 2=失败 3=成功
 @property (nonatomic,readonly)TPAdOperationStatus status;
