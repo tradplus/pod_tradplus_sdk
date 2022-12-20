@@ -1,4 +1,3 @@
-#import <BigoAdapter/MSGoogleBigoAdapterConfig.h>
 #import <BigoAdapter/TradPlusBigoBannerAdapter.h>
 #import <BigoAdapter/TradPlusBigoInterstitialAdapter.h>
 #import <BigoAdapter/TradPlusBigoNativeAdapter.h>

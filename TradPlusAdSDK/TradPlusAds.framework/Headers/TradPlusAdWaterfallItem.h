@@ -87,6 +87,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger secType;
 ///广告类型
 @property (nonatomic,copy)NSString *adType;
+
+@property (nonatomic,assign)NSInteger placement_ad_type;
 ///激励视频的奖励信息
 @property (nonatomic,strong)NSDictionary *rewardedInfo;
 

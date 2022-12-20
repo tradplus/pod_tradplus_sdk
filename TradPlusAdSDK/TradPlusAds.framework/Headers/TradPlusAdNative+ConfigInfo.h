@@ -12,6 +12,7 @@
 
 - (void)refresh;
 - (void)closeEvent;
+- (void)setAdUnitID:(NSString *)adUnitID isAutoLoad:(BOOL)isAutoLoad;
 @property (nonatomic,readonly)BOOL isSkip;
 @property (nonatomic,readonly)NSInteger countdownTime;
 @property (nonatomic,readonly)NSInteger skipTime;

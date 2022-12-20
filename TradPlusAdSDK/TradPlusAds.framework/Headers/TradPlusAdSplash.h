@@ -100,6 +100,10 @@ NS_ASSUME_NONNULL_BEGIN
 ///v7.6.0+新增。替代原回调接口：tpSplashAdLoadStart:(NSDictionary *)adInfo;
 - (void)tpSplashAdOneLayerStartLoad:(NSDictionary *)adInfo;
 
+///v8.7.0+新增
+///调用load之后如果收到此回调，说明广告位仍处于加载状态，无法触发新的一轮广告加载。
+- (void)tpSplashAdIsLoading:(NSDictionary *)adInfo;
+
 ///bidding开始
 - (void)tpSplashAdBidStart:(NSDictionary *)adInfo;
 

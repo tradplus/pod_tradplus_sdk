@@ -79,6 +79,9 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 //isUnknown = YES时表示 未知IP 或 网络请求失败
 + (void)checkCurrentArea:(void (^)(BOOL isUnknown,BOOL isCN,BOOL isCA,BOOL isEU))completionBlock;
 
+///v8.7.0新增，设置参数
++ (void)setSettingDataParam:(NSDictionary *)dataParam;
+
 ///当前的个性化状态
 @property (nonatomic,readonly)BOOL isOpenPersonalizedAd;
 
@@ -89,6 +92,7 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 @property (nonatomic, strong) NSString *appId;
 //用户信息自定义 key:{user_id, user_age, user_gender...}
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
+@property (nonatomic, strong) NSDictionary *settingDataParam;
 
 //v8.5.0新增，统一展示回调
 @property (nonatomic,weak) id <TradPlusAdImpressionDelegate> impressionDelegate;

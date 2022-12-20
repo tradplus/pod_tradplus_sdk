@@ -20,15 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /// 设置广告位ID
-/// @param adUnitID  广告位ID 默认开启自动加载模式
+/// @param adUnitID  广告位ID
 - (void)setAdUnitID:(NSString *)adUnitID;
-
-
-///  设置广告位ID
-/// @param adUnitID 广告位ID
-/// @param isAutoLoad  是否开启自动加载模式
-- (void)setAdUnitID:(NSString *)adUnitID isAutoLoad:(BOOL)isAutoLoad;
-
 
 /// 加载广告
 - (void)loadAd;
@@ -121,6 +114,10 @@ NS_ASSUME_NONNULL_BEGIN
 ///当每个广告源开始加载时会都会回调一次。
 ///v7.6.0+新增。替代原回调接口：tpNativeAdLoadStart:(NSDictionary *)adInfo;
 - (void)tpNativeAdOneLayerStartLoad:(NSDictionary *)adInfo;
+
+///v8.7.0+新增
+///调用load之后如果收到此回调，说明广告位仍处于加载状态，无法触发新的一轮广告加载。
+- (void)tpNativeAdIsLoading:(NSDictionary *)adInfo;
 
 ///AD被关闭
 - (void)tpNativeAdClose:(NSDictionary *)adInfo;

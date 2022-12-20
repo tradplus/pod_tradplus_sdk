@@ -8,13 +8,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TradPlusAdOfferwall : NSObject
 
-/// 设置广告位ID 默认开启自动加载模式
+/// 设置广告位ID
 - (void)setAdUnitID:(NSString *)adUnitID;
-
-///  设置广告位ID
-/// @param adUnitID 广告位ID
-/// @param isAutoLoad  是否开启自动加载模式
-- (void)setAdUnitID:(NSString *)adUnitID isAutoLoad:(BOOL)isAutoLoad;
 
 ///返回下一个Ready的AD信息 无广告时返回nil
 - (nullable NSDictionary *)getReadyAdInfo;
@@ -111,6 +106,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
 - (void)tpOfferwallAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
+
+///v8.7.0+新增
+///调用load之后如果收到此回调，说明广告位仍处于加载状态，无法触发新的一轮广告加载。
+- (void)tpOfferwallAdIsLoading:(NSDictionary *)adInfo;
 
 ///加载流程全部结束
 - (void)tpOfferwallAdAllLoaded:(BOOL)success;

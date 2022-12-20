@@ -226,7 +226,8 @@ typedef enum
     NETWORK_MAX = 51,
     NETWORK_VERVE    = 53,
     NETWORK_REKLAMUP = 56,
-    NETWORK_BIGO = 57
+    NETWORK_BIGO = 57,
+    NETWORK_BEIZI = 58
 } MSThirdNetwork;
 
 @interface MsCommon : NSObject
