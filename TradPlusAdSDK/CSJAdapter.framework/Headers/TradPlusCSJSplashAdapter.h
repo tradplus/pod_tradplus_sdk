@@ -1,5 +1,5 @@
 //
-//  TradPlusPangleSplashAdapter.h
+//  TradPlusCSJSplashAdapter.h
 //  fluteSDKSample
 //
 //  Created by xuejun on 2021/9/14.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TradPlusPangleSplashAdapter : TradPlusBaseAdapter
+@interface TradPlusCSJSplashAdapter : TradPlusBaseAdapter
 
 @end
 

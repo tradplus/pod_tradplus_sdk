@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadWithAdm:(NSString *)adm;
 - (void)stopCheckVisible;
 
+@property (nonatomic,assign) BOOL checkVisible;
+@property (nonatomic,assign) NSInteger minAreaRatio;
+@property (nonatomic,assign) NSInteger minDuration;
 @property (nonatomic, copy) void (^loadFinishAct)(void);
 @property (nonatomic, copy) void (^loadFailAct)(NSError *error);
 @property (nonatomic, copy) void (^clickAct)(BOOL canOpen);

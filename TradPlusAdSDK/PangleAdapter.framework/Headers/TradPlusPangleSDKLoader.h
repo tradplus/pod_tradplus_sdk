@@ -19,7 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)getNotificationStr;
 + (NSString *)getSDKVersion;
 + (NSString *)getCurrentVersion;
-- (void)setPersonalizedAd;
 - (void)setIcon:(UIImage *)image;
 
 @property (nonatomic,assign)BOOL didInit;
