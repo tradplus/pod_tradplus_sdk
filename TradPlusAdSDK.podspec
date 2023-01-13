@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusAdSDK"
-  spec.version      = "8.8.0"
+  spec.version      = "8.8.10"
   spec.summary      = "TradPlusAd SDK"
   spec.description  = <<-DESC
             "A short description of TradPlusAd SDK for iOS.
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   
   spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC']}
   spec.libraries = 'c++', 'z', 'sqlite3', 'xml2', 'resolv'
-  valid_archs = ['i386', 'armv7', 'armv7s', 'x86_64', 'arm64']
+  valid_archs = ['x86_64', 'arm64']
   spec.default_subspecs = 'TradPlusAds'
 
   spec.subspec 'TradPlusAds' do |ss|
