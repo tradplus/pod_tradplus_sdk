@@ -1,0 +1,6 @@
+framework module TPYandexAdapter {
+  umbrella header "TPYandexAdapter.h"
+
+  export *
+  module * { export * }
+}

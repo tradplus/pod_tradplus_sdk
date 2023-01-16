@@ -1,6 +1,0 @@
-framework module BeiziAdapter {
-  umbrella header "BeiziAdapter.h"
-
-  export *
-  module * { export * }
-}

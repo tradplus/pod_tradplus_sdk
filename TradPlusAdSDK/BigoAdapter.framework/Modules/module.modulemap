@@ -1,6 +1,0 @@
-framework module BigoAdapter {
-  umbrella header "BigoAdapter.h"
-
-  export *
-  module * { export * }
-}

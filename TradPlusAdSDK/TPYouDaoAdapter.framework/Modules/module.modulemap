@@ -1,0 +1,6 @@
+framework module TPYouDaoAdapter {
+  umbrella header "TPYouDaoAdapter.h"
+
+  export *
+  module * { export * }
+}

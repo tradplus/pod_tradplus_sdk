@@ -1,6 +1,0 @@
-framework module HeliumAdapter {
-  umbrella header "HeliumAdapter.h"
-
-  export *
-  module * { export * }
-}

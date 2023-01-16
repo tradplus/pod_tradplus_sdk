@@ -1,0 +1,6 @@
+framework module TPHeliumAdapter {
+  umbrella header "TPHeliumAdapter.h"
+
+  export *
+  module * { export * }
+}
