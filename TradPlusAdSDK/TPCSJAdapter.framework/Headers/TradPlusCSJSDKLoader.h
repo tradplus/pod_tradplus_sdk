@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (TradPlusCSJSDKLoader *)sharedInstance;
 - (void)initWithAppID:(NSString *)appID
                  delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
+- (void)setAllowModifyAudioSessionSettingWithExtraInfo:(NSDictionary *)extraInfo;
 + (NSString *)getNotificationStr;
 + (NSString *)getSDKVersion;
 + (NSString *)getCurrentVersion;

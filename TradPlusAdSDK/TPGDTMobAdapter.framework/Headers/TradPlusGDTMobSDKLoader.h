@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (TradPlusGDTMobSDKLoader *)sharedInstance;
 - (void)initWithAppID:(NSString *)appID
              delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
+- (void)setAudioSessionSettingWithExtraInfo:(NSDictionary *)extraInfo;
 - (void)setPersonalizedAd;
 
 @property (nonatomic,assign)BOOL didInit;
