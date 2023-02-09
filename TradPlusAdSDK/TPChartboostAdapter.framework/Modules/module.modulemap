@@ -1,6 +1,0 @@
-framework module TPChartboostAdapter {
-  umbrella header "TPChartboostAdapter.h"
-
-  export *
-  module * { export * }
-}

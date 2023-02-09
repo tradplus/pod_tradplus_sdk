@@ -1,6 +1,0 @@
-framework module TPFacebookAdapter {
-  umbrella header "TPFacebookAdapter.h"
-
-  export *
-  module * { export * }
-}

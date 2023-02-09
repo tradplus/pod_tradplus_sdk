@@ -1,9 +1,0 @@
-#import <IronSourceAdapter/TPIronSourceConstants.h>
-#import <IronSourceAdapter/TPIronSourceInterstitialDelegate.h>
-#import <IronSourceAdapter/TPIronSourceRewardedVideoDelegate.h>
-#import <IronSourceAdapter/TPIronSourceManager.h>
-#import <IronSourceAdapter/TPIronSourceUtils.h>
-#import <IronSourceAdapter/TradPlusIronSourceInterstitialAdapter.h>
-#import <IronSourceAdapter/TradPlusIronSourceRewardedAdapter.h>
-#import <IronSourceAdapter/TradPlusIronSourceSDKLoader.h>
-#import <IronSourceAdapter/TPIronSourceAdapterBaseInfo.h>

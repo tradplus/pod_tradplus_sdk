@@ -1,6 +1,0 @@
-framework module TPKidozAdapter {
-  umbrella header "TPKidozAdapter.h"
-
-  export *
-  module * { export * }
-}

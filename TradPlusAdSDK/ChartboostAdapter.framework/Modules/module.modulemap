@@ -1,0 +1,6 @@
+framework module ChartboostAdapter {
+  umbrella header "ChartboostAdapter.h"
+
+  export *
+  module * { export * }
+}

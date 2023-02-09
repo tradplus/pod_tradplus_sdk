@@ -1,6 +1,0 @@
-framework module TPMyTargetAdapter {
-  umbrella header "TPMyTargetAdapter.h"
-
-  export *
-  module * { export * }
-}

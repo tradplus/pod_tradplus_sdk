@@ -1,6 +1,0 @@
-framework module TPBaiduAdapter {
-  umbrella header "TPBaiduAdapter.h"
-
-  export *
-  module * { export * }
-}

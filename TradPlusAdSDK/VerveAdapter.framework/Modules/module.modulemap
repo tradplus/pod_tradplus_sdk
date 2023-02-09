@@ -1,0 +1,6 @@
+framework module VerveAdapter {
+  umbrella header "VerveAdapter.h"
+
+  export *
+  module * { export * }
+}

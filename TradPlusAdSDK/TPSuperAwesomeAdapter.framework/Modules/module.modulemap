@@ -1,6 +1,0 @@
-framework module TPSuperAwesomeAdapter {
-  umbrella header "TPSuperAwesomeAdapter.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module TPKuaiShouAdapter {
-  umbrella header "TPKuaiShouAdapter.h"
-
-  export *
-  module * { export * }
-}

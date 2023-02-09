@@ -1,0 +1,6 @@
+framework module FyberAdapter {
+  umbrella header "FyberAdapter.h"
+
+  export *
+  module * { export * }
+}

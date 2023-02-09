@@ -1,6 +1,0 @@
-framework module TPAppLovinAdapter {
-  umbrella header "TPAppLovinAdapter.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module TPMintegralAdapter {
-  umbrella header "TPMintegralAdapter.h"
-
-  export *
-  module * { export * }
-}

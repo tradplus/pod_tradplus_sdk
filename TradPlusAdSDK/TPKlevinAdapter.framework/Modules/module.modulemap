@@ -1,6 +1,0 @@
-framework module TPKlevinAdapter {
-  umbrella header "TPKlevinAdapter.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module TPIronSourceAdapter {
-  umbrella header "TPIronSourceAdapter.h"
-
-  export *
-  module * { export * }
-}

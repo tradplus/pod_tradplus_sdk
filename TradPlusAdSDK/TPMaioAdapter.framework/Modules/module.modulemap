@@ -1,6 +1,0 @@
-framework module TPMaioAdapter {
-  umbrella header "TPMaioAdapter.h"
-
-  export *
-  module * { export * }
-}

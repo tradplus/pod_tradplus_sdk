@@ -1,6 +1,0 @@
-framework module TPSigmobAdapter {
-  umbrella header "TPSigmobAdapter.h"
-
-  export *
-  module * { export * }
-}

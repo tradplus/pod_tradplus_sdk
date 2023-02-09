@@ -1,6 +1,0 @@
-framework module TPSmaatoAdapter {
-  umbrella header "TPSmaatoAdapter.h"
-
-  export *
-  module * { export * }
-}

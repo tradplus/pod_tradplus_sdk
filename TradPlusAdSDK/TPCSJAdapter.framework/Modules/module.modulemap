@@ -1,6 +1,0 @@
-framework module TPCSJAdapter {
-  umbrella header "TPCSJAdapter.h"
-
-  export *
-  module * { export * }
-}

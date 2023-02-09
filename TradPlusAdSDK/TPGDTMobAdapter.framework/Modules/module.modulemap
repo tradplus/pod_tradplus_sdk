@@ -1,6 +1,0 @@
-framework module TPGDTMobAdapter {
-  umbrella header "TPGDTMobAdapter.h"
-
-  export *
-  module * { export * }
-}

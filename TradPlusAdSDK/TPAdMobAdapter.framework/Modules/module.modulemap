@@ -1,6 +1,0 @@
-framework module TPAdMobAdapter {
-  umbrella header "TPAdMobAdapter.h"
-
-  export *
-  module * { export * }
-}

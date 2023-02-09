@@ -1,6 +1,0 @@
-framework module TPUnityAdapter {
-  umbrella header "TPUnityAdapter.h"
-
-  export *
-  module * { export * }
-}
