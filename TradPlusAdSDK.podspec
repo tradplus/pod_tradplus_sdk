@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   
   spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC']}
   spec.libraries = 'c++', 'z', 'sqlite3', 'xml2', 'resolv'
-  valid_archs = ['x86_64','armv7','arm64']
+  valid_archs = ['i386', 'armv7', 'armv7s', 'x86_64', 'arm64']
   spec.default_subspecs = 'TradPlusAds'
 
   spec.subspec 'TradPlusAds' do |ss|
@@ -28,127 +28,127 @@ Pod::Spec.new do |spec|
   spec.subspec 'AdMobAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPAdMobAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/AdMobAdapter.framework'
   end
   
   spec.subspec 'FacebookAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPFacebookAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/FacebookAdapter.framework'
   end
    
   spec.subspec 'AdColonyAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPAdColonyAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/AdColonyAdapter.framework'
   end
    
   spec.subspec 'AppLovinAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPAppLovinAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/AppLovinAdapter.framework'
   end
    
   spec.subspec 'GDTMobAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPGDTMobAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/GDTMobAdapter.framework'
   end
    
   spec.subspec 'IronSourceAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPIronSourceAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/IronSourceAdapter.framework'
   end
    
   spec.subspec 'KuaiShouAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPKuaiShouAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/KuaiShouAdapter.framework'
   end
    
   spec.subspec 'PangleAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPPangleAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/PangleAdapter.framework'
   end
    
   spec.subspec 'SigmobAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPSigmobAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/SigmobAdapter.framework'
   end
    
   spec.subspec 'TapjoyAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPTapjoyAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/TapjoyAdapter.framework'
   end
    
   spec.subspec 'UnityAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPUnityAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/UnityAdapter.framework'
   end
    
   spec.subspec 'VungleAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPVungleAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/VungleAdapter.framework'
   end
    
   spec.subspec 'YouDaoAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPYouDaoAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/YouDaoAdapter.framework'
   end   
    
   spec.subspec 'InMobiAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPInMobiAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/InMobiAdapter.framework'
   end   
       
   spec.subspec 'MintegralAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPMintegralAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/MintegralAdapter.framework'
   end   
    
   spec.subspec 'SmaatoAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPSmaatoAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/SmaatoAdapter.framework'
   end   
    
   spec.subspec 'MaioAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPMaioAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/MaioAdapter.framework'
   end   
    
   spec.subspec 'MyTargetAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPMyTargetAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/MyTargetAdapter.framework'
   end   
    
   spec.subspec 'KidozAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPKidozAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/KidozAdapter.framework'
   end   
    
   spec.subspec 'KlevinAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPKlevinAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/KlevinAdapter.framework'
   end   
    
   spec.subspec 'StartAppAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPStartAppAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/StartAppAdapter.framework'
   end
 
   spec.subspec 'TPCrossAdapter' do |ss|
@@ -160,66 +160,66 @@ Pod::Spec.new do |spec|
   spec.subspec 'ChartboostAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPChartboostAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/ChartboostAdapter.framework'
   end
 
   spec.subspec 'FyberAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPFyberAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/FyberAdapter.framework'
   end
 
   spec.subspec 'SuperAwesomeAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPSuperAwesomeAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/SuperAwesomeAdapter.framework'
   end
 
   spec.subspec 'BaiduAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPBaiduAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/BaiduAdapter.framework'
   end
 
   spec.subspec 'OguryAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPOguryAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/OguryAdapter.framework'
   end
   
   spec.subspec 'VerveAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPVerveAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/VerveAdapter.framework'
   end
 
   spec.subspec 'YandexAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPYandexAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/YandexAdapter.framework'
   end
 
   spec.subspec 'HeliumAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPHeliumAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/HeliumAdapter.framework'
   end
 
   spec.subspec 'BigoAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPBigoAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/BigoAdapter.framework'
   end
 
   spec.subspec 'CSJAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPCSJAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/CSJAdapter.framework'
   end
 
   spec.subspec 'BeiziAdapter' do |ss|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPBeiziAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/BeiziAdapter.framework'
   end
 end
