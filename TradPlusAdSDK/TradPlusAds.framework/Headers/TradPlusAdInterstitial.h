@@ -25,6 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///返回当前显示的AD信息
 - (nullable NSDictionary *)getCurrentAdInfo;
 
+///获取三方渠道广告对象
+- (nullable id)getInterstitialAd;
+
 ///加载广告
 - (void)loadAd;
 
@@ -41,9 +44,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 进入广告场景
 /// @param sceneId 场景ID 可以为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
-
-///获取三方渠道广告对象
-- (id)getInterstitialAd;
 
 //用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
 //开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
@@ -97,7 +97,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpInterstitialAdBidStart:(NSDictionary *)adInfo;
 
 ///bidding结束 error = nil 表示成功
-- (void)tpInterstitialAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
+- (void)tpInterstitialAdBidEnd:(NSDictionary *)adInfo error:(nullable NSError *)error;
 
 ///当每个广告源加载成功后会都会回调一次。
 - (void)tpInterstitialAdOneLayerLoaded:(NSDictionary *)adInfo;

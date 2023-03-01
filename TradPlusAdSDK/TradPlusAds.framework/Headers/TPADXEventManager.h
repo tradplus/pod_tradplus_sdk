@@ -10,8 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef enum
-{
+typedef enum : NSUInteger {
     EV_ADX_INIT_SDK    = 5100,
     EV_ADX_LOAD_START  = 5700,
     EV_ADX_LOAD_END    = 5800,

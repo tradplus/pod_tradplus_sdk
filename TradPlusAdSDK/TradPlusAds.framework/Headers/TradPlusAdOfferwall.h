@@ -85,13 +85,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpOfferwallSetUserIdFinish:(NSError *)error;
 
 ///用户当前积分墙积分数量
-- (void)tpOfferwallGetCurrencyBalance:(NSDictionary *)response error:(NSError *)error;
+- (void)tpOfferwallGetCurrencyBalance:(NSDictionary *)response error:(nullable NSError *)error;
 
 //扣除用户积分墙积分回调
-- (void)tpOfferwallSpendCurrency:(NSDictionary *)response error:(NSError *)error;
+- (void)tpOfferwallSpendCurrency:(NSDictionary *)response error:(nullable NSError *)error;
 
 //添加用户积分墙积分回调
-- (void)tpOfferwallAwardCurrency:(NSDictionary *)response error:(NSError *)error;
+- (void)tpOfferwallAwardCurrency:(NSDictionary *)response error:(nullable NSError *)error;
 
 @optional
 

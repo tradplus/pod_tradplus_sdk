@@ -1,0 +1,6 @@
+framework module TPTapjoyAdapter {
+  umbrella header "TPTapjoyAdapter.h"
+
+  export *
+  module * { export * }
+}

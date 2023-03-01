@@ -91,7 +91,13 @@
 #import <TradPlusAds/TradPlusADXCacheManager.h>
 #import <TradPlusAds/TradPlusADXInterstitial.h>
 #import <TradPlusAds/TradPlusADXInterstitialAdapter.h>
+#import <TradPlusAds/TradPlusADXSplashAdapter.h>
+#import <TradPlusAds/TradPlusAdxNativeBannerView.h>
+#import <TradPlusAds/TradPlusAdxMRECView.h>
+#import <TradPlusAds/TradPlusAdxBaseView.h>
+#import <TradPlusAds/TradPlusAdxNativeSplashView.h>
 #import <TradPlusAds/TradPlusADXNative.h>
+#import <TradPlusAds/TradPlusADXSplash.h>
 #import <TradPlusAds/TradPlusADXNativeAdapter.h>
 #import <TradPlusAds/TradPlusADXReportManager.h>
 #import <TradPlusAds/TradPlusADXRewarded.h>
@@ -138,6 +144,8 @@
 #import <TradPlusAds/TradPlusNativeSplashTemplate.h>
 #import <TradPlusAds/TradPlusNativeSplashViewController.h>
 #import <TradPlusAds/TradPlusAdOfferwall.h>
+#import <TradPlusAds/TradPlusAdMediaVideo.h>
+#import <TradPlusAds/TradPlusMediaVideoAdObject.h>
 #import <TradPlusAds/TradPlusReportTask.h>
 #import <TradPlusAds/TradPlusUnitError.h>
 #import <TradPlusAds/TradPlusUnitManager.h>

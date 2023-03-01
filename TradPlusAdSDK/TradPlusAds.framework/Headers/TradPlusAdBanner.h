@@ -54,7 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable NSDictionary *)getCurrentAdInfo;
 
 ///获取三方渠道广告对象
-- (id)getBannerAd;
+- (nullable id)getBannerAd;
 
 //用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
 //开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
@@ -111,7 +111,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpBannerAdBidStart:(NSDictionary *)adInfo;
 
 ///bidding结束 error = nil 表示成功
-- (void)tpBannerAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
+- (void)tpBannerAdBidEnd:(NSDictionary *)adInfo error:(nullable NSError *)error;
 
 ///当每个广告源加载成功后会都会回调一次。
 - (void)tpBannerAdOneLayerLoaded:(NSDictionary *)adInfo;

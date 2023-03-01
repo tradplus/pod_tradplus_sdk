@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TPADXFullScreenViewController : UIViewController
 
+@property (nonatomic,assign)BOOL isSplash;
+@property (nonatomic,assign)BOOL isNative;
 @property (nonatomic,weak)TPADXResourceData *resourceData;
 @property (nonatomic,assign)UIInterfaceOrientationMask orientations;
 @property (nonatomic,assign)UIInterfaceOrientation presentationOrientation;

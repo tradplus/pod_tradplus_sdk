@@ -99,7 +99,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpNativeBannerAdBidStart:(NSDictionary *)adInfo;
 
 ///bidding结束 error = nil 表示成功
-- (void)tpNativeBannerAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
+- (void)tpNativeBannerAdBidEnd:(NSDictionary *)adInfo error:(nullable NSError *)error;
 
 ///当每个广告源加载成功后会都会回调一次。
 - (void)tpNativeBannerAdOneLayerLoaded:(NSDictionary *)adInfo;

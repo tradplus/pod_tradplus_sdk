@@ -10,11 +10,26 @@
 #import <TradPlusAds/TPADXVASTResponse.h>
 #import <TradPlusAds/TPADXWebView.h>
 
+@class TradPlusADXBase;
+@class TPADXNativeData;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TPADXResourceData : NSObject
 
 - (instancetype)initWithPayload:(NSDictionary *)payload;
+
+- (void)loadRewardedResourceWithADXBase:(TradPlusADXBase *)base;
+- (void)loadInterstitialResourceWithADXBase:(TradPlusADXBase *)base;
+- (void)loadNativeResourceWithADXBase:(TradPlusADXBase *)base;
+- (void)loadNativeBannerResourceWithADXBase:(TradPlusADXBase *)base adSize:(CGSize)adSize;
+- (void)loadNativeSplashResourceWithADXBase:(TradPlusADXBase *)base;
+- (void)loadInterstitialSplashResourceWithADXBase:(TradPlusADXBase *)base;
+
+@property (nonatomic, copy) void (^loadFailedAct)(NSError *error);
+@property (nonatomic, copy) void (^loadFinishAct)(void);
+
+@property (nonatomic,assign)BOOL isMREC;
+@property (nonatomic,strong)TPADXNativeData *nativeData;
 
 @property (nonatomic,readonly) NSString *adm;
 @property (nonatomic,assign) NSInteger exp;
@@ -30,6 +45,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger segment_id;
 @property (nonatomic,assign)NSInteger asp_id;
 @property (nonatomic,assign)NSInteger dsp_account_id;
+//1 原生 ；2 插屏; 5 激励视频 0默认不处理
+@property (nonatomic,assign)NSInteger dsp_ad_type;
 
 @property (nonatomic,strong)TPADXVASTResponse *VASTResponse;
 @property (nonatomic,copy)NSString *videoRemoteURL;

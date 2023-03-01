@@ -25,6 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///返回当前显示的AD信息
 - (nullable NSDictionary *)getCurrentAdInfo;
 
+///获取三方渠道广告对象
+- (nullable id)getSplashAd;
+
 ///加载广告
 /////
 - (void)loadAdWithWindow:(UIWindow *)window bottomView:(nullable UIView *)bottomView;
@@ -52,9 +55,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 默认使用 屏幕最短边正方形size进行渲染
 /// @param size 尺寸
 - (void)setTemplateRenderSize:(CGSize)size;
-
-///获取三方渠道广告对象
-- (id)getSplashAd;
 
 //用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
 //开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
@@ -108,7 +108,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpSplashAdBidStart:(NSDictionary *)adInfo;
 
 ///bidding结束 error = nil 表示成功
-- (void)tpSplashAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
+- (void)tpSplashAdBidEnd:(NSDictionary *)adInfo error:(nullable NSError *)error;
 
 ///当每个广告源加载成功后会都会回调一次。
 - (void)tpSplashAdOneLayerLoaded:(NSDictionary *)adInfo;

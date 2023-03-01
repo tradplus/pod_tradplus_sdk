@@ -23,7 +23,7 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 @interface TradPlus : NSObject
 + (instancetype)sharedInstance;
 
-+ (void)initSDK:(NSString *)appId completionBlock:(void (^)(NSError *error))completionBlock;
++ (void)initSDK:(NSString *)appId completionBlock:(void (^)(NSError* __nullable error))completionBlock;
 + (NSString *)getVersion;
 + (void)setLogLevel:(MSLogLevel)level;
 
@@ -78,9 +78,6 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 //查看用户当前区域
 //isUnknown = YES时表示 未知IP 或 网络请求失败
 + (void)checkCurrentArea:(void (^)(BOOL isUnknown,BOOL isCN,BOOL isCA,BOOL isEU))completionBlock;
-
-///v8.7.0新增，设置参数
-+ (void)setSettingDataParam:(NSDictionary *)dataParam;
 
 ///当前的个性化状态
 @property (nonatomic,readonly)BOOL isOpenPersonalizedAd;

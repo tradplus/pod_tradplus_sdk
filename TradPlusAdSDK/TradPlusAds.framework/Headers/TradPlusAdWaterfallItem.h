@@ -153,6 +153,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)CGSize splashBottomSize;
 @property (nonatomic,weak)UIWindow *splashWindow;
 
+@property (nonatomic,weak)UIView *mediaVideoAdContainer;
+@property (nonatomic,weak)UIViewController *mediaVideoViewController;
+@property (nonatomic,assign)BOOL mute;
+
 //激励视频
 @property (nonatomic,assign)BOOL rewarded;
 

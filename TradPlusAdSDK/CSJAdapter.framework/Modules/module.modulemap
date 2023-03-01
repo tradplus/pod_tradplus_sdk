@@ -1,6 +1,0 @@
-framework module CSJAdapter {
-  umbrella header "CSJAdapter.h"
-
-  export *
-  module * { export * }
-}

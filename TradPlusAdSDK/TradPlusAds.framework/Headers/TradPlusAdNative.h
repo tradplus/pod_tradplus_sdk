@@ -82,7 +82,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable NSDictionary *)getCurrentAdInfo;
 
 ///获取一个已缓存广告,获取后此广告会从缓存中移除，无广告时返回nil
-- (TradPlusAdNativeObject *)getReadyNativeObject;
+- (nullable TradPlusAdNativeObject *)getReadyNativeObject;
 @end
 
 @protocol TradPlusADNativeDelegate <NSObject>
@@ -126,7 +126,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpNativeAdBidStart:(NSDictionary *)adInfo;
 
 ///bidding结束 error = nil 表示成功
-- (void)tpNativeAdBidEnd:(NSDictionary *)adInfo error:(NSError *)error;
+- (void)tpNativeAdBidEnd:(NSDictionary *)adInfo error:(nullable NSError *)error;
 
 ///当每个广告源加载成功后会都会回调一次。
 - (void)tpNativeAdOneLayerLoaded:(NSDictionary *)adInfo;

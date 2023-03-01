@@ -104,14 +104,14 @@ typedef enum : NSUInteger {
     TPLoadMode_SPEED,//速度优先
 } TPLoadMode;
 
-typedef enum
-{
+typedef enum : NSUInteger {
     ADTYPE_BANNER,
     ADTYPE_NATIVE,
     ADTYPE_INTERSTITIAL,
     ADTYPE_REWARDEDVIDEO,
     ADTYPE_OFFERWALL,
-    ADTYPE_SPLASH
+    ADTYPE_SPLASH,
+    ADTYPE_MEDIAVIDEO
 } MsADType;
 
 typedef enum : NSUInteger {
@@ -122,8 +122,7 @@ typedef enum : NSUInteger {
     TPNativeADTYPE_Draw//draw信息流
 } TPNativeADTYPE;
 
-typedef enum
-{
+typedef enum : NSUInteger {
     EV_APP_USE_TIME          = 10,
     EV_APP_USE_TIME_V2       = 20,
     EV_REQ_OPEN_API_START    = 100,
@@ -182,8 +181,8 @@ typedef enum
     EV_LOAD_AD_SKIP          = 10600
 } MSEventType;
 
-typedef enum
-{
+
+typedef NS_ENUM(NSInteger, MSThirdNetwork) {
     NETWORK_FACEBOOK = 1,
     NETWORK_ADMOB,
     NETWORK_MOPUB,
@@ -193,8 +192,6 @@ typedef enum
     NETWORK_VUNGLE,
     NETWORK_APPLOVIN  = 9,
     NETWORK_IRONSOURCE,
-//    NETWORK_INMOBI,
-//    NETWORK_SMAATO   = 12,
     NETWORK_ADEXPRESS   = 13,
     NETWORK_MOBFOX,
     NETWORK_CHARTBOOST,
@@ -207,7 +204,7 @@ typedef enum
     NETWORK_INMOBI   = 23,
     NETWORK_FYBER    = 24,
     NETWORK_YOUDAO   = 25,     //有道
-    NETWORK_CROSS    = 27,     
+    NETWORK_CROSS    = 27,
     NETWORK_STARTAPP = 28,
     NETWORK_HELIUM   = 30,
     NETWORK_MAIO     = 31,
@@ -227,8 +224,8 @@ typedef enum
     NETWORK_VERVE    = 53,
     NETWORK_REKLAMUP = 56,
     NETWORK_BIGO = 57,
-    NETWORK_BEIZI = 58
-} MSThirdNetwork;
+    NETWORK_BEIZI = 58,
+};
 
 @interface MsCommon : NSObject
 

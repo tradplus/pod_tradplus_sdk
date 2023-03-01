@@ -9,8 +9,7 @@
 #import <TradPlusAds/MSConstants.h>
 
 // Lower = finer-grained logs.
-typedef enum
-{
+typedef enum : NSUInteger {
     MSLogLevelAll        = 0,
     MSLogLevelTrace        = 10,
     MSLogLevelDebug        = 20,

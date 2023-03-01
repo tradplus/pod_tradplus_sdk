@@ -1,9 +1,0 @@
-#import <VungleAdapter/MSVungleRouter.h>
-#import <VungleAdapter/TradPlusVungleAdapter.h>
-#import <VungleAdapter/TradPlusVungleBannerAdapter.h>
-#import <VungleAdapter/TradPlusVungleInterstitialAdapter.h>
-#import <VungleAdapter/TradPlusVungleNativeAdapter.h>
-#import <VungleAdapter/TradPlusVungleRewardedAdapter.h>
-#import <VungleAdapter/TradPlusVungleSDKLoader.h>
-#import <VungleAdapter/VungleInstanceMediationSettings.h>
-#import <VungleAdapter/VungleAdapterBaseInfo.h>

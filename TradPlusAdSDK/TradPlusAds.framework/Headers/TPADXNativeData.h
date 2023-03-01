@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/TPADXVideoView.h>
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface TPADXNativeData : NSObject
 
@@ -19,8 +18,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *likes;
 @property (nonatomic,copy)NSString *ctatext;
 @property (nonatomic,copy)NSString *iconImageURL;
+@property (nonatomic,copy)NSString *iconImageLocalURL;
 @property (nonatomic,copy)NSString *logoImageURL;
 @property (nonatomic,copy)NSString *mainImageURL;
+@property (nonatomic,copy)NSString *mainImageLocalURL;
 @property (nonatomic,assign)CGFloat iconHeight;
 @property (nonatomic,assign)CGFloat iconWidth;
 @property (nonatomic,assign)CGFloat mainImageHeight;
@@ -37,4 +38,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)parsing:(NSDictionary *)dic;
 @end
 
-NS_ASSUME_NONNULL_END

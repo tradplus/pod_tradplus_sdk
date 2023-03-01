@@ -1,6 +1,0 @@
-framework module GDTMobAdapter {
-  umbrella header "GDTMobAdapter.h"
-
-  export *
-  module * { export * }
-}

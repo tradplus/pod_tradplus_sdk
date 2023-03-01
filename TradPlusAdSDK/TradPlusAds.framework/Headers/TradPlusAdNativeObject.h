@@ -46,7 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,readonly)TradPlusBaseAdapter *adapter;
 ///三方的资源对象
-@property (nonatomic,readonly)id customObject;
+@property (nonatomic,readonly)id _Nullable customObject;
 ///三方配置信息
 @property (nonatomic,readonly)NSDictionary *config;
 ///广告位ID
@@ -60,7 +60,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///原生类型
 @property (nonatomic,assign)TPNativeADTYPE adType;
 ///支持自定义播放器的贴片，平台：穿山甲视频贴片
-@property (nonatomic,readonly)TradPlusAdCustomVideoPaster *customVideoPaster;
+@property (nonatomic,readonly)TradPlusAdCustomVideoPaster* _Nullable customVideoPaster;
 
 @end
 

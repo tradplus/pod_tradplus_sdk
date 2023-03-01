@@ -147,6 +147,11 @@
 @property (nonatomic,assign)CGSize splashBottomSize;
 @property (nonatomic,weak)UIWindow *splashWindow;
 
+//MediaVideo
+@property (nonatomic,weak)UIView *mediaVideoAdContainer;
+@property (nonatomic,weak)UIViewController *mediaVideoViewController;
+@property (nonatomic,assign)BOOL mute;
+
 @property (nonatomic,assign)MsADType adType;
 @property (nonatomic,assign)NSInteger customCacheCount;
 @property (nonatomic,readonly)NSInteger readyAdCount;

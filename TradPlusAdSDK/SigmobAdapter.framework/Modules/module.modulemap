@@ -1,6 +1,0 @@
-framework module SigmobAdapter {
-  umbrella header "SigmobAdapter.h"
-
-  export *
-  module * { export * }
-}

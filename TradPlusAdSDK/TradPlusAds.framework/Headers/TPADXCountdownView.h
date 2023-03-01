@@ -21,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger showSkipTime;
 @property (nonatomic,assign)BOOL noShowSkip;
 @property (nonatomic,assign)BOOL onlyShowClose;
+@property (nonatomic,assign)BOOL isSplash;
+@property (nonatomic,assign)NSInteger splashSkipTime;
 
 @property (nonatomic, copy) void (^skipAct)(void);
 @property (nonatomic, copy) void (^countDownFinish)(void);
