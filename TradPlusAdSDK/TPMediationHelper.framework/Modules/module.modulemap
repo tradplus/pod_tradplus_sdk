@@ -1,6 +1,0 @@
-framework module TPMediationHelper {
-  umbrella header "TPMediationHelper.h"
-
-  export *
-  module * { export * }
-}
