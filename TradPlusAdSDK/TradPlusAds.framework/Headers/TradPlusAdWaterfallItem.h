@@ -96,6 +96,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger is_server_callback;
 //是否强制奖励回调, 0 否 1 是
 @property (nonatomic,assign)NSInteger always_reward;
+@property (nonatomic,assign)NSInteger bidding_mode;
 
 //是否服务端展示回调
 @property (nonatomic,assign)NSInteger is_server_imp_callback;
@@ -192,6 +193,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)asu;
 - (void)saveShowTime;
 - (NSMutableDictionary *)getCallbackInfo;
+- (NSString *)getSBP;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -16,7 +16,8 @@
 
 - (void)getBiddingTokenWithConfig:(TradPlusAdConfModel *)config callback:(void (^)(NSError *error))callback;
 
-- (TradPlusAdWaterfallItem *)getItemWithAdsourceID:(NSString *)adsourceID;
+- (TradPlusAdWaterfallItem *)getC2SItemWithAdsourceID:(NSString *)adsourceID;
+- (TradPlusAdWaterfallItem *)getS2SItemWithAdsourceID:(NSString *)adsourceID;
 
 - (void)clear;
 
