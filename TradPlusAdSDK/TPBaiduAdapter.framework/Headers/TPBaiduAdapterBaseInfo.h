@@ -1,3 +1,3 @@
-#define TP_BaiduAdapter_Version @"9.1.0"
-#define TP_BaiduAdapter_PlatformSDK_Version @"5.121"
+#define TP_BaiduAdapter_Version @"9.0.10"
+#define TP_BaiduAdapter_PlatformSDK_Version @"5.12"
 
