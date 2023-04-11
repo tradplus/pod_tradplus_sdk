@@ -1,3 +1,3 @@
-#define TP_MyTargetAdapter_Version @"9.0.10"
-#define TP_MyTargetAdapter_PlatformSDK_Version @"5.16.0"
+#define TP_MyTargetAdapter_Version @"9.2.0"
+#define TP_MyTargetAdapter_PlatformSDK_Version @"5.17.4"
 

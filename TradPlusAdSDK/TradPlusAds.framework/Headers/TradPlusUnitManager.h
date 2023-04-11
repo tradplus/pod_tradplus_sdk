@@ -88,7 +88,7 @@
 
 - (void)loadFailedWithWaterfallItem:(TradPlusAdWaterfallItem *)item errorCode:(NSInteger)errorCode error:(NSError *)error netStatus:(NSString *)netStatus;
 
-- (void)allLoadedWithWaterfallSuccess:(BOOL)waterfallSuccess bottomSuccess:(BOOL)bottomSuccess code:(NSInteger)code;
+- (void)allLoadedWithWaterfallSuccess:(BOOL)waterfallSuccess bottomSuccess:(BOOL)bottomSuccess code:(NSInteger)code loadedCount:(NSInteger)loadedCount requestId:(NSString *)requestId;
 
 
 ///waterfallItem 赋值源级别参数

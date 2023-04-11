@@ -25,6 +25,8 @@
 
 @property (nonatomic,assign)NSInteger topWaterfallIndex;
 
+- (void)setBidfloor:(CGFloat)bidfloor currency:(TPBidPriceCurrency)currency;
+
 @property (nonatomic, copy) void (^biddingItemStart)(TradPlusAdWaterfallItem *biddingItem);
 @property (nonatomic, copy) void (^biddingItemEnd)(TradPlusAdWaterfallItem *biddingItem,NSInteger errorCode,NSError *error,NSInteger nbr);
 @end

@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 0 = 未启动, 1=运行中 ,2 = 完成
 @property (nonatomic,assign)NSInteger state;
+@property (nonatomic,assign)NSInteger loadedCount;
 @end
 
 NS_ASSUME_NONNULL_END
