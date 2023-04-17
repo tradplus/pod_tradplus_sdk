@@ -36,6 +36,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (nullable TradPlusMediaVideoAdObject *)getReadyMediaVideoObject;
 
+//用户设置本地配置
+@property (nullable ,nonatomic, strong)NSDictionary *localParams;
 @end
 
 @protocol TradPlusADMediaVideoDelegate <NSObject>

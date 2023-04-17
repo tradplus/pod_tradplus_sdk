@@ -17,12 +17,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)stopLoad;
 - (void)loadSuccess;
 - (void)loadFail;
-- (void)noConfig;
 
 - (void)showSuccess;
 - (void)showFail;
 - (void)noReady;
 - (void)noCache;
+
 - (void)noNet;
 
 

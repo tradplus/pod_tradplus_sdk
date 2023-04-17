@@ -17,7 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak)IBOutlet UIView *adView;
 
 @property (nonatomic,assign)BOOL isSkip;
-@property (nonatomic,assign)BOOL removeOnDidAppear;
 @property (nonatomic,assign)NSInteger countdownTime;
 @property (nonatomic,assign)NSInteger skipTime;
 

@@ -20,6 +20,9 @@
 @property (nonatomic,copy)NSString *serverSideUserID;
 @property (nonatomic,copy)NSString *serverSideCustomData;
 
+//本地配置
+@property (nonatomic,strong)NSDictionary *localParams;
+
 - (instancetype)initWithPlacementID:(NSString *)placementID;
 - (void)loadAd;
 - (void)loadAdWithType:(NSInteger)loadType;
@@ -88,7 +91,7 @@
 
 - (void)loadFailedWithWaterfallItem:(TradPlusAdWaterfallItem *)item errorCode:(NSInteger)errorCode error:(NSError *)error netStatus:(NSString *)netStatus;
 
-- (void)allLoadedWithWaterfallSuccess:(BOOL)waterfallSuccess bottomSuccess:(BOOL)bottomSuccess code:(NSInteger)code loadedCount:(NSInteger)loadedCount requestId:(NSString *)requestId;
+- (void)allLoadedWithWaterfallSuccess:(BOOL)waterfallSuccess bottomSuccess:(BOOL)bottomSuccess code:(NSInteger)code;
 
 
 ///waterfallItem 赋值源级别参数

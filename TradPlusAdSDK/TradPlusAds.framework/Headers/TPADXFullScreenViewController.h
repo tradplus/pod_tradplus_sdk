@@ -8,13 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <TradPlusAds/TPADXResourceData.h>
-#import <TradPlusAds/TPADXVideoView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TPADXFullScreenViewController : UIViewController
 
-@property (nonatomic,strong)TPADXVideoView *videoView;
 @property (nonatomic,assign)BOOL isSplash;
 @property (nonatomic,assign)BOOL isNative;
 @property (nonatomic,weak)TPADXResourceData *resourceData;
