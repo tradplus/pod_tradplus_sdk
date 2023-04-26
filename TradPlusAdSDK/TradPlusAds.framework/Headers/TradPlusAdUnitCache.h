@@ -11,6 +11,9 @@
 
 - (void)addWaterfallCacheItem:(TradPlusAdWaterfallItem *)item;
 
+//确认当前waterfallItem是否有缓存
+- (void)checkCacheWithItem:(TradPlusAdWaterfallItem *)item;
+
 - (void)checkWaterfall:(NSArray <TradPlusAdWaterfallItem *>*)waterfallArray;
 
 - (NSInteger)getWaterfallCacheCount;
@@ -19,6 +22,8 @@
 
 //清理缓存
 - (void)clearAllCache;
+//清理低于指定底价的缓存 返回是否有bidding广告缓存
+- (BOOL)clearCacheWithBidPrice:(CGFloat)bidPrice currency:(TPBidPriceCurrency)currency;
 
 //获取一个缓存并移除缓存
 - (TradPlusAdWaterfallItem *)getAllCacheItemAndRemove;
@@ -36,7 +41,6 @@
 - (void)checkAllCacheExpiredAndReload;
 
 //兜底广告
-- (BOOL)hasWaterfallAdCache;
 - (BOOL)hasBottomAdCache;
 - (void)addBottomAdCacheItem:(TradPlusAdWaterfallItem *)item;
 - (TradPlusAdWaterfallItem *)getBottomAd;

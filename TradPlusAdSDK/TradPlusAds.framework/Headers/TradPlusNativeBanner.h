@@ -59,6 +59,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 
 @property (nonatomic,readonly)BOOL isAutoRefresh;
+
+//用户设置本地配置
+@property (nullable,nonatomic, strong)NSDictionary *localParams;
 @end
 
 @protocol TradPlusADNativeBannerDelegate <NSObject>
