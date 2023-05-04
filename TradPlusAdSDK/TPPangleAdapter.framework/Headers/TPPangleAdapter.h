@@ -1,7 +1,7 @@
-#import <TPPangleAdapter/TradPlusPangleBannerAdapter.h>
-#import <TPPangleAdapter/TradPlusPangleInterstitialAdapter.h>
-#import <TPPangleAdapter/TradPlusPangleNativeAdapter.h>
-#import <TPPangleAdapter/TradPlusPangleRewardedAdapter.h>
-#import <TPPangleAdapter/TradPlusPangleSDKLoader.h>
-#import <TPPangleAdapter/TradPlusPangleSplashAdapter.h>
-#import <TPPangleAdapter/TPPangleAdapterBaseInfo.h>
+#import <PangleAdapter/TradPlusPangleBannerAdapter.h>
+#import <PangleAdapter/TradPlusPangleInterstitialAdapter.h>
+#import <PangleAdapter/TradPlusPangleNativeAdapter.h>
+#import <PangleAdapter/TradPlusPangleRewardedAdapter.h>
+#import <PangleAdapter/TradPlusPangleSDKLoader.h>
+#import <PangleAdapter/TradPlusPangleSplashAdapter.h>
+#import <PangleAdapter/TPPangleAdapterBaseInfo.h>

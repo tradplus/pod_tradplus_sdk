@@ -1,3 +1,4 @@
+#import <TPCSJAdapter/TradPlusCSJAdapter.h>
 #import <TPCSJAdapter/TradPlusCSJBannerAdapter.h>
 #import <TPCSJAdapter/TradPlusCSJInterstitialAdapter.h>
 #import <TPCSJAdapter/TradPlusCSJNativeAdapter.h>

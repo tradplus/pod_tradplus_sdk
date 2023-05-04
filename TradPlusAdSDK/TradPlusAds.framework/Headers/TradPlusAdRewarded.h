@@ -64,8 +64,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak) id <TradPlusADRewardedDelegate> delegate;
 @property (nonatomic,weak) id <TradPlusADRewardedPlayAgainDelegate> playAgainDelegate;
 
-//用户设置本地配置
-@property (nullable,nonatomic, strong)NSDictionary *localParams;
 @end
 
 @protocol TradPlusADRewardedDelegate <NSObject>

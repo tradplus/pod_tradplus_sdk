@@ -1,7 +1,7 @@
-#import <TPSigmobAdapter/TradPlusSigmobAdapter.h>
-#import <TPSigmobAdapter/TradPlusSigmobInterstitialAdapter.h>
-#import <TPSigmobAdapter/TradPlusSigmobNativeAdapter.h>
-#import <TPSigmobAdapter/TradPlusSigmobRewardedAdapter.h>
-#import <TPSigmobAdapter/TradPlusSigmobSDKLoader.h>
-#import <TPSigmobAdapter/TradPlusSigmobSplashAdapter.h>
-#import <TPSigmobAdapter/TPSigmobAdapterBaseInfo.h>
+#import <SigmobAdapter/TradPlusSigmobAdapter.h>
+#import <SigmobAdapter/TradPlusSigmobInterstitialAdapter.h>
+#import <SigmobAdapter/TradPlusSigmobNativeAdapter.h>
+#import <SigmobAdapter/TradPlusSigmobRewardedAdapter.h>
+#import <SigmobAdapter/TradPlusSigmobSDKLoader.h>
+#import <SigmobAdapter/TradPlusSigmobSplashAdapter.h>
+#import <SigmobAdapter/TPSigmobAdapterBaseInfo.h>

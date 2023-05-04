@@ -1,3 +1,3 @@
-#define TP_KuaiShouAdapter_Version @"9.3.0"
-#define TP_KuaiShouAdapter_PlatformSDK_Version @"3.3.42.1"
+#define TP_KuaiShouAdapter_Version @"9.0.30"
+#define TP_KuaiShouAdapter_PlatformSDK_Version @"3.3.40"
 

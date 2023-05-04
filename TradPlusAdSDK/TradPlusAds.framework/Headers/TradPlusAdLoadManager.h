@@ -28,10 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign)TPLoadMode loadMode;
 @property (nonatomic,assign)BOOL waterfallFinish;
-@property (nonatomic,copy)NSString *requestId;
-
-@property (nonatomic,assign)CGFloat customBidPrice;
-@property (nonatomic,assign)TPBidPriceCurrency customBidPriceCurrency;
 @end
 
 NS_ASSUME_NONNULL_END

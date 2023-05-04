@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusAdSDK"
-  spec.version      = "9.3.0"
+  spec.version      = "9.0.30"
   spec.summary      = "TradPlusAd SDK"
   spec.description  = <<-DESC
             "A short description of TradPlusAd SDK for iOS.
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   
   spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC']}
   spec.libraries = 'c++', 'z', 'sqlite3', 'xml2', 'resolv'
-  valid_archs = ['x86_64','armv7','arm64']
+  valid_archs = ['x86_64','arm64']
   spec.default_subspecs = 'TradPlusAds'
 
   spec.subspec 'TradPlusAds' do |ss|
@@ -226,5 +226,15 @@ Pod::Spec.new do |spec|
      ss.dependency 'TradPlusAdSDK/TradPlusAds'
      ss.ios.deployment_target = '9.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPGoogleIMAAdapter.framework'
+  end
+  spec.subspec 'TPAppicAdapter' do |ss|
+     ss.dependency 'TradPlusAdSDK/TradPlusAds'
+     ss.ios.deployment_target = '9.0'
+     ss.vendored_frameworks = 'TradPlusAdSDK/TPAppicAdapter.framework'
+  end
+  spec.subspec 'TPFusionAdapter' do |ss|
+     ss.dependency 'TradPlusAdSDK/TradPlusAds'
+     ss.ios.deployment_target = '9.0'
+     ss.vendored_frameworks = 'TradPlusAdSDK/TPFusionAdapter.framework'
   end
 end

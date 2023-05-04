@@ -70,11 +70,6 @@ extern NSInteger gTPHttpTimeoutEvent;
 extern NSInteger gTPHttpTimeoutConf;
 
 typedef enum : NSUInteger {
-    TPBidPrice_USD,
-    TPBidPrice_CNY
-} TPBidPriceCurrency;
-
-typedef enum : NSUInteger {
     TPTemplateContentModeScaleToFill,//自动充满subview默认
     TPTemplateContentModeCenter,//保持在subview的center
 } TPTemplateContentMode;
@@ -153,7 +148,6 @@ typedef enum : NSUInteger {
     EV_SHOW_AD               = 1100,
     EV_CLICK_AD              = 1200,
     EV_AD_VIDEO_START        = 1300,
-    EV_AD_IMP_1310           = 1310,
     EV_BID_IMP               = 1320,
     EV_AD_VIDEO_ERROR        = 1350,
     EV_AD_VIDEO_CLOSE        = 1400,
@@ -226,11 +220,13 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
     NETWORK_GOOGLEAdMANAGER = 48,
     NETWORK_GROMORE  = 49,
     NETWORK_YANDEX   = 50,
+    NETWORK_MAX = 51,
     NETWORK_VERVE    = 53,
     NETWORK_REKLAMUP = 56,
     NETWORK_BIGO = 57,
     NETWORK_BEIZI = 58,
-    NETWORK_ONEMOB = 60
+    NETWORK_APPIC = 61,
+    NETWORK_FUSION = 62
 };
 
 @interface MsCommon : NSObject

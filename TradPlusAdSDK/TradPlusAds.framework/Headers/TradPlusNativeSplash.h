@@ -72,9 +72,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
-
-//用户设置本地配置
-@property (nullable,nonatomic, strong)NSDictionary *localParams;
 @end
 
 @protocol TradPlusADNativeSplashDelegate <NSObject>

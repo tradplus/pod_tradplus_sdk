@@ -160,3 +160,5 @@
 #import <TradPlusAds/TradPlusBottomManager.h>
 #import <TradPlusAds/TradPlusAdLoadManager.h>
 #import <TradPlusAds/TradPlusWaterfallManager.h>
+#import <TradPlusAds/TradPlusAdSplashObject.h>
+#import <TradPlusAds/TPScreenInfo.h>
