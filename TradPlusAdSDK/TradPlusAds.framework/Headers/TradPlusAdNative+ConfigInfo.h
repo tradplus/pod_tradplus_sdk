@@ -18,5 +18,6 @@
 @property (nonatomic,readonly)NSInteger skipTime;
 @property (nonatomic,readonly)NSInteger refreshTime;
 @property (nonatomic,readonly)BOOL delayClose;
+@property (nonatomic,readonly)BOOL removeOnDidAppear;
 @property (nonatomic,copy)void (^didCloseOtherControllerAct)(void);
 @end

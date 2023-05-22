@@ -8,13 +8,6 @@
 
 @property (nonatomic, weak) id<TPVungleRouterDelegate> delegate;
 
-extern NSString *const kVungleAppIdKey;
-extern NSString *const kVunglePlacementIdKey;
-extern NSString *const kVungleFlexViewAutoDismissSeconds;
-extern NSString *const kVungleUserId;
-extern NSString *const kVungleOrdinal;
-extern NSString *const kVungleBidTokenKey;
-
 + (TPVungleRouter *)sharedRouter;
 
 - (BOOL)isAdAvailableForPlacementId:(NSString *)placementId bidToken:(NSString *)bidToken;

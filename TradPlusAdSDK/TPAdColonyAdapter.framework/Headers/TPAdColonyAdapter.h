@@ -1,5 +1,5 @@
-#import <AdColonyAdapter/TradPlusAdColonyBannerAdapter.h>
-#import <AdColonyAdapter/TradPlusAdColonyInterstitialAdapter.h>
-#import <AdColonyAdapter/TradPlusAdColonyRewardedAdapter.h>
-#import <AdColonyAdapter/TradPlusAdColonySDKLoader.h>
-#import <AdColonyAdapter/TPAdColonyAdapterBaseInfo.h>
+#import <TPAdColonyAdapter/TradPlusAdColonyBannerAdapter.h>
+#import <TPAdColonyAdapter/TradPlusAdColonyInterstitialAdapter.h>
+#import <TPAdColonyAdapter/TradPlusAdColonyRewardedAdapter.h>
+#import <TPAdColonyAdapter/TradPlusAdColonySDKLoader.h>
+#import <TPAdColonyAdapter/TPAdColonyAdapterBaseInfo.h>

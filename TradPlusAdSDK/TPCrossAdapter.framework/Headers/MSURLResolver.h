@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <TradPlusAds/MSGlobal.h>
-#import <TradPlusAds/MSURLActionInfo.h>
+#import "MSURLActionInfo.h"
 
 typedef void (^MSURLResolverCompletionBlock)(MSURLActionInfo *actionInfo, NSError *error);
 

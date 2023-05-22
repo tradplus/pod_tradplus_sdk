@@ -71,11 +71,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,weak) id <TradPlusADSplashDelegate> delegate;
 
-///获取一个已缓存广告,获取后此广告会从缓存中移除，无广告时返回nil
-- (nullable TradPlusAdSplashObject *)getReadySplashObject;
-
 //用户设置本地配置
 @property (nullable,nonatomic, strong)NSDictionary *localParams;
+
+///获取一个已缓存广告,获取后此广告会从缓存中移除，无广告时返回nil
+- (nullable TradPlusAdSplashObject *)getReadySplashObject;
 
 @end
 
