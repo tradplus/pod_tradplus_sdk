@@ -96,17 +96,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///点击
 - (void)tpMediaVideoAdTapped:(NSDictionary *)adInfo;
 
-///v9.4.0新增  返回IMA各事件 event IMA为 IMAAdEvent 事件对象
-- (void)tpMediaVideoAdEvent:(id)event adInfo:(NSDictionary *)adInfo;
-
-///v9.4.0新增  返回IMA StartBuffering事件
-- (void)tpMediaVideoAdDidStartBuffering:(NSDictionary *)adInfo;
-
-///v9.4.0新增  返回IMA adDidBufferToMediaTime事件
-- (void)tpMediaVideoAdDidBufferToMediaTime:(NSTimeInterval)mediaTime adInfo:(NSDictionary *)adInfo;
-
-///v9.4.0新增 返回IMA PlaybackReady事件
-- (void)tpMediaVideoAdPlaybackReady:(NSDictionary *)adInfo;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -230,9 +230,7 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
     NETWORK_REKLAMUP = 56,
     NETWORK_BIGO = 57,
     NETWORK_BEIZI = 58,
-    NETWORK_ONEMOB = 60,
-    NETWORK_APPIC = 61,
-    NETWORK_FUSION = 62
+    NETWORK_ONEMOB = 60
 };
 
 @interface MsCommon : NSObject

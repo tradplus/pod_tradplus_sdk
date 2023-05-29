@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)NSDate *loadFinishDate;
 @property (nonatomic,strong)NSDate *finishBiddingDate;
 
+- (void)downloadWithMediaFileURL:(NSString *)mediaFileURL callback:(void (^)(NSError *error))callback;
 - (void)startLoadEvent;
 - (void)finishLoadEvent:(NSString *)errorCode;
 - (void)startLoadVideoEvent;
@@ -44,6 +45,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSError *)downloadVideoTimeOutError;
 - (NSError *)downloadVideoError;
 - (NSError *)downloadImageError;
+
+- (void)loadVideoOnly;
+- (void)loadVideoAndEndCard;
+- (void)checkAllFinish;
 @end
 
 NS_ASSUME_NONNULL_END

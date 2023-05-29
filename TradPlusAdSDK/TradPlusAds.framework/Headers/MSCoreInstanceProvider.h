@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <TradPlusAds/MSGlobal.h>
-#import "MSURLResolver.h"
+#import <TradPlusAds/MSURLResolver.h>
 
 @class MSAdConfiguration;
 

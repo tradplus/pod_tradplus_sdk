@@ -1,10 +1,12 @@
 #import <UIKit/UIKit.h>
 #import "TPAdAdapterDelegate.h"
 #import "TPAdContainerView.h"
+#import "TPDiskLRUCache.h"
 #import "TPFullscreenAdAdapter.h"
 #import "TPFullscreenAdAdapterDelegate.h"
+#import "TPImageLoader.h"
 #import "TPFullscreenAdViewController.h"
-#import "MSAdDestinationDisplayAgent.h"
+#import <TradPlusAds/MSAdDestinationDisplayAgent.h>
 #import "TPCrossEvent.h"
 #import <TradPlusAds/MsCommon.h>
 
@@ -37,6 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) TPFullscreenAdViewController * _Nullable viewController; // set to nil after dismissal
 
+@property (nonatomic, strong) TPDiskLRUCache *mediaFileCache;
 #pragma mark - (TPAdAdapter) Properties
 
 @property (nonatomic, strong) NSString *adUnitId;
@@ -52,6 +55,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Image Properties
 
+@property (nonatomic, strong) TPImageLoader *imageLoader;
 @property (nonatomic, strong) UIImageView *imageCreativeView;
 
 @property (nonatomic, strong) NSDate *dateLoadImageStart;

@@ -1,6 +1,6 @@
 #import "TPFullscreenAdViewController.h"
 //#import "TPCountdownTimerView.h"
-#import "MSTimer.h"
+#import <TradPlusAds/MSTimer.h>
 
 @class TPImageCreativeView;
 

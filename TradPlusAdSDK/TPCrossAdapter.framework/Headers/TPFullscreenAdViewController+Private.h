@@ -3,7 +3,7 @@
 #import "TPCrossEvent.h"
 #import "TPAdContainerView.h"
 #import "TPFullscreenAdViewController.h"
-#import "MSTimer.h"
+#import <TradPlusAds/MSTimer.h>
 #import <TradPlusAds/MSLogging.h>
 
 NS_ASSUME_NONNULL_BEGIN
