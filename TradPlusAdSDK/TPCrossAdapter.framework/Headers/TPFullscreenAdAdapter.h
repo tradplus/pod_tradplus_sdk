@@ -1,7 +1,6 @@
 #import <UIKit/UIKit.h>
 #import "TPFullscreenAdAdapterDelegate.h"
 #import "TPFullscreenAdViewControllerDelegate.h"
-#import "TPImageLoader.h"
 #import <StoreKit/StoreKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -31,13 +30,14 @@ typedef NS_ENUM(NSUInteger, TPFullscreenAdEvent) {
 - (void)presentAdFromViewController:(UIViewController *)viewController;
 - (void)handleDidPlayAd;
 - (void)handleDidInvalidateAd;
+
 @property (nonatomic, weak, readonly) id<TPFullscreenAdAdapterDelegate> delegate;
 
 @end
 
 #pragma mark -
 
-@interface TPFullscreenAdAdapter : NSObject<SKStoreProductViewControllerDelegate, TPFullscreenAdViewControllerAppearanceDelegate, TPImageLoaderDelegate>
+@interface TPFullscreenAdAdapter : NSObject<SKStoreProductViewControllerDelegate, TPFullscreenAdViewControllerAppearanceDelegate>
 @property (nonatomic, strong) NSDictionary *videoConfig;
 @end
 

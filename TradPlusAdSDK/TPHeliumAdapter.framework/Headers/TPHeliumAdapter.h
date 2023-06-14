@@ -3,4 +3,3 @@
 #import <TPHeliumAdapter/TradPlusHeliumRewardedAdapter.h>
 #import <TPHeliumAdapter/TradPlusHeliumSDKLoader.h>
 #import <TPHeliumAdapter/TPHeliumAdapterBaseInfo.h>
-#import <TPHeliumAdapter/TPHeliumBannerManger.h>

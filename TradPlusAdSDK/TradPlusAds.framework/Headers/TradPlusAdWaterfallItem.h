@@ -105,6 +105,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong)NSArray *style_name;
 
+//跳过现实时间
+@property (nonatomic,assign)NSInteger skip_time;
+
 //广告倒计时时间
 @property (nonatomic,assign)NSInteger countdown_time;
 //广告可否跳过

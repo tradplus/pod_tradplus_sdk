@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <TradPlusAds/TradPlusAds.h>
+#import <TradPlusAds/TradPlusAdSplashObject.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -40,11 +41,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param renderingViewClass renderingViewClass 仅对Waterfall中的原生广告生效
 - (void)showWithRenderingViewClass:(Class)renderingViewClass;
 
-
 /// v8.4.0新增
 /// 指定原生开屏的renderer 展示广告
 /// @param renderer 自定义renderer 仅对Waterfall中的原生广告生效
 - (void)showWithRenderer:(TradPlusNativeRenderer *)renderer;
+
+///指定 TradPlusAdSplashObject 展示广告
+- (void)showWithSplashObject:(TradPlusAdSplashObject *)splashObject;
 
 ///v8.4.0新增
 ///设置 原生开屏 模版渲染的布局方式 默认 TPTemplateContentModeCenter
@@ -70,6 +73,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 //用户设置本地配置
 @property (nullable,nonatomic, strong)NSDictionary *localParams;
+
+///获取一个已缓存广告,获取后此广告会从缓存中移除，无广告时返回nil
+- (nullable TradPlusAdSplashObject *)getReadySplashObject;
+
 @end
 
 @protocol TradPlusADSplashDelegate <NSObject>

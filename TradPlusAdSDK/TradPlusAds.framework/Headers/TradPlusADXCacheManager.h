@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)checkCacheWithURL:(NSString *)url callback:(void(^)(BOOL didCached,NSString *cachePath))callback;
 - (BOOL)checkCacheWithLocalURL:(NSString *)url;
 ///保存数据
-- (BOOL)saveData:(NSData *)data url:(NSString *)url;
+- (BOOL)saveData:(NSData *)data url:(NSString *)url isVideo:(BOOL)isVideo;
 ///清理所有本地缓存
 - (void)clearCache;
 @end

@@ -120,6 +120,13 @@ typedef enum : NSUInteger {
 } MsADType;
 
 typedef enum : NSUInteger {
+    TPAdChoicesPositionTopRightCorner,     ///< Top right corner.
+    TPAdChoicesPositionTopLeftCorner,      ///< Top left corner.
+    TPAdChoicesPositionBottomRightCorner,  ///< Bottom right corner.
+    TPAdChoicesPositionBottomLeftCorner    ///< Bottom Left Corner.
+}TPAdChoicesPosition;
+
+typedef enum : NSUInteger {
     TPNativeADTYPE_Unknown = 0,//未知
     TPNativeADTYPE_Feed,//自渲染
     TPNativeADTYPE_Template,//模版
@@ -230,7 +237,9 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
     NETWORK_REKLAMUP = 56,
     NETWORK_BIGO = 57,
     NETWORK_BEIZI = 58,
-    NETWORK_ONEMOB = 60
+    NETWORK_ONEMOB = 60,
+    NETWORK_APPIC = 61,
+    NETWORK_FUSION = 62
 };
 
 @interface MsCommon : NSObject
@@ -255,4 +264,6 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
 + (NSData *)getJsonDataWithObj:(id)obj;
 
 + (NSDate *)SDKStartDate;
+
+@property (nonatomic, strong) UIButton *btnShowLog;
 @end

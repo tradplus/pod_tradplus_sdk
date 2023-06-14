@@ -2,7 +2,6 @@
 #import "TPAdViewConstant.h"
 #import "TPAdContainerView.h"
 #import "TPClickThroughView.h"
-#import "TPImageLoader.h"
 #import "TPFullscreenAdViewControllerDelegate.h"
 
 @class TPCreativeExperienceSettings;

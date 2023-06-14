@@ -7,9 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import <TradPlusAds/MSActivityViewControllerHelper+TweetShare.h>
-#import <TradPlusAds/MSProgressOverlayView.h>
-#import <TradPlusAds/MSStoreKitProvider.h>
+#import "MSActivityViewControllerHelper+TweetShare.h"
+#import "MSProgressOverlayView.h"
+#import "MSStoreKitProvider.h"
 #import <SafariServices/SafariServices.h>
 
 @protocol MSAdDestinationDisplayAgentDelegate;

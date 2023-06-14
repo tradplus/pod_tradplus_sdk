@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak)TPADXResourceData *resourceData;
 @property (nonatomic,assign)BOOL isReady;
 
-@property (nonatomic, copy) void (^clickAct)(void);
+@property (nonatomic, copy) void (^clickAct)(NSURL * _Nullable clickURL);
 @end
 
 NS_ASSUME_NONNULL_END

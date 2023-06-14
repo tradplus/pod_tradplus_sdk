@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import <TradPlusAds/MSEnhancedDeeplinkRequest.h>
+#import "MSEnhancedDeeplinkRequest.h"
 
 #ifndef NS_ENUM
 #define NS_ENUM(_type, _name) enum _name : _type _name; enum _name : _type

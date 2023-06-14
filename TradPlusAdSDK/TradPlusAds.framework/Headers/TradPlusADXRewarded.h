@@ -20,8 +20,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)showAdFromRootViewController:(UIViewController *)rootViewController;
 @property (nonatomic,assign) BOOL isMute;
+@property (nonatomic,assign) NSInteger skipTime;
 @property (nonatomic,weak) id <TradPlusADXRewardedDelegate> delegate;
 - (BOOL)isReady;
+
+@property (nonatomic,readonly)NSDictionary *bidcn;
 @end
 
 @protocol TradPlusADXRewardedDelegate <NSObject>
@@ -32,6 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)ADXShowFailWithError:(NSError *)error;
 - (void)ADXClicked;
 - (void)ADXDismissed;
+- (void)ADXVideoComplete;
 - (void)ADXReward;
 @end
 
