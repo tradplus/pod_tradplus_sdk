@@ -18,7 +18,7 @@
 
 - (TradPlusAdWaterfallItem *)getC2SItemWithAdsourceID:(NSString *)adsourceID;
 - (TradPlusAdWaterfallItem *)getS2SItemWithAdsourceID:(NSString *)adsourceID;
-- (void)updataTopPrice:(NSString *)topPrice adsourceId:(NSString *)adsourceId;
+
 - (void)clear;
 
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;

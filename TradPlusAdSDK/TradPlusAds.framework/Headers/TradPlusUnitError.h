@@ -22,7 +22,6 @@ typedef enum : NSUInteger {
     TPUnitErrorWrongAdType= 10013,
     TPUnitErrorNoMediaVideoadContainer = 10014,
     TPUnitErrorNoMediaVideoViewController = 10015,
-    TPUnitErrorNoSplashObject = 10016,
     TPUnitErrorLimit = 600004,
     TPUnitErrorNoWaterfall = 600009,
     TPUnitErrorLoadToFast = 600015,

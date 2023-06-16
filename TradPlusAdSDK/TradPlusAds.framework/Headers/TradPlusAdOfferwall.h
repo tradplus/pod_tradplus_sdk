@@ -57,9 +57,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 
 @property (nonatomic,weak) id <TradPlusADOfferwallDelegate> delegate;
-
-//用户设置本地配置
-@property (nullable,nonatomic, strong)NSDictionary *localParams;
 @end
 
 

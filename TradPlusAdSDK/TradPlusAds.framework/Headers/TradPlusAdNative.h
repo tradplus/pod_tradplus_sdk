@@ -83,9 +83,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///获取一个已缓存广告,获取后此广告会从缓存中移除，无广告时返回nil
 - (nullable TradPlusAdNativeObject *)getReadyNativeObject;
-
-//用户设置本地配置
-@property (nullable,nonatomic, strong)NSDictionary *localParams;
 @end
 
 @protocol TradPlusADNativeDelegate <NSObject>
@@ -148,12 +145,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///播放结束 v7.8.0+
 - (void)tpNativeAdVideoPlayEnd:(NSDictionary *)adInfo;
-
-///dislike v9.4.0+ 当前支持穿山甲，Gromore，百度，快手，Sigmob平台
-///tpNativeAdDisLikeInfo 会替代这些平台的 tpNativeAdClose回调，如无特殊需求可以不设置。
-///dislikeInfo[@"dislikeInfo"]：三方源返回的dislike信息
-///dislikeInfo[@"dislikeObject"]：三方源返回的对象信息，可能为nil
-- (void)tpNativeAdDisLikeInfo:(NSDictionary *)dislikeInfo adInfo:(NSDictionary *)adInfo;
 
 ///以下回调接口已废弃v7.6.0+
 - (void)tpNativeAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeAdBidEnd:error:");
