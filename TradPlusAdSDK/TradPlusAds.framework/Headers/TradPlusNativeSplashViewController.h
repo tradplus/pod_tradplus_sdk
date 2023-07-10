@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TradPlusAds/TradPlusAds.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -20,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)BOOL removeOnDidAppear;
 @property (nonatomic,assign)NSInteger countdownTime;
 @property (nonatomic,assign)NSInteger skipTime;
+@property (nonatomic,strong)TradPlusNativeRenderer *renderer;
+@property (nonatomic,strong)TradPlusAdWaterfallItem *item;
 
 @property (nonatomic,copy)void (^skipAct)(void);
 @property (nonatomic,copy)void (^closeAct)(void);
@@ -27,5 +30,4 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)void (^callbackCountDown)(NSInteger count);
 @property (nonatomic,copy)void (^didLayoutSubviewsAct)(void);
 @end
-
 NS_ASSUME_NONNULL_END

@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import <TradPlusAds/MSActivityViewControllerHelper.h>
+#import "MSActivityViewControllerHelper.h"
 
 /**
  * `TweetShare` category added to MSActivityViewController to add functionality

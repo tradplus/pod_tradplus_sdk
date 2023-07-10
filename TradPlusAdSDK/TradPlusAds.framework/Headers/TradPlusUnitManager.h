@@ -16,13 +16,17 @@
 @property (nonatomic,copy)NSString *segmentId;
 @property (nonatomic,copy)NSString *bucketId;
 @property (nonatomic,strong)NSDictionary *dicCustomValue;
+//本地配置
+@property (nonatomic,strong)NSDictionary *localParams;
 //服务器奖励验证信息
 @property (nonatomic,copy)NSString *serverSideUserID;
 @property (nonatomic,copy)NSString *serverSideCustomData;
 
+@property (nonatomic,assign)CGFloat loadMaxWaitTime;
+
 - (instancetype)initWithPlacementID:(NSString *)placementID;
 - (void)loadAd;
-- (void)loadAdWithType:(NSInteger)loadType;
+- (void)loadAdWithType:(TPLoadType)loadType;
 - (BOOL)checkReady;
 - (void)entryAdScenario:(NSString *)sceneId;
 - (void)logBase64Config;
@@ -50,6 +54,8 @@
 - (void)showFinsihWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///show 1300
 - (void)showFinish1300WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
+///show 1310
+- (void)showFinish1310WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///show Fail 1350 失败
 - (void)showFailWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId error:(NSError *)error;
 ///click

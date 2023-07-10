@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param sceneId 场景ID 没有则设置为nil 用于自动展示模式下
 - (void)loadAdWithSceneId:(nullable NSString *)sceneId;
 
+- (void)loadAdWithSceneId:(nullable NSString *)sceneId maxWaitTime:(NSTimeInterval)maxWaitTime;
 
 /// 展示广告
 /// @param sceneId 场景ID 没有则设置为nil
@@ -46,6 +47,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param sceneId 场景ID 没有则设置为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
 
+- (void)openAutoLoadCallback;
+
 //用于开发者设置透传的自定义数据，SDK将在各回调的adInfo中返回。
 //开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
 @property (nonatomic, strong)NSDictionary *customAdInfo;
@@ -59,6 +62,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 
 @property (nonatomic,readonly)BOOL isAutoRefresh;
+
+//用户设置本地配置
+@property (nullable,nonatomic, strong)NSDictionary *localParams;
 @end
 
 @protocol TradPlusADNativeBannerDelegate <NSObject>

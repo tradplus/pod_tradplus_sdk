@@ -1,7 +1,7 @@
-#import <MyTargetAdapter/TradPlusMyTargetAdapter.h>
-#import <MyTargetAdapter/TradPlusMyTargetBannerAdapter.h>
-#import <MyTargetAdapter/TradPlusMyTargetInterstitialAdapter.h>
-#import <MyTargetAdapter/TradPlusMyTargetNativeAdapter.h>
-#import <MyTargetAdapter/TradPlusMyTargetRewardedAdapter.h>
-#import <MyTargetAdapter/TPMyTargetAdapterBaseInfo.h>
-#import <MyTargetAdapter/TradPlusMyTargetSDKSetting.h>
+#import <TPMyTargetAdapter/TradPlusMyTargetAdapter.h>
+#import <TPMyTargetAdapter/TradPlusMyTargetBannerAdapter.h>
+#import <TPMyTargetAdapter/TradPlusMyTargetInterstitialAdapter.h>
+#import <TPMyTargetAdapter/TradPlusMyTargetNativeAdapter.h>
+#import <TPMyTargetAdapter/TradPlusMyTargetRewardedAdapter.h>
+#import <TPMyTargetAdapter/TPMyTargetAdapterBaseInfo.h>
+#import <TPMyTargetAdapter/TradPlusMyTargetSDKSetting.h>

@@ -37,7 +37,7 @@
 @property (nonatomic,strong)NSArray *c2sbiddingwaterfall;
 
 //兜底
-@property (nonatomic,assign)NSInteger bottomWaitTime;
+@property (nonatomic,assign)CGFloat bottomWaitTime;
 @property (nonatomic,strong)NSArray *bottomwaterfall;
 
 @property (nonatomic,assign)NSInteger is_skip;
@@ -67,5 +67,8 @@
 @property (nonatomic,assign)NSInteger createTime;
 //waterfall是否为空：0否 1是
 @property (nonatomic,assign)NSInteger is_nothing;
+
+//max wating time v9.6.0新增
+@property (nonatomic,assign)CGFloat loadMaxWaitTime;
 
 @end

@@ -1,3 +1,3 @@
-#define TP_VungleAdapter_Version @"9.2.10"
-#define TP_VungleAdapter_PlatformSDK_Version @"6.12.3"
+#define TP_VungleAdapter_Version @"9.6.0"
+#define TP_VungleAdapter_PlatformSDK_Version @"7.0.1"
 

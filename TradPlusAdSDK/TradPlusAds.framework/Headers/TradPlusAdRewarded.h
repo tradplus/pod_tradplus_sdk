@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///加载广告
 - (void)loadAd;
+- (void)loadAdWithMaxWaitTime:(NSTimeInterval)maxWaitTime;
 
 /// 显示广告
 /// @param sceneId 场景ID 可以为nil
@@ -51,6 +52,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param customData 附加信息 根据平台要求填写
 - (void)setServerSideVerificationOptionsWithUserID:(nonnull NSString *)userID customData:(nullable NSString *)customData;
 
+- (void)openAutoLoadCallback;
+
 //用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
 //开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
 @property (nonatomic, strong)NSDictionary *customAdInfo;
@@ -64,6 +67,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak) id <TradPlusADRewardedDelegate> delegate;
 @property (nonatomic,weak) id <TradPlusADRewardedPlayAgainDelegate> playAgainDelegate;
 
+//用户设置本地配置
+@property (nullable,nonatomic, strong)NSDictionary *localParams;
 @end
 
 @protocol TradPlusADRewardedDelegate <NSObject>
