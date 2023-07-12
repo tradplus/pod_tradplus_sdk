@@ -4,6 +4,7 @@
 
 #import <IronSource/IronSource.h>
 #import "TPIronSourceRewardedVideoDelegate.h"
+#import "TPIronSourceConstants.h"
 #import "TPIronSourceInterstitialDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN

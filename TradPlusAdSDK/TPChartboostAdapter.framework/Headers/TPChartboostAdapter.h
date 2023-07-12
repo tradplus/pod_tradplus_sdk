@@ -1,5 +1,5 @@
-#import <TPChartboostAdapter/TradPlusChartboostBannerAdapter.h>
-#import <TPChartboostAdapter/TradPlusChartboostInterstitialAdapter.h>
-#import <TPChartboostAdapter/TradPlusChartboostRewardedAdapter.h>
-#import <TPChartboostAdapter/TradPlusChartboostSDKLoader.h>
-#import <TPChartboostAdapter/TPChartboostAdapterBaseInfo.h>
+#import <ChartboostAdapter/TradPlusChartboostBannerAdapter.h>
+#import <ChartboostAdapter/TradPlusChartboostInterstitialAdapter.h>
+#import <ChartboostAdapter/TradPlusChartboostRewardedAdapter.h>
+#import <ChartboostAdapter/TradPlusChartboostSDKLoader.h>
+#import <ChartboostAdapter/TPChartboostAdapterBaseInfo.h>

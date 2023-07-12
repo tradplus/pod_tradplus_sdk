@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)setupWithAdm:(NSString *)adm frame:(CGRect)rect;
 @property (nonatomic,strong)WKWebView *webView;
-@property (nonatomic,assign)BOOL openOMID;
 
 @property (nonatomic, copy) void (^loadFinishAct)(void);
 @property (nonatomic, copy) void (^loadFailAct)(NSError *error);

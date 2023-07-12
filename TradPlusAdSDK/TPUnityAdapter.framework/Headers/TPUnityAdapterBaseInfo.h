@@ -1,3 +1,3 @@
-#define TP_UnityAdapter_Version @"9.6.0"
-#define TP_UnityAdapter_PlatformSDK_Version @"4.7.1"
+#define TP_UnityAdapter_Version @"9.2.20"
+#define TP_UnityAdapter_PlatformSDK_Version @"4.6.1"
 

@@ -1,5 +1,5 @@
-#import <TPUnityAdapter/TradPlusUnityBannerAdapter.h>
-#import <TPUnityAdapter/TradPlusUnityInterstitialAdapter.h>
-#import <TPUnityAdapter/TradPlusUnityRewardedAdapter.h>
-#import <TPUnityAdapter/TradPlusUnitySDKLoader.h>
-#import <TPUnityAdapter/TPUnityAdapterBaseInfo.h>
+#import <UnityAdapter/TradPlusUnityBannerAdapter.h>
+#import <UnityAdapter/TradPlusUnityInterstitialAdapter.h>
+#import <UnityAdapter/TradPlusUnityRewardedAdapter.h>
+#import <UnityAdapter/TradPlusUnitySDKLoader.h>
+#import <UnityAdapter/TPUnityAdapterBaseInfo.h>

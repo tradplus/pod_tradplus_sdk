@@ -21,8 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)skip;
 - (void)close;
 - (BOOL)checkRewarded;
-- (void)startCheck;
-- (void)finishCheck;
 
 @property (nonatomic,weak)TPADXResourceData *resourceData;
 @property (nonatomic,assign)BOOL isMute;

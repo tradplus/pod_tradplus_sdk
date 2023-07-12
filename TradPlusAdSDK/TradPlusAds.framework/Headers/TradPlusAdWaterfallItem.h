@@ -105,9 +105,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong)NSArray *style_name;
 
-//跳过现实时间
-@property (nonatomic,assign)NSInteger skip_time;
-
 //广告倒计时时间
 @property (nonatomic,assign)NSInteger countdown_time;
 //广告可否跳过
@@ -126,10 +123,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)TradPlusAdsourceplacementModel *adsourceplacement;
 @property (nonatomic,copy)NSString *topPirce;
 @property (nonatomic,copy)NSString *topPirceASPID;
-
-@property (nonatomic,copy)NSString *secondPirce;
-@property (nonatomic,copy)NSString *secondPirceASPID;
-
 @property (nonatomic,assign)NSInteger payloadTimeout;
 @property (nonatomic,strong)NSDate *startBidddingDate;
 @property (nonatomic,strong)NSDate *finishBiddingDate;

@@ -1,3 +1,3 @@
-#define TP_SmaatoAdapter_Version @"9.6.0"
-#define TP_SmaatoAdapter_PlatformSDK_Version @"22.1.3"
+#define TP_SmaatoAdapter_Version @"9.2.20"
+#define TP_SmaatoAdapter_PlatformSDK_Version @"22.0.2"
 

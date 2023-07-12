@@ -1,6 +1,6 @@
-#import <TPSmaatoAdapter/TradPlusSmaatoBannerAdapter.h>
-#import <TPSmaatoAdapter/TradPlusSmaatoInterstitialAdapter.h>
-#import <TPSmaatoAdapter/TradPlusSmaatoNativeAdapter.h>
-#import <TPSmaatoAdapter/TradPlusSmaatoRewardedAdapter.h>
-#import <TPSmaatoAdapter/TradPlusSmaatoSDKLoader.h>
-#import <TPSmaatoAdapter/TPSmaatoAdapterBaseInfo.h>
+#import <SmaatoAdapter/TradPlusSmaatoBannerAdapter.h>
+#import <SmaatoAdapter/TradPlusSmaatoInterstitialAdapter.h>
+#import <SmaatoAdapter/TradPlusSmaatoNativeAdapter.h>
+#import <SmaatoAdapter/TradPlusSmaatoRewardedAdapter.h>
+#import <SmaatoAdapter/TradPlusSmaatoSDKLoader.h>
+#import <SmaatoAdapter/TPSmaatoAdapterBaseInfo.h>

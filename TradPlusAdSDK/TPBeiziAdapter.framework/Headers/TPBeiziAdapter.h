@@ -1,3 +1,3 @@
-#import <TPBeiziAdapter/TradPlusBeiziSplashAdapter.h>
-#import <TPBeiziAdapter/TPBeiziAdapterBaseInfo.h>
-#import <TPBeiziAdapter/TradPlusBeiziSDKLoader.h>
+#import <BeiziAdapter/TradPlusBeiziSplashAdapter.h>
+#import <BeiziAdapter/TPBeiziAdapterBaseInfo.h>
+

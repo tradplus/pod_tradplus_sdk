@@ -54,8 +54,6 @@
 - (void)showFinsihWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///show 1300
 - (void)showFinish1300WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
-///show 1310
-- (void)showFinish1310WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///show Fail 1350 失败
 - (void)showFailWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId error:(NSError *)error;
 ///click
