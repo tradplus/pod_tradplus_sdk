@@ -30,7 +30,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///加载广告
 - (void)loadAd;
-- (void)loadAdWithMaxWaitTime:(NSTimeInterval)maxWaitTime;
 
 /// 显示广告
 /// @param sceneId 场景ID 可以为nil
@@ -45,8 +44,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 进入广告场景
 /// @param sceneId 场景ID 可以为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
-
-- (void)openAutoLoadCallback;
 
 //用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
 //开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]

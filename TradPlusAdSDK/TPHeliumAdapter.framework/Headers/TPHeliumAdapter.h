@@ -1,6 +1,6 @@
-#import <HeliumAdapter/TradPlusHeliumBannerAdapter.h>
-#import <HeliumAdapter/TradPlusHeliumInterstitialAdapter.h>
-#import <HeliumAdapter/TradPlusHeliumRewardedAdapter.h>
-#import <HeliumAdapter/TradPlusHeliumSDKLoader.h>
-#import <HeliumAdapter/TPHeliumAdapterBaseInfo.h>
-#import <HeliumAdapter/TPHeliumBannerManger.h>
+#import <TPHeliumAdapter/TradPlusHeliumBannerAdapter.h>
+#import <TPHeliumAdapter/TradPlusHeliumInterstitialAdapter.h>
+#import <TPHeliumAdapter/TradPlusHeliumRewardedAdapter.h>
+#import <TPHeliumAdapter/TradPlusHeliumSDKLoader.h>
+#import <TPHeliumAdapter/TPHeliumAdapterBaseInfo.h>
+#import <TPHeliumAdapter/TPHeliumBannerManger.h>

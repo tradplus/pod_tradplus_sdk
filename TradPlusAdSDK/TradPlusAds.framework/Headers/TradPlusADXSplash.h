@@ -21,8 +21,6 @@
 @property (nonatomic,assign)BOOL isSkip;
 @property (nonatomic,assign)NSInteger countdownTime;
 @property (nonatomic,assign)NSInteger skipTime;
-
-@property (nonatomic,readonly)NSDictionary *bidcn;
 @end
 
 @protocol TPADXSplashDelegate <NSObject>

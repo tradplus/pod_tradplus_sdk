@@ -44,6 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSError *)downloadVideoTimeOutError;
 - (NSError *)downloadVideoError;
 - (NSError *)downloadImageError;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -70,19 +70,6 @@ extern NSInteger gTPHttpTimeoutEvent;
 extern NSInteger gTPHttpTimeoutConf;
 
 typedef enum : NSUInteger {
-    TPLoadType_SetAdUnitID = 1,
-    TPLoadType_NoReady = 2,
-    TPLoadType_NoCache = 3,
-    TPLoadType_ShowSuccess = 4,
-    TPLoadType_UserLoad = 6,
-    TPLoadType_Unknown = 10,
-    TPLoadType_AutoRefresh = 11,
-    TPLoadType_ADExpired = 12,
-    TPLoadType_NetworkRecovery = 13,
-    TPLoadType_LoadFailed = 500,
-} TPLoadType;
-
-typedef enum : NSUInteger {
     TPBidPrice_USD,
     TPBidPrice_CNY
 } TPBidPriceCurrency;
@@ -166,6 +153,7 @@ typedef enum : NSUInteger {
     EV_SHOW_AD               = 1100,
     EV_CLICK_AD              = 1200,
     EV_AD_VIDEO_START        = 1300,
+    EV_AD_IMP_1310           = 1310,
     EV_BID_IMP               = 1320,
     EV_AD_VIDEO_ERROR        = 1350,
     EV_AD_VIDEO_CLOSE        = 1400,
@@ -242,9 +230,7 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
     NETWORK_REKLAMUP = 56,
     NETWORK_BIGO = 57,
     NETWORK_BEIZI = 58,
-    NETWORK_ONEMOB = 60,
-    NETWORK_APPIC = 61,
-    NETWORK_FUSION = 62
+    NETWORK_ONEMOB = 60
 };
 
 @interface MsCommon : NSObject

@@ -1,3 +1,3 @@
-#define TP_CSJAdapter_Version @"9.2.20"
-#define TP_CSJAdapter_PlatformSDK_Version @"4.9.0.7"
+#define TP_CSJAdapter_Version @"9.3.20"
+#define TP_CSJAdapter_PlatformSDK_Version @"5.2.0.5"
 

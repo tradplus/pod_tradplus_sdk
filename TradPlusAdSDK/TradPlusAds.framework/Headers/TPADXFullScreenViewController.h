@@ -28,7 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^clickAct)(BOOL canOpen,NSInteger type,NSTimeInterval videoTime);
 @property (nonatomic, copy) void (^closeAct)(void);
 @property (nonatomic, copy) void (^rewardedAct)(void);
-@property (nonatomic, copy) void (^videoCompleteAct)(BOOL didSkip);
 
 @end
 

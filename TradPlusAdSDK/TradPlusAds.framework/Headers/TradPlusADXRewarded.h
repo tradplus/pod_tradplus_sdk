@@ -22,8 +22,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) BOOL isMute;
 @property (nonatomic,weak) id <TradPlusADXRewardedDelegate> delegate;
 - (BOOL)isReady;
-
-@property (nonatomic,readonly)NSDictionary *bidcn;
 @end
 
 @protocol TradPlusADXRewardedDelegate <NSObject>
@@ -34,7 +32,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)ADXShowFailWithError:(NSError *)error;
 - (void)ADXClicked;
 - (void)ADXDismissed;
-- (void)ADXVideoComplete;
 - (void)ADXReward;
 @end
 

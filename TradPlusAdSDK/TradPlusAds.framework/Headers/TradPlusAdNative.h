@@ -25,14 +25,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 加载广告
 - (void)loadAd;
-- (void)loadAdWithMaxWaitTime:(NSTimeInterval)maxWaitTime;
+
 
 /// 加载广告并设置缓存个数
 /// @param adsCount 缓存个数
 - (void)loadAds:(NSInteger)adsCount;
-- (void)loadAds:(NSInteger)adsCount maxWaitTime:(NSTimeInterval)maxWaitTime;
-
-
 
 /// 显示广告
 /// @param renderingViewClass renderingViewClass
@@ -58,8 +55,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// Mintegral Pangle GDTMob KuaiShou 的模版渲染需要设置
 /// @param size 尺寸
 - (void)setTemplateRenderSize:(CGSize)size;
-
-- (void)openAutoLoadCallback;
 
 //用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
 //开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]

@@ -1,3 +1,3 @@
-#define TP_OguryAdapter_Version @"9.2.20"
+#define TP_OguryAdapter_Version @"9.3.20"
 #define TP_OguryAdapter_PlatformSDK_Version @"2.1.0"
 

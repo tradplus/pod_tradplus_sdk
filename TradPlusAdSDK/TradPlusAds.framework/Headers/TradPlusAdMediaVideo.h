@@ -23,13 +23,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///加载广告
 - (void)loadAd:(UIView *)adContainer viewController:(UIViewController *)viewController mute:(BOOL)mute;
-- (void)loadAd:(UIView *)adContainer viewController:(UIViewController *)viewController mute:(BOOL)mute maxWaitTime:(NSTimeInterval)maxWaitTime;
 
 /// 进入广告场景
 /// @param sceneId 场景ID 没有则设置为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
-
-- (void)openAutoLoadCallback;
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;

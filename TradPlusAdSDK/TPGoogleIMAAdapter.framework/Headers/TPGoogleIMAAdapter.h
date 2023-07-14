@@ -1,4 +1,4 @@
-#import <GoogleAdapter/TPGoogleIMAAdapterBaseInfo.h>
-#import <GoogleAdapter/TradPlusGoogleMediaVideoAdapter.h>
-#import <GoogleAdapter/TradPlusGoogleIMASDKSetting.h>
+#import <TPGoogleIMAAdapter/TPGoogleIMAAdapterBaseInfo.h>
+#import <TPGoogleIMAAdapter/TradPlusGoogleMediaVideoAdapter.h>
+#import <TPGoogleIMAAdapter/TradPlusGoogleIMASDKSetting.h>
 

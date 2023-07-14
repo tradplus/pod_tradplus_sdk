@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^impressionAct)(void);
 @property (nonatomic, copy) void (^clickAct)(NSTimeInterval videoTime);
 @property (nonatomic, copy) void (^playFailedAct)(NSError *error);
-@property (nonatomic, copy) void (^playFinishAct)(BOOL didSkip);
+@property (nonatomic, copy) void (^playFinishAct)(void);
 @property (nonatomic, copy) void (^playRewardedAct)(void);
 
 @property (nonatomic, copy) void (^stopCountDown)(void);

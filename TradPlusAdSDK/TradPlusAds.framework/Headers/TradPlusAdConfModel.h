@@ -68,5 +68,4 @@
 //waterfall是否为空：0否 1是
 @property (nonatomic,assign)NSInteger is_nothing;
 
-@property (nonatomic,assign)CGFloat loadMaxWaitTime;
 @end

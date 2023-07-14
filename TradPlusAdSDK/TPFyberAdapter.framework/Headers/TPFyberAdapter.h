@@ -1,5 +1,5 @@
-#import <FyberAdapter/TradPlusFyberBannerAdapter.h>
-#import <FyberAdapter/TradPlusFyberInterstitialAdapter.h>
-#import <FyberAdapter/TradPlusFyberRewardedAdapter.h>
-#import <FyberAdapter/TradPlusFyberSDKLoader.h>
-#import <FyberAdapter/TPFyberAdapterBaseInfo.h>
+#import <TPFyberAdapter/TradPlusFyberBannerAdapter.h>
+#import <TPFyberAdapter/TradPlusFyberInterstitialAdapter.h>
+#import <TPFyberAdapter/TradPlusFyberRewardedAdapter.h>
+#import <TPFyberAdapter/TradPlusFyberSDKLoader.h>
+#import <TPFyberAdapter/TPFyberAdapterBaseInfo.h>
