@@ -16,11 +16,11 @@
 + (NSString *)osVersion;
 + (NSString *)isADTrackLimited;
 + (NSString *)getIDFA;
-+ (NSString *)getEid;
 + (NSString *)deviceType;
 + (NSString *)type;
 + (NSString *)getScreenScale;
 + (NSString *)localTimeZone;
++ (NSString *)localTimeZoneNum;
 + (NSString *)localISO;
 + (NSString *)getCarrierName;
 + (NSString *)deviceBrand;
@@ -29,6 +29,7 @@
 + (NSString *)getCurrentLanguage;
 + (NSString *)resolution;
 + (NSString *)appName;
++ (NSString *)hardwareModel;
 + (NSString *)hardwareMachine;
 + (void)checkIDFAPermission;
 

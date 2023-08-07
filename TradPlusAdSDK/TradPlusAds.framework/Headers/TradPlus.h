@@ -40,12 +40,6 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 + (void)setAllowMessagePush:(BOOL)bo;
 + (BOOL)isAllowTracking;
 
-
-/// 强制获取IDFA 配合后台的测试模式使用
-/// 注：测试完成后一定要移除或关闭，开启时会忽略所有隐私规则获取IDFA
-/// @param bo 是否开启
-+ (void)forceGetIDFA:(BOOL)bo;
-
 ///注：此接口需要在initSDK之前调用
 ///此接口设置为Yes后SDK将只使用国内域名
 + (void)setCnServer:(BOOL)bo;

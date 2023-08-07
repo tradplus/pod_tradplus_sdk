@@ -23,10 +23,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///加载广告
 - (void)loadAd:(UIView *)adContainer viewController:(UIViewController *)viewController mute:(BOOL)mute;
+- (void)loadAd:(UIView *)adContainer viewController:(UIViewController *)viewController mute:(BOOL)mute maxWaitTime:(NSTimeInterval)maxWaitTime;
 
 /// 进入广告场景
 /// @param sceneId 场景ID 没有则设置为nil
 - (void)entryAdScenario:(nullable NSString *)sceneId;
+
+- (void)openAutoLoadCallback;
 
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
@@ -96,6 +99,17 @@ NS_ASSUME_NONNULL_BEGIN
 ///点击
 - (void)tpMediaVideoAdTapped:(NSDictionary *)adInfo;
 
+///v9.4.0新增  返回IMA各事件 event IMA为 IMAAdEvent 事件对象
+- (void)tpMediaVideoAdEvent:(id)event adInfo:(NSDictionary *)adInfo;
+
+///v9.4.0新增  返回IMA StartBuffering事件
+- (void)tpMediaVideoAdDidStartBuffering:(NSDictionary *)adInfo;
+
+///v9.4.0新增  返回IMA adDidBufferToMediaTime事件
+- (void)tpMediaVideoAdDidBufferToMediaTime:(NSTimeInterval)mediaTime adInfo:(NSDictionary *)adInfo;
+
+///v9.4.0新增 返回IMA PlaybackReady事件
+- (void)tpMediaVideoAdPlaybackReady:(NSDictionary *)adInfo;
 @end
 
 NS_ASSUME_NONNULL_END

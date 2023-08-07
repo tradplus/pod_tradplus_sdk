@@ -16,17 +16,22 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)clear;
 - (void)countDownStart;
 - (void)countDownStop;
-- (void)finish;
+- (void)skip;
+
 @property (nonatomic,assign)NSInteger videoTime;
 @property (nonatomic,assign)NSInteger showSkipTime;
 @property (nonatomic,assign)BOOL noShowSkip;
-@property (nonatomic,assign)BOOL onlyShowClose;
+
 @property (nonatomic,assign)BOOL isSplash;
 @property (nonatomic,assign)NSInteger splashSkipTime;
 
-@property (nonatomic, copy) void (^skipAct)(void);
+@property (nonatomic, copy) void (^showCloseButtonAct)(void);
+@property (nonatomic, copy) void (^showEndCardCloseButtonAct)(void);
 @property (nonatomic, copy) void (^countDownFinish)(void);
+
+//开屏倒计时结束关闭
 @property (nonatomic, copy) void (^closeAct)(void);
+
 @end
 
 NS_ASSUME_NONNULL_END

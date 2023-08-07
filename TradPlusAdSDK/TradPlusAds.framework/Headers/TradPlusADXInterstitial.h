@@ -22,6 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) BOOL isMute;
 @property (nonatomic,weak) id <TPADXInterstitialDelegate> delegate;
 - (BOOL)isReady;
+
+@property (nonatomic,readonly)NSDictionary *bidcn;
 @end
 
 @protocol TPADXInterstitialDelegate <NSObject>

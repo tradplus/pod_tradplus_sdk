@@ -28,6 +28,7 @@ typedef enum : NSUInteger {
     EV_ADX_OPEN_APP    = 6240,
     EV_ADX_CLICK_TRACK_START = 6245,
     EV_ADX_CLICK_TRACK_END  = 6250,
+    EV_ADX_AUTO_CLICK = 6300,
 } TPADXEventType;
 
 @interface TPADXEventManager : NSObject

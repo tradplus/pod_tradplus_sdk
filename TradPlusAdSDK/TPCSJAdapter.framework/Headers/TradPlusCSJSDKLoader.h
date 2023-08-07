@@ -17,7 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)initWithAppID:(NSString *)appID
                  delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
 - (void)setAllowModifyAudioSessionSettingWithExtraInfo:(NSDictionary *)extraInfo;
-+ (NSString *)getNotificationStr;
 + (NSString *)getSDKVersion;
 + (NSString *)getCurrentVersion;
 - (void)setPersonalizedAd;

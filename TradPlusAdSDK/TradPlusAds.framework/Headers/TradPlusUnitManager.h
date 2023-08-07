@@ -22,9 +22,11 @@
 @property (nonatomic,copy)NSString *serverSideUserID;
 @property (nonatomic,copy)NSString *serverSideCustomData;
 
+@property (nonatomic,assign)CGFloat loadMaxWaitTime;
+
 - (instancetype)initWithPlacementID:(NSString *)placementID;
 - (void)loadAd;
-- (void)loadAdWithType:(NSInteger)loadType;
+- (void)loadAdWithType:(TPLoadType)loadType;
 - (BOOL)checkReady;
 - (void)entryAdScenario:(NSString *)sceneId;
 - (void)logBase64Config;
@@ -145,6 +147,7 @@
 
 //banner相关属性
 @property (nonatomic,weak)UIViewController *bannerRootViewController;
+@property (nonatomic,weak)UIViewController *nativeRootViewController;
 @property (nonatomic,assign)CGSize bannerSize;
 @property (nonatomic,assign)TPBannerContentMode bannerContentMode;
 

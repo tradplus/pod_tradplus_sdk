@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)TPADXResourceData *resourceData;
 @property (nonatomic,strong)NSDate *loadFinishDate;
 @property (nonatomic,strong)NSDate *finishBiddingDate;
+@property (nonatomic,copy)NSString *ecpm;
 
 - (void)startLoadEvent;
 - (void)finishLoadEvent:(NSString *)errorCode;
@@ -33,6 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)startShowEvent;
 - (void)finishShowEvent:(NSString *)errorCode;
 - (void)clickEvent:(BOOL)canOpen;
+- (void)holdUpClickEvent:(BOOL)holdUp;
 - (void)reportClickArray:(NSArray <NSURL *>*)clickArray;
 - (void)reportShowArray:(NSArray <NSURL *>*)showArray;
 - (void)checkRelease;
@@ -44,7 +46,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSError *)downloadVideoTimeOutError;
 - (NSError *)downloadVideoError;
 - (NSError *)downloadImageError;
-
 @end
 
 NS_ASSUME_NONNULL_END

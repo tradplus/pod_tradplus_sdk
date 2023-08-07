@@ -36,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)encryptionEventWithURLStr:(NSString *)urlStr eventStr:(NSString *)eventStr completionHandler:(void (^)(NSError * _Nullable error))completionHandler;
 - (void)encryptionEventWithURLStr:(NSString *)urlStr eventData:(NSData *)eventData completionHandler:(void (^)(NSError * _Nullable error))completionHandler;
 //bidding 通知
-- (void)bidTrackingWithURLStr:(NSString *)strURL ecpmValue:(NSString *)ecpmValue lostCode:(NSString *)lostCode ASPID:(NSString *)ASPID completionBlock:(void (^)(NSString *ec))completionBlock;
+- (void)bidTrackingWithURLStr:(NSString *)strURL ecpmValue:(NSString *)ecpmValue secondValue:(NSString *)secondValue lostCode:(NSString *)lostCode ASPID:(NSString *)ASPID secondASPID:(NSString *)secondASPID completionBlock:(void (^)(NSString *ec))completionBlock;
 @end
 
 NS_ASSUME_NONNULL_END

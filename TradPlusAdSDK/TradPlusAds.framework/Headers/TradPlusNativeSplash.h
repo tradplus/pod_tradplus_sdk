@@ -21,11 +21,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setAdUnitID:(NSString *)adUnitID;
 /// 加载广告
 - (void)loadAd;
+- (void)loadAdWithMaxWaitTime:(NSTimeInterval)maxWaitTime;
 
 /// 设置模版渲染的尺寸 需要在load之前设置
 /// 默认使用 屏幕最短边正方形size进行渲染
 /// @param size 尺寸
 - (void)setTemplateRenderSize:(CGSize)size;
+
+- (void)openAutoLoadCallback;
 
 ///设置模版渲染的布局方式 默认 TPTemplateContentModeCenter
 @property (nonatomic,assign)TPTemplateContentMode templateContentMode;

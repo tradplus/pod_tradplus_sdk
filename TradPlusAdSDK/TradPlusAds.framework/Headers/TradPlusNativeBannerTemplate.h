@@ -7,11 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TradPlusAds/TradPlusNativeAdRendering.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TradPlusNativeBannerTemplate : UIView
+@interface TradPlusNativeBannerTemplate : UIView <TradPlusNativeAdRendering>
 
+@property (nonatomic,weak)IBOutlet NSLayoutConstraint *titleTopConstraint;
+@property (nonatomic,weak)IBOutlet NSLayoutConstraint *descHeightConstraint;
+@property (nonatomic,weak)IBOutlet NSLayoutConstraint *mediaViewWidthConstraint;
+@property (nonatomic,weak)IBOutlet NSLayoutConstraint *adChoiceRightConstraint;
+@property (nonatomic,weak)IBOutlet NSLayoutConstraint *iconWidthConstraint;
+@property (nonatomic,weak)IBOutlet UILabel *ctaLabel;
 @end
 
 NS_ASSUME_NONNULL_END

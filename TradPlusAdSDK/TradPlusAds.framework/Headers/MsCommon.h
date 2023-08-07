@@ -42,7 +42,6 @@ extern NSString *gRewardServerURL;
 extern NSString *gImpCallbackURL;
 
 extern BOOL gTPTestMode;
-extern BOOL gForceGetIDFA;
 extern BOOL gMsSDKDebugMode;
 extern BOOL gMsSDKForceTest;
 extern BOOL gMsSDKInited;
@@ -68,6 +67,19 @@ extern NSInteger gTPHttpTimeoutCross;
 extern NSInteger gTPHttpTimeoutAdx;
 extern NSInteger gTPHttpTimeoutEvent;
 extern NSInteger gTPHttpTimeoutConf;
+
+typedef enum : NSUInteger {
+    TPLoadType_SetAdUnitID = 1,
+    TPLoadType_NoReady = 2,
+    TPLoadType_NoCache = 3,
+    TPLoadType_ShowSuccess = 4,
+    TPLoadType_UserLoad = 6,
+    TPLoadType_Unknown = 10,
+    TPLoadType_AutoRefresh = 11,
+    TPLoadType_ADExpired = 12,
+    TPLoadType_NetworkRecovery = 13,
+    TPLoadType_LoadFailed = 500,
+} TPLoadType;
 
 typedef enum : NSUInteger {
     TPBidPrice_USD,
@@ -118,6 +130,13 @@ typedef enum : NSUInteger {
     ADTYPE_SPLASH,
     ADTYPE_MEDIAVIDEO
 } MsADType;
+
+typedef enum : NSUInteger {
+    TPAdChoicesPositionTopRightCorner,     ///< Top right corner.
+    TPAdChoicesPositionTopLeftCorner,      ///< Top left corner.
+    TPAdChoicesPositionBottomRightCorner,  ///< Bottom right corner.
+    TPAdChoicesPositionBottomLeftCorner    ///< Bottom Left Corner.
+}TPAdChoicesPosition;
 
 typedef enum : NSUInteger {
     TPNativeADTYPE_Unknown = 0,//未知
@@ -230,7 +249,9 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
     NETWORK_REKLAMUP = 56,
     NETWORK_BIGO = 57,
     NETWORK_BEIZI = 58,
-    NETWORK_ONEMOB = 60
+    NETWORK_ONEMOB = 60,
+    NETWORK_APPIC = 61,
+    NETWORK_FUSION = 62
 };
 
 @interface MsCommon : NSObject
@@ -255,4 +276,6 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
 + (NSData *)getJsonDataWithObj:(id)obj;
 
 + (NSDate *)SDKStartDate;
+
+@property (nonatomic, strong) UIButton *btnShowLog;
 @end

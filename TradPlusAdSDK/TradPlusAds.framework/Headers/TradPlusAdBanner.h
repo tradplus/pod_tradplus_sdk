@@ -27,14 +27,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// customRenderingViewClass 仅对Waterfall中的原生广告生效 
 @property (nonatomic,strong,nullable)Class customRenderingViewClass;
 
-/// v8.4.0新增
-/// 指定原生横幅的renderer 未设置时SDK会使用默认模版进行渲染
-/// customRenderer 仅对Waterfall中的原生广告生效
-@property (nonatomic,strong,nullable)TradPlusNativeRenderer *customRenderer;
-
 /// 加载广告
 /// @param sceneId 场景ID 没有则设置为nil 用于自动展示模式下
 - (void)loadAdWithSceneId:(nullable NSString *)sceneId;
+- (void)loadAdWithSceneId:(nullable NSString *)sceneId maxWaitTime:(NSTimeInterval)maxWaitTime;
 
 /// 展示广告
 /// @param sceneId 场景ID 没有则设置为nil
@@ -55,6 +51,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///获取三方渠道广告对象
 - (nullable id)getBannerAd;
+
+- (void)openAutoLoadCallback;
 
 //用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
 //开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
@@ -95,6 +93,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpBannerAdClicked:(NSDictionary *)adInfo;
 
 @optional
+
+// v9.7.0
+// 替代原 @property (nonatomic,strong,nullable)TradPlusNativeRenderer *customRenderer;
+// 指定原生横幅的renderer 未设置时SDK会使用默认模版进行渲染
+// customRenderer 仅对Waterfall中的原生广告生效
+// 注：请不要强引用 customRenderer，这样会导致原生横幅无法释放。
+- (nullable TradPlusNativeRenderer *)tpBannerCustomRenderer;
 
 ///为三方提供rootviewController 用于点击广告后的操作
 - (nullable UIViewController *)viewControllerForPresentingModalView;
