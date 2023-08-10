@@ -1,6 +1,0 @@
-framework module TPZMaticooAdapter {
-  umbrella header "TPZMaticooAdapter.h"
-
-  export *
-  module * { export * }
-}

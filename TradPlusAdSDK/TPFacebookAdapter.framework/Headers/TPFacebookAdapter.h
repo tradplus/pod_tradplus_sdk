@@ -1,7 +1,7 @@
-#import <TPFacebookAdapter/TPFacebookAdapterConfig.h>
-#import <TPFacebookAdapter/TradPlusFacebookAdapter.h>
-#import <TPFacebookAdapter/TradPlusFacebookBannerAdapter.h>
-#import <TPFacebookAdapter/TradPlusFacebookInterstitialAdapter.h>
-#import <TPFacebookAdapter/TradPlusFacebookNativeAdapter.h>
-#import <TPFacebookAdapter/TradPlusFacebookRewardedAdapter.h>
-#import <TPFacebookAdapter/TPFacebookAdapterBaseInfo.h>
+#import <FacebookAdapter/FacebookAdapterConfig.h>
+#import <FacebookAdapter/TradPlusFacebookAdapter.h>
+#import <FacebookAdapter/TradPlusFacebookBannerAdapter.h>
+#import <FacebookAdapter/TradPlusFacebookInterstitialAdapter.h>
+#import <FacebookAdapter/TradPlusFacebookNativeAdapter.h>
+#import <FacebookAdapter/TradPlusFacebookRewardedAdapter.h>
+#import <FacebookAdapter/TPFacebookAdapterBaseInfo.h>

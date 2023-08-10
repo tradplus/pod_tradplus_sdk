@@ -18,7 +18,6 @@ extern NSString * const kTPRendererMainImageView;
 extern NSString * const kTPRendererMediaView;
 //AdChoice图标
 extern NSString * const kTPRendererAdChoiceImageView;
-extern NSString * const kTPRendererAutoLayout;
 
 @class TradPlusAdWaterfallItem;
 @interface TradPlusBaseAdapter : NSObject
@@ -71,8 +70,6 @@ extern NSString * const kTPRendererAutoLayout;
 - (void)AdPasterPlayFinish;
 
 - (void)setBannerCenterWithBanner:(UIView *)banner subView:(UIView *)subView;
-
-- (void)addAutoLayoutWithView:(UIView *)view;
 
 @property (nonatomic,weak)TradPlusAdWaterfallItem *waterfallItem;
 @property (nonatomic,strong)NSMutableArray *downLoadURLArray;

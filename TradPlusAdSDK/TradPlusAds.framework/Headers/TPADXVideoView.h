@@ -21,14 +21,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)skip;
 - (void)close;
 - (BOOL)checkRewarded;
-- (void)startCheck;
-- (void)finishCheck;
 
 @property (nonatomic,weak)TPADXResourceData *resourceData;
 @property (nonatomic,assign)BOOL isMute;
 @property (nonatomic,assign)BOOL isNative;
-//0=准备 1=播放中 2=播放完 3= 播放失败
-@property (nonatomic,assign)NSInteger playStatus;
 
 @property (nonatomic, copy) void (^startPlayAct)(void);
 @property (nonatomic, copy) void (^impressionAct)(void);
