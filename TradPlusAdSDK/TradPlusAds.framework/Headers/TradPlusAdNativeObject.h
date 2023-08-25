@@ -41,6 +41,9 @@ NS_ASSUME_NONNULL_BEGIN
 //开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
 @property (nonatomic, strong)NSDictionary *customAdInfo;
 
+///用于判断是否为ADX广告
+@property (nonatomic,assign)BOOL isADX;
+
 ///TP封装的Native资源
 @property (nonatomic,readonly)TradPlusAdRes *res;
 

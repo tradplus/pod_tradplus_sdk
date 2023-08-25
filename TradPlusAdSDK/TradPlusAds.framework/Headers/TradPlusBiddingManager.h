@@ -16,7 +16,7 @@
 
 - (void)startBiddingWithWithConfig:(TradPlusAdConfModel *)config callback:(void (^)(NSMutableArray <TradPlusAdWaterfallItem *>*waterfallArray,NSError *error))callback;
 - (void)removeItem:(TradPlusAdWaterfallItem *)item;
-- (void)updataTopPrice:(NSString *)topPrice adsourceId:(NSString *)adsourceId;
+- (void)updataTopPrice:(NSString *)topPrice topPriceCNY:(NSString *)topPriceCNY  adsourceId:(NSString *)adsourceId;
 - (void)clear;
 
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;

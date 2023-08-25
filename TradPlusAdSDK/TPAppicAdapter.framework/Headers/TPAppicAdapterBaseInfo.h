@@ -1,3 +1,3 @@
-#define TP_AppicAdapter_Version @"9.2.30"
+#define TP_AppicAdapter_Version @"9.2.40"
 #define TP_AppicAdapter_PlatformSDK_Version @"5.0.7.10"
 

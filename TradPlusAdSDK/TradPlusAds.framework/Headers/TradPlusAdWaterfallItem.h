@@ -120,8 +120,10 @@ NS_ASSUME_NONNULL_BEGIN
 //bidding相关
 @property (nonatomic,assign)BOOL isBidding;
 @property (nonatomic,copy)NSString *biddingValue;
+@property (nonatomic,copy)NSString *biddingValue_cny;
 @property (nonatomic,strong)TradPlusAdsourceplacementModel *adsourceplacement;
 @property (nonatomic,copy)NSString *topPirce;
+@property (nonatomic,copy)NSString *topPirce_cny;
 @property (nonatomic,copy)NSString *topPirceASPID;
 @property (nonatomic,assign)NSInteger payloadTimeout;
 @property (nonatomic,strong)NSDate *startBidddingDate;
@@ -153,6 +155,9 @@ NS_ASSUME_NONNULL_BEGIN
 //开屏相关属性
 @property (nonatomic,assign)CGSize splashBottomSize;
 @property (nonatomic,weak)UIWindow *splashWindow;
+
+//0 否 1 是
+@property (nonatomic,assign)NSInteger is_adx;
 
 @property (nonatomic,weak)UIView *mediaVideoAdContainer;
 @property (nonatomic,weak)UIViewController *mediaVideoViewController;
