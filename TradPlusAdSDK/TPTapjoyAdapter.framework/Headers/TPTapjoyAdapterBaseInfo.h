@@ -1,3 +1,3 @@
-#define TP_TapjoyAdapter_Version @"9.2.40"
+#define TP_TapjoyAdapter_Version @"9.2.41"
 #define TP_TapjoyAdapter_PlatformSDK_Version @"12.11.1"
 
