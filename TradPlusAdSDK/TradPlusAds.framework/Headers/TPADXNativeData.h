@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/TPADXVideoView.h>
+#import <TradPlusAds/TPADXAdChoiceView.h>
 
 
 @interface TPADXNativeData : NSObject
@@ -26,6 +27,7 @@
 @property (nonatomic,assign)CGFloat iconWidth;
 @property (nonatomic,assign)CGFloat mainImageHeight;
 @property (nonatomic,assign)CGFloat mainImageWidth;
+@property (nonatomic,strong)TPADXAdChoiceView *adChoiceView;
 
 @property (nonatomic,copy)NSString *vastString;
 //imptrackers

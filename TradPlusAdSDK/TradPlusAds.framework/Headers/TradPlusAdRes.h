@@ -103,6 +103,8 @@ typedef enum : NSUInteger {
 // imageURL数组
 @property (nonatomic,strong)NSArray *imageURLList;
 
+@property (nonatomic,assign)CGFloat aspectRatio;
+
 //非常用 扩展数据 
 @property (nonatomic,strong)NSMutableDictionary *extraInfo;
 @end

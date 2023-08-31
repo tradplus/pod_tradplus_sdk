@@ -9,10 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/TradPlusBaseAdapter.h>
 #import <TradPlusAds/MsCommon.h>
+#import <TradPlusAds/TradPlusAdxInStreamView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-///注意：此对象需要在主线程上释放
+/// 注意：此对象需要在主线程上释放
 @interface TradPlusMediaVideoAdObject : NSObject
 
 - (instancetype)initWithWaterfallItem:(TradPlusAdWaterfallItem *)waterfallItem;
@@ -21,6 +22,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param viewController 当前视图控制器或为nil
 /// @param sceneId 场景ID 没有则设置为nil
 - (void)startWithViewController:(nullable UIViewController *)viewController sceneId:(nullable NSString *)sceneId;
+
+
+/// 开始播放
+/// @param viewController 当前视图控制器或为nil
+/// @param customView 自定义的插播视图 仅支持TPADX
+/// @param sceneId 场景ID 没有则设置为nil
+- (void)startWithViewController:(nullable UIViewController *)viewController inStreamView:(nullable TradPlusAdxInStreamView *)customView sceneId:(nullable NSString *)sceneId;
 
 ///暂停播放
 - (void)pause;

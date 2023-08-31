@@ -105,6 +105,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong)NSArray *style_name;
 
+//跳过现实时间
+@property (nonatomic,assign)NSInteger skip_time;
+
 //广告倒计时时间
 @property (nonatomic,assign)NSInteger countdown_time;
 //广告可否跳过
@@ -125,6 +128,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *topPirce;
 @property (nonatomic,copy)NSString *topPirce_cny;
 @property (nonatomic,copy)NSString *topPirceASPID;
+
+@property (nonatomic,copy)NSString *secondPirce;
+@property (nonatomic,copy)NSString *secondPirceASPID;
+
 @property (nonatomic,assign)NSInteger payloadTimeout;
 @property (nonatomic,strong)NSDate *startBidddingDate;
 @property (nonatomic,strong)NSDate *finishBiddingDate;
@@ -156,13 +163,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)CGSize splashBottomSize;
 @property (nonatomic,weak)UIWindow *splashWindow;
 
-//0 否 1 是
-@property (nonatomic,assign)NSInteger is_adx;
-
 @property (nonatomic,weak)UIView *mediaVideoAdContainer;
 @property (nonatomic,weak)UIViewController *mediaVideoViewController;
 @property (nonatomic,weak)UIViewController *nativeRootViewController;
 @property (nonatomic,assign)BOOL mute;
+
+//0 否 1 是
+@property (nonatomic,assign)NSInteger is_adx;
 
 //激励视频
 @property (nonatomic,assign)BOOL rewarded;

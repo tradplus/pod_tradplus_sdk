@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) BOOL checkVisible;
 @property (nonatomic,assign) NSInteger minAreaRatio;
 @property (nonatomic,assign) NSInteger minDuration;
+@property (nonatomic,assign)BOOL openOMID;
 
 @property (nonatomic, copy) void (^clickAct)(BOOL canOpen);
 @property (nonatomic, copy) void (^impressionAct)(void);

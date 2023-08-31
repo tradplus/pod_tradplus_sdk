@@ -1,4 +1,4 @@
-#import <TradPlusAds/MSAdDestinationDisplayAgent.h>
+#import "MSAdDestinationDisplayAgent.h"
 #import "TPFullscreenAdAdapter.h"
 #import "TPVideoPlayerDelegate.h"
 #import "TPFullscreenAdViewControllerDelegate.h"

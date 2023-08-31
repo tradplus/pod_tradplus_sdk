@@ -1,5 +1,5 @@
-#import <AppLovinAdapter/TradPlusAppLovinBannerAdapter.h>
-#import <AppLovinAdapter/TradPlusAppLovinInterstitialAdapter.h>
-#import <AppLovinAdapter/TradPlusAppLovinRewardedAdapter.h>
-#import <AppLovinAdapter/TradPlusAppLovinSDKLoader.h>
-#import <AppLovinAdapter/TPAppLovinAdapterBaseInfo.h>
+#import <TPAppLovinAdapter/TradPlusAppLovinBannerAdapter.h>
+#import <TPAppLovinAdapter/TradPlusAppLovinInterstitialAdapter.h>
+#import <TPAppLovinAdapter/TradPlusAppLovinRewardedAdapter.h>
+#import <TPAppLovinAdapter/TradPlusAppLovinSDKLoader.h>
+#import <TPAppLovinAdapter/TPAppLovinAdapterBaseInfo.h>

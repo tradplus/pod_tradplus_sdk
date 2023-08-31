@@ -1,8 +1,8 @@
 //
-//  TradPlusBeiziNativeAdapter.h
+//  TradPlusZMaticooSplashAdapter.h
 //  fluteSDKSample
 //
-//  Created by Even on 2023/7/26.
+//  Created by Even on 2023/7/19.
 //  Copyright © 2023 TradPlus. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TradPlusBeiziNativeAdapter : TradPlusBaseAdapter
+@interface TradPlusZMaticooSplashAdapter : TradPlusBaseAdapter
 
 @end
 
