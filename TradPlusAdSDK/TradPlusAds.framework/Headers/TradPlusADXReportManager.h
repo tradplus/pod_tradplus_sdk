@@ -35,6 +35,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)reportWithURLArray:(NSArray <NSString *>*)urlArray;
 + (void)reportTPURLArray:(NSArray <NSString *>*)urlArray;
 
++ (NSArray *)reportCNImpArray:(NSArray <NSString *>*)urlArray adSize:(CGSize)adSize;
++ (NSArray *)reportCNClickArray:(NSArray <NSString *>*)urlArray adSize:(CGSize)adSize clickType:(NSInteger)clickType startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint accelerateX:(NSInteger)accelerateX accelerateY:(NSInteger)accelerateY  accelerateZ:(NSInteger)accelerateZ;
+
 + (nullable NSArray <NSURL *>*)getVideoClickWithResourceData:(TPADXResourceData *)resourceData videoTimeOffset:(NSTimeInterval)videoTimeOffset;
 + (nullable NSArray <NSURL *>*)getEndCardClickWithResourceData:(TPADXResourceData *)resourceData;
 + (nullable NSArray <NSURL *>*)getPlayStartWithResourceData:(TPADXResourceData *)resourceData;

@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TPADXWebView : TradPlusAdxBaseView
 
-- (void)loadWithAdm:(NSString *)adm filterRatio:(NSInteger)ratio;
+- (void)loadWithAdm:(NSString *)adm filterRatio:(NSInteger)ratio fullScreen:(BOOL)fullScreen;
 @property (nonatomic,readonly)WKWebView *webView;
 @property (nonatomic, copy) void (^holdUpClickAct)(BOOL holdUp);
 @end

@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)WKWebView *webView;
 @property (nonatomic,assign)BOOL openOMID;
 @property (nonatomic,assign)NSInteger filterRatio;
+@property (nonatomic,assign)BOOL fullScreen;
 
 @property (nonatomic, copy) void (^loadFinishAct)(void);
 @property (nonatomic, copy) void (^loadFailAct)(NSError *error);

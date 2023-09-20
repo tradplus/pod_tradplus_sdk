@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)NSDate *loadFinishDate;
 @property (nonatomic,strong)NSDate *finishBiddingDate;
 @property (nonatomic,copy)NSString *ecpm;
+@property (nonatomic,assign)BOOL parseCNData;
 
 - (void)startLoadEvent;
 - (void)finishLoadEvent:(NSString *)errorCode;

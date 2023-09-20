@@ -156,3 +156,14 @@
 #import <TradPlusAds/TradPlusADXInStream.h>
 #import <TradPlusAds/TradPlusADXInStreamAdapter.h>
 #import <TradPlusAds/TradPlusAdxInStreamView.h>
+#import <TradPlusAds/TPADXCNData.h>
+#import <TradPlusAds/TPADXCNADData.h>
+#import <TradPlusAds/TPADXCNTrackingData.h>
+#import <TradPlusAds/TPADXCNActionData.h>
+#import <TradPlusAds/TPADXCNHtmlData.h>
+#import <TradPlusAds/TPADXCNVideoData.h>
+#import <TradPlusAds/TPADXCNImageData.h>
+#import <TradPlusAds/TPADXCNEmData.h>
+#import <TradPlusAds/TPADXCNSplashViewController.h>
+#import <TradPlusAds/TPADXCNWeChat.h>
+#import <TradPlusAds/TPADXCNVideoView.h>

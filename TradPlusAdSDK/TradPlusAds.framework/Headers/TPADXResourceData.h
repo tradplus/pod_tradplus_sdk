@@ -10,6 +10,7 @@
 #import <TradPlusAds/TPADXVASTResponse.h>
 #import <TradPlusAds/TPADXWebView.h>
 #import <TradPlusAds/TPADXOMSession.h>
+#import <TradPlusAds/TPADXCNData.h>
 
 @class TradPlusADXBase;
 @class TPADXNativeData;
@@ -17,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TPADXResourceData : NSObject
 
-- (instancetype)initWithPayload:(NSDictionary *)payload;
+- (instancetype)initWithPayload:(NSDictionary *)payload parseCNData:(BOOL)parseCNData;
 
 - (void)setupOMWebViewSession:(WKWebView *)webView;
 - (void)setupVideoSession;
@@ -30,6 +31,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadNativeSplashResourceWithADXBase:(TradPlusADXBase *)base;
 - (void)loadInterstitialSplashResourceWithADXBase:(TradPlusADXBase *)base;
 - (void)loadInStreamResourceWithADXBase:(TradPlusADXBase *)base;
+
+//CN
+- (void)loadCNSplashWithADXBase:(TradPlusADXBase *)base;
 
 @property (nonatomic, copy) void (^loadFailedAct)(NSError *error);
 @property (nonatomic, copy) void (^loadFinishAct)(void);
@@ -94,6 +98,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign)NSInteger iscn;
 @property (nonatomic,strong)NSDictionary *bidcn;
+@property (nonatomic,strong)TPADXCNData *cnData;
+@property (nonatomic,assign)BOOL parseCNData;
 @end
 
 NS_ASSUME_NONNULL_END
