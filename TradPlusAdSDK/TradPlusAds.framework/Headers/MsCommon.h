@@ -68,6 +68,8 @@ extern NSInteger gTPHttpTimeoutAdx;
 extern NSInteger gTPHttpTimeoutEvent;
 extern NSInteger gTPHttpTimeoutConf;
 
+
+
 typedef enum : NSUInteger {
     TPLoadType_SetAdUnitID = 1,
     TPLoadType_NoReady = 2,
@@ -85,6 +87,12 @@ typedef enum : NSUInteger {
     TPBidPrice_USD,
     TPBidPrice_CNY
 } TPBidPriceCurrency;
+
+typedef enum : NSUInteger {
+    TPMediaVideoProtocol_Other,
+    TPMediaVideoProtocol_VAST,
+    TPMediaVideoProtocol_VMAP
+} TPMediaVideoProtocol;
 
 typedef enum : NSUInteger {
     TPTemplateContentModeScaleToFill,//自动充满subview默认

@@ -157,6 +157,7 @@
 //MediaVideo
 @property (nonatomic,weak)UIView *mediaVideoAdContainer;
 @property (nonatomic,weak)UIViewController *mediaVideoViewController;
+@property (nonatomic,weak)id contentPlayhead;
 @property (nonatomic,assign)BOOL mute;
 
 @property (nonatomic,assign)MsADType adType;

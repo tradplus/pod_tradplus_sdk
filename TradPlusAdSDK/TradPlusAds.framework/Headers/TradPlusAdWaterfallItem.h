@@ -45,6 +45,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)NSDictionary *ad_size_info;
 ///视频静音 1:是 2:否
 @property (nonatomic,assign)NSInteger video_mute;
+///视频协议 1:vast, 2:vamp
+@property (nonatomic,assign)NSInteger video_protocol;
 ///自动播放视频  1:总是  2:仅wifi'
 @property (nonatomic,assign)NSInteger auto_play_video;
 ///'是否使用模版渲染  1:是 2:否',
@@ -104,6 +106,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger waterfallIndex;
 
 @property (nonatomic,strong)NSArray *style_name;
+
+//MediaVideo 视频协议
+@property (nonatomic,assign)TPMediaVideoProtocol videoSuite;
 
 //跳过现实时间
 @property (nonatomic,assign)NSInteger skip_time;
