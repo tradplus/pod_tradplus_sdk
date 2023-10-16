@@ -237,9 +237,4 @@ Pod::Spec.new do |spec|
      ss.ios.deployment_target = '9.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPFusionAdapter.framework'
   end
-  spec.subspec 'TPZMaticooAdapter' do |ss|
-     ss.dependency 'TradPlusAdSDK/TradPlusAds'
-     ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPZMaticooAdapter.framework'
-  end
 end
