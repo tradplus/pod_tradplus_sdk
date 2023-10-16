@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/TPADXVASTResponse.h>
 #import <TradPlusAds/TPADXWebView.h>
-#import <TradPlusAds/TPADXOMSession.h>
-#import <TradPlusAds/TPADXCNData.h>
 
 @class TradPlusADXBase;
 @class TPADXNativeData;
@@ -18,11 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TPADXResourceData : NSObject
 
-- (instancetype)initWithPayload:(NSDictionary *)payload parseCNData:(BOOL)parseCNData;
-
-- (void)setupOMWebViewSession:(WKWebView *)webView;
-- (void)setupVideoSession;
-- (void)setupNativeSession;
+- (instancetype)initWithPayload:(NSDictionary *)payload;
 
 - (void)loadRewardedResourceWithADXBase:(TradPlusADXBase *)base;
 - (void)loadInterstitialResourceWithADXBase:(TradPlusADXBase *)base;
@@ -30,16 +24,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadNativeBannerResourceWithADXBase:(TradPlusADXBase *)base adSize:(CGSize)adSize;
 - (void)loadNativeSplashResourceWithADXBase:(TradPlusADXBase *)base;
 - (void)loadInterstitialSplashResourceWithADXBase:(TradPlusADXBase *)base;
-- (void)loadInStreamResourceWithADXBase:(TradPlusADXBase *)base;
-
-//CN
-- (void)loadCNSplashWithADXBase:(TradPlusADXBase *)base;
 
 @property (nonatomic, copy) void (^loadFailedAct)(NSError *error);
 @property (nonatomic, copy) void (^loadFinishAct)(void);
 
-@property (nonatomic,assign)BOOL openOMID;
-@property (nonatomic,strong)TPADXOMSession *OMSession;
 @property (nonatomic,assign)BOOL isMREC;
 @property (nonatomic,strong)TPADXNativeData *nativeData;
 
@@ -63,7 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)TPADXVASTResponse *VASTResponse;
 @property (nonatomic,copy)NSString *videoRemoteURL;
 @property (nonatomic,copy)NSString *videoLocalURL;
-@property (nonatomic,assign)NSTimeInterval videoDuration;
+@property (nonatomic,assign)NSInteger videoDuration;
 @property (nonatomic,assign)NSInteger videoWidth;
 @property (nonatomic,assign)NSInteger videoHeight;
 
@@ -78,13 +66,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *endCardLocalURL;
 
 @property (nonatomic,assign)NSInteger showSkipMinTime;
-@property (nonatomic,assign)NSInteger skipTime;
-
-@property (nonatomic,assign)NSInteger interstitialVideoSkipTime;
-@property (nonatomic,assign)NSInteger endCardCloseTime;
-@property (nonatomic,assign)NSInteger filterRatio;
-
-
 @property (nonatomic,assign)NSInteger rewardedMinTime;
 @property (nonatomic,assign)BOOL hasReward;
 
@@ -98,8 +79,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign)NSInteger iscn;
 @property (nonatomic,strong)NSDictionary *bidcn;
-@property (nonatomic,strong)TPADXCNData *cnData;
-@property (nonatomic,assign)BOOL parseCNData;
 @end
 
 NS_ASSUME_NONNULL_END

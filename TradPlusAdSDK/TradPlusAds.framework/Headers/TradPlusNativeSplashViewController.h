@@ -14,7 +14,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TradPlusNativeSplashViewController : UIViewController
 
 - (void)clear;
-- (void)showSkip;
 
 @property (nonatomic,weak)IBOutlet UIView *adView;
 
@@ -25,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)TradPlusNativeRenderer *renderer;
 @property (nonatomic,strong)TradPlusAdWaterfallItem *item;
 
-@property (nonatomic,copy)void (^skipAct)(BOOL isClose);
+@property (nonatomic,copy)void (^skipAct)(void);
 @property (nonatomic,copy)void (^closeAct)(void);
 @property (nonatomic,copy)void (^showSkipButton)(void);
 @property (nonatomic,copy)void (^callbackCountDown)(NSInteger count);

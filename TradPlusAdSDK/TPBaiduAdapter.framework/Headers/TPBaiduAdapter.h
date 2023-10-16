@@ -1,7 +1,7 @@
-#import <TPBaiduAdapter/TradPlusBaiduBannerAdapter.h>
-#import <TPBaiduAdapter/TradPlusBaiduInterstitialAdapter.h>
-#import <TPBaiduAdapter/TradPlusBaiduNativeAdapter.h>
-#import <TPBaiduAdapter/TradPlusBaiduRewardedAdapter.h>
-#import <TPBaiduAdapter/TradPlusBaiduSDKSetting.h>
-#import <TPBaiduAdapter/TradPlusBaiduSplashAdapter.h>
-#import <TPBaiduAdapter/TPBaiduAdapterBaseInfo.h>
+#import <BaiduAdapter/TradPlusBaiduBannerAdapter.h>
+#import <BaiduAdapter/TradPlusBaiduInterstitialAdapter.h>
+#import <BaiduAdapter/TradPlusBaiduNativeAdapter.h>
+#import <BaiduAdapter/TradPlusBaiduRewardedAdapter.h>
+#import <BaiduAdapter/TradPlusBaiduSDKSetting.h>
+#import <BaiduAdapter/TradPlusBaiduSplashAdapter.h>
+#import <BaiduAdapter/TPBaiduAdapterBaseInfo.h>

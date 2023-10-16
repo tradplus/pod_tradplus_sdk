@@ -14,7 +14,7 @@
 
 - (BOOL)isReady;
 - (void)loadWithPayload:(NSDictionary *)payload finishBiddingDate:(NSDate *)finishBiddingDate;
-- (void)showAdWithBottomView:(UIView *)bottomView;
+- (void)showAd;
 
 @property (nonatomic,weak) id <TPADXSplashDelegate> delegate;
 @property (nonatomic,assign) BOOL isMute;

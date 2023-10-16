@@ -92,6 +92,4 @@ extern NSString * const kTPRendererAutoLayout;
 - (void)ADLoadExtraCallbackWithEvent:(NSString *)event info:(NSDictionary *)info;
 ///Adapter 可在show之后通过此接口向广告对象进行回调
 - (void)ADShowExtraCallbackWithEvent:(NSString *)event info:(NSDictionary *)info;
-///v10.0.0新增扩展 用于返回三方对象
-- (id)getExtraCustomObjectWithName:(NSString *)name;
 @end

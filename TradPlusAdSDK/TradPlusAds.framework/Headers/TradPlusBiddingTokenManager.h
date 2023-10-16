@@ -27,7 +27,6 @@
 @property (nonatomic,readonly)TradPlusMutableArray *adsourceplacements;
 @property (nonatomic,readonly)NSMutableArray <TradPlusAdWaterfallItem *>*biddingArray;
 @property (nonatomic,assign)BOOL hasADX;
-@property (nonatomic,assign)BOOL mainThreadRelease;
 
 @property (nonatomic, copy) void (^biddingItemStart)(TradPlusAdWaterfallItem *biddingItem);
 ///C2S Error

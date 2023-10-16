@@ -1,6 +1,7 @@
 
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/TPSDKLoaderDelegate.h>
+#import <HeliumSdk/HeliumSdk.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

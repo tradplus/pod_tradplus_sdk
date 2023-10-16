@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/MSLogging.h>
 #import <TradPlusAds/MsCommon.h>
-#import <TradPlusAds/TradPlusUID2Info.h>
 
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
@@ -73,8 +72,6 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 //查看用户当前区域
 //isUnknown = YES时表示 未知IP 或 网络请求失败
 + (void)checkCurrentArea:(void (^)(BOOL isUnknown,BOOL isCN,BOOL isCA,BOOL isEU))completionBlock;
-
-@property (nonatomic,strong)TradPlusUID2Info *UID2Info;
 
 ///当前的个性化状态
 @property (nonatomic,readonly)BOOL isOpenPersonalizedAd;

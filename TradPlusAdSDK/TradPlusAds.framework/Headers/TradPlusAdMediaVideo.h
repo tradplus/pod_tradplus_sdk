@@ -31,9 +31,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)openAutoLoadCallback;
 
-///v10.0.0 新增接口可传入contentPlayhead（需符合IMA的IMAContentPlayhead协议）
-@property (nonatomic,strong)id contentPlayhead;
-
 @property (nonatomic, strong) NSString *segmentTag; //TradPlus后台 中介组 tag
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 @property (nonatomic, readonly) BOOL isAdReady;
@@ -47,8 +44,6 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @protocol TradPlusADMediaVideoDelegate <NSObject>
-
-@optional
 
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpMediaVideoAdLoaded:(NSDictionary *)adInfo;
@@ -68,6 +63,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///播放结束
 - (void)tpMediaVideoAdEnd:(NSDictionary *)adInfo;
+
+@optional
 
 ///开始加载流程
 - (void)tpMediaVideoAdStartLoad:(NSDictionary *)adInfo;
@@ -102,26 +99,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///点击
 - (void)tpMediaVideoAdTapped:(NSDictionary *)adInfo;
 
-///v9.4.0新增  返回IMA各事件 event IMA为 IMAAdEvent 事件对象
-- (void)tpMediaVideoAdEvent:(id)event adInfo:(NSDictionary *)adInfo;
-
-///v9.4.0新增  返回IMA StartBuffering事件
-- (void)tpMediaVideoAdDidStartBuffering:(NSDictionary *)adInfo;
-
-///v9.4.0新增  返回IMA adDidBufferToMediaTime事件
-- (void)tpMediaVideoAdDidBufferToMediaTime:(NSTimeInterval)mediaTime adInfo:(NSDictionary *)adInfo;
-
-///v9.4.0新增 返回IMA PlaybackReady事件
-- (void)tpMediaVideoAdPlaybackReady:(NSDictionary *)adInfo;
-
-/// 10.0.0新增 返回IMA RequestContentPause事件
-- (void)tpMediaVideoAdRequestContentPause:(NSDictionary *)adInfo;
-
-/// 10.0.0新增 返回IMA RequestContentPause事件
-- (void)tpMediaVideoAdRequestContentResume:(NSDictionary *)adInfo;
-
-/// 10.0.0新增 返回IMA kIMAAdEvent_AD_BREAK_READY事件
-- (void)tpMediaVideoAdBreakReady:(NSDictionary *)adInfo;
 @end
 
 NS_ASSUME_NONNULL_END

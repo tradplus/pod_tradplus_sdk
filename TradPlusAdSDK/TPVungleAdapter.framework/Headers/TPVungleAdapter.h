@@ -1,7 +1,9 @@
-#import <TPVungleAdapter/TPVungleRouter.h>
-#import <TPVungleAdapter/TradPlusVungleAdapter.h>
-#import <TPVungleAdapter/TradPlusVungleBannerAdapter.h>
-#import <TPVungleAdapter/TradPlusVungleInterstitialAdapter.h>
-#import <TPVungleAdapter/TradPlusVungleNativeAdapter.h>
-#import <TPVungleAdapter/TradPlusVungleRewardedAdapter.h>
-#import <TPVungleAdapter/TPVungleAdapterBaseInfo.h>
+#import <VungleAdapter/TPVungleRouter.h>
+#import <VungleAdapter/TradPlusVungleAdapter.h>
+#import <VungleAdapter/TradPlusVungleBannerAdapter.h>
+#import <VungleAdapter/TradPlusVungleInterstitialAdapter.h>
+#import <VungleAdapter/TradPlusVungleNativeAdapter.h>
+#import <VungleAdapter/TradPlusVungleRewardedAdapter.h>
+#import <VungleAdapter/TradPlusVungleSDKLoader.h>
+#import <VungleAdapter/TPVungleInstanceMediationSettings.h>
+#import <VungleAdapter/TPVungleAdapterBaseInfo.h>
