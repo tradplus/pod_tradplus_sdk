@@ -33,21 +33,30 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadAdWithWindow:(UIWindow *)window bottomView:(nullable UIView *)bottomView;
 - (void)loadAdWithWindow:(UIWindow *)window bottomView:(nullable UIView *)bottomView maxWaitTime:(NSTimeInterval)maxWaitTime;
 
+/// v9.7.0新增
+/// 进入广告场景
+/// @param sceneId 场景ID 可以为nil
+- (void)entryAdScenario:(nullable NSString *)sceneId;
+
 /// 显示广告
 - (void)show;
+- (void)showWithSceneId:(nullable NSString *)sceneId;
 
 /// v8.4.0新增
 /// 指定原生开屏的渲染模版 展示广告
 /// @param renderingViewClass renderingViewClass 仅对Waterfall中的原生广告生效
 - (void)showWithRenderingViewClass:(Class)renderingViewClass;
+- (void)showWithRenderingViewClass:(Class)renderingViewClass sceneId:(nullable NSString *)sceneId;
 
 /// v8.4.0新增
 /// 指定原生开屏的renderer 展示广告
 /// @param renderer 自定义renderer 仅对Waterfall中的原生广告生效
 - (void)showWithRenderer:(TradPlusNativeRenderer *)renderer;
+- (void)showWithRenderer:(TradPlusNativeRenderer *)renderer sceneId:(nullable NSString *)sceneId;
 
 ///指定 TradPlusAdSplashObject 展示广告
 - (void)showWithSplashObject:(TradPlusAdSplashObject *)splashObject;
+- (void)showWithSplashObject:(TradPlusAdSplashObject *)splashObject sceneId:(nullable NSString *)sceneId;
 
 ///v8.4.0新增
 ///设置 原生开屏 模版渲染的布局方式 默认 TPTemplateContentModeCenter

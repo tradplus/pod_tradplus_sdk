@@ -105,6 +105,6 @@ typedef enum : NSUInteger {
 
 @property (nonatomic,assign)CGFloat aspectRatio;
 
-//非常用 扩展数据
+//非常用 扩展数据 
 @property (nonatomic,strong)NSMutableDictionary *extraInfo;
 @end

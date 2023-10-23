@@ -1,6 +1,6 @@
-#import <KlevinAdapter/TradPlusKlevinInterstitialAdapter.h>
-#import <KlevinAdapter/TradPlusKlevinNativeAdapter.h>
-#import <KlevinAdapter/TradPlusKlevinRewardedAdapter.h>
-#import <KlevinAdapter/TradPlusKlevinSDKLoader.h>
-#import <KlevinAdapter/TradPlusKlevinSplashAdapter.h>
-#import <KlevinAdapter/TPKlevinAdapterBaseInfo.h>
+#import <TPKlevinAdapter/TradPlusKlevinInterstitialAdapter.h>
+#import <TPKlevinAdapter/TradPlusKlevinNativeAdapter.h>
+#import <TPKlevinAdapter/TradPlusKlevinRewardedAdapter.h>
+#import <TPKlevinAdapter/TradPlusKlevinSDKLoader.h>
+#import <TPKlevinAdapter/TradPlusKlevinSplashAdapter.h>
+#import <TPKlevinAdapter/TPKlevinAdapterBaseInfo.h>

@@ -15,16 +15,23 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,copy)NSString *videoURL;
 
+- (void)userPauseAct;
+- (void)userResumeAct;
 - (void)setup;
 - (void)play;
 - (void)pause;
 - (void)skip;
 - (void)close;
 - (BOOL)checkRewarded;
+- (void)startCheck;
+- (void)finishCheck;
 
 @property (nonatomic,weak)TPADXResourceData *resourceData;
 @property (nonatomic,assign)BOOL isMute;
 @property (nonatomic,assign)BOOL isNative;
+//0=准备 1=播放中 2=播放完 3= 播放失败 4=播放关闭
+@property (nonatomic,assign)NSInteger playStatus;
+@property (nonatomic,readonly)NSTimeInterval currentTime;
 
 @property (nonatomic, copy) void (^startPlayAct)(void);
 @property (nonatomic, copy) void (^impressionAct)(void);
@@ -35,6 +42,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) void (^stopCountDown)(void);
 @property (nonatomic, copy) void (^startCountDown)(void);
+
+@property (nonatomic, copy) void (^pauseCallback)(void);
+@property (nonatomic, copy) void (^resumeCallback)(void);
+
+@property (nonatomic, copy) void (^playedTimeCallback)(NSTimeInterval currentTime,NSTimeInterval duration);
 @end
 
 NS_ASSUME_NONNULL_END

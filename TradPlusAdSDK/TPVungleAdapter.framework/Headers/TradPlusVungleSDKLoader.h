@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/TPSDKLoaderDelegate.h>
-#import <VungleSDK/VungleSDK.h>
+#import <VungleAdsSDK/VungleAdsSDK.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,8 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (TradPlusVungleSDKLoader *)sharedInstance;
 - (void)initWithAppID:(NSString *)appID
              delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
-- (void)updateConsentStatus:(VungleConsentStatus)status;
-- (VungleConsentStatus) getCurrentConsentStatus;
 
 @property (nonatomic,assign)BOOL didInit;
 //初始化来源 1:open 2:bidding 3:load

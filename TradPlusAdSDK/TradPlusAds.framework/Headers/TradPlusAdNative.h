@@ -61,6 +61,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)openAutoLoadCallback;
 
+// v9.7.0新增
+// 用于移除当前展示的原生广告对象的引用
+- (void)clear;
+
 //用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
 //开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]
 @property (nonatomic, strong)NSDictionary *customAdInfo;
@@ -153,6 +157,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///播放结束 v7.8.0+
 - (void)tpNativeAdVideoPlayEnd:(NSDictionary *)adInfo;
+
+///dislike v9.4.0+ 当前支持穿山甲，Gromore，百度，快手，Sigmob平台
+///tpNativeAdDisLikeInfo 会替代这些平台的 tpNativeAdClose回调，如无特殊需求可以不设置。
+///dislikeInfo[@"dislikeInfo"]：三方源返回的dislike信息
+///dislikeInfo[@"dislikeObject"]：三方源返回的对象信息，可能为nil
+- (void)tpNativeAdDisLikeInfo:(NSDictionary *)dislikeInfo adInfo:(NSDictionary *)adInfo;
 
 ///以下回调接口已废弃v7.6.0+
 - (void)tpNativeAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpNativeAdBidEnd:error:");

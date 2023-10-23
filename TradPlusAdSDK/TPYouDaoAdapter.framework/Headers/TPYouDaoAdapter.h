@@ -1,3 +1,3 @@
-#import <YouDaoAdapter/TradPlusYouDaoNativeAdapter.h>
-#import <YouDaoAdapter/TPYouDaoAdapterBaseInfo.h>
-#import <YouDaoAdapter/TradPlusYouDaoSDKSetting.h>
+#import <TPYouDaoAdapter/TradPlusYouDaoNativeAdapter.h>
+#import <TPYouDaoAdapter/TPYouDaoAdapterBaseInfo.h>
+#import <TPYouDaoAdapter/TradPlusYouDaoSDKSetting.h>

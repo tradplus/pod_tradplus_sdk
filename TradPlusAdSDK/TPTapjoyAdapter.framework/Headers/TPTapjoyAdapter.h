@@ -1,5 +1,5 @@
-#import <TapjoyAdapter/TradPlusTapjoyInterstitialAdapter.h>
-#import <TapjoyAdapter/TradPlusTapjoyRewardedAdapter.h>
-#import <TapjoyAdapter/TradPlusTapjoyOfferwallAdapter.h>
-#import <TapjoyAdapter/TradPlusTapjoySDKLoader.h>
-#import <TapjoyAdapter/TPTapjoyAdapterBaseInfo.h>
+#import <TPTapjoyAdapter/TradPlusTapjoyInterstitialAdapter.h>
+#import <TPTapjoyAdapter/TradPlusTapjoyRewardedAdapter.h>
+#import <TPTapjoyAdapter/TradPlusTapjoyOfferwallAdapter.h>
+#import <TPTapjoyAdapter/TradPlusTapjoySDKLoader.h>
+#import <TPTapjoyAdapter/TPTapjoyAdapterBaseInfo.h>

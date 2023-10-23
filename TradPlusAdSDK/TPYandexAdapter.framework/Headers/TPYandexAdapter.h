@@ -1,6 +1,6 @@
-#import <YandexAdapter/TradPlusYandexInterstitialAdapter.h>
-#import <YandexAdapter/TradPlusYandexNativeAdapter.h>
-#import <YandexAdapter/TradPlusYandexRewardedAdapter.h>
-#import <YandexAdapter/TradPlusYandexRewardedPlayAgain.h>
-#import <YandexAdapter/TPYandexAdapterBaseInfo.h>
-#import <YandexAdapter/TradPlusYandexSDKSetting.h>
+#import <TPYandexAdapter/TradPlusYandexInterstitialAdapter.h>
+#import <TPYandexAdapter/TradPlusYandexNativeAdapter.h>
+#import <TPYandexAdapter/TradPlusYandexRewardedAdapter.h>
+#import <TPYandexAdapter/TradPlusYandexRewardedPlayAgain.h>
+#import <TPYandexAdapter/TPYandexAdapterBaseInfo.h>
+#import <TPYandexAdapter/TradPlusYandexSDKSetting.h>

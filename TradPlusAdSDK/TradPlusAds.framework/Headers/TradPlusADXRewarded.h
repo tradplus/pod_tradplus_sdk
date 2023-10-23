@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)showAdFromRootViewController:(UIViewController *)rootViewController;
 @property (nonatomic,assign) BOOL isMute;
+@property (nonatomic,assign) NSInteger skipTime;
 @property (nonatomic,weak) id <TradPlusADXRewardedDelegate> delegate;
 - (BOOL)isReady;
 

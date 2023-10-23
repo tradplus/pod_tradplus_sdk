@@ -1,4 +1,4 @@
-#import <OguryAdapter/TradPlusOguryInterstitialAdapter.h>
-#import <OguryAdapter/TradPlusOguryRewardedAdapter.h>
-#import <OguryAdapter/TradPlusOgurySDKLoader.h>
-#import <OguryAdapter/TPOguryAdapterBaseInfo.h>
+#import <TPOguryAdapter/TradPlusOguryInterstitialAdapter.h>
+#import <TPOguryAdapter/TradPlusOguryRewardedAdapter.h>
+#import <TPOguryAdapter/TradPlusOgurySDKLoader.h>
+#import <TPOguryAdapter/TPOguryAdapterBaseInfo.h>

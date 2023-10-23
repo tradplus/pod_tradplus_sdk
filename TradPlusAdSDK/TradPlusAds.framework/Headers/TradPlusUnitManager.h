@@ -54,6 +54,8 @@
 - (void)showFinsihWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///show 1300
 - (void)showFinish1300WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
+///show 1310
+- (void)showFinish1310WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
 ///show Fail 1350 失败
 - (void)showFailWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId error:(NSError *)error;
 ///click
@@ -145,6 +147,7 @@
 
 //banner相关属性
 @property (nonatomic,weak)UIViewController *bannerRootViewController;
+@property (nonatomic,weak)UIViewController *nativeRootViewController;
 @property (nonatomic,assign)CGSize bannerSize;
 @property (nonatomic,assign)TPBannerContentMode bannerContentMode;
 
@@ -154,7 +157,7 @@
 //MediaVideo
 @property (nonatomic,weak)UIView *mediaVideoAdContainer;
 @property (nonatomic,weak)UIViewController *mediaVideoViewController;
-@property (nonatomic,weak)UIViewController *nativeRootViewController;
+@property (nonatomic,weak)id contentPlayhead;
 @property (nonatomic,assign)BOOL mute;
 
 @property (nonatomic,assign)MsADType adType;

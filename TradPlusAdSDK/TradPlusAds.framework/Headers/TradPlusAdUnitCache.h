@@ -39,10 +39,8 @@
 - (void)startCheckExpire;
 - (void)stopCheckExpire;
 - (void)checkAllCacheExpiredAndReload;
-
 //是否有独占广告缓存
 - (BOOL)hasExclusiveCache;
-
 //兜底广告
 - (BOOL)hasBottomAdCache;
 - (void)addBottomAdCacheItem:(TradPlusAdWaterfallItem *)item;

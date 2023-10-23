@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <TradPlusAds/MsCommon.h>
+#import <TradPlusAds/TradPlusAdInterstitialObject.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -41,6 +42,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 当传入nil时SDK会自行获取key windows 的 rootViewController
 /// @param sceneId 场景ID 可以为nil
 - (void)showAdFromRootViewController:(nullable UIViewController *)rootViewController sceneId:(nullable NSString *)sceneId;
+
+///指定 TradPlusAdInterstitialObject 展示广告
+- (void)showWithInterstitialObject:(TradPlusAdInterstitialObject *)interstitialObject sceneId:(nullable NSString *)sceneId;
+- (void)showWithInterstitialObject:(TradPlusAdInterstitialObject *)interstitialObject rootViewController:(nullable UIViewController *)rootViewController sceneId:(nullable NSString *)sceneId;
+
+///获取一个已缓存广告,获取后此广告会从缓存中移除，无广告时返回nil
+- (nullable TradPlusAdInterstitialObject *)getReadyInterstitialObject;
 
 /// 进入广告场景
 /// @param sceneId 场景ID 可以为nil

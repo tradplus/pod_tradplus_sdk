@@ -17,10 +17,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)TPADXVideoView *videoView;
 @property (nonatomic,assign)BOOL isSplash;
 @property (nonatomic,assign)BOOL isNative;
+@property (nonatomic,assign)BOOL isRewardVideo;
+@property (nonatomic,assign)BOOL didReward;
 @property (nonatomic,weak)TPADXResourceData *resourceData;
 @property (nonatomic,assign)UIInterfaceOrientationMask orientations;
 @property (nonatomic,assign)UIInterfaceOrientation presentationOrientation;
-
+@property (nonatomic, assign) BOOL userCloseRewardVideo;
 @property (nonatomic, copy) void (^impressionAct)(void);
 @property (nonatomic, copy) void (^showFailAct)(NSError *error);
 
@@ -29,7 +31,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^closeAct)(void);
 @property (nonatomic, copy) void (^rewardedAct)(void);
 @property (nonatomic, copy) void (^videoCompleteAct)(BOOL didSkip);
-
 @end
 
 NS_ASSUME_NONNULL_END

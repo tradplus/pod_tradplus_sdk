@@ -68,6 +68,8 @@ extern NSInteger gTPHttpTimeoutAdx;
 extern NSInteger gTPHttpTimeoutEvent;
 extern NSInteger gTPHttpTimeoutConf;
 
+
+
 typedef enum : NSUInteger {
     TPLoadType_SetAdUnitID = 1,
     TPLoadType_NoReady = 2,
@@ -85,6 +87,12 @@ typedef enum : NSUInteger {
     TPBidPrice_USD,
     TPBidPrice_CNY
 } TPBidPriceCurrency;
+
+typedef enum : NSUInteger {
+    TPMediaVideoProtocol_Other,
+    TPMediaVideoProtocol_VAST,
+    TPMediaVideoProtocol_VMAP
+} TPMediaVideoProtocol;
 
 typedef enum : NSUInteger {
     TPTemplateContentModeScaleToFill,//自动充满subview默认
@@ -132,6 +140,13 @@ typedef enum : NSUInteger {
 } MsADType;
 
 typedef enum : NSUInteger {
+    TPAdChoicesPositionTopRightCorner,     ///< Top right corner.
+    TPAdChoicesPositionTopLeftCorner,      ///< Top left corner.
+    TPAdChoicesPositionBottomRightCorner,  ///< Bottom right corner.
+    TPAdChoicesPositionBottomLeftCorner    ///< Bottom Left Corner.
+}TPAdChoicesPosition;
+
+typedef enum : NSUInteger {
     TPNativeADTYPE_Unknown = 0,//未知
     TPNativeADTYPE_Feed,//自渲染
     TPNativeADTYPE_Template,//模版
@@ -165,6 +180,7 @@ typedef enum : NSUInteger {
     EV_SHOW_AD               = 1100,
     EV_CLICK_AD              = 1200,
     EV_AD_VIDEO_START        = 1300,
+    EV_AD_IMP_1310           = 1310,
     EV_BID_IMP               = 1320,
     EV_AD_VIDEO_ERROR        = 1350,
     EV_AD_VIDEO_CLOSE        = 1400,
@@ -268,4 +284,6 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
 + (NSData *)getJsonDataWithObj:(id)obj;
 
 + (NSDate *)SDKStartDate;
+
+@property (nonatomic, strong) UIButton *btnShowLog;
 @end
