@@ -34,6 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //CN
 - (void)loadCNSplashWithADXBase:(TradPlusADXBase *)base;
+- (void)loadCNNativeWithADXBase:(TradPlusADXBase *)base;
 
 @property (nonatomic, copy) void (^loadFailedAct)(NSError *error);
 @property (nonatomic, copy) void (^loadFinishAct)(void);
@@ -64,9 +65,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *videoRemoteURL;
 @property (nonatomic,copy)NSString *videoLocalURL;
 @property (nonatomic,assign)NSTimeInterval videoDuration;
-@property (nonatomic,assign)NSInteger videoWidth;
-@property (nonatomic,assign)NSInteger videoHeight;
-
+@property (nonatomic,assign)CGFloat videoWidth;
+@property (nonatomic,assign)CGFloat videoHeight;
+@property (nonatomic,strong)UIImage *firstFrmeImage;
 
 @property (nonatomic,strong)NSArray <NSURL *>*errorURLArray;
 @property (nonatomic,strong)NSArray <NSURL *>*impressionURLArray;
@@ -95,6 +96,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)BOOL checkVisible;
 @property (nonatomic,assign)NSInteger minAreaRatio;
 @property (nonatomic,assign)NSInteger minDuration;
+
+@property (nonatomic,assign)BOOL fullScreenClick;
 
 @property (nonatomic,assign)NSInteger iscn;
 @property (nonatomic,strong)NSDictionary *bidcn;

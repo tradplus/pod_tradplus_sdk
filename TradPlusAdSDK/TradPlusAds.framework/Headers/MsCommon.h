@@ -80,6 +80,7 @@ typedef enum : NSUInteger {
     TPLoadType_AutoRefresh = 11,
     TPLoadType_ADExpired = 12,
     TPLoadType_NetworkRecovery = 13,
+    TPLoadType_Click = 14,
     TPLoadType_LoadFailed = 500,
 } TPLoadType;
 

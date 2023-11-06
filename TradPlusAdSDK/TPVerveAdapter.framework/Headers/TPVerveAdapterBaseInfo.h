@@ -1,3 +1,3 @@
-#define TP_VerveAdapter_Version @"10.1.0"
+#define TP_VerveAdapter_Version @"10.2.0"
 #define TP_VerveAdapter_PlatformSDK_Version @"2.20.0"
 

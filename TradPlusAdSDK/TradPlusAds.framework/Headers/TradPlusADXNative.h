@@ -26,13 +26,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign) BOOL isMute;
 @property (nonatomic,weak) id <TPADXNativeDelegate> delegate;
+@property (nonatomic,weak)UIViewController *rootViewController;
 
 @property (nonatomic,readonly)NSDictionary *bidcn;
 @end
 
 @protocol TPADXNativeDelegate <NSObject>
 
-- (void)ADXLoadFinish:(TPADXNativeData *)nativeData videoView:(TPADXNativeVideoView *)videoView;
+- (void)ADXLoadFinish:(TPADXNativeData *)nativeData videoView:(UIView *)videoView;
 - (void)ADXLoadFailWithError:(NSError *)error;
 - (void)ADXImpression;
 - (void)ADXShowFailWithError:(NSError *)error;
