@@ -28,9 +28,6 @@
 @property (nonatomic,assign)CGFloat mainImageHeight;
 @property (nonatomic,assign)CGFloat mainImageWidth;
 @property (nonatomic,strong)TPADXAdChoiceView *adChoiceView;
-@property (nonatomic,strong)NSArray *imageURLs;
-
-@property (nonatomic,assign)BOOL isCNAD;
 
 @property (nonatomic,copy)NSString *vastString;
 //imptrackers

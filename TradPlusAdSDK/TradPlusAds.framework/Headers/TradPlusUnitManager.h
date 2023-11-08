@@ -101,7 +101,7 @@
 - (void)setExtra:(TradPlusAdWaterfallItem *)item;
 
 //bidding通知
-- (void)sendLossWithItem:(TradPlusAdWaterfallItem *)item loadFail:(BOOL)loadFail nbr:(NSInteger)nbr;
+- (void)sendLossWithItem:(TradPlusAdWaterfallItem *)item loadFail:(BOOL)loadFail;
 - (void)sendWinWithItem:(TradPlusAdWaterfallItem *)item;
 - (void)sendImpressionWithItem:(TradPlusAdWaterfallItem *)item;
 

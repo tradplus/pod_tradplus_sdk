@@ -18,8 +18,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)pause;
 - (void)close;
 
-//0=准备 1=播放中 2=播放完 3= 播放失败 4=播放关闭
-@property (nonatomic,assign)NSInteger playStatus;
 @property (nonatomic, copy) void (^startPlayAct)(void);
 @property (nonatomic, copy) void (^oneQuarterPlayAct)(void);//25%
 @property (nonatomic, copy) void (^oneHalfPlayAct)(void);//50%

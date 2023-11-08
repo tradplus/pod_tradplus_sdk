@@ -11,7 +11,6 @@
 @interface TradPlusAdNative ()
 
 - (void)refresh;
-- (void)clickRefresh;
 - (void)closeEvent;
 - (void)setAdUnitID:(NSString *)adUnitID isAutoLoad:(BOOL)isAutoLoad;
 @property (nonatomic,readonly)BOOL isSkip;

@@ -1,3 +1,3 @@
-#define TP_BeiziAdapter_Version @"10.2.0"
-#define TP_BeiziAdapter_PlatformSDK_Version @"4.90.2.62"
+#define TP_BeiziAdapter_Version @"10.0.10"
+#define TP_BeiziAdapter_PlatformSDK_Version @"4.90.2.29"
 

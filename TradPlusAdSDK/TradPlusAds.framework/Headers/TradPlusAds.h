@@ -167,5 +167,4 @@
 #import <TradPlusAds/TPADXCNSplashViewController.h>
 #import <TradPlusAds/TPADXCNWeChat.h>
 #import <TradPlusAds/TPADXCNVideoView.h>
-#import <TradPlusAds/TPADXCNMediaView.h>
 #import <TradPlusAds/TradPlusAdMediaVideoCallback.h>
