@@ -10,6 +10,7 @@
 #import <TradPlusAds/TradPlusADXReportManager.h>
 #import <TradPlusAds/TradPlusReportTask.h>
 #import <TradPlusAds/TPADXResourceData.h>
+#import <StoreKit/StoreKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -24,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)NSDate *finishBiddingDate;
 @property (nonatomic,copy)NSString *ecpm;
 @property (nonatomic,assign)BOOL parseCNData;
+@property (nonatomic,strong)SKStoreProductViewController *_Nullable storeViewController;
 
 - (void)startLoadEvent;
 - (void)finishLoadEvent:(NSString *)errorCode;
@@ -40,6 +42,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)reportShowArray:(NSArray <NSURL *>*)showArray;
 - (void)checkRelease;
 - (void)clear;
+- (void)trackSKAdNetworkStartImpression;
+- (void)trackSKAdNetworkEndImpression;
+- (BOOL)clickWithURL:(NSURL *)url viewController:(nullable UIViewController *)viewController;
+- (BOOL)clickWithURL:(NSURL *)url;
 
 - (NSError *)placementIDError;
 - (NSError *)payLoadError;

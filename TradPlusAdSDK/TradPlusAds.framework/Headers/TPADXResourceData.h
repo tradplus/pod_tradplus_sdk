@@ -34,6 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //CN
 - (void)loadCNSplashWithADXBase:(TradPlusADXBase *)base;
+- (void)loadCNNativeWithADXBase:(TradPlusADXBase *)base;
 
 @property (nonatomic, copy) void (^loadFailedAct)(NSError *error);
 @property (nonatomic, copy) void (^loadFinishAct)(void);
@@ -50,6 +51,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSArray *impurl;
 @property (nonatomic,strong) NSArray *burl;
 @property (nonatomic,strong) NSArray *clkurl;
+@property (nonatomic,strong) NSDictionary *skadnInfo;
+@property (nonatomic,strong) NSDictionary *appstoreSkadn;
+@property (nonatomic,strong) id adImpression;
 
 @property (nonatomic,assign)NSInteger app_id;
 @property (nonatomic,assign)NSInteger adseat_id;
@@ -64,9 +68,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *videoRemoteURL;
 @property (nonatomic,copy)NSString *videoLocalURL;
 @property (nonatomic,assign)NSTimeInterval videoDuration;
-@property (nonatomic,assign)NSInteger videoWidth;
-@property (nonatomic,assign)NSInteger videoHeight;
-
+@property (nonatomic,assign)CGFloat videoWidth;
+@property (nonatomic,assign)CGFloat videoHeight;
+@property (nonatomic,strong)UIImage *firstFrmeImage;
 
 @property (nonatomic,strong)NSArray <NSURL *>*errorURLArray;
 @property (nonatomic,strong)NSArray <NSURL *>*impressionURLArray;
@@ -96,10 +100,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger minAreaRatio;
 @property (nonatomic,assign)NSInteger minDuration;
 
+@property (nonatomic,assign)BOOL fullScreenClick;
+@property (nonatomic,assign)CGFloat buttonScale;
+
 @property (nonatomic,assign)NSInteger iscn;
 @property (nonatomic,strong)NSDictionary *bidcn;
 @property (nonatomic,strong)TPADXCNData *cnData;
 @property (nonatomic,assign)BOOL parseCNData;
+//1 左图右文 2 左文右图 3 上图下文 4 上文下图 5 三图 （默认 3）
+@property (nonatomic,assign)NSInteger template_render_type;
+@property (nonatomic,assign)BOOL is_template_rendering;
+@property (nonatomic,strong)NSString *templateClassName;
 @end
 
 NS_ASSUME_NONNULL_END

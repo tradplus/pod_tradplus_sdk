@@ -24,19 +24,25 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)loadWithPayload:(NSDictionary *)payload finishBiddingDate:(NSDate *)finishBiddingDate;
 
+- (void)registerTemplateView;
+
 @property (nonatomic,assign) BOOL isMute;
 @property (nonatomic,weak) id <TPADXNativeDelegate> delegate;
+@property (nonatomic,weak)UIViewController *rootViewController;
 
 @property (nonatomic,readonly)NSDictionary *bidcn;
+@property (nonatomic,assign)BOOL is_template_rendering;
 @end
 
 @protocol TPADXNativeDelegate <NSObject>
 
-- (void)ADXLoadFinish:(TPADXNativeData *)nativeData videoView:(TPADXNativeVideoView *)videoView;
+- (void)ADXLoadFinish:(TPADXNativeData *)nativeData mediaView:(UIView *)mediaView;
+- (void)ADXTemplateLoadFinish:(UIView *)templateView;
 - (void)ADXLoadFailWithError:(NSError *)error;
 - (void)ADXImpression;
 - (void)ADXShowFailWithError:(NSError *)error;
 - (void)ADXClicked;
+- (void)ADXClose;
 @end
 
 NS_ASSUME_NONNULL_END

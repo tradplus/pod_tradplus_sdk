@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) NSInteger minDuration;
 @property (nonatomic,assign)BOOL openOMID;
 
-@property (nonatomic, copy) void (^clickAct)(BOOL canOpen);
+@property (nonatomic, copy) void (^clickAct)(NSURL *url);
 @property (nonatomic, copy) void (^impressionAct)(void);
 @property (nonatomic, copy) void (^showErrorAct)(NSError *error);
 @property (nonatomic, copy) void (^loadFinishAct)(void);

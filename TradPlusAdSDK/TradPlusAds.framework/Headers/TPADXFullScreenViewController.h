@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TPADXFullScreenViewController : UIViewController
 
+@property (nonatomic,assign)BOOL splashOpenStore;
 @property (nonatomic,strong)TPADXVideoView *videoView;
 @property (nonatomic,assign)BOOL isSplash;
 @property (nonatomic,assign)BOOL isNative;
@@ -27,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^showFailAct)(NSError *error);
 
 ///type : 0 = video  1 = endcard  2 = image
-@property (nonatomic, copy) void (^clickAct)(BOOL canOpen,NSInteger type,NSTimeInterval videoTime);
+@property (nonatomic, copy) void (^clickAct)(NSURL *url,NSInteger type,NSTimeInterval videoTime);
 @property (nonatomic, copy) void (^closeAct)(void);
 @property (nonatomic, copy) void (^rewardedAct)(void);
 @property (nonatomic, copy) void (^videoCompleteAct)(BOOL didSkip);

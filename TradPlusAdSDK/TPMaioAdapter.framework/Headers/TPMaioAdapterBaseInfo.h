@@ -1,3 +1,3 @@
-#define TP_MaioAdapter_Version @"10.0.10"
-#define TP_MaioAdapter_PlatformSDK_Version @"1.6.3"
+#define TP_MaioAdapter_Version @"10.3.0"
+#define TP_MaioAdapter_PlatformSDK_Version @"2.1.1"
 

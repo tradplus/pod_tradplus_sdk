@@ -49,5 +49,6 @@
 
 ///获取 SKAdNetworkIdentifier子集
 + (NSArray *)getAdNetworkItems;
-
++ (NSString *)deviceModelName;
++ (NSString *)getSKAdNetworkVersions;
 @end

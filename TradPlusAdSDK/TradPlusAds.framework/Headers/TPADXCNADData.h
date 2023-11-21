@@ -29,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)TPADXCNVideoData *video;
 @property (nonatomic,strong)TPADXCNHtmlData *html;
 @property (nonatomic,strong)TPADXCNImageData *mainImage;
+@property (nonatomic,strong)NSMutableArray <TPADXCNImageData *>*imageArray;
 @end
 
 NS_ASSUME_NONNULL_END

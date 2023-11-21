@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TPADXCountdownView : UIView
 
+- (void)setup;
 - (void)startPlay;
 - (void)clear;
 - (void)countDownStart;
@@ -21,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger videoTime;
 @property (nonatomic,assign)NSInteger showSkipTime;
 @property (nonatomic,assign)BOOL noShowSkip;
+@property (nonatomic,assign)CGFloat scale;
 
 @property (nonatomic,assign)BOOL isSplash;
 @property (nonatomic,assign)NSInteger splashSkipTime;

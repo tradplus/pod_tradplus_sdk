@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)loadWithPayload:(NSDictionary *)payload finishBiddingDate:(NSDate *)finishBiddingDate;
 
+- (void)willAddSubView;
+
 @property (nonatomic,weak) id <TPADXBannerDelegate> delegate;
 @property (nonatomic,assign) CGSize adSize;
 @property (nonatomic,assign) BOOL isClosable;

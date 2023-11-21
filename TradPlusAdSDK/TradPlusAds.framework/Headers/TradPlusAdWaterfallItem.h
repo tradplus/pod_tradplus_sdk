@@ -9,7 +9,8 @@ typedef enum : NSUInteger {
     TPAdWaterfallItemStatusNormal = 0,
     TPAdWaterfallItemStatusLoading = 1,
     TPAdWaterfallItemStatusReady = 2,
-    TPAdWaterfallItemStatusExpired = 3
+    TPAdWaterfallItemStatusExpired = 3,
+    TPAdWaterfallItemStatusC2STimeOut = 4
 } TPAdWaterfallItemStatus;
 
 
@@ -32,6 +33,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///特殊 nothing
 @property (nonatomic,copy)NSString *name;
+///渠道对应的聚合名称
+@property (nonatomic,copy)NSString *mdn;
 ///三方授权信息
 @property (nonatomic,strong)NSDictionary *config;
 ///广告源id
@@ -123,6 +126,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)BOOL isC2SBidding;
 @property (nonatomic,copy)NSString *networksdkver;
 @property (nonatomic,copy)NSString *networkECPM;
+@property (nonatomic,copy)NSString *encryptedECPM;
 //兜底
 @property (nonatomic,assign)BOOL isBottomAd;
 //bidding相关
