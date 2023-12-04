@@ -13,4 +13,4 @@
 //买量时使用5位版本号
 //#define MS_SDK_VERSION              @"10.3.0.0.0"
 //正式版使用3位
-#define MS_SDK_VERSION              @"10.3.0"
+#define MS_SDK_VERSION              @"10.3.10"
