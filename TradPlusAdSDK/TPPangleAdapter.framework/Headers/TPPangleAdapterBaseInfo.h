@@ -1,3 +1,3 @@
-#define TP_PangleAdapter_Version @"10.3.10"
-#define TP_PangleAdapter_PlatformSDK_Version @"5.5.0.9"
+#define TP_PangleAdapter_Version @"10.4.0"
+#define TP_PangleAdapter_PlatformSDK_Version @"5.6.0.6"
 

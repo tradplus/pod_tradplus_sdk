@@ -10,7 +10,6 @@
 #import <TradPlusAds/TradPlusBaseAdapter.h>
 #import <TradPlusAds/TradPlusUnitManager.h>
 #import <TradPlusAds/MsCommon.h>
-#import <TradPlusAds/TradPlusAdxInStreamView.h>
 
 @protocol TradPlusADMediaVideoDelegate;
 
@@ -29,9 +28,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 开始播放
 /// @param viewController 当前视图控制器或为nil
-/// @param customView 自定义的插播视图 仅支持TPADX
+/// @param customView 自定义的插播视图 仅支持TPADX //TradPlusAdxInStreamView
 /// @param sceneId 场景ID 没有则设置为nil
-- (void)startWithViewController:(nullable UIViewController *)viewController inStreamView:(nullable TradPlusAdxInStreamView *)customView sceneId:(nullable NSString *)sceneId;
+- (void)startWithViewController:(nullable UIViewController *)viewController inStreamView:(nullable UIView *)customView sceneId:(nullable NSString *)sceneId;
 
 ///中帖，后贴展示时调用
 - (void)start;

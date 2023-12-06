@@ -84,6 +84,12 @@ NS_ASSUME_NONNULL_BEGIN
 ///当每个广告源加载失败后会都会回调一次，返回三方源的错误信息
 - (void)tpMediaVideoAdOneLayerLoad:(NSDictionary *)adInfo didFailWithError:(NSError *)error;
 
+///bidding开始
+- (void)tpMediaVideoAdBidStart:(NSDictionary *)adInfo;
+
+///bidding结束 error = nil 表示成功
+- (void)tpMediaVideoAdBidEnd:(NSDictionary *)adInfo error:(nullable NSError *)error;
+
 ///加载流程全部结束
 - (void)tpMediaVideoAdAllLoaded:(BOOL)success;
 
