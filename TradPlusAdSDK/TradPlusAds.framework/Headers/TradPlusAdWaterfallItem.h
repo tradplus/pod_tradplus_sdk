@@ -197,6 +197,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign)TPNativeADTYPE nativeType;
 
+@property (nonatomic,assign)BOOL did_record;
 @property (nonatomic,assign)BOOL did_start_play;
 @property (nonatomic,assign)BOOL did_close;
 @property (nonatomic,assign)BOOL playAgain_did_click;

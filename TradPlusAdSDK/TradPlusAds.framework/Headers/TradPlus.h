@@ -48,6 +48,12 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 
 + (void)setAdMobNativeLogoPosition:(AdMobAdChoicesPosition)positionType;
 
+
+/// 设置广告位级别流量分组信息
+/// @param customDictionary 流量分组信息 设置为nil时则会对已设置流量分组数据进行移除操作
+/// @param placementId 广告位ID
++ (void)setCustomDictionary:(nullable NSDictionary *)customDictionary  placementId:(NSString *)placementId;
+
 /// 设置本地配置信息
 /// @param configInfo 本地配置信息
 /// @param placementId 广告位ID

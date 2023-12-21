@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
              delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
 
 - (DTBAdLoader *)setPrivacy;
+- (void)setTestMode;
 
 @property (nonatomic,assign)BOOL didInit;
 //初始化来源 1:open 2:bidding 3:load

@@ -10,6 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (TradPlusAdManager *)sharedInstance;
 - (BOOL)hasUnitManagerWithPlacementID:(NSString *)placementID;
 - (TradPlusUnitManager *)getUnitManagerWithPlacementID:(NSString *)placementID;
+- (void)setCustomDictionary:(nullable NSDictionary *)customDictionary  placementId:(NSString *)placementId;
 
 - (void)startCheckExpire;
 - (void)stopCheckExpire;
@@ -22,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)dispatch_queue_t tradPlusTimerQueue;
 @property (nonatomic,strong)dispatch_queue_t tradPlusLoadEventQueue;
 @property (nonatomic) MSReachability *reachability;
-
+@property (nonatomic,readonly)NSMutableDictionary *placementCustomDictionary;
 @end
 
 NS_ASSUME_NONNULL_END

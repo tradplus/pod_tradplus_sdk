@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)BOOL didLoaded;
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;
 @property (nonatomic,assign)NSInteger cacheCount;
+@property (nonatomic,assign)NSInteger parallelCount;
 @property (nonatomic,strong)TradPlusBiddingManager *biddingManager;
 @property (nonatomic,strong)TradPlusBiddingTokenManager *biddingTokenManager;
 
