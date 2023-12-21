@@ -24,6 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)dispatch_queue_t tradPlusLoadEventQueue;
 @property (nonatomic) MSReachability *reachability;
 @property (nonatomic,readonly)NSMutableDictionary *placementCustomDictionary;
+
 @end
 
 NS_ASSUME_NONNULL_END

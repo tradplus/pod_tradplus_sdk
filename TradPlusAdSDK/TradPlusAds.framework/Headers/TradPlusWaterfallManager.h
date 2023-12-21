@@ -21,7 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak)TradPlusAdLoadManager *loadManager;
 @property (nonatomic,strong)TradPlusBiddingManager *biddingManager;
 @property (nonatomic,assign)NSInteger cacheCount;
-@property (nonatomic,assign)NSInteger parallelCount;
 @property (nonatomic,strong)NSMutableArray <TradPlusAdWaterfallItem *>*waterfallArray;
 @property (nonatomic, copy) void (^finishLoadAct)(BOOL success);
 
