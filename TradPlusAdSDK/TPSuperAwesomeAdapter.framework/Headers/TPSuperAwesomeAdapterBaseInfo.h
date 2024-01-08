@@ -1,3 +1,3 @@
-#define TP_SuperAwesomeAdapter_Version @"10.0.20"
+#define TP_SuperAwesomeAdapter_Version @"10.6.0"
 #define TP_SuperAwesomeAdapter_PlatformSDK_Version @"9.0.1"
 

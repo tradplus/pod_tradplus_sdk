@@ -28,6 +28,7 @@ typedef enum : NSUInteger {
 @interface TPCrossAd : NSObject
 @property (nonatomic, assign) TPCrossAdType crossAdType;
 @property (nonatomic, assign, readonly) BOOL isAdReady;
+@property (nonatomic, assign) BOOL closeOnClick;
 @property (nonatomic, weak, nullable) id<TPCrossAdDelegate> delegate;
 
 - (void)loadAd:(NSDictionary *)adInfo;

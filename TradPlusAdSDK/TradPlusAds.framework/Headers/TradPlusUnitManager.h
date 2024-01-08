@@ -21,7 +21,8 @@
 //服务器奖励验证信息
 @property (nonatomic,copy)NSString *serverSideUserID;
 @property (nonatomic,copy)NSString *serverSideCustomData;
-
+///加载模式
+@property (nonatomic,assign)TPLoadMode loadMode;
 @property (nonatomic,assign)CGFloat loadMaxWaitTime;
 
 - (instancetype)initWithPlacementID:(NSString *)placementID;
@@ -101,7 +102,7 @@
 - (void)setExtra:(TradPlusAdWaterfallItem *)item;
 
 //bidding通知
-- (void)sendLossWithItem:(TradPlusAdWaterfallItem *)item loadFail:(BOOL)loadFail;
+- (void)sendLossWithItem:(TradPlusAdWaterfallItem *)item loadFail:(BOOL)loadFail nbr:(NSInteger)nbr;
 - (void)sendWinWithItem:(TradPlusAdWaterfallItem *)item;
 - (void)sendImpressionWithItem:(TradPlusAdWaterfallItem *)item;
 
@@ -165,4 +166,6 @@
 @property (nonatomic,readonly)NSInteger readyAdCount;
 
 @property (nonatomic,assign)BOOL isReady;
+
+@property (nonatomic,assign)BOOL noBidMode;
 @end

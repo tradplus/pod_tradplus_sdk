@@ -38,6 +38,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *app_ver;
 @property (nonatomic, strong) NSString *device_idfv;
 @property (nonatomic, strong) NSString *device_osv;
+
+@property (nonatomic,strong)NSArray *unused_eids;
 @end
 
 NS_ASSUME_NONNULL_END

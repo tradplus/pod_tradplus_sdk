@@ -39,6 +39,8 @@ typedef NS_ENUM(NSUInteger, TPFullscreenAdEvent) {
 
 @interface TPFullscreenAdAdapter : NSObject<SKStoreProductViewControllerDelegate, TPFullscreenAdViewControllerAppearanceDelegate>
 @property (nonatomic, strong) NSDictionary *videoConfig;
+@property (nonatomic, assign) BOOL closeOnClick;
+- (void)clickAct;
 @end
 
 #pragma mark -

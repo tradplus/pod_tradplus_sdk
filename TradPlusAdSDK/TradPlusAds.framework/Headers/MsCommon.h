@@ -279,12 +279,15 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
 
 + (void)testModeOpen:(NSString *)open;
 
++ (BOOL)isAmountFormat:(NSString *)str;
 + (UIViewController *)getTopRootViewController;
 + (UIWindow *)getTopWindow;
 
 + (NSData *)getJsonDataWithObj:(id)obj;
 
 + (NSDate *)SDKStartDate;
+
++ (BOOL)checkCMPStateWithArray:(NSArray *)array;
 
 @property (nonatomic, strong) UIButton *btnShowLog;
 @end

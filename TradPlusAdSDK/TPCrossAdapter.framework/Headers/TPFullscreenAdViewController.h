@@ -37,6 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TPFullscreenAdViewController : UIViewController <TPFullscreenAdViewController, TPClickThroughViewDelegate>
 
+@property (nonatomic, assign) BOOL closeOnClick;
 @property (nonatomic, weak) id<TPFullscreenAdViewControllerAppearanceDelegate> appearanceDelegate;
 @property (nonatomic, weak) id<TPAdContainerViewDelegate> containerDelegate;
 
