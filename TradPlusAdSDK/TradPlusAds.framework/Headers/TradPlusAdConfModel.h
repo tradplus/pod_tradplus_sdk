@@ -30,10 +30,8 @@
 @property (nonatomic,assign)NSInteger cn;
 @property (nonatomic,copy)NSString *bucket_id;
 @property (nonatomic,copy)NSString *segment_id;
-//原缓存数 v10.5.0后定义为并行数
-@property (nonatomic,assign)NSInteger cacheNum;
 //缓存数
-@property (nonatomic,assign)NSInteger minCache;
+@property (nonatomic,assign)NSInteger cacheNum;
 @property (nonatomic,strong)NSArray *waterfall;
 @property (nonatomic,strong)NSArray *biddingwaterfall;
 @property (nonatomic,strong)NSArray *c2sbiddingwaterfall;
@@ -59,7 +57,6 @@
 @property (nonatomic,strong)NSDictionary *originalConfigDictionary;
 
 @property (nonatomic,assign)NSInteger is_test_mode;
-@property (nonatomic,assign)NSInteger nobid;
 //是否服务端奖励回调
 @property (nonatomic,assign)NSInteger is_server_callback;
 

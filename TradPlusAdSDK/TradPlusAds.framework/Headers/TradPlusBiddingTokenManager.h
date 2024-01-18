@@ -23,9 +23,9 @@
 
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;
 
-@property (nonatomic,strong)TradPlusMutableArray *finishC2SBiddingArray;
+@property (nonatomic,readonly)TradPlusMutableArray *finishC2SBiddingArray;
 @property (nonatomic,readonly)TradPlusMutableArray *adsourceplacements;
-@property (nonatomic,readonly)NSMutableArray <TradPlusAdWaterfallItem *> *biddingArray;
+@property (nonatomic,readonly)NSMutableArray <TradPlusAdWaterfallItem *>*biddingArray;
 @property (nonatomic,assign)BOOL hasADX;
 @property (nonatomic,assign)BOOL mainThreadRelease;
 
