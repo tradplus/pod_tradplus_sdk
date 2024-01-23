@@ -10,8 +10,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (TPCrossEvent *)sharedInstance;
 
 - (void)uploadEvent:(MSEventType)evid info:(NSDictionary * _Nullable)info;
-- (void)uploadEvent:(MSEventType)evid info:(NSDictionary * _Nullable)info adConfInfo:(NSDictionary *)adConfInfo;
-//- (void)uploadEvent:(MSEventType)evid dicUserInfo:(NSDictionary * _Nullable)dicUserInfo segmentId:(NSString * _Nullable)segmentId bucketId:(NSString * _Nullable)bucketId info:(NSDictionary * _Nullable)info;
+- (void)uploadEvent:(MSEventType)evid info:(NSDictionary * _Nullable)info adConfInfo:(nullable NSDictionary *)adConfInfo;
+
+- (void)addEventWithEventType:(MSEventType)eventType info:(NSDictionary *)infoDic;
 @end
 
 NS_ASSUME_NONNULL_END

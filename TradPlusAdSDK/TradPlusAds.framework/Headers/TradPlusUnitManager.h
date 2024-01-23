@@ -5,6 +5,7 @@
 #import <TradPlusAds/TradPlusAdUnitCache.h>
 #import <TradPlusAds/TradPlusUnitError.h>
 #import <TradPlusAds/TradPlusAdLoadManager.h>
+#import <TradPlusAds/TradPlusWaitingPool.h>
 
 
 @interface TradPlusUnitManager : NSObject
@@ -21,7 +22,8 @@
 //服务器奖励验证信息
 @property (nonatomic,copy)NSString *serverSideUserID;
 @property (nonatomic,copy)NSString *serverSideCustomData;
-
+///加载模式
+@property (nonatomic,assign)TPLoadMode loadMode;
 @property (nonatomic,assign)CGFloat loadMaxWaitTime;
 
 - (instancetype)initWithPlacementID:(NSString *)placementID;
@@ -85,6 +87,8 @@
 - (void)startLoadAdWithItem:(TradPlusAdWaterfallItem *)item;
 - (void)callbackWithErrorCode:(TPUnitErrorCode)code;
 
+- (void)waitItemLoadFinish:(TradPlusAdWaterfallItem *)item;
+
 - (void)speedModeLoaded:(TradPlusAdLoadManager *)adLoadManager;
 - (void)didLoadWithWaterfallItem:(TradPlusAdWaterfallItem *)item noCache:(BOOL)noCache adLoadManager:(TradPlusAdLoadManager *)adLoadManager;
 - (void)bottomAdOneLayerLoad:(TradPlusAdWaterfallItem *)item adLoadManager:(TradPlusAdLoadManager *)adLoadManager isCache:(BOOL)isCache;
@@ -96,12 +100,11 @@
 
 - (void)allLoadedWithWaterfallSuccess:(BOOL)waterfallSuccess bottomSuccess:(BOOL)bottomSuccess code:(NSInteger)code loadedCount:(NSInteger)loadedCount requestId:(NSString *)requestId;
 
-
 ///waterfallItem 赋值源级别参数
 - (void)setExtra:(TradPlusAdWaterfallItem *)item;
 
 //bidding通知
-- (void)sendLossWithItem:(TradPlusAdWaterfallItem *)item loadFail:(BOOL)loadFail;
+- (void)sendLossWithItem:(TradPlusAdWaterfallItem *)item loadFail:(BOOL)loadFail nbr:(NSInteger)nbr;
 - (void)sendWinWithItem:(TradPlusAdWaterfallItem *)item;
 - (void)sendImpressionWithItem:(TradPlusAdWaterfallItem *)item;
 
@@ -165,4 +168,8 @@
 @property (nonatomic,readonly)NSInteger readyAdCount;
 
 @property (nonatomic,assign)BOOL isReady;
+
+@property (nonatomic,assign)BOOL noBidMode;
+
+@property (nonatomic,strong)TradPlusWaitingPool *waitingPool;
 @end

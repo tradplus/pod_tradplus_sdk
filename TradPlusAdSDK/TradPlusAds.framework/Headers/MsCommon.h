@@ -172,6 +172,7 @@ typedef enum : NSUInteger {
     EV_BID_LOST              = 621,
     EV_LOAD_NETWORK_AD_START = 700,
     EV_LOAD_NETWORK_AD       = 800,
+    EV_LOAD_WAIT_NETWORK_AD  = 801,
     EV_LOAD_FIRST_NETWORK_AD = 805,
     EV_LOAD_FIRST_SUCCESS_AD = 808,
     EV_LOAD_AD_RESULT        = 810,
@@ -279,12 +280,15 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
 
 + (void)testModeOpen:(NSString *)open;
 
++ (BOOL)isAmountFormat:(NSString *)str;
 + (UIViewController *)getTopRootViewController;
 + (UIWindow *)getTopWindow;
 
 + (NSData *)getJsonDataWithObj:(id)obj;
 
 + (NSDate *)SDKStartDate;
+
++ (BOOL)checkCMPStateWithArray:(NSArray *)array;
 
 @property (nonatomic, strong) UIButton *btnShowLog;
 @end

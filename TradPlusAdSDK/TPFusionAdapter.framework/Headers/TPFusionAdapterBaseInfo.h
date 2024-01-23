@@ -1,3 +1,3 @@
-#define TP_FusionAdapter_Version @"10.0.30"
+#define TP_FusionAdapter_Version @"10.7.0"
 #define TP_FusionAdapter_PlatformSDK_Version @"2.5.16"
 

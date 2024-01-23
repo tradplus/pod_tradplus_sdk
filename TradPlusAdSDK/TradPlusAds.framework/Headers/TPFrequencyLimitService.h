@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <TradPlusAds/TradPlusAdWaterfallItem.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,7 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (TPFrequencyLimitService *)sharedInstance;
 //YES = noLimit
 - (BOOL)noLimitWithCapUnitId:(NSString *)capUnitId frequency:(NSDictionary *)frequency;
-- (void)saveShowTimeWithCapUnitId:(NSString *)capUnitId;
+- (void)saveShowTimeWithItem:(TradPlusAdWaterfallItem *)item;
+
+- (BOOL)noLimitWithPlatformID:(NSString *)platformID;
+- (void)setAdsourceImpConfig:(NSArray *)adsourceImpConfig;
+- (void)clearAdsourceImpConfig;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -20,6 +20,8 @@
 @property (nonatomic,copy)NSString *nurl;
 ///Loss URL
 @property (nonatomic,copy)NSString *lurl;
+///是否独占；0 否 1 是
+@property (nonatomic,assign)NSInteger is_exclusive;
 ///DisplayNotification
 @property (nonatomic,copy)NSString *impurl;
 @property (nonatomic,copy)NSString *adm;

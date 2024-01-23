@@ -2,7 +2,9 @@
 @interface TradPlusBaseAdapter ()
 
 @property (nonatomic,copy)void (^loadFinishAct)(void);
+@property (nonatomic,copy)void (^waitingPoolLoadFinishAct)(TradPlusAdWaterfallItem *waterfallItem);
 @property (nonatomic,copy)void (^loadFailAct)(NSError *error);
+@property (nonatomic,copy)void (^waitingPoolLoadFailAct)(TradPlusAdWaterfallItem *waterfallItem);
 @property (nonatomic,copy)void (^configErrorAct)(void);
 
 @property (nonatomic,copy)void (^pasterPlayFinish)(TradPlusAdWaterfallItem *waterfallItem);

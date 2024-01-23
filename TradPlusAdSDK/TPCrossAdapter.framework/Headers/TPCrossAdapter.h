@@ -37,3 +37,9 @@
 #import <TPCrossAdapter/TPADXNetworkSession.h>
 #import <TPCrossAdapter/TradPlusCrossCacheItem.h>
 #import <TPCrossAdapter/TradPlusCrossCacheManager.h>
+#import <TPCrossAdapter/TPCrossNativeAdapter.h>
+#import <TPCrossAdapter/TPCrossNativeAd.h>
+#import <TPCrossAdapter/TPCrossBaseAd.h>
+#import <TPCrossAdapter/TPCrossMediaView.h>
+#import <TPCrossAdapter/TPCrossNativeData.h>
+#import <TPCrossAdapter/TPCrossVideoView.h>
