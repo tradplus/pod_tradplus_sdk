@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <TradPlusAds/MsCommon.h>
+#import <TradPlusAds/TradPlusAds.h>
 #import "TPCrossEvent.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -31,7 +31,7 @@ typedef enum : NSUInteger {
 @property (nonatomic, assign) BOOL closeOnClick;
 @property (nonatomic, weak, nullable) id<TPCrossAdDelegate> delegate;
 
-- (void)loadAd:(NSDictionary *)adInfo;
+- (void)loadAd:(NSDictionary *)adInfo item:(TradPlusAdWaterfallItem *)item;
 - (void)showAdFromViewController:(UIViewController *)viewController;
 @end
 
