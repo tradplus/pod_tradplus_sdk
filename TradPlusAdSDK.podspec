@@ -224,7 +224,7 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'TanxAdapter' do |ss|
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TanxAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/TPTanxAdapter.framework'
   end
   
 end
