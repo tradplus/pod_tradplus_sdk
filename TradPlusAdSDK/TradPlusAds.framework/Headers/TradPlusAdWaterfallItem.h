@@ -178,6 +178,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak)UIViewController *nativeRootViewController;
 @property (nonatomic,assign)BOOL mute;
 
+///admob bidding相关参数 v10.9.0新增
+@property (nonatomic,copy)NSString *mediation_event_id;
+
 //0 否 1 是
 @property (nonatomic,assign)NSInteger is_adx;
 
