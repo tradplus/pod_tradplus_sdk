@@ -77,7 +77,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger adsource_type;
 ///尺寸比例
 @property (nonatomic,assign)NSInteger ad_size_ratio;
-
+@property (nonatomic,copy)NSString *request_agent;
 //广告格式  1:插屏视频  2:插屏图片
 @property (nonatomic,assign)NSInteger ad_format;
 

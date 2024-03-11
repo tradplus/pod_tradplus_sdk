@@ -20,7 +20,6 @@
 #import <TradPlusAds/TPEventTimer.h>
 #import <TradPlusAds/TPFrequencyLimitData.h>
 #import <TradPlusAds/TPFrequencyLimitService.h>
-#import <TradPlusAds/TPNativeInterstitialTemplate.h>
 #import <TradPlusAds/TPNetworkSession.h>
 #import <TradPlusAds/TPSDKLoaderDelegate.h>
 #import <TradPlusAds/TPTestModeController.h>
@@ -64,7 +63,6 @@
 #import <TradPlusAds/TradPlusNativeAdRendering.h>
 #import <TradPlusAds/TradPlusNativeBanner.h>
 #import <TradPlusAds/TradPlusNativeBannerTemplate.h>
-#import <TradPlusAds/TradPlusNativeInterstitial.h>
 #import <TradPlusAds/TradPlusNativeRenderer.h>
 #import <TradPlusAds/TradPlusNativeSplash.h>
 #import <TradPlusAds/TradPlusNativeSplashTemplate.h>
@@ -93,3 +91,8 @@
 #import <TradPlusAds/TradPlusAdInterstitialObject.h>
 #import <TradPlusAds/TradPlusAdMediaVideoCallback.h>
 #import <TradPlusAds/TradPlusWaitingPool.h>
+#import <TradPlusAds/TradPlusInterstitialNativeViewController.h>
+#import <TradPlusAds/TPNativeInterstitialFullVerticalTemplate.h>
+#import <TradPlusAds/TPNativeInterstitialFullHorizontalTemplate.h>
+#import <TradPlusAds/TPNativeInterstitialHalfTemplate.h>
+#import <TradPlusAds/TradPlusNativeInterstitialRenderer.h>

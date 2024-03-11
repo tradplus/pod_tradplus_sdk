@@ -1,3 +1,3 @@
-#define TP_SigmobAdapter_Version @"10.9.0"
-#define TP_SigmobAdapter_PlatformSDK_Version @"4.11.1"
+#define TP_SigmobAdapter_Version @"11.0.0"
+#define TP_SigmobAdapter_PlatformSDK_Version @"4.12.3"
 
