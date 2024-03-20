@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <TradPlusAds/TradPlusAds.h>
+#import <TradPlusAds/MsCommon.h>
 #import <TradPlusAds/TradPlusAdInterstitialObject.h>
 
 NS_ASSUME_NONNULL_BEGIN

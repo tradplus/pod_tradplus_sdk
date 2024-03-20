@@ -1,3 +1,3 @@
-#define TP_AppLovinAdapter_Version @"11.0.0"
-#define TP_AppLovinAdapter_PlatformSDK_Version @"12.2.1"
+#define TP_AppLovinAdapter_Version @"10.8.10"
+#define TP_AppLovinAdapter_PlatformSDK_Version @"12.1.0"
 

@@ -99,9 +99,7 @@ typedef enum : NSUInteger {
 //Pangle kuaishou
 @property (nonatomic,copy)NSString *source;
 @property (nonatomic,copy)NSString *likes;
-//Tanx
-@property (nonatomic,copy)NSString *advName;
-@property (nonatomic,copy)NSString *smImageUrl;
+
 // imageURL数组
 @property (nonatomic,strong)NSArray *imageURLList;
 

@@ -1,3 +1,3 @@
-#define TP_BigoAdapter_Version @"11.0.0"
-#define TP_BigoAdapter_PlatformSDK_Version @"4.2.1"
+#define TP_BigoAdapter_Version @"10.8.10"
+#define TP_BigoAdapter_PlatformSDK_Version @"4.1.1"
 

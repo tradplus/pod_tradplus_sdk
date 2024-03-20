@@ -68,7 +68,12 @@ extern NSInteger gTPHttpTimeoutAdx;
 extern NSInteger gTPHttpTimeoutEvent;
 extern NSInteger gTPHttpTimeoutConf;
 
-
+typedef enum : NSUInteger {
+    TPFriendlyObstructionPurposeMediaControls,
+    TPFriendlyObstructionPurposeCloseAd,
+    TPFriendlyObstructionPurposeNotVisible,
+    TPFriendlyObstructionPurposeOther,
+} TPFriendlyObstructionPurpose;
 
 typedef enum : NSUInteger {
     TPLoadType_SetAdUnitID = 1,

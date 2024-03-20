@@ -9,8 +9,8 @@
 #define MS_DEBUG_MODE               1
 
 //测试版本号使用4位
-//#define MS_SDK_VERSION              @"11.0.0.0"
+//#define MS_SDK_VERSION              @"10.8.10.0"
 //买量时使用5位版本号
-//#define MS_SDK_VERSION              @"11.0.0.0.0"
+//#define MS_SDK_VERSION              @"10.8.10.0.0"
 //正式版使用3位
-#define MS_SDK_VERSION              @"11.0.0"
+#define MS_SDK_VERSION              @"10.8.10"

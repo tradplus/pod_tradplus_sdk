@@ -1,6 +1,0 @@
-framework module TPTanxAdapter {
-  umbrella header "TPTanxAdapter.h"
-
-  export *
-  module * { export * }
-}
