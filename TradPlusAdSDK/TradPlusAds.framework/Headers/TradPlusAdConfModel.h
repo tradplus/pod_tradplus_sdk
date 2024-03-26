@@ -55,6 +55,7 @@
 @property (nonatomic,strong)NSDictionary *frequency;
 @property (nonatomic,assign)NSInteger frequencyTime;
 @property (nonatomic,assign)NSInteger frequencyLimit;//次数
+@property (nonatomic,assign)BOOL isNewFrequency;//v11.1.0新增 true使用中介组频限
 
 @property (nonatomic,strong)NSDictionary *originalConfigDictionary;
 

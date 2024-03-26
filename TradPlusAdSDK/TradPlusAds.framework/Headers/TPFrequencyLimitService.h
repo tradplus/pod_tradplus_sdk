@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 //YES = noLimit
 - (BOOL)noLimitWithCapUnitId:(NSString *)capUnitId frequency:(NSDictionary *)frequency;
 - (void)saveShowTimeWithItem:(TradPlusAdWaterfallItem *)item;
+- (void)addShowTimeWithCapUnitId:(NSString *)capUnitId;
 
 - (BOOL)noLimitWithPlatformID:(NSString *)platformID;
 - (void)setAdsourceImpConfig:(NSArray *)adsourceImpConfig;

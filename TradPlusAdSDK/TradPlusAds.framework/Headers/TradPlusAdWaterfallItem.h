@@ -77,9 +77,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger adsource_type;
 ///尺寸比例
 @property (nonatomic,assign)NSInteger ad_size_ratio;
-
+@property (nonatomic,copy)NSString *request_agent;
 //广告格式  1:插屏视频  2:插屏图片
 @property (nonatomic,assign)NSInteger ad_format;
+//0 无 ,1 top ,2 bottom
+@property(nonatomic,assign)NSInteger collapsible;
 
 ///广告源状态 0=通常 1=loading 2=ready 3=过期
 @property (nonatomic,assign)TPAdWaterfallItemStatus status;
@@ -177,6 +179,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak)UIViewController *mediaVideoViewController;
 @property (nonatomic,weak)UIViewController *nativeRootViewController;
 @property (nonatomic,assign)BOOL mute;
+
+///admob bidding相关参数 v10.9.0新增
+@property (nonatomic,copy)NSString *mediation_event_id;
 
 //0 否 1 是
 @property (nonatomic,assign)NSInteger is_adx;

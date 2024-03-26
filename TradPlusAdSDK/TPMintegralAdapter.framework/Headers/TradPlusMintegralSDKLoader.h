@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (TradPlusMintegralSDKLoader *)sharedInstance;
 - (void)initWithAppID:(NSString *)appID
                apiKey:(NSString *)apiKey
+        requestAgent:(NSString *)requestAgent
              delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
 - (void)setPersonalizedAd;
 

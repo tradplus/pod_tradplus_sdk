@@ -50,7 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///v10.0.0新增
 - (void)discardAdBreak;
 
-///v10.8.10新增
+///v11.1.0新增
 - (void)registerFriendlyObstructionWithView:(UIView *)view purpose:(TPFriendlyObstructionPurpose)purpose detailedReason:(nullable NSString *)detailedReason;
 - (void)unregisterAllFriendlyObstructions;
 
