@@ -61,6 +61,7 @@
 
 @property (nonatomic,assign)NSInteger is_test_mode;
 @property (nonatomic,assign)NSInteger nobid;
+@property (nonatomic,assign)NSInteger is_hybrid_setup;
 //是否服务端奖励回调
 @property (nonatomic,assign)NSInteger is_server_callback;
 
