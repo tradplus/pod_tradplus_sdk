@@ -29,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)clickWithViewController:(UIViewController *)viewController;
 
 - (void)downLoadVideoWithURL:(NSString *)videoURL callback:(void (^)(NSError *error, NSString *localPath))callback;
+- (void)downLoadEndCardWithURL:(NSString *)imageURL callback:(void (^)(NSError *error, NSString *localPath))callback;
 
 - (void)adReadyEvent:(NSString *)code;
 - (void)loadFinishEvent;
@@ -40,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)videoProgress25Event;
 - (void)videoProgress50Event;
 - (void)videoProgress75Event;
-
+- (void)closeEvent;
 - (void)sendClickTrack;
 - (void)sendImpressionTrack;
 @end

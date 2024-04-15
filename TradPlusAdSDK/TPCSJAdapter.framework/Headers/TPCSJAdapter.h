@@ -5,5 +5,4 @@
 #import <TPCSJAdapter/TradPlusCSJSDKLoader.h>
 #import <TPCSJAdapter/TradPlusCSJSplashAdapter.h>
 #import <TPCSJAdapter/TradPlusCSJExpressRewardedPlayAgain.h>
-#import <TPCSJAdapter/TradPlusCSJRewardedPlayAgain.h>
 #import <TPCSJAdapter/TPCSJAdapterBaseInfo.h>

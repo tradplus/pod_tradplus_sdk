@@ -182,7 +182,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///admob bidding相关参数 v10.9.0新增
 @property (nonatomic,copy)NSString *mediation_event_id;
-///admob bidding相关参数 v11.1.10新增
+///admob bidding相关参数 v11.1.20新增
 @property (nonatomic,assign)NSInteger is_hybrid_setup;
 
 //0 否 1 是

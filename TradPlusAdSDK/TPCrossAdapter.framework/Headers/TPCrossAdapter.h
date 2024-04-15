@@ -43,3 +43,4 @@
 #import <TPCrossAdapter/TPCrossMediaView.h>
 #import <TPCrossAdapter/TPCrossNativeData.h>
 #import <TPCrossAdapter/TPCrossVideoView.h>
+#import <TPCrossAdapter/TPCrossBannerAdapter.h>

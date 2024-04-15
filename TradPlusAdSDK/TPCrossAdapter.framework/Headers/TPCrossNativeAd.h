@@ -27,11 +27,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol TPCrossNativeAdDelegate <NSObject>
 
-- (void)ADXLoadFinish:(TPCrossNativeData *)nativeData mediaView:(UIView *_Nullable)mediaView;
-- (void)ADXLoadFailWithError:(NSError *)error;
-- (void)ADXImpression;
-- (void)ADXShowFailWithError:(NSError *)error;
-- (void)ADXClicked;
+- (void)crossLoadFinish:(TPCrossNativeData *)nativeData mediaView:(UIView *_Nullable)mediaView;
+- (void)crossLoadFailWithError:(NSError *)error;
+- (void)crossImpression;
+- (void)crossShowFailWithError:(NSError *)error;
+- (void)crossClicked;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TPGooogleIMAItem.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (TradPlusGoogleIMASDKSetting *)sharedInstance;
 
+- (void)addGooogleIMAItem:(TPGooogleIMAItem *)item;
 @end
 
 NS_ASSUME_NONNULL_END

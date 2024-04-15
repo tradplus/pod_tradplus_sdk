@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong)Class renderingViewClass;
 @property (nonatomic,assign)CGSize renderSize;
+@property (nonatomic,assign)BOOL isTemplate;
 @property (nonatomic,readonly)UIView *renderingView;
 //v9.7.0新增传入支持TradPlusNativeAdRendering 协议的自定义adView
 @property (nonatomic,strong)UIView <TradPlusNativeAdRendering> *customAdView;
