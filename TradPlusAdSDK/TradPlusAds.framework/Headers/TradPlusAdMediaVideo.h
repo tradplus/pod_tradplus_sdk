@@ -123,7 +123,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 10.0.0新增 返回IMA RequestContentPause事件
 - (void)tpMediaVideoAdRequestContentPause:(NSDictionary *)adInfo;
 
-/// 10.0.0新增 返回IMA RequestContentPause事件
+/// 10.0.0新增 返回IMA RequestContentResume事件
 - (void)tpMediaVideoAdRequestContentResume:(NSDictionary *)adInfo;
 
 /// 10.0.0新增 返回IMA kIMAAdEvent_AD_BREAK_READY事件

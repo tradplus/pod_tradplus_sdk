@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak)IBOutlet UIView *adView;
 
 @property (nonatomic,assign)BOOL isSkip;
+@property (nonatomic,assign)BOOL callbackClose;
 @property (nonatomic,assign)BOOL removeOnDidAppear;
 @property (nonatomic,assign)NSInteger countdownTime;
 @property (nonatomic,assign)NSInteger skipTime;
@@ -30,5 +31,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)void (^showSkipButton)(void);
 @property (nonatomic,copy)void (^callbackCountDown)(NSInteger count);
 @property (nonatomic,copy)void (^didLayoutSubviewsAct)(void);
+@property (nonatomic,copy)void (^removeAct)(void);
 @end
 NS_ASSUME_NONNULL_END

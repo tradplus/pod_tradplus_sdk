@@ -83,6 +83,7 @@ extern NSString * const kTPRendererAutoLayout;
 
 @property (nonatomic,assign)NSTimeInterval showTime;
 @property (nonatomic,assign)BOOL loadEnd;
+@property (nonatomic,assign)BOOL didStartLoad;
 
 ///扩展事件，传入名称及相关数据 Adapter继承，
 ///引擎或广告对象通过此接口将事件及相关数据 传递到Adapter，Adapter则根据事件进行处理
