@@ -23,6 +23,7 @@
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;
 @property (nonatomic,weak)TradPlusBiddingTokenManager *biddingTokenManager;
 @property (nonatomic,assign)MsADType adType;
+@property (nonatomic,weak)TradPlusAdConfModel *confModel;
 
 @property (nonatomic,assign)NSInteger topWaterfallIndex;
 

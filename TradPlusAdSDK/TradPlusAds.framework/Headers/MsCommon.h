@@ -277,8 +277,6 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
 
 + (NSString *)localUUID;
 + (NSString *)getLocalFileFullPath:(NSString *)fileName;
-+ (NSString *)getStrategyFullPath:(NSString *)fileName;
-+ (NSString *)getCrossFullPath:(NSString *)fileName;
 + (NSString *)channelID2Name:(int)channelID;
 + (NSString *)handleAdUnitId:(NSString *)adUnitId;
 + (void)changeCNValue:(id)cnObj;

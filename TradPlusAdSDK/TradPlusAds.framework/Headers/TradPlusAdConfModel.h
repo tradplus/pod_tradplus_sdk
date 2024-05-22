@@ -75,5 +75,11 @@
 
 //max wating time v9.6.0新增
 @property (nonatomic,assign)CGFloat loadMaxWaitTime;
-
+//11.4.0 价值分层新增
+@property (nonatomic,assign)CGFloat uvaMinValue;
+@property (nonatomic,assign)CGFloat uvaMaxValue;
+@property (nonatomic,assign)NSInteger uvaMaxCount;
+//0 无，1均价，2最大值，3用户传入
+@property (nonatomic,assign)NSInteger uvaEstimateType;
+@property (nonatomic,strong)NSArray *uvaList;
 @end

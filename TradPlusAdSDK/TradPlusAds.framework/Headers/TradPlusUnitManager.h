@@ -6,6 +6,7 @@
 #import <TradPlusAds/TradPlusUnitError.h>
 #import <TradPlusAds/TradPlusAdLoadManager.h>
 #import <TradPlusAds/TradPlusWaitingPool.h>
+#import <TradPlusAds/TradPlusGroupManager.h>
 
 
 @interface TradPlusUnitManager : NSObject
@@ -172,4 +173,5 @@
 @property (nonatomic,assign)BOOL noBidMode;
 
 @property (nonatomic,strong)TradPlusWaitingPool *waitingPool;
+@property (nonatomic,strong)TradPlusGroupManager *groupManager;
 @end

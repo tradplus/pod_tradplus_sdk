@@ -29,7 +29,6 @@
 #import <TradPlusAds/TradPlus.h>
 #import <TradPlusAds/TradPlusAdBanner.h>
 #import <TradPlusAds/TradPlusAdCacheManager.h>
-#import <TradPlusAds/TradPlusAdConfManager+Test.h>
 #import <TradPlusAds/TradPlusAdConfManager.h>
 #import <TradPlusAds/TradPlusAdConfModel.h>
 #import <TradPlusAds/TradPlusAdCustomVideoPaster.h>
@@ -96,3 +95,4 @@
 #import <TradPlusAds/TPNativeInterstitialFullHorizontalTemplate.h>
 #import <TradPlusAds/TPNativeInterstitialHalfTemplate.h>
 #import <TradPlusAds/TradPlusNativeInterstitialRenderer.h>
+#import <TradPlusAds/TradPlusGroupManager.h>
