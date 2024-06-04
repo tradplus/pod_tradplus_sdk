@@ -5,3 +5,4 @@
 #import <TPIronSourceAdapter/TradPlusIronSourceRewardedAdapter.h>
 #import <TPIronSourceAdapter/TradPlusIronSourceSDKLoader.h>
 #import <TPIronSourceAdapter/TPIronSourceAdapterBaseInfo.h>
+#import <TPIronSourceAdapter/TradPlusIronSourceBannerAdapter.h>

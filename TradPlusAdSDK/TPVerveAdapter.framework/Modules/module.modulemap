@@ -1,6 +1,6 @@
 framework module TPVerveAdapter {
   umbrella header "TPVerveAdapter.h"
-
   export *
+
   module * { export * }
 }

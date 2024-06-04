@@ -1,6 +1,6 @@
 framework module TPStartAppAdapter {
   umbrella header "TPStartAppAdapter.h"
-
   export *
+
   module * { export * }
 }

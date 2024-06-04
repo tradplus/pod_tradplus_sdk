@@ -1,6 +1,6 @@
 framework module TPFusionAdapter {
   umbrella header "TPFusionAdapter.h"
-
   export *
+
   module * { export * }
 }

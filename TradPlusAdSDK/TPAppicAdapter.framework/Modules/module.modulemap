@@ -1,6 +1,6 @@
 framework module TPAppicAdapter {
   umbrella header "TPAppicAdapter.h"
-
   export *
+
   module * { export * }
 }
