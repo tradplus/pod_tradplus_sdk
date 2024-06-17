@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusAdSDK"
-  spec.version      = "11.5.0"
+  spec.version      = "11.6.0"
   spec.summary      = "TradPlusAd SDK"
   spec.description  = <<-DESC
             "A short description of TradPlusAd SDK for iOS.
@@ -92,11 +92,6 @@ Pod::Spec.new do |spec|
      ss.vendored_frameworks = 'TradPlusAdSDK/TPVungleAdapter.framework'
   end
    
-  spec.subspec 'YouDaoAdapter' do |ss|
-     ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPYouDaoAdapter.framework'
-  end   
-   
   spec.subspec 'InMobiAdapter' do |ss|
      ss.ios.deployment_target = '9.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPInMobiAdapter.framework'
@@ -125,12 +120,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'KidozAdapter' do |ss|
      ss.ios.deployment_target = '9.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPKidozAdapter.framework'
-  end   
-   
-  spec.subspec 'KlevinAdapter' do |ss|
-     ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPKlevinAdapter.framework'
-  end   
+  end 
    
   spec.subspec 'StartAppAdapter' do |ss|
      ss.ios.deployment_target = '9.0'

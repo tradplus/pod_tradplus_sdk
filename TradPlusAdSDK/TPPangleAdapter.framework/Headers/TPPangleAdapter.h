@@ -3,5 +3,5 @@
 #import <TPPangleAdapter/TradPlusPangleNativeAdapter.h>
 #import <TPPangleAdapter/TradPlusPangleRewardedAdapter.h>
 #import <TPPangleAdapter/TradPlusPangleSDKLoader.h>
-#import <TPPangleAdapter/TradPlusPangleSplashAdapter.h>
+#import <TPPangleAdapter/TradPlusPangleGlobalSplashAdapter.h>
 #import <TPPangleAdapter/TPPangleAdapterBaseInfo.h>
