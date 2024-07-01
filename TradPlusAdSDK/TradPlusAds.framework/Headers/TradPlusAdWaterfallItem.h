@@ -55,9 +55,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///'是否使用模版渲染  1:是 2:否',
 @property (nonatomic,assign)NSInteger is_template_rendering;
 ///load超时
-@property (nonatomic,assign)NSInteger loadTimeout;
+@property (nonatomic,assign)CGFloat loadTimeout;
 //C2S 超时时间
-@property (nonatomic,assign)NSInteger buyeruidTimeout;
+@property (nonatomic,assign)CGFloat buyeruidTimeout;
 //是否全屏视频  1:是  2:否'
 @property (nonatomic,assign)NSInteger full_screen_video;
 ///广告有效时间

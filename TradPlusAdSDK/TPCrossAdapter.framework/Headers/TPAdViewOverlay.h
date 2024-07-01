@@ -45,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)stopTimer;
 
 #pragma mark - Controls
-
+- (void)videoFinish;
 - (void)hideControls;
 - (void)delayForDuration:(NSTimeInterval)duration showCountdownTimer:(BOOL)showCountdownTimer countdownTimerDelay:(NSTimeInterval)countdownTimerDelay;
 - (void)showCloseButton;

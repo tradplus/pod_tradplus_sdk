@@ -49,6 +49,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)showCloseButton;
 
+- (void)hideSoundButton;
+
 /*
  Call when an interruption begins.
  */

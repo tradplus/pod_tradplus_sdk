@@ -50,7 +50,7 @@
 @property (nonatomic,assign)NSInteger refreshTime;
 
 //biddingTimeout 超时时间
-@property (nonatomic,assign)NSInteger biddingTimeout;
+@property (nonatomic,assign)CGFloat biddingTimeout;
 
 @property (nonatomic,strong)NSDictionary *frequency;
 @property (nonatomic,assign)NSInteger frequencyTime;

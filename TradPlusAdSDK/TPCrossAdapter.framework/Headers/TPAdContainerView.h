@@ -51,6 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithFrame:(CGRect)frame imageCreativeView:(UIImageView *)imageCreativeView;
 
+- (void)videoFinish;
 - (void)hideControls;
 - (void)showCloseButton;
 - (void)startAdExperience;
