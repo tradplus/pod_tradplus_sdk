@@ -102,10 +102,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpNativeAdLoaded:(NSDictionary *)adInfo;
 
-///AD加载失败
-///tpNativeAdOneLayerLoad:didFailWithError：返回三方源的错误信息
-- (void)tpNativeAdLoadFailWithError:(NSError *)error;
-
 ///AD展现
 - (void)tpNativeAdImpression:(NSDictionary *)adInfo;
 
@@ -116,6 +112,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpNativeAdClicked:(NSDictionary *)adInfo;
 
 @optional
+
+///AD加载失败
+///tpNativeAdOneLayerLoad:didFailWithError：返回三方源的错误信息
+- (void)tpNativeAdLoadFailWithError:(NSError *)error;
+///v11.8.0新增,同tpNativeAdLoadFailWithError:,两个回调任选其一
+- (void)tpNativeAdLoadFailWithError:(NSError *)error adInfo:(NSDictionary *)adInfo;
 
 ///为三方提供rootviewController 用于点击广告后的操作
 - (nullable UIViewController *)viewControllerForPresentingModalView;
@@ -148,6 +150,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///加载流程全部结束
 - (void)tpNativeAdAllLoaded:(BOOL)success;
+///v11.8.0新增,同tpNativeAdAllLoaded:,两个回调任选其一
+- (void)tpNativeAdAllLoaded:(BOOL)success adInfo:(NSDictionary *)adInfo;
 
 ///视频贴片类型播放完成回调 v6.8.0+
 - (void)tpNativePasterDidPlayFinished:(NSDictionary *)adInfo;

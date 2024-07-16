@@ -80,7 +80,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *request_agent;
 //广告格式  1:插屏视频  2:插屏图片
 @property (nonatomic,assign)NSInteger ad_format;
-//0 无 ,1 top ,2 bottom
+//0 无 ,1 top ,2 bottom admob的特殊横幅类型
 @property(nonatomic,assign)NSInteger collapsible;
 
 ///广告源状态 0=通常 1=loading 2=ready 3=过期

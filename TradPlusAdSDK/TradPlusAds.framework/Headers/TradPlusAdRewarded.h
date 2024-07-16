@@ -84,10 +84,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpRewardedAdLoaded:(NSDictionary *)adInfo;
 
-///AD加载失败
-///tpRewardedAdOneLayerLoad:didFailWithError：返回三方源的错误信息
-- (void)tpRewardedAdLoadFailWithError:(NSError *)error;
-
 ///AD展现
 - (void)tpRewardedAdImpression:(NSDictionary *)adInfo;
 
@@ -104,6 +100,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpRewardedAdReward:(NSDictionary *)adInfo;
 
 @optional
+
+///AD加载失败
+///tpRewardedAdOneLayerLoad:didFailWithError：返回三方源的错误信息
+- (void)tpRewardedAdLoadFailWithError:(NSError *)error;
+///v11.8.0新增,同tpRewardedAdLoadFailWithError:,两个回调任选其一
+- (void)tpRewardedAdLoadFailWithError:(NSError *)error adInfo:(NSDictionary *)adInfo;
 
 ///v7.6.0+新增 开始加载流程
 - (void)tpRewardedAdStartLoad:(NSDictionary *)adInfo;
@@ -130,6 +132,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///加载流程全部结束
 - (void)tpRewardedAdAllLoaded:(BOOL)success;
+///v11.8.0新增,同tpRewardedAdAllLoaded:,两个回调任选其一
+- (void)tpRewardedAdAllLoaded:(BOOL)success adInfo:(NSDictionary *)adInfo;
 
 ///开始播放
 - (void)tpRewardedAdPlayStart:(NSDictionary *)adInfo;

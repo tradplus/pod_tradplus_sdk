@@ -51,7 +51,6 @@
 
 //biddingTimeout 超时时间
 @property (nonatomic,assign)CGFloat biddingTimeout;
-
 @property (nonatomic,strong)NSDictionary *frequency;
 @property (nonatomic,assign)NSInteger frequencyTime;
 @property (nonatomic,assign)NSInteger frequencyLimit;//次数
@@ -82,4 +81,6 @@
 //0 无，1均价，2最大值，3用户传入
 @property (nonatomic,assign)NSInteger uvaEstimateType;
 @property (nonatomic,strong)NSArray *uvaList;
+
+@property (nonatomic,assign)BOOL closeAutoLoad;
 @end

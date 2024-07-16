@@ -1,3 +1,3 @@
-#define TP_InMobiAdapter_Version @"11.7.0"
+#define TP_InMobiAdapter_Version @"11.8.0"
 #define TP_InMobiAdapter_PlatformSDK_Version @"10.7.4"
 

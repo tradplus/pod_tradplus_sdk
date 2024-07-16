@@ -154,6 +154,7 @@
 @property (nonatomic,weak)UIViewController *nativeRootViewController;
 @property (nonatomic,assign)CGSize bannerSize;
 @property (nonatomic,assign)TPBannerContentMode bannerContentMode;
+//@property (nonatomic,copy)
 
 @property (nonatomic,assign)CGSize splashBottomSize;
 @property (nonatomic,weak)UIWindow *splashWindow;

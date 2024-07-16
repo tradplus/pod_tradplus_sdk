@@ -71,10 +71,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpOfferwallAdLoaded:(NSDictionary *)adInfo;
 
-///AD加载失败
-///tpOfferwallAdOneLayerLoaded:didFailWithError：返回三方源的错误信息
-- (void)tpOfferwallAdLoadFailWithError:(NSError *)error;
-
 ///AD展现
 - (void)tpOfferwallAdImpression:(NSDictionary *)adInfo;
 
@@ -101,6 +97,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 
+///AD加载失败
+///tpOfferwallAdOneLayerLoaded:didFailWithError：返回三方源的错误信息
+- (void)tpOfferwallAdLoadFailWithError:(NSError *)error;
+///v11.8.0新增,同tpOfferwallAdLoadFailWithError:,两个回调任选其一
+- (void)tpOfferwallAdLoadFailWithError:(NSError *)error adInfo:(NSDictionary *)adInfo;
+
 ///开始加载流程
 - (void)tpOfferwallAdStartLoad:(NSDictionary *)adInfo;
 
@@ -119,5 +121,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///加载流程全部结束
 - (void)tpOfferwallAdAllLoaded:(BOOL)success;
+///v11.8.0新增,同tpOfferwallAdAllLoaded:,两个回调任选其一
+- (void)tpOfferwallAdAllLoaded:(BOOL)success adInfo:(NSDictionary *)adInfo;
 @end
 NS_ASSUME_NONNULL_END

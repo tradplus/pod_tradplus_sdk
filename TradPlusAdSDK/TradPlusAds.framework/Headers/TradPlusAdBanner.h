@@ -79,10 +79,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpBannerAdLoaded:(NSDictionary *)adInfo;
 
-///AD加载失败
-///tpBannerAdOneLayerLoad:didFailWithError：返回三方源的错误信息
-- (void)tpBannerAdLoadFailWithError:(NSError *)error;
-
 ///AD展现
 - (void)tpBannerAdImpression:(NSDictionary *)adInfo;
 
@@ -93,6 +89,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpBannerAdClicked:(NSDictionary *)adInfo;
 
 @optional
+
+///AD加载失败
+///tpBannerAdOneLayerLoad:didFailWithError：返回三方源的错误信息
+- (void)tpBannerAdLoadFailWithError:(NSError *)error;
+///v11.8.0新增,同tpBannerAdLoadFailWithError:,两个回调任选其一
+- (void)tpBannerAdLoadFailWithError:(NSError *)error adInfo:(NSDictionary *)adInfo;
 
 // v9.7.0
 // 替代原 @property (nonatomic,strong,nullable)TradPlusNativeRenderer *customRenderer;
@@ -129,6 +131,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///加载流程全部结束
 - (void)tpBannerAdAllLoaded:(BOOL)success;
+///v11.8.0新增,同tpBannerAdAllLoaded:,两个回调任选其一
+- (void)tpBannerAdAllLoaded:(BOOL)success adInfo:(NSDictionary *)adInfo;
 
 ///三方关闭按钮触发时的回调
 - (void)tpBannerAdClose:(NSDictionary *)adInfo;

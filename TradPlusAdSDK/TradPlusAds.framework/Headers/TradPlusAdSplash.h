@@ -95,10 +95,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///AD加载完成 首个广告源加载成功时回调 一次加载流程只会回调一次
 - (void)tpSplashAdLoaded:(NSDictionary *)adInfo;
 
-///AD加载失败
-///tpSplashAdOneLayerLoad:didFailWithError：返回三方源的错误信息
-- (void)tpSplashAdLoadFailWithError:(NSError *)error;
-
 ///AD展现
 - (void)tpSplashAdImpression:(NSDictionary *)adInfo;
 
@@ -112,6 +108,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpSplashAdDismissed:(NSDictionary *)adInfo;
 
 @optional
+
+///AD加载失败
+///tpSplashAdOneLayerLoad:didFailWithError：返回三方源的错误信息
+- (void)tpSplashAdLoadFailWithError:(NSError *)error;
+///v11.8.0新增,同tpSplashAdLoadFailWithError:,两个回调任选其一
+- (void)tpSplashAdLoadFailWithError:(NSError *)error adInfo:(NSDictionary *)adInfo;
 
 ///v7.6.0+新增 开始加载流程
 - (void)tpSplashAdStartLoad:(NSDictionary *)adInfo;
@@ -138,6 +140,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///加载流程全部结束
 - (void)tpSplashAdAllLoaded:(BOOL)success;
+///v11.8.0新增,同tpSplashAdAllLoaded:,两个回调任选其一
+- (void)tpSplashAdAllLoaded:(BOOL)success adInfo:(NSDictionary *)adInfo;
 
 //v8.1.0+新增 跳过
 - (void)tpSplashAdSkip:(NSDictionary *)adInfo;

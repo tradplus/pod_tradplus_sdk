@@ -56,6 +56,8 @@ NS_ASSUME_NONNULL_BEGIN
 ///AD加载失败
 ///tpMediaVideoAdOneLayerLoad:didFailWithError：返回三方源的错误信息
 - (void)tpMediaVideoAdLoadFailWithError:(NSError *)error;
+///v11.8.0新增,同tpMediaVideoAdLoadFailWithError:,两个回调任选其一
+- (void)tpMediaVideoAdLoadFailWithError:(NSError *)error adInfo:(NSDictionary *)adInfo;
 
 ///AD播放开始
 - (void)tpMediaVideoAdStart:(NSDictionary *)adInfo;
@@ -92,6 +94,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///加载流程全部结束
 - (void)tpMediaVideoAdAllLoaded:(BOOL)success;
+///v11.8.0新增,同tpMediaVideoAdAllLoaded:,两个回调任选其一
+- (void)tpMediaVideoAdAllLoaded:(BOOL)success adInfo:(NSDictionary *)adInfo;
 
 ///广告的播放进度
 - (void)tpMediaVideoAdDidProgress:(NSDictionary *)adInfo mediaTime:(NSTimeInterval)mediaTime totalTime:(NSTimeInterval)totalTime;
