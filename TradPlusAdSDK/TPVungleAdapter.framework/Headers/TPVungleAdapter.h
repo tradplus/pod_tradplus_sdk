@@ -1,4 +1,3 @@
-#import <TPVungleAdapter/TPVungleRouter.h>
 #import <TPVungleAdapter/TradPlusVungleAdapter.h>
 #import <TPVungleAdapter/TradPlusVungleBannerAdapter.h>
 #import <TPVungleAdapter/TradPlusVungleInterstitialAdapter.h>
