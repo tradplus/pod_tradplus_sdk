@@ -1,3 +1,3 @@
-#define TP_HeliumAdapter_Version @"12.0.0"
-#define TP_HeliumAdapter_PlatformSDK_Version @"4.9.0.1"
+#define TP_HeliumAdapter_Version @"12.1.0"
+#define TP_HeliumAdapter_PlatformSDK_Version @"5.0.0"
 

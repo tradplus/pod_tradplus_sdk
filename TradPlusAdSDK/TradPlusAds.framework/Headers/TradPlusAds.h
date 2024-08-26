@@ -48,6 +48,7 @@
 #import <TradPlusAds/TradPlusAutoLoadManager.h>
 #import <TradPlusAds/TradPlusBaseAdapter+CallBack.h>
 #import <TradPlusAds/TradPlusBaseAdapter+CustomVideoPaster.h>
+#import <TradPlusAds/TradPlusBaseAdapter+Event.h>
 #import <TradPlusAds/TradPlusBaseAdapter.h>
 #import <TradPlusAds/TradPlusBiddingManager.h>
 #import <TradPlusAds/TradPlusBiddingTokenManager.h>
@@ -96,3 +97,5 @@
 #import <TradPlusAds/TPNativeInterstitialHalfTemplate.h>
 #import <TradPlusAds/TradPlusNativeInterstitialRenderer.h>
 #import <TradPlusAds/TradPlusGroupManager.h>
+#import <TradPlusAds/TradPlusSharedPoolManager.h>
+#import <TradPlusAds/TradPlusSharedPool.h>

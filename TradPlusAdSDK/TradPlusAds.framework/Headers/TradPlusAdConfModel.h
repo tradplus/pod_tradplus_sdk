@@ -83,4 +83,8 @@
 @property (nonatomic,strong)NSArray *uvaList;
 
 @property (nonatomic,assign)BOOL closeAutoLoad;
+
+@property (nonatomic,strong)NSString *share_adunit_id;
+@property (nonatomic,assign)NSInteger restrain_time;
+@property (nonatomic,assign)NSInteger restrain_limit;
 @end

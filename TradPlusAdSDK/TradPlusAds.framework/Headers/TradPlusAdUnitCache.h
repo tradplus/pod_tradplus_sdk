@@ -30,6 +30,7 @@
 //获取一个缓存并移除缓存 不进行频次检测
 - (TradPlusAdWaterfallItem *)getNoCheckAllCacheItemAndRemove;
 - (TradPlusAdWaterfallItem *)getAllCacheItem;
+- (TradPlusAdWaterfallItem *)getNoCheckAllCacheItem;
 //获取缓存中第一个对象的引用
 - (TradPlusAdWaterfallItem *)getWaterfallCacheFirstItem;
 - (TradPlusAdWaterfallItem *)getWaterfallCacheWithAdSourceID:(NSString *)adSourceID;

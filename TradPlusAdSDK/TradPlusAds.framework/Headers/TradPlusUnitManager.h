@@ -48,25 +48,26 @@
 - (void)startCheckExpire;
 - (void)stopCheckExpire;
 - (void)checkExpiredAd;
+- (BOOL)checkRestrain;
 //清除缓存
 - (void)clearCache;
 
 ///全局展示回调
 - (void)adImpression:(NSDictionary *)adInfo;
 ///show 1100
-- (void)showFinsihWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
+- (void)showFinsihWithItem:(TradPlusAdWaterfallItem *)item;
 ///show 1300
-- (void)showFinish1300WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
+- (void)showFinish1300WithItem:(TradPlusAdWaterfallItem *)item;
 ///show 1310
-- (void)showFinish1310WithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
+- (void)showFinish1310WithItem:(TradPlusAdWaterfallItem *)item;
 ///show Fail 1350 失败
-- (void)showFailWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId error:(NSError *)error;
-///click
-- (void)clickEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
+- (void)showFailWithItem:(TradPlusAdWaterfallItem *)item error:(NSError *)error;
+///click 1200
+- (void)clickEventWithItem:(TradPlusAdWaterfallItem *)item;
 ///close 1400 插屏和开屏使用
-- (void)closeEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
+- (void)closeEventWithItem:(TradPlusAdWaterfallItem *)item;
 ///1500 回调奖励
-- (void)rewardedEventWithItem:(TradPlusAdWaterfallItem *)item sceneId:(NSString *)sceneId;
+- (void)rewardedEventWithItem:(TradPlusAdWaterfallItem *)item;
 
 ///是否频限
 - (NSError *)checkLimitWithWaterfallItem:(TradPlusAdWaterfallItem *)item;
@@ -119,6 +120,7 @@
 - (void)tpServerRewardWithItem:(TradPlusAdWaterfallItem *)item callbackInfo:(NSDictionary *)callbackInfo;
 
 //获取三方广告对象
+
 - (id)getCustomObject;
 
 @property (nonatomic,copy) void (^OfferwallClassNameCallback)(NSString *className);
@@ -126,7 +128,7 @@
 @property (nonatomic, copy) void (^AdStartLoad)(void);
 @property (nonatomic, copy) void (^AdIsLoading)(void);
 @property (nonatomic, copy) void (^AdLoadFail)(NSError *error);
-@property (nonatomic, copy) void (^AdAllLoaded)(BOOL success);
+@property (nonatomic, copy) void (^AdAllLoaded)(BOOL success,NSString *requestId);
 
 @property (nonatomic, copy) void (^AdSouceFirstLoaded)(TradPlusAdWaterfallItem *item);
 @property (nonatomic, copy) void (^AdSouceStartLoad)(TradPlusAdWaterfallItem *item);
@@ -172,7 +174,7 @@
 @property (nonatomic,assign)BOOL isReady;
 
 @property (nonatomic,assign)BOOL noBidMode;
-
+@property (nonatomic,assign)BOOL isSharedPool;
 @property (nonatomic,strong)TradPlusWaitingPool *waitingPool;
 @property (nonatomic,strong)TradPlusGroupManager *groupManager;
 @end

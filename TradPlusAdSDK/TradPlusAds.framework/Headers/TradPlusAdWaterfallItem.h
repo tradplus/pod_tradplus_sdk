@@ -4,6 +4,7 @@
 #import <TradPlusAds/TradPlusAdRes.h>
 #import <TradPlusAds/TradPlusAdsourceplacementModel.h>
 #import <TradPlusAds/MsCommon.h>
+@class TradPlusUnitManager;
 
 typedef enum : NSUInteger {
     TPAdWaterfallItemStatusNormal = 0,
@@ -19,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TradPlusAdWaterfallItem : TradPlusDataModel
 
 @property (nonatomic,copy)NSString *placementID;
+@property (nonatomic,copy)NSString *true_adunit_id;
 ///三方渠道id
 @property (nonatomic,assign)NSInteger id;
 ///频次限制
@@ -211,6 +213,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)BOOL playAgain_did_click;
 
 @property (nonatomic,assign)NSInteger is_closable;
+@property (nonatomic,assign)BOOL isSharedPool;
+@property (nonatomic,strong)TradPlusUnitManager *unitManager;
 
 //extraInfoDictionary key及说明
 //点击去重标记 addClickEvent：0 默认未点击，1 已点击，2 强制增加记录点击。
