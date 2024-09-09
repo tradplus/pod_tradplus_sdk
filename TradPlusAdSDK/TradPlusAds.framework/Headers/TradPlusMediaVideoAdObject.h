@@ -20,6 +20,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithWaterfallItem:(TradPlusAdWaterfallItem *)waterfallItem unitManager:(TradPlusUnitManager *)unitManager;
 
+/// v12.2.0新增
+/// @param sceneId 场景ID 没有则设置为nil
+- (void)startWithViewSceneId:(nullable NSString *)sceneId;
+
+/// v12.2.0新增
+/// @param customView 自定义的插播视图 仅支持TPADX //TradPlusAdxInStreamView
+/// @param sceneId 场景ID 没有则设置为nil
+- (void)startWithInStreamView:(nullable UIView *)customView sceneId:(nullable NSString *)sceneId;
+
 ///开始播放
 /// @param viewController 当前视图控制器或为nil
 /// @param sceneId 场景ID 没有则设置为nil
@@ -53,6 +62,12 @@ NS_ASSUME_NONNULL_BEGIN
 ///v11.1.0新增
 - (void)registerFriendlyObstructionWithView:(UIView *)view purpose:(TPFriendlyObstructionPurpose)purpose detailedReason:(nullable NSString *)detailedReason;
 - (void)unregisterAllFriendlyObstructions;
+
+//v12.2.0新增获取广告视图 默认尺寸 100/100,hidden=YES;
+@property (nonatomic,readonly)UIView *adView;
+
+//v12.2.0 vmap 绑定的 contentPlayhead
+@property (nonatomic,readonly)id contentPlayhead;
 
 //用于开发者在广告展示前设置透传的自定义数据，SDK将在展示后的相关回调中返回。
 //开发者可通过 key：customAdInfo 获取。adInfo[@"customAdInfo"]

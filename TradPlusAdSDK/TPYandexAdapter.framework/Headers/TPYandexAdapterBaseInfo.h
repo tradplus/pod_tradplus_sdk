@@ -1,3 +1,3 @@
-#define TP_YandexAdapter_Version @"12.1.0"
-#define TP_YandexAdapter_PlatformSDK_Version @"7.1.1"
+#define TP_YandexAdapter_Version @"12.2.0"
+#define TP_YandexAdapter_PlatformSDK_Version @"7.4.0"
 

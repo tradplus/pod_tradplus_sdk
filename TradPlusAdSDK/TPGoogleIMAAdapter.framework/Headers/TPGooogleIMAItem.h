@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) IMAAdsLoader *adsLoader;
 @property (nonatomic, strong) IMAAdsManager *adsManager;
-
+@property (nonatomic, strong) UIViewController *adViewController;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -4,4 +4,4 @@
 #import <TPYandexAdapter/TradPlusYandexRewardedPlayAgain.h>
 #import <TPYandexAdapter/TradPlusYandexSplashAdapter.h>
 #import <TPYandexAdapter/TPYandexAdapterBaseInfo.h>
-#import <TPYandexAdapter/TradPlusYandexSDKSetting.h>
+#import <TPYandexAdapter/TradPlusYandexSDKLoader.h>

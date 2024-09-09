@@ -2,3 +2,4 @@
 #import <TPGoogleIMAAdapter/TradPlusGoogleMediaVideoAdapter.h>
 #import <TPGoogleIMAAdapter/TradPlusGoogleIMASDKSetting.h>
 #import <TPGoogleIMAAdapter/TPGooogleIMAItem.h>
+#import <TPGoogleIMAAdapter/TPGooogleIMAPlayhead.h>

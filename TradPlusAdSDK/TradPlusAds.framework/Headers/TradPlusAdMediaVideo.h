@@ -21,7 +21,16 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param adUnitID  广告位ID
 - (void)setAdUnitID:(NSString *)adUnitID;
 
+
+///加载广告 v12.2.0新增 无需传入绑定UIView，
+///加载完成可通过TradPlusMediaVideoAdObject 获取adView来展示
+- (void)loadAdWithRootViewController:(nullable UIViewController *)viewController mute:(BOOL)mute;
+- (void)loadAdWithRootViewController:(nullable UIViewController *)viewController mute:(BOOL)mute maxWaitTime:(NSTimeInterval)maxWaitTime;
+///v12.2.0新增 返回下一个Ready的AD信息 无广告时返回nil
+- (nullable NSDictionary *)getReadyAdInfo;
+
 ///加载广告
+///adContainer 绑定的UIView
 - (void)loadAd:(UIView *)adContainer viewController:(UIViewController *)viewController mute:(BOOL)mute;
 - (void)loadAd:(UIView *)adContainer viewController:(UIViewController *)viewController mute:(BOOL)mute maxWaitTime:(NSTimeInterval)maxWaitTime;
 
