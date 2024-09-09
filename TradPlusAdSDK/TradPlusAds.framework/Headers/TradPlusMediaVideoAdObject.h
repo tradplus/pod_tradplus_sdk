@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// v12.2.0新增
 /// @param sceneId 场景ID 没有则设置为nil
-- (void)startWithViewSceneId:(nullable NSString *)sceneId;
+- (void)startWithSceneId:(nullable NSString *)sceneId;
 
 /// v12.2.0新增
 /// @param customView 自定义的插播视图 仅支持TPADX //TradPlusAdxInStreamView
