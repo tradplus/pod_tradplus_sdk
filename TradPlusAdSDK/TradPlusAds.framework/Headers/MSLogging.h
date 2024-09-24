@@ -8,6 +8,8 @@
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/MSConstants.h>
 
+#define MS_DEBUG_MODE               1
+
 // Lower = finer-grained logs.
 typedef enum : NSUInteger {
     MSLogLevelAll        = 0,
