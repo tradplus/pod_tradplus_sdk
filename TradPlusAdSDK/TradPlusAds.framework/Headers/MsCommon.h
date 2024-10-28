@@ -280,7 +280,6 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
 + (NSString *)channelID2Name:(int)channelID;
 + (NSString *)handleAdUnitId:(NSString *)adUnitId;
 + (void)changeCNValue:(id)cnObj;
-+ (NSData *)dataWithInfo:(NSString *)info;
 
 + (void)testModeOpen:(NSString *)open;
 

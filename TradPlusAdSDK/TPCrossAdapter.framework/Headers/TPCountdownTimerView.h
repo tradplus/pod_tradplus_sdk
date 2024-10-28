@@ -3,7 +3,6 @@
 NS_ASSUME_NONNULL_BEGIN
 @protocol TPCountdownTimerViewDelegate <NSObject>
 - (void)tpCountdownTimerUpdate:(double)playTimeRate;
-- (void)tpCountdownShowSkipButton;
 @end
 
 @interface TPCountdownTimerView : UIView
@@ -11,7 +10,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id<TPCountdownTimerViewDelegate> delegate;
 @property (nonatomic, assign) NSTimeInterval remainingSeconds;
 @property (nonatomic, assign) NSTimeInterval totalSeconds;
-@property (nonatomic, assign) BOOL isCN;
 
 - (instancetype)initWithDuration:(NSTimeInterval)seconds timerCompletion:(void(^)(BOOL hasElapsed))completion;
 - (void)start;

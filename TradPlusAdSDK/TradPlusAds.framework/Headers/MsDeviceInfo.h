@@ -51,6 +51,4 @@
 + (NSArray *)getAdNetworkItems;
 + (NSString *)deviceModelName;
 + (NSString *)getSKAdNetworkVersions;
-
-+ (NSString *)md5WithString:(NSString *)text;
 @end
