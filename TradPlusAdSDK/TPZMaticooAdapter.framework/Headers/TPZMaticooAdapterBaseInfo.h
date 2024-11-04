@@ -1,3 +1,3 @@
-#define TP_ZMaticooAdapter_Version @"12.2.10"
-#define TP_ZMaticooAdapter_PlatformSDK_Version @"1.4.1"
+#define TP_ZMaticooAdapter_Version @"12.5.0"
+#define TP_ZMaticooAdapter_PlatformSDK_Version @"1.5.0"
 

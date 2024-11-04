@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong)TradPlusUnitManager *unitManager;
 - (TradPlusAdWaterfallItem *)getBestItemWithItem:(TradPlusAdWaterfallItem *)item noCheck:(BOOL)noCheck;
+- (TradPlusAdWaterfallItem *)getBestItemWithItem:(TradPlusAdWaterfallItem *)item;
 - (NSDictionary *)getBestInfoWithItem:(TradPlusAdWaterfallItem *)item;
 @end
 

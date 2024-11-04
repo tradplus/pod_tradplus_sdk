@@ -11,7 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)hasUnitManagerWithPlacementID:(NSString *)placementID;
 - (TradPlusUnitManager *)getUnitManagerWithPlacementID:(NSString *)placementID;
 - (void)setCustomDictionary:(nullable NSDictionary *)customDictionary  placementId:(NSString *)placementId;
-
+- (BOOL)compareWithEcpm:(CGFloat)ecpm placementId:(NSString *)placementID;
+- (BOOL)compareWithEcpm:(CGFloat)ecpm adObject:(id)adObject;
 - (void)startCheckExpire;
 - (void)stopCheckExpire;
 - (void)checkExpiredAd;

@@ -42,6 +42,7 @@
 - (void)getReadyItemWithSceneId:(NSString *)sceneId callback:(void (^)(TradPlusAdWaterfallItem *item , NSError *error))callback;
 ///获取缓存广告 nil = 没有 获取后会从缓存中移除
 - (TradPlusAdWaterfallItem *)getReadWaterfallItem;
+- (TradPlusAdWaterfallItem *)getItem;
 ///缓存清理后需要重新load
 - (void)cacheAdExpired;
 //缓存检测
@@ -88,7 +89,7 @@
 //加载埋点及回调
 - (void)startLoadAdWithItem:(TradPlusAdWaterfallItem *)item;
 - (void)callbackWithErrorCode:(TPUnitErrorCode)code;
-
+- (void)showAdTypeError;
 - (void)waitItemLoadFinish:(TradPlusAdWaterfallItem *)item;
 
 - (void)speedModeLoaded:(TradPlusAdLoadManager *)adLoadManager;
@@ -139,7 +140,6 @@
 @property (nonatomic, copy) void (^AdEndBidding)(TradPlusAdWaterfallItem *item, NSError *error);
 
 @property (nonatomic,strong)TradPlusMutableArray *adLoadManagerArray;
-
 @property (nonatomic,strong)NSDate *startLoadTime;
 @property (nonatomic,readonly)NSString *placementID;
 @property (nonatomic,readonly)TradPlusAdUnitCache *adCache;
@@ -167,6 +167,7 @@
 @property (nonatomic,weak)id contentPlayhead;
 @property (nonatomic,assign)BOOL mute;
 
+@property (nonatomic,assign)MsADType serverAdType;
 @property (nonatomic,assign)MsADType adType;
 @property (nonatomic,assign)NSInteger customCacheCount;
 @property (nonatomic,readonly)NSInteger readyAdCount;

@@ -48,6 +48,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)videoFinish;
 - (void)hideControls;
 - (void)delayForDuration:(NSTimeInterval)duration showCountdownTimer:(BOOL)showCountdownTimer countdownTimerDelay:(NSTimeInterval)countdownTimerDelay;
+- (void)videoShowCloseButton;
 - (void)showCloseButton;
 - (void)showSkipButton;
 #pragma mark - Clickthrough

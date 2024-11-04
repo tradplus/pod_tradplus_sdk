@@ -142,7 +142,8 @@ typedef enum : NSUInteger {
     ADTYPE_REWARDEDVIDEO,
     ADTYPE_OFFERWALL,
     ADTYPE_SPLASH,
-    ADTYPE_MEDIAVIDEO
+    ADTYPE_MEDIAVIDEO,
+    ADTYPE_UNKNOWN = 999,
 } MsADType;
 
 typedef enum : NSUInteger {
@@ -165,6 +166,7 @@ typedef enum : NSUInteger {
     EV_APP_USE_TIME_V2       = 20,
     EV_REQ_OPEN_API_START    = 100,
     EV_REQ_OPEN_API          = 200,
+    EV_REQ_OPEN_SPARE        = 220,
     EV_INIT_NETWORK          = 250,
     EV_PRE_LOAD_ADCONF_START = 300,
     EV_PRE_LOAD_ADCONF       = 400,
@@ -280,6 +282,7 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
 + (NSString *)channelID2Name:(int)channelID;
 + (NSString *)handleAdUnitId:(NSString *)adUnitId;
 + (void)changeCNValue:(id)cnObj;
++ (NSData *)dataWithInfo:(NSString *)info;
 
 + (void)testModeOpen:(NSString *)open;
 

@@ -16,6 +16,7 @@ typedef NS_ENUM(NSUInteger, TPAdOverlayControlState) {
 
     /// The close button is being shown.
     TPAdOverlayControlStateCloseButton,
+    TPAdOverlayControlStateShowCloseButton,
     TPAdOverlayControlStateVideoFinish,
 };
 

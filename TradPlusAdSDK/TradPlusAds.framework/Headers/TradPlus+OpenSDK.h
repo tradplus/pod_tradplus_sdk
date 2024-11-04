@@ -8,9 +8,15 @@
 
 #import <TradPlusAds/TradPlusAds.h>
 
-@interface TradPlus (OpenSDK)
+@interface TradPlus ()
+
+@property (nonatomic,copy)NSString *savePathURL;
+@property (nonatomic,assign)NSInteger tryCount;
+@property (nonatomic,assign)NSInteger maxTryCount;
+@property (nonatomic,assign)NSInteger urlMode;
+@property (nonatomic,assign)NSInteger retryTimes;
 
 //初始化
 - (void)sdkOpen:(void (^)(NSError *error))completionBlock;
-
+- (void)localConfiguration;
 @end

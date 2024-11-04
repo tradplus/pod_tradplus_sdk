@@ -45,6 +45,7 @@ typedef enum : NSUInteger {
     TPUnitErrorLoadFailExclusive = 810105,
     TPUnitErrorShowLimit = 1000004,
     TPUnitErrorShowNoReadyAd = 1000005,
+    TPUnitErrorAdTypeError = 1100104,
     TPUnitErrorRenderingError = 1100014,
 } TPUnitErrorCode;
 
