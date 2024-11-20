@@ -113,7 +113,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)NSInteger waterfallIndex;
 
 @property (nonatomic,strong)NSArray *style_name;
-
+@property (nonatomic, copy)NSString *segment_id;
+@property (nonatomic, copy)NSString *bucket_id;
 //MediaVideo 视频协议
 @property (nonatomic,assign)TPMediaVideoProtocol videoSuite;
 

@@ -8,7 +8,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (TradPlusOgurySDKLoader *)sharedInstance;
 - (void)initWithAssetKey:(NSString *)assetKey
              delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
-- (void)setPrivacyWithAssetKey:(NSString *)assetKey;
 @property (nonatomic,assign)BOOL didInit;
 //初始化来源 1:open 2:bidding 3:load
 @property (nonatomic,assign)NSInteger initSource;
