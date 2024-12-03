@@ -158,7 +158,8 @@ typedef enum : NSUInteger {
     TPNativeADTYPE_Feed,//自渲染
     TPNativeADTYPE_Template,//模版
     TPNativeADTYPE_Paster,//贴片
-    TPNativeADTYPE_Draw//draw信息流
+    TPNativeADTYPE_Draw,//draw信息流
+    TPNativeADTYPE_Inline
 } TPNativeADTYPE;
 
 typedef enum : NSUInteger {
