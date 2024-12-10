@@ -85,6 +85,15 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 ///返回是否胜出
 + (BOOL)compareWithEcpm:(CGFloat)ecpm adObject:(id)adObject;
 
+///placementArray 传入多个广告位ID数组
+///返回排序后的 placementArray 由高到低排序
++ (NSArray *)compareWithPlacementArray:(NSArray <NSString *> *)placementArray;
+
+
+///adObjectArray 传入多个广告对象 仅支持 TradPlusAdSplashObject,TradPlusAdRewardedObject,TradPlusAdInterstitialObject,TradPlusAdNativeObject,TradPlusMediaVideoAdObject
+///返回排序后的 adObjectArray 由高到低排序
++ (NSArray *)compareWithAdObjectArray:(NSArray <id> *)adObjectArray;
+
 //查看用户当前区域
 //isUnknown = YES时表示 未知IP 或 网络请求失败
 + (void)checkCurrentArea:(void (^)(BOOL isUnknown,BOOL isCN,BOOL isCA,BOOL isEU))completionBlock;

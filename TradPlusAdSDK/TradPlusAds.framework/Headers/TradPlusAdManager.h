@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setCustomDictionary:(nullable NSDictionary *)customDictionary  placementId:(NSString *)placementId;
 - (BOOL)compareWithEcpm:(CGFloat)ecpm placementId:(NSString *)placementID;
 - (BOOL)compareWithEcpm:(CGFloat)ecpm adObject:(id)adObject;
+- (NSArray *)compareWithPlacementArray:(NSArray <NSString *> *)placementArray;
+- (NSArray *)compareWithAdObjectArray:(NSArray <id> *)adObjectArray;
 - (void)startCheckExpire;
 - (void)stopCheckExpire;
 - (void)checkExpiredAd;
