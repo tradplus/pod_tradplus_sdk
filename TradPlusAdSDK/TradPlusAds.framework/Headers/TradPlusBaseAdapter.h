@@ -74,6 +74,8 @@ extern NSString * const kTPRendererAutoLayout;
 
 - (void)addAutoLayoutWithView:(UIView *)view;
 
+- (UIViewController *)getTopViewController:(UIViewController *)viewController;
+
 @property (nonatomic,weak)TradPlusAdWaterfallItem *waterfallItem;
 @property (nonatomic,strong)NSMutableArray *downLoadURLArray;
 @property (nonatomic,weak)UIViewController *rootViewController;

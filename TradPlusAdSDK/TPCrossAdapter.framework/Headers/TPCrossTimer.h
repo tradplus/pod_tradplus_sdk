@@ -2,10 +2,10 @@
 #import <Foundation/Foundation.h>
 
 typedef enum : NSUInteger {
-    GCDTimerInit = 0,
-    GCDTimerStart,
-    GCDTimerPasue,
-    GCDTimerDestroy
+    TPCrossGCDTimerInit = 0,
+    TPCrossGCDTimerStart,
+    TPCrossGCDTimerPasue,
+    TPCrossGCDTimerDestroy
 } TPCrossTimerStatus;
 
 @interface TPCrossTimer : NSObject

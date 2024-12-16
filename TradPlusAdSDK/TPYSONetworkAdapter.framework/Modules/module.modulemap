@@ -1,0 +1,6 @@
+framework module TPYSONetworkAdapter {
+  umbrella header "TPYSONetworkAdapter.h"
+  export *
+
+  module * { export * }
+}
