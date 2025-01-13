@@ -93,6 +93,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,readonly)TPMediaVideoProtocol videoProtocol;
 ///10.0.0新增 设置当前广告的展示相关回调（可选）
 @property (nonatomic,weak) id <TradPlusADMediaVideoDelegate> delegate;
+
+@property (nonatomic,readonly)NSDictionary *adInfo;
 @end
 
 NS_ASSUME_NONNULL_END

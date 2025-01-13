@@ -39,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,readonly)NSInteger placement_ad_type;
 
-
+@property (nonatomic,readonly)NSDictionary *adInfo;
 @end
 
 NS_ASSUME_NONNULL_END

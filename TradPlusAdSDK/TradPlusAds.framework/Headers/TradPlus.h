@@ -71,28 +71,13 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 ///设置是否开启个性化推荐广告。NO = 关闭 ，YES = 开启。默认 YES 开启
 + (void)setOpenPersonalizedAd:(BOOL)isOpen;
 
-/// 清理 激励视频 指定广告位的缓存广告，
+/// 清理 指定广告位的缓存广告
 /// @param placementId 广告位ID
 + (void)clearCacheWithPlacementId:(NSString *)placementId;
 
-///ecpm 价格 美元
-///placementId 广告位ID
-///返回是否胜出
-+ (BOOL)compareWithEcpm:(CGFloat)ecpm placementId:(NSString *)placementId;
-
-///ecpm 价格 美元
-///adObject 仅支持 TradPlusAdSplashObject,TradPlusAdRewardedObject,TradPlusAdInterstitialObject,TradPlusAdNativeObject,TradPlusMediaVideoAdObject
-///返回是否胜出
-+ (BOOL)compareWithEcpm:(CGFloat)ecpm adObject:(id)adObject;
-
-///placementArray 传入多个广告位ID数组
-///返回排序后的 placementArray 由高到低排序
-+ (NSArray *)compareWithPlacementArray:(NSArray <NSString *> *)placementArray;
-
-
-///adObjectArray 传入多个广告对象 仅支持 TradPlusAdSplashObject,TradPlusAdRewardedObject,TradPlusAdInterstitialObject,TradPlusAdNativeObject,TradPlusMediaVideoAdObject
-///返回排序后的 adObjectArray 由高到低排序
-+ (NSArray *)compareWithAdObjectArray:(NSArray <id> *)adObjectArray;
+/// v13.0.0新增 清理 指定广告位绑定的共享广告位的缓存
+/// @param placementId 广告位ID
++ (void)clearShareCacheWithPlacementId:(NSString *)placementId;
 
 //查看用户当前区域
 //isUnknown = YES时表示 未知IP 或 网络请求失败

@@ -99,3 +99,4 @@
 #import <TradPlusAds/TradPlusGroupManager.h>
 #import <TradPlusAds/TradPlusSharedPoolManager.h>
 #import <TradPlusAds/TradPlusSharedPool.h>
+#import <TradPlusAds/TradPlusCompareItem.h>

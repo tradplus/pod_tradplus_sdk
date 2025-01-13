@@ -64,7 +64,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)TPNativeADTYPE adType;
 ///支持自定义播放器的贴片，平台：穿山甲视频贴片
 @property (nonatomic,readonly)TradPlusAdCustomVideoPaster* _Nullable customVideoPaster;
-
+@property (nonatomic,readonly)NSDictionary *adInfo;
 @end
 
 NS_ASSUME_NONNULL_END

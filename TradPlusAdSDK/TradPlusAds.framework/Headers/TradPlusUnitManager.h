@@ -52,6 +52,7 @@
 - (BOOL)checkRestrain;
 //清除缓存
 - (void)clearCache;
+- (void)clearShareCache;
 
 ///全局展示回调
 - (void)adImpression:(NSDictionary *)adInfo;

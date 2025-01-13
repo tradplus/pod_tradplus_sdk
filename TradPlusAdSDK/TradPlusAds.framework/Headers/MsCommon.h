@@ -279,6 +279,7 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
 @property (nonatomic,assign)BOOL testModeOpen;
 
 + (NSString *)localUUID;
++ (NSString *)TPID;
 + (NSString *)getLocalFileFullPath:(NSString *)fileName;
 + (NSString *)channelID2Name:(int)channelID;
 + (NSString *)handleAdUnitId:(NSString *)adUnitId;

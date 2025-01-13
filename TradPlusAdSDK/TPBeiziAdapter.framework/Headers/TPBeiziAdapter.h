@@ -2,3 +2,4 @@
 #import <TPBeiziAdapter/TPBeiziAdapterBaseInfo.h>
 #import <TPBeiziAdapter/TradPlusBeiziSDKLoader.h>
 #import <TPBeiziAdapter/TradPlusBeiziNativeAdapter.h>
+#import <TPBeiziAdapter/TradPlusBeiziRewardedAdapter.h>
