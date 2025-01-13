@@ -229,7 +229,7 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'TaurusXAdapter' do |ss|
      ss.ios.deployment_target = '9.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TaurusXAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/TPTaurusXAdapter.framework'
   end
   
 end
