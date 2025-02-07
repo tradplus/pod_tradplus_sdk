@@ -16,7 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)NSString *desc;
 @property (nonatomic,strong)NSString *ctatext;
 @property (nonatomic,strong)NSString *iconURLStr;
+@property (nonatomic,strong)NSString *iconLocalPath;
 @property (nonatomic,strong)NSString *mainImageURLStr;
+@property (nonatomic,strong)NSString *mainImageLocalPath;
 @end
 
 NS_ASSUME_NONNULL_END

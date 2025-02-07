@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)noLimitWithPlatformID:(NSString *)platformID;
 - (void)setAdsourceImpConfig:(NSArray *)adsourceImpConfig;
+- (void)setPlatformLimitList:(NSArray *)list;
 - (void)clearAdsourceImpConfig;
 @end
 
