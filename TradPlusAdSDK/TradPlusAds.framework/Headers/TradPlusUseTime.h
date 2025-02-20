@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)start;
 - (void)uploadHis;
 - (void)onCrash;
+- (void)send150;
 
 @property (nonatomic,assign)NSInteger interval;
 @end

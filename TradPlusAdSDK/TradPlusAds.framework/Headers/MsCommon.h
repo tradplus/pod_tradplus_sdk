@@ -166,6 +166,7 @@ typedef enum : NSUInteger {
     EV_APP_USE_TIME          = 10,
     EV_APP_USE_TIME_V2       = 20,
     EV_REQ_OPEN_API_START    = 100,
+    EV_REQ_APP_OPEN          = 150,
     EV_REQ_OPEN_API          = 200,
     EV_REQ_OPEN_SPARE        = 220,
     EV_INIT_NETWORK          = 250,

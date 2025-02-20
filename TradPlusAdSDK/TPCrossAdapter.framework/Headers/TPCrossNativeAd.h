@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TPCrossNativeAd : TPCrossBaseAd
 
 - (void)loadAd;
+- (void)registerTemplateView;
 - (void)registerContainer:(UIView *)containerView
        withClickableViews:(NSArray<UIView *> *_Nullable)clickableViews;
 
@@ -27,11 +28,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol TPCrossNativeAdDelegate <NSObject>
 
+- (void)crossTemplateLoadFinish:(UIView *)templateView;
 - (void)crossLoadFinish:(TPCrossNativeData *)nativeData mediaView:(UIView *_Nullable)mediaView;
 - (void)crossLoadFailWithError:(NSError *)error;
 - (void)crossImpression;
 - (void)crossShowFailWithError:(NSError *)error;
 - (void)crossClicked;
+- (void)crossClose;
 @end
 
 NS_ASSUME_NONNULL_END

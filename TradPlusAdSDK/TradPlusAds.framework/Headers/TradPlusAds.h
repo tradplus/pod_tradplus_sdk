@@ -100,3 +100,4 @@
 #import <TradPlusAds/TradPlusSharedPoolManager.h>
 #import <TradPlusAds/TradPlusSharedPool.h>
 #import <TradPlusAds/TradPlusCompareItem.h>
+#import <TradPlusAds/TPPlatformLimit.h>

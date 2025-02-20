@@ -21,7 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 //设置服务器奖励回调
 - (void)setUserID:(NSString *)userID;
 
-@property (nonatomic,strong)ALSdk *sdk;
 @property (nonatomic,assign)BOOL didInit;
 //初始化来源 1:open 2:bidding 3:load
 @property (nonatomic,assign)NSInteger initSource;

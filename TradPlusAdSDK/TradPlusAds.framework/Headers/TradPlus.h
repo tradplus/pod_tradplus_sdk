@@ -10,6 +10,7 @@
 #import <TradPlusAds/MSLogging.h>
 #import <TradPlusAds/MsCommon.h>
 #import <TradPlusAds/TradPlusUID2Info.h>
+#import <TradPlusAds/TPPlatformLimit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
@@ -82,6 +83,11 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 //查看用户当前区域
 //isUnknown = YES时表示 未知IP 或 网络请求失败
 + (void)checkCurrentArea:(void (^)(BOOL isUnknown,BOOL isCN,BOOL isCA,BOOL isEU))completionBlock;
+
+//v13.1.0新增 设置指定平台的展示显示 可配合TPPlatformLimit使用
+//也可以传入特定格式数组 例：@[@{@"platform":广告平台ID,@"num":展示频限数量},...]
+//可传入空数组进行重置已设置配置
++ (void)setPlatformLimit:(NSArray *)list;
 
 @property (nonatomic,strong)TradPlusUID2Info *UID2Info;
 
