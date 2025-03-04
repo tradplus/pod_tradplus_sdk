@@ -87,4 +87,7 @@
 @property (nonatomic,strong)NSString *share_adunit_id;
 @property (nonatomic,assign)NSInteger restrain_time;
 @property (nonatomic,assign)NSInteger restrain_limit;
+
+//是否冷启动配置 1=YES 0=NO
+@property (nonatomic,assign)NSInteger scene_type;
 @end

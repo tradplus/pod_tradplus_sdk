@@ -71,7 +71,7 @@
 ///1500 回调奖励
 - (void)rewardedEventWithItem:(TradPlusAdWaterfallItem *)item;
 
-///是否频限
+///是否频限(展示)
 - (NSError *)checkLimitWithWaterfallItem:(TradPlusAdWaterfallItem *)item;
 
 ///返回数据封装

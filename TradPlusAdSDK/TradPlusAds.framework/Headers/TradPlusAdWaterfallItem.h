@@ -226,6 +226,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)NSMutableDictionary *extraInfoDictionary;
 ///no = 被限制
 - (BOOL)noLimit;
+- (BOOL)noLimitRequest;
 - (NSString *)asu;
 - (void)saveShowTime;
 - (NSMutableDictionary *)getCallbackInfo;
