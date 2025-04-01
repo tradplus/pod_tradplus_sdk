@@ -103,6 +103,9 @@ typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
 @property (nonatomic, strong) NSDictionary *dicCustomValue;
 @property (nonatomic, strong) NSDictionary *settingDataParam;
 
+//v13.5.0新增 用于设置自定义测试ID 匹配测试模式
+@property (nonatomic,copy)NSString *customTestID;
+
 //v8.5.0新增，统一展示回调
 @property (nonatomic,weak) id <TradPlusAdImpressionDelegate> impressionDelegate;
 @end
