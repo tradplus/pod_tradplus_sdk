@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign)BOOL didUpload808;
 @property (nonatomic,assign)BOOL didLoaded;
+@property (nonatomic,strong)NSDictionary *localParams;
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;
 @property (nonatomic,assign)NSInteger cacheCount;
 @property (nonatomic,assign)NSInteger parallelCount;
