@@ -1,0 +1,6 @@
+framework module TPInMobiAdapter {
+  umbrella header "TPInMobiAdapter.h"
+  export *
+
+  module * { export * }
+}

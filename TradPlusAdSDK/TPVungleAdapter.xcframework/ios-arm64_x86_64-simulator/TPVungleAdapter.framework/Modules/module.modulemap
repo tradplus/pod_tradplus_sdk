@@ -1,0 +1,6 @@
+framework module TPVungleAdapter {
+  umbrella header "TPVungleAdapter.h"
+  export *
+
+  module * { export * }
+}

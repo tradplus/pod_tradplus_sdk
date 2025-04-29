@@ -1,0 +1,6 @@
+framework module TPBeiziAdapter {
+  umbrella header "TPBeiziAdapter.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TPOguryAdapter {
+  umbrella header "TPOguryAdapter.h"
+  export *
+
+  module * { export * }
+}

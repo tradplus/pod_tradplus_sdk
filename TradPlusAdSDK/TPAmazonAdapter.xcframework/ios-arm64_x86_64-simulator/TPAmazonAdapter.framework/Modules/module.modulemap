@@ -1,0 +1,6 @@
+framework module TPAmazonAdapter {
+  umbrella header "TPAmazonAdapter.h"
+  export *
+
+  module * { export * }
+}

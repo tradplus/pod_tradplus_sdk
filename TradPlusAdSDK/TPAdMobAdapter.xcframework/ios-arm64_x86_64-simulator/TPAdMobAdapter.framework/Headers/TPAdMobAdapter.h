@@ -1,0 +1,12 @@
+#import <TPAdMobAdapter/TPGoogleAdMobAdapterConfig.h>
+#import <TPAdMobAdapter/TradPlusAdMobBannerAdapter.h>
+#import <TPAdMobAdapter/TradPlusAdMobInterstitialAdapter.h>
+#import <TPAdMobAdapter/TradPlusAdMobNativeAdapter.h>
+#import <TPAdMobAdapter/TradPlusAdMobRewardedAdapter.h>
+#import <TPAdMobAdapter/TradPlusAdMobSplashAdapter.h>
+#import <TPAdMobAdapter/TPAdMobAdapterBaseInfo.h>
+#import <TPAdMobAdapter/TradPlusGAMBannerAdapter.h>
+#import <TPAdMobAdapter/TradPlusGAMInterstitialAdapter.h>
+#import <TPAdMobAdapter/TradPlusGAMNativeAdapter.h>
+#import <TPAdMobAdapter/TradPlusGAMRewardedAdapter.h>
+#import <TPAdMobAdapter/TradPlusGAMSplashAdapter.h>

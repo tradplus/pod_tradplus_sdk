@@ -1,0 +1,6 @@
+framework module TPGoogleIMAAdapter {
+  umbrella header "TPGoogleIMAAdapter.h"
+  export *
+
+  module * { export * }
+}

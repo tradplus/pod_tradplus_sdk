@@ -1,0 +1,6 @@
+framework module TPAdColonyAdapter {
+  umbrella header "TPAdColonyAdapter.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TPTaurusXAdapter {
+  umbrella header "TPTaurusXAdapter.h"
+  export *
+
+  module * { export * }
+}

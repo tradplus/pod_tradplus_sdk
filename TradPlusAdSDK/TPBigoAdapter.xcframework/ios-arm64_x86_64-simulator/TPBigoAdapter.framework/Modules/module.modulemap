@@ -1,0 +1,6 @@
+framework module TPBigoAdapter {
+  umbrella header "TPBigoAdapter.h"
+  export *
+
+  module * { export * }
+}
