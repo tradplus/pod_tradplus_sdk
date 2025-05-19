@@ -20,10 +20,10 @@ typedef enum : NSUInteger {
     MSLogLevelError        = 50,
     MSLogLevelFatal        = 60,
     MSLogLevelOff        = 70
-} MSLogLevel;
+} TPLogLevel;
 
-MSLogLevel MSLogGetLevel(void);
-void MSLogSetLevel(MSLogLevel level);
+TPLogLevel MSLogGetLevel(void);
+void MSLogSetLevel(TPLogLevel level);
 FOUNDATION_EXPORT void _MSLogTrace(NSString *format, ...)NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;
 FOUNDATION_EXPORT void _MSLogDebug(NSString *format, ...)NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;
 FOUNDATION_EXPORT void _MSLogInfo(NSString *format, ...)NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;

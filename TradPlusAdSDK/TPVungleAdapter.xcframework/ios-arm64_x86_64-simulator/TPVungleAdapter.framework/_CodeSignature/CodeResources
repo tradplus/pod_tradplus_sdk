@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPVungleAdapterBaseInfo.h</key>
 		<data>
-		E1+khEOUhDlLWKfxeo8OHjr2E8k=
+		JTy7E8CL1x81rjx034RUiVacsRk=
 		</data>
 		<key>Headers/TradPlusVungleBannerAdapter.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3rzcCksA/0i8a2tH7KSCViv3dLU=
+		cpxYy+1atROjHMVQ2NCxCGTtKuI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>VungleAds.bundle/Info.plist</key>
 		<data>
-		BfgxJqEFpM0FZ9JRFBMy24N9hWw=
+		MuBnldF66EVcLES8C6U0SbrRu5g=
 		</data>
 		<key>VungleAds.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -70,11 +70,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E1+khEOUhDlLWKfxeo8OHjr2E8k=
+			JTy7E8CL1x81rjx034RUiVacsRk=
 			</data>
 			<key>hash2</key>
 			<data>
-			vKG+jLIKzJTXAElRatnGc1zYhTCDytFwmf/ts9Pd2Rc=
+			IQ4WnLQy7+Y/LodTJEO/Kneg1zmw9+mjjTWqdwZUK5A=
 			</data>
 		</dict>
 		<key>Headers/TradPlusVungleBannerAdapter.h</key>
@@ -158,11 +158,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BfgxJqEFpM0FZ9JRFBMy24N9hWw=
+			MuBnldF66EVcLES8C6U0SbrRu5g=
 			</data>
 			<key>hash2</key>
 			<data>
-			WCICdx+AuspdSB/wgQhXsPPy6ku7qFoASrJrOorYUfo=
+			PomnXzxqJmt+L9FpiugCQgkSrfUb9yWVBDs7k3/i57E=
 			</data>
 		</dict>
 		<key>VungleAds.bundle/PrivacyInfo.xcprivacy</key>

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPUnityAdapterBaseInfo.h</key>
 		<data>
-		r5YrD7jBiFBhhZYP7F/ZqNhrTGI=
+		Hv7u2k1xH5TpsaBfz8zRwbXlHiU=
 		</data>
 		<key>Headers/TradPlusUnityBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8PDCzB5y7xVxWkr1sAmI1+fqsjM=
+		hjoaN1OT6wHPFGlyRxnN6OiJjcM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,11 +70,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r5YrD7jBiFBhhZYP7F/ZqNhrTGI=
+			Hv7u2k1xH5TpsaBfz8zRwbXlHiU=
 			</data>
 			<key>hash2</key>
 			<data>
-			8O4eVsn0FvYzSbdyx0nNJ0s2lczt+rPPiAFm3ctXBLo=
+			QrzhGGP8oA7+JL3lcLqlFvRTrRqvqdmUFHf/whvdBnc=
 			</data>
 		</dict>
 		<key>Headers/TradPlusUnityBannerAdapter.h</key>

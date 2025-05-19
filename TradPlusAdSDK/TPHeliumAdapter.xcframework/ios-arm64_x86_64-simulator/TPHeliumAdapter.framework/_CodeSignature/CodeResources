@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/TPHeliumAdapterBaseInfo.h</key>
 		<data>
-		b9pVe+Yja/H+BJEnpczQoXKWVbc=
+		P9VjKBhvBIvf+awQECLeDwYN8nQ=
 		</data>
 		<key>Headers/TradPlusHeliumBannerAdapter.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		t7Q9IYxoqdsobY9drkXKM7JTuiQ=
+		q0cMICR6lG6oRcipxyLtVIzfZEI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -189,11 +189,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b9pVe+Yja/H+BJEnpczQoXKWVbc=
+			P9VjKBhvBIvf+awQECLeDwYN8nQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zQy4+ZsenhsqzlvdQTtscV2RT0kRJePUtA6DO7LtNm0=
+			8cUGMPCh4pScPAdtJcRqs8QWS5Q+U7/LR5UC4nDvDRM=
 			</data>
 		</dict>
 		<key>Headers/TradPlusHeliumBannerAdapter.h</key>

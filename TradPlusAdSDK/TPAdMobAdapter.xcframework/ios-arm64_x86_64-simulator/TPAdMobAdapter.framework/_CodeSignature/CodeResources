@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		g9UIJDkGj6EvNRRwgD3rP1Ffxv0=
+		boifHVXCqr/EygORiMs7WpBgnpg=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPAdMobAdapterBaseInfo.h</key>
 		<data>
-		DZJiAjn9SQ5O7NdM40/qa225TNc=
+		m5Vc+C9eiwG4BJc2yEDmTOODFTU=
 		</data>
 		<key>Headers/TPGoogleAdMobAdapterConfig.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PCU9VICOo5W9Iin03TtwhljOMCc=
+		HX3HljFkZeeHXBhZRWTLv+vwI8c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,11 +87,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g9UIJDkGj6EvNRRwgD3rP1Ffxv0=
+			boifHVXCqr/EygORiMs7WpBgnpg=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Pa3EkYaMUzhTgjATy+fv5X2x0sjYH90RYdOCoasnMw=
+			6TKkOZvckRod+pF2fUwPZ/6rq6SB6Rrn+RCknRf/qxY=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -120,11 +120,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DZJiAjn9SQ5O7NdM40/qa225TNc=
+			m5Vc+C9eiwG4BJc2yEDmTOODFTU=
 			</data>
 			<key>hash2</key>
 			<data>
-			VIfVkeUTl4bTYNDGcXaSCXSwZhrShfSlKbnAIjKlZJU=
+			mAprG1ep/gDsOgxZtQxRxJSvg8zkPS+8UhRwllJfjeM=
 			</data>
 		</dict>
 		<key>Headers/TPGoogleAdMobAdapterConfig.h</key>

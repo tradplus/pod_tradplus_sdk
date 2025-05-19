@@ -29,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///获取三方渠道广告对象
 - (nullable id)getSplashAd;
 
+
 ///加载广告
 - (void)loadAdWithWindow:(UIWindow *)window bottomView:(nullable UIView *)bottomView;
 - (void)loadAdWithWindow:(UIWindow *)window bottomView:(nullable UIView *)bottomView maxWaitTime:(NSTimeInterval)maxWaitTime;
@@ -87,6 +88,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///获取一个已缓存广告,获取后此广告会从缓存中移除，无广告时返回nil
 - (nullable TradPlusAdSplashObject *)getReadySplashObject;
+
+
+//v13.8.0新增API 用户在展示时传入window
+//Sigmob开屏点击后无法弹出落地页
+- (void)loadAdWithBottomView:(nullable UIView *)bottomView;
+- (void)loadAdWithBottomView:(nullable UIView *)bottomView maxWaitTime:(NSTimeInterval)maxWaitTime;
+- (void)showWithWindow:(UIWindow *)window;
+- (void)showWithWindow:(UIWindow *)window sceneId:(nullable NSString *)sceneId;
+- (void)showWithWindow:(UIWindow *)window renderingViewClass:(Class)renderingViewClass;
+- (void)showWithWindow:(UIWindow *)window renderingViewClass:(Class)renderingViewClass sceneId:(nullable NSString *)sceneId;
+- (void)showWithWindow:(UIWindow *)window renderer:(TradPlusNativeRenderer *)renderer;
+- (void)showWithWindow:(UIWindow *)window renderer:(TradPlusNativeRenderer *)renderer sceneId:(nullable NSString *)sceneId;
+- (void)showWithWindow:(UIWindow *)window splashObject:(TradPlusAdSplashObject *)splashObject;
+- (void)showWithWindow:(UIWindow *)window splashObject:(TradPlusAdSplashObject *)splashObject sceneId:(nullable NSString *)sceneId;
 
 @end
 

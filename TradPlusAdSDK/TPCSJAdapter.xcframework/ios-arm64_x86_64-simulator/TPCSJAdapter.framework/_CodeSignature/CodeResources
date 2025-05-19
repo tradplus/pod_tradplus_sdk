@@ -6,7 +6,7 @@
 	<dict>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		/sdb31FzL2z/GzRWDQc7A7lILaw=
+		HT7st4GiUb9onRwD4XpHfpwRs7E=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -147,10 +147,6 @@
 		<key>CSJAdSDK.bundle/bu_play.png</key>
 		<data>
 		KvbQcSQr72Q69PEr/Ov/YALOJas=
-		</data>
-		<key>CSJAdSDK.bundle/bu_playable_loading.png</key>
-		<data>
-		dGi+ySoQQL6kA2TACQISI4Gq9Ig=
 		</data>
 		<key>CSJAdSDK.bundle/bu_replay.png</key>
 		<data>
@@ -323,7 +319,7 @@
 		</dict>
 		<key>CSJAdSDK.bundle/image_assets.json</key>
 		<data>
-		QnVVNOaITkgygLVJ9SR/YR0F1uk=
+		1NOILQatbZ0f57NnC3BSokUvrJ4=
 		</data>
 		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
 		<dict>
@@ -343,10 +339,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>CSJAdSDK.bundle/playable_loading_bg.png</key>
-		<data>
-		RUykUHq104NGKKEdjvqIy6YvFeA=
-		</data>
 		<key>CSJAdSDK.bundle/setup.txt</key>
 		<data>
 		ZM3A57y/v18OGzuvfRFEJO3U2Co=
@@ -391,13 +383,9 @@
 		<data>
 		h6RnnQNTHAn/W+WmMSzPYNWgHTc=
 		</data>
-		<key>CSJAdSDK.bundle/uchain_dsl.bin</key>
-		<data>
-		VxwQ2w+O6dAlPZ2nMYJW6m4M7Yg=
-		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		Rx+r17bF2IJGn39RN4V8ja5R0p0=
+		qDPaONT3ZydR9zKwgFjdXW6QbSg=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -423,7 +411,7 @@
 		</data>
 		<key>Headers/TPCSJAdapterBaseInfo.h</key>
 		<data>
-		DrBtiHuX3x7VfCUYx1oQ1+zgWAI=
+		VjQGnL/GnMrmG7c0DQDEdOXz8CY=
 		</data>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
 		<data>
@@ -455,7 +443,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BPDBY0Db7yhR9fWysUqf9JxAMO4=
+		xSwxLuPV5z8QOayaGaXVHMO9BpY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -468,11 +456,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/sdb31FzL2z/GzRWDQc7A7lILaw=
+			HT7st4GiUb9onRwD4XpHfpwRs7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			FZr8iAwzHzDReIxU32TZH+VFCGgw5cIVz8WyJ/WyPWM=
+			r4QDUmitwYsPbmnsEVV7P2OZKv+sBTHKaITDIFTLxkg=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -858,17 +846,6 @@
 			<key>hash2</key>
 			<data>
 			n5MLkbblpIG15isReWt2Wi/X+U3mrelbIIiGvBjAFrU=
-			</data>
-		</dict>
-		<key>CSJAdSDK.bundle/bu_playable_loading.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dGi+ySoQQL6kA2TACQISI4Gq9Ig=
-			</data>
-			<key>hash2</key>
-			<data>
-			hcS4StHkUrz7BkgPT6qcE/7cbRc/A02iaKOHgOylR2k=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/bu_replay.png</key>
@@ -1328,11 +1305,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QnVVNOaITkgygLVJ9SR/YR0F1uk=
+			1NOILQatbZ0f57NnC3BSokUvrJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			AscGxYgIDMzVXRa4/SaWzlrQopSk46LciPq0Sw9wqA8=
+			QEdDslvZbP4I5lHP1NIBR51MtM2enwshApMXUtv8eJs=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
@@ -1360,17 +1337,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>CSJAdSDK.bundle/playable_loading_bg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RUykUHq104NGKKEdjvqIy6YvFeA=
-			</data>
-			<key>hash2</key>
-			<data>
-			r1HT+xJGLwfdFUKq2C6KWYq+dS8owTwAAHYvIcK0L08=
-			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/setup.txt</key>
 		<dict>
@@ -1493,26 +1459,15 @@
 			32P5wHuBd4T5J4kEHQ7GnHrUoFdeQIl7ViYY+2eR2wE=
 			</data>
 		</dict>
-		<key>CSJAdSDK.bundle/uchain_dsl.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VxwQ2w+O6dAlPZ2nMYJW6m4M7Yg=
-			</data>
-			<key>hash2</key>
-			<data>
-			SBsCtpWrS7xskx3GYITGChpiBgCf8u/pBZesqUbZ9Bw=
-			</data>
-		</dict>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Rx+r17bF2IJGn39RN4V8ja5R0p0=
+			qDPaONT3ZydR9zKwgFjdXW6QbSg=
 			</data>
 			<key>hash2</key>
 			<data>
-			5dcEVLoFT2x5hcgUnw6ZK2syfFpl/OJtS/FbCH3b244=
+			FVIHpvALUCb+mzv6QuEmVlga8m1i5xsRE8P5iYn1mZQ=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1556,11 +1511,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DrBtiHuX3x7VfCUYx1oQ1+zgWAI=
+			VjQGnL/GnMrmG7c0DQDEdOXz8CY=
 			</data>
 			<key>hash2</key>
 			<data>
-			r6oVChon7nX82UFscsPc7Qg5R56uH0mQrlEjfgYkVks=
+			kkREjCg7dezNnNQqeBbsOqlumbMTcEnJEdLi41hGq9o=
 			</data>
 		</dict>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>

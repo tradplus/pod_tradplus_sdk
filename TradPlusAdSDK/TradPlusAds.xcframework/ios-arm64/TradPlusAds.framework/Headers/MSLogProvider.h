@@ -8,13 +8,13 @@
 + (MSLogProvider *)sharedLogProvider;
 - (void)addLogger:(id<MSLogger>)logger;
 - (void)removeLogger:(id<MSLogger>)logger;
-- (void)logMessage:(NSString *)message atLogLevel:(MSLogLevel)logLevel;
+- (void)logMessage:(NSString *)message atLogLevel:(TPLogLevel)logLevel;
 
 @end
 
 @protocol MSLogger <NSObject>
 
-- (MSLogLevel)logLevel;
+- (TPLogLevel)logLevel;
 - (void)logMessage:(NSString *)message;
 
 @end

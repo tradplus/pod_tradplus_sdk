@@ -32,7 +32,7 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
 
 + (void)initSDK:(NSString *)appId completionBlock:(void (^)(NSError* __nullable error))completionBlock;
 + (NSString *)getVersion;
-+ (void)setLogLevel:(MSLogLevel)level;
++ (void)setLogLevel:(TPLogLevel)level;
 
 + (void)setGDPRDataCollection:(BOOL)canDataCollection;
 + (MSConsentStatus)getGDPRDataCollection;

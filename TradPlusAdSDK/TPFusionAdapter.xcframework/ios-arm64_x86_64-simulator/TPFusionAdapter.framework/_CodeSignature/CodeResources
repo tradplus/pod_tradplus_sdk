@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPFusionAdapterBaseInfo.h</key>
 		<data>
-		dcUmwOupN1o2pIrI9HdP5YcZufw=
+		x3AuwS8YPb36GlzfiX/XzMtYHpw=
 		</data>
 		<key>Headers/TradPlusFusionNativeAdapter.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3yNlwy0CnVam0Ch8FOzDwEBoJ1g=
+		voAgD48JhkRBHKXUMXdyyWb9f6Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,11 +50,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dcUmwOupN1o2pIrI9HdP5YcZufw=
+			x3AuwS8YPb36GlzfiX/XzMtYHpw=
 			</data>
 			<key>hash2</key>
 			<data>
-			KvNop08esXwTJQXDQLFSglGZ3bbVHfH6qKv3EMnPjn0=
+			OkooP4+XgDHRWBQk2WS1hu/Cus4tMCnwehK8L6mzyro=
 			</data>
 		</dict>
 		<key>Headers/TradPlusFusionNativeAdapter.h</key>
