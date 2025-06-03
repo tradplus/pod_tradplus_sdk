@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPFyberAdapterBaseInfo.h</key>
 		<data>
-		93FMQceFA8y1Tq2dA2PNzpJ4ohg=
+		+k30Mb8o2yeBX97LOD1TkrfoKRg=
 		</data>
 		<key>Headers/TradPlusFyberBannerAdapter.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VwI+2X93h337RbBBvDWAhEpk92s=
+		KDDpLTFvHtNyXWx6UZiVEjB53Pk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			93FMQceFA8y1Tq2dA2PNzpJ4ohg=
+			+k30Mb8o2yeBX97LOD1TkrfoKRg=
 			</data>
 			<key>hash2</key>
 			<data>
-			T9Xj7KgVn6XoILmjy+T5XfzhMc1eeoxbWfgvLRzvDVo=
+			TUFpwgAz/O0XGEma01/5n/1YB72Yhd3oCKq6Yb3pj/w=
 			</data>
 		</dict>
 		<key>Headers/TradPlusFyberBannerAdapter.h</key>

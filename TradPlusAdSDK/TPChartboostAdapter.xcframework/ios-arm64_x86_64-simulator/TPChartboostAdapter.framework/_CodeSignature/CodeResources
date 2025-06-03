@@ -6,11 +6,19 @@
 	<dict>
 		<key>ChartboostSDKResources.bundle/Contents/Info.plist</key>
 		<data>
-		X5MNXQ+FR74jSkbM7NSC0q54HVw=
+		lCKCEajkVWT2neZGJsCGo5Z0KgQ=
+		</data>
+		<key>ChartboostSDKResources.bundle/Contents/Resources/Assets.car</key>
+		<data>
+		0stX1FocFtvWQU3yW52KrYWrI7A=
 		</data>
 		<key>ChartboostSDKResources.bundle/Contents/Resources/info.png</key>
 		<data>
 		TCKP9O02+ZkDdhVQ+KUuNWlrKxo=
+		</data>
+		<key>ChartboostSDKResources.bundle/Contents/Resources/mraid.js</key>
+		<data>
+		bFSRhdyTULr+2iHxoFntKqi77Do=
 		</data>
 		<key>ChartboostSDKResources.bundle/Contents/Resources/omsdk-v1.js</key>
 		<data>
@@ -22,7 +30,7 @@
 		</data>
 		<key>Headers/TPChartboostAdapterBaseInfo.h</key>
 		<data>
-		lMm+ja/JlupIthIM2Lb+30FYEGc=
+		l57oKhUKNMxstAqkPA+/e9M5G/U=
 		</data>
 		<key>Headers/TradPlusChartboostBannerAdapter.h</key>
 		<data>
@@ -42,7 +50,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sAB6qjsXEr9ha2BiBIlBW91/RwU=
+		Zg8C+d6Vls/bLr1OWqKxin8jmC0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,11 +63,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X5MNXQ+FR74jSkbM7NSC0q54HVw=
+			lCKCEajkVWT2neZGJsCGo5Z0KgQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			5KylSpLKjFGvUJQ0xl2avUXOBfMjWT7ay8B9uVXT7io=
+			MW0IG3OHQmVsnXfluUR2m+hu8SGt6Qyi4i/KGf85pdY=
+			</data>
+		</dict>
+		<key>ChartboostSDKResources.bundle/Contents/Resources/Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0stX1FocFtvWQU3yW52KrYWrI7A=
+			</data>
+			<key>hash2</key>
+			<data>
+			StzXNYaamPUY/dS2v30Ipy6YsbQpUl178enlFp2EeoY=
 			</data>
 		</dict>
 		<key>ChartboostSDKResources.bundle/Contents/Resources/info.png</key>
@@ -71,6 +90,17 @@
 			<key>hash2</key>
 			<data>
 			9EDiJ536QNg6NQmm8fCPFkmAu5DIDy0pLqeRNnXhf5g=
+			</data>
+		</dict>
+		<key>ChartboostSDKResources.bundle/Contents/Resources/mraid.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bFSRhdyTULr+2iHxoFntKqi77Do=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q32hLxiqup0NDTeCgky5MZylscBLB1U/e0Sec7T6o1g=
 			</data>
 		</dict>
 		<key>ChartboostSDKResources.bundle/Contents/Resources/omsdk-v1.js</key>
@@ -99,11 +129,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lMm+ja/JlupIthIM2Lb+30FYEGc=
+			l57oKhUKNMxstAqkPA+/e9M5G/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			SUHsOpDlMgJhMD740ODQ3MVmmEULkHam1SPnKl6WAjw=
+			odVhjFFskN1PQaYvyjY17fIQd8KMiti4f2JM/ITB1KI=
 			</data>
 		</dict>
 		<key>Headers/TradPlusChartboostBannerAdapter.h</key>

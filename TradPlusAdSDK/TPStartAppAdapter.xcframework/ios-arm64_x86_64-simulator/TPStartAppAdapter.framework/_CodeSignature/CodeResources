@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPStartAppAdapterBaseInfo.h</key>
 		<data>
-		xdHAGGzB9LtwJO0zElkwKtOsGos=
+		T4O+b7Xc7d5XTJc3l54SWVJ4YY4=
 		</data>
 		<key>Headers/TradPlusStartAppBannerAdapter.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MeSQKmyniuIAKqDjpzVdPN7aNLE=
+		s3d1S9Jw0Ux8DfanLlKBPelpKhc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,11 +58,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xdHAGGzB9LtwJO0zElkwKtOsGos=
+			T4O+b7Xc7d5XTJc3l54SWVJ4YY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			tGdClOtmoKwoyPwFCRiKhsK/Q1yjQwB4ASth6+x7YiA=
+			MK48ZO30UooEXANaROJ7qnF6XVp8bRCihMgIv7evyCg=
 			</data>
 		</dict>
 		<key>Headers/TradPlusStartAppBannerAdapter.h</key>
