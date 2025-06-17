@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPAdColonyAdapterBaseInfo.h</key>
 		<data>
-		iD9njqbH1LuOz9DFVjtc4DzxZaw=
+		w9zFTlAZerKCw3yP1IkS5cOgxQI=
 		</data>
 		<key>Headers/TradPlusAdColonyBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JjKbKpqAzWj0qdwCRNC9HUtHyPU=
+		BJ+bwHGdAK8bms4zCqPrioIwHxc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iD9njqbH1LuOz9DFVjtc4DzxZaw=
+			w9zFTlAZerKCw3yP1IkS5cOgxQI=
 			</data>
 			<key>hash2</key>
 			<data>
-			WdQ8d4eRFG6CAaMV1kcre51RqqHwKVhpfJtml9d7CUE=
+			5+d3Cn77fmt6gSPE0Arl3mh1Bg6iFWXZHFYxl7M7F/4=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdColonyBannerAdapter.h</key>

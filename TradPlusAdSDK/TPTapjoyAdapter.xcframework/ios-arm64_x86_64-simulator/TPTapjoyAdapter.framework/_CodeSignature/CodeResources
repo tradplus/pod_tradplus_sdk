@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPTapjoyAdapterBaseInfo.h</key>
 		<data>
-		bBm5CFB+rw4hDPuMfU5MXvJgv0M=
+		BoltFLaIqsh9aDlTTIECmwyu3Vo=
 		</data>
 		<key>Headers/TradPlusTapjoyInterstitialAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rsR+DgHJNyLaYZJT3WoeP9o6LRY=
+		fnuXbcgs9UM3xCj7VSflmY0keTk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bBm5CFB+rw4hDPuMfU5MXvJgv0M=
+			BoltFLaIqsh9aDlTTIECmwyu3Vo=
 			</data>
 			<key>hash2</key>
 			<data>
-			gzbIQfMA2e/zsSvBKt6hsML4PF/5KH1SQAAN2Y905Vo=
+			BdM2GmZJbXJyxxEIxrpwHnCWEHz+dHDH3/vlQlFG5BE=
 			</data>
 		</dict>
 		<key>Headers/TradPlusTapjoyInterstitialAdapter.h</key>

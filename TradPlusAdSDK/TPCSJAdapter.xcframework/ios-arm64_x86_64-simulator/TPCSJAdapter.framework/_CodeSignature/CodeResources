@@ -411,7 +411,7 @@
 		</data>
 		<key>Headers/TPCSJAdapterBaseInfo.h</key>
 		<data>
-		C0rMUEAeq+qPWVk8pooxP5ZN9UQ=
+		By8OQzLAZIgSQswmUkCHqNuK6kI=
 		</data>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
 		<data>
@@ -443,7 +443,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7TsWQADiA4amH/btILmibre9QZc=
+		x1vpREUbuRbB4mf4MjuL22lqbK0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1511,11 +1511,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C0rMUEAeq+qPWVk8pooxP5ZN9UQ=
+			By8OQzLAZIgSQswmUkCHqNuK6kI=
 			</data>
 			<key>hash2</key>
 			<data>
-			uw96iOg6FEJ9CJnVo0mhrCYMt2Jg1YRB9XOiHU4Oz8c=
+			/XDfhR+Yq+FG53tU0vq2y2e1SYUU7y7pjePHzHzZki0=
 			</data>
 		</dict>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
