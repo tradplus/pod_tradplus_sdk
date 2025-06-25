@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPIronSourceAdapterBaseInfo.h</key>
 		<data>
-		b/fsv+dn8FzsHsQonBoFxUvLgpk=
+		J8ZT1o6AUPlq/2VD3MSqDG55jQo=
 		</data>
 		<key>Headers/TPIronSourceInterstitialDelegate.h</key>
 		<data>
@@ -42,11 +42,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9E5C6ZbKq1vkp9Yq+QPFeoieULU=
+		pAq6FOBwdkrPga5WY4QaxrbXNac=
+		</data>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
+		<data>
+		ivqFFnF8w4MT57wzelN2iqDo+zY=
+		</data>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		l2ZduCvSJbNtPnHg+4cAbLgDbyQ=
 		</data>
 		<key>IronSourcePrivacyInfo.bundle/Info.plist</key>
 		<data>
-		d6TlcAeJIhkWyo148etC1RFXMe4=
+		TGaIVnv9BsSC3l6Xy/aMQFfQg6c=
 		</data>
 		<key>IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -74,11 +82,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b/fsv+dn8FzsHsQonBoFxUvLgpk=
+			J8ZT1o6AUPlq/2VD3MSqDG55jQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			imta7eg4qWCUk7NMBAa0ZpvKmAvVWA/fkTMwHDVr84w=
+			xhc8afg+bI9brOH8LPz2UqV3s5AF+PC5Yov9G9bWS2Y=
 			</data>
 		</dict>
 		<key>Headers/TPIronSourceInterstitialDelegate.h</key>
@@ -158,15 +166,37 @@
 			QSYX2nyCJ9zU9qGfOyYtM1KbaI0tn3CAb77kigcaCqY=
 			</data>
 		</dict>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ivqFFnF8w4MT57wzelN2iqDo+zY=
+			</data>
+			<key>hash2</key>
+			<data>
+			PWQKYkYrWyEcdos14xHp9CrsdYA4K6aZTxdWmR1CYRM=
+			</data>
+		</dict>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			l2ZduCvSJbNtPnHg+4cAbLgDbyQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			r2z7AqVxBGjN8OndNxmPkrvnp5Bc0eybVPrs5UKShZ8=
+			</data>
+		</dict>
 		<key>IronSourcePrivacyInfo.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d6TlcAeJIhkWyo148etC1RFXMe4=
+			TGaIVnv9BsSC3l6Xy/aMQFfQg6c=
 			</data>
 			<key>hash2</key>
 			<data>
-			sCnNNad0bjijMFcKGTiZmvuZJKUG1WCNE9Am/vczovU=
+			eCzh0HaaMX2jo5S3mc6I49AGlA1fp9rdhXenCxhpE6E=
 			</data>
 		</dict>
 		<key>IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>

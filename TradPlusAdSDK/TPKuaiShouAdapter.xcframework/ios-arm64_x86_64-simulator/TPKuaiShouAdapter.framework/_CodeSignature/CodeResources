@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPKuaiShouAdapterBaseInfo.h</key>
 		<data>
-		tQ3yUAkD2w2IJdggJk8cfLYamKA=
+		/QzT8dviRUtlSZJdwIhlqoVmaYU=
 		</data>
 		<key>Headers/TradPlusKuaiShouAdapter.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3UmvScQGYIrDNffxGsqUJd8+dlM=
+		mDFp5N0KQwfA3a8joHt/UZIT73I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,11 +66,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tQ3yUAkD2w2IJdggJk8cfLYamKA=
+			/QzT8dviRUtlSZJdwIhlqoVmaYU=
 			</data>
 			<key>hash2</key>
 			<data>
-			lQJNSlvBxoxjnS5VKrXM3B840VFiRQkNK3H0gfaB5w4=
+			Zr7p+zgpHonmIuZVjfPXpimKnuFk8ZOEgR7YL6FEaPs=
 			</data>
 		</dict>
 		<key>Headers/TradPlusKuaiShouAdapter.h</key>

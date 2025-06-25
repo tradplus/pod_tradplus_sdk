@@ -25,9 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)noCache;
 - (void)noNet;
 
-- (void)updateArray:(NSArray *)array;
 
-@property (nonatomic,strong)NSString *cf;//来源 1=服务器 2=本地
 @property (nonatomic,weak)TradPlusUnitManager *unitManager;
 @end
 

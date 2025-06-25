@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPUnityAdapterBaseInfo.h</key>
 		<data>
-		VXgqOYdj7otRgUKFuEOYymcz6ko=
+		lhct5tJs9J/epxVlp5RlwEb+mNc=
 		</data>
 		<key>Headers/TradPlusUnityBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1cktUFM7+vedw6fBIiByq84bl3c=
+		siaA6uU+TffS75r9gQ89Dk0nlsU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>UnityAdsResources.bundle/Info.plist</key>
 		<data>
-		ZdOK0w8B0XYnNuBCXgiqgR0J4lI=
+		+a/3oG4RUsyqH/pQJGr2vA9MOQM=
 		</data>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -70,11 +70,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VXgqOYdj7otRgUKFuEOYymcz6ko=
+			lhct5tJs9J/epxVlp5RlwEb+mNc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ah53EfSfrhq3HvKdT2f9xNjrKVfh+Hu+GcRm301Hj00=
+			IxmRJYOetzmQdSgiRLFc2ST6r3b4J+LlscbXhIjrtCg=
 			</data>
 		</dict>
 		<key>Headers/TradPlusUnityBannerAdapter.h</key>
@@ -136,11 +136,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZdOK0w8B0XYnNuBCXgiqgR0J4lI=
+			+a/3oG4RUsyqH/pQJGr2vA9MOQM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Okqe+SF5ixMcxkp1dRR4cRI1sPmh09zbpuAu8uiMm7o=
+			0O9baKwL0qANo6XdX1vtrbV/JdvDTNIUiCUGBHtfQxI=
 			</data>
 		</dict>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>

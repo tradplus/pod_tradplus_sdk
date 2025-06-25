@@ -90,12 +90,4 @@
 
 //是否冷启动配置 1=YES 0=NO
 @property (nonatomic,assign)NSInteger scene_type;
-
-//v13.9.10新增 广告位请求间隔控制配置（共享广告位）
-//1 开启，非1 关闭
-@property (nonatomic,assign)NSInteger sharedPool_request_interval_status;
-@property (nonatomic,assign)NSInteger sharedPool_request_interval;
-@property (nonatomic,assign)NSInteger share_adunit_request_sec;
-//v13.9.10新增 广告位自动加载重试配置
-@property (nonatomic,strong)NSMutableArray *autoLoadConfig;
 @end

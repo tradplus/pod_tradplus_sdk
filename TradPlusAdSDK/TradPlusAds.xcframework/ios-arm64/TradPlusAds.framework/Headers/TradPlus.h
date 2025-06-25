@@ -96,7 +96,7 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
 //isUnknown = YES时表示 未知IP 或 网络请求失败
 + (void)checkCurrentArea:(void (^)(BOOL isUnknown,BOOL isCN,BOOL isCA,BOOL isEU))completionBlock;
 
-//v13.1.0新增 设置指定平台的展示显示 可配合TPPlatformLimit使用
+//v13.1.0新增 设置指定平台的展示限制 可配合TPPlatformLimit使用
 //也可以传入特定格式数组 例：@[@{@"platform":广告平台ID,@"num":展示频限数量},...]
 //可传入空数组进行重置已设置配置
 + (void)setPlatformLimit:(NSArray *)list;

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPYSONetworkAdapterBaseInfo.h</key>
 		<data>
-		SSq8V4vvyVH76z0GuGyTa0M5LMQ=
+		aGoMO6kYzK9urHLPmyJ/c5DEEds=
 		</data>
 		<key>Headers/TPYSONetworkBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f9MJCULI/qDNyHp9xY3gxDDX5k8=
+		F+nNkEew7jxnMSygmtO8GetSEFA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SSq8V4vvyVH76z0GuGyTa0M5LMQ=
+			aGoMO6kYzK9urHLPmyJ/c5DEEds=
 			</data>
 			<key>hash2</key>
 			<data>
-			7cM4e9KW3Sajt3rTIVjsKqveg8ZjX7RQiE3YDqDz6f8=
+			poghsaNpKrpAjHEXI6hDKn5wxseIN5W09cUsyl2soqk=
 			</data>
 		</dict>
 		<key>Headers/TPYSONetworkBannerAdapter.h</key>

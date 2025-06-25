@@ -6,7 +6,7 @@
 	<dict>
 		<key>FBAudienceNetwork.bundle/Info.plist</key>
 		<data>
-		s/HXisdJxiHNI6qFVTyrahSwjyw=
+		R/z3qZshf9xwuRCcny30+rPqE6k=
 		</data>
 		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPFacebookAdapterBaseInfo.h</key>
 		<data>
-		mxJ/1r+KBor4fxD2W7W9hpZBLvI=
+		wi7UZJKCpLj34c4Y94JN+ZQwqjc=
 		</data>
 		<key>Headers/TPFacebookAdapterConfig.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gyJCQNYETLOoD7YscFVlJNnuGyQ=
+		Xv8FQ9vIECoF3cO3l6v+HhOz+oY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,11 +59,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s/HXisdJxiHNI6qFVTyrahSwjyw=
+			R/z3qZshf9xwuRCcny30+rPqE6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			L1zYuYjAhhldKkPRpOA6WHNyrKjYzmpy+TdEFwDQBBo=
+			B874uWk8iseqkZrFW0MQS/pfuIWyNCj2DSe9LkHHWAA=
 			</data>
 		</dict>
 		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
@@ -92,11 +92,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mxJ/1r+KBor4fxD2W7W9hpZBLvI=
+			wi7UZJKCpLj34c4Y94JN+ZQwqjc=
 			</data>
 			<key>hash2</key>
 			<data>
-			LubFAAAqAjcHO5GqfrWdNZdAZjmFhCwDuWx+peMCgbQ=
+			V9C5f4hK9gtrGNP2RUuQxF1dQ0XbUNvgDNtRR/1cmZc=
 			</data>
 		</dict>
 		<key>Headers/TPFacebookAdapterConfig.h</key>

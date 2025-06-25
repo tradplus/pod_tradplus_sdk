@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPMaioAdapterBaseInfo.h</key>
 		<data>
-		5zxjZVmiZWsafoYUslGulOlfWlU=
+		tQa/WNUlSY/gMKaQzkkNZK5XI+U=
 		</data>
 		<key>Headers/TradPlusMaioInterstitialAdapter.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LsWbu1v/+/X7TXguc2Oww93QFZM=
+		ak5SIrGE7YyarKLnws5iXcSiLzw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,11 +50,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5zxjZVmiZWsafoYUslGulOlfWlU=
+			tQa/WNUlSY/gMKaQzkkNZK5XI+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			YWxcLnAo33QrqDfmAa29oCTNtiD2Ftv2smiys1acONw=
+			6HDFPrLYsUchzTk17e/0Ktbg4p9HRB2S4kqS/JEFl+A=
 			</data>
 		</dict>
 		<key>Headers/TradPlusMaioInterstitialAdapter.h</key>

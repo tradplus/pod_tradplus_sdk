@@ -29,6 +29,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)saveRequestTimeWithItem:(TradPlusAdWaterfallItem *)item;
 - (void)setRequestConfig:(NSArray *)adsourceRequestConfig;
 - (void)clearRequestConfig;
+
+//广告源展示频制
+- (BOOL)noLimitImpressionWithItem:(TradPlusAdWaterfallItem *)item;
+- (void)saveImpressionTimeWithItem:(TradPlusAdWaterfallItem *)item;
+- (void)setImpDayConfig:(nullable NSArray *)dayConfig hourConfig:(nullable NSArray *)hourConfig spacConfig:(nullable NSArray *)spacConfig;
+- (void)clearImpressionConfig;
 @end
 
 NS_ASSUME_NONNULL_END

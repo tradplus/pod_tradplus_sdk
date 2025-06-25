@@ -6,7 +6,7 @@
 	<dict>
 		<key>AdsGlobalSDK.bundle/Info.plist</key>
 		<data>
-		moaKMqmVxaZou6zfUNWxjBX5tvs=
+		l0JTebBpDNfpQWgvR6wJ67otAxg=
 		</data>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPPangleAdapterBaseInfo.h</key>
 		<data>
-		591hMO9jELpo3ojuJLT0VBR91vc=
+		+usZzL68pFlNcPFm9egP2AzM7nY=
 		</data>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VgYi6Ag6laKCTFLvVxWyEsWpF7c=
+		fsoXMbnt4wJKS/QQii5Ug7xZwV8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<data>
-		RsimeB8PKePuMK0EX/iKxM7JdAo=
+		j0c3NRrSYY2J4bZwxyyJbNza0nM=
 		</data>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -234,7 +234,7 @@
 		</dict>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		AwZqpF5bmpgG25r1UTysLNB0O5U=
+		p4Nf4ozOXIcGGelL3TmLQk+xHbs=
 		</data>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>
 		<dict>
@@ -270,11 +270,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			moaKMqmVxaZou6zfUNWxjBX5tvs=
+			l0JTebBpDNfpQWgvR6wJ67otAxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			iiHF7tci0XwpnMAa1rzBEigUN3qvkSXNrNGWRiCl8sQ=
+			yvLI82ty7k9ABxK0hjRIgg2bOrb4A1/xHbSo9DNKvck=
 			</data>
 		</dict>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -303,11 +303,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			591hMO9jELpo3ojuJLT0VBR91vc=
+			+usZzL68pFlNcPFm9egP2AzM7nY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Js4yrzcQ8nbGeZQoTLY4HflN/BXi5sd1WcW1goxkLDU=
+			DJcrxItKKPwiOHs9MfOa1t6NGqwFjtG2q1eUHWXG/i4=
 			</data>
 		</dict>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
@@ -402,11 +402,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RsimeB8PKePuMK0EX/iKxM7JdAo=
+			j0c3NRrSYY2J4bZwxyyJbNza0nM=
 			</data>
 			<key>hash2</key>
 			<data>
-			/uZs9G9B6bRAT5SbPwLZpkVNC+MvOZ3zsdiYbrNpCgs=
+			YDT6K1+XLdxcKRj1iINWkCYztwP8CILpua1slbKMxtA=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -698,11 +698,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AwZqpF5bmpgG25r1UTysLNB0O5U=
+			p4Nf4ozOXIcGGelL3TmLQk+xHbs=
 			</data>
 			<key>hash2</key>
 			<data>
-			T9mS1ch2QshDjpXkIUbkToBFwoX168xx06Z5Ud5cebI=
+			tlwbvILKVHYK79paUoubM/jRsvQjPpMhM7metW2TIRg=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>

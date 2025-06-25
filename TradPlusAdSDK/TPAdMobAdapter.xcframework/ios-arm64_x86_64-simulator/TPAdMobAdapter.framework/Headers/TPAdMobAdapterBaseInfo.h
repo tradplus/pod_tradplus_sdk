@@ -1,3 +1,3 @@
-#define TP_AdMobAdapter_Version @"13.9.10"
-#define TP_AdMobAdapter_PlatformSDK_Version @"12.4.0"
+#define TP_AdMobAdapter_Version @"14.0.0"
+#define TP_AdMobAdapter_PlatformSDK_Version @"12.6.0"
 
