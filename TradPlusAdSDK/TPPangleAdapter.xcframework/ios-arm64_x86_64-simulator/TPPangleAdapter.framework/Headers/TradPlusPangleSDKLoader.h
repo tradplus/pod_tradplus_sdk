@@ -19,7 +19,12 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)getNotificationStr;
 + (NSString *)getSDKVersion;
 + (NSString *)getCurrentVersion;
-- (void)setIcon:(UIImage *)image;
+/**
+ v 7.4.0.7
+ 2025-07-07
+ > Removed UIImage *appLogoImage API
+ */
+//- (void)setIcon:(UIImage *)image;
 
 @property (nonatomic,assign)BOOL didInit;
 //初始化来源 1:open 2:bidding 3:load

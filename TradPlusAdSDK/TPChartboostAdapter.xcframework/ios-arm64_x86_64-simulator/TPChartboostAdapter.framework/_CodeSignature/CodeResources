@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/TPChartboostAdapterBaseInfo.h</key>
 		<data>
-		H1J+wIzhY6OxnXeDespnaI8H+J8=
+		HJ/zGpf0kHUO0W/Dn8gG1ow1wr8=
 		</data>
 		<key>Headers/TradPlusChartboostBannerAdapter.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6IJE3ua5/HcDm8WYNotCpKZm4AI=
+		pxbDZd5YrCg+I+bIRDBmDOdgU08=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -129,11 +129,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H1J+wIzhY6OxnXeDespnaI8H+J8=
+			HJ/zGpf0kHUO0W/Dn8gG1ow1wr8=
 			</data>
 			<key>hash2</key>
 			<data>
-			M2t9ktLu/VkX3u5TOamIPVV8dh3s5IbN8iuy034Wr7s=
+			MxYw3zvFj7JF3Fn8CKQG8zvfGS3ggTFuKTXWXis1e0Q=
 			</data>
 		</dict>
 		<key>Headers/TradPlusChartboostBannerAdapter.h</key>

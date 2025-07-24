@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPPangleAdapterBaseInfo.h</key>
 		<data>
-		+usZzL68pFlNcPFm9egP2AzM7nY=
+		/Fyl2gXpm8yd5eA++NZztMyTRZU=
 		</data>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Headers/TradPlusPangleSDKLoader.h</key>
 		<data>
-		hdhvpCK7I3K/b6Xs9+56rKh/qdE=
+		Uyjr2pQpkljsKf8CeuMKBNnhWPk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fsoXMbnt4wJKS/QQii5Ug7xZwV8=
+		1isn0aol94dAXkhu3r4jOsapOW8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -234,7 +234,7 @@
 		</dict>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		p4Nf4ozOXIcGGelL3TmLQk+xHbs=
+		6wiEWGeNpKr0I+dQSAf9VI5jAfo=
 		</data>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>
 		<dict>
@@ -303,11 +303,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+usZzL68pFlNcPFm9egP2AzM7nY=
+			/Fyl2gXpm8yd5eA++NZztMyTRZU=
 			</data>
 			<key>hash2</key>
 			<data>
-			DJcrxItKKPwiOHs9MfOa1t6NGqwFjtG2q1eUHWXG/i4=
+			KFcaV5GUv5jisdp9cv40lH5n4Cvbseg7xLom6bI9M4A=
 			</data>
 		</dict>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
@@ -369,11 +369,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hdhvpCK7I3K/b6Xs9+56rKh/qdE=
+			Uyjr2pQpkljsKf8CeuMKBNnhWPk=
 			</data>
 			<key>hash2</key>
 			<data>
-			tGCz18H3ktCSqEAEuCzeyGL/IjRMtWNAo5J5Kdw/Krk=
+			tCXfMaNzIlwlB4DFj073o86HhGyiWrXccPI40Z48XmM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -698,11 +698,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p4Nf4ozOXIcGGelL3TmLQk+xHbs=
+			6wiEWGeNpKr0I+dQSAf9VI5jAfo=
 			</data>
 			<key>hash2</key>
 			<data>
-			tlwbvILKVHYK79paUoubM/jRsvQjPpMhM7metW2TIRg=
+			UFDDlJAMFc+vWSEUQBnJIt27LtK3lmq5tIuFeC0jn0w=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>

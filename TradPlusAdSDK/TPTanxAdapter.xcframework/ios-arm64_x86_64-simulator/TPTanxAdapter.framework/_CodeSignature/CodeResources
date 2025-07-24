@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPTanxAdapterBaseInfo.h</key>
 		<data>
-		lRzf0C5ILFgy2b6ryyaFSSr3GD0=
+		bHfkhlE4a1pCWoaKu6FmGVJw3dI=
 		</data>
 		<key>Headers/TradPlusTanxInterstitialAdapter.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IVIHyILU8RlPl8dLyD+wwLl/M9A=
+		cz49Qv0/zXOxz/wW/aqtR62PbR8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,11 +58,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lRzf0C5ILFgy2b6ryyaFSSr3GD0=
+			bHfkhlE4a1pCWoaKu6FmGVJw3dI=
 			</data>
 			<key>hash2</key>
 			<data>
-			l4//WJwmDZOu8WmB9Y2L5lWI9nz5tgwRrIr9LtgI/XM=
+			QdJ1EO7cRRI404alhJZ6bRpZxscs8uFWeK3pCS5mUUA=
 			</data>
 		</dict>
 		<key>Headers/TradPlusTanxInterstitialAdapter.h</key>

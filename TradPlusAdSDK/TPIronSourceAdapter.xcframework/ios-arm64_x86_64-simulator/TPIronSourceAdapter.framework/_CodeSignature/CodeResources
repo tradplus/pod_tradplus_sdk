@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPIronSourceAdapterBaseInfo.h</key>
 		<data>
-		J8ZT1o6AUPlq/2VD3MSqDG55jQo=
+		5dOHjPuqpjJHZjewtAuxkvHhOM4=
 		</data>
 		<key>Headers/TPIronSourceInterstitialDelegate.h</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pAq6FOBwdkrPga5WY4QaxrbXNac=
+		c4xecjeOp5z5C5fYNQ9T6BzVNMA=
 		</data>
 		<key>IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
 		<data>
-		ivqFFnF8w4MT57wzelN2iqDo+zY=
+		o0XTsZZTldmG2mm2eJqb5oZSM8M=
 		</data>
 		<key>IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>IronSourcePrivacyInfo.bundle/Info.plist</key>
 		<data>
-		TGaIVnv9BsSC3l6Xy/aMQFfQg6c=
+		6DZH2YTmYkL6/7vgVaqmjfcFa9U=
 		</data>
 		<key>IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -82,11 +82,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J8ZT1o6AUPlq/2VD3MSqDG55jQo=
+			5dOHjPuqpjJHZjewtAuxkvHhOM4=
 			</data>
 			<key>hash2</key>
 			<data>
-			xhc8afg+bI9brOH8LPz2UqV3s5AF+PC5Yov9G9bWS2Y=
+			kWt0zF1wjovoDIdITPAHQl/x1jFGE5krqP95xzCbBQs=
 			</data>
 		</dict>
 		<key>Headers/TPIronSourceInterstitialDelegate.h</key>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ivqFFnF8w4MT57wzelN2iqDo+zY=
+			o0XTsZZTldmG2mm2eJqb5oZSM8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			PWQKYkYrWyEcdos14xHp9CrsdYA4K6aZTxdWmR1CYRM=
+			wZ9tVqxQLm3pzwpqXsQKGyi12oG0xsSAiCtDSj7/yrw=
 			</data>
 		</dict>
 		<key>IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
@@ -192,11 +192,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TGaIVnv9BsSC3l6Xy/aMQFfQg6c=
+			6DZH2YTmYkL6/7vgVaqmjfcFa9U=
 			</data>
 			<key>hash2</key>
 			<data>
-			eCzh0HaaMX2jo5S3mc6I49AGlA1fp9rdhXenCxhpE6E=
+			KeQv4yftvBWDncyoIa1mqy8Bh1+x7HqTUJO+VJXkmOY=
 			</data>
 		</dict>
 		<key>IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>

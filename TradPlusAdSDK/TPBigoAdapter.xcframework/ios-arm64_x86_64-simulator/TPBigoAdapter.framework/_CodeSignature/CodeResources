@@ -6,7 +6,7 @@
 	<dict>
 		<key>BigoADS.bundle/Info.plist</key>
 		<data>
-		MehM9TTjpogmynh1ZyIOvxtKdGQ=
+		HXXpBKK+M47AEFuaVWjGr9eZRmQ=
 		</data>
 		<key>BigoADS.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>BigoADSRes.bundle/Info.plist</key>
 		<data>
-		5XWjqiIqPM8rFeoYlWIqCAgDP6A=
+		bqLEdFAbzJzQFo1J8NMVY9YjYZo=
 		</data>
 		<key>BigoADSRes.bundle/ar.lproj/BGNativeAd.strings</key>
 		<dict>
@@ -452,7 +452,7 @@
 		</data>
 		<key>Headers/TPBigoAdapterBaseInfo.h</key>
 		<data>
-		vHwGV7V6ZmipLjbgyIAe8NJ/4BE=
+		d6liijGNV1JtrcTW6TH6b49zSOs=
 		</data>
 		<key>Headers/TradPlusBigoBannerAdapter.h</key>
 		<data>
@@ -480,7 +480,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Uzg1Di9XCH9w1Qfdp+7FkpuQYhw=
+		xhXUShNjd6VA93MbesAu8QBr9LA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -493,11 +493,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MehM9TTjpogmynh1ZyIOvxtKdGQ=
+			HXXpBKK+M47AEFuaVWjGr9eZRmQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			VYtB5bIAmFTyIelKfy2aBcwLkZ2kUGoRSJWrzygYG84=
+			t/zkRo17JMK1rZtKEya3z9ZQvh1qkGZQpin5re1c4zg=
 			</data>
 		</dict>
 		<key>BigoADS.bundle/PrivacyInfo.xcprivacy</key>
@@ -515,11 +515,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5XWjqiIqPM8rFeoYlWIqCAgDP6A=
+			bqLEdFAbzJzQFo1J8NMVY9YjYZo=
 			</data>
 			<key>hash2</key>
 			<data>
-			WVKDa9exxY7lfxxgwJ6ubJUyFxyNqLtfkM1iHG0YACg=
+			JDEuclFni+smWFgnFuw2IqHv0Ky9Uzz78+PCTif4Kvc=
 			</data>
 		</dict>
 		<key>BigoADSRes.bundle/ar.lproj/BGNativeAd.strings</key>
@@ -1414,11 +1414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vHwGV7V6ZmipLjbgyIAe8NJ/4BE=
+			d6liijGNV1JtrcTW6TH6b49zSOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			sTaGWON7pmfqBAr30c5E9b6I+vcuQRm7WCYySWbC/as=
+			1I73xe6rkW7xIhfONSWIDcBki8wvUDtKmIpF4xSWH3c=
 			</data>
 		</dict>
 		<key>Headers/TradPlusBigoBannerAdapter.h</key>

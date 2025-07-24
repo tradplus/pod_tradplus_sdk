@@ -22,7 +22,7 @@
 		</data>
 		<key>ChartboostMediationSDK.bundle/Info.plist</key>
 		<data>
-		cVMX3ulssjkExU2em3qPxNZRY9k=
+		j/fZ6qnFkA8HZF/nCKnsv7TjOiI=
 		</data>
 		<key>ChartboostMediationSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/TPHeliumAdapterBaseInfo.h</key>
 		<data>
-		BCM0r/q2sqC7xMKs5hvgyEtmEFg=
+		uh/H0uB1NUQJClig9jLlkSzh4KI=
 		</data>
 		<key>Headers/TradPlusHeliumBannerAdapter.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5QstUrA7F50uGmQBUdE6RkeHugM=
+		jNFqeM8fvHODWeQdvj9gxHJ0J68=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -131,11 +131,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cVMX3ulssjkExU2em3qPxNZRY9k=
+			j/fZ6qnFkA8HZF/nCKnsv7TjOiI=
 			</data>
 			<key>hash2</key>
 			<data>
-			H1eCQ23WdhKLyspcO1/zpZhR8abN0/aO8gmVb1h0cww=
+			MBnssfKx5Xm++qURC+vHS72PulXkWAy/QB23YqpaxjU=
 			</data>
 		</dict>
 		<key>ChartboostMediationSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -219,11 +219,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BCM0r/q2sqC7xMKs5hvgyEtmEFg=
+			uh/H0uB1NUQJClig9jLlkSzh4KI=
 			</data>
 			<key>hash2</key>
 			<data>
-			hGcf3KKPO193pI5Rpamktr68GZYyqoVyDKNvMlPKfV4=
+			ZLBqOI+rmo0m9fkoFVwOVZ4ZMgB3kYO7yBeRrdawpJw=
 			</data>
 		</dict>
 		<key>Headers/TradPlusHeliumBannerAdapter.h</key>

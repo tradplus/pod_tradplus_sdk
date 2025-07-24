@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPKwaiAdsAdapterBaseInfo.h</key>
 		<data>
-		4fT6yrSK1SVMScy9ljevl8K3XLo=
+		fECi8WLjGCFpIEo1mXXLhF19ngg=
 		</data>
 		<key>Headers/TradPlusKwaiAdsInterstitialAdapter.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fFPsjeG/7uQMypShk05XbOmPCkM=
+		XgPEhtTh+oa+6KQRF4fRzlIY8m8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,11 +50,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4fT6yrSK1SVMScy9ljevl8K3XLo=
+			fECi8WLjGCFpIEo1mXXLhF19ngg=
 			</data>
 			<key>hash2</key>
 			<data>
-			KT91VrODjFJoqONcKmRKJJnUVFesS12OWe/V/BHFfO8=
+			3YaNFhIXAiOLLAtxdFES2BMSaOtn3ZeRmrVQZmC0i9Q=
 			</data>
 		</dict>
 		<key>Headers/TradPlusKwaiAdsInterstitialAdapter.h</key>
