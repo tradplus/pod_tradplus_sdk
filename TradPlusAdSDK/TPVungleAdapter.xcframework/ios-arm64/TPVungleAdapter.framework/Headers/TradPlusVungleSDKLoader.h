@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (TradPlusVungleSDKLoader *)sharedInstance;
 - (void)initWithAppID:(NSString *)appID
              delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
-
+- (void)sendFirstPartyData:(NSString *)placementId;
 @property (nonatomic,assign)BOOL didInit;
 //初始化来源 1:open 2:bidding 3:load
 @property (nonatomic,assign)NSInteger initSource;

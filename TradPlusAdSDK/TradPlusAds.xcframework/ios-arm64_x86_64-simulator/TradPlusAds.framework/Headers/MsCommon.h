@@ -28,7 +28,7 @@
 #endif
 
 extern NSInteger TP_Encryption_Mode;
-
+extern NSInteger TP_Forbid_Mode;
 static int const kMsSDKReqTimeout = 15;
 
 extern NSString *gEventServerURL;
@@ -40,6 +40,7 @@ extern NSString *gCrossAdconfServerURL;
 extern NSString *gBiddingServerURL;
 extern NSString *gRewardServerURL;
 extern NSString *gImpCallbackURL;
+extern NSString *gTPISO;
 
 extern BOOL gTPTestMode;
 extern BOOL gMsSDKDebugMode;
@@ -50,8 +51,12 @@ extern BOOL gMsSDKIsCA;
 extern BOOL gTPOpenPersonalizedAd;
 extern BOOL gTPUploadUseTime;
 extern BOOL gTPUploadFullMode;
+extern BOOL gFirstPartyDataApi;
+
 extern NSInteger gMsEventInterval;
 extern NSInteger gMsEventUPLoadMaxCount;
+
+
 extern NSString * const gConsentStatusStorageKey;
 extern NSString * const gGDPRAppliesStorageKey;
 extern NSString * const gTPCCPAStorageKey;
@@ -272,6 +277,12 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
     NETWORK_APPIC = 61,
     NETWORK_FUSION = 62
 };
+//屏蔽的广告类型
+typedef enum : NSUInteger {
+    TPNetworkS2S,
+    TPNetworkC2S,
+    TPNetworkNormal
+} TPForbidNetworkType;
 
 @interface MsCommon : NSObject
 
@@ -298,6 +309,8 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
 + (NSDate *)SDKStartDate;
 
 + (BOOL)checkCMPStateWithArray:(NSArray *)array;
+
++ (BOOL)isForbidNetworkId:(NSInteger)networkId bidType:(NSInteger)type;
 
 @property (nonatomic, strong) UIButton *btnShowLog;
 @end

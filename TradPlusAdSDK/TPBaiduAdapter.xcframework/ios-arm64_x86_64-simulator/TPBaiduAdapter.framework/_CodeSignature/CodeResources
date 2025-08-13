@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPBaiduAdapterBaseInfo.h</key>
 		<data>
-		/5ekntKDyDz7rcSY9m1AXs5XKHs=
+		swU4fQiFX3C5owDZiF3EZq7kGSk=
 		</data>
 		<key>Headers/TradPlusBaiduInterstitialAdapter.h</key>
 		<data>
@@ -228,6 +228,14 @@
 		<data>
 		9tR5BMW7vqKmbwGiWaJkGqegj64=
 		</data>
+		<key>baidumobadsdk.bundle/bd_native_video_lpBack_fill_black.png</key>
+		<data>
+		dXqDD0aUS1zFRbsYk4gIZlnLwQw=
+		</data>
+		<key>baidumobadsdk.bundle/bd_native_video_lpBack_fill_white.png</key>
+		<data>
+		IzWqsZy1GAVVRXh7WSpMICHVCVA=
+		</data>
 		<key>baidumobadsdk.bundle/bd_native_video_lpBack_white.png</key>
 		<data>
 		TACfl1Er/TAUGdjW+HCqwqsPs4Q=
@@ -366,11 +374,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/5ekntKDyDz7rcSY9m1AXs5XKHs=
+			swU4fQiFX3C5owDZiF3EZq7kGSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			jxaoxIWRiKvbtPwPuloXkHWgLa0v9z4LVG7F7+2+VIQ=
+			1B3otmar/cknd+QKR+v/Zqx/Sf7VABvaS2tLfw4/wCY=
 			</data>
 		</dict>
 		<key>Headers/TradPlusBaiduInterstitialAdapter.h</key>
@@ -954,6 +962,28 @@
 			<key>hash2</key>
 			<data>
 			tLSQEkoWVmvbfomNxNHkPlJqsTxBWQ2tq/pcFrTZrWc=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_native_video_lpBack_fill_black.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dXqDD0aUS1zFRbsYk4gIZlnLwQw=
+			</data>
+			<key>hash2</key>
+			<data>
+			B9PVZDFmZygN7+YKrzciXZM8Jv0X18kbNknRfHrQeEc=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_native_video_lpBack_fill_white.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IzWqsZy1GAVVRXh7WSpMICHVCVA=
+			</data>
+			<key>hash2</key>
+			<data>
+			hoCY6fpxW9glf8SmqCoWSx1YMdZtbquzdzeNoKFQRnk=
 			</data>
 		</dict>
 		<key>baidumobadsdk.bundle/bd_native_video_lpBack_white.png</key>

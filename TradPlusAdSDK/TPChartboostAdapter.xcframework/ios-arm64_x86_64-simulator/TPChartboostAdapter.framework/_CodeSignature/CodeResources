@@ -6,11 +6,11 @@
 	<dict>
 		<key>ChartboostSDKResources.bundle/Contents/Info.plist</key>
 		<data>
-		lCKCEajkVWT2neZGJsCGo5Z0KgQ=
+		Q0478koMkjAjblFHNLrYoqw9hf4=
 		</data>
 		<key>ChartboostSDKResources.bundle/Contents/Resources/Assets.car</key>
 		<data>
-		0stX1FocFtvWQU3yW52KrYWrI7A=
+		SCqTTIjG1soOyDV2RY/puTtPDAM=
 		</data>
 		<key>ChartboostSDKResources.bundle/Contents/Resources/info.png</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/TPChartboostAdapterBaseInfo.h</key>
 		<data>
-		HJ/zGpf0kHUO0W/Dn8gG1ow1wr8=
+		ZUTUD32jZQMqoLk3OLyOl89aSuM=
 		</data>
 		<key>Headers/TradPlusChartboostBannerAdapter.h</key>
 		<data>
@@ -63,22 +63,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lCKCEajkVWT2neZGJsCGo5Z0KgQ=
+			Q0478koMkjAjblFHNLrYoqw9hf4=
 			</data>
 			<key>hash2</key>
 			<data>
-			MW0IG3OHQmVsnXfluUR2m+hu8SGt6Qyi4i/KGf85pdY=
+			7sRQ8ZbRmsWLCd9NhvfuDHpDVNcN7z2An+7N5rMEN5w=
 			</data>
 		</dict>
 		<key>ChartboostSDKResources.bundle/Contents/Resources/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0stX1FocFtvWQU3yW52KrYWrI7A=
+			SCqTTIjG1soOyDV2RY/puTtPDAM=
 			</data>
 			<key>hash2</key>
 			<data>
-			StzXNYaamPUY/dS2v30Ipy6YsbQpUl178enlFp2EeoY=
+			BDtm8K+LMtn2aBTCf6jU4h7Lg9QNxXt1bQlPuhVlneY=
 			</data>
 		</dict>
 		<key>ChartboostSDKResources.bundle/Contents/Resources/info.png</key>
@@ -129,11 +129,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HJ/zGpf0kHUO0W/Dn8gG1ow1wr8=
+			ZUTUD32jZQMqoLk3OLyOl89aSuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MxYw3zvFj7JF3Fn8CKQG8zvfGS3ggTFuKTXWXis1e0Q=
+			JY8+wRuwuqhIYtbC1o1QYu7CvjnfdeBL5PToDuD1wk8=
 			</data>
 		</dict>
 		<key>Headers/TradPlusChartboostBannerAdapter.h</key>

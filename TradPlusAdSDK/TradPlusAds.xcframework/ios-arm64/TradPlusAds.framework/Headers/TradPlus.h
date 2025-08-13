@@ -11,6 +11,7 @@
 #import <TradPlusAds/MsCommon.h>
 #import <TradPlusAds/TradPlusUID2Info.h>
 #import <TradPlusAds/TPPlatformLimit.h>
+#import <TradPlusAds/TradPlusFilter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
@@ -100,6 +101,30 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
 //也可以传入特定格式数组 例：@[@{@"platform":广告平台ID,@"num":展示频限数量},...]
 //可传入空数组进行重置已设置配置
 + (void)setPlatformLimit:(NSArray *)list;
+
+//设置禁止的第三方广告平台ID列表
+/// @param list 广告平台ID List，如：@[@(NETWORK_FACEBOOK),@(NETWORK_ADMOB)]（可参考MSThirdNetwork）
++ (void)setForbidNetworkIdList:(NSArray<NSNumber *> *)list;
+//自定义过滤规则
+/**
+ 示例：
+ TradPlusFilter *filter = [[TradPlusFilter alloc]init];
+ [filter setFilterNetworkIds:@[@(NETWORK_PANGLE)]];
+ [filter setFilterBidTypes:@[@(TPNetworkC2S)]];
+ [TradPlus putFilter:@[filter]];
+ */
++ (void)putFilter:(NSArray<TradPlusFilter *> *)filterList;
+//移除所有自定义过滤规则
++ (void)removeFilters;
+
+//设置禁止的第三方广告平台ID列表，未设置返回nil
++ (NSArray<NSNumber *> *)getForbidNetworkIdList;
+
+//获取自定义过滤规则列表，未设置返回nil
++ (NSArray<TradPlusFilter *> *)getForbidFilterList;
+
+//获取ISO，需要SDK初始化成功后获取
++ (NSString *)getISO;
 
 @property (nonatomic,strong)TradPlusUID2Info *UID2Info;
 
