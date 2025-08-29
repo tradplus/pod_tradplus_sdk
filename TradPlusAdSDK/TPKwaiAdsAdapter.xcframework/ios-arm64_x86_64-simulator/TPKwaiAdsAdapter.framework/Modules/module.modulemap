@@ -1,6 +1,0 @@
-framework module TPKwaiAdsAdapter {
-  umbrella header "TPKwaiAdsAdapter.h"
-  export *
-
-  module * { export * }
-}

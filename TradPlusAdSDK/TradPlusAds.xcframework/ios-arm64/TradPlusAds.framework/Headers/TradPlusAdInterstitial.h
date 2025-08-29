@@ -47,6 +47,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)showWithInterstitialObject:(TradPlusAdInterstitialObject *)interstitialObject sceneId:(nullable NSString *)sceneId;
 - (void)showWithInterstitialObject:(TradPlusAdInterstitialObject *)interstitialObject rootViewController:(nullable UIViewController *)rootViewController sceneId:(nullable NSString *)sceneId;
 
+/// 关闭广告，需要在show之前调用，会在下次广告展示时开始计时
+/// @param seconds 几秒后消失（需大于0）
+- (void)closeAdAfter:(NSInteger)seconds;
+
 ///获取一个已缓存广告,获取后此广告会从缓存中移除，无广告时返回nil
 - (nullable TradPlusAdInterstitialObject *)getReadyInterstitialObject;
 

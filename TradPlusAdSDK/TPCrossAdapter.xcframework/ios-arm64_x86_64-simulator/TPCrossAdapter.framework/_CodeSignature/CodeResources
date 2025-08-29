@@ -98,7 +98,7 @@
 		</data>
 		<key>Headers/TPCrossAdapterBaseInfo.h</key>
 		<data>
-		p4GswCpZ3iqQBIgGaNc9GMUI3Z8=
+		B2kfNc2Q6dkGHsbXpR4nEYUVxYk=
 		</data>
 		<key>Headers/TPCrossBannerAdapter.h</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jPFZQ2qSoqAmNlrzlyyXs3rasfc=
+		EzlsMGMb9j2LmPhWvcoTzFZcf6w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -496,11 +496,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p4GswCpZ3iqQBIgGaNc9GMUI3Z8=
+			B2kfNc2Q6dkGHsbXpR4nEYUVxYk=
 			</data>
 			<key>hash2</key>
 			<data>
-			2hzZ4CUc8ea5SYMor2RLcb8ixOSXrAikUnZqlbaTV3g=
+			csw/6RYgEI+4xlT6f3RuT1GDAd5htMV7T0I9XJXD+Lk=
 			</data>
 		</dict>
 		<key>Headers/TPCrossBannerAdapter.h</key>

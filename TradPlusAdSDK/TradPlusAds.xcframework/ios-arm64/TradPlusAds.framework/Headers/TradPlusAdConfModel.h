@@ -99,5 +99,6 @@
 
 //v13.9.10新增 广告位自动加载重试配置
 @property (nonatomic,strong)NSMutableArray *autoLoadConfig;
-
+//v14.3.0新增 开屏广告位请求失败重试配置
+@property (nonatomic,strong)NSMutableArray *intergroupRetryLoadConfig;
 @end

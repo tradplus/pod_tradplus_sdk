@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPBeiziAdapterBaseInfo.h</key>
 		<data>
-		sEOq+WDbwJ8jqY77H/VsmQDHYBA=
+		R3GWG7pkYob78vBhFqsulTOM/aE=
 		</data>
 		<key>Headers/TradPlusBeiziNativeAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gbl79DqE3wnXWVlF8G5bEaEozNY=
+		UWqZvIk1J+n3QMcvv+l3LG1KEWw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sEOq+WDbwJ8jqY77H/VsmQDHYBA=
+			R3GWG7pkYob78vBhFqsulTOM/aE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jd3aOeJRrYMaicejXYlkrEJiv/dzGwqZ8wYdBCs+hHA=
+			nhRXGv87AHPxn/rV4m4WhvZkQVnmRkO94Xdbcm7KHXY=
 			</data>
 		</dict>
 		<key>Headers/TradPlusBeiziNativeAdapter.h</key>

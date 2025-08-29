@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)UIButton *closeButton;
 @property (nonatomic,copy)void (^didLayoutSubviewsAct)(void);
 @property (nonatomic,copy)void (^closeAct)(void);
+@property (nonatomic,assign)BOOL isPangle;
 @end
 
 NS_ASSUME_NONNULL_END

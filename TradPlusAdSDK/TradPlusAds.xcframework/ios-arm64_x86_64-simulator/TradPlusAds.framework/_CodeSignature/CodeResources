@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MSConstants.h</key>
 		<data>
-		inX7GLNOqQUc2YGZRDKfnUQWvec=
+		rI5HA8P8dtHSgkke4mfUiVxqpIk=
 		</data>
 		<key>Headers/MSDiskLRUCache.h</key>
 		<data>
@@ -124,6 +124,10 @@
 		<data>
 		P4hk85MO+csul0qTTlUs0vVCBkM=
 		</data>
+		<key>Headers/TPOverlayManager.h</key>
+		<data>
+		Q2GEJrRmxe9C8IwR/GEGRTTI8OU=
+		</data>
 		<key>Headers/TPPlatformLimit.h</key>
 		<data>
 		tXdwUCWnydmNk0OykIQytq/3P5o=
@@ -178,7 +182,7 @@
 		</data>
 		<key>Headers/TradPlusAdConfModel.h</key>
 		<data>
-		B/KJBRRnTEq/xk6qZGUrLvzaq0k=
+		Wd7tCVnEYwjqqO34yg9V2Mq7QO8=
 		</data>
 		<key>Headers/TradPlusAdCustomVideoPaster.h</key>
 		<data>
@@ -186,7 +190,7 @@
 		</data>
 		<key>Headers/TradPlusAdInterstitial.h</key>
 		<data>
-		QqvG3Yv5SaXbi+w2qy2uz+fALMw=
+		hmsgV678qEa+/C4/bWmotIjBtM4=
 		</data>
 		<key>Headers/TradPlusAdInterstitialObject.h</key>
 		<data>
@@ -342,7 +346,7 @@
 		</data>
 		<key>Headers/TradPlusInterstitialNativeViewController.h</key>
 		<data>
-		cAGO2c5438UtRyxNHLdLZqmPclk=
+		Tkf1gjh9etJ6YM6V3hlqDKhJG6M=
 		</data>
 		<key>Headers/TradPlusLoadAdOperation.h</key>
 		<data>
@@ -458,11 +462,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			inX7GLNOqQUc2YGZRDKfnUQWvec=
+			rI5HA8P8dtHSgkke4mfUiVxqpIk=
 			</data>
 			<key>hash2</key>
 			<data>
-			UqTfUuqKlheYn7eEqWq+MKLLbNFfS418yGHGARsGE3E=
+			+fWTNwDsVy4iHBznSwhbbeuMWIvzxFfXp+3CqqjlLhk=
 			</data>
 		</dict>
 		<key>Headers/MSDiskLRUCache.h</key>
@@ -773,6 +777,17 @@
 			D8Dmkgacigii9qr6VqXT3KOy986JmMPwiZupNXV1Cz8=
 			</data>
 		</dict>
+		<key>Headers/TPOverlayManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q2GEJrRmxe9C8IwR/GEGRTTI8OU=
+			</data>
+			<key>hash2</key>
+			<data>
+			rdroIw2rj76Kej7BXCdpfxYOp8BzKy9qe/JjgXF1k8I=
+			</data>
+		</dict>
 		<key>Headers/TPPlatformLimit.h</key>
 		<dict>
 			<key>hash</key>
@@ -920,11 +935,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B/KJBRRnTEq/xk6qZGUrLvzaq0k=
+			Wd7tCVnEYwjqqO34yg9V2Mq7QO8=
 			</data>
 			<key>hash2</key>
 			<data>
-			CsiiPMrWFICwJ3/APv5OsT6z47llUlu4OG6Nqc4JLwI=
+			fjIACqE8emzqTT3x8PpgEzV0sqNYF/LVyOROQcl1Xy8=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdCustomVideoPaster.h</key>
@@ -942,11 +957,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QqvG3Yv5SaXbi+w2qy2uz+fALMw=
+			hmsgV678qEa+/C4/bWmotIjBtM4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ootGjZDWRtBNXnJYtRUlhnTib0x75DMKp9tFYKH9u28=
+			+O2aNro/Jq75XBZiWJ63YJmBntu/UN+vK6u04aUGzjM=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdInterstitialObject.h</key>
@@ -1371,11 +1386,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cAGO2c5438UtRyxNHLdLZqmPclk=
+			Tkf1gjh9etJ6YM6V3hlqDKhJG6M=
 			</data>
 			<key>hash2</key>
 			<data>
-			bVaXoPI949Aya1Qil7oXkKAuaoH25881wYIlSTiAf4A=
+			aFYNMRbi3mp5apzHXNL/lJH61qbsIx59eg/JxOoUoF8=
 			</data>
 		</dict>
 		<key>Headers/TradPlusLoadAdOperation.h</key>
