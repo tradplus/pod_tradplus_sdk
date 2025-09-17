@@ -101,4 +101,11 @@
 @property (nonatomic,strong)NSMutableArray *autoLoadConfig;
 //v14.3.0新增 开屏广告位请求失败重试配置
 @property (nonatomic,strong)NSMutableArray *intergroupRetryLoadConfig;
+//自定义设置广告缓存时长，单位秒
+@property (nonatomic,assign)NSInteger custom_cache_second;
+//广告自动关闭秒数
+@property (nonatomic,assign)NSInteger ad_auto_close_second;
+//共享广告位是否只绑定一个普通广告位
+@property (nonatomic,assign)NSInteger share_adunit_unique_bind;
+
 @end

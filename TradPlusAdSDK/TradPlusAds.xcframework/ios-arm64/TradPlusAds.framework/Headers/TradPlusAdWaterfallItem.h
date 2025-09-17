@@ -190,6 +190,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *mediation_event_id;
 ///admob bidding相关参数 v11.1.20新增
 @property (nonatomic,assign)NSInteger is_hybrid_setup;
+///广告自动关闭秒数 v14.4.0新增
+@property (nonatomic,assign)NSInteger ad_auto_close_second;
+//原生插屏国内平台新模板
+@property (nonatomic,assign)NSInteger is_new_template;
 
 //0 否 1 是
 @property (nonatomic,assign)NSInteger is_adx;

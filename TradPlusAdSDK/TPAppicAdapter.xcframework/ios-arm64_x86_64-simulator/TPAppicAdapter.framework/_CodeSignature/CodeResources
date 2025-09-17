@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPAppicAdapterBaseInfo.h</key>
 		<data>
-		87zAiY5QCjHTsa9fzlgoX4igSeI=
+		30e40+qA28SyBSPjJwCUOhgGL4Y=
 		</data>
 		<key>Headers/TradPlusAppicNativeAdapter.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kf4upYvgXv3ASdQCH8wCJ06fkHE=
+		ic4FZkAjkBcW17M0Th0fqh6N/Mg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,11 +50,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			87zAiY5QCjHTsa9fzlgoX4igSeI=
+			30e40+qA28SyBSPjJwCUOhgGL4Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			pBSzXfwMSeE77dY+jBVMYgZcLjDkxfFOvCjik4hKjM0=
+			+8enJl5L0VUSNMKdO+G9I7U/NhlglOlkNyXlc9+rfqU=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAppicNativeAdapter.h</key>
