@@ -389,7 +389,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		CIY/7+t/wuBk4QNPAgUAHB+/xuo=
+		1PvM/JTp6uhO2hal3wNEPkfZ4Ns=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -415,7 +415,7 @@
 		</data>
 		<key>Headers/TPCSJAdapterBaseInfo.h</key>
 		<data>
-		puYzn9/M/Wr0z5S3URdWOTpcqdw=
+		n241FAjYZ9nZGIUXlngcCL9oBw4=
 		</data>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
 		<data>
@@ -1478,11 +1478,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CIY/7+t/wuBk4QNPAgUAHB+/xuo=
+			1PvM/JTp6uhO2hal3wNEPkfZ4Ns=
 			</data>
 			<key>hash2</key>
 			<data>
-			VmH3pka/PMmgj9lbdLjavtNoRvMbjwL4nV3K4D2tCRs=
+			c8XvBr78ER7E78ytaxU6JcWhEGuRGkersTPupnyajbE=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1526,11 +1526,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			puYzn9/M/Wr0z5S3URdWOTpcqdw=
+			n241FAjYZ9nZGIUXlngcCL9oBw4=
 			</data>
 			<key>hash2</key>
 			<data>
-			wrIUQkPBsQ52oDo382HXDO1s/3k3MD5uXy5IFMwFh6w=
+			YsmDU7osGqkkXmfgzjGzV7gx5OLk/BADNMslU0hXjqM=
 			</data>
 		</dict>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
