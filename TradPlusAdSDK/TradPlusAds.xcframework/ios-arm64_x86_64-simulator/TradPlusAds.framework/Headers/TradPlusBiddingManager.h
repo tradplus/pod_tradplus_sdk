@@ -26,7 +26,7 @@
 @property (nonatomic,assign)MsADType adType;
 @property (nonatomic,weak)TradPlusAdConfModel *confModel;
 
-@property (nonatomic,assign)NSInteger topWaterfallIndex;
+@property (nonatomic,strong)NSString *topPrice;
 
 - (void)setBidfloor:(CGFloat)bidfloor currency:(TPBidPriceCurrency)currency;
 

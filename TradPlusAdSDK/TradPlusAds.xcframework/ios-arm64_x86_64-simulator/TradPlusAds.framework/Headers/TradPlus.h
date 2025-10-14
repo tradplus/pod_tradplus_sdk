@@ -73,6 +73,12 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
 /// @param placementId 广告位ID
 + (void)setLocalConfig:(NSString *)configInfo placementId:(NSString *)placementId;
 
+/// 设置本地配置信息
+/// @param configInfo 本地配置信息
+/// @param placementId 广告位ID
+/// @param countryCode 需要匹配的国家码，不传或空字符取本机设置的countryCode
++ (void)setLocalConfig:(NSString *)configInfo placementId:(NSString *)placementId countryCode:(NSString *)countryCode;
+
 ///支持 TradPlusAdBanner TradPlusAdNative TradPlusNativeSplash TradPlusNativeBanner TradPlusAdInterstitial TradPlusAdRewarded TradPlusAdSplash 类型进行缓存过期的手动检测
 + (void)expiredAdCheck;
 

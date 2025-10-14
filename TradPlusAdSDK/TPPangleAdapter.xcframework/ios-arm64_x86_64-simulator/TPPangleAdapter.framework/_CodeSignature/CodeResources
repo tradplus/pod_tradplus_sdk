@@ -6,7 +6,7 @@
 	<dict>
 		<key>AdsGlobalSDK.bundle/Info.plist</key>
 		<data>
-		TiBhvJxLjrIIzq2yCW583HjKgeA=
+		4G5jySRAXfcvQzZDk0o3wrLMPYo=
 		</data>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPPangleAdapterBaseInfo.h</key>
 		<data>
-		IBAJqgekRMmkv9P7K4qqYe7C4kM=
+		0XkdI4GjWo7HTc8I6xkgtlLl1/E=
 		</data>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>PAGAdSDK.bundle/400001559.json</key>
 		<data>
-		p4vDVAxVBtp3xB/IcegQf36DXqE=
+		Mtf2WHEsollC6cjfV+nTW6UV4QI=
 		</data>
 		<key>PAGAdSDK.bundle/400001562.json</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>PAGAdSDK.bundle/400002029.json</key>
 		<data>
-		kT8gCkovoJAWNS6EwS/rng5Tkno=
+		uijoBTMtKWICiLnGDujDR0FLdK0=
 		</data>
 		<key>PAGAdSDK.bundle/Assets.car</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<data>
-		HO8nwjjlUx4JID1fMH2cNs22nc4=
+		Jal3Ha9TRMAKDz9uJpLeo/Qbl58=
 		</data>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>PAGAdSDK.bundle/omsdk-v1.js</key>
 		<data>
-		CGpAGa8wAtpPYyj1vCn3lrAw7vo=
+		WX9bWVBNl+h/NW1bQTdx+psJVyU=
 		</data>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		15R/QT8rp6jKc3+MDXJBhtVpIL0=
+		+AX7cGhUHmYuOwcCzZ/zHjW5IPc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -115,11 +115,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TiBhvJxLjrIIzq2yCW583HjKgeA=
+			4G5jySRAXfcvQzZDk0o3wrLMPYo=
 			</data>
 			<key>hash2</key>
 			<data>
-			rrUHbeg0wyeS3UlUSWWGOjExuDeeWdDvfNHCfp9HaQs=
+			S2J6jHSyjjk9uYqgWrbsBI7bjdjhEP9jsPZ+Rgf5o0w=
 			</data>
 		</dict>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -148,11 +148,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IBAJqgekRMmkv9P7K4qqYe7C4kM=
+			0XkdI4GjWo7HTc8I6xkgtlLl1/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			fq8LIDDB+G5W9EmhTy+zKOnWCBM1CwN50WLaEqwPhOc=
+			AEMN5iKEQEtQhG/YEUm2eKAw7Ies90jPSYBHvBCNRFc=
 			</data>
 		</dict>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
@@ -236,11 +236,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p4vDVAxVBtp3xB/IcegQf36DXqE=
+			Mtf2WHEsollC6cjfV+nTW6UV4QI=
 			</data>
 			<key>hash2</key>
 			<data>
-			oJrh4ejmBjrClr9b7++40s3UiSVz4JHAHupVeIzBD4Q=
+			+kSxaAEktAlQc/8jzDqFGsZtYx/SDMHsyXE/Hi9jhp4=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/400001562.json</key>
@@ -324,11 +324,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kT8gCkovoJAWNS6EwS/rng5Tkno=
+			uijoBTMtKWICiLnGDujDR0FLdK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			8PydQwd/etacPkGvKK7Zzs+nwZrYgF48b+vDSscsQXI=
+			pBbrcjYxcEpVO1uhQT/wduzSPNNj5xUz1y8L0dSHDeY=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/Assets.car</key>
@@ -346,11 +346,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HO8nwjjlUx4JID1fMH2cNs22nc4=
+			Jal3Ha9TRMAKDz9uJpLeo/Qbl58=
 			</data>
 			<key>hash2</key>
 			<data>
-			1DQUdi3L1D+/Sm31t48S/78NGiuUB3lWQs4m9Mjl2gY=
+			Wk6XOHYheI8pWUOAY6+2TpX8gpQB7KIot7vt+BF/8HI=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -368,22 +368,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CGpAGa8wAtpPYyj1vCn3lrAw7vo=
+			WX9bWVBNl+h/NW1bQTdx+psJVyU=
 			</data>
 			<key>hash2</key>
 			<data>
-			lv0gqdHqfvfWvCzvCn88ekL8M4tm+B8sQ1gl5Y1dENs=
+			Hlaaa4S6qm4V7fKq/DHH3FhORcQgKZ+hqniOO4ptmHc=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			15R/QT8rp6jKc3+MDXJBhtVpIL0=
+			+AX7cGhUHmYuOwcCzZ/zHjW5IPc=
 			</data>
 			<key>hash2</key>
 			<data>
-			akbBOQYESDvU1nomPd/CzDGoiJf6w9Dxakdrp/gIjqM=
+			CBlOqxiXEt8L4NmVl8H4qIhGygSTe+HopCuTxYtTPt4=
 			</data>
 		</dict>
 	</dict>

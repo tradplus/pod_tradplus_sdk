@@ -95,6 +95,11 @@
 #import <TradPlusAds/TPNativeInterstitialFullVerticalTemplate.h>
 #import <TradPlusAds/TPNativeInterstitialFullHorizontalTemplate.h>
 #import <TradPlusAds/TPNativeInterstitialHalfTemplate.h>
+#import <TradPlusAds/TPNewInterstitialFullHorizontalTemplate.h>
+#import <TradPlusAds/TPNewInterstitialFullVerticalTemplate.h>
+#import <TradPlusAds/TPNewInterstitialHalfHorizontalTemplate.h>
+#import <TradPlusAds/TPNewInterstitialHalfVerticalTemplate.h>
+#import <TradPlusAds/TPNativeInterstitialReelsTemplate.h>
 #import <TradPlusAds/TradPlusNativeInterstitialRenderer.h>
 #import <TradPlusAds/TradPlusGroupManager.h>
 #import <TradPlusAds/TradPlusSharedPoolManager.h>
@@ -103,3 +108,5 @@
 #import <TradPlusAds/TPPlatformLimit.h>
 #import <TradPlusAds/TPVungleModelManager.h>
 #import <TradPlusAds/TPVungleModel.h>
+#import <TradPlusAds/TPOverlayManager.h>
+

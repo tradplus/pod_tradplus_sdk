@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)void (^didLayoutSubviewsAct)(void);
 @property (nonatomic,copy)void (^closeAct)(void);
 @property (nonatomic,assign)BOOL isPangle;
+@property (nonatomic,assign)BOOL isReels;
 @end
 
 NS_ASSUME_NONNULL_END

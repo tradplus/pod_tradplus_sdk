@@ -28,33 +28,13 @@
 		<data>
 		/N9ohm1pTzqukbCMJmJ3dtJwfoo=
 		</data>
-		<key>ChartboostSDKResources.bundle/Contents/Info.plist</key>
-		<data>
-		lCKCEajkVWT2neZGJsCGo5Z0KgQ=
-		</data>
-		<key>ChartboostSDKResources.bundle/Contents/Resources/Assets.car</key>
-		<data>
-		0stX1FocFtvWQU3yW52KrYWrI7A=
-		</data>
-		<key>ChartboostSDKResources.bundle/Contents/Resources/info.png</key>
-		<data>
-		TCKP9O02+ZkDdhVQ+KUuNWlrKxo=
-		</data>
-		<key>ChartboostSDKResources.bundle/Contents/Resources/mraid.js</key>
-		<data>
-		bFSRhdyTULr+2iHxoFntKqi77Do=
-		</data>
-		<key>ChartboostSDKResources.bundle/Contents/Resources/omsdk-v1.js</key>
-		<data>
-		QGf4WdeRTCSlqIhGAQ2SefJqVSo=
-		</data>
 		<key>Headers/TPHeliumAdapter.h</key>
 		<data>
 		tHfTJD8srMUgxfnDitWF+fwcCkg=
 		</data>
 		<key>Headers/TPHeliumAdapterBaseInfo.h</key>
 		<data>
-		AisRtNQj1x9VxoicCzMEKAKpgFM=
+		YuwieBreooLs4DlAzqNXjbBJ0Tg=
 		</data>
 		<key>Headers/TradPlusHeliumBannerAdapter.h</key>
 		<data>
@@ -149,61 +129,6 @@
 			FVRJ0VJV2yGMbDU7Eu7SQYjsDWuSTX5UMGOe5vMQeug=
 			</data>
 		</dict>
-		<key>ChartboostSDKResources.bundle/Contents/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lCKCEajkVWT2neZGJsCGo5Z0KgQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			MW0IG3OHQmVsnXfluUR2m+hu8SGt6Qyi4i/KGf85pdY=
-			</data>
-		</dict>
-		<key>ChartboostSDKResources.bundle/Contents/Resources/Assets.car</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0stX1FocFtvWQU3yW52KrYWrI7A=
-			</data>
-			<key>hash2</key>
-			<data>
-			StzXNYaamPUY/dS2v30Ipy6YsbQpUl178enlFp2EeoY=
-			</data>
-		</dict>
-		<key>ChartboostSDKResources.bundle/Contents/Resources/info.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TCKP9O02+ZkDdhVQ+KUuNWlrKxo=
-			</data>
-			<key>hash2</key>
-			<data>
-			9EDiJ536QNg6NQmm8fCPFkmAu5DIDy0pLqeRNnXhf5g=
-			</data>
-		</dict>
-		<key>ChartboostSDKResources.bundle/Contents/Resources/mraid.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bFSRhdyTULr+2iHxoFntKqi77Do=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q32hLxiqup0NDTeCgky5MZylscBLB1U/e0Sec7T6o1g=
-			</data>
-		</dict>
-		<key>ChartboostSDKResources.bundle/Contents/Resources/omsdk-v1.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QGf4WdeRTCSlqIhGAQ2SefJqVSo=
-			</data>
-			<key>hash2</key>
-			<data>
-			3hWBhbztuR6RkPOvM8mRyykVlS01tgBQ+FBIAKzTLM4=
-			</data>
-		</dict>
 		<key>Headers/TPHeliumAdapter.h</key>
 		<dict>
 			<key>hash</key>
@@ -219,11 +144,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AisRtNQj1x9VxoicCzMEKAKpgFM=
+			YuwieBreooLs4DlAzqNXjbBJ0Tg=
 			</data>
 			<key>hash2</key>
 			<data>
-			fYOzTYZBT0Ap94ydvPoNBWEuAvg/eO8gw6/RzdsZ3qw=
+			nEwkWIERfowJOvKv0ciJ7u2Gcd0AYEajwuzUHiqUFWk=
 			</data>
 		</dict>
 		<key>Headers/TradPlusHeliumBannerAdapter.h</key>
