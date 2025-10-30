@@ -6,7 +6,7 @@
 	<dict>
 		<key>AdsGlobalSDK.bundle/Info.plist</key>
 		<data>
-		4G5jySRAXfcvQzZDk0o3wrLMPYo=
+		wxhn6KDJNYDpbTJvKD1mcXK22dU=
 		</data>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPPangleAdapterBaseInfo.h</key>
 		<data>
-		0XkdI4GjWo7HTc8I6xkgtlLl1/E=
+		Wsk5/Hx8ZK4dc7rLqCk+J++WTc4=
 		</data>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
 		<data>
@@ -52,29 +52,13 @@
 		<data>
 		lS7nnKikJYSLA9yAYpQV7CmQC5Y=
 		</data>
-		<key>PAGAdSDK.bundle/400001559.json</key>
-		<data>
-		Mtf2WHEsollC6cjfV+nTW6UV4QI=
-		</data>
 		<key>PAGAdSDK.bundle/400001562.json</key>
 		<data>
 		OWy+nAUoSGf18os0/Ypy+FPsaH0=
 		</data>
-		<key>PAGAdSDK.bundle/400001923.json</key>
-		<data>
-		BS8ftBBe+dhyZdRDsQ6k03sUSHg=
-		</data>
 		<key>PAGAdSDK.bundle/400001924.json</key>
 		<data>
 		A1Vbzf4WumplRmXGrkvMh453biE=
-		</data>
-		<key>PAGAdSDK.bundle/400001925.json</key>
-		<data>
-		unDwgNw4volB/irMjGSN0C7xpD0=
-		</data>
-		<key>PAGAdSDK.bundle/400001964.json</key>
-		<data>
-		oE1FXdqyaXGkcUgE68VMDhtaYsQ=
 		</data>
 		<key>PAGAdSDK.bundle/400001965.json</key>
 		<data>
@@ -88,13 +72,41 @@
 		<data>
 		uijoBTMtKWICiLnGDujDR0FLdK0=
 		</data>
+		<key>PAGAdSDK.bundle/400007896.json</key>
+		<data>
+		fAPLnYiX95ptTcM1oOSf+61M/fo=
+		</data>
+		<key>PAGAdSDK.bundle/400007913.json</key>
+		<data>
+		5q86CJE9HpjQQ9Ukbb9WPcxUxi0=
+		</data>
+		<key>PAGAdSDK.bundle/400007914.json</key>
+		<data>
+		C9na1jUPC9lfttfQ+c3/zIvM5lg=
+		</data>
+		<key>PAGAdSDK.bundle/400007918.json</key>
+		<data>
+		ps6UK8x6zr8lwb5lndr89EZcL5M=
+		</data>
+		<key>PAGAdSDK.bundle/400007923.json</key>
+		<data>
+		wszSaxcAh8+sfbw5X7r35sGzsrI=
+		</data>
+		<key>PAGAdSDK.bundle/400007941.json</key>
+		<data>
+		QNNyKQTwHu2w7V229uebCNdtzPs=
+		</data>
+		<key>PAGAdSDK.bundle/400007999.json</key>
+		<data>
+		+uUTZq6R6wiVpauUJPZsrcwZo9E=
+		</data>
 		<key>PAGAdSDK.bundle/Assets.car</key>
 		<data>
 		7p9aS9xmPIWM7ssl5k8EXmPauIU=
 		</data>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<data>
-		Jal3Ha9TRMAKDz9uJpLeo/Qbl58=
+		7OGmG5LtFhiHfxGX0F/wNRgKdPQ=
 		</data>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -106,7 +118,15 @@
 		</data>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		+AX7cGhUHmYuOwcCzZ/zHjW5IPc=
+		LkkoNeAO4EU8DJOG1i7SytLhnn0=
+		</data>
+		<key>TikTokBusinessSDK.bundle/Info.plist</key>
+		<data>
+		ta8co3vW8Lqku6ezWpodltWoPhw=
+		</data>
+		<key>TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		mTK8OTaETgRAx3w+SAynt3Z+ncw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -115,11 +135,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4G5jySRAXfcvQzZDk0o3wrLMPYo=
+			wxhn6KDJNYDpbTJvKD1mcXK22dU=
 			</data>
 			<key>hash2</key>
 			<data>
-			S2J6jHSyjjk9uYqgWrbsBI7bjdjhEP9jsPZ+Rgf5o0w=
+			1xY3FOYZycNaAxC01vrdYqvTZFybrYcAdD3k1zufsiY=
 			</data>
 		</dict>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -148,11 +168,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0XkdI4GjWo7HTc8I6xkgtlLl1/E=
+			Wsk5/Hx8ZK4dc7rLqCk+J++WTc4=
 			</data>
 			<key>hash2</key>
 			<data>
-			AEMN5iKEQEtQhG/YEUm2eKAw7Ies90jPSYBHvBCNRFc=
+			/twUH+/owPuCILDSyQeS4nIfGr8vo7PZ+UQZytNpddk=
 			</data>
 		</dict>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
@@ -232,17 +252,6 @@
 			+zgIX5+bImmFRWbzRWYPzhcoiQNkIqJXGC82IKhWfmY=
 			</data>
 		</dict>
-		<key>PAGAdSDK.bundle/400001559.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Mtf2WHEsollC6cjfV+nTW6UV4QI=
-			</data>
-			<key>hash2</key>
-			<data>
-			+kSxaAEktAlQc/8jzDqFGsZtYx/SDMHsyXE/Hi9jhp4=
-			</data>
-		</dict>
 		<key>PAGAdSDK.bundle/400001562.json</key>
 		<dict>
 			<key>hash</key>
@@ -254,17 +263,6 @@
 			f68CEAO4tvsmN3NZWzC0Ib83xLJpSUIn5+oSyN1LwdE=
 			</data>
 		</dict>
-		<key>PAGAdSDK.bundle/400001923.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BS8ftBBe+dhyZdRDsQ6k03sUSHg=
-			</data>
-			<key>hash2</key>
-			<data>
-			OCnqa+DpBTJvt4Mt4o3XytCV/ncDGsTW0bC6syjO9AM=
-			</data>
-		</dict>
 		<key>PAGAdSDK.bundle/400001924.json</key>
 		<dict>
 			<key>hash</key>
@@ -274,28 +272,6 @@
 			<key>hash2</key>
 			<data>
 			A9Ps9asMrXInRKfssbkWMFGevv98ZMKOW02rDJt4gnE=
-			</data>
-		</dict>
-		<key>PAGAdSDK.bundle/400001925.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			unDwgNw4volB/irMjGSN0C7xpD0=
-			</data>
-			<key>hash2</key>
-			<data>
-			faKYP/6LgReazFTqN8wdouu/NEOd+EZfadnkxpk5NyM=
-			</data>
-		</dict>
-		<key>PAGAdSDK.bundle/400001964.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oE1FXdqyaXGkcUgE68VMDhtaYsQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			JUcOozXTopuRgNU2CqhsHLX5tRf1DTgaZjplTPwD64I=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/400001965.json</key>
@@ -331,6 +307,83 @@
 			pBbrcjYxcEpVO1uhQT/wduzSPNNj5xUz1y8L0dSHDeY=
 			</data>
 		</dict>
+		<key>PAGAdSDK.bundle/400007896.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fAPLnYiX95ptTcM1oOSf+61M/fo=
+			</data>
+			<key>hash2</key>
+			<data>
+			7FRejQA6EO6xM7/Vq8odwaL+zYMFOLQG6UvksqPk+Dg=
+			</data>
+		</dict>
+		<key>PAGAdSDK.bundle/400007913.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5q86CJE9HpjQQ9Ukbb9WPcxUxi0=
+			</data>
+			<key>hash2</key>
+			<data>
+			W9xXJWyecKwR527OgT2PElwBZBd+Rp3lxqSPV/sC24M=
+			</data>
+		</dict>
+		<key>PAGAdSDK.bundle/400007914.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			C9na1jUPC9lfttfQ+c3/zIvM5lg=
+			</data>
+			<key>hash2</key>
+			<data>
+			x2meWrRsMaW574Tibh34fB8SAF9A+EeFw86wIzrwcRU=
+			</data>
+		</dict>
+		<key>PAGAdSDK.bundle/400007918.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ps6UK8x6zr8lwb5lndr89EZcL5M=
+			</data>
+			<key>hash2</key>
+			<data>
+			kXeu/VRr7KpBcWD+80yGalGaEHINNAzNc4Bi2j1XKEU=
+			</data>
+		</dict>
+		<key>PAGAdSDK.bundle/400007923.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wszSaxcAh8+sfbw5X7r35sGzsrI=
+			</data>
+			<key>hash2</key>
+			<data>
+			P3wuO4W9SIp/mzbPC8yQDURE4nPXgdjKJ6K7feI1MPM=
+			</data>
+		</dict>
+		<key>PAGAdSDK.bundle/400007941.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QNNyKQTwHu2w7V229uebCNdtzPs=
+			</data>
+			<key>hash2</key>
+			<data>
+			hmV93IfMO9AQfrKUH0jTC5bLw6p5ffOTmXSekJKQrYI=
+			</data>
+		</dict>
+		<key>PAGAdSDK.bundle/400007999.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+uUTZq6R6wiVpauUJPZsrcwZo9E=
+			</data>
+			<key>hash2</key>
+			<data>
+			0ZvzpkSC5n0z7SrSS0dUbe3kBtAf5xhsghbnF2Lw5sw=
+			</data>
+		</dict>
 		<key>PAGAdSDK.bundle/Assets.car</key>
 		<dict>
 			<key>hash</key>
@@ -346,11 +399,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jal3Ha9TRMAKDz9uJpLeo/Qbl58=
+			7OGmG5LtFhiHfxGX0F/wNRgKdPQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wk6XOHYheI8pWUOAY6+2TpX8gpQB7KIot7vt+BF/8HI=
+			eP7Tjavjmuu8jOufCFMr7UXrbUxowwZrLe8lp0nGpYo=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -379,11 +432,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+AX7cGhUHmYuOwcCzZ/zHjW5IPc=
+			LkkoNeAO4EU8DJOG1i7SytLhnn0=
 			</data>
 			<key>hash2</key>
 			<data>
-			CBlOqxiXEt8L4NmVl8H4qIhGygSTe+HopCuTxYtTPt4=
+			e3aUFRJMnYwNyVPy1P6xggfKgJs8uJhfhvXwKE83MJM=
+			</data>
+		</dict>
+		<key>TikTokBusinessSDK.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ta8co3vW8Lqku6ezWpodltWoPhw=
+			</data>
+			<key>hash2</key>
+			<data>
+			txApI8XbZV4mWVTw8jzemqu9l98nyIntKEkbv8ZAHQc=
+			</data>
+		</dict>
+		<key>TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mTK8OTaETgRAx3w+SAynt3Z+ncw=
+			</data>
+			<key>hash2</key>
+			<data>
+			h5ztaf1/AS8qM+j6tlwi+JwB+KQEegXx5+aea9fQc/M=
 			</data>
 		</dict>
 	</dict>

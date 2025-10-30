@@ -99,8 +99,8 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
 /// @param placementId 广告位ID
 + (void)clearShareCacheWithPlacementId:(NSString *)placementId;
 
-//查看用户当前区域
-//isUnknown = YES时表示 未知IP 或 网络请求失败
+///查看用户当前区域
+///isUnknown = YES时表示 未知IP 或 网络请求失败
 + (void)checkCurrentArea:(void (^)(BOOL isUnknown,BOOL isCN,BOOL isCA,BOOL isEU))completionBlock;
 
 //v13.1.0新增 设置指定平台的展示限制 可配合TPPlatformLimit使用
@@ -108,10 +108,10 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
 //可传入空数组进行重置已设置配置
 + (void)setPlatformLimit:(NSArray *)list;
 
-//设置禁止的第三方广告平台ID列表
+///设置禁止的第三方广告平台ID列表
 /// @param list 广告平台ID List，如：@[@(NETWORK_FACEBOOK),@(NETWORK_ADMOB)]（可参考MSThirdNetwork）
 + (void)setForbidNetworkIdList:(NSArray<NSNumber *> *)list;
-//自定义过滤规则
+///自定义过滤规则
 /**
  示例：
  TradPlusFilter *filter = [[TradPlusFilter alloc]init];
@@ -120,17 +120,40 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
  [TradPlus putFilter:@[filter]];
  */
 + (void)putFilter:(NSArray<TradPlusFilter *> *)filterList;
-//移除所有自定义过滤规则
+///移除所有自定义过滤规则
 + (void)removeFilters;
 
-//设置禁止的第三方广告平台ID列表，未设置返回nil
+///设置禁止的第三方广告平台ID列表，未设置返回nil
 + (NSArray<NSNumber *> *)getForbidNetworkIdList;
 
-//获取自定义过滤规则列表，未设置返回nil
+///获取自定义过滤规则列表，未设置返回nil
 + (NSArray<TradPlusFilter *> *)getForbidFilterList;
 
-//获取ISO，需要SDK初始化成功后获取
+///获取ISO，需要SDK初始化成功后获取
 + (NSString *)getISO;
+
+///开启/关闭自定义win&loss通知
++ (void)setOpenCustomizeNotification:(NSString *)placementId isOn:(BOOL)isOn;
+
+///自定义发送win通知
+/// @param placementId TradPlus广告位ID
+/// @param winPrice 胜出价，必须大于0
+/// @param secondPrice 二价，可选
+/// @param adSourcePlacementId adInfo返回的adSourcePlacementId
++ (void)sendWinOrDisplayNotification:(NSString *)placementId winPrice:(NSString *)winPrice secondPrice:(NSString *)secondPrice adSourcePlacementId:(NSString *)adSourcePlacementId;
+
+///自定义发送Loss通知
+/// @param placementId TradPlus广告位ID
+/// @param winPrice 胜出价，必须大于0
+/// @param secondPrice 二价，可选
+/// @param adSourcePlacementId adInfo返回的adSourcePlacementId
++ (void)sendLossNotification:(NSString *)placementId winPrice:(NSString *)winPrice secondPrice:(NSString *)secondPrice adSourcePlacementId:(NSString *)adSourcePlacementId;
+
+
++ (BOOL)getCustomizeWinWithPlacementId:(NSString *)placementId;
+
+///手动传入user agent，SDK不再获取，需在SDK init之前调用，需保证userAgent正确，否则可能影响广告加载
++ (void)setUserAgent:(NSString *)userAgent;
 
 @property (nonatomic,strong)TradPlusUID2Info *UID2Info;
 

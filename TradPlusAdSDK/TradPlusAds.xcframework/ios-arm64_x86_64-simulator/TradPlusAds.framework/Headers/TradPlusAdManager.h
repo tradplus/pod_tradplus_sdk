@@ -10,6 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (TradPlusAdManager *)sharedInstance;
 - (BOOL)hasUnitManagerWithPlacementID:(NSString *)placementID;
 - (TradPlusUnitManager *)getUnitManagerWithPlacementID:(NSString *)placementID;
+- (TradPlusUnitManager *)getExsitUnitManagerWithPlacementID:(NSString *)placementID;
 - (void)setCustomDictionary:(nullable NSDictionary *)customDictionary  placementId:(NSString *)placementId;
 - (void)setLocalParams:(nullable NSDictionary *)localParams placementId:(NSString *)placementId;
 - (void)startCheckExpire;

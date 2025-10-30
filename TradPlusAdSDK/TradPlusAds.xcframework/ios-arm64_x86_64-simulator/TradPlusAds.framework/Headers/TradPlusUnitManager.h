@@ -110,6 +110,7 @@
 //bidding通知
 - (void)sendLossWithItem:(TradPlusAdWaterfallItem *)item loadFail:(BOOL)loadFail nbr:(NSInteger)nbr;
 - (void)sendWinWithItem:(TradPlusAdWaterfallItem *)item;
+- (void)sendDirectWinWithItem:(TradPlusAdWaterfallItem *)item;
 - (void)sendImpressionWithItem:(TradPlusAdWaterfallItem *)item;
 
 //加载失败记录相关
