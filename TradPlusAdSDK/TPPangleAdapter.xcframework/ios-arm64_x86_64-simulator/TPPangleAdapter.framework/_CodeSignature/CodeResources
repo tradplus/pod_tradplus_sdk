@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPPangleAdapterBaseInfo.h</key>
 		<data>
-		Wsk5/Hx8ZK4dc7rLqCk+J++WTc4=
+		R7F9tdyj7UsJokWFYTjYXGv0/mY=
 		</data>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mNZ2o6pDr5oJ9yP2wZlgtcWZKiM=
+		eOfD/MYZUouSq246gV5lbE+aCn8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<data>
-		7OGmG5LtFhiHfxGX0F/wNRgKdPQ=
+		12LcT2l36MwDSS9CMeqJ8XWCIoo=
 		</data>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		LkkoNeAO4EU8DJOG1i7SytLhnn0=
+		Nq4zbQUqo6oTQpT9UfYAnIh81+g=
 		</data>
 		<key>TikTokBusinessSDK.bundle/Info.plist</key>
 		<data>
@@ -168,11 +168,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wsk5/Hx8ZK4dc7rLqCk+J++WTc4=
+			R7F9tdyj7UsJokWFYTjYXGv0/mY=
 			</data>
 			<key>hash2</key>
 			<data>
-			/twUH+/owPuCILDSyQeS4nIfGr8vo7PZ+UQZytNpddk=
+			2SxGXxJlS6YsOytuuPa1yFtyWl4CmBgHTLB44EGJnFo=
 			</data>
 		</dict>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
@@ -399,11 +399,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7OGmG5LtFhiHfxGX0F/wNRgKdPQ=
+			12LcT2l36MwDSS9CMeqJ8XWCIoo=
 			</data>
 			<key>hash2</key>
 			<data>
-			eP7Tjavjmuu8jOufCFMr7UXrbUxowwZrLe8lp0nGpYo=
+			7EgmUJ+XIwJ3P7ikhH2lIBX1Nbh+GRUTeq1gFCVIJGw=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -432,11 +432,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LkkoNeAO4EU8DJOG1i7SytLhnn0=
+			Nq4zbQUqo6oTQpT9UfYAnIh81+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			e3aUFRJMnYwNyVPy1P6xggfKgJs8uJhfhvXwKE83MJM=
+			wzgODjgb61xZC5ubbgQnRwjf6Z9eEJgeSYc2pK90teo=
 			</data>
 		</dict>
 		<key>TikTokBusinessSDK.bundle/Info.plist</key>

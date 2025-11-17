@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusAdSDK"
-  spec.version      = "14.6.0"
+  spec.version      = "14.7.0"
   spec.summary      = "TradPlusAd SDK"
   spec.description  = <<-DESC
             "A short description of TradPlusAd SDK for iOS.
@@ -219,7 +219,7 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'KwaiAdsAdapter' do |ss|
      ss.ios.deployment_target = '12.0'
-     ss.vendored_frameworks = 'TradPlusAdSDK/TPKwaiAdsAdapter.framework'
+     ss.vendored_frameworks = 'TradPlusAdSDK/TPKwaiAdsAdapter.xcframework'
   end
 
   spec.subspec 'YSONetworkAdapter' do |ss|

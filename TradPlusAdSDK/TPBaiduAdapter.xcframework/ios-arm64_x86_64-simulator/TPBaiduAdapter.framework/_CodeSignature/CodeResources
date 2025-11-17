@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPBaiduAdapterBaseInfo.h</key>
 		<data>
-		7h9ebuhjqbON3+PdNss7dNYXQGU=
+		KT+n7Ad7QBih3JyYMx3WYDO61+c=
 		</data>
 		<key>Headers/TradPlusBaiduInterstitialAdapter.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1foa8RH9VETW2PL4bkQzesyLC1o=
+		u6azoehwAE+dKpLE4e72o2sDhU4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -414,11 +414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7h9ebuhjqbON3+PdNss7dNYXQGU=
+			KT+n7Ad7QBih3JyYMx3WYDO61+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			9YeCzZ8YIqywtVD1fFlKv62M2ihNsxPGRvaV/NktVnQ=
+			Ro/S+HQKHKNqkgxv0n/+PEswpwBqQd5+/3frMN9RtCs=
 			</data>
 		</dict>
 		<key>Headers/TradPlusBaiduInterstitialAdapter.h</key>
