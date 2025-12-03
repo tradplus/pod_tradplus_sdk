@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		uuXJpUTmk+q9GN/gpOO31eoUBgA=
+		kl+sLfs6Z+2HJzYyhj3VScq3iVs=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPAdMobAdapterBaseInfo.h</key>
 		<data>
-		nK/drRNxxeFuXJKzJSARn9pMjgw=
+		s+ClRAB4VfFCGlhQWQpfFmgfSKs=
 		</data>
 		<key>Headers/TPGoogleAdMobAdapterConfig.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eJciyh+u8igrESXfojHwmzb+9S4=
+		2dSJ29wRd5C5eNdGqKubDMwgWJY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		/oP53x4IgAuxRD9Tk1aSeNq6yyI=
+		Nzj50aGqkmUY/kn2TyAbbMgiDOw=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -85,21 +85,13 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uuXJpUTmk+q9GN/gpOO31eoUBgA=
-			</data>
 			<key>hash2</key>
 			<data>
-			n9sqE4adDB+M/eYidbAnowsA4epb5PaGdob5WJvyaCg=
+			4h4tekIBb/XUovXBHKWQS4S7z085+Z0n5xmHp9qKuaM=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VWCA3MeaiPMoOAS1uOteTSLX8js=
-			</data>
 			<key>hash2</key>
 			<data>
 			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
@@ -107,10 +99,6 @@
 		</dict>
 		<key>Headers/TPAdMobAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0pzMDgQvdZe4W9prq7l49R8ZI6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			qguof/1s4/GpHjlPJksAJRRJwgqjdP+qdy6t95eqPGE=
@@ -118,21 +106,13 @@
 		</dict>
 		<key>Headers/TPAdMobAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nK/drRNxxeFuXJKzJSARn9pMjgw=
-			</data>
 			<key>hash2</key>
 			<data>
-			Fe3nd2jJ/Jx5ibli0OrsPAHtyRmFp1eQgwmVH2xW94Q=
+			pqWh3FPUZyKkjawGRRa1Ppk+ouF0lEZmnOQbTUwElGA=
 			</data>
 		</dict>
 		<key>Headers/TPGoogleAdMobAdapterConfig.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zrnkZ29DtaBB29KAkgq15g9+Ino=
-			</data>
 			<key>hash2</key>
 			<data>
 			CrdlNFr/am/cWFCLNUEuybCL/GLhy4BH6D6pWuxBurg=
@@ -140,10 +120,6 @@
 		</dict>
 		<key>Headers/TradPlusAdMobBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cvOhL2OEYbgAo8lNAREH5kHaaII=
-			</data>
 			<key>hash2</key>
 			<data>
 			dDmNuR4WvHC9iyYBcSlemYVSa/7h/5kr2bwwdeZ1cIM=
@@ -151,10 +127,6 @@
 		</dict>
 		<key>Headers/TradPlusAdMobInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nAuurYiZjI2u5xSjpIDBqbSaruA=
-			</data>
 			<key>hash2</key>
 			<data>
 			RxDxocZq5UIs7GM9Hh1PtjmMc4cvtIYiOr7mYwTSHIM=
@@ -162,10 +134,6 @@
 		</dict>
 		<key>Headers/TradPlusAdMobNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZOi/O48F8CGdPpJfSj6za70MiE4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Fus5IHXhMfN72jaHyEXHAfe/yGzGqZFCsLkYtl0Zu80=
@@ -173,10 +141,6 @@
 		</dict>
 		<key>Headers/TradPlusAdMobRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			w/YAu1HvXYA7kKGoR66GXaW91oE=
-			</data>
 			<key>hash2</key>
 			<data>
 			dmPjHZqaQRzgajAP5fhUox4MEtP+BWYRygcKWqd9K20=
@@ -184,10 +148,6 @@
 		</dict>
 		<key>Headers/TradPlusAdMobSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X3by9y9+hCy8VO2UN5VBRZDIUPk=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZHxkO39lI/txbAwz6PaDTs3ptgza33i11Cothv6iQS8=
@@ -195,10 +155,6 @@
 		</dict>
 		<key>Headers/TradPlusGAMBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6arwmYpJGJvhwSumc1xdihzBH+I=
-			</data>
 			<key>hash2</key>
 			<data>
 			Rmy0eY6BdJk8ZH6wgklIvf5Mx3b9fNtDpL9x9Z3Y73M=
@@ -206,10 +162,6 @@
 		</dict>
 		<key>Headers/TradPlusGAMInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8dMDs4nxrfWm/9vN3nv3KzSqUxk=
-			</data>
 			<key>hash2</key>
 			<data>
 			EmiXUFXyG62l6mGuKR7jQ83nRH0eOjCOWRRNzRp1eKk=
@@ -217,10 +169,6 @@
 		</dict>
 		<key>Headers/TradPlusGAMNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oLOXbmbMJHzc7OC1MOoMvqrEY7I=
-			</data>
 			<key>hash2</key>
 			<data>
 			v0JkxQxQDWk3ctwF3ARR9fCXonyBGOG9JMv+A0Kjb4U=
@@ -228,10 +176,6 @@
 		</dict>
 		<key>Headers/TradPlusGAMRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pICcgcpDL4vTGBjM0ShITI250Bc=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZH52ghX++QMeztzpTH+KPtlzn7kj8Em7uo2vlkBjvNU=
@@ -239,10 +183,6 @@
 		</dict>
 		<key>Headers/TradPlusGAMSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IRUcRmMnTFk9tqQFL7avHVZFZhQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			72XqBwjOomEnVnzTMMveN13NGErUDSCgDhVVW8nV1Jw=
@@ -250,10 +190,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RFjlR5CDNP8aL//YLa2xtfuY/hQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			2KsTtF1wRBYUYMRCXi81UyEsRbj6QeKPY4/PLqm1TVM=
@@ -261,21 +197,13 @@
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/oP53x4IgAuxRD9Tk1aSeNq6yyI=
-			</data>
 			<key>hash2</key>
 			<data>
-			9iem6ApL8qsVF+w7ZiiUS+rL2zsCP934KfoHv1n6pYg=
+			XCZcws9beyI2yY0lzq6+eWZ9WH9vm0UCkaV8xn2Q7ko=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			k9OFlDPBRWfteJ+bfG12WAoBuls=
-			</data>
 			<key>hash2</key>
 			<data>
 			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=

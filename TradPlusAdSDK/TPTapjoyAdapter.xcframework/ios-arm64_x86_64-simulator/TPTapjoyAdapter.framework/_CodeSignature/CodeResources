@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPTapjoyAdapterBaseInfo.h</key>
 		<data>
-		kO4mUL2r7jRqqadzPq8mqZ3zK3Y=
+		BLIFccWxMBcOcTu0GbqGVITUEzc=
 		</data>
 		<key>Headers/TradPlusTapjoyInterstitialAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TQ4hVb1sXTdRVn9EsC4blkZetjk=
+		ojUbucjKy7YN7W4Opy9HTOBXUzA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,10 +41,6 @@
 	<dict>
 		<key>Headers/TPTapjoyAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vsy/kZijcSKptdnC5ze2xksKlfU=
-			</data>
 			<key>hash2</key>
 			<data>
 			1CJC1D7XdOvb8Fsp5p7swtmFEXzEBgrLjNfRztjFkxo=
@@ -52,21 +48,13 @@
 		</dict>
 		<key>Headers/TPTapjoyAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kO4mUL2r7jRqqadzPq8mqZ3zK3Y=
-			</data>
 			<key>hash2</key>
 			<data>
-			LMGESz+t9mj4fO3bcJC4r5L/3IAC87ga1RWjzLvXaL0=
+			vE5SYeDOLTapzYgcdLEKoYT6N8Gbpl2lqtVQHOWW7js=
 			</data>
 		</dict>
 		<key>Headers/TradPlusTapjoyInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wgEvD5dA+eg7FwG1GOL158PqumU=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZScgnt/y3cOIanRJzB6yyvbvSzXysEtkU392YDCDm30=
@@ -74,10 +62,6 @@
 		</dict>
 		<key>Headers/TradPlusTapjoyOfferwallAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PKReJYO8l1oGkh9xTu68nhQ6ROY=
-			</data>
 			<key>hash2</key>
 			<data>
 			vujNXSoLdJMAdADIInr/AiMIUBmyuzTJjuXNVng4m0M=
@@ -85,10 +69,6 @@
 		</dict>
 		<key>Headers/TradPlusTapjoyRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0yM0MNhXuaKp4Nyf7eahVJZy1qo=
-			</data>
 			<key>hash2</key>
 			<data>
 			BL38y7M2D4a/pj3Z4hJ+jM9dDJT6LijMVkWPGnZvmII=
@@ -96,10 +76,6 @@
 		</dict>
 		<key>Headers/TradPlusTapjoySDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			quu2f4E531hPGUY1mwnkhJs8ktA=
-			</data>
 			<key>hash2</key>
 			<data>
 			Z/fdBEkBCdCX4QeeS23k3nOljac+8XuOcE7DAFd9qwE=
@@ -107,10 +83,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LP8O928TqnWpkyRjn8ec3Jgdznk=
-			</data>
 			<key>hash2</key>
 			<data>
 			fho+XlPnSQSRKW4KF2nVi31L3IBYeehsJq8u5N5TF/M=

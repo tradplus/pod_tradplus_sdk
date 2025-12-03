@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPOguryAdapterBaseInfo.h</key>
 		<data>
-		Us9yRm+MheXvD5Ij43WmOdp2YjI=
+		NzcOGu25w/qkd+nhR07q91t6nbM=
 		</data>
 		<key>Headers/TradPlusOguryInterstitialAdapter.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xTtgEXtDZ0DbGSuRNYZajmqTze4=
+		rLxgxpt5RcqBbXApj9Znu3shQq0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -37,10 +37,6 @@
 	<dict>
 		<key>Headers/TPOguryAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cDP7h1qfTgIKoK5LXIlGIbPvknA=
-			</data>
 			<key>hash2</key>
 			<data>
 			vhbAPncSAdvZBRhlMYi80hnUYWbcnNtNTNjOCC9o1N8=
@@ -48,21 +44,13 @@
 		</dict>
 		<key>Headers/TPOguryAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Us9yRm+MheXvD5Ij43WmOdp2YjI=
-			</data>
 			<key>hash2</key>
 			<data>
-			af9oGFhFfMNJSRsc000T5cfE7jEB1iQSh8Jjk8hG0RY=
+			L3xXBCM2PzxARRcQA6ucHDU2kq4AXuEIFBvPa6gP7XY=
 			</data>
 		</dict>
 		<key>Headers/TradPlusOguryInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FYN5CALhyhkBdymO9OScJh1C6uI=
-			</data>
 			<key>hash2</key>
 			<data>
 			jc6JLYxak6SU2ELQHipTavstZkqDbYxit+7XMyoBGy0=
@@ -70,10 +58,6 @@
 		</dict>
 		<key>Headers/TradPlusOguryRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/gJEtTD/gX9+jjSU9FffxuHq/rA=
-			</data>
 			<key>hash2</key>
 			<data>
 			Uk9OePpTQCoIknJY12H+yrNPw6fClU+eKkcRR7fvzZw=
@@ -81,10 +65,6 @@
 		</dict>
 		<key>Headers/TradPlusOgurySDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nrGXgQvESFb/9K1q3yRE75+coSo=
-			</data>
 			<key>hash2</key>
 			<data>
 			mDtnQ89D5KNySZg1gBoHhf3XhstXyOgk3cOKVCnVKDM=
@@ -92,10 +72,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			d4nmnD5YZf6oNY3X5wX2LD43A00=
-			</data>
 			<key>hash2</key>
 			<data>
 			cHHXqQpkWFWDV7UaHwgWpNeop0rDsr8ukdgZtkq2miE=

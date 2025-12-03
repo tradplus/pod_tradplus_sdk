@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPKidozAdapterBaseInfo.h</key>
 		<data>
-		XqeaedZ9cptBbhsSsZrzAn/WArA=
+		n7lI3VKyKE5qt9/nHWCM20h3i80=
 		</data>
 		<key>Headers/TradPlusKidozBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ba7FzqDxjFAkSeEF6aXq2plkNkM=
+		6Wu/fan26Qi0e6h1Jr9hU94V2Sk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,10 +41,6 @@
 	<dict>
 		<key>Headers/TPKidozAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PGy5YCckxqRN+yxCJYxLMpzPM9Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			5K7mOJ8Wha4F8v5uNo1lPYwL2wur3tj4BaxyaTrEyAc=
@@ -52,21 +48,13 @@
 		</dict>
 		<key>Headers/TPKidozAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XqeaedZ9cptBbhsSsZrzAn/WArA=
-			</data>
 			<key>hash2</key>
 			<data>
-			UW1aPeC6H1ZjwvBSQaF0XHy8JhptNttQnE8JPvXelMQ=
+			+2O2D6YiURC1Fe9vFCvu3fYRuBjjeqz873gWdmeWzk4=
 			</data>
 		</dict>
 		<key>Headers/TradPlusKidozBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cBtbUrN6onPCD7cHmeRoIlQFQ2E=
-			</data>
 			<key>hash2</key>
 			<data>
 			3ZX/RqM8nfXFZrMfz+EosUUHlElP8+/5CVJZ1ZZg038=
@@ -74,10 +62,6 @@
 		</dict>
 		<key>Headers/TradPlusKidozInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vMi69yvpf4kUmgIFTWoV3FeRVhQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			TW0W7xwrMQkCe2dVHFDe7FIV+2k2+7hMKa+atlrY258=
@@ -85,10 +69,6 @@
 		</dict>
 		<key>Headers/TradPlusKidozRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			u7xndPR1TqcZYJ1NS88ICqbNW0Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			ea+xwMoaMkFzEsVXH7V5yqTMe9mTRH8Kegqc8iCacVM=
@@ -96,10 +76,6 @@
 		</dict>
 		<key>Headers/TradPlusKidozSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			K58PDptLaoezL2cZT6fKiz21HbM=
-			</data>
 			<key>hash2</key>
 			<data>
 			QP8W/fcEvXobMC40CnnyAw/vVlz1A77a+n3W2vsy3Uw=
@@ -107,10 +83,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bMHWkvzdETYMA9IAhbvaS/WVDKM=
-			</data>
 			<key>hash2</key>
 			<data>
 			59TWTQnhJCqfCpu7P/tf1jRqJI1WMNmDgTebVx48gAY=

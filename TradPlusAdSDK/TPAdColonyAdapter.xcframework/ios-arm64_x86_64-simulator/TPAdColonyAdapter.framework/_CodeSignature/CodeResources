@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPAdColonyAdapterBaseInfo.h</key>
 		<data>
-		rpKwKRmKpaN5Rrwgga2jtH5k5CA=
+		c7NZmKE4LvLnh0V98wrIFgikQlU=
 		</data>
 		<key>Headers/TradPlusAdColonyBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3p7Uz+awYhp2Ol4LZnhSmegCTqw=
+		AGcYW8AhXfekJ2ohOwHXCgptUlQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,10 +41,6 @@
 	<dict>
 		<key>Headers/TPAdColonyAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5Y0gXuw4xU8hV4f/4foEG62mA3g=
-			</data>
 			<key>hash2</key>
 			<data>
 			LkHLRr5kcLQ9aONNJ5CDrXCa55cdIDRbP4mVUiEVqcQ=
@@ -52,21 +48,13 @@
 		</dict>
 		<key>Headers/TPAdColonyAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rpKwKRmKpaN5Rrwgga2jtH5k5CA=
-			</data>
 			<key>hash2</key>
 			<data>
-			XR0lsZZSpnSgcazhuJONh9/HfteJzCJgu8Duo5XZUV8=
+			7cQFmuZht/sKngTb0ZRhaiHKYl7xSAcO8UKSoOuCHcs=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdColonyBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+wxp+qZftcQnkxFmdSC6FdVjk1I=
-			</data>
 			<key>hash2</key>
 			<data>
 			BWPeOG+RalVPDMlOC9eFtnFOWBJBq5CpwpQ+u5VADv0=
@@ -74,10 +62,6 @@
 		</dict>
 		<key>Headers/TradPlusAdColonyInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q/mscZUMTZ81VHYcmLKhWC9qoYM=
-			</data>
 			<key>hash2</key>
 			<data>
 			SKhBT+GG1xr4HnRPHvVax48PiPcdB6tCpFybQ3Ik82s=
@@ -85,10 +69,6 @@
 		</dict>
 		<key>Headers/TradPlusAdColonyRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VVMdA2ffWQ1oaoWeQvReYWQzKts=
-			</data>
 			<key>hash2</key>
 			<data>
 			fTWYnFcCcYFK60H2H3/5sCLNJBrTFi7JropiXZxAvgE=
@@ -96,10 +76,6 @@
 		</dict>
 		<key>Headers/TradPlusAdColonySDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mTlzDKSzirDHb8nZ+UaizNS0gk4=
-			</data>
 			<key>hash2</key>
 			<data>
 			qJh1jVlz8Iv9P51qYsYaJGUtNp+fCAxWpVZ+mgy8ZAQ=
@@ -107,10 +83,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZpjQ0veLv8PqvVAS2Q9ZvoJ6qDE=
-			</data>
 			<key>hash2</key>
 			<data>
 			ltj4kBRTsEUVqfD5NLh1DeeyzmnoWxH0AAos/KPLhb4=

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPTaurusXAdapterBaseInfo.h</key>
 		<data>
-		LSNV19TS5fVkHE4C2B3wb9sap1c=
+		n1kkTFzU0KccSJQo7pm5i86gWl4=
 		</data>
 		<key>Headers/TradPlusTaurusXBannerAdapter.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xEFkoRBzx41UJPGG+5YEOvyRUX0=
+		1lGsRxRa+mzj/bNFX1BnOdPL0Hg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -49,10 +49,6 @@
 	<dict>
 		<key>Headers/TPTaurusXAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MM161Hd9R78tQwPPfs2XsmHsX2E=
-			</data>
 			<key>hash2</key>
 			<data>
 			QaN3aUAycaV4eTL3UBoMleQKFdhLtHsKL/qqvkdb6B0=
@@ -60,21 +56,13 @@
 		</dict>
 		<key>Headers/TPTaurusXAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LSNV19TS5fVkHE4C2B3wb9sap1c=
-			</data>
 			<key>hash2</key>
 			<data>
-			gtz4ZDu2zOCBAGUIYVfBHx9LNr9p7LqHKYsDASqqxCY=
+			Yfs/SXLIGBpo/X3dCW63v8sDB0Qopyzk7AP0uatzj1o=
 			</data>
 		</dict>
 		<key>Headers/TradPlusTaurusXBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TqxbBVaU7eELWZDMIwsnhGTlMP0=
-			</data>
 			<key>hash2</key>
 			<data>
 			Vkjewsfu9IwXYDJt5UaeYwNiDh5S/C9qAGBdzT94tuo=
@@ -82,10 +70,6 @@
 		</dict>
 		<key>Headers/TradPlusTaurusXInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RroBBykqqkBxHFyyXCep+HmVtAE=
-			</data>
 			<key>hash2</key>
 			<data>
 			+TkLi0tA2n/kqcMvF4HpxXgJxs6vLM1xNiNAZvru64c=
@@ -93,10 +77,6 @@
 		</dict>
 		<key>Headers/TradPlusTaurusXLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2FEcfg5V8frA6qGGK0JyYN8II6Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			uwNdFA+2CkTKnqz9m3YQXEWw87d/hPY9Dcqvuix4m3U=
@@ -104,10 +84,6 @@
 		</dict>
 		<key>Headers/TradPlusTaurusXNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xaPeDGJ8v0zwChRfJP3vAG5ciBo=
-			</data>
 			<key>hash2</key>
 			<data>
 			wohP6qKpFc9kslca/EyI6FB9iLzj8RniKK0lwJMRW2k=
@@ -115,10 +91,6 @@
 		</dict>
 		<key>Headers/TradPlusTaurusXRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YXAan3L7PyzKpOTR0SfZ/Fh5CyA=
-			</data>
 			<key>hash2</key>
 			<data>
 			1sfgBXDvsKXevhliGwnhL9opbktRZl0fVS6AiwQKsN8=
@@ -126,10 +98,6 @@
 		</dict>
 		<key>Headers/TradPlusTaurusXSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wkVEoUXCl7C49iaDhBIg0U3dOJY=
-			</data>
 			<key>hash2</key>
 			<data>
 			9dABCxaytimrfYEo+945HfCc0qbrK9kitZKQZz5lbnI=
@@ -137,10 +105,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tBqkEFXzbVPivUREQGhcM3vdpF8=
-			</data>
 			<key>hash2</key>
 			<data>
 			g4S05PjaP9IhG19+ZbKJVxQ1KUy2RSUxk3HT9sJFvto=

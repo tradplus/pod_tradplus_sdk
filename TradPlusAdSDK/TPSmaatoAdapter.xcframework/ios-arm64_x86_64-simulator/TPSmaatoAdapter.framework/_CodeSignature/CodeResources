@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPSmaatoAdapterBaseInfo.h</key>
 		<data>
-		lVtl/cjDtAaSfPe+m9JCba7f0DA=
+		rPD5K1/x4w4X7cP+KVAhGr1liVg=
 		</data>
 		<key>Headers/TradPlusSmaatoBannerAdapter.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Bd11QNkEOtNVm/bh2c8MOtXrN+s=
+		Yr86QSG3UjFTQSzNj3OkJaqKK6Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>SmaatoResources.bundle/Info.plist</key>
 		<data>
-		DlWv5KTY8rCKoczLymoi0lZutmA=
+		Z603QgtkO2ct165gqSJko04koqk=
 		</data>
 		<key>SmaatoResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -53,10 +53,6 @@
 	<dict>
 		<key>Headers/TPSmaatoAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6IIcI0Gqdo3tp1S7Z/jjJR6Tkf8=
-			</data>
 			<key>hash2</key>
 			<data>
 			lhXaN/xg3wAdxZnMFrOJMTRrJjcyoLrgpQegA/3jolI=
@@ -64,21 +60,13 @@
 		</dict>
 		<key>Headers/TPSmaatoAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lVtl/cjDtAaSfPe+m9JCba7f0DA=
-			</data>
 			<key>hash2</key>
 			<data>
-			wPjysTZLM8IGh0daMzjNjN1cML/KKOYM1nelbM9B2Zs=
+			lKe/GCAwRwp5hmBvCWhMTJjv9AXDmj+mR0fzHK8NX9w=
 			</data>
 		</dict>
 		<key>Headers/TradPlusSmaatoBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xqBxCWGboa+o3PaYWxm/EyR2MHc=
-			</data>
 			<key>hash2</key>
 			<data>
 			sSniDfVJ22PHzMyP65nRbIPKOUBczQr7T1MeOmKU5B8=
@@ -86,10 +74,6 @@
 		</dict>
 		<key>Headers/TradPlusSmaatoInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uo5Mr/FEwmuz/UalBYaJYYN+rEQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5GwUarocOFnYUHZIE4K3S1wrkYYtoRA/UGg3kWe2TnY=
@@ -97,10 +81,6 @@
 		</dict>
 		<key>Headers/TradPlusSmaatoNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/Lt0/KuZcjPRGypEM/hA/kHmpxM=
-			</data>
 			<key>hash2</key>
 			<data>
 			4lCKKtLiMbMpBFLCPjyAQ2USrKF0Lz6/XLJCwJLAp1w=
@@ -108,10 +88,6 @@
 		</dict>
 		<key>Headers/TradPlusSmaatoRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FwFdRMi51HpHFNCRrKvI6xO0rIY=
-			</data>
 			<key>hash2</key>
 			<data>
 			dWay87K2YLMYRuSRjfOu+jA5ueKqRG/frZPEvXHRUu0=
@@ -119,10 +95,6 @@
 		</dict>
 		<key>Headers/TradPlusSmaatoSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MBJ17PvVE+Ghh4pdLZZM+Il8sBc=
-			</data>
 			<key>hash2</key>
 			<data>
 			fUgKMVA0v94/4r5Jcbde6TazD+dc+Yr5e8r27Fr50BA=
@@ -130,10 +102,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HsHjTzEC/ofQQsxuKs4SDIJT8Ro=
-			</data>
 			<key>hash2</key>
 			<data>
 			/Ncb6HDReZ/LCUnuZo/TR1ff++WFHwLY/2LELPBmX58=
@@ -141,21 +109,13 @@
 		</dict>
 		<key>SmaatoResources.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DlWv5KTY8rCKoczLymoi0lZutmA=
-			</data>
 			<key>hash2</key>
 			<data>
-			MZJFgM2qufwwJAVz1t6jS4rNdUmspqNVR1DIHWCQoNA=
+			8ftCwX7GCaYys2Ee4+tdImhiJO5UFFJhL+Gv5orveW4=
 			</data>
 		</dict>
 		<key>SmaatoResources.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r5UqF5o3Vlr8VnW7q5olP0r6OjM=
-			</data>
 			<key>hash2</key>
 			<data>
 			MIKgh9x37fXYk7Ew6V8ET/9TgUNd4TL/yCYW/hDbLhc=

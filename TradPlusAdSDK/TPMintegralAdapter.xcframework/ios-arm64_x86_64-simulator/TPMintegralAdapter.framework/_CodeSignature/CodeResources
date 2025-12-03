@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPMintegralAdapterBaseInfo.h</key>
 		<data>
-		HkbQ8RpvBO2pFVDiiTUOjq5FBOg=
+		ga6LAJyaZ7IHtcqH4AdpO52ZeKs=
 		</data>
 		<key>Headers/TradPlusMintegralAdapter.h</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iK00y98Qo8LZVCKe6By0kipEWbU=
+		wh/Rz65bT5QoZ+XifyTOKaTwC8c=
 		</data>
 		<key>MTGSDK.bundle/Info.plist</key>
 		<data>
-		RQaIpdkncHjcyO+B04C4/b06Prc=
+		chqc36OdX1GvNTQqq71K/908/oE=
 		</data>
 		<key>MTGSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -61,10 +61,6 @@
 	<dict>
 		<key>Headers/TPMintegralAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xS9bXA18huml3bLKJOz0iXoU+ZQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			u7UYuZzY5B3kwDk4x+Fu/StZyxrGq6IQyKGKXFn/m6Y=
@@ -72,21 +68,13 @@
 		</dict>
 		<key>Headers/TPMintegralAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HkbQ8RpvBO2pFVDiiTUOjq5FBOg=
-			</data>
 			<key>hash2</key>
 			<data>
-			/C2mL1LC0xkTCfrEhX2tIikscg96MdXrLT49Pgo12YM=
+			fA9RuxEIJX+w44laiLUSnFelzz6jt6Mcma38LKEzLZA=
 			</data>
 		</dict>
 		<key>Headers/TradPlusMintegralAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OHqjZ507oRp3Q5Lh85If5NNW3Ks=
-			</data>
 			<key>hash2</key>
 			<data>
 			9msrJxYn0UZ8OTdTSyuI2gKWT1FFY1jO0r3t1p53OSU=
@@ -94,10 +82,6 @@
 		</dict>
 		<key>Headers/TradPlusMintegralBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gdy42VzqVzOnIa07dRaoMc0IGCM=
-			</data>
 			<key>hash2</key>
 			<data>
 			sHvBAbLTE3fuk2idWDJUykdpzwRxN+ftTSChaOtDP80=
@@ -105,10 +89,6 @@
 		</dict>
 		<key>Headers/TradPlusMintegralInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QMj2so8TYaZo4ILjRY48m/o0HRE=
-			</data>
 			<key>hash2</key>
 			<data>
 			PS9Nn1z/VbOo34gkU+JdknryHsrOmkXViBHbOxWcWkg=
@@ -116,10 +96,6 @@
 		</dict>
 		<key>Headers/TradPlusMintegralNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3cgE77C3xbg9myN5nVqYKyaUHc8=
-			</data>
 			<key>hash2</key>
 			<data>
 			n7lMHOlNpFOUTkUyXo5av/QODXiVWdeHeRXUmU3wppk=
@@ -127,10 +103,6 @@
 		</dict>
 		<key>Headers/TradPlusMintegralRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CpyAqAChaKh/Jc4P6Hxg5bmB4zA=
-			</data>
 			<key>hash2</key>
 			<data>
 			PTBty3ikZ/Mi/QEM96Eqe7bIJ3CyF6ZW4A9Oo4pnSlo=
@@ -138,10 +110,6 @@
 		</dict>
 		<key>Headers/TradPlusMintegralSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Wxz75xzHIuFAvrOxBXwWlNMDFBU=
-			</data>
 			<key>hash2</key>
 			<data>
 			GJyAtIGyQeWMo8IDMIoxIIkkq7cWum1mcFE0J5nXDR4=
@@ -149,10 +117,6 @@
 		</dict>
 		<key>Headers/TradPlusMintegralSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			f5725qD2vaJfvZ7Rk2aVTthNAxk=
-			</data>
 			<key>hash2</key>
 			<data>
 			0GLZehMFHnOOq0qrcJGwEQbK4mDJPFbxda/AJFauFoU=
@@ -160,21 +124,13 @@
 		</dict>
 		<key>MTGSDK.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RQaIpdkncHjcyO+B04C4/b06Prc=
-			</data>
 			<key>hash2</key>
 			<data>
-			m/inOI7xPXO3MJ1FUHLoQK3zTNvBNJTV5tSWX3g9PCw=
+			ZIdTy/qplxTtm0ZIV+I63CLWauMD3aPdSPKWwusD5RU=
 			</data>
 		</dict>
 		<key>MTGSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7pb/tiRb/KGE5KXo5P2+XBbJDLs=
-			</data>
 			<key>hash2</key>
 			<data>
 			NBdLMoqFX7Ov/mII2GrezPd6ClAP70i6z2JRWl/xxEg=
@@ -182,10 +138,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hnEKvYhVX89C2oEcQHuYrFNWgkk=
-			</data>
 			<key>hash2</key>
 			<data>
 			9Er6969sqmaF8e39FpKskpU6zqr8EH+VprW19JuFl80=

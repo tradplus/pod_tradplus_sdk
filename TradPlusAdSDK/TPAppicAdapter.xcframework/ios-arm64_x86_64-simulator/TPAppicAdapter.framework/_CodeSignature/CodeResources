@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPAppicAdapterBaseInfo.h</key>
 		<data>
-		SYUl4mBmiW44H/HJT3QJMr2AIy0=
+		Xm00lwh19e+zqfS7XlbC4aB3eSE=
 		</data>
 		<key>Headers/TradPlusAppicNativeAdapter.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EMIbcXHDzalowx0OjTmXuHG5yGQ=
+		Tt2KQotictVbg9RXgguDOe0D3/w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -37,10 +37,6 @@
 	<dict>
 		<key>Headers/TPAppicAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ADsG75hV4WYoJeXo1O831uRMSTI=
-			</data>
 			<key>hash2</key>
 			<data>
 			clSd8Bsh83QAS3FPpYlXs2FTCICKNfDI+p5WIsD6o9A=
@@ -48,21 +44,13 @@
 		</dict>
 		<key>Headers/TPAppicAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SYUl4mBmiW44H/HJT3QJMr2AIy0=
-			</data>
 			<key>hash2</key>
 			<data>
-			Syoo9GdY6j19Uyyg3U4XLBQdbWC5+NWVEXUujIivViA=
+			78ucF+f5kdBDNhDMQCA4QrZaU/OkzEKMtDhEIFb6rq0=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAppicNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wIEj6gzuRBeElI0LiWQCZufl9co=
-			</data>
 			<key>hash2</key>
 			<data>
 			fVjbjDbWxprS5K97JDwHgQWm81Ki3NjQj8NJGpRel4A=
@@ -70,10 +58,6 @@
 		</dict>
 		<key>Headers/TradPlusAppicSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eE/allykRBa5mVRIGRSMd6yzfdc=
-			</data>
 			<key>hash2</key>
 			<data>
 			gyHCRJt1LhV/EtVCOdoCiKeRIuPlRddh2wZErevaaXc=
@@ -81,10 +65,6 @@
 		</dict>
 		<key>Headers/TradPlusAppicSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J5FYHSVrCOIjrNfA5lVg7ukjUHU=
-			</data>
 			<key>hash2</key>
 			<data>
 			Mzh3DF9J+JdAwqrLwiOJh2WZqyUO5p3vZ63V8Z+bPi0=
@@ -92,10 +72,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GHinn+L0U3LKS4ch0TWab6V1qxU=
-			</data>
 			<key>hash2</key>
 			<data>
 			8uX3zL9/N58PGdpTF1Z/NeAfKv+NJk9oLO4xkcKDKNI=

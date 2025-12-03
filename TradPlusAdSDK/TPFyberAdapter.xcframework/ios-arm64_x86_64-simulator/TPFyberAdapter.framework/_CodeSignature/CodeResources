@@ -6,7 +6,7 @@
 	<dict>
 		<key>Fyber_Marketplace_SDK.bundle/Info.plist</key>
 		<data>
-		V9Av2CacWLQozBaSWd77+kLCwDc=
+		JizYfUSgEs2Mg5jUTz82hke4zGQ=
 		</data>
 		<key>Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPFyberAdapterBaseInfo.h</key>
 		<data>
-		rjDVe7eKV91YG+P6fsOO4lY9NLs=
+		oiZ2Zmjd5Fxt95YOvAVL1+T27i0=
 		</data>
 		<key>Headers/TradPlusFyberBannerAdapter.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bxed2gZ45j+0ez2xl/TsFzsSVrU=
+		6AerCPqSKMgq+A9uAt1xrlA+GPQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -49,21 +49,13 @@
 	<dict>
 		<key>Fyber_Marketplace_SDK.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V9Av2CacWLQozBaSWd77+kLCwDc=
-			</data>
 			<key>hash2</key>
 			<data>
-			rMorX+KdbkhV40kDbVelquY9NGQgSQzHjLW3m8ezHeo=
+			EFuL1Tqkzy58bVZ782J3YBvp8pjd3HI2R4cPH7BqIDk=
 			</data>
 		</dict>
 		<key>Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wQj/VbiBnny3b63k0acjA2qnfNs=
-			</data>
 			<key>hash2</key>
 			<data>
 			dDIi4xb1Sm+j5OK6zfnCY49nltBpkaMQSrbcnLj/KfY=
@@ -71,10 +63,6 @@
 		</dict>
 		<key>Headers/TPFyberAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BLaYwjgeKgJJBwKTFIeHA23ZtDE=
-			</data>
 			<key>hash2</key>
 			<data>
 			5nFLCesVBDbliji5vKI3+1uH+h73prnW12Pp8h6Q1ok=
@@ -82,21 +70,13 @@
 		</dict>
 		<key>Headers/TPFyberAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rjDVe7eKV91YG+P6fsOO4lY9NLs=
-			</data>
 			<key>hash2</key>
 			<data>
-			4yIuqceHcx2FApkGrsBYD+98T5Ycj42sK4IS94HdWzY=
+			cfvmIZGgvQ0obUpDZYnKfcH7wNbRn87sjDmLWlJfjQU=
 			</data>
 		</dict>
 		<key>Headers/TradPlusFyberBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YsBnuAPUypgDll3vyZM1ntLrgOc=
-			</data>
 			<key>hash2</key>
 			<data>
 			tKPW34qtVkRW7cB8Ei3ERvGv/Gm7hJqmMLwmBlvymgE=
@@ -104,10 +84,6 @@
 		</dict>
 		<key>Headers/TradPlusFyberInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RXq9t4rIzyFh78Fa8FPHUXG7kFE=
-			</data>
 			<key>hash2</key>
 			<data>
 			oe5c8BYXLgrUecaDFXGXaxeRmlr6AalAhXUgPTu1kdo=
@@ -115,10 +91,6 @@
 		</dict>
 		<key>Headers/TradPlusFyberRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ciIEJmfx6n1PX+brb1ItX7i1quQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			hQ+9Qnn2K/l+O2lSoFKZvbjkY29RK9bSXE3ILxilH8w=
@@ -126,10 +98,6 @@
 		</dict>
 		<key>Headers/TradPlusFyberSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6jqVDQ2rtGt8tZs6/nJ25P5jSx0=
-			</data>
 			<key>hash2</key>
 			<data>
 			AN8JR3RRnbEwijtAuP4k0xJduZJFB1CpAMg33r/4rck=
@@ -137,10 +105,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3mEfy3L3XejoES6W/nKbyDcHxc4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Sa+lGzuNiezxGl2UzfIievgPP/UR4bN1kf6GwIKiXSk=

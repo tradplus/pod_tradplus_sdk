@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPAppLovinAdapterBaseInfo.h</key>
 		<data>
-		th0N41U4ga0osOy4ipJc7tIGJCU=
+		lKLe6Qq+Q60b+HGcUgtZLn+56JY=
 		</data>
 		<key>Headers/TradPlusAppLovinBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		chUAS9InGAya7ihsRJSh8G9GPes=
+		PyngKhwx8/2d+yPZhy2OxO94zPA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,10 +41,6 @@
 	<dict>
 		<key>Headers/TPAppLovinAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			72QdRMR8rcUEBcxfGx+F/EJi/LU=
-			</data>
 			<key>hash2</key>
 			<data>
 			eeDRlV1WOemb4uUCHrHRp6qKFhtNVEqDZ8bXAilDrpQ=
@@ -52,21 +48,13 @@
 		</dict>
 		<key>Headers/TPAppLovinAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			th0N41U4ga0osOy4ipJc7tIGJCU=
-			</data>
 			<key>hash2</key>
 			<data>
-			VRgH/VEdyvnADdXsh0IN21qy/WIOaekzhSasWg+1fdU=
+			AxETcQMFcUd9wkJwKwMas+LUq+wzkx22uVGiEkr8TAw=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAppLovinBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9tJuVDv/ttuqvurd2smtR0uuG9s=
-			</data>
 			<key>hash2</key>
 			<data>
 			huztPoXBrAchpV9HI4qVKB0kCcR3rNuEKBE6CLgC2L4=
@@ -74,10 +62,6 @@
 		</dict>
 		<key>Headers/TradPlusAppLovinInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ND0hFmoN4YxivqqGzYdqUm22c6k=
-			</data>
 			<key>hash2</key>
 			<data>
 			19Da+6X0g5achvLnoyKII5+6hAqzLYd1saUHdQtAALs=
@@ -85,10 +69,6 @@
 		</dict>
 		<key>Headers/TradPlusAppLovinRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YVZwebDdT9CIptsqRFkzQcl7BZI=
-			</data>
 			<key>hash2</key>
 			<data>
 			g8vcFZarWCwwTg5y9bAuk+0jsAJU57w38W3PIq/kQLI=
@@ -96,10 +76,6 @@
 		</dict>
 		<key>Headers/TradPlusAppLovinSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gMCNDFQYPuKL/KLuYk3VQB8kop4=
-			</data>
 			<key>hash2</key>
 			<data>
 			w6q5bLUJgxGUqS4PBQ4albxsXwuh1BKbMxiObjplD8Q=
@@ -107,10 +83,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qkKVPojp3+9Dgg8QuvKHGd2EiRo=
-			</data>
 			<key>hash2</key>
 			<data>
 			9bcTb6/8JjWUw0I5uJFTkhlbaOSdg/7FTQghKCkTLeA=

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPMaioAdapterBaseInfo.h</key>
 		<data>
-		C566ksAjNxAzLwC8yggzUECxEpA=
+		08bVMmyfg7LRhZjBqty0WWN9i+c=
 		</data>
 		<key>Headers/TradPlusMaioInterstitialAdapter.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gt434Pv7KxWeg57WrmGUfV+hpIw=
+		6rc6sBbd+errcY+8nDofExUNUKs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -37,10 +37,6 @@
 	<dict>
 		<key>Headers/TPMaioAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			o6KoNc5yPJ9vMGhkuWV3tvbgsuA=
-			</data>
 			<key>hash2</key>
 			<data>
 			fO1G08FXct4nZF3aQtcEV4ayDfHe5Wy/SruYpRAMNnQ=
@@ -48,21 +44,13 @@
 		</dict>
 		<key>Headers/TPMaioAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			C566ksAjNxAzLwC8yggzUECxEpA=
-			</data>
 			<key>hash2</key>
 			<data>
-			ph21EyE1hTtPT9yvIjMqJrGLKypB2FQagCapcsbZ1i4=
+			lGb+QBzzLk4Q9Q2emM9yogjDtGw0/xMB0R2yFAKqb4A=
 			</data>
 		</dict>
 		<key>Headers/TradPlusMaioInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zQXCIMrBnEGgR2WnSryY00UPhss=
-			</data>
 			<key>hash2</key>
 			<data>
 			7SvZ/KalE4P9OChbOc9u6jAXlL2jJ4Zpnd6LfWZZvtA=
@@ -70,10 +58,6 @@
 		</dict>
 		<key>Headers/TradPlusMaioRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lkKczAziEPvFzQNSY+a55Qkk52A=
-			</data>
 			<key>hash2</key>
 			<data>
 			NV298GJkDpUyzjaLQLKLy1zr50L0pFZGwxUzafdhPnU=
@@ -81,10 +65,6 @@
 		</dict>
 		<key>Headers/TradPlusMaioSDKSetting.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Szub3ltZaCCkHUtQt1waPFS/ZKY=
-			</data>
 			<key>hash2</key>
 			<data>
 			XXVWTcI9CLAgUdjNC9njf9gNxdDUtl/ils21FXgpQ3U=
@@ -92,10 +72,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qEqZVe1LGwj8SPQ7Py4cHuIUPV0=
-			</data>
 			<key>hash2</key>
 			<data>
 			nsbIHokce7xjPxkL7tCj+5/HmoQQA/z0RB7RG7Jc57w=

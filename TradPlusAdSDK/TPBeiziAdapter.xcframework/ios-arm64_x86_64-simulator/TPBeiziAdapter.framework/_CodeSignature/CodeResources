@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPBeiziAdapterBaseInfo.h</key>
 		<data>
-		xkEX7JvC88pTR5b1mVscHX8607o=
+		uD6gUm+nCVgB6VJuUlLxyRnhjBc=
 		</data>
 		<key>Headers/TradPlusBeiziNativeAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FYmCraEMx4K7basCjIJJO6WVp/8=
+		aaRITImb9r6+l/b+TE5uYovhs/w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,10 +41,6 @@
 	<dict>
 		<key>Headers/TPBeiziAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			g0+3KagXdmIKCJOuyHws18mTmgk=
-			</data>
 			<key>hash2</key>
 			<data>
 			1hay1v489M8j2GkyRE7HkF6BNkY071xHa7MwE2esHd0=
@@ -52,21 +48,13 @@
 		</dict>
 		<key>Headers/TPBeiziAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xkEX7JvC88pTR5b1mVscHX8607o=
-			</data>
 			<key>hash2</key>
 			<data>
-			KeNsjl8DIoTQLr7sNa4wxaQxHHVFpdGsIIxoQkpglB8=
+			7ACnFqOwL8DnuKnn1ElZi3gbxVghKMAoVAPd3pldgMc=
 			</data>
 		</dict>
 		<key>Headers/TradPlusBeiziNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DiB/w3/FzWIMmjyWthpJJIAvEf8=
-			</data>
 			<key>hash2</key>
 			<data>
 			nQ3qaE0VxA3z3ZYr2M/+gZAWhnQ89CptU5eDfnQiAG4=
@@ -74,10 +62,6 @@
 		</dict>
 		<key>Headers/TradPlusBeiziRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t5G7iI3fEoFsvD1kANesctk8zLI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ao/IvxaxoHp9O+G5Vh7TcDrCMZqpGhk2yXbkdm157i8=
@@ -85,10 +69,6 @@
 		</dict>
 		<key>Headers/TradPlusBeiziSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D08oDq8pgSTTFNe/Y2A5Wvl84mY=
-			</data>
 			<key>hash2</key>
 			<data>
 			BlWf9a6ySQaNJMIJBzEzQAm0PG6HOpJhSEC+vK4TtFA=
@@ -96,10 +76,6 @@
 		</dict>
 		<key>Headers/TradPlusBeiziSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/uCOHFDYZI3QKCG1w8XvzpkRXmk=
-			</data>
 			<key>hash2</key>
 			<data>
 			kM9lBjj/Bqk5OxM3GCyfqHBdgkY5RPc1ZsUtq7k3xYA=
@@ -107,10 +83,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UDtWdYtU7rzDHz+gRtiwrcmtVJ0=
-			</data>
 			<key>hash2</key>
 			<data>
 			krGKGRjCc9+fwvWl87TKUTeGO2kpdL2rRrS63Vh3wLQ=

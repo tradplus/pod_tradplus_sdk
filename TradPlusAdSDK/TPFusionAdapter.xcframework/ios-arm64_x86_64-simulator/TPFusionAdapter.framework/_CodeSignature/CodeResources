@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPFusionAdapterBaseInfo.h</key>
 		<data>
-		QYZY3+ka22JaPLDoLrnxvd+5ex0=
+		zeSFYOSqvVcTODU5ttqi/DQU8Oo=
 		</data>
 		<key>Headers/TradPlusFusionNativeAdapter.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IMlFDQgs3wP2kDGvNuBbM83qHCo=
+		Y0qel1rylPv3Rys6D5Ow50g9jIA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -37,10 +37,6 @@
 	<dict>
 		<key>Headers/TPFusionAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cOYsYB47I+Q5nszyQpC7iw6c69U=
-			</data>
 			<key>hash2</key>
 			<data>
 			1JhKWVgQsvqIo9XuFzdPqIqrztgFyYa2EO4Z35yJDxM=
@@ -48,21 +44,13 @@
 		</dict>
 		<key>Headers/TPFusionAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QYZY3+ka22JaPLDoLrnxvd+5ex0=
-			</data>
 			<key>hash2</key>
 			<data>
-			86hVwq5XB+beQFQdOyKCsemgaihx+VPhsweK827W2Yk=
+			6UnlVyyWoesrDTPUEoH3zL9V2pdTPjgbLBrjVazscSQ=
 			</data>
 		</dict>
 		<key>Headers/TradPlusFusionNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aY7B4FFqt4p1NJzA4T19miYgu2M=
-			</data>
 			<key>hash2</key>
 			<data>
 			bUTyw1byrBpeMRsQRn1dhYxQ37qFs0IbWXA3IUQayKk=
@@ -70,10 +58,6 @@
 		</dict>
 		<key>Headers/TradPlusFusionSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pX8LWpPcBl2upFu67R1X3tgwOik=
-			</data>
 			<key>hash2</key>
 			<data>
 			WPJRbm0mXaO9pvcHidAg8tX6+MzGBng8YYQhilA8tzI=
@@ -81,10 +65,6 @@
 		</dict>
 		<key>Headers/TradPlusFusionSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hmSUjXJ7A0g6LGklgSsc7C5lsYQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			zfw5WNEfMkwLPxqMXIJXqLPeOnOlt4pLvIQuxE0Yn9w=
@@ -92,10 +72,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			F8lHzmw0dA/FaMyfYDIgA+FFfqY=
-			</data>
 			<key>hash2</key>
 			<data>
 			772QQiN/HzipPnkNkwItyi9vFUkx36YpqkEMSOjpn5s=

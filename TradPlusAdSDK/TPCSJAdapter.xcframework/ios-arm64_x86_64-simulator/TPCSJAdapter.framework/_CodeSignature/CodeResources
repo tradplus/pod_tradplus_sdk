@@ -6,7 +6,7 @@
 	<dict>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		PD99X5prtLgFl0QiZSlKlsYVXrM=
+		KfKb49BIsYdnJn4clnWrlTYd+c0=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -389,7 +389,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		5lj4r6Fr7S/WMaWfB9k9jgAWRgE=
+		uGgg6QYfWPlOEw8JKUnyuXRdDCs=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -415,7 +415,7 @@
 		</data>
 		<key>Headers/TPCSJAdapterBaseInfo.h</key>
 		<data>
-		stAZ07a+J2lC4Dy6LloIweNrufw=
+		1bqEZgI4/p+nN6kirtu1knHYgTM=
 		</data>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
 		<data>
@@ -447,7 +447,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6nEVHx/eIoeR8XapuXCUIzl7LeM=
+		HLHs1pFt0vnBszPHk0XJKFlOmDo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -458,21 +458,13 @@
 	<dict>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PD99X5prtLgFl0QiZSlKlsYVXrM=
-			</data>
 			<key>hash2</key>
 			<data>
-			2j6tDR/v34iZl8c21tbS2NQDIGAvgc3FC466ob45Mwc=
+			lhOIgLpYdt8bWSeQEIoGkr1hhkBcY+5oNuBNUo1D0Do=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pF8xPi7zKrkGfKREIbmLqqcljXY=
-			</data>
 			<key>hash2</key>
 			<data>
 			CcdRIt+oSc1hEIoyNFaIWG9ecqnR+PbJDz9skN0ZDLw=
@@ -480,10 +472,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/backup_ugen_dsl_1473.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Iq7KKkRrauXVz97PTSmPg56XEzg=
-			</data>
 			<key>hash2</key>
 			<data>
 			a18PiRqLt47GtlfjVYzdW03TTBw27bNoS+BklMTav0s=
@@ -491,10 +479,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/backup_ugen_dsl_1487.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V2c02o19Ww1JcT164TMQcN11Vh0=
-			</data>
 			<key>hash2</key>
 			<data>
 			qORtfeGJutrG/AQ5ir80bIH7Sa4zJ6Lo/EheB4oMVyI=
@@ -502,10 +486,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/backup_ugen_dsl_1489.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cgXS34MrgeV/aws3/BcZLq2+Jbc=
-			</data>
 			<key>hash2</key>
 			<data>
 			fHna5NvfvY4F3+ijfejDa2R25hG5yOMa2cnVlgZpVJU=
@@ -513,10 +493,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/backup_ugen_dsl_5867.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PPtdWOvz2oXbnCm55TBoOTGjOAg=
-			</data>
 			<key>hash2</key>
 			<data>
 			iJMpdud0Kjn76BpiHisC98eLRGBhJ1IlY5+IIsxdmoI=
@@ -524,10 +500,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/backup_ugen_dsl_7563.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DKCJpEhHGAaEr7YO4zB2eOzW38s=
-			</data>
 			<key>hash2</key>
 			<data>
 			TcxqQEgVk+ZH4EksXwzxO+nW7vTs1mWKCxluCf35wQ4=
@@ -535,10 +507,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_adStar.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WBQGB3BGG16q25wBVOBD2YBU22Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			GuLOlod/SWLXlcfcVlgD4OSDXs9tealy6XdGliYucDc=
@@ -546,10 +514,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_adStarEmpty.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9q+T+VwJlVCG+2vycrtTkdSKLSw=
-			</data>
 			<key>hash2</key>
 			<data>
 			xPt84vSK5J4qpO7CPbqtgPxHDnu/YdlwP9Lh3lJYnro=
@@ -557,10 +521,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_arrow.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1J34zDVaVo68TxpDnPLE3kS/NIA=
-			</data>
 			<key>hash2</key>
 			<data>
 			H89x1buR0Atu65RiyQzGAZVZrtNc7UbOfCtRdR1e88s=
@@ -568,10 +528,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_bottomPause.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			a4shdYI/dL4qDBwYOSonbxHswng=
-			</data>
 			<key>hash2</key>
 			<data>
 			4OcVKRrpjJLONuFwELQNLybIizhAKppv5P9qiusLojY=
@@ -579,10 +535,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_bottomPlay.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N0/+KyFobg5Ks38Aji13H/nkKvM=
-			</data>
 			<key>hash2</key>
 			<data>
 			/lq23e4r+2eQBh+/JSb9EKHhM6RiW+W/gM0cJadecr8=
@@ -590,10 +542,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_bottomShadow.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			om2iMXJeqkAldk6oydxAKlb7VH4=
-			</data>
 			<key>hash2</key>
 			<data>
 			3bYAptx2OWbbkddhdJNASVAV9frS6rKS2OC5Hp7Jl6U=
@@ -601,10 +549,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1qvDX73CMafSHJQJ/zn2uxq+PVY=
-			</data>
 			<key>hash2</key>
 			<data>
 			YkQMGkmL9pbpEKwfZhevkdIpOFqiKZzKGbJmSVPIsAM=
@@ -612,10 +556,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_copylink.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QtBI1ppQPb4RUvh5/zTb0rrDYW8=
-			</data>
 			<key>hash2</key>
 			<data>
 			+qyjWUJGQ5p/vwYvwZYdFStkG86bHFu8107VbML9IW0=
@@ -623,10 +563,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_dislike.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			534MCPA9V2ROD1v35fYBEEAryD4=
-			</data>
 			<key>hash2</key>
 			<data>
 			7fcgLYlp7PRWMaunc1n4fDkbd12sM1BmGZHqWOlFyJQ=
@@ -634,10 +570,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_dislike_night.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			05kl6BfH+EmB8v70o9GH9ge8eOU=
-			</data>
 			<key>hash2</key>
 			<data>
 			GdVhzChopjfm5RSd0yKYS0I3tsgXjDef/bRvTFHsI6w=
@@ -645,10 +577,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_dislike_pen.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JuNAjHVN9dfoyB0smQ/Cdlo38VQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			23ObRXwsLAfcaR7W2rMNLdmYn+53Q99twXf/M4oPvIU=
@@ -656,10 +584,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_dislike_pen_dark.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			53Gg7ZsEggvbtIhYDU4mr9YdWXE=
-			</data>
 			<key>hash2</key>
 			<data>
 			OaqLnOaBPGX3JvrVbWl6+U12HtDw4md7XGYa1JoMhlY=
@@ -667,10 +591,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_dynamic_default.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ma9QiG/dWeVDJZkcTGq4zWAU0yI=
-			</data>
 			<key>hash2</key>
 			<data>
 			j4tqAwu+h6IiJE48EXwjPvfWNOFP5NkHmYDchlQJ7gs=
@@ -678,10 +598,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_dynamic_user.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OqfjFD3NJDatV5TmJeB2IWDJIZs=
-			</data>
 			<key>hash2</key>
 			<data>
 			FexoThRf4jdIsmvwSubUsllXNRGoIRtzytsSnzN8IYA=
@@ -689,10 +605,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_endCardClose.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tY6S2pUEnurr8GtBnVZgXp17etI=
-			</data>
 			<key>hash2</key>
 			<data>
 			9eiXUPWKn8cPMpalwXwvgZ5Crlny0/9Zp1xFWQ3hUwE=
@@ -700,10 +612,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_fastBackward.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dYJPHNqlyE7cH1jr6tURSzcTmS4=
-			</data>
 			<key>hash2</key>
 			<data>
 			QHDqN88Lw9A367gkMcJxDy8wU9Y3t3ZaCSz8nl1yt8k=
@@ -711,10 +619,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_fastForward.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0OPULslc8EWZ0CL96oB4iqmLzc0=
-			</data>
 			<key>hash2</key>
 			<data>
 			xRYBhV2dZfXbdn5gCwcw0ZotxmncC0o5dkx0A79rZKA=
@@ -722,10 +626,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_fullClose.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rFUHkVQNBJgd7oZOUDbJFbGf+FY=
-			</data>
 			<key>hash2</key>
 			<data>
 			7a2E8dvmUd0KTqswc2qkICfvsunP62196/TrPydhmUo=
@@ -733,10 +633,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_fullScreen.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Jc0esD3JxjuKp4sYFFIn+xaEFXA=
-			</data>
 			<key>hash2</key>
 			<data>
 			EVhAi8pz6bFC8J7C+7i9bkRMkHhteRKFRStn3FgdJuY=
@@ -744,10 +640,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_handle.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			s/0VWLirC3H9JJPf17i8xVUzpSY=
-			</data>
 			<key>hash2</key>
 			<data>
 			XfCwHaaPXP5JjooU9WpMQZUp7Oije1VbB7i+3fVBbNc=
@@ -755,10 +647,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_handle_switch.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KujmkIMLyRi/sQ1+ErQdikCTLAI=
-			</data>
 			<key>hash2</key>
 			<data>
 			OVDQNETSOlYT7tyZUO+hUOW3ZIvLtLV3dakoIHeyG18=
@@ -766,10 +654,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_leftback.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+11rLOpHiLe/vYBG9psWq0h+VmE=
-			</data>
 			<key>hash2</key>
 			<data>
 			5RXxEYiVkusLbYK2q7U/eN4YDWxVPQKbvOBF44xjzxg=
@@ -777,10 +661,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_logoAd.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bkRNvhSjy/NNPq3LCXADGlLE+Dw=
-			</data>
 			<key>hash2</key>
 			<data>
 			z037jK0TE8bzCRsqK1Ar8ro6ctzn6vrWrhyFj6rpL5I=
@@ -788,10 +668,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_logoAd_backup.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mYPG2eZVZwC9M80TlV1G5JrqO8Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			eTUbPaZ8cfbA7hpvMA+agVdWepqL7G97l1cb7JE1Wfk=
@@ -799,10 +675,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_logo_reward.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JaHKnVbU40y+eoscPfEUZ9vhRZQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			X/o+SoQ35FKxqO77wvw/zK8Nh0ZJ3DbFexC1A3o1gzI=
@@ -810,10 +682,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_marquee.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6KiXPJQm2zIveee4LRJ8lG167ns=
-			</data>
 			<key>hash2</key>
 			<data>
 			EnWCkIdF3CGqf5lQ9o5QQeMlCJv5Q+hHVkMdZBxhhYM=
@@ -821,10 +689,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_more.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5h2i1fcIUa3YrMPY9bc36LQgkW8=
-			</data>
 			<key>hash2</key>
 			<data>
 			w6N44ikGElW2sPIE6+g1klDFm1z5hAiSLwlWH8qixLE=
@@ -832,10 +696,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_pause.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/ledF8yNulhV/ePvQmlkLq2M2gE=
-			</data>
 			<key>hash2</key>
 			<data>
 			UO9P5FtwEJkWKHZaox5kgzrlHO2VZCdqcykxa6Iv7xc=
@@ -843,10 +703,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_play.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KvbQcSQr72Q69PEr/Ov/YALOJas=
-			</data>
 			<key>hash2</key>
 			<data>
 			n5MLkbblpIG15isReWt2Wi/X+U3mrelbIIiGvBjAFrU=
@@ -854,10 +710,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_replay.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			K1VEpjYOaxIPBRBBEk9U7azBjRY=
-			</data>
 			<key>hash2</key>
 			<data>
 			zFJm0vUNwTychB1wlkwMWHqZwXfloPzBWNL7j7hX9Vo=
@@ -865,10 +717,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_rewardAgain.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p7ASUTYoSNls4wKSD5AvsodsuOI=
-			</data>
 			<key>hash2</key>
 			<data>
 			qUedmCSugGN92Txi77WW07Uh7mr2VM+YcKSF9rC0Ypo=
@@ -876,10 +724,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_reward_draw_arrow_up.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Bq+mSafy2pOiNaQq1+9r8BjyZ4g=
-			</data>
 			<key>hash2</key>
 			<data>
 			Wl7OjICupIfMoEXwgCIdY3e5ugYmJ0Ann5dqk3I/1ok=
@@ -887,10 +731,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_rewardbrowse_alertbox.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			W+14QPBMzHCyGyu99rQdw8avzXA=
-			</data>
 			<key>hash2</key>
 			<data>
 			7hW1keTrH3m5OLpJ/DdgxuV9Chgs0gvAYaEMviQtiPA=
@@ -898,10 +738,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_rewardbrowse_back_icon.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FNcCWLrTx8cn/EG8Io8dQVJAi1o=
-			</data>
 			<key>hash2</key>
 			<data>
 			wIjCANvDQjBY5OIdIKpOSaotH/5l1iMGB7tsawTVwjs=
@@ -909,10 +745,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_rewarded_arrows.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tIuZ44aNTgB9MwCJ5pm9JIs5jcQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			hPmfFmThSb1w/mWBoFXxR5Q1xVX3D51hLvGval8C2J4=
@@ -920,10 +752,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_shrinkScreen.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GLWCIL/j56qlpI4JHLVXbzu6iKc=
-			</data>
 			<key>hash2</key>
 			<data>
 			wZF92FVhoI4ctyRwkXHRo6w4W7NVMfs2l6cwVWTNqDM=
@@ -931,10 +759,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_silenceAudio.aiff</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			v74jzRIcosmBtYPI2ZcLbyHgbog=
-			</data>
 			<key>hash2</key>
 			<data>
 			DWsomZiPM/47JpKBs9w/AAdB4pofnAkaiDL01VZGjDo=
@@ -942,10 +766,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_sliderDot.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			znTlxgBoNZrpuQYlUg836xAPQiM=
-			</data>
 			<key>hash2</key>
 			<data>
 			BOF2FVlNDr9s4PlPyYYcJgfvPGTmkxx7x/ZDEd1JGgg=
@@ -953,10 +773,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_splashZoomOutClose.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Amkdt0znvHHfoEHaf0qSizvJeWU=
-			</data>
 			<key>hash2</key>
 			<data>
 			+/MSup8MqvcoMpcxaLbpw41Xr549lDIsZmMSsGNxRKc=
@@ -964,10 +780,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_splash_shake2.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hoA0e2wt7aOtweb7TQGxRsnqwZM=
-			</data>
 			<key>hash2</key>
 			<data>
 			knG+KBdsd4KO1osdnLaO92Sg9/7tOw7uT7155dzcXC8=
@@ -975,10 +787,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_splash_swipe_hand.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XiIEt1rlcWz3hB7of6knKCOWT40=
-			</data>
 			<key>hash2</key>
 			<data>
 			uKsOn6TYRMqgw36ARfodluuSL2qOM9Mn+l4970cI810=
@@ -986,10 +794,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_splash_swipe_rain.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vuj98Pa35bdGf4D+99e3kDxYz5U=
-			</data>
 			<key>hash2</key>
 			<data>
 			uj55fqfVvXfwOb22e5L1HPolTtzi6Vw2uKKuvYMyTjk=
@@ -997,10 +801,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_splash_upSwipe_hand.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HyNToHDrULNYeMjeOSoEYW0IV0M=
-			</data>
 			<key>hash2</key>
 			<data>
 			c9AjSD0PH1B6qT913LsRefmXwYCK8n5auwtHxtAyrh4=
@@ -1008,10 +808,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_splash_upSwipe_line.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			f8X8cx8UM9BzkEV7/cFfUhHiih4=
-			</data>
 			<key>hash2</key>
 			<data>
 			UZZ2xDbxKV2ijQbubb6hJCbYi0O7k9EeN9UzB8zDkxI=
@@ -1019,10 +815,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_splash_upSwipe_path.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			L9oriFPYYDb3hRgMV6O1jSTsKQo=
-			</data>
 			<key>hash2</key>
 			<data>
 			IkcEA6iw+I2XQwoC6B9oQbHiYyLPBdE73csK+B1FAuE=
@@ -1030,10 +822,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_splash_upSwipe_ring.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1R94dJ+HouK88XXGjvleTpDZS38=
-			</data>
 			<key>hash2</key>
 			<data>
 			uThxAsp81Wd5SviMQYzhpw6jBzvVGymVhy7UT0+jarE=
@@ -1041,10 +829,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_topShadow.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fzhfpKpS+RBidSm+d0SzS3lgv1Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			n1Hk2xRN0MEyS7o0YPjsrNCaLRvG1PlJsbsBhi7zgN4=
@@ -1052,10 +836,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_ugen_back.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LPtK+/OE0pRW7DJUhgJKmcEpvfQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			fD3FaAikMx6QgE5UZd2GeOfM461V6c514br/ej/PTJ8=
@@ -1063,10 +843,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_ugen_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QOLz4cdTa1ZzofxPkgUrDmM4yIg=
-			</data>
 			<key>hash2</key>
 			<data>
 			nID8zWVkp4QVI5URW+SBa0BRrdA1zKjUMJQB6+T2bgc=
@@ -1074,10 +850,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_ugen_logo.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lLSUXafTr3xfsOdtHVMExRmwZuo=
-			</data>
 			<key>hash2</key>
 			<data>
 			0NAMCoAnL8GRZKJN8nRNkBKycjfYj1JiVGgzHXrmmdQ=
@@ -1085,10 +857,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_ugen_muted.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fWYO2B8UOwIQisCsQs1pIUcehOU=
-			</data>
 			<key>hash2</key>
 			<data>
 			2xy+F2xvN9DepESDdDRAXmTnN+e4M77mUH6HB7PT2Dw=
@@ -1096,10 +864,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_ugen_star.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pObkgtg8NAa2aPWPYLbJ4lez21c=
-			</data>
 			<key>hash2</key>
 			<data>
 			RrYrcNY55vzR363T3OSqmbp4rkMoeenB1GET3Gae0zI=
@@ -1107,10 +871,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_ugen_unmuted.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1o8W2tR+1skyB8hTj5Om35KWIO8=
-			</data>
 			<key>hash2</key>
 			<data>
 			0DhqdJFPj2tGEFoPmSgPl2X8CDzf7xbcyda7bStv63I=
@@ -1118,10 +878,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_unlock_go.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MMgvylOsqF1cGuWBeaERwrSQuVk=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZBfZ2HGyiLFjKX3a4qHKZNPdg02lB3M6UagU0kZ+Ql4=
@@ -1129,10 +885,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_unlock_rectangle.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0bkOal3ylMUPbifPIDKOZmrpyxM=
-			</data>
 			<key>hash2</key>
 			<data>
 			vehSAKbL+5kBMUC5xe4u397lj2TNbzGu+ZG70Vuk8I8=
@@ -1140,10 +892,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_unlock_union.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1qu9Jjj1IGWWUDIIBYhFDdj6Blc=
-			</data>
 			<key>hash2</key>
 			<data>
 			CQbnMNI568YkYbzJsPWxDsx2pnnuZTMJxeH2TxfHOqU=
@@ -1151,10 +899,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_video_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LO61GYVI83W0klUm5db2hxDXQSI=
-			</data>
 			<key>hash2</key>
 			<data>
 			dOyC2jTjCOiMtUAz6WmNNOyYj6DpdKCVh4ZbXG6bjHI=
@@ -1162,10 +906,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_video_leftback.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9oghCH7GMdYFP2tADqMnOIxVpQ0=
-			</data>
 			<key>hash2</key>
 			<data>
 			JneDIjVPIOWFr/OMEWU1qpYnkGzdfl/GDkkPUsr1mqw=
@@ -1173,10 +913,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_voice.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IxbhfLlTMfeX6u8qxpMxJ63lSJk=
-			</data>
 			<key>hash2</key>
 			<data>
 			foNxtilai7puxVDUyWlILjJbPvgwDBuQ2nK7az2JIfY=
@@ -1184,10 +920,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_voice_silent.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rr2gtYS/vlhr/LljCW2JSY44gRs=
-			</data>
 			<key>hash2</key>
 			<data>
 			lpvik+ikKILV/LFhcZgQePdQjVXiInPOB2X2HMtJYvw=
@@ -1195,10 +927,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_webView_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dJHTkkDNW07hTnOMH4QY+58lZBM=
-			</data>
 			<key>hash2</key>
 			<data>
 			gLEHotBTlYkoBBrHIG2MhkgiqxG7TlZZwWWg5y8PsZY=
@@ -1206,10 +934,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_webView_feedback.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			StF4YnhG9xUBwFf6T7BjJFUF2lE=
-			</data>
 			<key>hash2</key>
 			<data>
 			KaDYXzuOAeiWiFDp+xJPTextg/tdQlBmL/oZccxZeMk=
@@ -1217,10 +941,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_webView_goBack.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/0NdG9QUv9Ipuy+T6r8w3jXX2hs=
-			</data>
 			<key>hash2</key>
 			<data>
 			akaBYNs5rSAzHombEO9Xwj+7DLkDkp33pHVKb7C/VCA=
@@ -1228,10 +948,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_webView_goForward.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HgJfyDo3QEmbhFMFAGcVc5Ue/KM=
-			</data>
 			<key>hash2</key>
 			<data>
 			NeQZkAfMJNYFgORs2JZnr3Nh5QEWWeG94EF/oVC4he4=
@@ -1239,10 +955,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_webView_reload.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BBhlF+VxyxAUIfYvHMJCj7yco54=
-			</data>
 			<key>hash2</key>
 			<data>
 			t7rsq6VPk254kfvPFoj4MEu6drEkrdKZM6srzm9tQT8=
@@ -1250,10 +962,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/bu_webView_safari.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I835+EtFZkpGzBYh+95CNXZDF5o=
-			</data>
 			<key>hash2</key>
 			<data>
 			RAdtm4OJX8dyF32G41uncfOsp9zTwjgJrP/g15QNSCk=
@@ -1261,10 +969,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/coin_countdown.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D3iaWLhNTsXSeZcf+OtKkagK9k4=
-			</data>
 			<key>hash2</key>
 			<data>
 			VfHYfE2JgzRZ0tJAACKKWPSRlOLOJKP8YcO/+Z9KuRo=
@@ -1272,10 +976,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/csj_clear_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9OB9o/+Ksa6jPPlqIviVzMcEp+g=
-			</data>
 			<key>hash2</key>
 			<data>
 			9HBOvcnBlNjKXy/Lbs1KfP0t8c0M9vTu21+hru8QNiY=
@@ -1283,10 +983,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/csj_reward_again_gift.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9EuzYxmBNUB2Z9P3KfLiF2HHcR8=
-			</data>
 			<key>hash2</key>
 			<data>
 			2xlb1cSKsR4ITjJd0eAmoA2cog0PuhlVtyXE38lDW7A=
@@ -1294,10 +990,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/en.lproj/BULanguage.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KkAM5BztK5NH0ALxQ0kYooBVQfQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Nzz+FmvKPhB8yl8qW+hbiBGzmzQ5V+PtVXxBU5Iurt4=
@@ -1307,10 +999,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/heart_beat.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BYy0J7+EmI+Ws9wp1Q8LQ2XUGOY=
-			</data>
 			<key>hash2</key>
 			<data>
 			lG0WlJ0MNn9g6gLsFd1ed8gzepkQn5iPzzAuULTcOKA=
@@ -1318,10 +1006,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/image_assets.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/5uVpY+9lZYxdf8asLfRkwicqcM=
-			</data>
 			<key>hash2</key>
 			<data>
 			fEFQMUuHScRxgdE9MaLc2W2aqqdyFA1fWRuiSSsotG4=
@@ -1329,10 +1013,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qxEpD88EdP3jCqmkUQPRxbnZDso=
-			</data>
 			<key>hash2</key>
 			<data>
 			Rp7MbldY80sDrDjqk7tBuDVikjvA846roBZ282VRgT4=
@@ -1342,10 +1022,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/ko.lproj/BULanguage.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JJVEwIiZN6xkVN4bhVevDm315RQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			pdZfm0+eu6A56GiYerScLe/+cVISLuGW3ppPbnPxz3U=
@@ -1355,10 +1031,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/setup.txt</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZM3A57y/v18OGzuvfRFEJO3U2Co=
-			</data>
 			<key>hash2</key>
 			<data>
 			vM2IxdHZV33CH67WhjzFydq4IsFZFtzRed5nq4T+8Dg=
@@ -1366,10 +1038,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/shake_phone.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			C33gzoljYSCSNbpr4AKagxS76U4=
-			</data>
 			<key>hash2</key>
 			<data>
 			OqFcjBWA2dEyPZK5a8X8dE5DNdVmJwJeVq9sCqXcrPk=
@@ -1377,10 +1045,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/shake_phone.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Wol6iaU/9+2YghcN4f+ZstnShyY=
-			</data>
 			<key>hash2</key>
 			<data>
 			lBpw2zZ8TInVSN+pGyMHkiO02D0PzKW+l0YFw4tLSs4=
@@ -1388,10 +1052,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/shake_text.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WIe+NmVzSPqvSk+RUi2ZL1YwTCg=
-			</data>
 			<key>hash2</key>
 			<data>
 			iAeFR9JNzd/BKQ3N7VVPj9CP+iD1fZWB0DqrBrVbrbo=
@@ -1399,10 +1059,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/splash_arrow.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			165RHyc7mlXNfeH+rwxfHBPTUXk=
-			</data>
 			<key>hash2</key>
 			<data>
 			NDm7us+nV2mBgVPTj8BE4fKDs5NMrQGVjth7NZ09rXg=
@@ -1410,10 +1066,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/splash_hand.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sIX7TfLlsv4Ap5Eb1AWvoNT5Bf8=
-			</data>
 			<key>hash2</key>
 			<data>
 			4xwMUO69TlzwlkcoZM+09ChXasBC4++yTAZ0aBINPik=
@@ -1421,10 +1073,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/splash_shake.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rgULCXxAXCKmYrL5dDbCDjaofAQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			2y7KSu9oAOgR7XmfveCvldxF/PyhK6FSGvVyQZsX7sk=
@@ -1432,10 +1080,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/swipeUpDown.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8+N4E94K7VmgVApcq1wccHucPJ0=
-			</data>
 			<key>hash2</key>
 			<data>
 			utpXzNsIBZ1xT+LDxQHwy+OijMrtk1coZvTjXuqMphg=
@@ -1443,10 +1087,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/swipe_right.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/x2F9MWiy6/fCeay2vmc+OlivfM=
-			</data>
 			<key>hash2</key>
 			<data>
 			PO/yTJMMF1QLFPNTwlyBnSD/K/B8WRtgb2gFUJ7JXdE=
@@ -1454,10 +1094,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/swipe_right.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/+CylFZYT1rdC3KfW0F5CYmRJNM=
-			</data>
 			<key>hash2</key>
 			<data>
 			oHpJyCxoRMri+zoJl3Y/P6GZ6Y+IyqSyxP+/0Lz+s/8=
@@ -1465,10 +1101,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/twist_multi_angle.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h6RnnQNTHAn/W+WmMSzPYNWgHTc=
-			</data>
 			<key>hash2</key>
 			<data>
 			32P5wHuBd4T5J4kEHQ7GnHrUoFdeQIl7ViYY+2eR2wE=
@@ -1476,21 +1108,13 @@
 		</dict>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5lj4r6Fr7S/WMaWfB9k9jgAWRgE=
-			</data>
 			<key>hash2</key>
 			<data>
-			S9PKUsQk7zdqGEcXz6yqnFdpx0EDQpT67nzmmiVCVoA=
+			Y/d1xP9h1643NpA+UphSXLU+xgyBqz4EvN5g1YNN8Jw=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PzbnezRb7iR+KgXasyjqG5+Nix0=
-			</data>
 			<key>hash2</key>
 			<data>
 			eV3srF8drmUnFeXm/dlxS+lHN3sd2ZPHO3mCSSmcVK8=
@@ -1500,10 +1124,6 @@
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hant.lproj/BULanguage.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X56OC5weccnZ3Ul2zuAFygjU+aU=
-			</data>
 			<key>hash2</key>
 			<data>
 			V4ADJcRupt14x+URlvpYwsZHKHZAU+H61D5hOPGbVWo=
@@ -1513,10 +1133,6 @@
 		</dict>
 		<key>Headers/TPCSJAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			f0Cfwnby5lAyKnDakvWXc14vTW0=
-			</data>
 			<key>hash2</key>
 			<data>
 			IxUG6Aw+rJhGENx0yZW3yfu4IsIV8fAbg3TrcoWxLlc=
@@ -1524,21 +1140,13 @@
 		</dict>
 		<key>Headers/TPCSJAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			stAZ07a+J2lC4Dy6LloIweNrufw=
-			</data>
 			<key>hash2</key>
 			<data>
-			hWyWarrLyVlLZ4KsexbluIQvLK1eEkuQUI3tTte4mSU=
+			8f8nRza7Sll/OSqT/s20F92c5MFrnvFCJSp4dndi8LY=
 			</data>
 		</dict>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KFNX96ZUxLIKz5vSLkKuaKZkBD4=
-			</data>
 			<key>hash2</key>
 			<data>
 			wUxhQSOyq+G+cA9OT/5f93xAqJQWE+o1WIr/OriJCSE=
@@ -1546,10 +1154,6 @@
 		</dict>
 		<key>Headers/TradPlusCSJExpressRewardedPlayAgain.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			co0aW9IVpUNiqVL8UjFzD8uGn+A=
-			</data>
 			<key>hash2</key>
 			<data>
 			SWEvflsRbagQt7v19p/HahVUGVMB32eUL+B7FkUsWz4=
@@ -1557,10 +1161,6 @@
 		</dict>
 		<key>Headers/TradPlusCSJInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			77x3gTGQzqWzKJpcNbJdeGwB+88=
-			</data>
 			<key>hash2</key>
 			<data>
 			oWxWDTDp+soUU2Ytfq7lI/2tIjZ11q5ojuF8NefNd1I=
@@ -1568,10 +1168,6 @@
 		</dict>
 		<key>Headers/TradPlusCSJNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bysoygDreaI0JvXWDoMszZginPg=
-			</data>
 			<key>hash2</key>
 			<data>
 			mwtc3sAvQk/exh0NT7XNgo7aWujk853jci0e4qB54Is=
@@ -1579,10 +1175,6 @@
 		</dict>
 		<key>Headers/TradPlusCSJRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D81jAcjyB52+XXeZLIBF6tVAL4E=
-			</data>
 			<key>hash2</key>
 			<data>
 			fFAhKm9INVOPNHIus/8EchBMSQrs7KXQkyiweTP1k0s=
@@ -1590,10 +1182,6 @@
 		</dict>
 		<key>Headers/TradPlusCSJSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0wWOYPViZCpphspF39wJWmlKC9o=
-			</data>
 			<key>hash2</key>
 			<data>
 			R13X21wNTpD/dI5EGLrKMtnwqeta7WcbmclsTLA1Zg4=
@@ -1601,10 +1189,6 @@
 		</dict>
 		<key>Headers/TradPlusCSJSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WxgRn/ykGwbXcTwOUy+kK2HYWVg=
-			</data>
 			<key>hash2</key>
 			<data>
 			NOYxHbBUeQriyLeqn5wOBir8YkvjXgF0OI1s+j92lZM=
@@ -1612,10 +1196,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SdgcCSmEQfH8JSX8kveTB/H4w8A=
-			</data>
 			<key>hash2</key>
 			<data>
 			vKqJLZYEopk6DGSypJZ5dDGRk72qnGlDnuWS5S657Ik=

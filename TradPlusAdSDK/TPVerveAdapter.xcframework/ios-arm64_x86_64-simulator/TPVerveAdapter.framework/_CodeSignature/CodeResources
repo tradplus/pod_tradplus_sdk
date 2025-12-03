@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPVerveAdapterBaseInfo.h</key>
 		<data>
-		x2KER73BJcBue5JU4i5AldS+IqQ=
+		38F3g5jRx2j6ev/h1Mrn8t7DLgs=
 		</data>
 		<key>Headers/TradPlusVerveBannerAdapter.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		e31g5U0hhNpz1eUZ8VTQpWK2JhE=
+		KZrAZnbw+q5mb9GhDvYOFeJKHQg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -45,10 +45,6 @@
 	<dict>
 		<key>Headers/TPVerveAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Av7CwkEfP5X/rsgg7F5Q/HtHhAA=
-			</data>
 			<key>hash2</key>
 			<data>
 			Tn3wxPibq4XmhKlTcIzGfBv6Gagl6AWtsETd5AjfNpw=
@@ -56,21 +52,13 @@
 		</dict>
 		<key>Headers/TPVerveAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			x2KER73BJcBue5JU4i5AldS+IqQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			0xOefz/nrr3Suay09x5LKUiO0KehQKO2/FGyE1xNoGs=
+			rBy3+sRoTl1jocTrVlfdz7jztlD8PnZ2QDnMTa6UGHA=
 			</data>
 		</dict>
 		<key>Headers/TradPlusVerveBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			80v+CiQyClQZFJVYGWg2L98AyCM=
-			</data>
 			<key>hash2</key>
 			<data>
 			h9krhAaCik2lN7NZb76nEjf9K4jNO5XeBs+uTI88+t8=
@@ -78,10 +66,6 @@
 		</dict>
 		<key>Headers/TradPlusVerveInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7IAy0qIWoA0t/M1dqJa8G91LpNc=
-			</data>
 			<key>hash2</key>
 			<data>
 			3oRVpjq+9Q+Y+4Hn6fH3dzKx3QbVnpmNxBvxjI+vkso=
@@ -89,10 +73,6 @@
 		</dict>
 		<key>Headers/TradPlusVerveNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			chAFT3eqrgzdKxo1ZskfFl+Y0aM=
-			</data>
 			<key>hash2</key>
 			<data>
 			KjOt3pFG6RseScckWYBmurZi8qNvUoqT1ZJvR4qxndg=
@@ -100,10 +80,6 @@
 		</dict>
 		<key>Headers/TradPlusVerveRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LwC/y1QRGaSSpPZgnv4Bc6PK+OA=
-			</data>
 			<key>hash2</key>
 			<data>
 			xjwUe4Ugg0HvceGfeC6d6MpMm/2xgnvwegRy9VMMZPo=
@@ -111,10 +87,6 @@
 		</dict>
 		<key>Headers/TradPlusVerveSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			B0UDqtTL+Bk8OYwrLgUgH8PMYjI=
-			</data>
 			<key>hash2</key>
 			<data>
 			puCjL8s4irwaU+F8R3thuX6+gGHVY9SAnSQqQUvTORw=
@@ -122,10 +94,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TxDElQGlkHl935h+UCw3eap+xrA=
-			</data>
 			<key>hash2</key>
 			<data>
 			UzCWWJontflHjRTB1OfhhHZvHLAxsAuPY4WRS8nsCB0=

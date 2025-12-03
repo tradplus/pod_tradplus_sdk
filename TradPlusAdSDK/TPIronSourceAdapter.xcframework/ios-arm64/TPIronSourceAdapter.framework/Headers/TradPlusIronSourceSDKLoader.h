@@ -13,8 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TradPlusIronSourceSDKLoader : NSObject
 
 + (TradPlusIronSourceSDKLoader *)sharedInstance;
-- (void)initWithAppID:(NSString *)appID
-             delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
+- (void)initWithAppID:(NSString *)appID delegate:(nullable id <TPSDKLoaderDelegate>)delegate;
 
 - (BOOL)checkBannerWillShowWithPlacementId:(NSString *)placementId;
 - (void)bannerWillShow:(BOOL)willShow placementId:(NSString *)placementId;

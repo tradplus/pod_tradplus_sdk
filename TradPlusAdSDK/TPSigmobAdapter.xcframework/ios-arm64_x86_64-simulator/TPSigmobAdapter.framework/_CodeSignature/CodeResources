@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPSigmobAdapterBaseInfo.h</key>
 		<data>
-		Z4Wk+nVEbuOOpoRGM+ASlW6sGFE=
+		Bq5mnrUL4EAeSSHAA2ZTFeaV8NQ=
 		</data>
 		<key>Headers/TradPlusSigmobAdapter.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1FcK8FjqVdn8L3YCET2wdGU8f20=
+		6rvj9TE7vMubG8pK4GitQERAP7k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -49,10 +49,6 @@
 	<dict>
 		<key>Headers/TPSigmobAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N4qYJYNMZB7BGj0Fg++H2IbqoFE=
-			</data>
 			<key>hash2</key>
 			<data>
 			0obldh8KhfGDLctH9N5iZecyhK0sGWDUcwGxTGjnJL4=
@@ -60,21 +56,13 @@
 		</dict>
 		<key>Headers/TPSigmobAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Z4Wk+nVEbuOOpoRGM+ASlW6sGFE=
-			</data>
 			<key>hash2</key>
 			<data>
-			8NuGRYrF0RPr1ScrN/1OoOn4yeRAtcR6P4jJ2Lk0DKc=
+			+latxNrJhFr3ywyMIKaqGuoVrZpdsCfQr3jb5Jggw/M=
 			</data>
 		</dict>
 		<key>Headers/TradPlusSigmobAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KJiTkqbRgd6M+g+HAF49fdoWAsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			wR87ojfwhDW0HOVVvK+D4UcI+EY4CLmcoDvIKNiKrKc=
@@ -82,10 +70,6 @@
 		</dict>
 		<key>Headers/TradPlusSigmobInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Hr1PwMdxKE996FHbKdQDUFcOiIc=
-			</data>
 			<key>hash2</key>
 			<data>
 			P39hNsZcnlddyr7xvlnn0vBvz5/24N9tKEBHdoPA6sw=
@@ -93,10 +77,6 @@
 		</dict>
 		<key>Headers/TradPlusSigmobNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TUkT28cNPO90LloaBztrBs92ffM=
-			</data>
 			<key>hash2</key>
 			<data>
 			iufB2bKbq9QhfmPpxmxvouuXO9m1zUQMVPjng/q0RW4=
@@ -104,10 +84,6 @@
 		</dict>
 		<key>Headers/TradPlusSigmobRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tuI4cj+zvs31zVZX6zA07jSBF+s=
-			</data>
 			<key>hash2</key>
 			<data>
 			/lV8SkwsfmaNTKwylz8/LPgYPK7V2TrBx87Sn6JnU4E=
@@ -115,10 +91,6 @@
 		</dict>
 		<key>Headers/TradPlusSigmobSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IFrqLgjtgKmQz8fASBXtQ0WLLjg=
-			</data>
 			<key>hash2</key>
 			<data>
 			uLBwj57Y2q8i3bfuThpsCFShtLTmq2rMbm2ITk3jQpc=
@@ -126,10 +98,6 @@
 		</dict>
 		<key>Headers/TradPlusSigmobSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Mcw0QZAMrZRvi9dy3aAz6FF4E5s=
-			</data>
 			<key>hash2</key>
 			<data>
 			k8diP2c3DhYe882iLYqLMRrL6zSldMv92LwBFNl1rqg=
@@ -137,10 +105,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			o0Zi91z8mKbPLOyC0mnqRctVQ14=
-			</data>
 			<key>hash2</key>
 			<data>
 			wSz3+wm8ms1dTj+TVJN+hxFrJnSp+J/i/INul2Ny/so=

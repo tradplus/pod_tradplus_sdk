@@ -1,3 +1,3 @@
-#define TP_TaurusXAdapter_Version @"14.7.0"
-#define TP_TaurusXAdapter_PlatformSDK_Version @"1.9.3"
+#define TP_TaurusXAdapter_Version @"14.8.0"
+#define TP_TaurusXAdapter_PlatformSDK_Version @"1.12.0"
 

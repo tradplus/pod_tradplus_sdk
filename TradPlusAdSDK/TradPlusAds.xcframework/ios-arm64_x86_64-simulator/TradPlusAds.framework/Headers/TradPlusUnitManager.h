@@ -12,7 +12,7 @@
 @interface TradPlusUnitManager : NSObject
 
 @property (readonly,assign)BOOL isAdLoading;
-
+@property (nonatomic,copy)NSString *requestId;
 //流量分组
 @property (nonatomic,copy)NSString *segmentTag;
 @property (nonatomic,copy)NSString *segmentId;

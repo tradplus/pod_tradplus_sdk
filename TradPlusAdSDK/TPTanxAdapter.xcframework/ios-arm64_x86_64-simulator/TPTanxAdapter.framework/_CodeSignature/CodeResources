@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPTanxAdapterBaseInfo.h</key>
 		<data>
-		YKbXBWEGS2+FIdGm4ULGa1DYgIo=
+		NMah1k8CKDS/u+ZzEyqslXrtBow=
 		</data>
 		<key>Headers/TradPlusTanxInterstitialAdapter.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ylw9UZgbwI6/0SbhGHR0Zo/EQ3g=
+		Mzt9GRjvqd466V5wD7JTQqfq75Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -45,10 +45,6 @@
 	<dict>
 		<key>Headers/TPTanxAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mDsMf15EAwfICK8UecXGVx/wHpU=
-			</data>
 			<key>hash2</key>
 			<data>
 			3z0Hau5zwl6xrwi2h4DMTJ0tz1ZAgmK2387/6stmVSk=
@@ -56,21 +52,13 @@
 		</dict>
 		<key>Headers/TPTanxAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YKbXBWEGS2+FIdGm4ULGa1DYgIo=
-			</data>
 			<key>hash2</key>
 			<data>
-			/DISLr+Nbqp2tHjn/FPTrWmPTUAwmGSVjlXIzFB2xko=
+			77IIj/BFTo/SBYH25viuG6/SAes6B/VOAQ/0h3dRFpQ=
 			</data>
 		</dict>
 		<key>Headers/TradPlusTanxInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PIrGN9knOxbu9rTr9MiHuc2q2uo=
-			</data>
 			<key>hash2</key>
 			<data>
 			I4aKoFyeavj+TR8NBXEQbXqNh2shbYKphZ1ZI7v1wTQ=
@@ -78,10 +66,6 @@
 		</dict>
 		<key>Headers/TradPlusTanxNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xnsv84YHRCMBJCqH27d/IiPbCqQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			PKzm87XJ6HMKGezpNNEpcL/JldOKCtp3cEW6rFKh6xQ=
@@ -89,10 +73,6 @@
 		</dict>
 		<key>Headers/TradPlusTanxRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4GIL2dQyfzmdnYfq9PxCLUydyFM=
-			</data>
 			<key>hash2</key>
 			<data>
 			DWRxVlQyH0Pe1WTqk0DIPf/+pvHTiDR04VqnQEaZ9PM=
@@ -100,10 +80,6 @@
 		</dict>
 		<key>Headers/TradPlusTanxSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FMqqeWY/u+8A1fIR810k0R9rSkI=
-			</data>
 			<key>hash2</key>
 			<data>
 			IBOOGdGKzrfTTREGtTx/+SkVeQ60tD2UAvhkQer4W5Q=
@@ -111,10 +87,6 @@
 		</dict>
 		<key>Headers/TradPlusTanxSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nMccYgshqkeL86aPBBYVwfH9AIY=
-			</data>
 			<key>hash2</key>
 			<data>
 			Zd2sP3Lh4jxCIITFW5v74AiFdlM250Vz5g0H29bDfe4=
@@ -122,10 +94,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JsFMvhSD3bZfRh3ZEW+k3cUbxY8=
-			</data>
 			<key>hash2</key>
 			<data>
 			sH0gVjyYBfsmvvhjgjxTc3aniY4aTJQf+n1H8PZORTs=

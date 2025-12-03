@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPZMaticooAdapterBaseInfo.h</key>
 		<data>
-		7FdtCF4FNIBt6kvcQxSJQK+14YU=
+		dlzkLwzPASn9IMsbwBw24Vat5rw=
 		</data>
 		<key>Headers/TradPlusZMaticooBannerAdapter.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7oOLrHMXVSwUU6jv6ZPvBIIU+wA=
+		CQto6FX+WNsJpPZ7IT/CkKMkrnI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -49,10 +49,6 @@
 	<dict>
 		<key>Headers/TPZMaticooAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j6otIFyG+p14UbffA3+kj5VNNls=
-			</data>
 			<key>hash2</key>
 			<data>
 			4rzH3SL21QPciiXVZFH3tA1R6rDilW+k0F2dEX3AQWo=
@@ -60,21 +56,13 @@
 		</dict>
 		<key>Headers/TPZMaticooAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7FdtCF4FNIBt6kvcQxSJQK+14YU=
-			</data>
 			<key>hash2</key>
 			<data>
-			NT6tJNSH03M0muXHb4/zE6UI28yZFTMWwU+AG/mfpLk=
+			IMjiPOohS2HioaJM3t/Geka0o1n2ylJjMV+w8ArkdOU=
 			</data>
 		</dict>
 		<key>Headers/TradPlusZMaticooBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			v3sMoLwhWCLuJkZxFpGx1PSWqW0=
-			</data>
 			<key>hash2</key>
 			<data>
 			IZ1K2tzYg4p4yPD3kIrvMAvf/hAr0WsCRTdlOzcVGGg=
@@ -82,10 +70,6 @@
 		</dict>
 		<key>Headers/TradPlusZMaticooInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pcuxwuSQmRJ9cqHFHMdFTtsuW8k=
-			</data>
 			<key>hash2</key>
 			<data>
 			BFHhQS+K6OAgT/J+3eOTYfi0HEBHky8OBXedMWG+e20=
@@ -93,10 +77,6 @@
 		</dict>
 		<key>Headers/TradPlusZMaticooNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HF7QuCggAXufMIegzneODcP3lUY=
-			</data>
 			<key>hash2</key>
 			<data>
 			TYgR+G6QF9HNk/PnSycPHGq5XrjX4Fc7ik0aTn2vjVQ=
@@ -104,10 +84,6 @@
 		</dict>
 		<key>Headers/TradPlusZMaticooRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			f+ZdioeMn1xqiHpPU9d4JYej7mM=
-			</data>
 			<key>hash2</key>
 			<data>
 			CU7zw1VRgjJidjBxTIiYQgmeBIAJKt+baMlLQaIQqRc=
@@ -115,10 +91,6 @@
 		</dict>
 		<key>Headers/TradPlusZMaticooSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WprYSyTd4sf6tmxt/241uuSx+/k=
-			</data>
 			<key>hash2</key>
 			<data>
 			sgRjjNRklOM/OzRy8YyO7bi4hvJOPEShlDL8zRg+Cqo=
@@ -126,10 +98,6 @@
 		</dict>
 		<key>Headers/TradPlusZMaticooSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IzrY1WlsRD3hDmjSigEhVMcw550=
-			</data>
 			<key>hash2</key>
 			<data>
 			QQtq41lrNEdi2A1Y8M6bvu0VxkbUNGx+7BCtsc5vYzM=
@@ -137,10 +105,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1/qnfh4OL2AMOROliM7eza9CddY=
-			</data>
 			<key>hash2</key>
 			<data>
 			eOYyZgMlmLX6lfQjU/VLKz2g4QACAI81bmivLb1N3gI=

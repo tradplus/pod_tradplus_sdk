@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPYSONetworkAdapterBaseInfo.h</key>
 		<data>
-		NX3Q8C7IQv6u/Lc5NGz/X9abU5A=
+		2DTNu+IekObHH+sWqwDCeo7VCyA=
 		</data>
 		<key>Headers/TPYSONetworkBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xzzFAcRyFPHzwKlggVWKz7+P1nc=
+		IXGsISQCw7hWACB60ffWiccf43E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,10 +41,6 @@
 	<dict>
 		<key>Headers/TPYSONetworkAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dAohXg9ENzgcAQpjJtuKhE+SQ/k=
-			</data>
 			<key>hash2</key>
 			<data>
 			jTetFnADDLRVg+i0V2g1OJYPgPDhRRSFg5VoRt5JXRw=
@@ -52,21 +48,13 @@
 		</dict>
 		<key>Headers/TPYSONetworkAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NX3Q8C7IQv6u/Lc5NGz/X9abU5A=
-			</data>
 			<key>hash2</key>
 			<data>
-			1OQurA6YKtNvCXJgeQdphNApGKINsnZz+9vEdHJf2iQ=
+			8dPT74phRg89FD11Q1h2QjjTlPFBJubtuX1cdvrFAw4=
 			</data>
 		</dict>
 		<key>Headers/TPYSONetworkBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			g8Gcaob5hERfiMSvs2eGi7SZUzo=
-			</data>
 			<key>hash2</key>
 			<data>
 			AkTY2xhlQcLOU8zvsL47xpU9OKJ1xBpsDbSB03qahms=
@@ -74,10 +62,6 @@
 		</dict>
 		<key>Headers/TPYSONetworkInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EVYlsf9FEQVakmtb3MHlIBCOCME=
-			</data>
 			<key>hash2</key>
 			<data>
 			N5s22lc3Dy75/wOR6VpuOo5lt7toSccNFyDjQuDncIw=
@@ -85,10 +69,6 @@
 		</dict>
 		<key>Headers/TPYSONetworkRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tUBtbbeGq42mphvDZ6MeiabGIcs=
-			</data>
 			<key>hash2</key>
 			<data>
 			AA8KjkgN9lWDGkxj7zdP88EjJVTROeGyf1o3Q3oDLjs=
@@ -96,10 +76,6 @@
 		</dict>
 		<key>Headers/TPYSONetworkSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZQ6pmBbrcIp5hkOdL1jxy0/0zm0=
-			</data>
 			<key>hash2</key>
 			<data>
 			FwSlancamcsP8vqqmsZL5D5SEzo9KY3SyMCcB3V1wYM=
@@ -107,10 +83,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eHMp8AC5UgrA4FfZtWMhrjlEklk=
-			</data>
 			<key>hash2</key>
 			<data>
 			vdwHVOP+wEHMyF3JQUm4Y9Hpzu9feq5eNZ89beF25pU=

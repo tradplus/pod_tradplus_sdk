@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPInMobiAdapterBaseInfo.h</key>
 		<data>
-		E8mVagJjl9XziX8rlL+IqKM3w2o=
+		pFFKXAb1ZsbOC0pgmO/nreoqfhQ=
 		</data>
 		<key>Headers/TradPlusInMobiBannerAdapter.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eYhJR7GCnXcpuUsJO+DNKBBQduM=
+		sTpmzQ60VE+gdBlhm4uj1MWyWDw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -45,10 +45,6 @@
 	<dict>
 		<key>Headers/TPInMobiAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uEp/EASlWHULZpFh6HwP7EcBBJ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			J9o1y5s4E+N/dvCvJbOaADuBkRl/Ypolwww7TkDeYkE=
@@ -56,21 +52,13 @@
 		</dict>
 		<key>Headers/TPInMobiAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E8mVagJjl9XziX8rlL+IqKM3w2o=
-			</data>
 			<key>hash2</key>
 			<data>
-			6SLUR9OKiESmWa1PfvXNMv1M8nKnwlzZbtDFuchms+E=
+			x4FSJ/C2xcgkB6//eN4zHvB5WvGSattBvK+Ccch3L84=
 			</data>
 		</dict>
 		<key>Headers/TradPlusInMobiBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Sp0Mz0CUb/izHr99lcByoOBFt6w=
-			</data>
 			<key>hash2</key>
 			<data>
 			wd5N9KH76zA1uAi8uTh4luAuZPg+c/IBrfqhkGUO87A=
@@ -78,10 +66,6 @@
 		</dict>
 		<key>Headers/TradPlusInMobiInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ypP1dhGOVeiNY497NGHQv9aOBkU=
-			</data>
 			<key>hash2</key>
 			<data>
 			/bLvtdB3iub3DgZEpy1UxWfO1upLx8K3zeZLCSTZWUE=
@@ -89,10 +73,6 @@
 		</dict>
 		<key>Headers/TradPlusInMobiNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MGbcXrnxY0zDHgt08v2g62e9JEI=
-			</data>
 			<key>hash2</key>
 			<data>
 			tsa1GL61d8KYTvi8aJ/6cZrchXAeOgHfq25C3PVkONU=
@@ -100,10 +80,6 @@
 		</dict>
 		<key>Headers/TradPlusInMobiRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8Mj3jVgUeKn4nzx9VwpVE4TAr0U=
-			</data>
 			<key>hash2</key>
 			<data>
 			O+EmDyMGKh5U3K9VZDryqtr824z9fes9YqO3CIQn6xQ=
@@ -111,10 +87,6 @@
 		</dict>
 		<key>Headers/TradPlusInMobiSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			znNHAUvqnHWPi3o8IRFYiPqpbds=
-			</data>
 			<key>hash2</key>
 			<data>
 			WobXDZnwjnfbMt/NaoyaSku1Uu8rg6noXRsllyGv970=
@@ -122,10 +94,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aE54fgnemc1NRqB9+b7emZD40Hs=
-			</data>
 			<key>hash2</key>
 			<data>
 			Cr1+dB+ES1SgTL/k3E1G6A0FWHqteduiq0njA/gCwqQ=

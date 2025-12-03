@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPChartboostAdapterBaseInfo.h</key>
 		<data>
-		Xiydpt79vCbcLc6C4IuBqa3/dWI=
+		DBWMJ2pPjwWTPbwRP1CvTR/R39s=
 		</data>
 		<key>Headers/TradPlusChartboostBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mJyK0Y6lCeHIVziMNBjG5IHf7WU=
+		RkAlbtKGexd745L1pF3xMaRte/4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,10 +41,6 @@
 	<dict>
 		<key>Headers/TPChartboostAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			moBkcI+sNSY+vk2LU5Pi4gTc4PM=
-			</data>
 			<key>hash2</key>
 			<data>
 			+lDsK7/qc8BfceviQmjfkqsrls5TxA36VmhyRI7en+k=
@@ -52,21 +48,13 @@
 		</dict>
 		<key>Headers/TPChartboostAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Xiydpt79vCbcLc6C4IuBqa3/dWI=
-			</data>
 			<key>hash2</key>
 			<data>
-			/OiBqUngyL4AxtkqOSzLNX14wiegCTh2O3Ya62MDXAY=
+			RJ4XCDqTgnfoImH0eaiQrOq4djzxj09Sy/vCXbs3qJo=
 			</data>
 		</dict>
 		<key>Headers/TradPlusChartboostBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eQOnplpeA/cG3q0O4OQ2y5fuYdc=
-			</data>
 			<key>hash2</key>
 			<data>
 			f+qsi0h08CB/XdV1GRr82mzpXiIFGEl+agxBU/EzH9g=
@@ -74,10 +62,6 @@
 		</dict>
 		<key>Headers/TradPlusChartboostInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oMoX6NsYpebonkOuENQ/sdr9LJY=
-			</data>
 			<key>hash2</key>
 			<data>
 			HfCCH6mibKX3hFsbrae6KkaOcXtPB1S4Y9rEUsctXWE=
@@ -85,10 +69,6 @@
 		</dict>
 		<key>Headers/TradPlusChartboostRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			psyL2a3r/WLFy+ieZf5JTP7Iaio=
-			</data>
 			<key>hash2</key>
 			<data>
 			QVNmLe8Cl9J+fkrkoB/8KTU6bXxTXPHTE/IE3V6foSo=
@@ -96,10 +76,6 @@
 		</dict>
 		<key>Headers/TradPlusChartboostSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sc8RI76nUVu2cEqvppMaqwfzGuA=
-			</data>
 			<key>hash2</key>
 			<data>
 			99Nr3YALeq+YGJYHuQC5/TS7DF/qbL71zMzaFdZ/thU=
@@ -107,10 +83,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mn5PaiauG/7beMma6M71WpIJpvc=
-			</data>
 			<key>hash2</key>
 			<data>
 			uXQOet7o0jsN/3H7lIHHainVlRPQj/8m74PscV4daMM=

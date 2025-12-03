@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPUnityAdapterBaseInfo.h</key>
 		<data>
-		CmvpQF0J1bcJPxEGar/S/orMZMg=
+		iPEaimA7e7seWLfbkQrGKp6dqt8=
 		</data>
 		<key>Headers/TradPlusUnityBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		F6I6flv6it0+TT9ueCAewQNe0vk=
+		qr53Ke0ehlIEU36nWt5jXEUKsmE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>UnityAdsResources.bundle/Info.plist</key>
 		<data>
-		c/Xb93OzCWZouF67orUs7zb0VQI=
+		9OnIKwN/x41Swu5VD8tjxAvMWlY=
 		</data>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -57,10 +57,6 @@
 	<dict>
 		<key>Headers/TPUnityAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			A/DS1VsbUYLJmgfUQSoQlHF4FHc=
-			</data>
 			<key>hash2</key>
 			<data>
 			vi97X/HkgUn9uqUB7G4oNWyIOKjN7jfqfSb5T1vBi64=
@@ -68,21 +64,13 @@
 		</dict>
 		<key>Headers/TPUnityAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CmvpQF0J1bcJPxEGar/S/orMZMg=
-			</data>
 			<key>hash2</key>
 			<data>
-			rvqaOkujK6GH83z6heNmQ9OHoqkI8L2MpLwWA39rR1E=
+			5b55aU3w0PCUUxGd/9+dNxKP3BYMJwxaYLXF7y4PVt0=
 			</data>
 		</dict>
 		<key>Headers/TradPlusUnityBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			egI0VPzJZ3+DgeJjoG4OvsrfJlQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			maSCf+O7JQoNyo+cwuytGhpuBiQtJegqflDNqwEJysM=
@@ -90,10 +78,6 @@
 		</dict>
 		<key>Headers/TradPlusUnityInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V9hFfDv7xpELcJsA50YQxaVTLck=
-			</data>
 			<key>hash2</key>
 			<data>
 			hrmfn/jfcOz6gADgqK+usrGY10VmtBm2JehttxWKDNo=
@@ -101,10 +85,6 @@
 		</dict>
 		<key>Headers/TradPlusUnityRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZMjLqvlOQOy6yPsSsG5sN4iW6RM=
-			</data>
 			<key>hash2</key>
 			<data>
 			oearMZgkfl9XeaXcK5sRtpuntNKXHKo2YCCAeA8ZHVM=
@@ -112,10 +92,6 @@
 		</dict>
 		<key>Headers/TradPlusUnitySDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+KYDDiG9K2ucAP0tgGDV1x0vUkc=
-			</data>
 			<key>hash2</key>
 			<data>
 			MSiAQPO8B+juaS7MT8BVnWWHnfhv7O0VMcTtwfEimqE=
@@ -123,10 +99,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OQZRK0E4YjvSjm4dRSTrohzmwQY=
-			</data>
 			<key>hash2</key>
 			<data>
 			8HHZKC8ohC8sAvk7yhJh6mRoCO6/yIM3bIhJGj59uRw=
@@ -134,21 +106,13 @@
 		</dict>
 		<key>UnityAdsResources.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c/Xb93OzCWZouF67orUs7zb0VQI=
-			</data>
 			<key>hash2</key>
 			<data>
-			mK8hsT9WKwPb/N3OFemqSPIOpSGfo1iUzH95qUsDbcs=
+			rb/SmMgr6O7inSuV/lAnqSR++QtOqYCiEq++55ZCNOc=
 			</data>
 		</dict>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vmr7Tv9rcKyDvK3D48LDE7Da57Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			f3FIPJmP/SZx3Vlg4pLmKnlyAbkHD2JKFo75koJnVG4=
@@ -156,10 +120,6 @@
 		</dict>
 		<key>UnityAdsResources.bundle/omid-session-client-v1.js</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7sp3Ar5eWE8CR1N+eYJLzLQ6YcQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Te3Jr5e6bZwJTWB4sAfgAvADNUKj/J9l6nJyJYjRWdw=
@@ -167,10 +127,6 @@
 		</dict>
 		<key>UnityAdsResources.bundle/omsdk-v1.js</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6+hfCdXnixKm+657WUiXeprAN1c=
-			</data>
 			<key>hash2</key>
 			<data>
 			wdHo+ZxIr5eFSs8kgj8Q2jorPZzSti3/PJO59hk3RRw=

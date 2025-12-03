@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPGoogleIMAAdapterBaseInfo.h</key>
 		<data>
-		U5/Ur1d2POZ61aZPFH31MIPYgIc=
+		dZuGqI93DHU9F4W4YPps6CQHH0I=
 		</data>
 		<key>Headers/TPGooogleIMAItem.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mxu2Cu8lrrm3JTUSYkV7RvZ22+g=
+		SAqfvAH4wG+AvFB5RuzF4ZXFIgY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,10 +41,6 @@
 	<dict>
 		<key>Headers/TPGoogleIMAAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5EcxZjB9IkIZUkRSe/8xyKLldiM=
-			</data>
 			<key>hash2</key>
 			<data>
 			wqnE42CkpxrWynAgBbyw68S1w/osDCW+D9Xm3A96vuE=
@@ -52,21 +48,13 @@
 		</dict>
 		<key>Headers/TPGoogleIMAAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			U5/Ur1d2POZ61aZPFH31MIPYgIc=
-			</data>
 			<key>hash2</key>
 			<data>
-			ux0C4rsEkos/DDvVEXGdHH8wSZzbdgUO7ya4Bynczwg=
+			tdb2I4aBd1Cbd0gGo4JWkGu1kScgHdVXjWEuB7a8RZA=
 			</data>
 		</dict>
 		<key>Headers/TPGooogleIMAItem.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iIQh6tPr564lAQkb1+FXgkxXEZk=
-			</data>
 			<key>hash2</key>
 			<data>
 			XmhPL8qxvtHcTURwtv93FCnCTgww5ntTyOFH2zgu6sI=
@@ -74,10 +62,6 @@
 		</dict>
 		<key>Headers/TPGooogleIMAPlayhead.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uiN82OV4sQD+PD+06nbRMfj4eK8=
-			</data>
 			<key>hash2</key>
 			<data>
 			VOUBowiGffVULCdXAtBH423rRNiXcCIP/K24CNwus04=
@@ -85,10 +69,6 @@
 		</dict>
 		<key>Headers/TradPlusGoogleIMASDKSetting.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0mSJ6EUGy+uYADIV9DNlRCdMBFg=
-			</data>
 			<key>hash2</key>
 			<data>
 			/1vzKFPNH40J1CG1BP2wBDoZHLaNwy8EpgvT+Yr8r0U=
@@ -96,10 +76,6 @@
 		</dict>
 		<key>Headers/TradPlusGoogleMediaVideoAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RZ4LhApIBNu2+L370UANLfvvGpQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			CHcQIb5ZIucY4zCNW/mWAeE4K/8MOGQMbVjSoL51mmE=
@@ -107,10 +83,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YgJGe41sIiuRZGPgjrVgdKaX0rE=
-			</data>
 			<key>hash2</key>
 			<data>
 			7dI7qlAUCtdpu6SRd5/EIYuvNPnMWx5Tz7fdGbZpiNk=

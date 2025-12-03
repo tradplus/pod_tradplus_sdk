@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPAmazonAdapterBaseInfo.h</key>
 		<data>
-		OWZN6eoXaBibfx0UDdtABS8hL70=
+		8mCHTwbTY/AlcfeIbZq3jgSK9vc=
 		</data>
 		<key>Headers/TradPlusAmazonBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0HWpSnx2qvqxqBEdehfydh3DSwU=
+		vvw/B82md1F3oj6vq9DjSPL+h4E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,10 +41,6 @@
 	<dict>
 		<key>Headers/TPAmazonAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1kOer3HK2Y5eaFP4cZMga8Bu4kU=
-			</data>
 			<key>hash2</key>
 			<data>
 			5NRdMOWVbwpKJhgwGG5twdNMpLWJFWFHJe54cHOzot8=
@@ -52,21 +48,13 @@
 		</dict>
 		<key>Headers/TPAmazonAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OWZN6eoXaBibfx0UDdtABS8hL70=
-			</data>
 			<key>hash2</key>
 			<data>
-			PwWUC4nD9QB+6SnHL1SnsFBfT5gnQYa+T+1bwCvVYAY=
+			QfnuWT5I4aMlXQkLTQcz/WvS+KTBDhArbBQJg/lOD7A=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAmazonBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h0dTEQiO4j374lNmxkwjREKL3TE=
-			</data>
 			<key>hash2</key>
 			<data>
 			wLL0ESWGS5e0gpyqhuiTGgSIEM4Wk6AHMBXumAxkwbk=
@@ -74,10 +62,6 @@
 		</dict>
 		<key>Headers/TradPlusAmazonInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Xf5Qj+dg4Tc3pxC0V8Iu5LD3xAE=
-			</data>
 			<key>hash2</key>
 			<data>
 			hAtZ9uzZrlvIKV6Mw+WB8HEgSukDy06W1SAvA69PsAs=
@@ -85,10 +69,6 @@
 		</dict>
 		<key>Headers/TradPlusAmazonRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DEkOM0dPxfS+jxXb8F1LXOq8v4k=
-			</data>
 			<key>hash2</key>
 			<data>
 			3AvZpQ9r/G39qSoW2jblhEZP3ARnmArIfvqfo71ZR9I=
@@ -96,10 +76,6 @@
 		</dict>
 		<key>Headers/TradPlusAmazonSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q+XicvfX5XuWkUrbZ3uTmIkNjvE=
-			</data>
 			<key>hash2</key>
 			<data>
 			aV81ydPdZPi1G4OkvLPiFI9Y5k7Yy7FLWKqdcCGFguw=
@@ -107,10 +83,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4p4+b5BpkNSWsYp07uv81m0CvJo=
-			</data>
 			<key>hash2</key>
 			<data>
 			3tpzZGLh03E+naqoDumAFcHcuJnzqELM6/utHoGuK4A=

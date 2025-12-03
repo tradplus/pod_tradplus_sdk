@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPVungleAdapterBaseInfo.h</key>
 		<data>
-		CgHUmQ2V7wvfh73MJgjBoURYnys=
+		dSQ1CyGPpI71CqMP39CQLJn11YI=
 		</data>
 		<key>Headers/TradPlusVungleBannerAdapter.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6QYGfMaNsx5QAPZmqucUaQ6GFyI=
+		cnTuvtS210o+D0Il5VGd9TWaRWo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>VungleAds.bundle/Info.plist</key>
 		<data>
-		0S7OXs1WCmarSyxq/Fv8Sdk1EnY=
+		XNtGoFopTawcgcPW5X14dYzBbt0=
 		</data>
 		<key>VungleAds.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -57,10 +57,6 @@
 	<dict>
 		<key>Headers/TPVungleAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4bpJ1bDs/LtpmjiKI40qTkoqztU=
-			</data>
 			<key>hash2</key>
 			<data>
 			QSUOHybAcKwcqzkHE24p8OLGVGD/S+SW04DTJJzroGE=
@@ -68,21 +64,13 @@
 		</dict>
 		<key>Headers/TPVungleAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CgHUmQ2V7wvfh73MJgjBoURYnys=
-			</data>
 			<key>hash2</key>
 			<data>
-			mOk857HPtxw3k38eg/dTYse8bsEzdeyzR3ohkF87k1A=
+			tjONirzFLlhWzWQqScd4gUVW6CFOF4JMeyXSQYFe3c0=
 			</data>
 		</dict>
 		<key>Headers/TradPlusVungleBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yL42cqwrftsv4eipdaMTUKb8RzM=
-			</data>
 			<key>hash2</key>
 			<data>
 			oarj/NogHf8i3p2gOSgjpw9C8HOObcnZ5ckJgAo+WcI=
@@ -90,10 +78,6 @@
 		</dict>
 		<key>Headers/TradPlusVungleInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			y3xTHor9BXOaR1lOV57cFMrcYOY=
-			</data>
 			<key>hash2</key>
 			<data>
 			722OZq7A+npeVAD0SzGgAES9PotGURBZrxFs08QQYUc=
@@ -101,10 +85,6 @@
 		</dict>
 		<key>Headers/TradPlusVungleNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1qydlIF4yN+wXOpqlvPGDatfU34=
-			</data>
 			<key>hash2</key>
 			<data>
 			1872N8cpVi67HGY7Buy+n47eUwzvpzeA1dR9rJkbdKY=
@@ -112,10 +92,6 @@
 		</dict>
 		<key>Headers/TradPlusVungleRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D4fqBPR9O3ksIFm9WDoYj98Hs34=
-			</data>
 			<key>hash2</key>
 			<data>
 			/OPpZkxZgn9OSUBJGeb1zLs7FSJC9YVW2fR81X4pPOY=
@@ -123,10 +99,6 @@
 		</dict>
 		<key>Headers/TradPlusVungleSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WX34L8sTdUQ24SqRqnLOpbUNl/c=
-			</data>
 			<key>hash2</key>
 			<data>
 			d044gZ3x6lp2v63ppx/euhO68dN4zCroWhAfkIDTyDY=
@@ -134,10 +106,6 @@
 		</dict>
 		<key>Headers/TradPlusVungleSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yzA2YB605XGgi7VTr5pOuwyQlUQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			6aPK9BntkeI03dDHVm9Tn7F7ZYSeq8aVxXsv0K/DI4w=
@@ -145,10 +113,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D1rAEqwgk3jwn979SUdZKZl8nPo=
-			</data>
 			<key>hash2</key>
 			<data>
 			YyQBmHhcz0jVcXtnexGYRTX4o3LC69UbnPigEXqGXIM=
@@ -156,21 +120,13 @@
 		</dict>
 		<key>VungleAds.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0S7OXs1WCmarSyxq/Fv8Sdk1EnY=
-			</data>
 			<key>hash2</key>
 			<data>
-			1roBpYru+8CPRZER0S6zJ910E1WGY0c11OfZ+OlEQfU=
+			7gTq7L9aFkT9E6mpWv7f/KjX4OLM0H+XTwnOSdgCr6c=
 			</data>
 		</dict>
 		<key>VungleAds.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			COhxM0H7+Gp/ed2fy4Li+IZWHRQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			YAGiRWxwvRHypK5douHP5fWvYgPwyj/xXlq1RpJ1kAQ=

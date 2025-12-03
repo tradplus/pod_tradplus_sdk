@@ -123,7 +123,7 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
 ///移除所有自定义过滤规则
 + (void)removeFilters;
 
-///设置禁止的第三方广告平台ID列表，未设置返回nil
+///获取禁止的第三方广告平台ID列表，未设置返回nil
 + (NSArray<NSNumber *> *)getForbidNetworkIdList;
 
 ///获取自定义过滤规则列表，未设置返回nil
@@ -154,6 +154,11 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
 
 ///手动传入user agent，SDK不再获取，需在SDK init之前调用，需保证userAgent正确，否则可能影响广告加载
 + (void)setUserAgent:(NSString *)userAgent;
+
+/// 判断指定广告位是否正在加载广告
+/// @param placementId 广告位ID
+/// @return YES 表示正在加载，NO 表示未在加载
++ (BOOL)isAdLoadingWithPlacementId:(NSString *)placementId;
 
 @property (nonatomic,strong)TradPlusUID2Info *UID2Info;
 

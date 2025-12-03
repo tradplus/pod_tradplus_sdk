@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPGDTMobAdapterBaseInfo.h</key>
 		<data>
-		591aHJBv3EglEWoqURq9/jQarpk=
+		lTKBmCYXe1rdozooRtghzwjAtYI=
 		</data>
 		<key>Headers/TradPlusGDTMobAdapter.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vjRWxU1Hi1dVmbgM/vJUyCMs0vM=
+		2EE5i6jl++pR1vzhQpWHph79EpM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,10 +53,6 @@
 	<dict>
 		<key>Headers/TPGDTMobAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gPSEoDQMqmh9ObQtwdFU60ypymE=
-			</data>
 			<key>hash2</key>
 			<data>
 			nSRL7ifg0GvHjZncUonHzXKgfje/daMXb+6ZQJiWvPg=
@@ -64,21 +60,13 @@
 		</dict>
 		<key>Headers/TPGDTMobAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			591aHJBv3EglEWoqURq9/jQarpk=
-			</data>
 			<key>hash2</key>
 			<data>
-			n3iHkEz+sTBq3OcdNFEsUHzx7XlQDdotm5aI0RxfKuY=
+			SLms1TfvFpNhheOKKgWfTrQIGvR8SfCScKSG6mgAF5w=
 			</data>
 		</dict>
 		<key>Headers/TradPlusGDTMobAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GRG9fI4ICaaJYMsHn9Kw/NL6avA=
-			</data>
 			<key>hash2</key>
 			<data>
 			/J27+2/HqoNl/dilAzE8nHsylhkuHJ47s2FuGuilS/U=
@@ -86,10 +74,6 @@
 		</dict>
 		<key>Headers/TradPlusGDTMobBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CZ20HBUoSyGx06K4bwdmEbmx304=
-			</data>
 			<key>hash2</key>
 			<data>
 			WZf8eQrJ8B47XSDJC8Fro172Vb75Cg5xyvrXvY5mG3s=
@@ -97,10 +81,6 @@
 		</dict>
 		<key>Headers/TradPlusGDTMobInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vn54+cHut3hU74yR7yXqC7Alzac=
-			</data>
 			<key>hash2</key>
 			<data>
 			+JpStZoKSz4cpWpkVSq8SMkB0GPTGiRDUvskS1Kzn2o=
@@ -108,10 +88,6 @@
 		</dict>
 		<key>Headers/TradPlusGDTMobNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hV2/v57Hxj+HwTRwGkcg3+X6XUs=
-			</data>
 			<key>hash2</key>
 			<data>
 			yaA4rReic2E9Yrx3v/KMVCNl+GcRGydI3bvwK4U525E=
@@ -119,10 +95,6 @@
 		</dict>
 		<key>Headers/TradPlusGDTMobRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			885dJhziOKmUwWwH8YHf9nxFdfE=
-			</data>
 			<key>hash2</key>
 			<data>
 			37DyWX048Orb2HLtoNZOphwGNFRHCeM4s8xePVhAb04=
@@ -130,10 +102,6 @@
 		</dict>
 		<key>Headers/TradPlusGDTMobSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6pgJ3BmGp2TdWiQU3n+yDTAHlz4=
-			</data>
 			<key>hash2</key>
 			<data>
 			CAUsIIJ26ru3mji30FVhWfpc0ii9JpEQPlH4ntcszOc=
@@ -141,10 +109,6 @@
 		</dict>
 		<key>Headers/TradPlusGDTMobSplashAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7q2TXAyzRCdP5ksjs5i3AEz5SVE=
-			</data>
 			<key>hash2</key>
 			<data>
 			BycNRlJJweEbX6F2ipYmQy45DZyEjBAyARFC8SBvvDk=
@@ -152,10 +116,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bbkw2f98qcPFzCcatz5GPopyrWs=
-			</data>
 			<key>hash2</key>
 			<data>
 			BlRaEnK0SupKw0VNYew+a+IGWRSY8N3Z3umu8yKGLLs=

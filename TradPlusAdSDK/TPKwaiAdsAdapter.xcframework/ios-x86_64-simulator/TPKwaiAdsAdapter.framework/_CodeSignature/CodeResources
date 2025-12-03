@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPKwaiAdsAdapterBaseInfo.h</key>
 		<data>
-		ZX5EbHGqQDdDNj8/p6QOOS3DEkc=
+		n3lJBZC2IVygEnaunxz4uI4YlIA=
 		</data>
 		<key>Headers/TradPlusKwaiAdsInterstitialAdapter.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1r5VdAb0jC/HI9HYol5GfSmIf+g=
+		dxlks27eKnBg3LaK+PqC330JtNA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -37,10 +37,6 @@
 	<dict>
 		<key>Headers/TPKwaiAdsAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1ecmt9PtsAfYcvsO9CS6STEhrzo=
-			</data>
 			<key>hash2</key>
 			<data>
 			qCOxkr3/lPJ+GErfaOPv6osRgqSA9tin409Bx1lOQU8=
@@ -48,21 +44,13 @@
 		</dict>
 		<key>Headers/TPKwaiAdsAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZX5EbHGqQDdDNj8/p6QOOS3DEkc=
-			</data>
 			<key>hash2</key>
 			<data>
-			/ik0Ot6WiI3NhTetKUwDbkkkvWJGddceBJppHsPJDRg=
+			jcOAdttqA798IY+8AdXmo04EbjHR/3Ez5pMNtGgLE8E=
 			</data>
 		</dict>
 		<key>Headers/TradPlusKwaiAdsInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wst/rvpA2Dcmax4CbXmDdXGiZ54=
-			</data>
 			<key>hash2</key>
 			<data>
 			+CSXSiTkGRFE5J94H9nQh3aoeQhmy4jYYkIcabp1jos=
@@ -70,10 +58,6 @@
 		</dict>
 		<key>Headers/TradPlusKwaiAdsRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tf++ejn1rJgda0a6diGsOs0EbsE=
-			</data>
 			<key>hash2</key>
 			<data>
 			7I7+E5wA71MejsJiPRJir6tf93T4RacKSHEuZyuLmkk=
@@ -81,10 +65,6 @@
 		</dict>
 		<key>Headers/TradPlusKwaiAdsSDKLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XeaDIgsk/Xk684wSrUZ2cajnVfU=
-			</data>
 			<key>hash2</key>
 			<data>
 			sTwdrpMvMezfjGscTrvVr0wWqDHFD0868Lpn7cb8SxQ=
@@ -92,10 +72,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sKznorQOkS5bUpODEHFkzZveLhs=
-			</data>
 			<key>hash2</key>
 			<data>
 			X4Y54tmGW9/XtDjgBRCmyRLXHnBp1cEqCBYdvjFF69A=

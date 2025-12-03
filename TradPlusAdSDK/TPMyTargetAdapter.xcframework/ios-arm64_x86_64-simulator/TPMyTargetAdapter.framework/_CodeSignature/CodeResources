@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPMyTargetAdapterBaseInfo.h</key>
 		<data>
-		14NAKDuUrdIphC6zV1+h5pz6y40=
+		a1YizDARac0NYseWABNT42iWRv8=
 		</data>
 		<key>Headers/TradPlusMyTargetAdapter.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Hx/LHqlmq8oA9EyWZSN3jxz8rR8=
+		nmJWu+r60jZOI4oolx7igogyI/4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -49,10 +49,6 @@
 	<dict>
 		<key>Headers/TPMyTargetAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t/UV727QCIeNL/Guq8cH3Y8vy28=
-			</data>
 			<key>hash2</key>
 			<data>
 			YrIPh3CO24gGHvVyZ3NAVMAUWnuSWVOOIEcxG1mkCZ4=
@@ -60,21 +56,13 @@
 		</dict>
 		<key>Headers/TPMyTargetAdapterBaseInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			14NAKDuUrdIphC6zV1+h5pz6y40=
-			</data>
 			<key>hash2</key>
 			<data>
-			tMWP+WtHqkLzg/GwtyJ334RoMKVWfw/KmezsJ8VRkw8=
+			wF8HNt8buqEqJPip+/3DkneE02Y0RlXKm3vthM9NGrw=
 			</data>
 		</dict>
 		<key>Headers/TradPlusMyTargetAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sx7u2+3DmXkbtyivCB6PNzjok3U=
-			</data>
 			<key>hash2</key>
 			<data>
 			3Kmku+wYOeGVRqJ5vzvyNoVYM6QI2djWh3jIO7RmxQ0=
@@ -82,10 +70,6 @@
 		</dict>
 		<key>Headers/TradPlusMyTargetBannerAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7Che2mDlLEIiPD46WgGunRJBTQ0=
-			</data>
 			<key>hash2</key>
 			<data>
 			ythXT67gB+d+7rMpGJCRdgrL53Ge0KJW9eha4wEO8UY=
@@ -93,10 +77,6 @@
 		</dict>
 		<key>Headers/TradPlusMyTargetInterstitialAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X1xFnjVaXhQAaZjcjkfNvUTagdE=
-			</data>
 			<key>hash2</key>
 			<data>
 			t3mBUzrgcnGYJ5mBP5fGuI3Ys0+mCCevjoGn8Gz/pvY=
@@ -104,10 +84,6 @@
 		</dict>
 		<key>Headers/TradPlusMyTargetNativeAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PllY0IaT8NvyVxiCNg02TrMqurA=
-			</data>
 			<key>hash2</key>
 			<data>
 			FNaTh0nM1NBJzNKDtnuAzLIvHxkegZYmth1iewCMmAQ=
@@ -115,10 +91,6 @@
 		</dict>
 		<key>Headers/TradPlusMyTargetRewardedAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iXSZolW2GEy3chGdTnfus7e7Zq8=
-			</data>
 			<key>hash2</key>
 			<data>
 			mW5wCWM6sjgd3iq9JpqdkxoHaH5pyoqEZKoiEC+OYME=
@@ -126,10 +98,6 @@
 		</dict>
 		<key>Headers/TradPlusMyTargetSDKSetting.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3ShFZHFv+wBBhdqyqIcl0Bjp1PA=
-			</data>
 			<key>hash2</key>
 			<data>
 			O5ngBFsjQDv32axh8+rkHeK2cvDw0lrRkkRi3X2P7c4=
@@ -137,10 +105,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X8e0HrJKiF6Ev61iHHQon9bo9Co=
-			</data>
 			<key>hash2</key>
 			<data>
 			cA1PqjbStBx5Y+MhqSx0bUvWgTLJPZZTBBo0ik1pGFU=
