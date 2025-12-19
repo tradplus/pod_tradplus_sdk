@@ -1,0 +1,6 @@
+framework module TPMolocoAdapter {
+  umbrella header "TPMolocoAdapter.h"
+  export *
+
+  module * { export * }
+}
