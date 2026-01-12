@@ -1,0 +1,6 @@
+framework module TPMagniteAdapter {
+  umbrella header "TPMagniteAdapter.h"
+  export *
+
+  module * { export * }
+}

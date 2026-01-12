@@ -1,3 +1,3 @@
-#define TP_MintegralAdapter_Version @"14.9.0"
-#define TP_MintegralAdapter_PlatformSDK_Version @"7.7.9"
+#define TP_MintegralAdapter_Version @"15.0.0"
+#define TP_MintegralAdapter_PlatformSDK_Version @"8.0.4"
 
