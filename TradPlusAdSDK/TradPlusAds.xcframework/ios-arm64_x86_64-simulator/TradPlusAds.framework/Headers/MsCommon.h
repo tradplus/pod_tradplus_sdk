@@ -73,6 +73,71 @@ extern NSInteger gTPHttpTimeoutAdx;
 extern NSInteger gTPHttpTimeoutEvent;
 extern NSInteger gTPHttpTimeoutConf;
 
+// ============================================================================
+// 多线程安全的访问函数
+// ============================================================================
+
+NSString *getEventServerURL(void);
+void setEventServerURL(NSString *url);
+NSString *getEventServerV2URL(void);
+void setEventServerV2URL(NSString *url);
+NSString *getAdxEventServerURL(void);
+void setAdxEventServerURL(NSString *url);
+NSString *getCrossEventServerURL(void);
+void setCrossEventServerURL(NSString *url);
+NSString *getAdconfServerURL(void);
+void setAdconfServerURL(NSString *url);
+NSString *getCrossAdconfServerURL(void);
+void setCrossAdconfServerURL(NSString *url);
+NSString *getBiddingServerURL(void);
+void setBiddingServerURL(NSString *url);
+NSString *getRewardServerURL(void);
+void setRewardServerURL(NSString *url);
+NSString *getImpCallbackURL(void);
+void setImpCallbackURL(NSString *url);
+NSString *getTPISO(void);
+void setTPISO(NSString *iso);
+
+NSInteger getTPEncryptionMode(void);
+void setTPEncryptionMode(NSInteger mode);
+NSInteger getTPForbidMode(void);
+void setTPForbidMode(NSInteger mode);
+NSInteger getMsEventInterval(void);
+void setMsEventInterval(NSInteger interval);
+NSInteger getMsEventUPLoadMaxCount(void);
+void setMsEventUPLoadMaxCount(NSInteger count);
+NSInteger getTPHttpTimeoutCross(void);
+void setTPHttpTimeoutCross(NSInteger timeout);
+NSInteger getTPHttpTimeoutAdx(void);
+void setTPHttpTimeoutAdx(NSInteger timeout);
+NSInteger getTPHttpTimeoutEvent(void);
+void setTPHttpTimeoutEvent(NSInteger timeout);
+NSInteger getTPHttpTimeoutConf(void);
+void setTPHttpTimeoutConf(NSInteger timeout);
+
+BOOL getTPTestMode(void);
+void setTPTestMode(BOOL testMode);
+BOOL getMsSDKDebugMode(void);
+void setMsSDKDebugMode(BOOL debugMode);
+BOOL getMsSDKForceTest(void);
+void setMsSDKForceTest(BOOL forceTest);
+BOOL getMsSDKInited(void);
+void setMsSDKInited(BOOL inited);
+BOOL getMsSDKIsCN(void);
+void setMsSDKIsCN(BOOL isCN);
+BOOL getMsSDKIsCA(void);
+void setMsSDKIsCA(BOOL isCA);
+BOOL getTPOpenPersonalizedAd(void);
+void setTPOpenPersonalizedAd(BOOL open);
+BOOL getTPUploadUseTime(void);
+void setTPUploadUseTime(BOOL upload);
+BOOL getTPUploadFullMode(void);
+void setTPUploadFullMode(BOOL fullMode);
+BOOL getFirstPartyDataApi(void);
+void setFirstPartyDataApi(BOOL api);
+BOOL getTPCNServer(void);
+void setTPCNServer(BOOL cnServer);
+
 typedef enum : NSUInteger {
     TPFriendlyObstructionPurposeMediaControls,
     TPFriendlyObstructionPurposeCloseAd,

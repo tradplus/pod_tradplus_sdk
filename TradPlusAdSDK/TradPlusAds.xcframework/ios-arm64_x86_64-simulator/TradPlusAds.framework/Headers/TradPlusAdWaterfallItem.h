@@ -229,6 +229,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)NSString *creativeId;
 @property (nonatomic,assign)BOOL isCustomWin;
 
+//细分1350
+@property (nonatomic,assign)NSInteger showFailCode;
+
+
 @property (nonatomic,strong)TradPlusUnitManager *unitManager;
 
 //extraInfoDictionary key及说明

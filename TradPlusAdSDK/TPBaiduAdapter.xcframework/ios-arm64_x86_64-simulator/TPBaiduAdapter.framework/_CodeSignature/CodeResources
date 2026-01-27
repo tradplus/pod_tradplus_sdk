@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPBaiduAdapterBaseInfo.h</key>
 		<data>
-		whtP0CRGZXoA2gTxhzP+XaMIIsE=
+		5BSTHtOA4MlCZ2C58MGBkIOFNQ4=
 		</data>
 		<key>Headers/TradPlusBaiduInterstitialAdapter.h</key>
 		<data>
@@ -83,6 +83,14 @@
 		<key>baidumobadsdk.bundle/bd_dislike_unlike.png</key>
 		<data>
 		e8/EpA6DGa/5Wt0c/og+tiEZP78=
+		</data>
+		<key>baidumobadsdk.bundle/bd_feed_magnetic_sticker_middle.png</key>
+		<data>
+		hFn9vy1qKbaXc97/6S7meWR2cyI=
+		</data>
+		<key>baidumobadsdk.bundle/bd_feed_magnetic_sticker_right.png</key>
+		<data>
+		IL233e8Ut5dBIQTPmuKPkqdDnEo=
 		</data>
 		<key>baidumobadsdk.bundle/bd_int_envel_slide.png</key>
 		<data>
@@ -159,6 +167,10 @@
 		<key>baidumobadsdk.bundle/bd_mob_ad_33_3_right_bg.png</key>
 		<data>
 		ojlp46V+2F7mpGXycuSIpe7LoOo=
+		</data>
+		<key>baidumobadsdk.bundle/bd_mob_ad_bookmard_line.png</key>
+		<data>
+		1QmNoK5fdYosHPvM3Piy9GWBq/A=
 		</data>
 		<key>baidumobadsdk.bundle/bd_mob_ad_bqtlogo.png</key>
 		<data>
@@ -324,6 +336,10 @@
 		<data>
 		dxQUCDnjRxqATL928CRz9ltvdqo=
 		</data>
+		<key>baidumobadsdk.bundle/bd_splash_def.png</key>
+		<data>
+		ZQSPRfTq9SoMWcuWpDnp5SJG2FM=
+		</data>
 		<key>baidumobadsdk.bundle/bd_splash_e_commerce_bg.png</key>
 		<data>
 		ui3YAOq/Tri+TP8tilCxRMRDWTE=
@@ -410,7 +426,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dSLes2K3tfnIufFLDf4QzOU2DFqdbc0i+1ZFpAcHTdc=
+			SKG7aSqVfwFYyOZrpsiQDnIygA6XyOeY1v63g7G10/U=
 			</data>
 		</dict>
 		<key>Headers/TradPlusBaiduInterstitialAdapter.h</key>
@@ -530,6 +546,20 @@
 			<key>hash2</key>
 			<data>
 			meMtgMDWlOysJpet3BuVDtWNqD6DwRvZqlaG2GUzhx4=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_feed_magnetic_sticker_middle.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4JW2ib9Wx9iB4bBy4nIqPW5ZGvk6cioHA3S3H6THzW0=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_feed_magnetic_sticker_right.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+p5TrH2WLCxDYV6kx/1OyV8kSbfL5g6hJG6DUY3sTys=
 			</data>
 		</dict>
 		<key>baidumobadsdk.bundle/bd_int_envel_slide.png</key>
@@ -663,6 +693,13 @@
 			<key>hash2</key>
 			<data>
 			ItLsLPE/v8D/MoInaaakh15EGIYY9O6TTxEZjJ+zaA8=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_mob_ad_bookmard_line.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UU5y06IerwKZiIbiSlUvlKyzeRO2Gfq/4XQB/MzDcHA=
 			</data>
 		</dict>
 		<key>baidumobadsdk.bundle/bd_mob_ad_bqtlogo.png</key>
@@ -950,6 +987,13 @@
 			<key>hash2</key>
 			<data>
 			PfHjLc5nck6itUzgrsoSsFKXq+UQC/4CpV1dOA3Arms=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_splash_def.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/Ow+uBwo5LA5pt1egerO5SeqVlH6tUcPF153kP1cOKM=
 			</data>
 		</dict>
 		<key>baidumobadsdk.bundle/bd_splash_e_commerce_bg.png</key>
