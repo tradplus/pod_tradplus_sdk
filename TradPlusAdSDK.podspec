@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusAdSDK"
-  spec.version      = "15.1.0"
+  spec.version      = "15.2.0"
   spec.summary      = "TradPlusAd SDK"
   spec.description  = <<-DESC
             "A short description of TradPlusAd SDK for iOS.
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TradPlusAds.xcframework'
      ss.resources = ['TradPlusAdSDK/TradPlusAds.bundle']
-     ss.dependency 'TPExchange', '13.8.40'
+     ss.dependency 'TPExchange', '13.8.50'
   end
 
   spec.subspec 'NoneTPExchange' do |ss|
