@@ -6,7 +6,7 @@
 	<dict>
 		<key>AdsGlobalSDK.bundle/Info.plist</key>
 		<data>
-		DzmDfKt/alektIlKUosJVzYBJh8=
+		NNQjx+gUrO+7T0YYzth4BLJRDqk=
 		</data>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPPangleAdapterBaseInfo.h</key>
 		<data>
-		jgiG7YLDzDMKyTm0rmfeMDg0awA=
+		G+nWxjbqwutjLeG6mq7bBvEBBg4=
 		</data>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RrxyNgfuk4rlDqyoG3CzTLhG9Ig=
+		Dye+9gcWSTx4MmNelcvQAtBoT20=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<data>
-		GT+IOF6lujo/fyhKO49I53jxu2U=
+		Ih0CxVAKkG5kzYI27X8Xf7c7LuI=
 		</data>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		RxzWhspmbBj8p3+HmTaecGDeIUg=
+		+2a3jaUbvvZIktRS/T4Jt1vcQ5k=
 		</data>
 		<key>TikTokBusinessSDK.bundle/Info.plist</key>
 		<data>
-		zGB/71xMP8PdY/HjwURBrGCazWw=
+		wHS89E6QZWa7XTD0z7ABeG0dLQk=
 		</data>
 		<key>TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZblYuGwP89FUUnxC5SypxAumNTL/mfj3MOPDM8peTpc=
+			eCfcrGURdsnj622PGd5J+Xpw5EFOmxdSHONeBfTI6pI=
 			</data>
 		</dict>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -156,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WWaT4HNqn5jda25g2COKRQkA/H68e/99cHfrKxQnctc=
+			iK+NIIoxik5VIClHl/JRllS5n4O19RBpL/eJ2Pyx+vg=
 			</data>
 		</dict>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
@@ -303,7 +303,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tIJ9p7TTGJVc+M8CINVovVF0B0cnmCauLlaMHATegyY=
+			AYEfHWrrSCpYqJbJPNOya1o8oZ/zAMJeX3IKg6xTC2I=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -324,14 +324,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eDzjgxp8J0+sa9UN5umsdWVtBiZoEDCw0qfYUMKc/lM=
+			lDaSIDc2QRfqOnBKICHXt8xaEEpdEGmk3PlC9GULWL4=
 			</data>
 		</dict>
 		<key>TikTokBusinessSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N5YRIIUkfsPerVOoy1fP/vksZVBRicrJSA+R/KFzp2Y=
+			ioZ2ZYblxVm2J5YAd/AmWKhVNwlzbfpBEG7YYzyTkOA=
 			</data>
 		</dict>
 		<key>TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>

@@ -73,6 +73,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+static inline NSDictionary *TPBuildVideoConfigWithRewardDedupId(NSDictionary * _Nullable videoConfig) {
+    NSMutableDictionary *mutableConfig = [[NSMutableDictionary alloc] initWithDictionary:videoConfig ?: @{}];
+    mutableConfig[@"reward_dedup_id"] = [[NSUUID UUID] UUIDString];
+    return [mutableConfig copy];
+}
+
 #pragma mark -
 
 @interface TPFullscreenAdAdapter (TPAdContainerViewDelegate) <TPAdContainerViewDelegate>

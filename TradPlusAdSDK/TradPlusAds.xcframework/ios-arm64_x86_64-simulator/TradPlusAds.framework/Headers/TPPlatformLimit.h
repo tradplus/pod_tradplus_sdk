@@ -71,6 +71,7 @@ typedef enum : NSUInteger
     TPPlatformID_VivoAds = 78,
     TPPlatformID_OppoAds = 79,
     TPPlatformID_HONOR = 80,
+    TPPlatformID_AppBroda = 84,
 } TPPlatformID;
 
 @interface TPPlatformLimit : NSObject

@@ -6,7 +6,7 @@
 	<dict>
 		<key>BigoADS.bundle/Info.plist</key>
 		<data>
-		gsRGtuVCoU3Gb4nlWT28UcFJPA0=
+		pfKcG2sVuY4yw+C4RnNZxs+5s3Q=
 		</data>
 		<key>BigoADS.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>BigoADSRes.bundle/Info.plist</key>
 		<data>
-		V4uAgd5f219BYaSeOBoDc3CfVaM=
+		STOE4FeVHcSnTvhXqnbewYpLZIk=
 		</data>
 		<key>BigoADSRes.bundle/ar.lproj/BGNativeAd.strings</key>
 		<dict>
@@ -56,6 +56,10 @@
 		<key>BigoADSRes.bundle/bigo_ad_click_guide_landscape.png</key>
 		<data>
 		CcFVmLqcX6bhtEod49jfuxJZfeI=
+		</data>
+		<key>BigoADSRes.bundle/bigo_ad_click_guide_shadow.png</key>
+		<data>
+		0XXGTiVSpz5tUORYRfs4DqYhaw0=
 		</data>
 		<key>BigoADSRes.bundle/bigo_ad_default_base_image.jpg</key>
 		<data>
@@ -318,6 +322,54 @@
 		<data>
 		CZSuGkWhQEBSPwJFf4QDCxGeh28=
 		</data>
+		<key>BigoADSRes.bundle/ic_web_back@2x.png</key>
+		<data>
+		tgnJ4Uson/3KJ5mZz7rCSORdlEY=
+		</data>
+		<key>BigoADSRes.bundle/ic_web_back@3x.png</key>
+		<data>
+		Di9dk6vgOG0ebvA2VNwRsh4t2PI=
+		</data>
+		<key>BigoADSRes.bundle/ic_web_copy@2x.png</key>
+		<data>
+		yJ5VThh5fH4dcNmNKroJ+pFiEq0=
+		</data>
+		<key>BigoADSRes.bundle/ic_web_copy@3x.png</key>
+		<data>
+		L8pFx6F2y+W98w4Rfg8uIoBcJ3Y=
+		</data>
+		<key>BigoADSRes.bundle/ic_web_forward@2x.png</key>
+		<data>
+		onm+uzJ1gUgaeRxBxAG1fFxeZII=
+		</data>
+		<key>BigoADSRes.bundle/ic_web_forward@3x.png</key>
+		<data>
+		GYJzuDQkLyxQx/A1JPPJuJoPyGk=
+		</data>
+		<key>BigoADSRes.bundle/ic_web_global@2x.png</key>
+		<data>
+		Hvve1H0jwXY+fLfMF3Crz6saZZo=
+		</data>
+		<key>BigoADSRes.bundle/ic_web_global@3x.png</key>
+		<data>
+		ofwUco2t9VwIp0Y5YuIIWVaZ6QI=
+		</data>
+		<key>BigoADSRes.bundle/ic_web_refresh@2x.png</key>
+		<data>
+		G2+ZzqJE8HE96HokPv30ycrZKkM=
+		</data>
+		<key>BigoADSRes.bundle/ic_web_refresh@3x.png</key>
+		<data>
+		nbnOSRFg44ISNNmJStLEgIxy9FI=
+		</data>
+		<key>BigoADSRes.bundle/ic_websafe@2x.png</key>
+		<data>
+		s0dyPuJYhUuSysS2U9Tcc9yxDC4=
+		</data>
+		<key>BigoADSRes.bundle/ic_websafe@3x.png</key>
+		<data>
+		I7HVbhyTupRJyYyPmUOO193WxHw=
+		</data>
 		<key>BigoADSRes.bundle/it.lproj/BGNativeAd.strings</key>
 		<dict>
 			<key>hash</key>
@@ -365,7 +417,7 @@
 		</dict>
 		<key>BigoADSRes.bundle/mraid.js</key>
 		<data>
-		mxzp7jbJlzGjSByMy4CoyTFS24k=
+		pX1JRrsLuzvd2FSfqfzQ2P9VCDg=
 		</data>
 		<key>BigoADSRes.bundle/ms.lproj/BGNativeAd.strings</key>
 		<dict>
@@ -502,7 +554,7 @@
 		</data>
 		<key>Headers/TPBigoAdapterBaseInfo.h</key>
 		<data>
-		29jSntrJ9urpoVVi+TZZQft+KzA=
+		hr/WgihZPny0a5EsShi9OE3PPXo=
 		</data>
 		<key>Headers/TradPlusBigoBannerAdapter.h</key>
 		<data>
@@ -530,7 +582,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ofK3Bwtm2INs31ORnitx8fIqcD8=
+		zY/cn0Z0gflSTc0/drBQSKxWN6c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -543,7 +595,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SPGhJOeyhzH6OY3foq/k+RBlM+i1hMUwKD/39Y0CNbk=
+			g2tWea9XGlMwykDgq+V4svjSsbFojrbo5wgPx8GqE3Y=
 			</data>
 		</dict>
 		<key>BigoADS.bundle/PrivacyInfo.xcprivacy</key>
@@ -557,7 +609,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NW45EQydKd/CfvOgG/KMKUCiwdMdZsXiUlr6lK5Oc1o=
+			gayf0IErs1wz2dm08WsPHxGRUDGwdGtEsDgv33uC79M=
 			</data>
 		</dict>
 		<key>BigoADSRes.bundle/ar.lproj/BGNativeAd.strings</key>
@@ -623,6 +675,13 @@
 			<key>hash2</key>
 			<data>
 			+zZnp3bnZY+WVMYBRfSy9C2skt81PvDJu+Tg9HkLAI4=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/bigo_ad_click_guide_shadow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VZo+lBRfBQdA/8LYkqMl2vmBhmrIopwdTtsN/Ak3ZQw=
 			</data>
 		</dict>
 		<key>BigoADSRes.bundle/bigo_ad_default_base_image.jpg</key>
@@ -1021,6 +1080,90 @@
 			oDwe33ELIa3YF1/Crkbq3k2X7q3yKBiu0x9Z2L+7nIU=
 			</data>
 		</dict>
+		<key>BigoADSRes.bundle/ic_web_back@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U/HULGv/ytvZMZ9Jk1dyYWaZhzzbjwYv0OaHP+2OqNg=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/ic_web_back@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bY0bRW3gw6j0qdufLmz3/8DWYrgZnbZgpFLAJCh8Uvo=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/ic_web_copy@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W0/+9bvO8wH3gYyN450BdTdFG3x9hJ+Uq+x7GfQnb2o=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/ic_web_copy@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XskFdnPwvRh9XsvwHBh8i79cpXG4DPHHTG3ReRrhMPI=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/ic_web_forward@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6nmFkChcuTJQPh9pDPGJrCDxG3bQdkShX4qnuwXdgtA=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/ic_web_forward@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ez5K1lYvkEpsOl/BpwsK7P+RAjlRjs3VQbA0P7Rk0jk=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/ic_web_global@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FbtZKOnvqbmphLu0vpLZhpXOigNYMmvqrlGRG04A1WY=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/ic_web_global@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nQ2V4gZQa0YmyVedWKB+2PGjdlmDb30dCGkgdYgIGh8=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/ic_web_refresh@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aIwVH4oR0kaY9aDShnkcVYEoORNsUnZJYwfud+vC7+o=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/ic_web_refresh@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lQhPFRNKSn7E9/zXigswChdJX+9Kz0cjWf1GUtO83ig=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/ic_websafe@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xq7DolBmXIZlBv8WWntgr3rhbDUnavg0YOGiCd2c3qY=
+			</data>
+		</dict>
+		<key>BigoADSRes.bundle/ic_websafe@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AHvPbTPVxJfKqTUw5CarKA/w7AJlVT+BMRV4DuJ45cU=
+			</data>
+		</dict>
 		<key>BigoADSRes.bundle/it.lproj/BGNativeAd.strings</key>
 		<dict>
 			<key>hash2</key>
@@ -1070,7 +1213,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yYDbn7gqO2kA8mJ2eZulUiL9KlzNLWe1OzRlolBuz90=
+			FuP2QR9n9zMM2WORE6Re64eZ5gY2Wuy+8FQaA8mISNA=
 			</data>
 		</dict>
 		<key>BigoADSRes.bundle/ms.lproj/BGNativeAd.strings</key>
@@ -1222,7 +1365,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D28SgTCzG2BbLOTdOiRe4RVHaM6eGeaqmOU47fKpdsc=
+			5r6m/Y58dtX1kpDEEXnuYVIuQIPvKRab56BX83Lu4c8=
 			</data>
 		</dict>
 		<key>Headers/TradPlusBigoBannerAdapter.h</key>
