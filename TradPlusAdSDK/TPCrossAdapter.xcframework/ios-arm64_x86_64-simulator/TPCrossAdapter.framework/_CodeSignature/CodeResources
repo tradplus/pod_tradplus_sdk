@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/TPAdContainerView.h</key>
 		<data>
-		RghVy+5bYAnteMZ55z7fHurS83c=
+		/u+U0A+I0FJi+mfSRbtl9ZyG00Y=
 		</data>
 		<key>Headers/TPAdViewConstant.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Headers/TPCrossAdapterBaseInfo.h</key>
 		<data>
-		D+Gn9yczPvXdLhIdqI5bSUQyw8k=
+		n1AmOWJ+4HZFPJ7Kqiu2mr9TwIs=
 		</data>
 		<key>Headers/TPCrossBannerAdapter.h</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Headers/TPFullscreenAdAdapter+Private.h</key>
 		<data>
-		Dh49R/0kmV61+6ZsFuulZnuI/Iw=
+		9HBCKyuuW8aoxZ7l0zwoEo7dprU=
 		</data>
 		<key>Headers/TPFullscreenAdAdapter+Splash.h</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>Headers/TPVideoPlayerView.h</key>
 		<data>
-		/PDxXtW6YYxrpFpdYtBWp5WNe24=
+		rXscoXhy5h2kDJzRY5i9DzuMRLg=
 		</data>
 		<key>Headers/TPViewADLogo.h</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OVOj19lL16T1hQi1pNkA33cmE00=
+		kE70zDK0Lq3ojqXt4yN8pq3waN8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -348,7 +348,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zvDoSj9mc0Ow6WYBbCdk02PtgII+dESmqdWdKViPA7M=
+			DlqMKRSCfq/xKhDSq6QVpgk0pni+fz/55QBh29CGzwo=
 			</data>
 		</dict>
 		<key>Headers/TPAdViewConstant.h</key>
@@ -404,7 +404,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/upEjPCs8rQ9Aq9KzyDTrtlhBgxoVMdmIJIFhJpZKYM=
+			YZKjuzCnl0LyisPWCuH1w8gg9e8mYQu3AJmfZRMCdMM=
 			</data>
 		</dict>
 		<key>Headers/TPCrossBannerAdapter.h</key>
@@ -509,7 +509,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WuivDceEj3pDGR88xxfe6l1Gyp4N6JFdfZ8x4akuL9Y=
+			ipyEuT2Tz0u7NmdRzYKpzsU3HB4K0PsX5JxWXjzfnBg=
 			</data>
 		</dict>
 		<key>Headers/TPFullscreenAdAdapter+Splash.h</key>
@@ -607,7 +607,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GjKf+E3pnkYZU8259IWPK6WDUjMhyH07lBXIuDKiomY=
+			u/HYpDahzKQU9pokGAghv/Tkb21244ZdMmDYoNuq890=
 			</data>
 		</dict>
 		<key>Headers/TPViewADLogo.h</key>

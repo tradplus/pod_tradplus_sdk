@@ -36,6 +36,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isUserRewarded;
 
 @property (nonatomic, strong) TPFullscreenAdViewController * _Nullable viewController; // set to nil after dismissal
+/// Snapshot of `adContainerView.isVideoFinished` at dismiss (6700 `IsVideoFinish`: 1 否 / 2 是).
+@property (nonatomic, assign) BOOL lastDismissalIsVideoFinished;
 
 #pragma mark - (TPAdAdapter) Properties
 
@@ -72,12 +74,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)trackImpression;
 
 @end
-
-static inline NSDictionary *TPBuildVideoConfigWithRewardDedupId(NSDictionary * _Nullable videoConfig) {
-    NSMutableDictionary *mutableConfig = [[NSMutableDictionary alloc] initWithDictionary:videoConfig ?: @{}];
-    mutableConfig[@"reward_dedup_id"] = [[NSUUID UUID] UUIDString];
-    return [mutableConfig copy];
-}
 
 #pragma mark -
 

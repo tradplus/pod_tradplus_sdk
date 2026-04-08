@@ -14,7 +14,7 @@ typedef enum : NSUInteger
 {
     TPPlatformID_Meta = 1,
     TPPlatformID_Admob = 2,
-    TPPlatformID_AdColony = 4,
+    TPPlatformID_Reserved4 = 4,
     TPPlatformID_UnityAds = 5,
     TPPlatformID_Tapjoy = 6,
     TPPlatformID_Liftoff = 7,

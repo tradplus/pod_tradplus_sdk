@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary *videoConfig;
 
 - (void)skipToEnd;
+/// Seeks to `seconds` (clamped to item duration when known). `completionHandler` is invoked on an arbitrary queue.
+- (void)seekToTimeSeconds:(NSTimeInterval)seconds completionHandler:(void (^ _Nullable)(BOOL finished))completionHandler;
 - (void)playerMute:(BOOL)mute;
 
 @end

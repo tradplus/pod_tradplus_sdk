@@ -43,6 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSUInteger adIndex;
 @property (nonatomic, assign, readonly) NSTimeInterval countdownTimeForCurrentAdIndex;
+@property (nonatomic, assign, readonly) NSTimeInterval trackedVideoProgress;
 
 
 @property (nonatomic, readonly) BOOL wasTapped;

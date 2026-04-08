@@ -1,5 +1,5 @@
 //
-//  TradPlusAdColonySDKLoader.h
+//  TradPlusKidozSDKLoader.h
 //  TestSDKInit
 //
 //  Created by xuejun on 2021/10/12.
