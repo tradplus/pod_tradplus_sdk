@@ -142,7 +142,7 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
 /// @param adSourcePlacementId adInfo返回的adSourcePlacementId
 + (void)sendWinOrDisplayNotification:(NSString *)placementId winPrice:(NSString *)winPrice secondPrice:(NSString *)secondPrice adSourcePlacementId:(NSString *)adSourcePlacementId;
 
-///自定义发送Loss通知
+///自定义发送Loss通知（暂未实现）
 /// @param placementId TradPlus广告位ID
 /// @param winPrice 胜出价，必须大于0
 /// @param secondPrice 二价，可选

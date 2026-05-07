@@ -6,7 +6,7 @@
 	<dict>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		CnwdKMgcR7IKsNXKywnEo1yTWQ0=
+		tP1pw/mgwF+F98WitrSrdm5NE1c=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -389,7 +389,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		z7KyB/eNk43qtqpy9vxmCOADqLw=
+		Ap9eg62nr814AWC/UoLNuBRN1kE=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -415,7 +415,7 @@
 		</data>
 		<key>Headers/TPCSJAdapterBaseInfo.h</key>
 		<data>
-		WqpYx2+ZVaXNfAOneKY8uZ0mOjc=
+		dCP65LPxRRF8zfW7yLVhEyp7wc0=
 		</data>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
 		<data>
@@ -447,7 +447,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MdRFj7gtMQh1wqEnpNtuDFUAEYY=
+		vnO5T8zv7NGzPclSpeeoy/k9OvM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -460,7 +460,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9HpaRtgqa8ndupCK+vILWQOHWAhgjHcIEYiulgRsquw=
+			Zo9PIxTWj6sS7Us+WT92nsWt+CbAiCVvrjKHuFa5GkE=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -1110,7 +1110,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Y5sACrl5msMGRvQ9E05hNXJRP0TpM1h3TjkpoVB3Xw=
+			FIgkXo5q95YqwC1GXEKfSmi5yE9nV6t+NW+hjQPQ4rc=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1142,7 +1142,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2LP8YV5rGoAlNe7J2TKCypRxDA6O1YtGqgmQKCuCVmk=
+			CsBArGnwjTOGBJAdg5xYVNTKrBw/0rLrdwlDQLN+WF8=
 			</data>
 		</dict>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
