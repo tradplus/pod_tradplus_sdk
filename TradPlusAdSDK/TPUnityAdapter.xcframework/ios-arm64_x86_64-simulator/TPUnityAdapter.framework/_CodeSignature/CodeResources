@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPUnityAdapterBaseInfo.h</key>
 		<data>
-		n18ZcqcVNdjK0NrGkGGp8cwluKo=
+		1hOoFZPvztqUAmplGHQLgGXbL1U=
 		</data>
 		<key>Headers/TradPlusUnityBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1a8limtOwgplmxllH8iXPOozFbU=
+		hxEuckYywF30/e1egAFP3YLlgPU=
+		</data>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
+		<data>
+		ixKhXtA/vw/SEf4lLedlHdUGR74=
+		</data>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		l2ZduCvSJbNtPnHg+4cAbLgDbyQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,7 +46,7 @@
 		</data>
 		<key>UnityAdsResources.bundle/Info.plist</key>
 		<data>
-		TlHpOb+u6RZxgmvG7hutzRpdHro=
+		zmC827kJM7Of3/3CK+sEbuU1Nac=
 		</data>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -66,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QNyKtNDryKAZVZymV7uIxdv2wybD9tIEW3BUaLkBhcI=
+			ZmAxyqLDcSYgBeDNXIJMbgvbJMI2dVjuOy7siBEDydg=
 			</data>
 		</dict>
 		<key>Headers/TradPlusUnityBannerAdapter.h</key>
@@ -97,6 +105,20 @@
 			MSiAQPO8B+juaS7MT8BVnWWHnfhv7O0VMcTtwfEimqE=
 			</data>
 		</dict>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UqBQku+TZCX+3OEn2L2hOdhlu+oW0r4DmcR3A1O+inA=
+			</data>
+		</dict>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r2z7AqVxBGjN8OndNxmPkrvnp5Bc0eybVPrs5UKShZ8=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
@@ -108,7 +130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gms7F0+yIrSamJVpySmMcvt1id6g9uQP/l1/qAaLY8Q=
+			Pp5s5TBL5lJetZanFy/FPb3eoFwFPAxMx9sXAdzFChg=
 			</data>
 		</dict>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>

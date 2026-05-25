@@ -64,6 +64,7 @@ extern NSString * const kTPRendererAutoLayout;
 - (void)AdClose;
 - (void)AdShowFailWithError:(NSError *)error;
 - (void)showFinish;
+- (void)AdBannerSizeDidChange:(CGSize)size;
 - (void)AdRewardedWithInfo:(NSDictionary *)info;
 //再看一次奖励回调
 - (void)AdPlayAgainRewardedWithInfo:(NSDictionary *)info;

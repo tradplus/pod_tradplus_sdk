@@ -137,6 +137,11 @@ NS_ASSUME_NONNULL_BEGIN
 ///三方关闭按钮触发时的回调
 - (void)tpBannerAdClose:(NSDictionary *)adInfo;
 
+///Banner 广告展示尺寸变化回调，适用于 SDK 检测到 Banner 尺寸变化的场景。
+///该回调主要用于 GAM 多尺寸 validAdSizes 返回实际广告尺寸后，开发者根据 size 更新 TradPlusAdBanner 的 frame，避免展示不全或留白。
+///如业务没有动态调整 Banner 容器尺寸的需求，可无需实现。
+- (void)tpBannerAdSizeDidChange:(CGSize)size adInfo:(NSDictionary *)adInfo;
+
 ///以下回调接口已废弃v7.6.0+
 - (void)tpBannerAdBidEnd:(NSDictionary *)adInfo success:(BOOL)success DEPRECATED_MSG_ATTRIBUTE("Please use tpBannerAdBidEnd:error:");
 - (void)tpBannerAdLoadStart:(NSDictionary *)adInfo DEPRECATED_MSG_ATTRIBUTE("Please use tpBannerAdOneLayerStartLoad:");

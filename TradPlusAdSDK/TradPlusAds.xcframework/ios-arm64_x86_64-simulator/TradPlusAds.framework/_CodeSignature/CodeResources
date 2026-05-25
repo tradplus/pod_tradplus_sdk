@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MSConstants.h</key>
 		<data>
-		b9DCGli9tx0+HxOUDn6IZoVEgxU=
+		+GXJLiz7n4QuFwajAGbHKTtKG0Q=
 		</data>
 		<key>Headers/MSDiskLRUCache.h</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Headers/TradPlusAdBanner.h</key>
 		<data>
-		ky5qYyeacCLQtXQm71sPRzU73Es=
+		kDFvo5gP5kiV099sF6jLugOAkDc=
 		</data>
 		<key>Headers/TradPlusAdCacheManager.h</key>
 		<data>
@@ -314,7 +314,7 @@
 		</data>
 		<key>Headers/TradPlusBaseAdapter.h</key>
 		<data>
-		C0fzpVwE8L7qETHKXSR/cl3edwQ=
+		8jY11u45v/Kdl1FvTKfJfViFryE=
 		</data>
 		<key>Headers/TradPlusBiddingManager.h</key>
 		<data>
@@ -458,7 +458,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IyinElSaEGcQPuDsmmzwTtGCsE0=
+		+eE8cFDH2WJOElJ6QZgAa6D2LXs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -478,7 +478,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1r0rpNTQ/Bsi64gvmKiztq3ajnP25yX92hfDrKvVm8U=
+			2yko7y7PxalrjehDf/6cZV9nh7cawU3vdbTWV3oOWuQ=
 			</data>
 		</dict>
 		<key>Headers/MSDiskLRUCache.h</key>
@@ -793,7 +793,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ffYPDz20Gj5J4depoBv/x09gjIo0F0c2Eo1Bobbm1Aw=
+			55CGuAllSU7qlxAx791F6RA/oJk/IVO0HExToupPZ2Q=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdCacheManager.h</key>
@@ -1010,7 +1010,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6W/BJCa0rz8n3zrf3BWjVPPYqrJMRlL5uRT90IK/ens=
+			XSjChEf+Qg+KcaDeNhPvSSZKJ5kyho1RFZLkHm6CcEk=
 			</data>
 		</dict>
 		<key>Headers/TradPlusBiddingManager.h</key>

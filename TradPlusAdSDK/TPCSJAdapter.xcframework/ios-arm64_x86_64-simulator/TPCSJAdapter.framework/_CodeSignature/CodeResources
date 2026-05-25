@@ -6,7 +6,7 @@
 	<dict>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		tP1pw/mgwF+F98WitrSrdm5NE1c=
+		A0rJZUa1ZqfPoSeNgYsMeD9acx8=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -325,28 +325,6 @@
 		<data>
 		/5uVpY+9lZYxdf8asLfRkwicqcM=
 		</data>
-		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qxEpD88EdP3jCqmkUQPRxbnZDso=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>CSJAdSDK.bundle/ko.lproj/BULanguage.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JJVEwIiZN6xkVN4bhVevDm315RQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>CSJAdSDK.bundle/setup.txt</key>
-		<data>
-		ZM3A57y/v18OGzuvfRFEJO3U2Co=
-		</data>
 		<key>CSJAdSDK.bundle/shake_phone.json</key>
 		<data>
 		C33gzoljYSCSNbpr4AKagxS76U4=
@@ -389,7 +367,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		Ap9eg62nr814AWC/UoLNuBRN1kE=
+		pExZKMZxv4Na/FxwpyOTWzGEj+U=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -415,7 +393,7 @@
 		</data>
 		<key>Headers/TPCSJAdapterBaseInfo.h</key>
 		<data>
-		dCP65LPxRRF8zfW7yLVhEyp7wc0=
+		6hXI/haGB7ZPTFE91UBrJvHNuvg=
 		</data>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
 		<data>
@@ -447,7 +425,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vnO5T8zv7NGzPclSpeeoy/k9OvM=
+		INoNwg/keNOr88S16sSVFs+503E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -460,7 +438,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zo9PIxTWj6sS7Us+WT92nsWt+CbAiCVvrjKHuFa5GkE=
+			Yo3h6mShCPpz0VyN8DC5blj03i/ZWaDjyLFQ8jsVkWU=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -1011,31 +989,6 @@
 			fEFQMUuHScRxgdE9MaLc2W2aqqdyFA1fWRuiSSsotG4=
 			</data>
 		</dict>
-		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Rp7MbldY80sDrDjqk7tBuDVikjvA846roBZ282VRgT4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>CSJAdSDK.bundle/ko.lproj/BULanguage.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pdZfm0+eu6A56GiYerScLe/+cVISLuGW3ppPbnPxz3U=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>CSJAdSDK.bundle/setup.txt</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vM2IxdHZV33CH67WhjzFydq4IsFZFtzRed5nq4T+8Dg=
-			</data>
-		</dict>
 		<key>CSJAdSDK.bundle/shake_phone.json</key>
 		<dict>
 			<key>hash2</key>
@@ -1110,7 +1063,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FIgkXo5q95YqwC1GXEKfSmi5yE9nV6t+NW+hjQPQ4rc=
+			ZdY0cBy7QFgKNxcMfIaZo+PQWThmKzSjMoJH/WI48lI=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1142,7 +1095,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CsBArGnwjTOGBJAdg5xYVNTKrBw/0rLrdwlDQLN+WF8=
+			nS40bRI4aHcWkCs07N+f2QIyj7uAyOt3WtZwOie57O4=
 			</data>
 		</dict>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
