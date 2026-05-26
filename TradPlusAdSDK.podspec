@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TradPlusAds.xcframework'
      ss.resources = ['TradPlusAdSDK/TradPlusAds.bundle']
-     ss.dependency 'TPExchange', '13.8.70'
+     ss.dependency 'TPExchange', '13.8.60'
   end
 
   spec.subspec 'NoneTPExchange' do |ss|
