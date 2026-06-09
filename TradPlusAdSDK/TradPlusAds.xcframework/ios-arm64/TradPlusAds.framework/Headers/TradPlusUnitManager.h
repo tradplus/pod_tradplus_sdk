@@ -178,6 +178,20 @@
 
 @property (nonatomic,assign)BOOL noBidMode;
 @property (nonatomic,assign)BOOL isSharedPool;
+@property (nonatomic,assign)BOOL isSmartStrategySubUnit;
+@property (nonatomic,assign)BOOL disableSharedPool;
+@property (nonatomic,assign)NSInteger smartStrategyFunnelIndex;
+@property (nonatomic,copy)NSString *smartStrategySource;
+@property (nonatomic,copy)NSString *smartStrategyParentAdunitId;
+@property (nonatomic,copy)NSString *smartStrategyChildAdunitId;
 @property (nonatomic,strong)TradPlusWaitingPool *waitingPool;
 @property (nonatomic,strong)TradPlusGroupManager *groupManager;
+
+- (void)configureSmartStrategyUnitManager:(TradPlusUnitManager *)unitManager funnelIndex:(NSInteger)funnelIndex adUnitId:(NSString *)adUnitId;
+- (void)smartStrategyFireFirstLoadedWithItem:(TradPlusAdWaterfallItem *)item;
+- (void)smartStrategyFireAllLoadedWithSuccess:(BOOL)success requestId:(NSString *)requestId;
+- (void)smartStrategyFireLoadFailWithError:(NSError *)error;
+- (void)smartStrategyFinishLoadWithSuccess:(BOOL)success;
+- (void)smartStrategyUploadLoadResultWithSuccess:(BOOL)success code:(NSInteger)code loadedCount:(NSInteger)loadedCount requestId:(NSString *)requestId;
+- (void)smartStrategyUploadLoadEventWithCode:(NSInteger)code;
 @end

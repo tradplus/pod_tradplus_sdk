@@ -22,6 +22,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,copy)NSString *placementID;
 @property (nonatomic,copy)NSString *true_adunit_id;
+@property (nonatomic,assign)BOOL isSmartStrategyItem;
+@property (nonatomic,assign)NSInteger funnel_index;
+@property (nonatomic,copy)NSString *funnel_adunit_id;
+@property (nonatomic,copy)NSString *smart_strategy_source;
+@property (nonatomic,copy)NSString *parent_adunit_id;
+@property (nonatomic,copy)NSString *child_adunit_id;
 ///三方渠道id
 @property (nonatomic,assign)NSInteger id;
 ///频次限制

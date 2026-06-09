@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MSConstants.h</key>
 		<data>
-		+GXJLiz7n4QuFwajAGbHKTtKG0Q=
+		/3jfH9avy+XgNncGKlXyXt+mOF0=
 		</data>
 		<key>Headers/MSDiskLRUCache.h</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Headers/TradPlusAdConfModel.h</key>
 		<data>
-		fUlBuKmh/eTxuOSzn+wkGrETFBI=
+		+A9rjCnN0O/WI099YVQnOzEdvAk=
 		</data>
 		<key>Headers/TradPlusAdCustomVideoPaster.h</key>
 		<data>
@@ -278,7 +278,7 @@
 		</data>
 		<key>Headers/TradPlusAdWaterfallItem.h</key>
 		<data>
-		fmI88mHj/80xJmEQ6QbpcbUY0Pw=
+		woXa/2GKEB8w7tFG3657WaiZcCk=
 		</data>
 		<key>Headers/TradPlusAdapterProtocol.h</key>
 		<data>
@@ -424,6 +424,10 @@
 		<data>
 		AOeDKWRHZ8dMyPpRjAqHcZVxEHU=
 		</data>
+		<key>Headers/TradPlusSmartStrategyPool.h</key>
+		<data>
+		g0G0KN8GyFb4sWvaNclObhbpYuw=
+		</data>
 		<key>Headers/TradPlusUID2Info.h</key>
 		<data>
 		JY7h/ZaJB7x0WPIcIEbT24WUzj4=
@@ -438,7 +442,7 @@
 		</data>
 		<key>Headers/TradPlusUnitManager.h</key>
 		<data>
-		T4CuTkapIyNYWUsb92wr4uMF70w=
+		jHnV5cM0O4HzrZVazLSodiy/Lw8=
 		</data>
 		<key>Headers/TradPlusUseTime.h</key>
 		<data>
@@ -458,7 +462,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+eE8cFDH2WJOElJ6QZgAa6D2LXs=
+		GNAnQefs9c8MGpvNtxzJHi5aM3g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -478,7 +482,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2yko7y7PxalrjehDf/6cZV9nh7cawU3vdbTWV3oOWuQ=
+			1040Fh4ISYhy2Gc5Z+eRfqRgyVSeoruLlbVV8NGTvxM=
 			</data>
 		</dict>
 		<key>Headers/MSDiskLRUCache.h</key>
@@ -814,7 +818,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N9v6swVMMm9TIxPmNn/E5W6LrLYb5ib7ErfylAGSo6c=
+			MFwHur3TNTdikJEcQyt3fxsiOQCaiikeAh2LdrVr0vE=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdCustomVideoPaster.h</key>
@@ -947,7 +951,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R4sz8SMC83zmGfyheP7fcjHEUFmGGizvE+gGtXsh0JE=
+			SzoVO074VchkTG3QjdrE38V9gs88psvF/+NEa/ITeBE=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdapterProtocol.h</key>
@@ -1202,6 +1206,13 @@
 			nFWieniq+D05/f4nWbfPc6LY6dAVABHXpZ5GOHgtsqU=
 			</data>
 		</dict>
+		<key>Headers/TradPlusSmartStrategyPool.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			94F8ghlAuM6AXaf0hyfjhH+dSUhipnTL2Z4u/OvdTwI=
+			</data>
+		</dict>
 		<key>Headers/TradPlusUID2Info.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1227,7 +1238,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			reSDmkL7e8IIl6NInCHmHyzSDzKMb99ypHLr3aN5Y/Y=
+			MenGEyC7/j0YhPT05vDlqPkGkyegOdIIYcb7Us85Gw0=
 			</data>
 		</dict>
 		<key>Headers/TradPlusUseTime.h</key>

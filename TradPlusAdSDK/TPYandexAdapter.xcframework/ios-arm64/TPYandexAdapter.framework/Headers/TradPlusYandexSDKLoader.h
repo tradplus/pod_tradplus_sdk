@@ -1,11 +1,17 @@
 #import <Foundation/Foundation.h>
 #import <TradPlusAds/TPSDKLoaderDelegate.h>
 
+@class YMAAdRequest;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TradPlusYandexSDKLoader : NSObject
 
 + (TradPlusYandexSDKLoader *)sharedInstance;
++ (NSString *)yandexSDKVersionString;
++ (YMAAdRequest *)adRequestWithAdUnitID:(NSString *)adUnitID
+                            biddingData:(nullable NSString *)biddingData
+                             parameters:(nullable NSDictionary<NSString *, NSString *> *)parameters;
 - (void)initWithDelegate:(nullable id <TPSDKLoaderDelegate>)delegate;
 
 @property (nonatomic,assign)BOOL didInit;

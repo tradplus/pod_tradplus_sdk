@@ -108,4 +108,10 @@
 //共享广告位是否只绑定一个普通广告位
 @property (nonatomic,assign)NSInteger share_adunit_unique_bind;
 
+// 智能策略真实下发字段 intelligent_strategy_adunit_list
+// 元素结构: { adunit_uid: string, priority: int }
+@property (nonatomic,strong)NSArray *intelligent_strategy_adunit_list;
+
+- (BOOL)hasValidSmartStrategy;
+
 @end
