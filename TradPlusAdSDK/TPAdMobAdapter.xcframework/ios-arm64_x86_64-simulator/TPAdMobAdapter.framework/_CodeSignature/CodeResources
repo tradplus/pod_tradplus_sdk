@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		QZx7axaLKfwgSoIXJKBFOCRG9hU=
+		yFBt4KlcRKtvWINE6ZmtiyM2uwM=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Headers/TPAdMobAdapterBaseInfo.h</key>
 		<data>
-		oTbcqeuOqAa4sHAEwE3JslcFssc=
+		6W4ypLn1ucHkAc+5dg766xYc1q8=
 		</data>
 		<key>Headers/TPGoogleAdMobAdapterConfig.h</key>
 		<data>
-		zrnkZ29DtaBB29KAkgq15g9+Ino=
+		gt8lLX/g5cdqsXgoW4j7y2EBpWw=
 		</data>
 		<key>Headers/TradPlusAdMobBannerAdapter.h</key>
 		<data>
@@ -87,7 +87,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fLcYA9+zvUVkVWqC6RlYLjQzrfbnzvY9pZDggZmY7bg=
+			R8/CfgAkXcrcGtAEKtE0w3vy9X+UiVDxxpdK7TPp7Go=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -108,14 +108,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bdUOfieJVo7y/hApqR85p72aEHfe6foSEEJz2kAw9DE=
+			UQMMOPuVHkp1pK69GaTJvc59ylS7u4XmGKu5kPue0hI=
 			</data>
 		</dict>
 		<key>Headers/TPGoogleAdMobAdapterConfig.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CrdlNFr/am/cWFCLNUEuybCL/GLhy4BH6D6pWuxBurg=
+			+dyjTQQpgl9wnh4/+SQYm8TSncWh+zIFTqT65MwZsZI=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdMobBannerAdapter.h</key>

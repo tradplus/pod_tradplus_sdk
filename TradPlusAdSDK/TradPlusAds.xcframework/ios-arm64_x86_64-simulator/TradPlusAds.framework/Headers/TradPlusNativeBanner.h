@@ -63,7 +63,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,readonly)BOOL isAutoRefresh;
 
-//用户设置本地配置
+//用户设置本地配置；未设置 adchoices_position 时默认右下角（TPAdChoicesPositionBottomRightCorner）
 @property (nullable,nonatomic, strong)NSDictionary *localParams;
 @end
 

@@ -149,6 +149,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)BOOL isBidding;
 @property (nonatomic,copy)NSString *biddingValue;
 @property (nonatomic,copy)NSString *biddingValue_cny;
+/// biddingwaterfall 服务端明文价，仅用于动态底价缓存比较（如 Meta ext.value 加密场景）
+@property (nonatomic,copy)NSString *biddingWaterfallPrice;
+@property (nonatomic,copy)NSString *biddingWaterfallPriceCNY;
 @property (nonatomic,strong)TradPlusAdsourceplacementModel *adsourceplacement;
 @property (nonatomic,copy)NSString *topPirce;
 @property (nonatomic,copy)NSString *topPirce_cny;
@@ -181,8 +184,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 //banner相关属性
 @property (nonatomic,weak)UIViewController *bannerRootViewController;
+@property (nonatomic,weak)UIView *bannerContainerView;
 @property (nonatomic,assign)CGSize bannerSize;
 @property (nonatomic,assign)TPBannerContentMode bannerContentMode;
+///原生横幅广告源尺寸 0:老模版 1:320x50 2:320x100 3:300x250 4:728x90
+@property (nonatomic,assign)NSInteger native_ad_size;
+///关闭按钮 1:显示 2:隐藏（默认隐藏）
+@property (nonatomic,assign)NSInteger close_button;
 
 @property (nonatomic,copy)NSString *customClassName;
 //开屏相关属性

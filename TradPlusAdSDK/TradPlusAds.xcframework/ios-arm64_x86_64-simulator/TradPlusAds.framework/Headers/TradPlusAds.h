@@ -63,6 +63,7 @@
 #import <TradPlusAds/TradPlusNativeAdRendering.h>
 #import <TradPlusAds/TradPlusNativeBanner.h>
 #import <TradPlusAds/TradPlusNativeBannerTemplate.h>
+#import <TradPlusAds/TradPlusNativeBannerRectangleTemplate.h>
 #import <TradPlusAds/TradPlusNativeRenderer.h>
 #import <TradPlusAds/TradPlusNativeSplash.h>
 #import <TradPlusAds/TradPlusNativeSplashTemplate.h>

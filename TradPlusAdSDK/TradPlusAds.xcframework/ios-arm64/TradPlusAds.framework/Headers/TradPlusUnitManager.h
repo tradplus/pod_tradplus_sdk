@@ -156,6 +156,7 @@
 //banner相关属性
 @property (nonatomic,weak)UIViewController *bannerRootViewController;
 @property (nonatomic,weak)UIViewController *nativeRootViewController;
+@property (nonatomic,weak)UIView *bannerContainerView;
 @property (nonatomic,assign)CGSize bannerSize;
 @property (nonatomic,assign)TPBannerContentMode bannerContentMode;
 //@property (nonatomic,copy)

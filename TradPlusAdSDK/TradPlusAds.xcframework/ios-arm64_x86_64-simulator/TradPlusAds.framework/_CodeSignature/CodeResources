@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MSConstants.h</key>
 		<data>
-		/3jfH9avy+XgNncGKlXyXt+mOF0=
+		hog6fb461xKN5kn+JlEZKErL1L8=
 		</data>
 		<key>Headers/MSDiskLRUCache.h</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Headers/TradPlusAdConfModel.h</key>
 		<data>
-		+A9rjCnN0O/WI099YVQnOzEdvAk=
+		XxLQY0fPjHNw/U3oc0ehzSuqkhg=
 		</data>
 		<key>Headers/TradPlusAdCustomVideoPaster.h</key>
 		<data>
@@ -274,11 +274,11 @@
 		</data>
 		<key>Headers/TradPlusAdUnitCache.h</key>
 		<data>
-		biwyGT6dTY4AFXxrQSLCgdDZNPI=
+		MefrUqxW9x1ofEVTAqaFBXv9JJ8=
 		</data>
 		<key>Headers/TradPlusAdWaterfallItem.h</key>
 		<data>
-		woXa/2GKEB8w7tFG3657WaiZcCk=
+		BqoLVZ0Hi2Jpgp2T4LYQ7C/s234=
 		</data>
 		<key>Headers/TradPlusAdapterProtocol.h</key>
 		<data>
@@ -286,7 +286,7 @@
 		</data>
 		<key>Headers/TradPlusAds.h</key>
 		<data>
-		0rWlCrdvbPZvtWtIP42raeWdhak=
+		usVt5Jea1CLbzmRkk6abBHjRMiU=
 		</data>
 		<key>Headers/TradPlusAdsourceplacementModel.h</key>
 		<data>
@@ -382,15 +382,19 @@
 		</data>
 		<key>Headers/TradPlusNativeAdRendering.h</key>
 		<data>
-		eaNhFgeBywD1JCeTaZjxLDuF13Q=
+		QIRSDJM8OYcyLtiedeG/d+Xx3T8=
 		</data>
 		<key>Headers/TradPlusNativeBanner.h</key>
 		<data>
-		pVChqSjG2CppZ7YexR8i2VdJ0ow=
+		E0oc3anKpfSryoTN7WJ/azXfAQQ=
+		</data>
+		<key>Headers/TradPlusNativeBannerRectangleTemplate.h</key>
+		<data>
+		d6ep/aloQCI5871YW2DCpIi4cbM=
 		</data>
 		<key>Headers/TradPlusNativeBannerRenderer.h</key>
 		<data>
-		MzA03aKGYmnLkenLg8OYPPHBMIQ=
+		7p27N+mlPEw88mJf96iYFxK6qPM=
 		</data>
 		<key>Headers/TradPlusNativeBannerTemplate.h</key>
 		<data>
@@ -442,7 +446,7 @@
 		</data>
 		<key>Headers/TradPlusUnitManager.h</key>
 		<data>
-		jHnV5cM0O4HzrZVazLSodiy/Lw8=
+		lZ24OVNIxbBvL6vQoh4QJoFm7xY=
 		</data>
 		<key>Headers/TradPlusUseTime.h</key>
 		<data>
@@ -462,7 +466,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GNAnQefs9c8MGpvNtxzJHi5aM3g=
+		aCaZqd5LRWweXQLmVc9L5LR9Yic=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -482,7 +486,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1040Fh4ISYhy2Gc5Z+eRfqRgyVSeoruLlbVV8NGTvxM=
+			AnR4R6DiuTyWmGcyuvCT5r/fJs35Df+QYWrTAb3myIc=
 			</data>
 		</dict>
 		<key>Headers/MSDiskLRUCache.h</key>
@@ -818,7 +822,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MFwHur3TNTdikJEcQyt3fxsiOQCaiikeAh2LdrVr0vE=
+			Nzch32CKCLUc0txXn1fi64ZmJzCE5I6jHjIixvpnydE=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdCustomVideoPaster.h</key>
@@ -944,14 +948,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f0o+C5vWj1O/6wigOyKBjVy45eb31HN0TcVucGHnF7E=
+			mktG/EWVYk3IbFLojIK5eBkO+gfvcIieaiovv7odHQk=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdWaterfallItem.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SzoVO074VchkTG3QjdrE38V9gs88psvF/+NEa/ITeBE=
+			Q+YCl1q4t7Rco0KBrsp1qrDNf+LbR+X5+54+lu2R3yg=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdapterProtocol.h</key>
@@ -965,7 +969,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mo6an5nuuBwvaxqdBgywexX3boUverd5Mwed1LYS060=
+			n876mkIgP8EGjpHlw8EVWn8cJfasY4HHpZbMv2Apa8Q=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdsourceplacementModel.h</key>
@@ -1133,21 +1137,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VE0KxEX8tjNRhDNeW9mIXH0EnCfv7bZlyatN2xzl1UE=
+			m55vI5DiktUo02wK/igrZzTjB2PXiYFa2zB0BIb8LW4=
 			</data>
 		</dict>
 		<key>Headers/TradPlusNativeBanner.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HBaD1LqzDZJ3QQZVbsFeNEyCGSZ/ZeFT7VVKlfa8y8o=
+			3Vp1/24zfCaLuBfKxeHzxu4HdH9IRyus3e7N0r3XV38=
+			</data>
+		</dict>
+		<key>Headers/TradPlusNativeBannerRectangleTemplate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yZf8IB0qV7uPjLsH8zzz3eNEgXdkizZFDG8OYvqvV6E=
 			</data>
 		</dict>
 		<key>Headers/TradPlusNativeBannerRenderer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7L71NK0ODrLbffDBKro/jdCuWpinOOD3mamla+5Ib+c=
+			T/FGvCwByfmdTur6kqqN166Il3nFlJEoEV69/laf884=
 			</data>
 		</dict>
 		<key>Headers/TradPlusNativeBannerTemplate.h</key>
@@ -1238,7 +1249,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MenGEyC7/j0YhPT05vDlqPkGkyegOdIIYcb7Us85Gw0=
+			RlcC4QqTnPJimuszQ3W4FzrRL8soTBuysW081KD6iYo=
 			</data>
 		</dict>
 		<key>Headers/TradPlusUseTime.h</key>

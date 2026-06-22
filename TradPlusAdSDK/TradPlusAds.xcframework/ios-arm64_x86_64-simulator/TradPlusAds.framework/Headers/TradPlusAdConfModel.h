@@ -112,6 +112,9 @@
 // 元素结构: { adunit_uid: string, priority: int }
 @property (nonatomic,strong)NSArray *intelligent_strategy_adunit_list;
 
+/// conf 下发实时汇率，1 USD = exchange_rate CNY
+@property (nonatomic,copy)NSString *exchange_rate;
+
 - (BOOL)hasValidSmartStrategy;
 
 @end

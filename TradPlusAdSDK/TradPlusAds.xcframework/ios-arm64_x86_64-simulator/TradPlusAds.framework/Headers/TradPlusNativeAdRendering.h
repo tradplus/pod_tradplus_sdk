@@ -31,4 +31,7 @@
 //v9.7.0新增 开发者可以在此接口设置可点击view的数组
 - (NSArray *)clickViewArray;
 
+// 原生 Banner 关闭按钮，供 SDK 渲染层提升到最上层避免被三方 mediaView 遮挡
+- (UIButton *)nativeCloseButton;
+
 @end
