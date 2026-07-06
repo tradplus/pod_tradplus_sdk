@@ -18,11 +18,11 @@
 		</data>
 		<key>Headers/TPAdMobAdapterBaseInfo.h</key>
 		<data>
-		6W4ypLn1ucHkAc+5dg766xYc1q8=
+		7fE7iwYOB4OnWnmsS9p4EJLjh8U=
 		</data>
 		<key>Headers/TPGoogleAdMobAdapterConfig.h</key>
 		<data>
-		gt8lLX/g5cdqsXgoW4j7y2EBpWw=
+		gnDHjvjPS3WvB7jisp6dR8GOvz4=
 		</data>
 		<key>Headers/TradPlusAdMobBannerAdapter.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xL+Mno+S6Z5pU5QY6QaeCcNIhnY=
+		SoiOdfDIS06786qpHkbnsWkksKY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -108,14 +108,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UQMMOPuVHkp1pK69GaTJvc59ylS7u4XmGKu5kPue0hI=
+			RLnzIRvDYrfj3biKXlxJWgfla8jCmW9R2w0KhyL3Hb8=
 			</data>
 		</dict>
 		<key>Headers/TPGoogleAdMobAdapterConfig.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+dyjTQQpgl9wnh4/+SQYm8TSncWh+zIFTqT65MwZsZI=
+			laFkvSrOOJMlpi/fHYMGru3aq25EqEBrd4VUvPmC498=
 			</data>
 		</dict>
 		<key>Headers/TradPlusAdMobBannerAdapter.h</key>

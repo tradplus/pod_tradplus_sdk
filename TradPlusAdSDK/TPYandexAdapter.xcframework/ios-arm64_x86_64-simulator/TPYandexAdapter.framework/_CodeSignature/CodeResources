@@ -6,7 +6,7 @@
 	<dict>
 		<key>AppMetricaAdSupport.bundle/Info.plist</key>
 		<data>
-		b0XbN1OujgS8pERwZJITwESyWvY=
+		3T1/IkVtsXkMacK0yRZw3sDLRSw=
 		</data>
 		<key>AppMetricaAdSupport.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>AppMetricaCore.bundle/Info.plist</key>
 		<data>
-		DdeGcUmzPutBN+FkQ79duLclTGY=
+		lvnjJ3fWs3rOo/WHRQPlDJWfP80=
 		</data>
 		<key>AppMetricaCore.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>AppMetricaCoreExtension.bundle/Info.plist</key>
 		<data>
-		/XPVror+91ud/zbvbTyrBaFVfdU=
+		60aF2sBlwZgWAYtDFKuE0KjgKoo=
 		</data>
 		<key>AppMetricaCoreExtension.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>AppMetricaCoreUtils.bundle/Info.plist</key>
 		<data>
-		+smEDDIe9H1Sim7XjY5Lic1veWQ=
+		7/DX9wqJYy6Nd/qObWU5bKRlBWg=
 		</data>
 		<key>AppMetricaCoreUtils.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>AppMetricaEncodingUtils.bundle/Info.plist</key>
 		<data>
-		ch1BvjyN25MsYXl4zc43UGqNHFY=
+		seXVMIY7JCY4dRyFsU8jLDfS7uI=
 		</data>
 		<key>AppMetricaEncodingUtils.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>AppMetricaFMDB.bundle/Info.plist</key>
 		<data>
-		N+rzO++l5fHKtKeBdKmAIzx1htM=
+		+6QAjyam5fuT3FWpTNC8Yki4JPY=
 		</data>
 		<key>AppMetricaFMDB.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>AppMetricaHostState.bundle/Info.plist</key>
 		<data>
-		KcuWZi1EvpmSdiC11H8Hks/BoPA=
+		Uf2tCYA3j7z3r6hTYcpOqdlQoq4=
 		</data>
 		<key>AppMetricaHostState.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>AppMetricaIDSync.bundle/Info.plist</key>
 		<data>
-		Mc+/zBXYpaCVZ1zthzeiaYQgTqg=
+		1K7Mg4OPSBvNKLNoB914xD7sTWQ=
 		</data>
 		<key>AppMetricaIDSync.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>AppMetricaIdentifiers.bundle/Info.plist</key>
 		<data>
-		FSd6Mo8FyBEp0OxOozHXJcEj8+A=
+		WGSCfDwSeCCsP3zEVKE2kneANeY=
 		</data>
 		<key>AppMetricaIdentifiers.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>AppMetricaKeychain.bundle/Info.plist</key>
 		<data>
-		yHwho/ry1sLFcxB1mhW+lwdsh08=
+		15seLCLHxLOqexx5fRgQu0ErDPQ=
 		</data>
 		<key>AppMetricaKeychain.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>AppMetricaLibraryAdapter.bundle/Info.plist</key>
 		<data>
-		/LsOTIgqDrg6sI5bS6SS1bPVdy4=
+		DX6pHSR3DjL+uOn+e7i1/6IUSnc=
 		</data>
 		<key>AppMetricaLibraryAdapter.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>AppMetricaLog.bundle/Info.plist</key>
 		<data>
-		wR7n8vaLacPNA0FHCY0vVANaB2A=
+		ZcLFa3EOwxdpuujt/jmjrtcQ7Vs=
 		</data>
 		<key>AppMetricaLog.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>AppMetricaLogSwift.bundle/Info.plist</key>
 		<data>
-		BuyCs8ZJoyCHAOBBXSf7p7jin18=
+		h+eBj8Wj/O3ahFMccs8uuBwinYg=
 		</data>
 		<key>AppMetricaLogSwift.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>AppMetricaNetwork.bundle/Info.plist</key>
 		<data>
-		Kqmc659bPrXYjwHXplbHO/WJ024=
+		yT1CYzbY834YLyK2jDwVEd+dvwE=
 		</data>
 		<key>AppMetricaNetwork.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>AppMetricaPlatform.bundle/Info.plist</key>
 		<data>
-		JE3I0cQlFa8LWq4t0s+d+SaEBtY=
+		rj7F3eOvCBrTJusYLIoMSg3jluo=
 		</data>
 		<key>AppMetricaPlatform.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>AppMetricaProtobuf.bundle/Info.plist</key>
 		<data>
-		h3UceEnhmPpGEPl17NTwWrJhJVY=
+		r6AAyrodjIHo1kypIC8jZWgceFE=
 		</data>
 		<key>AppMetricaProtobuf.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>AppMetricaProtobufUtils.bundle/Info.plist</key>
 		<data>
-		qsF7lNrHb0kzhP1JvdreMdjtI/s=
+		Erk7J/vnVz/9bD7mP7R59IEsmTw=
 		</data>
 		<key>AppMetricaProtobufUtils.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>AppMetricaStorageUtils.bundle/Info.plist</key>
 		<data>
-		JXmL2YWlExqkQp+CKpLgIoLZRwk=
+		L+N3FFtad/k/s92APa1kUnZ9fos=
 		</data>
 		<key>AppMetricaStorageUtils.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>AppMetricaSynchronization.bundle/Info.plist</key>
 		<data>
-		xZ2gNbghd4+snVysugUvJ6loO4I=
+		RlcEchaw6MANHWAsuOsNheegM+o=
 		</data>
 		<key>AppMetricaSynchronization.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Headers/TPYandexAdapterBaseInfo.h</key>
 		<data>
-		rMmPKKeKnzLpdVo3OvRZlEBH9Lo=
+		2uUPscc9nRtNSk0Ls48GvwGWTX8=
 		</data>
 		<key>Headers/TradPlusYandexBannerAdapter.h</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DeItMvZydEkqQDtkNrX+DWHfLuQ=
+		VFE6v1P+xViDHbqow5ZfnsSamTw=
 		</data>
 		<key>MobileAdsBundle.bundle/Assets.car</key>
 		<data>
@@ -252,17 +252,9 @@
 		<data>
 		VdOMIZzbp0pGoNqLeDaaxh6fd0w=
 		</data>
-		<key>VGSLFundamentalsPrivacyInfo.bundle/Info.plist</key>
-		<data>
-		pRucA/MxxqXfyFLEpFwOLYTsHvI=
-		</data>
-		<key>VGSLFundamentalsPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		kCFG5nxgSzZCQwbqohEvE8755ck=
-		</data>
 		<key>YandexMobileAds_PrivacyInfo.bundle/Info.plist</key>
 		<data>
-		PDoQSEBoPElyq2IbPW7TBCtKC08=
+		paQZNfzFZCQSa4HY1jYr0QR+qxw=
 		</data>
 		<key>YandexMobileAds_PrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -275,7 +267,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dYjpsz2ycvxKJS8dqkLnXiTrLaesKujt7kEHL3Y50/s=
+			BmBnq0A2HZHUe1SLw5qdQhD98HOO6Y8hDzY0LTeiZak=
 			</data>
 		</dict>
 		<key>AppMetricaAdSupport.bundle/PrivacyInfo.xcprivacy</key>
@@ -289,7 +281,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IhL3H7j64kEC+80pk+jZ5fV9wU8ECR18tjVwCX8F9Ag=
+			/ZkGG06Cco4L7na0z/FBOBWMztMB+MQOLZBCQzWQ0oY=
 			</data>
 		</dict>
 		<key>AppMetricaCore.bundle/PrivacyInfo.xcprivacy</key>
@@ -303,7 +295,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r+BPRaFjDcapfR2yNxdkzAh7zJ5m92zO4C5S2BXC6CE=
+			o4N2okzena4y8IiQhRY7bQVxIzfCu6HbYwRtJFwCGYs=
 			</data>
 		</dict>
 		<key>AppMetricaCoreExtension.bundle/PrivacyInfo.xcprivacy</key>
@@ -317,7 +309,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vi2rJcx7fdPXW0eO+wjev7FMSOrkkBIVqI5cOGMjCVs=
+			2ru/ZtSOYNnhriSyKfeXzl0Vz75Tj+Cn0ut19hZG2zM=
 			</data>
 		</dict>
 		<key>AppMetricaCoreUtils.bundle/PrivacyInfo.xcprivacy</key>
@@ -331,7 +323,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hMKrnEEiH0OWSMe2jP+PJ1Y16byeTmhXhAx8VyUXLUc=
+			buqciM+WV3VMW1KCjHhXr6MFwbr/kgJ4K3i5SRp2zE0=
 			</data>
 		</dict>
 		<key>AppMetricaEncodingUtils.bundle/PrivacyInfo.xcprivacy</key>
@@ -345,7 +337,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tn0XwXGmo4BT/0AwU5ixYugggc6IazCHhVk6fd+WyxY=
+			3sMcOWTt/dfw+J49oORdqeTZV5p5K4QSPclcc8x1bIk=
 			</data>
 		</dict>
 		<key>AppMetricaFMDB.bundle/PrivacyInfo.xcprivacy</key>
@@ -359,7 +351,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kaIb52yimIEttlXXosK65HaMzVQ6R2uqYSipMezq1ns=
+			rv8cqjLa9Gr4czAi6xpGykgi4O9xPxEDot2qL4cz2gw=
 			</data>
 		</dict>
 		<key>AppMetricaHostState.bundle/PrivacyInfo.xcprivacy</key>
@@ -373,7 +365,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i4mbnzfKXp+lBttKB6chyHLJ6nc0CwAZ8BEA6/lEmLo=
+			q8MZEvKKB+l90l5q/yzTQU5YlVWWo5FT40wa95xF09U=
 			</data>
 		</dict>
 		<key>AppMetricaIDSync.bundle/PrivacyInfo.xcprivacy</key>
@@ -387,7 +379,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SEOJQjfBHY8hZnt31KmjI/Wde/LvFJq4TA6FAUSamAw=
+			YmtfmafgVtP5F7X1P5FHSfxr7Xltszjo/MNKyYwDxXA=
 			</data>
 		</dict>
 		<key>AppMetricaIdentifiers.bundle/PrivacyInfo.xcprivacy</key>
@@ -401,7 +393,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y6B5LT9SpDqoERpqOukFQwSASoy3CIqpZ7PgwZPp3rI=
+			8F8aDsx6iwddE7Q5jjPVuyxM7XpuetMAs1pLYiF2iAA=
 			</data>
 		</dict>
 		<key>AppMetricaKeychain.bundle/PrivacyInfo.xcprivacy</key>
@@ -415,7 +407,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tbxD8dhVq8gxrQdFWWTfJCVCzFf7tdQHxnfxPHfG9vA=
+			JSnJOclhW4f95pVBWUzpBD+kIYrWFlDynDXmlfpNllU=
 			</data>
 		</dict>
 		<key>AppMetricaLibraryAdapter.bundle/PrivacyInfo.xcprivacy</key>
@@ -429,7 +421,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vZ8+rQMLBt5IiFKTBJXJ0PAC9RESsgRbvSQTn95+1hU=
+			SM28Y91K6KXcQVrxXuDF1l2KHOt0YKa3/20iWA044f4=
 			</data>
 		</dict>
 		<key>AppMetricaLog.bundle/PrivacyInfo.xcprivacy</key>
@@ -443,7 +435,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4TDo+PIQb88UWvE2W0u5QWEKgkoJ/HTCx4bvwCXS8OA=
+			0Itoxtbk7NqwvLVgvpnQfNvMQxjtMPrjE98vQ5bmSOs=
 			</data>
 		</dict>
 		<key>AppMetricaLogSwift.bundle/PrivacyInfo.xcprivacy</key>
@@ -457,7 +449,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aq1Nzishw0g+zyLQpIufNuJ8hHYzwdh9ULccJIoVdFI=
+			PltYZ0BqEs7FMWzETT28ChU5Gmfydf3tRDoZMu0EL8U=
 			</data>
 		</dict>
 		<key>AppMetricaNetwork.bundle/PrivacyInfo.xcprivacy</key>
@@ -471,7 +463,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jssv+Dm038k/JRoaTq638NtmHLTeyiDQSgtmmsecG4A=
+			nr/P9oepsdCJFMqlk47cMarvSqYpx4dDdz1OeP9nAoY=
 			</data>
 		</dict>
 		<key>AppMetricaPlatform.bundle/PrivacyInfo.xcprivacy</key>
@@ -485,7 +477,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cwddu0oavmbhQhvMiyDFpUPaLoUxCr7FkFt+vi1Nh4I=
+			/KoDRvtN0zodH6kRXHmnGtuirBdeYcHnSxPNlexjP5M=
 			</data>
 		</dict>
 		<key>AppMetricaProtobuf.bundle/PrivacyInfo.xcprivacy</key>
@@ -499,7 +491,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NMIWut1foXbKhB9Ii3daPkAr5cDckC4aw8BN742z7js=
+			ZmWnRmobyyMfL461gIoB5/tbZjFrSmqQPfcRBUHuo2U=
 			</data>
 		</dict>
 		<key>AppMetricaProtobufUtils.bundle/PrivacyInfo.xcprivacy</key>
@@ -513,7 +505,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mZz38B4y17PZTC8pGQYmFgzEGUMgIthDfm0sGp+fupo=
+			+un2imT6apprXR1edktZuJn1ixls6nYUkS62e6nbWrg=
 			</data>
 		</dict>
 		<key>AppMetricaStorageUtils.bundle/PrivacyInfo.xcprivacy</key>
@@ -527,7 +519,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VZY8EORMq+w5ehd4CDJSeVk4Qqa21veq4rPHIf/nafA=
+			aYYq47PCCrD7RGcJHV5XEKgZb2t56gLG/TAfI9yHVCE=
 			</data>
 		</dict>
 		<key>AppMetricaSynchronization.bundle/PrivacyInfo.xcprivacy</key>
@@ -548,7 +540,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EnbKXGWQ9/vHvGgO9njGLijLF5KqOJZbIV1PSfq0gGY=
+			BJk8j+54mbT8GKtAlw73NGlK13Gjctm5r9kbcOxNnpM=
 			</data>
 		</dict>
 		<key>Headers/TradPlusYandexBannerAdapter.h</key>
@@ -671,25 +663,11 @@
 			0377u11sv+vXN+YkL8Ot4rYtuMRRPu5X+YDi/E4u5NA=
 			</data>
 		</dict>
-		<key>VGSLFundamentalsPrivacyInfo.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			chpGJlsNVYmHl++2MwUA8EenercmlWAzAdcZbIOBLjM=
-			</data>
-		</dict>
-		<key>VGSLFundamentalsPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			B18yg9aawG5LSh0VMC+4IL5h868TYfp+0/9ZFADWu4E=
-			</data>
-		</dict>
 		<key>YandexMobileAds_PrivacyInfo.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zn1WxJ1X8irxvG/EikLz/cZwgKzWwJkPuRm+ImOyZZQ=
+			j6sqeywD/YBn2sFwKSkNm1R4QvbtCXDGea8KHNJeJow=
 			</data>
 		</dict>
 		<key>YandexMobileAds_PrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>

@@ -21,6 +21,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (CGFloat)inlineAdaptiveBannerWidthWithWaterfallItem:(TradPlusAdWaterfallItem *)waterfallItem;
 + (CGFloat)inlineAdaptiveBannerMaxHeightWithWaterfallItem:(TradPlusAdWaterfallItem *)waterfallItem;
 
+/// 在用户自定义参数之后追加 tp_channel=tradplus；若已存在 tp_channel 则不覆盖
++ (void)appendTPChannelIfNeeded:(NSMutableDictionary *)customTargeting;
+
 @end
 
 NS_ASSUME_NONNULL_END

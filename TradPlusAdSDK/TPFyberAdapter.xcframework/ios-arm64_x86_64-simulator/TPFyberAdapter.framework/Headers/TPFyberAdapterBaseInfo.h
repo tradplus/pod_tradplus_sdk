@@ -1,3 +1,3 @@
-#define TP_FyberAdapter_Version @"15.9.0"
-#define TP_FyberAdapter_PlatformSDK_Version @"8.4.6"
+#define TP_FyberAdapter_Version @"15.10.0"
+#define TP_FyberAdapter_PlatformSDK_Version @"8.4.7"
 
