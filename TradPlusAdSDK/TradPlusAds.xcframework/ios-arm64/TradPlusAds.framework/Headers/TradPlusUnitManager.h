@@ -28,6 +28,9 @@
 @property (nonatomic,assign)CGFloat loadMaxWaitTime;
 
 - (instancetype)initWithPlacementID:(NSString *)placementID;
+- (void)dispatchOnStateQueue:(dispatch_block_t)block;
+/// 在 stateQueue 上同步执行（已在队列上则直接执行）。用于串行化回调 block 的注册/替换。
+- (void)performSyncOnStateQueue:(dispatch_block_t)block;
 - (void)loadAd;
 - (void)loadAdWithType:(TPLoadType)loadType;
 - (BOOL)checkReady;

@@ -1,3 +1,3 @@
-#define TP_FacebookAdapter_Version @"15.11.0"
+#define TP_FacebookAdapter_Version @"15.11.1"
 #define TP_FacebookAdapter_PlatformSDK_Version @"6.21.1"
 
