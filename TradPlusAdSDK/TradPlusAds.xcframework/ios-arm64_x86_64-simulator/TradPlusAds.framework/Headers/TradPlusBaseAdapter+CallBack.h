@@ -18,6 +18,8 @@
 
 @property (nonatomic,copy)void (^didCloseOtherControllerAct)(TradPlusAdWaterfallItem *waterfallItem);
 
+@property (nonatomic,copy)void (^bannerSizeDidChangeAct)(TradPlusAdWaterfallItem *waterfallItem);
+
 @property (nonatomic,copy)void (^rewardedAct)(TradPlusAdWaterfallItem *waterfallItem , NSDictionary *info, BOOL playAgain);
 
 ///加载扩展接口 info中包括返回的数据 事件及其他信息等 例：@{@"event":@"loadx"}
