@@ -10,7 +10,6 @@
 #import <UIKit/UIKit.h>
 #import <TradPlusAds/TradPlusAds.h>
 #import <TradPlusAds/TradPlusAdSplashObject.h>
-#import <TradPlusAds/TPContentSignals.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -103,11 +102,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)showWithWindow:(UIWindow *)window renderer:(TradPlusNativeRenderer *)renderer sceneId:(nullable NSString *)sceneId;
 - (void)showWithWindow:(UIWindow *)window splashObject:(TradPlusAdSplashObject *)splashObject;
 - (void)showWithWindow:(UIWindow *)window splashObject:(TradPlusAdSplashObject *)splashObject sceneId:(nullable NSString *)sceneId;
-
-/// 设置当前广告位 TTD Content Signals，须在 loadAd 之前调用
-- (void)setContentSignals:(nullable TPContentSignals *)signals;
-/// 清除当前广告位 Content Signals（回退使用全局配置）
-- (void)clearContentSignals;
 
 @end
 

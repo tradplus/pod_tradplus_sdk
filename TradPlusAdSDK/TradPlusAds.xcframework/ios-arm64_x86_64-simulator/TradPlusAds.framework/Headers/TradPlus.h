@@ -12,7 +12,6 @@
 #import <TradPlusAds/TradPlusUID2Info.h>
 #import <TradPlusAds/TPPlatformLimit.h>
 #import <TradPlusAds/TradPlusFilter.h>
-#import <TradPlusAds/TPContentSignals.h>
 
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, AdMobAdChoicesPosition) {
@@ -63,16 +62,6 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
 /// @param localParams  设置为nil时则会对已设置的数据进行移除操作
 /// @param placementId 广告位ID
 + (void)setLocalParams:(nullable NSDictionary *)localParams placementId:(NSString *)placementId;
-
-/// 设置全局 TTD Content Signals，须在 loadAd 之前调用
-+ (void)setGlobalContentSignals:(nullable TPContentSignals *)signals;
-
-/// 清除全局 TTD Content Signals
-+ (void)clearGlobalContentSignals;
-
-/// 设置全局 content URL（对齐 OpenRTB app.content.url），对所有广告位生效；须在 loadAd 之前调用
-/// @param contentURL 传 nil 或空字符串时清除全局值
-+ (void)setGlobalContentURL:(nullable NSString *)contentURL;
 
 /// 设置广告位级别流量分组信息
 /// @param customDictionary 流量分组信息 设置为nil时则会对已设置流量分组数据进行移除操作

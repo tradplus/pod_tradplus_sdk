@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (TradPlusUnitManager *)getExsitUnitManagerWithPlacementID:(NSString *)placementID;
 - (void)setCustomDictionary:(nullable NSDictionary *)customDictionary  placementId:(NSString *)placementId;
 - (void)setLocalParams:(nullable NSDictionary *)localParams placementId:(NSString *)placementId;
+- (nullable NSDictionary *)localParamsForPlacementId:(NSString *)placementId;
+- (nullable NSDictionary *)customDictionaryForPlacementId:(NSString *)placementId;
 - (void)startCheckExpire;
 - (void)stopCheckExpire;
 - (void)checkExpiredAd;
