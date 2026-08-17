@@ -11,6 +11,7 @@
 #import <TradPlusAds/TradPlusNativeRenderer.h>
 #import <TradPlusAds/MsCommon.h>
 #import <TradPlusAds/TradPlusAdNativeObject.h>
+#import <TradPlusAds/TPContentSignals.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -95,6 +96,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 //用户设置本地配置
 @property (nullable,nonatomic, strong)NSDictionary *localParams;
+
+/// 设置当前广告位 TTD Content Signals，须在 loadAd 之前调用
+- (void)setContentSignals:(nullable TPContentSignals *)signals;
+/// 清除当前广告位 Content Signals（回退使用全局配置）
+- (void)clearContentSignals;
 @end
 
 @protocol TradPlusADNativeDelegate <NSObject>

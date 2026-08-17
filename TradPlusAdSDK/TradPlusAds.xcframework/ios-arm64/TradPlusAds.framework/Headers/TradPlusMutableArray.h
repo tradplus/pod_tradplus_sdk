@@ -14,8 +14,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)addObject:(id)anObject;
 - (void)removeObject:(id)anObject;
-- (NSArray *)snapshotArray;
-- (NSUInteger)count;
 
 @property (nonatomic,strong)NSMutableArray *array;
 @end

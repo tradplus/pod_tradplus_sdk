@@ -107,6 +107,8 @@
 #import <TradPlusAds/TradPlusSharedPool.h>
 #import <TradPlusAds/TradPlusCompareItem.h>
 #import <TradPlusAds/TPPlatformLimit.h>
+#import <TradPlusAds/TPContentRatingHints.h>
+#import <TradPlusAds/TPContentSignals.h>
 #import <TradPlusAds/TPVungleModelManager.h>
 #import <TradPlusAds/TPVungleModel.h>
 #import <TradPlusAds/TPOverlayManager.h>
