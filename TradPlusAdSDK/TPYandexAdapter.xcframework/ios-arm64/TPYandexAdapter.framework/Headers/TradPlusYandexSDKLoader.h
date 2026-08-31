@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (YMAAdRequest *)adRequestWithAdUnitID:(NSString *)adUnitID
                             biddingData:(nullable NSString *)biddingData
                              parameters:(nullable NSDictionary<NSString *, NSString *> *)parameters;
+/// Yandex test ads do not call didTrackImpression; mirror MAX and only fall back to DidShow in test mode.
++ (BOOL)isTestMode;
 - (void)initWithDelegate:(nullable id <TPSDKLoaderDelegate>)delegate;
 
 @property (nonatomic,assign)BOOL didInit;

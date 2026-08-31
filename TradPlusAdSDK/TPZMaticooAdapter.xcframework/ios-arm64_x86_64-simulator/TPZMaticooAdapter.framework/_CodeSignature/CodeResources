@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPZMaticooAdapterBaseInfo.h</key>
 		<data>
-		rVTE5OPG0KNN1Eeng7AM+geT9+8=
+		uFbC7GcYUafyY8RonVABsT/gdNQ=
 		</data>
 		<key>Headers/TradPlusZMaticooBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/TradPlusZMaticooSDKLoader.h</key>
 		<data>
-		WprYSyTd4sf6tmxt/241uuSx+/k=
+		KXDX7SJQHZNz47/pa3FfqgOPkqM=
 		</data>
 		<key>Headers/TradPlusZMaticooSplashAdapter.h</key>
 		<data>
@@ -38,11 +38,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EqESuwEaa/K+G8mShdMkJ8/Gi2I=
+		fF+RZxjy6R57SK4r9sS5f2T+JTc=
 		</data>
 		<key>MaticooSDK.bundle/mraid_2.js</key>
 		<data>
 		c9gFv3Rl1PMF+ey+NaLZzH3/ayM=
+		</data>
+		<key>MaticooSDK.bundle/omsdk-v1.js</key>
+		<data>
+		e1FXpWB7HOhEv1uSiqPuk8J56AA=
 		</data>
 		<key>MaticooSDK.bundle/zmaticoo_about1.png</key>
 		<data>
@@ -62,7 +66,7 @@
 		</data>
 		<key>MaticooSDK.bundle/zmaticoo_ad_icon.png</key>
 		<data>
-		vcugFyGVw4yzW/9AbNG6AzyiAkA=
+		y1ifdw9MN8Ionc7o0UlapuTaa8w=
 		</data>
 		<key>MaticooSDK.bundle/zmaticoo_ad_icon2.png</key>
 		<data>
@@ -74,7 +78,7 @@
 		</data>
 		<key>MaticooSDK.bundle/zmaticoo_b_404.png</key>
 		<data>
-		lf7qYS8xHFu3uwBysplbb8tF8lA=
+		Utcq4baoVpAAZC4Bi7UyXQifIgY=
 		</data>
 		<key>MaticooSDK.bundle/zmaticoo_b_close.png</key>
 		<data>
@@ -91,6 +95,10 @@
 		<key>MaticooSDK.bundle/zmaticoo_banner_zm_right_top_logo_small.png</key>
 		<data>
 		V8JJK+7QgPkw4Sc0Tqk4oKqaBJE=
+		</data>
+		<key>MaticooSDK.bundle/zmaticoo_browser_close.png</key>
+		<data>
+		qkiGhmZtRVYT1nOZzsfpRaeBIqY=
 		</data>
 		<key>MaticooSDK.bundle/zmaticoo_browser_left.png</key>
 		<data>
@@ -170,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8cCduGxnK/+yydDPB6/k+R/iuH//dT2G4XI/owAN524=
+			LC+ikfHHw1J/9ba7xJeHEYJUAcr6Uj901c6MCxFdErs=
 			</data>
 		</dict>
 		<key>Headers/TradPlusZMaticooBannerAdapter.h</key>
@@ -205,7 +213,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sgRjjNRklOM/OzRy8YyO7bi4hvJOPEShlDL8zRg+Cqo=
+			ObkEfFR+q5cAuZP6xhYMU/4O5vMg+SZZcUVOaA/sJ/o=
 			</data>
 		</dict>
 		<key>Headers/TradPlusZMaticooSplashAdapter.h</key>
@@ -220,6 +228,13 @@
 			<key>hash2</key>
 			<data>
 			hF2YIzX5IPvnx281P794VTs8FdImcm/YajsPBVzVZ4E=
+			</data>
+		</dict>
+		<key>MaticooSDK.bundle/omsdk-v1.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FkjRdL8S1xKs+cUyJgLMzarl1n62SgpnMNGrUSiXDLo=
 			</data>
 		</dict>
 		<key>MaticooSDK.bundle/zmaticoo_about1.png</key>
@@ -254,7 +269,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ryU7KVfwj0QGp/zrZcNriEsk7Yv+gETGt9s1Hgc9Nns=
+			WxxjbARDMCb+t+gbkMusr94lUlOJc98/yJ0dHTYXvNY=
 			</data>
 		</dict>
 		<key>MaticooSDK.bundle/zmaticoo_ad_icon2.png</key>
@@ -275,7 +290,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uaoJS3XMZFVxOAmCwWNlAdqoHVWRneUChezsZGjCXhs=
+			OSEoQbXsCUdjawIJWxAMPgcEN1bSMGfvmZwHmUMH5lA=
 			</data>
 		</dict>
 		<key>MaticooSDK.bundle/zmaticoo_b_close.png</key>
@@ -304,6 +319,13 @@
 			<key>hash2</key>
 			<data>
 			bj8P73KoKFB3Kiwr6uBxslgJA8fiHpAdORH0NAsDQRg=
+			</data>
+		</dict>
+		<key>MaticooSDK.bundle/zmaticoo_browser_close.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XrSbvTHObcVQtjaC8Lw/nt/zU3aajOLClC+o9AubRCc=
 			</data>
 		</dict>
 		<key>MaticooSDK.bundle/zmaticoo_browser_left.png</key>

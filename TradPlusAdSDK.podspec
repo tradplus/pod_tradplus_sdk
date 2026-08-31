@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusAdSDK"
-  spec.version      = "15.13.0"
+  spec.version      = "15.14.0"
   spec.summary      = "TradPlusAd SDK"
   spec.description  = <<-DESC
             "A short description of TradPlusAd SDK for iOS.
@@ -183,7 +183,7 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'TPGoogleIMAAdapter' do |ss|
-     ss.ios.deployment_target = '12.0'
+     ss.ios.deployment_target = '15.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPGoogleIMAAdapter.xcframework'
   end
 
