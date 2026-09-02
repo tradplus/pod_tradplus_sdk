@@ -133,7 +133,7 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'FyberAdapter' do |ss|
-     ss.ios.deployment_target = '12.0'
+     ss.ios.deployment_target = '15.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPFyberAdapter.xcframework'
   end
 
