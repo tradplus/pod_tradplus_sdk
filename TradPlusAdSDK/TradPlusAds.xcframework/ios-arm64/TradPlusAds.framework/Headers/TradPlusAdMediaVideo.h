@@ -50,6 +50,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,weak) id <TradPlusADMediaVideoDelegate> delegate;
 
+/// ⚠️【高危操作】取出一个已缓存广告。调用后该广告立即从缓存移除，`isAdReady` 变为 NO。
+/// 取出后必须持有该 Object 完成展示；取出后未展示，该次填充将被浪费。
+/// 无广告时返回 nil。
 - (nullable TradPlusMediaVideoAdObject *)getReadyMediaVideoObject;
 
 //用户设置本地配置

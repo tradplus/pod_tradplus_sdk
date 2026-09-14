@@ -52,7 +52,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param seconds 几秒后消失（需大于0）
 - (void)closeAdAfter:(NSInteger)seconds;
 
-///获取一个已缓存广告,获取后此广告会从缓存中移除，无广告时返回nil
+/// ⚠️【高危操作】取出一个已缓存广告。调用后该广告立即从缓存移除，`isAdReady` 变为 NO。
+/// 取出后必须用 `showWithInterstitialObject:sceneId:` 展示；不要再调用 `showAdWithSceneId:`，否则会因缓存已空而展示失败。
+/// 取出后未展示，该次填充将被浪费。日常展示请直接使用 `showAdWithSceneId:`。
+/// 无广告时返回 nil。
 - (nullable TradPlusAdInterstitialObject *)getReadyInterstitialObject;
 
 /// 进入广告场景

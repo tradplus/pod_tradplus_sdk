@@ -1,2 +1,2 @@
-#define TP_StartAppAdapter_Version @"15.14.0"
+#define TP_StartAppAdapter_Version @"15.15.0"
 #define TP_StartAppAdapter_PlatformSDK_Version @"4.13.1"

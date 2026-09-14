@@ -32,6 +32,7 @@ typedef NS_ENUM(NSInteger, TPPAGPAConsentType) {
 @interface TradPlus : NSObject
 + (instancetype)sharedInstance;
 
+/// 本地 bootstrap 完成后回调；error 为 nil 表示可以 load，不等于 Open 网络成功。
 + (void)initSDK:(NSString *)appId completionBlock:(void (^)(NSError* __nullable error))completionBlock;
 + (NSString *)getVersion;
 + (void)setLogLevel:(TPLogLevel)level;
