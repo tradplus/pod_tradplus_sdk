@@ -6,7 +6,7 @@
 	<dict>
 		<key>Fyber_Marketplace_SDK.bundle/Info.plist</key>
 		<data>
-		rMhlHvUzFi0zFWIDAuT//m1xerM=
+		/b6IIdGRLcho/uBTuy3MwImRi8U=
 		</data>
 		<key>Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPFyberAdapterBaseInfo.h</key>
 		<data>
-		XZz1ehpl5Nl6LYneWA7mQ8pKJtc=
+		/sSZAHjLdmXLGi1Ua0mYnaSI7NM=
 		</data>
 		<key>Headers/TradPlusFyberBannerAdapter.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UYPrFfjK+asfe/csI4V9T7jayNU=
+		vgeDmkOkC8U7Gtc0p8zcbohssys=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G9l2we1UtYFZaLrT3xhBzlRM+4eCFEQItRZ8uTeBBGg=
+			xSR8UezZuEpmEFAETkaNlGpAony5kRIIQjq9h9A5ntc=
 			</data>
 		</dict>
 		<key>Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -72,7 +72,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mfIV+ZXO6Y+Cs+xOEgZmflc0wT/zmdgE+xqpHI6lnGw=
+			iYrqwG02I+YdGA7lU0wsSK7fOkYdySPji0ySwMAdrX0=
 			</data>
 		</dict>
 		<key>Headers/TradPlusFyberBannerAdapter.h</key>

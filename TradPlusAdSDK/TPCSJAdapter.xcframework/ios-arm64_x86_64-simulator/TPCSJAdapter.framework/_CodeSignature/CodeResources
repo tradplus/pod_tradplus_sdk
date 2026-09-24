@@ -367,7 +367,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		PL33JdxckGVVKeqmIJVEYBYyHPU=
+		pPV/dNn0vr3ejRBX3KEDt27tb5g=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -393,7 +393,7 @@
 		</data>
 		<key>Headers/TPCSJAdapterBaseInfo.h</key>
 		<data>
-		swjf+Fm1yt0bmHfoWz46XaLK38o=
+		hfoh05GRnDtS0k+M8nik4IlHhVo=
 		</data>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
 		<data>
@@ -425,7 +425,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BcWv5CJv4y4eJqQK9jeCNGsYfOo=
+		njdDxoCtRjQ76aLnv68cGEGP4gY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1063,7 +1063,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BikgiQ6+jdMK7m/rMzTjhquRVhHWYxhS+Qqw/+b+mUc=
+			H2jYrWheNh1wgLi9yNMHWwHhfraBCLpgeeH1Ze4ExVY=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1095,7 +1095,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jaNFC22ZnxYKKilBpjcNclCTMFrwO+rniwMZE+m8v3w=
+			cbn4On2r7a6yJl4iPonlv474FjWenoRZt3Sn+xrpK/w=
 			</data>
 		</dict>
 		<key>Headers/TradPlusCSJBannerAdapter.h</key>
