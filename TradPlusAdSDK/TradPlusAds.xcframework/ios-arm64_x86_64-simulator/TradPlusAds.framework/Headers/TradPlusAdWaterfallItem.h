@@ -55,6 +55,8 @@ NS_ASSUME_NONNULL_BEGIN
 ///非零情况下以为有尺寸
 @property (nonatomic,assign)NSInteger ad_size;
 @property (nonatomic,strong)NSDictionary *ad_size_info;
+/// 本次 Banner 请求标准化后的通用候选尺寸。
+@property (nonatomic,copy)NSArray<NSDictionary *> *bannerValidAdSizes;
 ///原生广告位中横幅类型( 4:MREC 13:Meta原生拼横幅 1:否)
 @property (nonatomic,assign)NSInteger banner_mrec;
 ///视频静音 1:是 2:否

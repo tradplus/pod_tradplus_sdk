@@ -6,7 +6,7 @@
 	<dict>
 		<key>BigoADS.bundle/Info.plist</key>
 		<data>
-		/vJ2B95uDjOeCan3QxIMVlfaHBo=
+		5YWjXyD35D+K1yJCRMFHYLhG0tQ=
 		</data>
 		<key>BigoADS.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -558,7 +558,7 @@
 		</data>
 		<key>Headers/TPBigoAdapterBaseInfo.h</key>
 		<data>
-		eWI6gRK48PKmXv1ebBG0knhcDAw=
+		0qS8B3KHWw6pgvCNDSirwPhC7UI=
 		</data>
 		<key>Headers/TradPlusBigoBannerAdapter.h</key>
 		<data>
@@ -586,7 +586,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tQ3MKKylYCKO2lKPfuHUBnIM/p4=
+		AuDNy5Szu+wnoOKCfeu2WnZ1FsA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -599,7 +599,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JkgJN1NoWJ4MGf6pwrJAF0JogDbN2OE66r2/bHteolQ=
+			pWNSfyhTv/VTfENZkmWCECSSfiQrdnf/GwVfZz79xmA=
 			</data>
 		</dict>
 		<key>BigoADS.bundle/PrivacyInfo.xcprivacy</key>
@@ -1376,7 +1376,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t7aXtL9EcpMN5EAkScjjjH7m3stGjjDKZevtJCc7HTg=
+			BLS5Pi4rmH36O/CnVv/xg2BZsYEkOlQo8CTXAf/G/AY=
 			</data>
 		</dict>
 		<key>Headers/TradPlusBigoBannerAdapter.h</key>

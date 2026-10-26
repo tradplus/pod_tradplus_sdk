@@ -27,6 +27,9 @@
 @property (nonatomic,copy)NSString *adm;
 @property (nonatomic,strong)NSDictionary *payload;
 @property (nonatomic,strong)NSDictionary *ext;
+/// bidding 响应中与 payload 同级的 Banner 尺寸 w/h。
+@property (nonatomic,assign)NSInteger banner_w;
+@property (nonatomic,assign)NSInteger banner_h;
 @property (nonatomic,strong)NSDictionary *originalDictionary;
 
 @property (nonatomic,assign)CGFloat sep;

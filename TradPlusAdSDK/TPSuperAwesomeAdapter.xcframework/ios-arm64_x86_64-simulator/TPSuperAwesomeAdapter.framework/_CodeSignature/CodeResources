@@ -4,13 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Alamofire.bundle/Info.plist</key>
+		<data>
+		r7p0uyb/CL+Bdy9jXt6Cp6mppXI=
+		</data>
+		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ucg9pita0v8d353x3NuGfxweQYU=
+		</data>
 		<key>Headers/TPSuperAwesomeAdapter.h</key>
 		<data>
 		H/hRJqpLYKKLErrXyzc8NJSOqRQ=
 		</data>
 		<key>Headers/TPSuperAwesomeAdapterBaseInfo.h</key>
 		<data>
-		tnYzYflOgvAA7SF3JbrhhP4K0Tk=
+		BTs3yTogDjwkffn/KFI7uOueBVI=
 		</data>
 		<key>Headers/TradPlusSuperAwesomeRewardedAdapter.h</key>
 		<data>
@@ -22,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tgirTiVG8L1dUnsLZAzWQ8zA6eY=
+		/dlI6vHecEDUtdy2TYYUTd3X2V4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,6 +39,20 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Alamofire.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bbCY6T4/8umJv8sTGaOGDicE30xVzYjALKU+HLJifak=
+			</data>
+		</dict>
+		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
+			</data>
+		</dict>
 		<key>Headers/TPSuperAwesomeAdapter.h</key>
 		<dict>
 			<key>hash2</key>
@@ -42,7 +64,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U5uSXwK9GOvcj2GU1LKReDcnmbakgL1H68v0U7xe1C0=
+			wNjmvi7Q3/sw09GusZDYT3CGzKkB/wCmdDHAnSHUy8Q=
 			</data>
 		</dict>
 		<key>Headers/TradPlusSuperAwesomeRewardedAdapter.h</key>

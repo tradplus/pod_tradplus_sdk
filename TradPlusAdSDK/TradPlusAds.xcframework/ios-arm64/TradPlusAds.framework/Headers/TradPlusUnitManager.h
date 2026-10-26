@@ -163,6 +163,8 @@
 @property (nonatomic,weak)UIViewController *nativeRootViewController;
 @property (nonatomic,weak)UIView *bannerContainerView;
 @property (nonatomic,assign)CGSize bannerSize;
+/// 标准化后的 Banner 通用候选尺寸，元素为 width/height 字典。
+@property (nonatomic,copy)NSArray<NSDictionary *> *bannerValidAdSizes;
 @property (nonatomic,assign)TPBannerContentMode bannerContentMode;
 //@property (nonatomic,copy)
 

@@ -10,6 +10,7 @@
 #import <TradPlusAds/MsCommon.h>
 #import <TradPlusAds/TradPlusNativeRenderer.h>
 #import <TradPlusAds/TPContentSignals.h>
+#import <TradPlusAds/TPBannerAdSize.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -43,6 +44,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///设置banner尺寸 ，需在load前设置（百度 Pangle）
 - (void)setBannerSize:(CGSize)size;
+
+/// 当前 Banner 请求可接受的候选尺寸，最多支持 10 个。须在 loadAd 前设置。
+/// GAM 的 gam_valid_ad_sizes_by_adunitids / gam_valid_ad_sizes 优先级更高。
+@property (nullable, nonatomic, copy) NSArray<TPBannerAdSize *> *validAdSizes;
 
 ///返回下一个Ready的AD信息 无广告时返回nil
 - (nullable NSDictionary *)getReadyAdInfo;
@@ -144,7 +149,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tpBannerAdClose:(NSDictionary *)adInfo;
 
 ///Banner 广告展示尺寸变化回调，适用于 SDK 检测到 Banner 尺寸变化的场景。
-///该回调主要用于 GAM 多尺寸 validAdSizes 返回实际广告尺寸后，开发者根据 size 更新 TradPlusAdBanner 的 frame，避免展示不全或留白。
+///该回调用于多尺寸 Banner 返回实际广告尺寸后，开发者根据 size 更新 TradPlusAdBanner 的 frame，避免展示不全或留白。
 ///如业务没有动态调整 Banner 容器尺寸的需求，可无需实现。
 - (void)tpBannerAdSizeDidChange:(CGSize)size adInfo:(NSDictionary *)adInfo;
 

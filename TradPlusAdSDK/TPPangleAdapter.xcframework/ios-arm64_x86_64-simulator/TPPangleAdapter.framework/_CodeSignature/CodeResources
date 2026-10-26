@@ -6,7 +6,7 @@
 	<dict>
 		<key>AdsGlobalSDK.bundle/Info.plist</key>
 		<data>
-		mQqcTdNS+E1D8MJX2u+LZjp1wcc=
+		R0LffusIKLebk8JKE8d0ksngL5o=
 		</data>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TPPangleAdapterBaseInfo.h</key>
 		<data>
-		P7MRhfyb/FMB4Vp5I2UnZogo/Fc=
+		VBpV4YkfEjauZBDX5Q7QhIoVvxw=
 		</data>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OMnCb93ejBGPNbK1njZv7E2NjAM=
+		5nWd8Cplf+ZnmEAaB7zr5Cl3vvU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -134,11 +134,11 @@
 		</data>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		/K0bBjnjJ1JG/rsru34jtVcNX5U=
+		x6uRrLJucwZC6osG7OCtkPpfa1A=
 		</data>
 		<key>TikTokBusinessSDK.bundle/Info.plist</key>
 		<data>
-		LSIgRoSxJflWzXPQ+P99q5494HY=
+		oMqFx8hVsM1KneKgNo1QYqn5ZQw=
 		</data>
 		<key>TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -151,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tdJFMryWgavP1UZLzKSQHJxjFsJn9KPaRXiCq7PsKdk=
+			NtuKGBElMQwTIRxjcBT/VQ6JLRzYnU8Zkv0iyh0VyfY=
 			</data>
 		</dict>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -172,7 +172,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P1zSx4Yh2LS4wfNrcYvvrB6D7hJhm1ZyaPVhWZpaGyQ=
+			u6X0cFJWZp9peVGINn8INvRfKDQPoLi9OVqqbK8RgLg=
 			</data>
 		</dict>
 		<key>Headers/TradPlusPangleBannerAdapter.h</key>
@@ -368,14 +368,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Je//K0Lcc/UtJoonnP/KonFoceyglJZePhXKjjnGtEU=
+			nK6olvU3nvDy9uB+A8ZeX9Tzf25vCoYonYlWzsuAo5s=
 			</data>
 		</dict>
 		<key>TikTokBusinessSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+UoQfOVdPrMJ/xGL8y8n4izxJU8Ful1eO09Qi8eFSCM=
+			na7xEID72Hsj4ZmWNtODeFO5qqPYzdPBm9KmY3KuLRc=
 			</data>
 		</dict>
 		<key>TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>

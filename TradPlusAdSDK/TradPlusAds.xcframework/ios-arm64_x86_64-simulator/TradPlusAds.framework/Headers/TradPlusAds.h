@@ -27,6 +27,7 @@
 #import <TradPlusAds/TPFullEventControl.h>
 #import <TradPlusAds/TPSimplifyEventControl.h>
 #import <TradPlusAds/TradPlus.h>
+#import <TradPlusAds/TPBannerAdSize.h>
 #import <TradPlusAds/TradPlusAdBanner.h>
 #import <TradPlusAds/TradPlusAdCacheManager.h>
 #import <TradPlusAds/TradPlusAdConfManager.h>
@@ -105,6 +106,7 @@
 #import <TradPlusAds/TradPlusGroupManager.h>
 #import <TradPlusAds/TradPlusSharedPoolManager.h>
 #import <TradPlusAds/TradPlusSharedPool.h>
+#import <TradPlusAds/TradPlusSmartStrategyPool.h>
 #import <TradPlusAds/TradPlusCompareItem.h>
 #import <TradPlusAds/TPPlatformLimit.h>
 #import <TradPlusAds/TPContentRatingHints.h>
@@ -112,4 +114,3 @@
 #import <TradPlusAds/TPVungleModelManager.h>
 #import <TradPlusAds/TPVungleModel.h>
 #import <TradPlusAds/TPOverlayManager.h>
-

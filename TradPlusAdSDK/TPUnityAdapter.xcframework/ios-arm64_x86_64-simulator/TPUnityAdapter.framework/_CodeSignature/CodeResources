@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TPUnityAdapterBaseInfo.h</key>
 		<data>
-		KBp05deGCCQFk7r0IBkaGMWxnvk=
+		noVY80mC0Fe0MlZSKQGbHVZS5Vo=
 		</data>
 		<key>Headers/TradPlusUnityBannerAdapter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L0YtFHbQPkeUhp9+zG3hdMV+Bps=
+		gwhjmDp7qcZ6NidUHn0LHfu6aMo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>UnityAdsResources.bundle/Info.plist</key>
 		<data>
-		mXXsEiit12lnDBO3Q9R3n50qK/g=
+		0XIoI6GALA2K9Q4094m0EiOD1n4=
 		</data>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>UnityCoherenceLib.bundle/Info.plist</key>
 		<data>
-		nAbJojlnSpnLZRtiHBDnlUvqeLE=
+		+Ub49Xrtd8PmQV8mvZ+ZPpm/ekY=
 		</data>
 		<key>UnityCoherenceLib.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -74,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cUKM5Y62f58Kg32HzpqwPuCIDNV/UhfVug+ft0pensU=
+			NU3PE4YIzeYIYfYzWKRBgPK4dp1T+NdIjepnWUWavn0=
 			</data>
 		</dict>
 		<key>Headers/TradPlusUnityBannerAdapter.h</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BQPkeR8pYXNr8Grp3ogB4+ZcvZ0eD6a2s3IzS54ua3g=
+			vcjGW1Di5Qx6PbGbDaSU07ht95aU/IDxX07FRwvPMi0=
 			</data>
 		</dict>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HikM5Ivc3NU9bq8SBI2uCdoEpHkt+T7UHDadycF9zwY=
+			HtxIkaXAO8arsgqD5FAWO50ytsUXdzZ3veeBvDrbG3Q=
 			</data>
 		</dict>
 		<key>UnityCoherenceLib.bundle/PrivacyInfo.xcprivacy</key>

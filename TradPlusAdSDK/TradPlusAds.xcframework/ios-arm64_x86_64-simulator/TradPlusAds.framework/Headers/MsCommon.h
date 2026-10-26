@@ -343,7 +343,8 @@ typedef NS_ENUM(NSInteger, MSThirdNetwork) {
     NETWORK_FUSION = 62,
     NETWORK_MOLOCO = 82,
     NETWORK_MAGNITE = 83,
-    NETWORK_PUBMATIC = 85
+    NETWORK_PUBMATIC = 85,
+    NETWORK_BLUESEA = 87
 };
 //屏蔽的广告类型
 typedef enum : NSUInteger {
