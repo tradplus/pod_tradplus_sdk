@@ -1,2 +1,2 @@
-#define TP_KwaiAdsAdapter_Version @"15.17.0"
+#define TP_KwaiAdsAdapter_Version @"15.18.0"
 #define TP_KwaiAdsAdapter_PlatformSDK_Version @"1.2.0"

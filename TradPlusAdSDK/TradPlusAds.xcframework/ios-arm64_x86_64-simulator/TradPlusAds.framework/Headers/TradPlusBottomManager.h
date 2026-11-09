@@ -15,6 +15,7 @@
 - (void)startLoadWithConfModel:(TradPlusAdConfModel *)confModel;
 - (TradPlusAdWaterfallItem *)getNextWaterfallItem;
 - (void)closeTimer;
+- (BOOL)isInWaitTimeSafely;
 
 //加载过程中加载成功回调（在限制时间后）
 @property (nonatomic, copy) void (^bottomItemLoaded)(TradPlusAdWaterfallItem *bottomItem);

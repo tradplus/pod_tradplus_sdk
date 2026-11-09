@@ -4,121 +4,110 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/TPGDTMobAdapter.h</key>
+		<key>Headers/TPSigmobAdapter.h</key>
 		<data>
-		gPSEoDQMqmh9ObQtwdFU60ypymE=
+		N4qYJYNMZB7BGj0Fg++H2IbqoFE=
 		</data>
-		<key>Headers/TPGDTMobAdapterBaseInfo.h</key>
+		<key>Headers/TPSigmobAdapterBaseInfo.h</key>
 		<data>
-		hIZHvJMRIXp+EYHwoE/UwLKGEZA=
+		V8JASW7LDAmKUFOJ69q1BTiOZ9g=
 		</data>
-		<key>Headers/TradPlusGDTMobAdapter.h</key>
+		<key>Headers/TradPlusSigmobAdapter.h</key>
 		<data>
-		GRG9fI4ICaaJYMsHn9Kw/NL6avA=
+		KJiTkqbRgd6M+g+HAF49fdoWAsY=
 		</data>
-		<key>Headers/TradPlusGDTMobBannerAdapter.h</key>
+		<key>Headers/TradPlusSigmobInterstitialAdapter.h</key>
 		<data>
-		CZ20HBUoSyGx06K4bwdmEbmx304=
+		Hr1PwMdxKE996FHbKdQDUFcOiIc=
 		</data>
-		<key>Headers/TradPlusGDTMobInterstitialAdapter.h</key>
+		<key>Headers/TradPlusSigmobNativeAdapter.h</key>
 		<data>
-		Vn54+cHut3hU74yR7yXqC7Alzac=
+		TUkT28cNPO90LloaBztrBs92ffM=
 		</data>
-		<key>Headers/TradPlusGDTMobNativeAdapter.h</key>
+		<key>Headers/TradPlusSigmobRewardedAdapter.h</key>
 		<data>
-		hV2/v57Hxj+HwTRwGkcg3+X6XUs=
+		tuI4cj+zvs31zVZX6zA07jSBF+s=
 		</data>
-		<key>Headers/TradPlusGDTMobRewardedAdapter.h</key>
+		<key>Headers/TradPlusSigmobSDKLoader.h</key>
 		<data>
-		885dJhziOKmUwWwH8YHf9nxFdfE=
+		IFrqLgjtgKmQz8fASBXtQ0WLLjg=
 		</data>
-		<key>Headers/TradPlusGDTMobSDKLoader.h</key>
+		<key>Headers/TradPlusSigmobSplashAdapter.h</key>
 		<data>
-		6pgJ3BmGp2TdWiQU3n+yDTAHlz4=
-		</data>
-		<key>Headers/TradPlusGDTMobSplashAdapter.h</key>
-		<data>
-		7q2TXAyzRCdP5ksjs5i3AEz5SVE=
+		Mcw0QZAMrZRvi9dy3aAz6FF4E5s=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5ZisplthkBXFW68iYugu4vYzMqw=
+		y49ErJ+x7FZVCkHmb20WjLXOvdo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		bbkw2f98qcPFzCcatz5GPopyrWs=
+		o0Zi91z8mKbPLOyC0mnqRctVQ14=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/TPGDTMobAdapter.h</key>
+		<key>Headers/TPSigmobAdapter.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nSRL7ifg0GvHjZncUonHzXKgfje/daMXb+6ZQJiWvPg=
+			0obldh8KhfGDLctH9N5iZecyhK0sGWDUcwGxTGjnJL4=
 			</data>
 		</dict>
-		<key>Headers/TPGDTMobAdapterBaseInfo.h</key>
+		<key>Headers/TPSigmobAdapterBaseInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2u9jR6fi33K9M2pCrf4oEutWAGkJhWXvnCMhm35LzzQ=
+			qiNls2ugDZZdUe7WLV0UJ65MdhL+AQQBfsO6uxRyZLI=
 			</data>
 		</dict>
-		<key>Headers/TradPlusGDTMobAdapter.h</key>
+		<key>Headers/TradPlusSigmobAdapter.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/J27+2/HqoNl/dilAzE8nHsylhkuHJ47s2FuGuilS/U=
+			wR87ojfwhDW0HOVVvK+D4UcI+EY4CLmcoDvIKNiKrKc=
 			</data>
 		</dict>
-		<key>Headers/TradPlusGDTMobBannerAdapter.h</key>
+		<key>Headers/TradPlusSigmobInterstitialAdapter.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WZf8eQrJ8B47XSDJC8Fro172Vb75Cg5xyvrXvY5mG3s=
+			P39hNsZcnlddyr7xvlnn0vBvz5/24N9tKEBHdoPA6sw=
 			</data>
 		</dict>
-		<key>Headers/TradPlusGDTMobInterstitialAdapter.h</key>
+		<key>Headers/TradPlusSigmobNativeAdapter.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+JpStZoKSz4cpWpkVSq8SMkB0GPTGiRDUvskS1Kzn2o=
+			iufB2bKbq9QhfmPpxmxvouuXO9m1zUQMVPjng/q0RW4=
 			</data>
 		</dict>
-		<key>Headers/TradPlusGDTMobNativeAdapter.h</key>
+		<key>Headers/TradPlusSigmobRewardedAdapter.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yaA4rReic2E9Yrx3v/KMVCNl+GcRGydI3bvwK4U525E=
+			/lV8SkwsfmaNTKwylz8/LPgYPK7V2TrBx87Sn6JnU4E=
 			</data>
 		</dict>
-		<key>Headers/TradPlusGDTMobRewardedAdapter.h</key>
+		<key>Headers/TradPlusSigmobSDKLoader.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			37DyWX048Orb2HLtoNZOphwGNFRHCeM4s8xePVhAb04=
+			uLBwj57Y2q8i3bfuThpsCFShtLTmq2rMbm2ITk3jQpc=
 			</data>
 		</dict>
-		<key>Headers/TradPlusGDTMobSDKLoader.h</key>
+		<key>Headers/TradPlusSigmobSplashAdapter.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CAUsIIJ26ru3mji30FVhWfpc0ii9JpEQPlH4ntcszOc=
-			</data>
-		</dict>
-		<key>Headers/TradPlusGDTMobSplashAdapter.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BycNRlJJweEbX6F2ipYmQy45DZyEjBAyARFC8SBvvDk=
+			k8diP2c3DhYe882iLYqLMRrL6zSldMv92LwBFNl1rqg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BlRaEnK0SupKw0VNYew+a+IGWRSY8N3Z3umu8yKGLLs=
+			wSz3+wm8ms1dTj+TVJN+hxFrJnSp+J/i/INul2Ny/so=
 			</data>
 		</dict>
 	</dict>

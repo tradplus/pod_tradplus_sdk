@@ -150,7 +150,7 @@
 @property (nonatomic,strong)NSDate *startLoadTime;
 @property (nonatomic,readonly)NSString *placementID;
 @property (nonatomic,readonly)TradPlusAdUnitCache *adCache;
-@property (nonatomic,readonly)TradPlusAdConfModel *confModel;
+@property (atomic,readonly)TradPlusAdConfModel *confModel;
 
 //Native 相关属性
 @property (nonatomic,assign)BOOL finishDownload;

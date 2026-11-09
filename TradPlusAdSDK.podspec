@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusAdSDK"
-  spec.version      = "15.17.0"
+  spec.version      = "15.18.0"
   spec.summary      = "TradPlusAd SDK"
   spec.description  = <<-DESC
             "A short description of TradPlusAd SDK for iOS.
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   end
    
   spec.subspec 'UnityAdapter' do |ss|
-     ss.ios.deployment_target = '12.0'
+     ss.ios.deployment_target = '13.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPUnityAdapter.xcframework'
   end
    
@@ -108,7 +108,7 @@ Pod::Spec.new do |spec|
   end   
    
   spec.subspec 'MyTargetAdapter' do |ss|
-     ss.ios.deployment_target = '12.0'
+     ss.ios.deployment_target = '14.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPMyTargetAdapter.xcframework'
   end   
    
@@ -148,7 +148,7 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'OguryAdapter' do |ss|
-     ss.ios.deployment_target = '12.0'
+     ss.ios.deployment_target = '15.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPOguryAdapter.xcframework'
   end
   
@@ -228,7 +228,7 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'MolocoAdapter' do |ss|
-     ss.ios.deployment_target = '12.0'
+     ss.ios.deployment_target = '13.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPMolocoAdapter.xcframework'
   end
 

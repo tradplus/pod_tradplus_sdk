@@ -7,6 +7,13 @@
 @property (nonatomic,copy)void (^waitingPoolLoadFailAct)(TradPlusAdWaterfallItem *waterfallItem);
 @property (nonatomic,copy)void (^configErrorAct)(void);
 
+// 加载回调和状态交接使用同一把锁。
+- (void)tp_setLoadFinish:(void (^)(void))finish failure:(void (^)(NSError *error))failure;
+- (void)tp_clearLoadCallbacks;
+- (BOOL)tp_beginLoadTimeout;
+- (void)tp_endLoadForConfigError;
+- (void)tp_setWaitingFinish:(void (^)(TradPlusAdWaterfallItem *item))finish failure:(void (^)(TradPlusAdWaterfallItem *item))failure;
+
 @property (nonatomic,copy)void (^pasterPlayFinish)(TradPlusAdWaterfallItem *waterfallItem);
 @property (nonatomic,copy)void (^clickAct)(TradPlusAdWaterfallItem *waterfallItem);
 //1300
