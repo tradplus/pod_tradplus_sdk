@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/TPAdAdapter.h</key>
 		<data>
-		0S4o6mv+FEHUx78Ufh3T5Z5X7/Q=
+		1XIGEKG4PhTMNGlXAr7wF2OXXTY=
 		</data>
 		<key>Headers/TPAdAdapterDelegate.h</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>Headers/TPCrossAdapter.h</key>
 		<data>
-		Kx9CBi8yqrxMv0DIlGmflZ8h3i0=
+		+eD8+GatypraZB0+jvCYK4eb4xc=
 		</data>
 		<key>Headers/TPCrossAdapterBaseInfo.h</key>
 		<data>
-		mw7a6Ad2izyIy66nERDZX9NEKhc=
+		2t901EtRM/5rKt4WQHSoNC8MO2U=
 		</data>
 		<key>Headers/TPCrossBannerAdapter.h</key>
 		<data>
@@ -220,6 +220,14 @@
 		<data>
 		M0I0Oy8LidjYzGdr3K5mDeWlW/I=
 		</data>
+		<key>Headers/TradPlusCrossCacheItem.h</key>
+		<data>
+		KEltRlPB2Xx8h8fg86PyU4f8hd8=
+		</data>
+		<key>Headers/TradPlusCrossCacheManager.h</key>
+		<data>
+		Ql0FPTLz4IbIMnpnQOZYSFCHbXA=
+		</data>
 		<key>Headers/UIColor+MSAdditions.h</key>
 		<data>
 		bJOe4tnslu6Ypki9Z9lBeW6eXaA=
@@ -230,7 +238,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MxGbkJcdRsMIY0Spkm+5ad8uHKQ=
+		6ScCDDsoaVAFy6z2RhtXOtVQBgo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -334,7 +342,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HWlY9KQ5NybHsp7CnIFWmpPhk7WN4qDAlLqXf9cKsoQ=
+			62AC2DKGgtGBDWagKKgMNIuFMo3hxKurziuTOigz2Hw=
 			</data>
 		</dict>
 		<key>Headers/TPAdAdapterDelegate.h</key>
@@ -397,14 +405,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6tmOeFka05BpyGh3g8PiPrH/mgw4E++hvgWdlMqtxoo=
+			tHUmaeEkKn9d5JEllYe8atgfsK/MjL48Cy7QMuWi3Ks=
 			</data>
 		</dict>
 		<key>Headers/TPCrossAdapterBaseInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zhugPqt5xCocq9g3ZDebFQjwtry80HrQbEGzlHaHJXU=
+			LhA0y3GInCGM0IzjOTyERXerWs/tpwEUHVl1cf0Vv5Q=
 			</data>
 		</dict>
 		<key>Headers/TPCrossBannerAdapter.h</key>
@@ -615,6 +623,20 @@
 			<key>hash2</key>
 			<data>
 			fXl1mEOwtHc/BgHLjnMfxxRwiJHd/Tpt4Oil3XNrICw=
+			</data>
+		</dict>
+		<key>Headers/TradPlusCrossCacheItem.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7rq2L0mitEwIeBqETh+zxn6d6zP305ROtzIHIuKrSZo=
+			</data>
+		</dict>
+		<key>Headers/TradPlusCrossCacheManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1Yt/dV7pseG69W2tLTX2cTbbf+gCAyYPUN9eUB5pA10=
 			</data>
 		</dict>
 		<key>Headers/UIColor+MSAdditions.h</key>

@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/TPVungleAdapter.h</key>
 		<data>
-		4bpJ1bDs/LtpmjiKI40qTkoqztU=
+		/CTh7nPHP1luT/wy4A3Wte7/zEg=
 		</data>
 		<key>Headers/TPVungleAdapterBaseInfo.h</key>
 		<data>
-		RzZO7G1O+VjisjLaQVD/+le1S5c=
+		AjELUC8eTeMPTq5FRWET//AXp+E=
 		</data>
 		<key>Headers/TradPlusVungleBannerAdapter.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8T0ZIGgH30IlJGNrKM+Bna7MB1o=
+		msBQ4b/tEOdeI+Bq3trzaB0GmzY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,14 +59,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QSUOHybAcKwcqzkHE24p8OLGVGD/S+SW04DTJJzroGE=
+			jKDVMJd2L8M833qh9uOzexVypTcJ3xdx020vJ/jXs6I=
 			</data>
 		</dict>
 		<key>Headers/TPVungleAdapterBaseInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yTXx2qosYss/Q7/s4vuovEDy4j34bU9nurvD4kpLgys=
+			GawDbjlHzsBYHVb7Q0HgQyGp2spUFo1m56qa0eYsDgg=
 			</data>
 		</dict>
 		<key>Headers/TradPlusVungleBannerAdapter.h</key>

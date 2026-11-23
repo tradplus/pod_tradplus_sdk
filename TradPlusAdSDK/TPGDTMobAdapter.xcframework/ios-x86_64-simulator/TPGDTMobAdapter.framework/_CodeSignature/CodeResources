@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/TPGDTMobAdapter.h</key>
 		<data>
-		gPSEoDQMqmh9ObQtwdFU60ypymE=
+		VY85zHd3SNMYEpgrMkSqVANvQyQ=
 		</data>
 		<key>Headers/TPGDTMobAdapterBaseInfo.h</key>
 		<data>
-		whg0o/XTv+DYHDchMKwsgKD08p4=
+		Pjb7jDAgB5nnK7b0+X167iyrt0k=
 		</data>
 		<key>Headers/TradPlusGDTMobAdapter.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+DY8tUG7HtQzkzQLsMOy21n7KAI=
+		3St1yEyev0SdTGkpW+fZFNePlZg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nSRL7ifg0GvHjZncUonHzXKgfje/daMXb+6ZQJiWvPg=
+			6UkthZ+vzUXQBVopUknNTgdFxI+TjM9d6n/0Q6T0soM=
 			</data>
 		</dict>
 		<key>Headers/TPGDTMobAdapterBaseInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w++z/WGJJfwWBV1bYUZPGGkYnWu/k15biqrQDQSxgDA=
+			yagk4ydJ1LJgeJLUF8Ah7zLSVTPRysCEbxd9Dv8EfbU=
 			</data>
 		</dict>
 		<key>Headers/TradPlusGDTMobAdapter.h</key>

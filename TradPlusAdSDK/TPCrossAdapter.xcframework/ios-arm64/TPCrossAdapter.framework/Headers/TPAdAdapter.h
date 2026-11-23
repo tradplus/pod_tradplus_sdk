@@ -1,8 +1,8 @@
 #import <Foundation/Foundation.h>
 #import "TPAdAdapterDelegate.h"
-#import "TPAnalyticsTracker.h"
-#import "TPAdConfiguration.h"
-#import "TPAdTargeting.h"
+@protocol TPAnalyticsTracker;
+@class TPAdConfiguration;
+@class TPAdTargeting;
 
 @protocol TPAdAdapter <NSObject>
 

@@ -23,14 +23,21 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)URLEncodedWithURLString:(NSString *)URLStr;
 - (NSString *)URLEncodedWithURLString:(NSString *)str params:(NSDictionary *)params;
 
+// 统一执行 SDK 网络请求；符合条件时在发送前失败后切换备用域名。
+- (void)performRequest:(NSURLRequest *)request session:(NSURLSession *)session completionHandler:(void (^)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error))completionHandler;
+// domainResult：本轮未切域为 nil，切域后为最后尝试的 URL，全部失败为 "all"。
+- (void)performRequest:(NSURLRequest *)request session:(NSURLSession *)session completionWithDomainResult:(void (^)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error, NSString * _Nullable domainResult))completionHandler;
+
 //GET请求
 - (void)getNetWorkWithURLStr:(NSString *)urlStr completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
 - (void)getNetWorkWithURLStr:(NSString *)urlStr session:(NSURLSession *)session completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
+- (void)getNetWorkWithURLStr:(NSString *)urlStr session:(NSURLSession *)session completionWithDomainResult:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error, NSString * _Nullable domainResult))completionHandler;
 //POST
 - (void)postNetWorkWithURLStr:(NSString *)urlStr timeOut:(NSTimeInterval)timeOut body:(NSData *)body completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
 //加密请求（POST）
 - (void)encryptionWithURLStr:(NSString *)urlStr jsonObject:(id)jsonObject completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
 - (void)encryptionWithURLStr:(NSString *)urlStr jsonObject:(id)jsonObject session:(NSURLSession *)session completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
+- (void)encryptionWithURLStr:(NSString *)urlStr jsonObject:(id)jsonObject session:(NSURLSession *)session completionWithDomainResult:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error, NSString * _Nullable domainResult))completionHandler;
 - (void)encryptionWithURLStr:(NSString *)urlStr jsonData:(NSData *)jsonData session:(NSURLSession *)session completionHandler:(void (^)(NSDictionary * _Nullable callbackDic, NSError * _Nullable error))completionHandler;
 //加密请求（埋点）
 - (void)encryptionEventWithURLStr:(NSString *)urlStr eventStr:(NSString *)eventStr completionHandler:(void (^)(NSError * _Nullable error))completionHandler;

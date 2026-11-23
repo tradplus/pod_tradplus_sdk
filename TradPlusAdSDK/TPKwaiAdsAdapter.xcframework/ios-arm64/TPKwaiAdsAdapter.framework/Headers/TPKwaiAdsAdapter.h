@@ -1,4 +1,4 @@
-#import <TPTanxAdapter/TPKwaiAdsAdapterBaseInfo.h>
-#import <TPTanxAdapter/TradPlusKwaiAdsSDKLoader.h>
-#import <TPTanxAdapter/TradPlusKwaiAdsRewardedAdapter.h>
-#import <TPTanxAdapter/TradPlusKwaiAdsInterstitialAdapter.h>
+#import <TPKwaiAdsAdapter/TPKwaiAdsAdapterBaseInfo.h>
+#import <TPKwaiAdsAdapter/TradPlusKwaiAdsSDKLoader.h>
+#import <TPKwaiAdsAdapter/TradPlusKwaiAdsRewardedAdapter.h>
+#import <TPKwaiAdsAdapter/TradPlusKwaiAdsInterstitialAdapter.h>

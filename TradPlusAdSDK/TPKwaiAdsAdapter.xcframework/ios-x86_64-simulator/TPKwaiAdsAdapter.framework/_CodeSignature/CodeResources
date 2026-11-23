@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/TPKwaiAdsAdapter.h</key>
 		<data>
-		1ecmt9PtsAfYcvsO9CS6STEhrzo=
+		/Nb+G3xItEhr7UcPviGLoN2Pwj0=
 		</data>
 		<key>Headers/TPKwaiAdsAdapterBaseInfo.h</key>
 		<data>
-		yR32sNaYo8CVQjRctRdbmVEckeo=
+		XHD9Z+CosBnrrIigsiJDwVw2WsA=
 		</data>
 		<key>Headers/TradPlusKwaiAdsInterstitialAdapter.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ET7hxUQ+m+zm26JkDIvxgP30BCs=
+		hEE1CPysljmdenxwetGvINu8dqk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,14 +39,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qCOxkr3/lPJ+GErfaOPv6osRgqSA9tin409Bx1lOQU8=
+			vXh885La/HAW94uciEvVSls0w6yC7dHZfL1pT+iuUqM=
 			</data>
 		</dict>
 		<key>Headers/TPKwaiAdsAdapterBaseInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uFdOtZ6637IzZTdjgTi8hdhVdROKrbS6me8PD1011QQ=
+			bd/P2ZjpLYi5Mbcr4c3/PQQNYQ8lZaIeMdRnzAqvkUs=
 			</data>
 		</dict>
 		<key>Headers/TradPlusKwaiAdsInterstitialAdapter.h</key>

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TradPlusAdSDK"
-  spec.version      = "15.18.0"
+  spec.version      = "15.19.0"
   spec.summary      = "TradPlusAd SDK"
   spec.description  = <<-DESC
             "A short description of TradPlusAd SDK for iOS.
@@ -235,6 +235,12 @@ Pod::Spec.new do |spec|
   spec.subspec 'MagniteAdapter' do |ss|
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPMagniteAdapter.xcframework'
+  end
+
+  spec.subspec 'BlueSeaAdapter' do |ss|
+     ss.dependency 'TradPlusAdSDK/TradPlusAds'
+     ss.ios.deployment_target = '15.0'
+     ss.vendored_frameworks = 'TradPlusAdSDK/TPBlueSeaAdapter.xcframework'
   end
   
 end

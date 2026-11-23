@@ -1,7 +1,7 @@
-#import <TPBeiziAdapter/TPBeiziAdapterBaseInfo.h>
-#import <TPBeiziAdapter/TradPlusTaurusXLoader.h>
-#import <TPBeiziAdapter/TradPlusTaurusXRewardedAdapter.h>
-#import <TPBeiziAdapter/TradPlusTaurusXInterstitialAdapter.h>
-#import <TPBeiziAdapter/TradPlusTaurusXBannerAdapter.h>
-#import <TPBeiziAdapter/TradPlusTaurusXNativeAdapter.h>
-#import <TPBeiziAdapter/TradPlusTaurusXSplashAdapter.h>
+#import <TPTaurusXAdapter/TPTaurusXAdapterBaseInfo.h>
+#import <TPTaurusXAdapter/TradPlusTaurusXLoader.h>
+#import <TPTaurusXAdapter/TradPlusTaurusXRewardedAdapter.h>
+#import <TPTaurusXAdapter/TradPlusTaurusXInterstitialAdapter.h>
+#import <TPTaurusXAdapter/TradPlusTaurusXBannerAdapter.h>
+#import <TPTaurusXAdapter/TradPlusTaurusXNativeAdapter.h>
+#import <TPTaurusXAdapter/TradPlusTaurusXSplashAdapter.h>

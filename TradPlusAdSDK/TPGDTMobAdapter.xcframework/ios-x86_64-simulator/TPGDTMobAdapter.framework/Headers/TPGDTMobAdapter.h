@@ -1,4 +1,3 @@
-#import <TPGDTMobAdapter/GDTSplashZoomOutView+TPDraggable.h>
 #import <TPGDTMobAdapter/TradPlusGDTMobAdapter.h>
 #import <TPGDTMobAdapter/TradPlusGDTMobBannerAdapter.h>
 #import <TPGDTMobAdapter/TradPlusGDTMobInterstitialAdapter.h>

@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/TPTaurusXAdapter.h</key>
 		<data>
-		MM161Hd9R78tQwPPfs2XsmHsX2E=
+		uqmV0DWJTRJ1UHMwWuE3AL+TGjA=
 		</data>
 		<key>Headers/TPTaurusXAdapterBaseInfo.h</key>
 		<data>
-		0FOGxVzmZLESrmo7BxyHeCT//AA=
+		SInG9v3Dp8PyNshN+Pxg4UIAEAc=
 		</data>
 		<key>Headers/TradPlusTaurusXBannerAdapter.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CEliRFXwe1JcsiIOK3pBR+oDTyE=
+		ImigSuyYLmFryY/h+7qg07xwh3Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,14 +51,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QaN3aUAycaV4eTL3UBoMleQKFdhLtHsKL/qqvkdb6B0=
+			6u6q/Pu0BzYzM5td9h27xHTAsiXi8jlxh7XE+h/2+Qs=
 			</data>
 		</dict>
 		<key>Headers/TPTaurusXAdapterBaseInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Sr6f8uDlF/vKmIXSNZLtRZylSFfkuJIRQK+ej7J/GI=
+			C7Lj7D7Dnem73F3ImBwOBMM/b7UAiZCrbd7OAIyN1+Q=
 			</data>
 		</dict>
 		<key>Headers/TradPlusTaurusXBannerAdapter.h</key>

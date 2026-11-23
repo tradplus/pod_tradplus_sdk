@@ -9,7 +9,6 @@
 #import <TPCrossAdapter/TPCrossAd.h>
 #import <TPCrossAdapter/TPCrossEvent.h>
 #import <TPCrossAdapter/TPCrossTimer.h>
-#import <TPCrossAdapter/TPDiskLRUCache.h>
 #import <TPCrossAdapter/TPEndCardView.h>
 #import <TPCrossAdapter/TPFullscreenAdAdapter+Image.h>
 #import <TPCrossAdapter/TPFullscreenAdAdapter+Private.h>
@@ -23,7 +22,6 @@
 #import <TPCrossAdapter/TPFullscreenAdViewController+Video.h>
 #import <TPCrossAdapter/TPFullscreenAdViewController.h>
 #import <TPCrossAdapter/TPFullscreenAdViewControllerDelegate.h>
-#import <TPCrossAdapter/TPNativeCache.h>
 #import <TPCrossAdapter/TPProgressOverlayView.h>
 #import <TPCrossAdapter/TPVideoPlayer.h>
 #import <TPCrossAdapter/TPVideoPlayerDelegate.h>
@@ -34,7 +32,6 @@
 #import <TPCrossAdapter/TPCrossSplashAdapter.h>
 #import <TPCrossAdapter/TPCrossInterstitialAdapter.h>
 #import <TPCrossAdapter/TPCrossRewardedVideoAdapter.h>
-#import <TPCrossAdapter/TPADXNetworkSession.h>
 #import <TPCrossAdapter/TradPlusCrossCacheItem.h>
 #import <TPCrossAdapter/TradPlusCrossCacheManager.h>
 #import <TPCrossAdapter/TPCrossNativeAdapter.h>

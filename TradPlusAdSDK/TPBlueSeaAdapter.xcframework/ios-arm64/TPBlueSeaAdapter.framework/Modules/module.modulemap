@@ -1,0 +1,6 @@
+framework module TPBlueSeaAdapter {
+  umbrella header "TPBlueSeaAdapter.h"
+  export *
+
+  module * { export * }
+}

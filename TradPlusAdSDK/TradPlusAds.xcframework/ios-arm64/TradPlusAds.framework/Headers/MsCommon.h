@@ -239,6 +239,7 @@ typedef enum : NSUInteger {
     EV_REQ_APP_OPEN          = 150,
     EV_REQ_OPEN_API          = 200,
     EV_REQ_OPEN_SPARE        = 220,
+    EV_REQ_OPEN_DNS_SPARE    = 221,
     EV_INIT_NETWORK          = 250,
     EV_PRE_LOAD_ADCONF_START = 300,
     EV_PRE_LOAD_ADCONF       = 400,
