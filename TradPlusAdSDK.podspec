@@ -33,7 +33,7 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'AdMobAdapter' do |ss|
-     ss.ios.deployment_target = '12.0'
+     ss.ios.deployment_target = '13.0'
      ss.vendored_frameworks = 'TradPlusAdSDK/TPAdMobAdapter.xcframework'
   end
   
